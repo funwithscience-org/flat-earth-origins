@@ -1,12 +1,22 @@
 # -*- coding: utf-8 -*-
-"""Build the provenance dataset + summary statistics. Run from the repo root."""
+"""Assemble data/flat-earth-origins-provenance.json — the single canonical corpus.
+
+Everything the page renders comes from this file. Tabs are VIEWS over it; no
+tab owns a copy of anything. Cross-references are by ID only:
+  ARG-* argument   PER-* person   WRK-* work   ITEM-* raw list entry
+"""
 import json, csv, collections, os, sys
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 DATA = os.path.join(ROOT, "data")
+
 from corpus import ITEMS
 from clusters import CLUSTERS
 from assign import ASSIGN
+from people import PEOPLE
+from works import WORKS
+from deep import DEEP
 
 LANE_FAMILY = {"A-EXP": "A", "A-REL": "A", "B": "B", "C": "C", "D": "D", "E": "E"}
 LANE_NAME = {
@@ -17,151 +27,156 @@ LANE_NAME = {
     "D": "D · Historical / esoteric",
     "E": "E · Misappropriated astronomy",
 }
+ORIGINATOR_PID = {
+    "Samuel Rowbotham": "PER-ROWBOTHAM", "William Carpenter": "PER-CARPENTER",
+    "Thomas Winship": "PER-WINSHIP", "Wilbur Glenn Voliva": "PER-VOLIVA",
+    "Samuel Shenton": "PER-SHENTON", "Charles K. Johnson": "PER-JOHNSON",
+    "Eric Dubay": "PER-DUBAY", "Mark Sargent": "PER-SARGENT", "Rob Skiba": "PER-SKIBA",
+    "Bob Knodel": "PER-KNODEL", "Walter van der Kamp": "PER-VANDERKAMP",
+    "Gerardus Bouw": "PER-BOUW", "Robert Sungenis": "PER-SUNGENIS",
+    "Robert Sungenis & Robert Bennett": "PER-SUNGENIS",
+    "Robert Sungenis & Rick DeLano": "PER-SUNGENIS", "Marshall Hall": "PER-MARSHALLHALL",
+    "Helena Blavatsky; Manly P. Hall": "PER-BLAVATSKY", "Manly P. Hall": "PER-HALL",
+    "William Walker Atkinson (as 'Three Initiates')": "PER-ATKINSON",
+    "Mircea Eliade (misapplied)": "PER-ELIADE",
+    "Claudius Ptolemy (via the modern movement)": "PER-PTOLEMY",
+}
+LINEAGE_OF = {p: r["lineage"] for p, r in PEOPLE.items()}
+LINEAGE_LABEL = {"Zetetic": "Zetetic (flat-earth) lineage",
+                 "Tychonian": "Tychonian (geocentric) lineage",
+                 "Esoteric": "Esoteric / Traditionalist literature",
+                 "Pre-modern": "Pre-modern astronomy"}
 
-# ---- integrity checks -------------------------------------------------
+# ---- integrity -------------------------------------------------------
 assert len(ITEMS) == 461
 assert set(ASSIGN) == set(range(1, 462)), "assignment must cover items 1..461"
-missing = {c for c in ASSIGN.values() if c not in CLUSTERS}
-assert not missing, f"assigned to undefined clusters: {sorted(missing)}"
-unused = set(CLUSTERS) - set(ASSIGN.values())
-assert not unused, f"clusters defined but never used: {sorted(unused)}"
+assert not {c for c in ASSIGN.values() if c not in CLUSTERS}
+assert not (set(CLUSTERS) - set(ASSIGN.values()))
+for cid, d in DEEP.items():
+    assert cid in CLUSTERS, f"DEEP entry for unknown cluster {cid}"
+    for pid in d.get("people", []):
+        assert pid in PEOPLE, f"{cid} -> unknown person {pid}"
+    for rid in d.get("related", []):
+        assert rid in CLUSTERS, f"{cid} -> unknown argument {rid}"
+    assert d["passage"]["work"] in WORKS, f"{cid} -> unknown work"
+    s = d.get("advocate", {}).get("survives")
+    assert isinstance(s, int) and 1 <= s <= 5, f"{cid} advocate.survives must be 1-5"
+    if s >= 3:
+        assert d["advocate"].get("preemptive"), f"{cid} survives>=3 requires a preemptive fix"
+for pid, p in PEOPLE.items():
+    for w in p["works"]:
+        assert w in WORKS, f"{pid} -> unknown work {w}"
+for wid, w in WORKS.items():
+    assert w["author"] in PEOPLE, f"{wid} -> unknown author {w['author']}"
 
-# ---- build rows -------------------------------------------------------
-rows = []
+# ---- items -----------------------------------------------------------
+items = []
 for n, text in enumerate(ITEMS, start=1):
     cid = ASSIGN[n]
     c = CLUSTERS[cid]
-    rows.append({
-        "item_no": n,
-        "text": text,
-        "family": LANE_FAMILY[c["lane"]],
-        "lane": c["lane"],
-        "cluster_id": cid,
-        "cluster_name": c["name"],
-        "originator": c["originator"],
-        "originator_work": c["originator_work"],
-        "originator_year": c["year"],
-        "real_source_cited": c["real_source"],
+    items.append({
+        "id": f"ITEM-{n:03d}", "item_no": n, "text": text,
+        "family": LANE_FAMILY[c["lane"]], "lane": c["lane"],
+        "argument": f"ARG-{cid}", "cluster_id": cid, "cluster_name": c["name"],
+        "originator": c["originator"], "originator_work": c["originator_work"],
+        "originator_year": c["year"], "real_source_cited": c["real_source"],
         "verdict": c["verdict"],
     })
 
-# ---- exact-duplicate detection ---------------------------------------
-seen, dupes = {}, []
-for r in rows:
-    key = r["text"].strip().lower().rstrip(".")
-    if key in seen:
-        dupes.append((seen[key], r["item_no"], r["text"]))
-    else:
-        seen[key] = r["item_no"]
+# ---- arguments -------------------------------------------------------
+by_cluster = collections.defaultdict(list)
+for r in items:
+    by_cluster[r["cluster_id"]].append(r["item_no"])
 
-# ---- counts -----------------------------------------------------------
-fam_items = collections.Counter(r["family"] for r in rows)
-lane_items = collections.Counter(r["lane"] for r in rows)
-lane_clusters = collections.Counter(CLUSTERS[c]["lane"] for c in set(ASSIGN.values()))
-cluster_size = collections.Counter(ASSIGN.values())
-verdict_items = collections.Counter(r["verdict"] for r in rows)
-verdict_clusters = collections.Counter(CLUSTERS[c]["verdict"] for c in CLUSTERS)
-
-# originator tally: items and clusters per named originator
-orig_items = collections.Counter()
-orig_clusters = collections.Counter()
-for r in rows:
-    orig_items[r["originator"] or "(no named originator)"] += 1
+arguments = {}
 for cid, c in CLUSTERS.items():
-    orig_clusters[c["originator"] or "(no named originator)"] += 1
+    pid = ORIGINATOR_PID.get(c["originator"]) if c["originator"] else None
+    d = DEEP.get(cid)
+    arguments[f"ARG-{cid}"] = {
+        "id": f"ARG-{cid}", "cluster_id": cid, "lane": c["lane"],
+        "family": LANE_FAMILY[c["lane"]], "name": c["name"], "verdict": c["verdict"],
+        "basis": c["note"], "originator": c["originator"], "originator_id": pid,
+        "originator_work": c["originator_work"], "originator_year": c["year"],
+        "real_source_cited": c["real_source"],
+        "items": sorted(by_cluster[cid]), "item_count": len(by_cluster[cid]),
+        "depth": "full" if d else "cluster",
+        "deep": d,
+    }
 
+# ---- people (arguments attached by reference, never copied) ----------
+people = {}
+for pid, p in PEOPLE.items():
+    owned = sorted(a for a, r in arguments.items() if r["originator_id"] == pid)
+    people[pid] = dict(p, id=pid, arguments=owned, argument_count=len(owned),
+                       item_count=sum(arguments[a]["item_count"] for a in owned))
+
+works = {w: dict(v, id=w) for w, v in WORKS.items()}
+
+# ---- derived counts --------------------------------------------------
+seen, dupes = {}, []
+for r in items:
+    k = r["text"].strip().lower().rstrip(".")
+    if k in seen: dupes.append((seen[k], r["item_no"], r["text"]))
+    else: seen[k] = r["item_no"]
+
+lane_items = collections.Counter(r["lane"] for r in items)
+lane_clusters = collections.Counter(CLUSTERS[c]["lane"] for c in set(ASSIGN.values()))
+verdict_items = collections.Counter(r["verdict"] for r in items)
+verdict_clusters = collections.Counter(c["verdict"] for c in CLUSTERS.values())
+orig_items = collections.Counter(r["originator"] or "(no named originator)" for r in items)
+orig_clusters = collections.Counter(c["originator"] or "(no named originator)" for c in CLUSTERS.values())
 named_items = sum(v for k, v in orig_items.items() if k != "(no named originator)")
 
-# ---- lineage rollup ---------------------------------------------------
-LINEAGE = {
-    "Samuel Rowbotham": "Zetetic (flat-earth) lineage",
-    "William Carpenter": "Zetetic (flat-earth) lineage",
-    "Wilbur Glenn Voliva": "Zetetic (flat-earth) lineage",
-    "Samuel Shenton": "Zetetic (flat-earth) lineage",
-    "Charles K. Johnson": "Zetetic (flat-earth) lineage",
-    "Eric Dubay": "Zetetic (flat-earth) lineage",
-    "Mark Sargent": "Zetetic (flat-earth) lineage",
-    "Rob Skiba": "Zetetic (flat-earth) lineage",
-    "Bob Knodel": "Zetetic (flat-earth) lineage",
-    "Walter van der Kamp": "Tychonian (geocentric) lineage",
-    "Gerardus Bouw": "Tychonian (geocentric) lineage",
-    "Robert Sungenis": "Tychonian (geocentric) lineage",
-    "Robert Sungenis & Robert Bennett": "Tychonian (geocentric) lineage",
-    "Robert Sungenis & Rick DeLano": "Tychonian (geocentric) lineage",
-    "Marshall Hall": "Tychonian (geocentric) lineage",
-    "Helena Blavatsky; Manly P. Hall": "Esoteric / Traditionalist literature",
-    "William Walker Atkinson (as 'Three Initiates')": "Esoteric / Traditionalist literature",
-    "Mircea Eliade (misapplied)": "Esoteric / Traditionalist literature",
-    "Manly P. Hall": "Esoteric / Traditionalist literature",
-    "Claudius Ptolemy (via the modern movement)": "Pre-modern astronomy",
-}
-lin_items = collections.Counter()
-lin_clusters = collections.Counter()
-for r in rows:
-    lin_items[LINEAGE.get(r["originator"], "(no named originator)")] += 1
-for cid, c in CLUSTERS.items():
-    lin_clusters[LINEAGE.get(c["originator"], "(no named originator)")] += 1
+lin_items, lin_clusters = collections.Counter(), collections.Counter()
+for r in items:
+    pid = ORIGINATOR_PID.get(r["originator"]) if r["originator"] else None
+    lin_items[LINEAGE_LABEL.get(LINEAGE_OF.get(pid), "(no named originator)")] += 1
+for c in CLUSTERS.values():
+    pid = ORIGINATOR_PID.get(c["originator"]) if c["originator"] else None
+    lin_clusters[LINEAGE_LABEL.get(LINEAGE_OF.get(pid), "(no named originator)")] += 1
 
+cluster_size = collections.Counter(ASSIGN.values())
 summary = {
     "specimen": "withthesun33.com/about-1 (Andy J. Consoli), retrieved 2026-08-02",
     "items_by_lineage": dict(lin_items.most_common()),
     "clusters_by_lineage": dict(lin_clusters.most_common()),
-    "total_items": len(rows),
+    "total_items": len(items),
     "distinct_arguments": len(set(ASSIGN.values())),
-    "compression_ratio": round(len(rows) / len(set(ASSIGN.values())), 2),
+    "compression_ratio": round(len(items) / len(set(ASSIGN.values())), 2),
     "exact_duplicate_pairs": len(dupes),
     "named_originators": len([k for k in orig_clusters if k != "(no named originator)"]),
     "items_traceable_to_a_named_originator": named_items,
-    "items_by_family": dict(sorted(fam_items.items())),
+    "people_count": len(people), "works_count": len(works),
+    "arguments_at_full_depth": sum(1 for a in arguments.values() if a["depth"] == "full"),
+    "bios_worked": sum(1 for p in people.values() if p["bio_status"] == "worked"),
+    "items_by_family": dict(sorted(collections.Counter(r["family"] for r in items).items())),
     "items_by_lane": dict(sorted(lane_items.items())),
     "clusters_by_lane": dict(sorted(lane_clusters.items())),
     "items_by_verdict": dict(verdict_items.most_common()),
     "clusters_by_verdict": dict(verdict_clusters.most_common()),
     "largest_clusters": [
-        {"cluster_id": cid, "name": CLUSTERS[cid]["name"], "items": n,
-         "originator": CLUSTERS[cid]["originator"]}
-        for cid, n in cluster_size.most_common(15)
-    ],
+        {"cluster_id": c, "name": CLUSTERS[c]["name"], "items": n,
+         "originator": CLUSTERS[c]["originator"]} for c, n in cluster_size.most_common(15)],
     "originator_ranking_by_items": [
         {"originator": k, "items": v, "distinct_arguments": orig_clusters[k]}
-        for k, v in orig_items.most_common()
-    ],
-    "exact_duplicates": [
-        {"first_seen": a, "repeat": b, "text": t} for a, b, t in dupes
-    ],
+        for k, v in orig_items.most_common()],
+    "exact_duplicates": [{"first_seen": a, "repeat": b, "text": t} for a, b, t in dupes],
 }
 
+corpus = {"summary": summary, "people": people, "works": works,
+          "arguments": arguments, "clusters": CLUSTERS, "items": items}
+
 with open(os.path.join(DATA, "flat-earth-origins-provenance.json"), "w", encoding="utf-8") as f:
-    json.dump({"summary": summary, "clusters": CLUSTERS, "items": rows},
-              f, indent=2, ensure_ascii=False)
+    json.dump(corpus, f, indent=2, ensure_ascii=False)
 
-with open(os.path.join(DATA, "flat-earth-origins-provenance.csv"), "w", encoding="utf-8", newline="") as f:
-    w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
-    w.writeheader()
-    w.writerows(rows)
+flat = [{k: v for k, v in r.items() if k != "id"} for r in items]
+with open(os.path.join(DATA, "flat-earth-origins-provenance.csv"), "w",
+          encoding="utf-8", newline="") as f:
+    w = csv.DictWriter(f, fieldnames=list(flat[0].keys()))
+    w.writeheader(); w.writerows(flat)
 
-# ---- console report ---------------------------------------------------
-print(f"items                : {summary['total_items']}")
-print(f"distinct arguments   : {summary['distinct_arguments']}  "
-      f"({summary['compression_ratio']}x compression)")
-print(f"exact duplicate pairs: {summary['exact_duplicate_pairs']}")
-print(f"named originators    : {summary['named_originators']}")
-print(f"items traceable      : {named_items} / 461 "
-      f"({named_items/461*100:.0f}%)\n")
-print("ITEMS BY LANE")
+print(f"items {len(items)} | arguments {len(arguments)} "
+      f"({summary['arguments_at_full_depth']} at full depth) | "
+      f"people {len(people)} ({summary['bios_worked']} worked) | works {len(works)}")
 for k, v in sorted(lane_items.items()):
     print(f"  {LANE_NAME[k]:<45} {v:>4} items  {lane_clusters[k]:>3} arguments")
-print("\nITEMS BY VERDICT")
-for k, v in verdict_items.most_common():
-    print(f"  {k:<22} {v:>4} items  {verdict_clusters[k]:>3} arguments")
-print("\nTOP ORIGINATORS BY ITEM COUNT")
-for d in summary["originator_ranking_by_items"][:14]:
-    print(f"  {str(d['originator'])[:52]:<52} {d['items']:>4} items  "
-          f"{d['distinct_arguments']:>2} args")
-print("\nEXACT DUPLICATES")
-for d in summary["exact_duplicates"]:
-    print(f"  #{d['first_seen']} == #{d['repeat']}  {d['text']}")
-
-print("\nITEMS BY LINEAGE")
-for k, v in lin_items.most_common():
-    print(f"  {k:<38} {v:>4} items ({v/461*100:4.1f}%)  {lin_clusters[k]:>2} arguments")

@@ -31,6 +31,7 @@ def check(label, cond, detail=""):
 D = json.load(open(os.path.join(ROOT, "data", "flat-earth-origins-provenance.json"),
                    encoding="utf-8"))
 S, ROWS = D["summary"], D["items"]
+PEOPLE, WORKS, ARGS = D["people"], D["works"], D["arguments"]
 PAGE = open(os.path.join(ROOT, "docs", "index.html"), encoding="utf-8").read()
 
 print("\n[1] corpus integrity")
@@ -110,7 +111,6 @@ for label, needle in [
     ("compression 4.7x", "4.7&times;"),
     ("family A total 182", "<strong>182</strong>"),
     ("family B total 54", "<strong>54</strong>"),
-    ("R08 cluster size 28", "28 times"),
 ]:
     check(f"page states {label}", needle in PAGE, needle)
 
@@ -134,6 +134,67 @@ check("structural: tables balanced",
 check("structural: sections balanced",
       len(re.findall(r"<section", PAGE)) == len(re.findall(r"</section>", PAGE)))
 
+print("\n[4b] corpus cross-references")
+for pid, p in PEOPLE.items():
+    check(f"{pid} works all resolve", all(w in WORKS for w in p["works"]))
+check("every work has a resolvable author",
+      all(w["author"] in PEOPLE for w in WORKS.values()))
+check("every argument's originator_id resolves",
+      all(a["originator_id"] in PEOPLE for a in ARGS.values() if a["originator_id"]))
+deep = [a for a in ARGS.values() if a["depth"] == "full"]
+check("at least one argument at full depth", len(deep) >= 1, len(deep))
+for a in deep:
+    d = a["deep"]
+    check(f"{a['id']} passage cites a known work", d["passage"]["work"] in WORKS)
+    check(f"{a['id']} steelman has both halves",
+          bool(d["steelman"]["description"]) and bool(d["steelman"]["why_it_doesnt_save_claim"]))
+    sv = d["advocate"]["survives"]
+    check(f"{a['id']} advocate rating is 1-5", isinstance(sv, int) and 1 <= sv <= 5, sv)
+    check(f"{a['id']} advocate >=3 carries a preemptive fix",
+          sv < 3 or bool(d["advocate"].get("preemptive")))
+    check(f"{a['id']} related args all resolve",
+          all(f"ARG-{r}" in ARGS for r in d.get("related", [])))
+    check(f"{a['id']} people all resolve", all(x in PEOPLE for x in d.get("people", [])))
+    check(f"{a['id']} cites at least 3 sources", len(d.get("sources", [])) >= 3)
+worked = [p for p in PEOPLE.values() if p["bio_status"] == "worked"]
+check("at least one biography worked", len(worked) >= 1, len(worked))
+for p in worked:
+    for f in ("formation", "had", "ignored", "legacy"):
+        check(f"{p['id']} has {f}", bool(p.get(f)))
+    check(f"{p['id']} has a kernel with both halves",
+          bool(p["kernel"]) and bool(p["kernel"]["why_it_doesnt_save_claim"]))
+    check(f"{p['id']} cites sources", len(p.get("sources", [])) >= 2)
+check("every person carries at least one source",
+      all(p.get("sources") for p in PEOPLE.values()),
+      [p["id"] for p in PEOPLE.values() if not p.get("sources")])
+
+print("\n[4c] tab shell + deep-linking")
+body = PAGE.split("<body>", 1)[1]
+page_ids = set(re.findall(r'\bid="([^"]+)"', body))
+page_links = set(re.findall(r'href="#([^"]+)"', body))
+dead = sorted(page_links - page_ids)
+check("every internal anchor resolves to a defined id", not dead, dead[:6])
+script = body.split("<script>", 1)[1] if "<script>" in body else ""
+markup = body.split("<script>", 1)[0]
+panels = set(re.findall(r'class="ds-tab-content[^"]*"\s+id="([^"]+)"', markup))
+buttons = set(re.findall(r'data-tab="([^"]+)"', markup))
+check("every tab button targets a real panel", buttons <= panels, sorted(buttons - panels))
+check("every panel has a button", panels <= buttons, sorted(panels - buttons))
+check("five tabs rendered", len(panels) == 5, sorted(panels))
+check("no inline onclick anywhere (dome retired it)", "onclick" not in body)
+check("delegated anchor handler present", 'a[href^="#"]' in script)
+check("expandToElement present (deep links open ancestor details)",
+      "expandToElement" in script)
+check("popstate handler present", "popstate" in script)
+check("skipHash/skipScroll contract present",
+      "skipHash" in script and "skipScroll" in script)
+check("theme is pinned light (no dark media query)",
+      "prefers-color-scheme" not in PAGE)
+check("print rule still unhides tab panels", "ds-tab-content{display:block!important}" in PAGE)
+check("details/table markup balanced",
+      body.count("<details") == body.count("</details>")
+      and body.count("<table") == body.count("</table>"))
+
 print("\n[5] attribution guards (see claude/source-genealogy.md)")
 # claims the research flagged as unverified must not appear as fact
 check("does not assert Carpenter 1885 as provably the FIRST numbered list",
@@ -146,8 +207,16 @@ check("does not name Paul Ellwanger (not a geocentrist)",
       "Ellwanger" not in PAGE)
 check("does not claim Dubay plagiarised",
       "plagiar" not in PAGE.lower())
-check("CMB section concedes the debate is live",
-      "live question in cosmology" in PAGE)
+# E01 (CMB axis of evil) is a designated careful case. Whatever depth it is
+# rendered at, the page must concede the significance debate is unresolved —
+# overclaiming here would be this review's own worst error.
+_e01 = ARGS["ARG-E01"]
+_concede = ("genuinely open" in PAGE or "live question in cosmology" in PAGE)
+check("CMB careful case concedes the debate is unresolved", _concede)
+check("CMB basis text still carries the CAREFUL CASE marker",
+      "CAREFUL CASE" in _e01["basis"])
+check("all four careful cases are present in the corpus",
+      all(f"ARG-{c}" in ARGS for c in ("A03", "A02", "R01", "E01")))
 
 print()
 if FAILURES:

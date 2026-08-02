@@ -1,462 +1,462 @@
-item_no,text,family,lane,cluster_id,cluster_name,originator,originator_work,originator_year,real_source_cited,verdict
-1,Michelson–Morley experiment null result.,A,A-EXP,A01,Michelson–Morley null proves Earth is not moving,Walter van der Kamp,The Heart of the Matter,1968,"Michelson & Morley 1887, Am. J. Sci. 34:333",STANDARD PHYSICS
-2,Michelson–Gale ether drift detection.,A,A-EXP,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
-3,Sagnac effect consistent with stationary Earth.,A,A-EXP,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
-4,Airy's failure to detect starlight motion.,A,A-EXP,A03,“Airy's failure” — water-filled telescope shows no Earth motion,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"G. B. Airy 1871, Proc. Roy. Soc. London, pp. 35–39",REFUTED
-5,Lack of stellar parallax in early measurements.,A,A-EXP,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
-6,Coriolis effects reinterpreted as rotating heavens.,A,A-EXP,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
-7,Stellar aberration optical not mechanical.,A,A-EXP,A04,"Stellar aberration is optical/parallax, not Earth's motion",Walter van der Kamp,Bulletin of the Tychonian Society,1970s,James Bradley 1729,REFUTED
-8,Constant stellar angular sizes.,A,A-EXP,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
-9,Uniform star distribution in all directions.,E,E,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
-10,Michelson–Pease null rotation detection.,A,A-EXP,A11,Michelson–Pease–Pearson null result,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Pease & Pearson 1929, JOSA 18(3):181",STANDARD PHYSICS
-11,Foucault pendulum explainable by rotating firmament.,A,A-EXP,A06,Foucault pendulum explained by a rotating firmament,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Léon Foucault 1851,STANDARD PHYSICS
-12,Gyroscope anomalies indicating no rotation.,A,A-EXP,A07,Gyroscopes / ring-laser gyros show no Earth rotation,Bob Knodel,GlobeBusters / Behind the Curve,2018,Sagnac 1913; standard ring-laser INS engineering,SELF-CONTRADICTED
-13,Aircraft navigation not compensating for spin.,A,A-EXP,A08,Aircraft don't compensate for spin; east/west flight times symmetric,Samuel Rowbotham,Earth Not a Globe,1865,Inertial navigation systems measure Earth rate on every flight,REFUTED
-14,Bedford Level and similar flat-water laser tests.,B,B,B03,Bedford Level / laser canal tests show no curvature,Samuel Rowbotham,Old Bedford Canal trials,1838,Wallace 1870; Oldham 1901,REFUTED
-15,Geostationary satellites fit rotating sky model.,A,A-EXP,A21,Satellites and geostationary orbits reinterpreted in an Earth-fixed frame,Samuel Shenton,International Flat Earth Research Society,1957,,STANDARD PHYSICS
-16,Perfect circular star trails around Polaris.,B,B,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
-17,Polaris constant alignment over millennia.,B,B,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
-18,No aberration variation over centuries.,A,A-EXP,A04,"Stellar aberration is optical/parallax, not Earth's motion",Walter van der Kamp,Bulletin of the Tychonian Society,1970s,James Bradley 1729,REFUTED
-19,Gyroscopes stable absent recalibration.,A,A-EXP,A07,Gyroscopes / ring-laser gyros show no Earth rotation,Bob Knodel,GlobeBusters / Behind the Curve,2018,Sagnac 1913; standard ring-laser INS engineering,SELF-CONTRADICTED
-20,Time dilation explainable without orbital motion.,A,A-EXP,A18,GPS/time-dilation corrections work in an Earth frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,GPS relativistic clock corrections,STANDARD PHYSICS
-21,Ancient cosmologies uniformly geocentric.,D,D,D01,All ancient cultures were geocentric,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
-22,Tycho Brahe's hybrid model.,D,D,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
-23,Ptolemaic predictive accuracy.,D,D,D03,Geocentric/Ptolemaic models made accurate predictions,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,STANDARD PHYSICS
-24,Church consistency with Scripture.,C,C,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
-25,Pre-Copernican universal geocentrism.,D,D,D01,All ancient cultures were geocentric,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
-26,Relativity permits stationary Earth frame.,A,A-REL,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
-27,Mach's principle supports fixed Earth possibility.,A,A-REL,R02,Mach's principle / relational mechanics allows a fixed Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Ernst Mach, The Science of Mechanics (1883)",STANDARD PHYSICS
-28,Einstein's equivalence of motion.,A,A-REL,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
-29,No experiment proving absolute motion.,A,A-REL,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
-30,Modern astronomy uses Earth-centered coordinates.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-31,Equal apparent size of Sun and Moon.,B,B,B10,Sun and Moon appear the same size; solar diameter constant,Samuel Rowbotham,Earth Not a Globe,1865,,MISLEADING
-32,Celestial sphere rotation about observer.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-33,Planetary retrograde motion fit geocentric math.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-34,Day–night cycle from firmament rotation.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-35,Lunar phases explainable without orbit.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-36,No visible rotation of atmosphere or clouds.,A,A-EXP,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-37,No naked-eye parallax.,A,A-EXP,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
-38,Star rotation constant 24 hours.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-39,Precession from dome rotation.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-40,CMB axis aligned with Earth.,E,E,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-41,Human perception stationary.,D,D,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
-42,Water finds level.,B,B,B01,"Water finds its level, therefore the surface is a plane",Samuel Rowbotham,Zetetic Astronomy,1849,,REFUTED
-43,Horizon flat in long-distance views.,B,B,B02,The horizon is flat and rises to eye level,Samuel Rowbotham,Zetetic Astronomy,1849,,REFUTED
-44,Horizon rises to eye level.,B,B,B02,The horizon is flat and rises to eye level,Samuel Rowbotham,Zetetic Astronomy,1849,,REFUTED
-45,Plane flight times consistent with rest Earth.,A,A-EXP,A08,Aircraft don't compensate for spin; east/west flight times symmetric,Samuel Rowbotham,Earth Not a Globe,1865,Inertial navigation systems measure Earth rate on every flight,REFUTED
-46,GPS Earth-centered.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-47,Surveying assumes stationary ground.,B,B,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
-48,Plumb lines perpendicular worldwide.,B,B,B09,Plumb lines are perpendicular everywhere,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-49,Atmosphere concentric layers.,A,A-EXP,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-50,Engineering curvature corrections unnecessary.,B,B,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
-51,Relativity allows Earth-centered math.,A,A-REL,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
-52,Indistinguishable rotating universe equivalence.,A,A-REL,R05,GR admits rotating-universe solutions / frame dragging,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gödel 1949; Lense–Thirring 1918; Gravity Probe B,MISLEADING
-53,Conservation of momentum paradox.,A,A-EXP,A17,Conservation-of-momentum paradox for a moving Earth,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-54,"No wind drag from 67,000 mph orbit.",A,A-EXP,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-55,Equatorial bulge alternative cause.,A,A-EXP,A13,No centrifugal effects felt; equatorial bulge has another cause,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-56,Water rotation electromagnetic explanation.,A,A-EXP,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
-57,Equivalence principle permits rest frame.,A,A-REL,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
-58,Relativistic coordinates Earth-valid.,A,A-REL,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
-59,Light bending symmetric about Earth.,E,E,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
-60,Redshift symmetry concentric around Earth.,E,E,E12,Redshift quantization in concentric shells around Earth,Gerardus Bouw,Geocentricity,1992,Tifft 1976; refuted by 2dF/SDSS surveys,REFUTED
-61,Psalm 93:1 immovable world.,C,C,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
-62,Psalm 104:5 Earth on foundations.,C,C,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
-63,1 Chron 16:30 firmly established world.,C,C,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
-64,Eccles 1:5 sun rises and sets.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-65,Joshua 10:13 sun stood still.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-66,Habakkuk 3:11 sun and moon halted.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-67,Genesis 1:14–18 lights set for Earth.,C,C,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-68,Job 38:4 Earth's foundation.,C,C,C03,Proof-texts on foundations and pillars,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-69,Isaiah 45:18 created to be inhabited.,C,C,C06,Anthropocentric creation / Earth as footstool,Wilbur Glenn Voliva,Zion sermons,1915,,UNFALSIFIABLE
-70,Psalm 19 sun's tabernacle.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-71,Centrality of humanity symbolism.,C,C,C06,Anthropocentric creation / Earth as footstool,Wilbur Glenn Voliva,Zion sermons,1915,,UNFALSIFIABLE
-72,Firmament as real structure.,C,C,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-73,Sun as servant light.,C,C,C06,Anthropocentric creation / Earth as footstool,Wilbur Glenn Voliva,Zion sermons,1915,,UNFALSIFIABLE
-74,Ancient temple as cosmic model.,D,D,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
-75,Divine order centered on man.,C,C,C06,Anthropocentric creation / Earth as footstool,Wilbur Glenn Voliva,Zion sermons,1915,,UNFALSIFIABLE
-76,Occult roots of heliocentrism.,D,D,D10,Heliocentrism has occult/masonic roots,Marshall Hall,The Earth is not Moving,1991,,NOT DEMONSTRATED
-77,Early theologians affirmed geocentrism.,C,C,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
-78,Medieval hierarchy centered on Earth.,C,C,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
-79,Sun's circuit divine metaphor.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-80,Observation inherently geocentric.,D,D,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
-81,No empirical distinction of motion.,A,A-REL,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
-82,Heliocentric gravity assumptions unproven.,A,A-EXP,A23,Gravity / the heliocentric mechanism is unproven,Wilbur Glenn Voliva,Zion sermons & Leaves of Healing,1915,,REFUTED
-83,Simplicity favors geocentrism.,D,D,D12,Simplicity / common sense favours a fixed Earth,Samuel Rowbotham,Zetetic Astronomy,1849,,NOT DEMONSTRATED
-84,Perception reliable evidence.,D,D,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
-85,Universe ordered around observer.,D,D,D13,"Meaning, teleology and fine-tuning imply centrality",Robert Sungenis,The Principle (film),2014,,UNFALSIFIABLE
-86,Dark matter patchwork like epicycles.,D,D,D14,Dark matter / dark energy / MOND are modern epicycles,Robert Sungenis,"Galileo Was Wrong, Vol. I",2006,,MISLEADING
-87,Consciousness defines center.,D,D,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
-88,No proof of revolution.,A,A-REL,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
-89,Axis of Evil alignment.,E,E,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-90,Quasar distribution symmetry.,E,E,E04,Quasar polarization alignment and large quasar groups,,,,"Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
-91,Cosmic anisotropy Earth-oriented.,E,E,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-92,Pioneer anomaly Earth-directed.,E,E,E08,Pioneer and flyby anomalies are Earth-directed,,,,"Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",REFUTED
-93,Angular momentum imbalance.,E,E,E18,Solar-system angular-momentum distribution problem,,,,,STANDARD PHYSICS
-94,Planck data Earth preference.,E,E,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-95,Lunar stability conflict.,A,A-EXP,A25,Orbital / lunar / ring stability objections,,,,,NOT DEMONSTRATED
-96,Satellite stability Earth-frame.,A,A-EXP,A21,Satellites and geostationary orbits reinterpreted in an Earth-fixed frame,Samuel Shenton,International Flat Earth Research Society,1957,,STANDARD PHYSICS
-97,Constant solar diameter.,B,B,B10,Sun and Moon appear the same size; solar diameter constant,Samuel Rowbotham,Earth Not a Globe,1865,,MISLEADING
-98,Hubble tension observation bias.,E,E,E09,Hubble tension shows we are at a special location,,,,"Riess et al. 2022, ApJL 934:L7; Kenworthy et al. 2019, ApJ 875:145",MISLEADING
-99,Michelson–Morley replications null.,A,A-EXP,A01,Michelson–Morley null proves Earth is not moving,Walter van der Kamp,The Heart of the Matter,1968,"Michelson & Morley 1887, Am. J. Sci. 34:333",STANDARD PHYSICS
-100,Miller aether drift detections.,A,A-EXP,A12,Dayton Miller detected a real aether drift that was suppressed,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Miller 1933, Rev. Mod. Phys. 5:203; Shankland et al. 1955, Rev. Mod. Phys. 27:167",REFUTED
-101,Flyby anomalies Earth-centered.,E,E,E08,Pioneer and flyby anomalies are Earth-directed,,,,"Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",REFUTED
-102,GPS relativity Earth frame.,A,A-EXP,A18,GPS/time-dilation corrections work in an Earth frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,GPS relativistic clock corrections,STANDARD PHYSICS
-103,Inconsistent stellar parallax.,A,A-EXP,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
-104,Solar inertial wobble about Earth.,E,E,E14,"Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",,,,,REFUTED
-105,Stable equatorial bulge.,A,A-EXP,A13,No centrifugal effects felt; equatorial bulge has another cause,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-106,Coriolis equivalence with sky rotation.,A,A-EXP,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
-107,Atmospheric coupling unexplained.,A,A-EXP,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-108,High-altitude balloons drift anomaly.,A,A-EXP,A16,High-altitude balloon drift and sun-angle anomalies,,,,,NOT DEMONSTRATED
-109,Geostationary satellites reinterpretation.,A,A-EXP,A21,Satellites and geostationary orbits reinterpreted in an Earth-fixed frame,Samuel Shenton,International Flat Earth Research Society,1957,,STANDARD PHYSICS
-110,Flight symmetry east/west.,A,A-EXP,A08,Aircraft don't compensate for spin; east/west flight times symmetric,Samuel Rowbotham,Earth Not a Globe,1865,Inertial navigation systems measure Earth rate on every flight,REFUTED
-111,Horizon tests flat.,B,B,B02,The horizon is flat and rises to eye level,Samuel Rowbotham,Zetetic Astronomy,1849,,REFUTED
-112,Non-rotation gyroscope studies.,A,A-EXP,A07,Gyroscopes / ring-laser gyros show no Earth rotation,Bob Knodel,GlobeBusters / Behind the Curve,2018,Sagnac 1913; standard ring-laser INS engineering,SELF-CONTRADICTED
-113,Ocean currents electromagnetic.,A,A-EXP,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
-114,Artillery stationary calculations.,A,A-EXP,A14,Ballistics and artillery ignore Earth's rotation,Samuel Rowbotham,Earth Not a Globe,1865,Standard long-range fire-control tables,REFUTED
-115,GPS Sagnac confirmation.,A,A-EXP,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
-116,CMB ecliptic alignment.,E,E,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-117,Quasar alignment with ecliptic.,E,E,E04,Quasar polarization alignment and large quasar groups,,,,"Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
-118,Relativistic invariance of frame.,A,A-REL,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
-119,All ancient cultures geocentric.,D,D,D01,All ancient cultures were geocentric,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
-120,Plato's Timaeus central Earth.,D,D,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
-121,Aristotle's unmoved mover.,D,D,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
-122,Ptolemy's spheres.,D,D,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
-123,Tycho's geo-heliocentric compromise.,D,D,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
-124,Early Church fathers.,C,C,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
-125,Galileo debate empirical not faith.,D,D,D15,"The Galileo affair was scientific, not religious",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
-126,Temples as world-centers.,D,D,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
-127,Medieval art concentric heavens.,D,D,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
-128,Navigation charts fixed pole.,B,B,B12,Polar navigation and dead reckoning imply a dome/disc,Charles K. Johnson,Flat Earth News,1972,,REFUTED
-129,Mach's inertia explanation.,A,A-REL,R02,Mach's principle / relational mechanics allows a fixed Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Ernst Mach, The Science of Mechanics (1883)",STANDARD PHYSICS
-130,Einstein admission of equivalence.,A,A-REL,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
-131,No absolute frame.,A,A-REL,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
-132,Equivalence principle validation.,A,A-REL,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
-133,GR geocentric solutions possible.,A,A-REL,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
-134,No orbital acceleration detected.,A,A-EXP,A26,No orbital acceleration or rotation has ever been directly detected,Walter van der Kamp,De Labore Solis,1988,,SELF-CONTRADICTED
-135,Inertial frame symmetry.,A,A-REL,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
-136,Quantum observer centrality.,A,A-REL,R10,Quantum observer-defined frames put the observer at the centre,,,,,MISLEADING
-137,CMB rest frame small velocity.,E,E,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
-138,Solar apex inconsistency.,E,E,E14,"Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",,,,,REFUTED
-139,Sun's circular path daily.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-140,Ecliptic tilt constancy.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-141,Retrograde motion math valid.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-142,Moon's circular orbit.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-143,Constant constellations.,B,B,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
-144,Polaris fixed.,B,B,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
-145,Zodiacal alignment constant.,B,B,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
-146,Planetary planes observer-aligned.,E,E,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
-147,Celestial equator precision.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-148,Sun's declination repetition.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-149,Psalm 19:4–6 sun's course.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-150,Joshua 10 miracle sun stop.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-151,Habakkuk 3 celestial stillness.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-152,Chronicles 16:30 immovable Earth.,C,C,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
-153,Psalm 96:10 fixed Earth.,C,C,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
-154,Genesis 1:14–18 firmament lights.,C,C,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-155,Job 38 Earth foundation.,C,C,C03,Proof-texts on foundations and pillars,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-156,Eccles 1:5 sun's circuit.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-157,Isaiah 38 sundial reversal.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-158,Revelation 6:13 stars fall.,C,C,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-159,Microcosm–macrocosm correspondence.,D,D,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
-160,Axis mundi doctrine.,D,D,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
-161,Hermetic as above so below.,D,D,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
-162,Sacred geometry centered on observer.,D,D,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
-163,Temple cosmology orientation.,D,D,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
-164,Four corners stability symbol.,C,C,C05,"Circle, four corners and ends of the Earth",Rob Skiba,biblical-cosmology teaching,2015,,SELF-CONTRADICTED
-165,Kabbalistic Malkuth fixed.,D,D,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-166,Alchemical fixed Earth.,D,D,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-167,Geocentric astrology predictive.,D,D,D09,Geocentric astrology and zodiacal symbolism as evidence,,,,,UNFALSIFIABLE
-168,Gnostic concentric heavens.,D,D,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-169,Christian mystic heart-center.,D,D,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-170,Rosicrucian dome symbolism.,D,D,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-171,Solar Christ circling soul.,D,D,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-172,Egyptian Nut and Geb model.,D,D,D16,World mythologies depict a circling sun or a covering sky,,,,,UNFALSIFIABLE
-173,Hindu Mount Meru axis.,D,D,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
-174,Norse Yggdrasil.,D,D,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
-175,Tibetan mandalas still center.,D,D,D05,Mandala / still-centre symbolism,Mircea Eliade (misapplied),Patterns in Comparative Religion,1949,,UNFALSIFIABLE
-176,Platonic solid cosmos.,D,D,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
-177,Heaven within mirrors geometry.,D,D,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
-178,Fixed versus volatile elements.,D,D,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-179,Direct sensory stillness.,D,D,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
-180,No felt centrifugal force.,A,A-EXP,A13,No centrifugal effects felt; equatorial bulge has another cause,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-181,Simpler moving sky.,D,D,D12,Simplicity / common sense favours a fixed Earth,Samuel Rowbotham,Zetetic Astronomy,1849,,NOT DEMONSTRATED
-182,Relativity of perception.,D,D,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
-183,Human consciousness defines center.,D,D,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
-184,Fine-tuning favors centrality.,D,D,D13,"Meaning, teleology and fine-tuning imply centrality",Robert Sungenis,The Principle (film),2014,,UNFALSIFIABLE
-185,Teleological seasons fit Earth.,D,D,D13,"Meaning, teleology and fine-tuning imply centrality",Robert Sungenis,The Principle (film),2014,,UNFALSIFIABLE
-186,Archetypal up/down symmetry.,D,D,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
-187,Infinite universe removes meaning of center.,D,D,D13,"Meaning, teleology and fine-tuning imply centrality",Robert Sungenis,The Principle (film),2014,,UNFALSIFIABLE
-188,Axis alignments repeating.,E,E,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-189,Galaxy spin bias.,E,E,E05,Galaxy spin handedness / hemispheric bias,,,,"Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",REFUTED
-190,Anisotropy toward Earth.,E,E,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-191,Pioneer/Flyby anomalies repeated.,E,E,E08,Pioneer and flyby anomalies are Earth-directed,,,,"Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",REFUTED
-192,Solar neutrino problem.,E,E,E14,"Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",,,,,REFUTED
-193,Lunar ranging stability.,A,A-EXP,A20,Lunar laser ranging shows a fixed baseline,,,,Apollo/Lunokhod retroreflector ranging,NOT DEMONSTRATED
-194,Photon spin alignment.,E,E,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",,,,,NOT DEMONSTRATED
-195,Solar oblateness constancy.,E,E,E14,"Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",,,,,REFUTED
-196,Dust inflow Sun–Earth line.,E,E,E10,Zodiacal dust and Kuiper structure show ecliptic symmetry,,,,,STANDARD PHYSICS
-197,GRB anisotropy.,E,E,E07,Gamma-ray-burst anisotropy,,,,,NOT DEMONSTRATED
-198,Earth heart chakra symbolism.,D,D,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
-199,Zodiac cross rotation around center.,D,D,D09,Geocentric astrology and zodiacal symbolism as evidence,,,,,UNFALSIFIABLE
-200,Twelve gates revolving heavens.,D,D,D09,Geocentric astrology and zodiacal symbolism as evidence,,,,,UNFALSIFIABLE
-201,Firmament as electromagnetic dome.,D,D,D17,An electromagnetic/toroidal dome centred on Earth,Mark Sargent,Flat Earth Clues,2015,"Schumann resonance (real, and a consequence of a spherical cavity)",NOT DEMONSTRATED
-202,Toroidal field centered on Earth.,D,D,D17,An electromagnetic/toroidal dome centred on Earth,Mark Sargent,Flat Earth Clues,2015,"Schumann resonance (real, and a consequence of a spherical cavity)",NOT DEMONSTRATED
-203,Schumann resonance planetary pulse.,D,D,D17,An electromagnetic/toroidal dome centred on Earth,Mark Sargent,Flat Earth Clues,2015,"Schumann resonance (real, and a consequence of a spherical cavity)",NOT DEMONSTRATED
-204,Toroid sacred geometry nested.,D,D,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
-205,Helios myth sun circling Earth.,D,D,D16,World mythologies depict a circling sun or a covering sky,,,,,UNFALSIFIABLE
-206,Sundial shadow metaphor.,D,D,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
-207,Mystical cosmography observer central.,D,D,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
-208,Lunar ranging fixed baseline.,A,A-EXP,A20,Lunar laser ranging shows a fixed baseline,,,,Apollo/Lunokhod retroreflector ranging,NOT DEMONSTRATED
-209,Eclipse timing by rotating sky.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-210,Seasonal stars via dome.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-211,Constant air pressure bands.,A,A-EXP,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-212,Jet streams sun-driven.,A,A-EXP,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-213,Perfect star circles.,B,B,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
-214,No coriolis coding in drones.,A,A-EXP,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
-215,Marine sextant geocentric.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-216,Radar ECEF coordinates.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-217,Flat radar horizon.,B,B,B11,"Radar, LiDAR, photogrammetry and sonar assume a plane",,,,,MISLEADING
-218,Venus transits epicyclic math.,D,D,D03,Geocentric/Ptolemaic models made accurate predictions,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,STANDARD PHYSICS
-219,Solar noon symmetry.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-220,Constant solar diameter.,B,B,B10,Sun and Moon appear the same size; solar diameter constant,Samuel Rowbotham,Earth Not a Globe,1865,,MISLEADING
-221,Refraction invoked for curvature.,B,B,B07,Refraction is invoked ad hoc to rescue curvature,Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
-222,Repeated long-range visibility.,B,B,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
-223,Surveying plane assumption.,B,B,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
-224,No rotation proof mechanical.,A,A-EXP,A26,No orbital acceleration or rotation has ever been directly detected,Walter van der Kamp,De Labore Solis,1988,,SELF-CONTRADICTED
-225,Ring laser gyro corrections.,A,A-EXP,A07,Gyroscopes / ring-laser gyros show no Earth rotation,Bob Knodel,GlobeBusters / Behind the Curve,2018,Sagnac 1913; standard ring-laser INS engineering,SELF-CONTRADICTED
-226,Fiber Sagnac frame-dependent.,A,A-EXP,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
-227,Weather balloons drift anomaly.,A,A-EXP,A16,High-altitude balloon drift and sun-angle anomalies,,,,,NOT DEMONSTRATED
-228,Horizon level rocket footage.,B,B,B14,Rocket and balloon footage shows a flat horizon,Charles K. Johnson,Flat Earth News,1972,,MISLEADING
-229,Gyrocompass sky-locked.,A,A-EXP,A19,"Gyrocompasses are sky-locked, not Earth-locked",,,,Gyrocompass operating principle,SELF-CONTRADICTED
-230,Stellar scintillation isotropy.,E,E,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
-231,Nav systems Earth-fixed.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-232,Gravimeter constancy.,A,A-EXP,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED
-233,Tidal nodes sky torque.,A,A-EXP,A27,Tides explained by sky/firmament torque,,,,,NOT DEMONSTRATED
-234,Magnetosphere Earth-centered.,E,E,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
-235,Aurora curtains Earth-focused.,E,E,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
-236,Flight times symmetric.,A,A-EXP,A08,Aircraft don't compensate for spin; east/west flight times symmetric,Samuel Rowbotham,Earth Not a Globe,1865,Inertial navigation systems measure Earth rate on every flight,REFUTED
-237,Balloon sun-angle mismatch.,A,A-EXP,A16,High-altitude balloon drift and sun-angle anomalies,,,,,NOT DEMONSTRATED
-238,Bolide entry clustering.,E,E,E16,"Meteor, bolide and micrometeor distributions",,,,,STANDARD PHYSICS
-239,Meteor showers calendar-fixed.,E,E,E16,"Meteor, bolide and micrometeor distributions",,,,,STANDARD PHYSICS
-240,Stellar proper motion tiny.,A,A-EXP,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
-241,No annual airglow wind.,A,A-EXP,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-242,Micrometeor isotropy.,E,E,E16,"Meteor, bolide and micrometeor distributions",,,,,STANDARD PHYSICS
-243,Solar wind bow shock centered.,E,E,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
-244,Satellite ground tracks Earth-based.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-245,Tidal resonance geocentric.,A,A-EXP,A27,Tides explained by sky/firmament torque,,,,,NOT DEMONSTRATED
-246,Equatorial calm belts.,A,A-EXP,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-247,Trade winds sun-driven.,A,A-EXP,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-248,Bird migration sky cues.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-249,Pendulum building sensitivity.,A,A-EXP,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED
-250,Torsion balance null variation.,A,A-EXP,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED
-251,Seiche oscillations periodic.,A,A-EXP,A27,Tides explained by sky/firmament torque,,,,,NOT DEMONSTRATED
-252,Tidal bores moon visual timing.,A,A-EXP,A27,Tides explained by sky/firmament torque,,,,,NOT DEMONSTRATED
-253,Solar tables geocentric.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-254,Analemma lamp artifact.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-255,Sun apparent speed constant.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-256,Atmospheric superrotation contradiction.,A,A-EXP,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-257,No equatorial centrifugal relief.,A,A-EXP,A13,No centrifugal effects felt; equatorial bulge has another cause,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-258,Ballistics ignore rotation.,A,A-EXP,A14,Ballistics and artillery ignore Earth's rotation,Samuel Rowbotham,Earth Not a Globe,1865,Standard long-range fire-control tables,REFUTED
-259,Bridges no curvature allowance.,B,B,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
-260,Tower sight lines beyond curve.,B,B,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
-261,Microwave links flat.,B,B,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
-262,Laser canal tests flat.,B,B,B03,Bedford Level / laser canal tests show no curvature,Samuel Rowbotham,Old Bedford Canal trials,1838,Wallace 1870; Oldham 1901,REFUTED
-263,Mirage optical ducts.,B,B,B13,Mirage and optical ducting explain far sightings,,,,,SELF-CONTRADICTED
-264,No naked-eye parallax.,A,A-EXP,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
-265,Planet brightness epicycles.,D,D,D03,Geocentric/Ptolemaic models made accurate predictions,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,STANDARD PHYSICS
-266,Libration perspective optical.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-267,Constellation stability.,B,B,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
-268,Wind bands sun-synced.,A,A-EXP,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-269,Cloud opposite spin.,A,A-EXP,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-270,Ring stability issue.,A,A-EXP,A25,Orbital / lunar / ring stability objections,,,,,NOT DEMONSTRATED
-271,Lightning frequency sun path.,A,A-EXP,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-272,Any point inertial possible.,A,A-REL,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
-273,GR allows rotating universe.,A,A-REL,R05,GR admits rotating-universe solutions / frame dragging,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gödel 1949; Lense–Thirring 1918; Gravity Probe B,MISLEADING
-274,Lense–Thirring frame dragging.,A,A-REL,R05,GR admits rotating-universe solutions / frame dragging,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gödel 1949; Lense–Thirring 1918; Gravity Probe B,MISLEADING
-275,Mach inertia relation.,A,A-REL,R02,Mach's principle / relational mechanics allows a fixed Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Ernst Mach, The Science of Mechanics (1883)",STANDARD PHYSICS
-276,Only relative motion observable.,A,A-REL,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
-277,GR coordinate freedom.,A,A-REL,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
-278,Metric tensors Earth-centered.,A,A-REL,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-279,Null experiments fit rest Earth.,A,A-EXP,A01,Michelson–Morley null proves Earth is not moving,Walter van der Kamp,The Heart of the Matter,1968,"Michelson & Morley 1887, Am. J. Sci. 34:333",STANDARD PHYSICS
-280,Einstein equations symmetric.,A,A-REL,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
-281,Sagnac proves apparatus rotation.,A,A-EXP,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
-282,GPS Earth-centered corrections.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-283,ECI/ECEF transforms geocentric.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-284,Fermat with rotating medium.,A,A-REL,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-285,Quantum observer-defined frames.,A,A-REL,R10,Quantum observer-defined frames put the observer at the centre,,,,,MISLEADING
-286,Gauge freedom equality.,A,A-REL,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-287,Covariance of tensor math.,A,A-REL,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-288,Cosmological constant fine-tuned Earthward.,D,D,D13,"Meaning, teleology and fine-tuning imply centrality",Robert Sungenis,The Principle (film),2014,,UNFALSIFIABLE
-289,Ether stationary proposals.,A,A-EXP,A12,Dayton Miller detected a real aether drift that was suppressed,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Miller 1933, Rev. Mod. Phys. 5:203; Shankland et al. 1955, Rev. Mod. Phys. 27:167",REFUTED
-290,Scalar–tensor geocentric variants.,A,A-REL,R07,Alternative gravity theories admit geocentric variants,,,,,NOT DEMONSTRATED
-291,Teleparallel GR alternatives.,A,A-REL,R07,Alternative gravity theories admit geocentric variants,,,,,NOT DEMONSTRATED
-292,Coriolis terms transferred to sky.,A,A-EXP,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
-293,No falsifier distinguishing frames.,A,A-REL,R11,No falsifier distinguishes the frames; multiple cosmologies fit the data,Gerardus Bouw,Geocentricity,1992,,SELF-CONTRADICTED
-294,Preferred CMB dipole Earthward.,E,E,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
-295,Relational mechanics fixed Earth.,A,A-REL,R02,Mach's principle / relational mechanics allows a fixed Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Ernst Mach, The Science of Mechanics (1883)",STANDARD PHYSICS
-296,Hamiltonian Earth-origin simplicity.,A,A-REL,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-297,Anthropic coordinate justification.,A,A-REL,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-298,Kinematical equivalence.,A,A-REL,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
-299,Navigation inertial Earth base.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-300,Variational minimal paths Earth frame.,A,A-REL,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-301,Light cone tilt reinterpretation.,A,A-REL,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-302,Symmetry breaking selects Earth.,A,A-REL,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-303,Noether charges Earth-defined.,A,A-REL,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-304,Conservation in Earth frame.,A,A-REL,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-305,Boundary conditions Earth surface.,A,A-REL,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-306,Barycentric transforms yield observer ephemerides.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-307,Ephemeris time Earth-defined.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-308,Parallax equations Earth start.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-309,Center equals measurement origin.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-310,Multiple cosmologies fit data.,A,A-REL,R11,No falsifier distinguishes the frames; multiple cosmologies fit the data,Gerardus Bouw,Geocentricity,1992,,SELF-CONTRADICTED
-311,Gauge choice alters story only.,A,A-REL,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-312,Renormalization frame Earth lab.,A,A-REL,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-313,Synchronization conventions Earth-based.,A,A-REL,R09,Clock synchronisation / one-way light speed is conventional,,,,Reichenbach–Grünbaum conventionality thesis,STANDARD PHYSICS
-314,One-way light speed conventional.,A,A-REL,R09,Clock synchronisation / one-way light speed is conventional,,,,Reichenbach–Grünbaum conventionality thesis,STANDARD PHYSICS
-315,Metrology standard Earth clocks.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-316,Equivalence local labs rest.,A,A-REL,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
-317,No global inertial frame proven.,A,A-REL,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
-318,Horizon problem Earth initial data.,A,A-REL,R11,No falsifier distinguishes the frames; multiple cosmologies fit the data,Gerardus Bouw,Geocentricity,1992,,SELF-CONTRADICTED
-319,Geodesics drawn from observers.,A,A-REL,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-320,CMB Axis of Evil.,E,E,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-321,Quasar polarization alignment.,E,E,E04,Quasar polarization alignment and large quasar groups,,,,"Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
-322,Large quasar groups ecliptic.,E,E,E04,Quasar polarization alignment and large quasar groups,,,,"Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
-323,Radio galaxy handedness asymmetry.,E,E,E05,Galaxy spin handedness / hemispheric bias,,,,"Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",REFUTED
-324,Dipole anisotropy exact fit.,E,E,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
-325,Hubble tension location bias.,E,E,E09,Hubble tension shows we are at a special location,,,,"Riess et al. 2022, ApJL 934:L7; Kenworthy et al. 2019, ApJ 875:145",MISLEADING
-326,Cold Spot preferred axis.,E,E,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
-327,Dark flow directionality.,E,E,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
-328,GRB anisotropy.,E,E,E07,Gamma-ray-burst anisotropy,,,,,NOT DEMONSTRATED
-329,Galaxy spin hemisphere bias.,E,E,E05,Galaxy spin handedness / hemispheric bias,,,,"Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",REFUTED
-330,Cluster axes ecliptic.,E,E,E06,Dwarf-galaxy planes and satellite alignments,,,,"Sawala et al. 2023, Nature Astronomy 7:481",MISLEADING
-331,ISW correlations ecliptic-linked.,E,E,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
-332,Zodiacal contamination persistent.,E,E,E10,Zodiacal dust and Kuiper structure show ecliptic symmetry,,,,,STANDARD PHYSICS
-333,Kinematic SZ ambiguity.,E,E,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
-334,Supernova dimming alternatives.,E,E,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",,,,,NOT DEMONSTRATED
-335,BAO fits geocentric models.,E,E,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",,,,,NOT DEMONSTRATED
-336,Cosmic isotropy violations.,E,E,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
-337,Dwarf galaxy planes coherence.,E,E,E06,Dwarf-galaxy planes and satellite alignments,,,,"Sawala et al. 2023, Nature Astronomy 7:481",MISLEADING
-338,Satellite alignments.,E,E,E06,Dwarf-galaxy planes and satellite alignments,,,,"Sawala et al. 2023, Nature Astronomy 7:481",MISLEADING
-339,CMB hemispheric power asymmetry.,E,E,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
-340,Low-l multipole ecliptic alignment.,E,E,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-341,Parity asymmetry.,E,E,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
-342,Variance anomalies.,E,E,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
-343,Kinematic quadrupole debate.,E,E,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
-344,Planck systematics Earthward.,E,E,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-345,VLBI Earth-fixed.,E,E,E15,"VLBI, interferometry and Gaia reductions assume an Earth frame",,,,,MISLEADING
-346,Interferometry ground assumption.,E,E,E15,"VLBI, interferometry and Gaia reductions assume an Earth frame",,,,,MISLEADING
-347,Gaia reduction flexible.,E,E,E15,"VLBI, interferometry and Gaia reductions assume an Earth frame",,,,,MISLEADING
-348,Zodiacal cloud symmetry.,E,E,E10,Zodiacal dust and Kuiper structure show ecliptic symmetry,,,,,STANDARD PHYSICS
-349,Kuiper clumps ecliptic.,E,E,E10,Zodiacal dust and Kuiper structure show ecliptic symmetry,,,,,STANDARD PHYSICS
-350,Dust inflow apex mismatch.,E,E,E10,Zodiacal dust and Kuiper structure show ecliptic symmetry,,,,,STANDARD PHYSICS
-351,Oort cloud unnecessary.,D,D,D14,Dark matter / dark energy / MOND are modern epicycles,Robert Sungenis,"Galileo Was Wrong, Vol. I",2006,,MISLEADING
-352,MOND epicycle analogy.,D,D,D14,Dark matter / dark energy / MOND are modern epicycles,Robert Sungenis,"Galileo Was Wrong, Vol. I",2006,,MISLEADING
-353,Dark energy patching.,D,D,D14,Dark matter / dark energy / MOND are modern epicycles,Robert Sungenis,"Galileo Was Wrong, Vol. I",2006,,MISLEADING
-354,Copernican principle assumption.,A,A-REL,R12,The Copernican principle is an unproven assumption,Robert Sungenis & Robert Bennett,The Principle (film),2014,"Zhang & Stebbins 2011, PRL 107:041301",REFUTED
-355,Redshift quantization concentric.,E,E,E12,Redshift quantization in concentric shells around Earth,Gerardus Bouw,Geocentricity,1992,Tifft 1976; refuted by 2dF/SDSS surveys,REFUTED
-356,Tully–Fisher scatter direction.,E,E,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",,,,,NOT DEMONSTRATED
-357,Lyman-alpha anisotropy.,E,E,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",,,,,NOT DEMONSTRATED
-358,Cosmic birefringence ecliptic.,E,E,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",,,,,NOT DEMONSTRATED
-359,Radio dipoles ecliptic.,E,E,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
-360,Solar system plane=CMB.,E,E,E11,The solar-system plane coincides with the CMB axis,Robert Sungenis & Rick DeLano,The Principle (film),2014,,MISLEADING
-361,Sun barycenter wobble epicyclic.,E,E,E14,"Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",,,,,REFUTED
-362,Planet spacing harmonics.,D,D,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
-363,Lunar node locks.,D,D,D19,Eclipse and lunar cycles are tuned to human timekeeping,,,,,UNFALSIFIABLE
-364,Saros cycle human time.,D,D,D19,Eclipse and lunar cycles are tuned to human timekeeping,,,,,UNFALSIFIABLE
-365,Metonic precision.,D,D,D19,Eclipse and lunar cycles are tuned to human timekeeping,,,,,UNFALSIFIABLE
-366,Draconic month tuning.,D,D,D19,Eclipse and lunar cycles are tuned to human timekeeping,,,,,UNFALSIFIABLE
-367,Ancient stone calendars geocentric.,D,D,D01,All ancient cultures were geocentric,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
-368,Eclipse paths on Earth.,A,A-EXP,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-369,Naked-eye astronomy topocentric.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-370,Geodesy Earth-centered.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-371,WGS84 ECEF.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-372,ITRF Earth crust reference.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-373,Airliner FMS Earth grid.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-374,INS Earth updates.,A,A-EXP,A07,Gyroscopes / ring-laser gyros show no Earth rotation,Bob Knodel,GlobeBusters / Behind the Curve,2018,Sagnac 1913; standard ring-laser INS engineering,SELF-CONTRADICTED
-375,VOR network Earth bearings.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-376,Great-circle math.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-377,Nautical almanac geocentric.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-378,Harbor lights flat lines.,B,B,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
-379,Lighthouse visibility.,B,B,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
-380,Undersea cables straight.,B,B,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
-381,Oil rig sightlines.,B,B,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
-382,Leveling equipotential planes.,B,B,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
-383,Hydrology planar.,B,B,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
-384,River grades.,B,B,B01,"Water finds its level, therefore the surface is a plane",Samuel Rowbotham,Zetetic Astronomy,1849,,REFUTED
-385,Pipelines straight.,B,B,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
-386,Railroads negligible curvature.,B,B,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
-387,Highways horizon.,B,B,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
-388,Wind farm layout flat.,B,B,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
-389,Drone RTK Earth grid.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-390,Photogrammetry planar.,B,B,B11,"Radar, LiDAR, photogrammetry and sonar assume a plane",,,,,MISLEADING
-391,LiDAR ECEF.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-392,SAR interferometry.,B,B,B11,"Radar, LiDAR, photogrammetry and sonar assume a plane",,,,,MISLEADING
-393,Seismology Earth-fixed.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-394,Volcano infrasound triangulation.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-395,Mining surveys flat.,B,B,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
-396,Architecture plumb/level universal.,B,B,B09,Plumb lines are perpendicular everywhere,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-397,Skyscraper vertical stable.,B,B,B09,Plumb lines are perpendicular everywhere,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-398,Pendulum clocks stable.,A,A-EXP,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED
-399,GNSS pseudorange Earth clocks.,A,A-REL,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-400,Bathymetry sonar straight.,B,B,B11,"Radar, LiDAR, photogrammetry and sonar assume a plane",,,,,MISLEADING
-401,Ship optical range.,B,B,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
-402,Harbor mirage charts.,B,B,B13,Mirage and optical ducting explain far sightings,,,,,SELF-CONTRADICTED
-403,Tunnel breakthroughs align.,B,B,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
-404,Power line sag flat.,B,B,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
-405,Microwave Fresnel zone flat.,B,B,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
-406,Aerial refueling flat line.,B,B,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
-407,Artillery geocentric mils.,A,A-EXP,A14,Ballistics and artillery ignore Earth's rotation,Samuel Rowbotham,Earth Not a Globe,1865,Standard long-range fire-control tables,REFUTED
-408,Polar navigation star dome.,B,B,B12,Polar navigation and dead reckoning imply a dome/disc,Charles K. Johnson,Flat Earth News,1972,,REFUTED
-409,Dead reckoning dome compass.,B,B,B12,Polar navigation and dead reckoning imply a dome/disc,Charles K. Johnson,Flat Earth News,1972,,REFUTED
-410,Psalm 75:3 pillars of Earth.,C,C,C03,Proof-texts on foundations and pillars,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-411,Job 9:6 shaken Earth.,C,C,C03,Proof-texts on foundations and pillars,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-412,Job 26:7 hangs on nothing.,C,C,C10,Job 26:7 — 'he hangs the earth on nothing',,,,,SELF-CONTRADICTED
-413,Proverbs 8:27 compass on face.,C,C,C05,"Circle, four corners and ends of the Earth",Rob Skiba,biblical-cosmology teaching,2015,,SELF-CONTRADICTED
-414,Isaiah 40:22 circle of Earth.,C,C,C05,"Circle, four corners and ends of the Earth",Rob Skiba,biblical-cosmology teaching,2015,,SELF-CONTRADICTED
-415,1 Sam 2:8 pillars set world.,C,C,C03,Proof-texts on foundations and pillars,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-416,Psalm 61:2 ends of Earth.,C,C,C05,"Circle, four corners and ends of the Earth",Rob Skiba,biblical-cosmology teaching,2015,,SELF-CONTRADICTED
-417,Psalm 19 line through Earth.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-418,Eccles 1:6 wind circuits.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-419,Matthew 5:35 Earth footstool.,C,C,C06,Anthropocentric creation / Earth as footstool,Wilbur Glenn Voliva,Zion sermons,1915,,UNFALSIFIABLE
-420,Revelation 7:1 four corners.,C,C,C05,"Circle, four corners and ends of the Earth",Rob Skiba,biblical-cosmology teaching,2015,,SELF-CONTRADICTED
-421,Revelation 20:8 four quarters.,C,C,C05,"Circle, four corners and ends of the Earth",Rob Skiba,biblical-cosmology teaching,2015,,SELF-CONTRADICTED
-422,Joshua 10 moving sun.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-423,Habakkuk 3 stationary heavens.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-424,Tobit 13 dome heaven.,C,C,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-425,1 Enoch concentric heavens.,C,C,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-426,Jubilees lights for Earth.,C,C,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-427,Church Fathers affirm rest.,C,C,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
-428,Scholastics harmonize Aristotle.,C,C,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
-429,Liturgy calendar solar.,C,C,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
-430,Temple as cosmos model.,D,D,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
-431,Sacred east orientation.,C,C,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
-432,Iconography concentric Christ.,C,C,C09,Church art and iconography as cosmology,,,,,UNFALSIFIABLE
-433,Cathedral maps Earth center.,C,C,C09,Church art and iconography as cosmology,,,,,UNFALSIFIABLE
-434,Creation focused on man.,C,C,C06,Anthropocentric creation / Earth as footstool,Wilbur Glenn Voliva,Zion sermons,1915,,UNFALSIFIABLE
-435,Psalm 19 heavens declare glory.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-436,Christ as “Sun of righteousness” circling mankind.,C,C,C09,Church art and iconography as cosmology,,,,,UNFALSIFIABLE
-437,Stars falling toward Earth imagery in Apocalypse.,C,C,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-438,Four winds from Earth's corners.,C,C,C05,"Circle, four corners and ends of the Earth",Rob Skiba,biblical-cosmology teaching,2015,,SELF-CONTRADICTED
-439,Psalm 104 firmament supporting lights.,C,C,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-440,Temple architecture mirroring revolving heavens.,D,D,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
-441,Processional worship keyed to sun/moon over Earth.,C,C,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
-442,Sacred calendars anchored to Earth-based observations.,C,C,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
-443,Early catechisms reflecting immovable Earth language.,C,C,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
-444,Medieval sermons describing concentric heavens.,C,C,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
-445,Patristic commentaries on the sun's “course.”,C,C,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
-446,Liturgical eastward orientation assumes sun's path.,C,C,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
-447,Monastic timekeeping by geocentric sky cycles.,C,C,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
-448,Church art: mandorla over Earth-centered cosmos.,C,C,C09,Church art and iconography as cosmology,,,,,UNFALSIFIABLE
-449,"Biblical metaphors of “pillars,” “foundations,” “footstool.”",C,C,C03,Proof-texts on foundations and pillars,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-450,Prophetic visions framed from an Earth-fixed vantage.,C,C,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
-451,"Axis mundi symbols (world tree, mountain) worldwide.",D,D,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
-452,Djed pillar / Jachin & Boaz under starry vaults.,D,D,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-453,Omphalos stones marking the world's navel/center.,D,D,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
-454,Jerusalem/Delphi as “navel of the world” motifs.,D,D,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
-455,"Mandalas with still center, rotating periphery.",D,D,D05,Mandala / still-centre symbolism,Mircea Eliade (misapplied),Patterns in Comparative Religion,1949,,UNFALSIFIABLE
-456,Dendera zodiac as dome above Earth.,D,D,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
-457,Mithraic iconography mapping stellar rotation.,D,D,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-458,Rosicrucian temple diagrams: cosmos around sanctum.,D,D,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-459,Masonic tracing boards beneath starry canopy.,D,D,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-460,"Hermetic altar at the world center (“as above, so below”).",D,D,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
-461,Alchemy: Earth as [truncated in source],D,D,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_work,originator_year,real_source_cited,verdict
+1,Michelson–Morley experiment null result.,A,A-EXP,ARG-A01,A01,Michelson–Morley null proves Earth is not moving,Walter van der Kamp,The Heart of the Matter,1968,"Michelson & Morley 1887, Am. J. Sci. 34:333",STANDARD PHYSICS
+2,Michelson–Gale ether drift detection.,A,A-EXP,ARG-A02,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
+3,Sagnac effect consistent with stationary Earth.,A,A-EXP,ARG-A02,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
+4,Airy's failure to detect starlight motion.,A,A-EXP,ARG-A03,A03,“Airy's failure” — water-filled telescope shows no Earth motion,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"G. B. Airy 1871, Proc. Roy. Soc. London, pp. 35–39",REFUTED
+5,Lack of stellar parallax in early measurements.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
+6,Coriolis effects reinterpreted as rotating heavens.,A,A-EXP,ARG-A09,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
+7,Stellar aberration optical not mechanical.,A,A-EXP,ARG-A04,A04,"Stellar aberration is optical/parallax, not Earth's motion",Walter van der Kamp,Bulletin of the Tychonian Society,1970s,James Bradley 1729,REFUTED
+8,Constant stellar angular sizes.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
+9,Uniform star distribution in all directions.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
+10,Michelson–Pease null rotation detection.,A,A-EXP,ARG-A11,A11,Michelson–Pease–Pearson null result,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Pease & Pearson 1929, JOSA 18(3):181",STANDARD PHYSICS
+11,Foucault pendulum explainable by rotating firmament.,A,A-EXP,ARG-A06,A06,Foucault pendulum explained by a rotating firmament,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Léon Foucault 1851,STANDARD PHYSICS
+12,Gyroscope anomalies indicating no rotation.,A,A-EXP,ARG-A07,A07,Gyroscopes / ring-laser gyros show no Earth rotation,Bob Knodel,GlobeBusters / Behind the Curve,2018,Sagnac 1913; standard ring-laser INS engineering,SELF-CONTRADICTED
+13,Aircraft navigation not compensating for spin.,A,A-EXP,ARG-A08,A08,Aircraft don't compensate for spin; east/west flight times symmetric,Samuel Rowbotham,Earth Not a Globe,1865,Inertial navigation systems measure Earth rate on every flight,REFUTED
+14,Bedford Level and similar flat-water laser tests.,B,B,ARG-B03,B03,Bedford Level / laser canal tests show no curvature,Samuel Rowbotham,Old Bedford Canal trials,1838,Wallace 1870; Oldham 1901,REFUTED
+15,Geostationary satellites fit rotating sky model.,A,A-EXP,ARG-A21,A21,Satellites and geostationary orbits reinterpreted in an Earth-fixed frame,Samuel Shenton,International Flat Earth Research Society,1957,,STANDARD PHYSICS
+16,Perfect circular star trails around Polaris.,B,B,ARG-B08,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
+17,Polaris constant alignment over millennia.,B,B,ARG-B08,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
+18,No aberration variation over centuries.,A,A-EXP,ARG-A04,A04,"Stellar aberration is optical/parallax, not Earth's motion",Walter van der Kamp,Bulletin of the Tychonian Society,1970s,James Bradley 1729,REFUTED
+19,Gyroscopes stable absent recalibration.,A,A-EXP,ARG-A07,A07,Gyroscopes / ring-laser gyros show no Earth rotation,Bob Knodel,GlobeBusters / Behind the Curve,2018,Sagnac 1913; standard ring-laser INS engineering,SELF-CONTRADICTED
+20,Time dilation explainable without orbital motion.,A,A-EXP,ARG-A18,A18,GPS/time-dilation corrections work in an Earth frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,GPS relativistic clock corrections,STANDARD PHYSICS
+21,Ancient cosmologies uniformly geocentric.,D,D,ARG-D01,D01,All ancient cultures were geocentric,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
+22,Tycho Brahe's hybrid model.,D,D,ARG-D02,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
+23,Ptolemaic predictive accuracy.,D,D,ARG-D03,D03,Geocentric/Ptolemaic models made accurate predictions,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,STANDARD PHYSICS
+24,Church consistency with Scripture.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
+25,Pre-Copernican universal geocentrism.,D,D,ARG-D01,D01,All ancient cultures were geocentric,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
+26,Relativity permits stationary Earth frame.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+27,Mach's principle supports fixed Earth possibility.,A,A-REL,ARG-R02,R02,Mach's principle / relational mechanics allows a fixed Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Ernst Mach, The Science of Mechanics (1883)",STANDARD PHYSICS
+28,Einstein's equivalence of motion.,A,A-REL,ARG-R04,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
+29,No experiment proving absolute motion.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+30,Modern astronomy uses Earth-centered coordinates.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+31,Equal apparent size of Sun and Moon.,B,B,ARG-B10,B10,Sun and Moon appear the same size; solar diameter constant,Samuel Rowbotham,Earth Not a Globe,1865,,MISLEADING
+32,Celestial sphere rotation about observer.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+33,Planetary retrograde motion fit geocentric math.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+34,Day–night cycle from firmament rotation.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+35,Lunar phases explainable without orbit.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+36,No visible rotation of atmosphere or clouds.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+37,No naked-eye parallax.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
+38,Star rotation constant 24 hours.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+39,Precession from dome rotation.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+40,CMB axis aligned with Earth.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
+41,Human perception stationary.,D,D,ARG-D11,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
+42,Water finds level.,B,B,ARG-B01,B01,"Water finds its level, therefore the surface is a plane",Samuel Rowbotham,Zetetic Astronomy,1849,,REFUTED
+43,Horizon flat in long-distance views.,B,B,ARG-B02,B02,The horizon is flat and rises to eye level,Samuel Rowbotham,Zetetic Astronomy,1849,,REFUTED
+44,Horizon rises to eye level.,B,B,ARG-B02,B02,The horizon is flat and rises to eye level,Samuel Rowbotham,Zetetic Astronomy,1849,,REFUTED
+45,Plane flight times consistent with rest Earth.,A,A-EXP,ARG-A08,A08,Aircraft don't compensate for spin; east/west flight times symmetric,Samuel Rowbotham,Earth Not a Globe,1865,Inertial navigation systems measure Earth rate on every flight,REFUTED
+46,GPS Earth-centered.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+47,Surveying assumes stationary ground.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
+48,Plumb lines perpendicular worldwide.,B,B,ARG-B09,B09,Plumb lines are perpendicular everywhere,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+49,Atmosphere concentric layers.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+50,Engineering curvature corrections unnecessary.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
+51,Relativity allows Earth-centered math.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+52,Indistinguishable rotating universe equivalence.,A,A-REL,ARG-R05,R05,GR admits rotating-universe solutions / frame dragging,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gödel 1949; Lense–Thirring 1918; Gravity Probe B,MISLEADING
+53,Conservation of momentum paradox.,A,A-EXP,ARG-A17,A17,Conservation-of-momentum paradox for a moving Earth,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+54,"No wind drag from 67,000 mph orbit.",A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+55,Equatorial bulge alternative cause.,A,A-EXP,ARG-A13,A13,No centrifugal effects felt; equatorial bulge has another cause,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+56,Water rotation electromagnetic explanation.,A,A-EXP,ARG-A09,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
+57,Equivalence principle permits rest frame.,A,A-REL,ARG-R04,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
+58,Relativistic coordinates Earth-valid.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+59,Light bending symmetric about Earth.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
+60,Redshift symmetry concentric around Earth.,E,E,ARG-E12,E12,Redshift quantization in concentric shells around Earth,Gerardus Bouw,Geocentricity,1992,Tifft 1976; refuted by 2dF/SDSS surveys,REFUTED
+61,Psalm 93:1 immovable world.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
+62,Psalm 104:5 Earth on foundations.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
+63,1 Chron 16:30 firmly established world.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
+64,Eccles 1:5 sun rises and sets.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+65,Joshua 10:13 sun stood still.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+66,Habakkuk 3:11 sun and moon halted.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+67,Genesis 1:14–18 lights set for Earth.,C,C,ARG-C04,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
+68,Job 38:4 Earth's foundation.,C,C,ARG-C03,C03,Proof-texts on foundations and pillars,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
+69,Isaiah 45:18 created to be inhabited.,C,C,ARG-C06,C06,Anthropocentric creation / Earth as footstool,Wilbur Glenn Voliva,Zion sermons,1915,,UNFALSIFIABLE
+70,Psalm 19 sun's tabernacle.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+71,Centrality of humanity symbolism.,C,C,ARG-C06,C06,Anthropocentric creation / Earth as footstool,Wilbur Glenn Voliva,Zion sermons,1915,,UNFALSIFIABLE
+72,Firmament as real structure.,C,C,ARG-C04,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
+73,Sun as servant light.,C,C,ARG-C06,C06,Anthropocentric creation / Earth as footstool,Wilbur Glenn Voliva,Zion sermons,1915,,UNFALSIFIABLE
+74,Ancient temple as cosmic model.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
+75,Divine order centered on man.,C,C,ARG-C06,C06,Anthropocentric creation / Earth as footstool,Wilbur Glenn Voliva,Zion sermons,1915,,UNFALSIFIABLE
+76,Occult roots of heliocentrism.,D,D,ARG-D10,D10,Heliocentrism has occult/masonic roots,Marshall Hall,The Earth is not Moving,1991,,NOT DEMONSTRATED
+77,Early theologians affirmed geocentrism.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
+78,Medieval hierarchy centered on Earth.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
+79,Sun's circuit divine metaphor.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+80,Observation inherently geocentric.,D,D,ARG-D11,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
+81,No empirical distinction of motion.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+82,Heliocentric gravity assumptions unproven.,A,A-EXP,ARG-A23,A23,Gravity / the heliocentric mechanism is unproven,Wilbur Glenn Voliva,Zion sermons & Leaves of Healing,1915,,REFUTED
+83,Simplicity favors geocentrism.,D,D,ARG-D12,D12,Simplicity / common sense favours a fixed Earth,Samuel Rowbotham,Zetetic Astronomy,1849,,NOT DEMONSTRATED
+84,Perception reliable evidence.,D,D,ARG-D11,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
+85,Universe ordered around observer.,D,D,ARG-D13,D13,"Meaning, teleology and fine-tuning imply centrality",Robert Sungenis,The Principle (film),2014,,UNFALSIFIABLE
+86,Dark matter patchwork like epicycles.,D,D,ARG-D14,D14,Dark matter / dark energy / MOND are modern epicycles,Robert Sungenis,"Galileo Was Wrong, Vol. I",2006,,MISLEADING
+87,Consciousness defines center.,D,D,ARG-D11,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
+88,No proof of revolution.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+89,Axis of Evil alignment.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
+90,Quasar distribution symmetry.,E,E,ARG-E04,E04,Quasar polarization alignment and large quasar groups,,,,"Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
+91,Cosmic anisotropy Earth-oriented.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
+92,Pioneer anomaly Earth-directed.,E,E,ARG-E08,E08,Pioneer and flyby anomalies are Earth-directed,,,,"Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",REFUTED
+93,Angular momentum imbalance.,E,E,ARG-E18,E18,Solar-system angular-momentum distribution problem,,,,,STANDARD PHYSICS
+94,Planck data Earth preference.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
+95,Lunar stability conflict.,A,A-EXP,ARG-A25,A25,Orbital / lunar / ring stability objections,,,,,NOT DEMONSTRATED
+96,Satellite stability Earth-frame.,A,A-EXP,ARG-A21,A21,Satellites and geostationary orbits reinterpreted in an Earth-fixed frame,Samuel Shenton,International Flat Earth Research Society,1957,,STANDARD PHYSICS
+97,Constant solar diameter.,B,B,ARG-B10,B10,Sun and Moon appear the same size; solar diameter constant,Samuel Rowbotham,Earth Not a Globe,1865,,MISLEADING
+98,Hubble tension observation bias.,E,E,ARG-E09,E09,Hubble tension shows we are at a special location,,,,"Riess et al. 2022, ApJL 934:L7; Kenworthy et al. 2019, ApJ 875:145",MISLEADING
+99,Michelson–Morley replications null.,A,A-EXP,ARG-A01,A01,Michelson–Morley null proves Earth is not moving,Walter van der Kamp,The Heart of the Matter,1968,"Michelson & Morley 1887, Am. J. Sci. 34:333",STANDARD PHYSICS
+100,Miller aether drift detections.,A,A-EXP,ARG-A12,A12,Dayton Miller detected a real aether drift that was suppressed,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Miller 1933, Rev. Mod. Phys. 5:203; Shankland et al. 1955, Rev. Mod. Phys. 27:167",REFUTED
+101,Flyby anomalies Earth-centered.,E,E,ARG-E08,E08,Pioneer and flyby anomalies are Earth-directed,,,,"Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",REFUTED
+102,GPS relativity Earth frame.,A,A-EXP,ARG-A18,A18,GPS/time-dilation corrections work in an Earth frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,GPS relativistic clock corrections,STANDARD PHYSICS
+103,Inconsistent stellar parallax.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
+104,Solar inertial wobble about Earth.,E,E,ARG-E14,E14,"Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",,,,,REFUTED
+105,Stable equatorial bulge.,A,A-EXP,ARG-A13,A13,No centrifugal effects felt; equatorial bulge has another cause,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+106,Coriolis equivalence with sky rotation.,A,A-EXP,ARG-A09,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
+107,Atmospheric coupling unexplained.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+108,High-altitude balloons drift anomaly.,A,A-EXP,ARG-A16,A16,High-altitude balloon drift and sun-angle anomalies,,,,,NOT DEMONSTRATED
+109,Geostationary satellites reinterpretation.,A,A-EXP,ARG-A21,A21,Satellites and geostationary orbits reinterpreted in an Earth-fixed frame,Samuel Shenton,International Flat Earth Research Society,1957,,STANDARD PHYSICS
+110,Flight symmetry east/west.,A,A-EXP,ARG-A08,A08,Aircraft don't compensate for spin; east/west flight times symmetric,Samuel Rowbotham,Earth Not a Globe,1865,Inertial navigation systems measure Earth rate on every flight,REFUTED
+111,Horizon tests flat.,B,B,ARG-B02,B02,The horizon is flat and rises to eye level,Samuel Rowbotham,Zetetic Astronomy,1849,,REFUTED
+112,Non-rotation gyroscope studies.,A,A-EXP,ARG-A07,A07,Gyroscopes / ring-laser gyros show no Earth rotation,Bob Knodel,GlobeBusters / Behind the Curve,2018,Sagnac 1913; standard ring-laser INS engineering,SELF-CONTRADICTED
+113,Ocean currents electromagnetic.,A,A-EXP,ARG-A09,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
+114,Artillery stationary calculations.,A,A-EXP,ARG-A14,A14,Ballistics and artillery ignore Earth's rotation,Samuel Rowbotham,Earth Not a Globe,1865,Standard long-range fire-control tables,REFUTED
+115,GPS Sagnac confirmation.,A,A-EXP,ARG-A02,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
+116,CMB ecliptic alignment.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
+117,Quasar alignment with ecliptic.,E,E,ARG-E04,E04,Quasar polarization alignment and large quasar groups,,,,"Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
+118,Relativistic invariance of frame.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+119,All ancient cultures geocentric.,D,D,ARG-D01,D01,All ancient cultures were geocentric,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
+120,Plato's Timaeus central Earth.,D,D,ARG-D02,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
+121,Aristotle's unmoved mover.,D,D,ARG-D02,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
+122,Ptolemy's spheres.,D,D,ARG-D02,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
+123,Tycho's geo-heliocentric compromise.,D,D,ARG-D02,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
+124,Early Church fathers.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
+125,Galileo debate empirical not faith.,D,D,ARG-D15,D15,"The Galileo affair was scientific, not religious",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
+126,Temples as world-centers.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
+127,Medieval art concentric heavens.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
+128,Navigation charts fixed pole.,B,B,ARG-B12,B12,Polar navigation and dead reckoning imply a dome/disc,Charles K. Johnson,Flat Earth News,1972,,REFUTED
+129,Mach's inertia explanation.,A,A-REL,ARG-R02,R02,Mach's principle / relational mechanics allows a fixed Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Ernst Mach, The Science of Mechanics (1883)",STANDARD PHYSICS
+130,Einstein admission of equivalence.,A,A-REL,ARG-R04,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
+131,No absolute frame.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+132,Equivalence principle validation.,A,A-REL,ARG-R04,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
+133,GR geocentric solutions possible.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+134,No orbital acceleration detected.,A,A-EXP,ARG-A26,A26,No orbital acceleration or rotation has ever been directly detected,Walter van der Kamp,De Labore Solis,1988,,SELF-CONTRADICTED
+135,Inertial frame symmetry.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+136,Quantum observer centrality.,A,A-REL,ARG-R10,R10,Quantum observer-defined frames put the observer at the centre,,,,,MISLEADING
+137,CMB rest frame small velocity.,E,E,ARG-E03,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
+138,Solar apex inconsistency.,E,E,ARG-E14,E14,"Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",,,,,REFUTED
+139,Sun's circular path daily.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+140,Ecliptic tilt constancy.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+141,Retrograde motion math valid.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+142,Moon's circular orbit.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+143,Constant constellations.,B,B,ARG-B08,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
+144,Polaris fixed.,B,B,ARG-B08,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
+145,Zodiacal alignment constant.,B,B,ARG-B08,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
+146,Planetary planes observer-aligned.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
+147,Celestial equator precision.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+148,Sun's declination repetition.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+149,Psalm 19:4–6 sun's course.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+150,Joshua 10 miracle sun stop.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+151,Habakkuk 3 celestial stillness.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+152,Chronicles 16:30 immovable Earth.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
+153,Psalm 96:10 fixed Earth.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
+154,Genesis 1:14–18 firmament lights.,C,C,ARG-C04,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
+155,Job 38 Earth foundation.,C,C,ARG-C03,C03,Proof-texts on foundations and pillars,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
+156,Eccles 1:5 sun's circuit.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+157,Isaiah 38 sundial reversal.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+158,Revelation 6:13 stars fall.,C,C,ARG-C04,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
+159,Microcosm–macrocosm correspondence.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
+160,Axis mundi doctrine.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
+161,Hermetic as above so below.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
+162,Sacred geometry centered on observer.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
+163,Temple cosmology orientation.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
+164,Four corners stability symbol.,C,C,ARG-C05,C05,"Circle, four corners and ends of the Earth",Rob Skiba,biblical-cosmology teaching,2015,,SELF-CONTRADICTED
+165,Kabbalistic Malkuth fixed.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+166,Alchemical fixed Earth.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+167,Geocentric astrology predictive.,D,D,ARG-D09,D09,Geocentric astrology and zodiacal symbolism as evidence,,,,,UNFALSIFIABLE
+168,Gnostic concentric heavens.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+169,Christian mystic heart-center.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+170,Rosicrucian dome symbolism.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+171,Solar Christ circling soul.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+172,Egyptian Nut and Geb model.,D,D,ARG-D16,D16,World mythologies depict a circling sun or a covering sky,,,,,UNFALSIFIABLE
+173,Hindu Mount Meru axis.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
+174,Norse Yggdrasil.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
+175,Tibetan mandalas still center.,D,D,ARG-D05,D05,Mandala / still-centre symbolism,Mircea Eliade (misapplied),Patterns in Comparative Religion,1949,,UNFALSIFIABLE
+176,Platonic solid cosmos.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
+177,Heaven within mirrors geometry.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
+178,Fixed versus volatile elements.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+179,Direct sensory stillness.,D,D,ARG-D11,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
+180,No felt centrifugal force.,A,A-EXP,ARG-A13,A13,No centrifugal effects felt; equatorial bulge has another cause,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+181,Simpler moving sky.,D,D,ARG-D12,D12,Simplicity / common sense favours a fixed Earth,Samuel Rowbotham,Zetetic Astronomy,1849,,NOT DEMONSTRATED
+182,Relativity of perception.,D,D,ARG-D11,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
+183,Human consciousness defines center.,D,D,ARG-D11,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
+184,Fine-tuning favors centrality.,D,D,ARG-D13,D13,"Meaning, teleology and fine-tuning imply centrality",Robert Sungenis,The Principle (film),2014,,UNFALSIFIABLE
+185,Teleological seasons fit Earth.,D,D,ARG-D13,D13,"Meaning, teleology and fine-tuning imply centrality",Robert Sungenis,The Principle (film),2014,,UNFALSIFIABLE
+186,Archetypal up/down symmetry.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
+187,Infinite universe removes meaning of center.,D,D,ARG-D13,D13,"Meaning, teleology and fine-tuning imply centrality",Robert Sungenis,The Principle (film),2014,,UNFALSIFIABLE
+188,Axis alignments repeating.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
+189,Galaxy spin bias.,E,E,ARG-E05,E05,Galaxy spin handedness / hemispheric bias,,,,"Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",REFUTED
+190,Anisotropy toward Earth.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
+191,Pioneer/Flyby anomalies repeated.,E,E,ARG-E08,E08,Pioneer and flyby anomalies are Earth-directed,,,,"Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",REFUTED
+192,Solar neutrino problem.,E,E,ARG-E14,E14,"Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",,,,,REFUTED
+193,Lunar ranging stability.,A,A-EXP,ARG-A20,A20,Lunar laser ranging shows a fixed baseline,,,,Apollo/Lunokhod retroreflector ranging,NOT DEMONSTRATED
+194,Photon spin alignment.,E,E,ARG-E13,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",,,,,NOT DEMONSTRATED
+195,Solar oblateness constancy.,E,E,ARG-E14,E14,"Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",,,,,REFUTED
+196,Dust inflow Sun–Earth line.,E,E,ARG-E10,E10,Zodiacal dust and Kuiper structure show ecliptic symmetry,,,,,STANDARD PHYSICS
+197,GRB anisotropy.,E,E,ARG-E07,E07,Gamma-ray-burst anisotropy,,,,,NOT DEMONSTRATED
+198,Earth heart chakra symbolism.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
+199,Zodiac cross rotation around center.,D,D,ARG-D09,D09,Geocentric astrology and zodiacal symbolism as evidence,,,,,UNFALSIFIABLE
+200,Twelve gates revolving heavens.,D,D,ARG-D09,D09,Geocentric astrology and zodiacal symbolism as evidence,,,,,UNFALSIFIABLE
+201,Firmament as electromagnetic dome.,D,D,ARG-D17,D17,An electromagnetic/toroidal dome centred on Earth,Mark Sargent,Flat Earth Clues,2015,"Schumann resonance (real, and a consequence of a spherical cavity)",NOT DEMONSTRATED
+202,Toroidal field centered on Earth.,D,D,ARG-D17,D17,An electromagnetic/toroidal dome centred on Earth,Mark Sargent,Flat Earth Clues,2015,"Schumann resonance (real, and a consequence of a spherical cavity)",NOT DEMONSTRATED
+203,Schumann resonance planetary pulse.,D,D,ARG-D17,D17,An electromagnetic/toroidal dome centred on Earth,Mark Sargent,Flat Earth Clues,2015,"Schumann resonance (real, and a consequence of a spherical cavity)",NOT DEMONSTRATED
+204,Toroid sacred geometry nested.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
+205,Helios myth sun circling Earth.,D,D,ARG-D16,D16,World mythologies depict a circling sun or a covering sky,,,,,UNFALSIFIABLE
+206,Sundial shadow metaphor.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
+207,Mystical cosmography observer central.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
+208,Lunar ranging fixed baseline.,A,A-EXP,ARG-A20,A20,Lunar laser ranging shows a fixed baseline,,,,Apollo/Lunokhod retroreflector ranging,NOT DEMONSTRATED
+209,Eclipse timing by rotating sky.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+210,Seasonal stars via dome.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+211,Constant air pressure bands.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+212,Jet streams sun-driven.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+213,Perfect star circles.,B,B,ARG-B08,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
+214,No coriolis coding in drones.,A,A-EXP,ARG-A09,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
+215,Marine sextant geocentric.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+216,Radar ECEF coordinates.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+217,Flat radar horizon.,B,B,ARG-B11,B11,"Radar, LiDAR, photogrammetry and sonar assume a plane",,,,,MISLEADING
+218,Venus transits epicyclic math.,D,D,ARG-D03,D03,Geocentric/Ptolemaic models made accurate predictions,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,STANDARD PHYSICS
+219,Solar noon symmetry.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+220,Constant solar diameter.,B,B,ARG-B10,B10,Sun and Moon appear the same size; solar diameter constant,Samuel Rowbotham,Earth Not a Globe,1865,,MISLEADING
+221,Refraction invoked for curvature.,B,B,ARG-B07,B07,Refraction is invoked ad hoc to rescue curvature,Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
+222,Repeated long-range visibility.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
+223,Surveying plane assumption.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
+224,No rotation proof mechanical.,A,A-EXP,ARG-A26,A26,No orbital acceleration or rotation has ever been directly detected,Walter van der Kamp,De Labore Solis,1988,,SELF-CONTRADICTED
+225,Ring laser gyro corrections.,A,A-EXP,ARG-A07,A07,Gyroscopes / ring-laser gyros show no Earth rotation,Bob Knodel,GlobeBusters / Behind the Curve,2018,Sagnac 1913; standard ring-laser INS engineering,SELF-CONTRADICTED
+226,Fiber Sagnac frame-dependent.,A,A-EXP,ARG-A02,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
+227,Weather balloons drift anomaly.,A,A-EXP,ARG-A16,A16,High-altitude balloon drift and sun-angle anomalies,,,,,NOT DEMONSTRATED
+228,Horizon level rocket footage.,B,B,ARG-B14,B14,Rocket and balloon footage shows a flat horizon,Charles K. Johnson,Flat Earth News,1972,,MISLEADING
+229,Gyrocompass sky-locked.,A,A-EXP,ARG-A19,A19,"Gyrocompasses are sky-locked, not Earth-locked",,,,Gyrocompass operating principle,SELF-CONTRADICTED
+230,Stellar scintillation isotropy.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
+231,Nav systems Earth-fixed.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+232,Gravimeter constancy.,A,A-EXP,ARG-A15,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED
+233,Tidal nodes sky torque.,A,A-EXP,ARG-A27,A27,Tides explained by sky/firmament torque,,,,,NOT DEMONSTRATED
+234,Magnetosphere Earth-centered.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
+235,Aurora curtains Earth-focused.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
+236,Flight times symmetric.,A,A-EXP,ARG-A08,A08,Aircraft don't compensate for spin; east/west flight times symmetric,Samuel Rowbotham,Earth Not a Globe,1865,Inertial navigation systems measure Earth rate on every flight,REFUTED
+237,Balloon sun-angle mismatch.,A,A-EXP,ARG-A16,A16,High-altitude balloon drift and sun-angle anomalies,,,,,NOT DEMONSTRATED
+238,Bolide entry clustering.,E,E,ARG-E16,E16,"Meteor, bolide and micrometeor distributions",,,,,STANDARD PHYSICS
+239,Meteor showers calendar-fixed.,E,E,ARG-E16,E16,"Meteor, bolide and micrometeor distributions",,,,,STANDARD PHYSICS
+240,Stellar proper motion tiny.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
+241,No annual airglow wind.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+242,Micrometeor isotropy.,E,E,ARG-E16,E16,"Meteor, bolide and micrometeor distributions",,,,,STANDARD PHYSICS
+243,Solar wind bow shock centered.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
+244,Satellite ground tracks Earth-based.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+245,Tidal resonance geocentric.,A,A-EXP,ARG-A27,A27,Tides explained by sky/firmament torque,,,,,NOT DEMONSTRATED
+246,Equatorial calm belts.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+247,Trade winds sun-driven.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+248,Bird migration sky cues.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+249,Pendulum building sensitivity.,A,A-EXP,ARG-A15,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED
+250,Torsion balance null variation.,A,A-EXP,ARG-A15,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED
+251,Seiche oscillations periodic.,A,A-EXP,ARG-A27,A27,Tides explained by sky/firmament torque,,,,,NOT DEMONSTRATED
+252,Tidal bores moon visual timing.,A,A-EXP,ARG-A27,A27,Tides explained by sky/firmament torque,,,,,NOT DEMONSTRATED
+253,Solar tables geocentric.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+254,Analemma lamp artifact.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+255,Sun apparent speed constant.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+256,Atmospheric superrotation contradiction.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+257,No equatorial centrifugal relief.,A,A-EXP,ARG-A13,A13,No centrifugal effects felt; equatorial bulge has another cause,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+258,Ballistics ignore rotation.,A,A-EXP,ARG-A14,A14,Ballistics and artillery ignore Earth's rotation,Samuel Rowbotham,Earth Not a Globe,1865,Standard long-range fire-control tables,REFUTED
+259,Bridges no curvature allowance.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
+260,Tower sight lines beyond curve.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
+261,Microwave links flat.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
+262,Laser canal tests flat.,B,B,ARG-B03,B03,Bedford Level / laser canal tests show no curvature,Samuel Rowbotham,Old Bedford Canal trials,1838,Wallace 1870; Oldham 1901,REFUTED
+263,Mirage optical ducts.,B,B,ARG-B13,B13,Mirage and optical ducting explain far sightings,,,,,SELF-CONTRADICTED
+264,No naked-eye parallax.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
+265,Planet brightness epicycles.,D,D,ARG-D03,D03,Geocentric/Ptolemaic models made accurate predictions,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,STANDARD PHYSICS
+266,Libration perspective optical.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+267,Constellation stability.,B,B,ARG-B08,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
+268,Wind bands sun-synced.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+269,Cloud opposite spin.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+270,Ring stability issue.,A,A-EXP,ARG-A25,A25,Orbital / lunar / ring stability objections,,,,,NOT DEMONSTRATED
+271,Lightning frequency sun path.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+272,Any point inertial possible.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+273,GR allows rotating universe.,A,A-REL,ARG-R05,R05,GR admits rotating-universe solutions / frame dragging,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gödel 1949; Lense–Thirring 1918; Gravity Probe B,MISLEADING
+274,Lense–Thirring frame dragging.,A,A-REL,ARG-R05,R05,GR admits rotating-universe solutions / frame dragging,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gödel 1949; Lense–Thirring 1918; Gravity Probe B,MISLEADING
+275,Mach inertia relation.,A,A-REL,ARG-R02,R02,Mach's principle / relational mechanics allows a fixed Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Ernst Mach, The Science of Mechanics (1883)",STANDARD PHYSICS
+276,Only relative motion observable.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+277,GR coordinate freedom.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+278,Metric tensors Earth-centered.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
+279,Null experiments fit rest Earth.,A,A-EXP,ARG-A01,A01,Michelson–Morley null proves Earth is not moving,Walter van der Kamp,The Heart of the Matter,1968,"Michelson & Morley 1887, Am. J. Sci. 34:333",STANDARD PHYSICS
+280,Einstein equations symmetric.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+281,Sagnac proves apparatus rotation.,A,A-EXP,ARG-A02,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
+282,GPS Earth-centered corrections.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+283,ECI/ECEF transforms geocentric.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+284,Fermat with rotating medium.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
+285,Quantum observer-defined frames.,A,A-REL,ARG-R10,R10,Quantum observer-defined frames put the observer at the centre,,,,,MISLEADING
+286,Gauge freedom equality.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
+287,Covariance of tensor math.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
+288,Cosmological constant fine-tuned Earthward.,D,D,ARG-D13,D13,"Meaning, teleology and fine-tuning imply centrality",Robert Sungenis,The Principle (film),2014,,UNFALSIFIABLE
+289,Ether stationary proposals.,A,A-EXP,ARG-A12,A12,Dayton Miller detected a real aether drift that was suppressed,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Miller 1933, Rev. Mod. Phys. 5:203; Shankland et al. 1955, Rev. Mod. Phys. 27:167",REFUTED
+290,Scalar–tensor geocentric variants.,A,A-REL,ARG-R07,R07,Alternative gravity theories admit geocentric variants,,,,,NOT DEMONSTRATED
+291,Teleparallel GR alternatives.,A,A-REL,ARG-R07,R07,Alternative gravity theories admit geocentric variants,,,,,NOT DEMONSTRATED
+292,Coriolis terms transferred to sky.,A,A-EXP,ARG-A09,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
+293,No falsifier distinguishing frames.,A,A-REL,ARG-R11,R11,No falsifier distinguishes the frames; multiple cosmologies fit the data,Gerardus Bouw,Geocentricity,1992,,SELF-CONTRADICTED
+294,Preferred CMB dipole Earthward.,E,E,ARG-E03,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
+295,Relational mechanics fixed Earth.,A,A-REL,ARG-R02,R02,Mach's principle / relational mechanics allows a fixed Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Ernst Mach, The Science of Mechanics (1883)",STANDARD PHYSICS
+296,Hamiltonian Earth-origin simplicity.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
+297,Anthropic coordinate justification.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
+298,Kinematical equivalence.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+299,Navigation inertial Earth base.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+300,Variational minimal paths Earth frame.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
+301,Light cone tilt reinterpretation.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
+302,Symmetry breaking selects Earth.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
+303,Noether charges Earth-defined.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
+304,Conservation in Earth frame.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
+305,Boundary conditions Earth surface.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
+306,Barycentric transforms yield observer ephemerides.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+307,Ephemeris time Earth-defined.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+308,Parallax equations Earth start.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+309,Center equals measurement origin.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+310,Multiple cosmologies fit data.,A,A-REL,ARG-R11,R11,No falsifier distinguishes the frames; multiple cosmologies fit the data,Gerardus Bouw,Geocentricity,1992,,SELF-CONTRADICTED
+311,Gauge choice alters story only.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
+312,Renormalization frame Earth lab.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
+313,Synchronization conventions Earth-based.,A,A-REL,ARG-R09,R09,Clock synchronisation / one-way light speed is conventional,,,,Reichenbach–Grünbaum conventionality thesis,STANDARD PHYSICS
+314,One-way light speed conventional.,A,A-REL,ARG-R09,R09,Clock synchronisation / one-way light speed is conventional,,,,Reichenbach–Grünbaum conventionality thesis,STANDARD PHYSICS
+315,Metrology standard Earth clocks.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+316,Equivalence local labs rest.,A,A-REL,ARG-R04,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
+317,No global inertial frame proven.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+318,Horizon problem Earth initial data.,A,A-REL,ARG-R11,R11,No falsifier distinguishes the frames; multiple cosmologies fit the data,Gerardus Bouw,Geocentricity,1992,,SELF-CONTRADICTED
+319,Geodesics drawn from observers.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
+320,CMB Axis of Evil.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
+321,Quasar polarization alignment.,E,E,ARG-E04,E04,Quasar polarization alignment and large quasar groups,,,,"Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
+322,Large quasar groups ecliptic.,E,E,ARG-E04,E04,Quasar polarization alignment and large quasar groups,,,,"Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
+323,Radio galaxy handedness asymmetry.,E,E,ARG-E05,E05,Galaxy spin handedness / hemispheric bias,,,,"Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",REFUTED
+324,Dipole anisotropy exact fit.,E,E,ARG-E03,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
+325,Hubble tension location bias.,E,E,ARG-E09,E09,Hubble tension shows we are at a special location,,,,"Riess et al. 2022, ApJL 934:L7; Kenworthy et al. 2019, ApJ 875:145",MISLEADING
+326,Cold Spot preferred axis.,E,E,ARG-E02,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
+327,Dark flow directionality.,E,E,ARG-E03,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
+328,GRB anisotropy.,E,E,ARG-E07,E07,Gamma-ray-burst anisotropy,,,,,NOT DEMONSTRATED
+329,Galaxy spin hemisphere bias.,E,E,ARG-E05,E05,Galaxy spin handedness / hemispheric bias,,,,"Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",REFUTED
+330,Cluster axes ecliptic.,E,E,ARG-E06,E06,Dwarf-galaxy planes and satellite alignments,,,,"Sawala et al. 2023, Nature Astronomy 7:481",MISLEADING
+331,ISW correlations ecliptic-linked.,E,E,ARG-E02,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
+332,Zodiacal contamination persistent.,E,E,ARG-E10,E10,Zodiacal dust and Kuiper structure show ecliptic symmetry,,,,,STANDARD PHYSICS
+333,Kinematic SZ ambiguity.,E,E,ARG-E03,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
+334,Supernova dimming alternatives.,E,E,ARG-E13,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",,,,,NOT DEMONSTRATED
+335,BAO fits geocentric models.,E,E,ARG-E13,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",,,,,NOT DEMONSTRATED
+336,Cosmic isotropy violations.,E,E,ARG-E02,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
+337,Dwarf galaxy planes coherence.,E,E,ARG-E06,E06,Dwarf-galaxy planes and satellite alignments,,,,"Sawala et al. 2023, Nature Astronomy 7:481",MISLEADING
+338,Satellite alignments.,E,E,ARG-E06,E06,Dwarf-galaxy planes and satellite alignments,,,,"Sawala et al. 2023, Nature Astronomy 7:481",MISLEADING
+339,CMB hemispheric power asymmetry.,E,E,ARG-E02,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
+340,Low-l multipole ecliptic alignment.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
+341,Parity asymmetry.,E,E,ARG-E02,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
+342,Variance anomalies.,E,E,ARG-E02,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
+343,Kinematic quadrupole debate.,E,E,ARG-E03,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
+344,Planck systematics Earthward.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
+345,VLBI Earth-fixed.,E,E,ARG-E15,E15,"VLBI, interferometry and Gaia reductions assume an Earth frame",,,,,MISLEADING
+346,Interferometry ground assumption.,E,E,ARG-E15,E15,"VLBI, interferometry and Gaia reductions assume an Earth frame",,,,,MISLEADING
+347,Gaia reduction flexible.,E,E,ARG-E15,E15,"VLBI, interferometry and Gaia reductions assume an Earth frame",,,,,MISLEADING
+348,Zodiacal cloud symmetry.,E,E,ARG-E10,E10,Zodiacal dust and Kuiper structure show ecliptic symmetry,,,,,STANDARD PHYSICS
+349,Kuiper clumps ecliptic.,E,E,ARG-E10,E10,Zodiacal dust and Kuiper structure show ecliptic symmetry,,,,,STANDARD PHYSICS
+350,Dust inflow apex mismatch.,E,E,ARG-E10,E10,Zodiacal dust and Kuiper structure show ecliptic symmetry,,,,,STANDARD PHYSICS
+351,Oort cloud unnecessary.,D,D,ARG-D14,D14,Dark matter / dark energy / MOND are modern epicycles,Robert Sungenis,"Galileo Was Wrong, Vol. I",2006,,MISLEADING
+352,MOND epicycle analogy.,D,D,ARG-D14,D14,Dark matter / dark energy / MOND are modern epicycles,Robert Sungenis,"Galileo Was Wrong, Vol. I",2006,,MISLEADING
+353,Dark energy patching.,D,D,ARG-D14,D14,Dark matter / dark energy / MOND are modern epicycles,Robert Sungenis,"Galileo Was Wrong, Vol. I",2006,,MISLEADING
+354,Copernican principle assumption.,A,A-REL,ARG-R12,R12,The Copernican principle is an unproven assumption,Robert Sungenis & Robert Bennett,The Principle (film),2014,"Zhang & Stebbins 2011, PRL 107:041301",REFUTED
+355,Redshift quantization concentric.,E,E,ARG-E12,E12,Redshift quantization in concentric shells around Earth,Gerardus Bouw,Geocentricity,1992,Tifft 1976; refuted by 2dF/SDSS surveys,REFUTED
+356,Tully–Fisher scatter direction.,E,E,ARG-E13,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",,,,,NOT DEMONSTRATED
+357,Lyman-alpha anisotropy.,E,E,ARG-E13,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",,,,,NOT DEMONSTRATED
+358,Cosmic birefringence ecliptic.,E,E,ARG-E13,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",,,,,NOT DEMONSTRATED
+359,Radio dipoles ecliptic.,E,E,ARG-E03,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
+360,Solar system plane=CMB.,E,E,ARG-E11,E11,The solar-system plane coincides with the CMB axis,Robert Sungenis & Rick DeLano,The Principle (film),2014,,MISLEADING
+361,Sun barycenter wobble epicyclic.,E,E,ARG-E14,E14,"Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",,,,,REFUTED
+362,Planet spacing harmonics.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
+363,Lunar node locks.,D,D,ARG-D19,D19,Eclipse and lunar cycles are tuned to human timekeeping,,,,,UNFALSIFIABLE
+364,Saros cycle human time.,D,D,ARG-D19,D19,Eclipse and lunar cycles are tuned to human timekeeping,,,,,UNFALSIFIABLE
+365,Metonic precision.,D,D,ARG-D19,D19,Eclipse and lunar cycles are tuned to human timekeeping,,,,,UNFALSIFIABLE
+366,Draconic month tuning.,D,D,ARG-D19,D19,Eclipse and lunar cycles are tuned to human timekeeping,,,,,UNFALSIFIABLE
+367,Ancient stone calendars geocentric.,D,D,ARG-D01,D01,All ancient cultures were geocentric,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
+368,Eclipse paths on Earth.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
+369,Naked-eye astronomy topocentric.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+370,Geodesy Earth-centered.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+371,WGS84 ECEF.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+372,ITRF Earth crust reference.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+373,Airliner FMS Earth grid.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+374,INS Earth updates.,A,A-EXP,ARG-A07,A07,Gyroscopes / ring-laser gyros show no Earth rotation,Bob Knodel,GlobeBusters / Behind the Curve,2018,Sagnac 1913; standard ring-laser INS engineering,SELF-CONTRADICTED
+375,VOR network Earth bearings.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+376,Great-circle math.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+377,Nautical almanac geocentric.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+378,Harbor lights flat lines.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
+379,Lighthouse visibility.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
+380,Undersea cables straight.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
+381,Oil rig sightlines.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
+382,Leveling equipotential planes.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
+383,Hydrology planar.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
+384,River grades.,B,B,ARG-B01,B01,"Water finds its level, therefore the surface is a plane",Samuel Rowbotham,Zetetic Astronomy,1849,,REFUTED
+385,Pipelines straight.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
+386,Railroads negligible curvature.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
+387,Highways horizon.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
+388,Wind farm layout flat.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
+389,Drone RTK Earth grid.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+390,Photogrammetry planar.,B,B,ARG-B11,B11,"Radar, LiDAR, photogrammetry and sonar assume a plane",,,,,MISLEADING
+391,LiDAR ECEF.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+392,SAR interferometry.,B,B,ARG-B11,B11,"Radar, LiDAR, photogrammetry and sonar assume a plane",,,,,MISLEADING
+393,Seismology Earth-fixed.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+394,Volcano infrasound triangulation.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+395,Mining surveys flat.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
+396,Architecture plumb/level universal.,B,B,ARG-B09,B09,Plumb lines are perpendicular everywhere,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+397,Skyscraper vertical stable.,B,B,ARG-B09,B09,Plumb lines are perpendicular everywhere,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+398,Pendulum clocks stable.,A,A-EXP,ARG-A15,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED
+399,GNSS pseudorange Earth clocks.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
+400,Bathymetry sonar straight.,B,B,ARG-B11,B11,"Radar, LiDAR, photogrammetry and sonar assume a plane",,,,,MISLEADING
+401,Ship optical range.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
+402,Harbor mirage charts.,B,B,ARG-B13,B13,Mirage and optical ducting explain far sightings,,,,,SELF-CONTRADICTED
+403,Tunnel breakthroughs align.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
+404,Power line sag flat.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
+405,Microwave Fresnel zone flat.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
+406,Aerial refueling flat line.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
+407,Artillery geocentric mils.,A,A-EXP,ARG-A14,A14,Ballistics and artillery ignore Earth's rotation,Samuel Rowbotham,Earth Not a Globe,1865,Standard long-range fire-control tables,REFUTED
+408,Polar navigation star dome.,B,B,ARG-B12,B12,Polar navigation and dead reckoning imply a dome/disc,Charles K. Johnson,Flat Earth News,1972,,REFUTED
+409,Dead reckoning dome compass.,B,B,ARG-B12,B12,Polar navigation and dead reckoning imply a dome/disc,Charles K. Johnson,Flat Earth News,1972,,REFUTED
+410,Psalm 75:3 pillars of Earth.,C,C,ARG-C03,C03,Proof-texts on foundations and pillars,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
+411,Job 9:6 shaken Earth.,C,C,ARG-C03,C03,Proof-texts on foundations and pillars,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
+412,Job 26:7 hangs on nothing.,C,C,ARG-C10,C10,Job 26:7 — 'he hangs the earth on nothing',,,,,SELF-CONTRADICTED
+413,Proverbs 8:27 compass on face.,C,C,ARG-C05,C05,"Circle, four corners and ends of the Earth",Rob Skiba,biblical-cosmology teaching,2015,,SELF-CONTRADICTED
+414,Isaiah 40:22 circle of Earth.,C,C,ARG-C05,C05,"Circle, four corners and ends of the Earth",Rob Skiba,biblical-cosmology teaching,2015,,SELF-CONTRADICTED
+415,1 Sam 2:8 pillars set world.,C,C,ARG-C03,C03,Proof-texts on foundations and pillars,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
+416,Psalm 61:2 ends of Earth.,C,C,ARG-C05,C05,"Circle, four corners and ends of the Earth",Rob Skiba,biblical-cosmology teaching,2015,,SELF-CONTRADICTED
+417,Psalm 19 line through Earth.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+418,Eccles 1:6 wind circuits.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+419,Matthew 5:35 Earth footstool.,C,C,ARG-C06,C06,Anthropocentric creation / Earth as footstool,Wilbur Glenn Voliva,Zion sermons,1915,,UNFALSIFIABLE
+420,Revelation 7:1 four corners.,C,C,ARG-C05,C05,"Circle, four corners and ends of the Earth",Rob Skiba,biblical-cosmology teaching,2015,,SELF-CONTRADICTED
+421,Revelation 20:8 four quarters.,C,C,ARG-C05,C05,"Circle, four corners and ends of the Earth",Rob Skiba,biblical-cosmology teaching,2015,,SELF-CONTRADICTED
+422,Joshua 10 moving sun.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+423,Habakkuk 3 stationary heavens.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+424,Tobit 13 dome heaven.,C,C,ARG-C04,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
+425,1 Enoch concentric heavens.,C,C,ARG-C04,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
+426,Jubilees lights for Earth.,C,C,ARG-C04,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
+427,Church Fathers affirm rest.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
+428,Scholastics harmonize Aristotle.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
+429,Liturgy calendar solar.,C,C,ARG-C08,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
+430,Temple as cosmos model.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
+431,Sacred east orientation.,C,C,ARG-C08,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
+432,Iconography concentric Christ.,C,C,ARG-C09,C09,Church art and iconography as cosmology,,,,,UNFALSIFIABLE
+433,Cathedral maps Earth center.,C,C,ARG-C09,C09,Church art and iconography as cosmology,,,,,UNFALSIFIABLE
+434,Creation focused on man.,C,C,ARG-C06,C06,Anthropocentric creation / Earth as footstool,Wilbur Glenn Voliva,Zion sermons,1915,,UNFALSIFIABLE
+435,Psalm 19 heavens declare glory.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+436,Christ as “Sun of righteousness” circling mankind.,C,C,ARG-C09,C09,Church art and iconography as cosmology,,,,,UNFALSIFIABLE
+437,Stars falling toward Earth imagery in Apocalypse.,C,C,ARG-C04,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
+438,Four winds from Earth's corners.,C,C,ARG-C05,C05,"Circle, four corners and ends of the Earth",Rob Skiba,biblical-cosmology teaching,2015,,SELF-CONTRADICTED
+439,Psalm 104 firmament supporting lights.,C,C,ARG-C04,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
+440,Temple architecture mirroring revolving heavens.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
+441,Processional worship keyed to sun/moon over Earth.,C,C,ARG-C08,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
+442,Sacred calendars anchored to Earth-based observations.,C,C,ARG-C08,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
+443,Early catechisms reflecting immovable Earth language.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
+444,Medieval sermons describing concentric heavens.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
+445,Patristic commentaries on the sun's “course.”,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
+446,Liturgical eastward orientation assumes sun's path.,C,C,ARG-C08,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
+447,Monastic timekeeping by geocentric sky cycles.,C,C,ARG-C08,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
+448,Church art: mandorla over Earth-centered cosmos.,C,C,ARG-C09,C09,Church art and iconography as cosmology,,,,,UNFALSIFIABLE
+449,"Biblical metaphors of “pillars,” “foundations,” “footstool.”",C,C,ARG-C03,C03,Proof-texts on foundations and pillars,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
+450,Prophetic visions framed from an Earth-fixed vantage.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,William Carpenter,One Hundred Proofs,1885,,UNFALSIFIABLE
+451,"Axis mundi symbols (world tree, mountain) worldwide.",D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
+452,Djed pillar / Jachin & Boaz under starry vaults.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+453,Omphalos stones marking the world's navel/center.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
+454,Jerusalem/Delphi as “navel of the world” motifs.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
+455,"Mandalas with still center, rotating periphery.",D,D,ARG-D05,D05,Mandala / still-centre symbolism,Mircea Eliade (misapplied),Patterns in Comparative Religion,1949,,UNFALSIFIABLE
+456,Dendera zodiac as dome above Earth.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
+457,Mithraic iconography mapping stellar rotation.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+458,Rosicrucian temple diagrams: cosmos around sanctum.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+459,Masonic tracing boards beneath starry canopy.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+460,"Hermetic altar at the world center (“as above, so below”).",D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
+461,Alchemy: Earth as [truncated in source],D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE

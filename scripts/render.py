@@ -6,7 +6,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HEAD_TPL = os.path.join(ROOT, "scripts", "_head.html")  # <head>+<style>, edit here for design changes
 OUT = os.path.join(ROOT, "docs", "index.html")
 
-d = json.load(open(os.path.join(ROOT, "data", "spinning-ball-provenance.json"), encoding="utf-8"))
+d = json.load(open(os.path.join(ROOT, "data", "flat-earth-origins-provenance.json"), encoding="utf-8"))
 S, CL, ROWS = d["summary"], d["clusters"], d["items"]
 
 head = open(HEAD_TPL, encoding="utf-8").read()
@@ -144,7 +144,7 @@ BODY = f"""
     This page reviews published <em>claims</em>, never a person.
   </p>
   <span style="display:inline-block;background:var(--misleading);color:#1a1a1a;font-family:var(--sans);font-size:.7rem;font-weight:700;letter-spacing:.05em;padding:.1rem .45rem;border-radius:3px;vertical-align:middle">DRAFT</span>
-  &nbsp;<span style="font-family:var(--sans);font-size:.85rem;color:var(--ink-3)">Provenance mapping and scorecard complete for all 461 items. Long-form writeups for the four careful cases still pending. Working slug <code>/spinning-ball-review/</code>.</span>
+  &nbsp;<span style="font-family:var(--sans);font-size:.85rem;color:var(--ink-3)">Provenance mapping and scorecard complete for all 461 items. Long-form writeups for the four careful cases still pending. Published at <code>/flat-earth-origins/</code>.</span>
 </header>
 
 <nav style="font-family:var(--sans);font-size:.9rem;margin:1.6rem 0;padding:.8rem 1rem;background:var(--card-bg);border:1px solid var(--rule);border-radius:6px;line-height:1.9">

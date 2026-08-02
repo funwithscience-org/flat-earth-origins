@@ -1,10 +1,10 @@
-# spinning-ball-review
+# flat-earth-origins
 
 A **provenance review** of flat-earth and geocentric "proof lists". Sibling to
 `dome-model-review`: same design system, same six-verdict rubric, same process.
 
 Published page: `docs/index.html` → intended to serve at
-`https://funwithscience.net/spinning-ball-review/`
+`https://funwithscience.net/flat-earth-origins/`
 
 **Publishing is operator-gated.** Do not push a half-empty page live.
 
@@ -106,10 +106,9 @@ claim.** It cost three parallel research passes; do not re-derive it.
 ## Still open
 
 1. Long-form writeups for the four careful cases: Airy's failure (`A03`), general covariance
-   (`R01`/`R06`), Sagnac / Michelson–Gale interferometry detail (`A02`), CMB axis of evil
-   (`E01`). The CMB one must not overclaim — that debate is genuinely live.
+   (`R01`/`R06`), Sagnac / Michelson-Gale interferometry detail (`A02`), CMB axis of evil
+   (`E01`). The CMB one must not overclaim - that debate is genuinely live.
 2. A second pass at the 95 untraced items.
-3. Slug `spinning-ball-review` is a working name.
-4. Umbrella cross-link (5th card + detail block on the landing page).
-5. GitHub Pages source needs pointing at `docs/`; custom-domain behaviour follows the org
+3. Umbrella cross-link (5th card + detail block on the landing page).
+4. GitHub Pages source needs pointing at `docs/`; custom-domain behaviour follows the org
    apex CNAME. Verify the served path before requesting indexing.

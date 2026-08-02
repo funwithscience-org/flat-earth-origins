@@ -131,11 +131,11 @@ summary = {
     ],
 }
 
-with open(os.path.join(DATA, "spinning-ball-provenance.json"), "w", encoding="utf-8") as f:
+with open(os.path.join(DATA, "flat-earth-origins-provenance.json"), "w", encoding="utf-8") as f:
     json.dump({"summary": summary, "clusters": CLUSTERS, "items": rows},
               f, indent=2, ensure_ascii=False)
 
-with open(os.path.join(DATA, "spinning-ball-provenance.csv"), "w", encoding="utf-8", newline="") as f:
+with open(os.path.join(DATA, "flat-earth-origins-provenance.csv"), "w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
     w.writeheader()
     w.writerows(rows)

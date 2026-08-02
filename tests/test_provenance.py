@@ -28,7 +28,7 @@ def check(label, cond, detail=""):
         FAILURES.append(label)
 
 
-D = json.load(open(os.path.join(ROOT, "data", "spinning-ball-provenance.json"),
+D = json.load(open(os.path.join(ROOT, "data", "flat-earth-origins-provenance.json"),
                    encoding="utf-8"))
 S, ROWS = D["summary"], D["items"]
 PAGE = open(os.path.join(ROOT, "docs", "index.html"), encoding="utf-8").read()
@@ -123,6 +123,10 @@ check("page logs the family-count correction",
       "Correction:" in PAGE and "overestimated" in PAGE)
 check("page names the specimen and retrieval date",
       "withthesun33.com/about-1" in PAGE and "2 August 2026" in PAGE)
+check("canonical URL matches the repo slug (funwithscience.net/flat-earth-origins/)",
+      PAGE.count("https://funwithscience.net/flat-earth-origins/") == 3
+      and "spinning-ball-review" not in PAGE,
+      PAGE.count("https://funwithscience.net/flat-earth-origins/"))
 check("page keeps the claims-not-people disclaimer",
       "does not target any individual" in PAGE)
 check("structural: tables balanced",

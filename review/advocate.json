@@ -1,0 +1,13 @@
+{
+  "_note": "Internal only. Never rendered to docs/. A rating >=3 obliges a preemptive change to the refutation prose.",
+  "entries": {
+    "ARG-A03": {
+      "best_defense": "You are being too quick. Fresnel drag is not an independent prediction — it is a coefficient reverse-engineered to save the aether theory from exactly this class of result, and Lorentz had to keep patching it. And your relativistic answer proves my point rather than yours: relativity explains the null by denying that absolute motion is detectable at all. If no experiment can detect absolute motion, then no experiment establishes that the Earth is absolutely moving either. You have not shown the Earth moves. You have shown the question cannot be settled — which is what geocentrists have been saying.",
+      "survives": 4,
+      "preemptive": "This defence is good enough that the page must answer it explicitly rather than leave it to the reader. Two responses, both already in the text above but worth stating in the body: (a) Fresnel's coefficient was not invented for Airy — Fizeau confirmed it experimentally in 1851, two decades earlier, on flowing water, so it is an independently tested prediction and not a patch; (b) the relativity point is conceded and does not help, because the claim on the list is not the modest “absolute motion is undetectable” but the specific “<em>this experiment shows the Earth is stationary</em>.” The modest claim is true and non-discriminating; the specific claim is false. The list needs the specific one and can only support the modest one. Cross-link this to <a href=\"#ARG-R01\">ARG-R01</a>, where the same trade is made explicitly.",
+      "argument": "ARG-A03",
+      "name": "“Airy's failure” — water-filled telescope shows no Earth motion",
+      "verdict": "REFUTED"
+    }
+  }
+}

@@ -92,13 +92,10 @@ def render_argument(a):
                    f'<em>Real work cited:</em> {e(a["real_source_cited"])}</p>'
                    if a["real_source_cited"] else "") + "</div>")
 
-    p, sm, ad = d["passage"], d["steelman"], d["advocate"]
+    p, sm = d["passage"], d["steelman"]
     w = WORKS[p["work"]]
     pd_note = ("Public domain &mdash; quoted at length." if p["pd"] else
                "In copyright &mdash; short excerpt under fair use, with citation.")
-    sw = ad["survives"]
-    sw_word = {1: "trivially refuted", 2: "weak", 3: "needs a preemptive answer",
-               4: "strong &mdash; answered in the body", 5: "requires a rewrite"}[sw]
     h = [f'<div class="ks-test" id="ARG-{cid}">',
          f'<h3 style="margin-top:0">ARG-{cid} &middot; {e(a["name"])} '
          f'<span class="ks-status ks-claimed">full treatment</span></h3>',
@@ -124,15 +121,8 @@ def render_argument(a):
          '<strong>3 &middot; Refutation</strong> '
          f'{chip(a["verdict"])}<p class="ks-tldr">{e(a["basis"])}</p></summary>'
          f'<div class="ks-detail">{d["refutation"]}</div></details>',
-         '<details class="ds-win-section"><summary class="ks-summary">'
-         '<strong>4 &middot; Advocate mode</strong>'
-         f'<p class="ks-tldr">Best defence available to the other side, rated {sw}/5 '
-         f'&mdash; {sw_word}.</p></summary><div class="ks-detail">'
-         f'<blockquote style="margin:.4rem 0 .8rem;padding:.6rem 1rem;'
-         f'border-left:3px solid var(--misleading-solid);background:var(--card-bg)">'
-         f'{e(ad["best_defense"])}</blockquote>'
-         + (f'<p><strong>Preemptive answer.</strong> {ad["preemptive"]}</p>'
-            if ad.get("preemptive") else "") + '</div></details>']
+    ]
+
     if d["straw_man"]["identified"]:
         h.append('<div class="tally" style="border-left-color:var(--misleading-solid)">'
                  f'<strong>Straw man identified.</strong> {e(d["straw_man"]["detail"])}</div>')
@@ -375,11 +365,16 @@ def tab_method():
         '<li><strong>Steelman</strong> &mdash; the strongest form of the argument, stated before '
         'it is answered. The bar is the kernel, not the surface: name the specific true thing they '
         'found, then show the true thing points the other way.</li>'
-        '<li><strong>Refutation</strong> &mdash; against measurement, with sources.</li>'
-        '<li><strong>Advocate mode</strong> &mdash; the best defence still available, written in '
-        'the defender&rsquo;s voice and rated 1&ndash;5. A rating of 3 or more obliges a specific '
-        'change to our own text. Holes are things we got wrong; advocate mode finds things we got '
-        'right but left rhetorically vulnerable.</li></ol>'
+        '<li><strong>Refutation</strong> &mdash; against measurement, with sources. Where a '
+        'defender has a real objection left standing, it is answered here, in our own voice, '
+        'rather than staged as a debate.</li></ol>'
+        '<p>Behind each of those three, and not published, sits an adversarial pass: a reviewer '
+        'writes the strongest defence still available to the other side, in the '
+        'defender&rsquo;s voice, and rates it 1&ndash;5. A rating of 3 or more obliges a specific '
+        'change to the refutation above before it ships. That review exists to make the visible '
+        'text harder to attack &mdash; not to be read as part of it, which would only hand the '
+        'reader the other side&rsquo;s best case at the moment the argument is meant to have '
+        'landed.</p>'
         '<h2>Principles</h2><ol>'
         '<li>Every claim is independently verifiable, with a reference.</li>'
         '<li>We use the claim&rsquo;s own logic against it &mdash; the strongest refutation of '

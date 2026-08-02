@@ -33,6 +33,7 @@ D = json.load(open(os.path.join(ROOT, "data", "flat-earth-origins-provenance.jso
 S, ROWS = D["summary"], D["items"]
 PEOPLE, WORKS, ARGS = D["people"], D["works"], D["arguments"]
 PAGE = open(os.path.join(ROOT, "docs", "index.html"), encoding="utf-8").read()
+ADVOCATE = json.load(open(os.path.join(ROOT, "review", "advocate.json"), encoding="utf-8"))
 
 print("\n[1] corpus integrity")
 check("corpus holds exactly 461 items", len(ITEMS) == 461, len(ITEMS))
@@ -148,10 +149,10 @@ for a in deep:
     check(f"{a['id']} passage cites a known work", d["passage"]["work"] in WORKS)
     check(f"{a['id']} steelman has both halves",
           bool(d["steelman"]["description"]) and bool(d["steelman"]["why_it_doesnt_save_claim"]))
-    sv = d["advocate"]["survives"]
+    sv = ADVOCATE["entries"][a["id"]]["survives"]
     check(f"{a['id']} advocate rating is 1-5", isinstance(sv, int) and 1 <= sv <= 5, sv)
     check(f"{a['id']} advocate >=3 carries a preemptive fix",
-          sv < 3 or bool(d["advocate"].get("preemptive")))
+          sv < 3 or bool(ADVOCATE["entries"][a["id"]].get("preemptive")))
     check(f"{a['id']} related args all resolve",
           all(f"ARG-{r}" in ARGS for r in d.get("related", [])))
     check(f"{a['id']} people all resolve", all(x in PEOPLE for x in d.get("people", [])))
@@ -194,6 +195,16 @@ check("print rule still unhides tab panels", "ds-tab-content{display:block!impor
 check("details/table markup balanced",
       body.count("<details") == body.count("</details>")
       and body.count("<table") == body.count("</table>"))
+
+# NB: the substring "advocate" legitimately appears in a Library of Congress
+# source title ("The Flat Earth and its Advocates"). Test for the panel, not the word.
+check("advocate mode panel is INTERNAL - never rendered to the page",
+      "Advocate mode" not in PAGE and "Best defence available" not in PAGE
+      and "defense_survives" not in PAGE and "best_defense" not in PAGE)
+check("advocate mode is stripped from the published corpus",
+      not any("advocate" in (a.get("deep") or {}) for a in ARGS.values()))
+check("every full-depth argument still has an internal advocate record",
+      all(a["id"] in ADVOCATE["entries"] for a in ARGS.values() if a["depth"] == "full"))
 
 print("\n[5] attribution guards (see claude/source-genealogy.md)")
 # claims the research flagged as unverified must not appear as fact

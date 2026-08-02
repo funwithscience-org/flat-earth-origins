@@ -163,6 +163,22 @@ summary = {
     "exact_duplicates": [{"first_seen": a, "repeat": b, "text": t} for a, b, t in dupes],
 }
 
+# Advocate mode is an INTERNAL review artifact, not reader-facing. It is stripped
+# from the published corpus and written to review/advocate.json instead. Objection
+# handling that survives review belongs in the refutation prose, in the author's voice.
+REVIEW = os.path.join(ROOT, "review")
+advocate = {a: dict(arguments[a]["deep"]["advocate"], argument=a,
+                    name=arguments[a]["name"], verdict=arguments[a]["verdict"])
+            for a in arguments if arguments[a]["deep"]}
+os.makedirs(REVIEW, exist_ok=True)
+with open(os.path.join(REVIEW, "advocate.json"), "w", encoding="utf-8") as f:
+    json.dump({"_note": "Internal only. Never rendered to docs/. A rating >=3 obliges a "
+                        "preemptive change to the refutation prose.",
+               "entries": advocate}, f, indent=2, ensure_ascii=False)
+for a in arguments.values():
+    if a["deep"]:
+        a["deep"] = {k: v for k, v in a["deep"].items() if k != "advocate"}
+
 corpus = {"summary": summary, "people": people, "works": works,
           "arguments": arguments, "clusters": CLUSTERS, "items": items}
 

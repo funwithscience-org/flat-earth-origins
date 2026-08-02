@@ -291,8 +291,12 @@ CLUSTERS = {
     originator="William Carpenter", originator_work="One Hundred Proofs (proof 50 onward)", year="1885",
     real_source=None, verdict="UNFALSIFIABLE", note="Outside the testable domain."),
 "C02": dict(lane="C", name="Proof-texts on a moving Sun",
-    originator="William Carpenter", originator_work="One Hundred Proofs", year="1885",
-    real_source=None, verdict="UNFALSIFIABLE", note="Outside the testable domain."),
+    originator="Rob Skiba", originator_work="biblical-cosmology teaching", year="2015",
+    real_source=None, verdict="UNFALSIFIABLE",
+    note="Outside the testable domain. Reattributed 2026-08-02: Carpenter's 1885 pamphlet "
+         "contains exactly ONE scriptural proof (#50, on immovability) and never mentions "
+         "Joshua, Habakkuk or Ecclesiastes. The sun-motion proof-text corpus is a later "
+         "accretion reaching its present shape in modern thematic compilations."),
 "C03": dict(lane="C", name="Proof-texts on foundations and pillars",
     originator="Rob Skiba", originator_work="biblical-cosmology teaching", year="2015",
     real_source=None, verdict="UNFALSIFIABLE", note="Outside the testable domain."),

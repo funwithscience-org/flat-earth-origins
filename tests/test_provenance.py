@@ -118,8 +118,23 @@ for label, needle in [
 for v in VERDICTS:
     check(f"page renders a bar for {v}", f">{v}</span>" in PAGE)
 
-check("page carries no leftover placeholder text",
-      "placeholder" not in PAGE.lower())
+# NB: "placeholder" occurs legitimately in prose (A22: "not a placeholder").
+# Test for the scaffold's own markers, not the word.
+check("page carries no leftover scaffold placeholder markers",
+      "DRAFT / PLACEHOLDER" not in PAGE
+      and "illustrative placeholder" not in PAGE.lower()
+      and "Writeup instance" not in PAGE
+      and "fill here" not in PAGE.lower())
+check("verdict_challenge present on every full-depth argument",
+      all("verdict_challenge" in (a.get("deep") or {})
+          for a in ARGS.values() if a["depth"] == "full"))
+_chal = [a["id"] for a in ARGS.values()
+         if (a.get("deep") or {}).get("verdict_challenge", {}).get("challenged")]
+check(f"challenged verdicts carry a proposal and reasoning ({len(_chal)} challenged)",
+      all((a["deep"]["verdict_challenge"].get("proposed_verdict")
+           and a["deep"]["verdict_challenge"].get("reasoning"))
+          for a in ARGS.values()
+          if (a.get("deep") or {}).get("verdict_challenge", {}).get("challenged")))
 check("page logs the family-count correction",
       "Correction:" in PAGE and "overestimated" in PAGE)
 check("page names the specimen and retrieval date",

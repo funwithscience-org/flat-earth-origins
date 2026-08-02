@@ -30,6 +30,8 @@ Schema:
 DEEP = {
 
 "A03": dict(
+    verdict_challenge=dict(challenged=False, proposed_verdict=None,
+                          reasoning=None),  # backfilled: predates the field
     tldr=("Airy filled a telescope with water and found stellar aberration unchanged. "
           "That null is exactly what Fresnel predicted before him and what relativity "
           "predicts today. Calling it a “failure” inverts what the experiment showed — "
@@ -157,4 +159,8 @@ DEEP = {
 from deep_batch1 import BATCH1
 for _k, _v in BATCH1.items():
     assert _k not in DEEP, f"batch1 collides with a hand-written entry: {_k}"
+    DEEP[_k] = _v
+from deep_batch2 import BATCH2
+for _k, _v in BATCH2.items():
+    assert _k not in DEEP, f"batch2 collision: {_k}"
     DEEP[_k] = _v

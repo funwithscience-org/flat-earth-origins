@@ -17,6 +17,22 @@
       "name": "“Airy's failure” — water-filled telescope shows no Earth motion",
       "verdict": "REFUTED"
     },
+    "ARG-A22": {
+      "survives": 4,
+      "best_defense": "For the daily appearance of the sky, the geocentric and heliocentric models are observationally equivalent — they predict the same thing to arbitrary precision. Ptolemaic astronomy was accurate, predictive and self-correcting, and it served for fourteen centuries. Anyone who asserted that the Earth moves before there was a measurement capable of detecting that motion was asserting more than the evidence supported, and it is fair to say so.",
+      "preemptive": "The strongest anticipated reply is that aberration and parallax are themselves model-dependent — that a Tychonic arrangement with the stars carried around annually could reproduce both. It can be made to, and van der Kamp attempted exactly this by reinterpreting aberration as parallax; Bouw later rejected that move and modified the model instead. But the cost is the point: each new measurement has to be absorbed by adding a fresh stipulation, applied to every star in the sky simultaneously, with no independent reason for it. Bouw conceded in print that the resulting model is observationally equivalent to heliocentrism and must therefore be chosen on theological grounds. That concession is the honest end state of the 'saving the appearances' programme, and it is not a claim about evidence.",
+      "argument": "ARG-A22",
+      "name": "The sky's daily appearance is equally described by a moving sky",
+      "verdict": "STANDARD PHYSICS"
+    },
+    "ARG-R08": {
+      "survives": 3,
+      "best_defense": "You have shown that our coordinate standards contain a parameter labelled 'Earth's rotation rate.' We do not dispute the parameter. What ω measures is the relative angular rate between the ground and the sky, and that number is numerically identical whether the ground turns beneath a fixed heaven or the heaven wheels about fixed ground. Tycho granted the relative rotation too. You have measured a relative motion with great care and then described it as though you had measured an absolute one. Nor does the Coriolis argument reach us: in a cosmos whose total mass-energy rotates about the Earth, Mach's principle and the rotating-mass solutions in general relativity deliver those centrifugal and Coriolis terms as genuine gravitational effects of the surrounding matter, not as fictions added by hand.",
+      "preemptive": "First, note what this defence gives up. The moment it says ω is a real relative rotation rate and the Coriolis terms are real gravitational effects, it has conceded that the Earth-fixed frame is dynamically distinguished — which is our whole reply. It has also abandoned the argument the 28 items actually make. Those items claim engineering practice is EVIDENCE; this defence claims the evidence is neutral between two equivalent descriptions. Those are different positions, and the second leaves R08 with nothing to do. Second, the relative-rotation premise is answerable locally: a ring laser gyroscope in a sealed windowless room returns Earth's rotation rate, and the G ring laser at Wettzell resolves it to better than one part in 10⁹, independently recovering length-of-day variation and polar motion in agreement with VLBI. No sky is involved, so the symmetry the defence needs does not obtain. Third, the rotating-cosmos route must track ω's IRREGULARITIES — the distant galaxies would have to speed up and slow down in phase with El Niño and with the Earth's core. That is where the position becomes unfalsifiable rather than unorthodox.",
+      "argument": "ARG-R08",
+      "name": "Practical systems use Earth-fixed coordinates, therefore Earth is fixed",
+      "verdict": "MISLEADING"
+    },
     "ARG-B05": {
       "survives": 2,
       "preemptive": null,
@@ -24,6 +40,14 @@
       "argument": "ARG-B05",
       "name": "Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",
       "verdict": "REFUTED"
+    },
+    "ARG-C02": {
+      "survives": 3,
+      "best_defense": "You have conceded the strongest thing I need: you cannot refute me. You say so yourself in the verdict. Your entire case rests on the assumption that instruments are the final arbiter of physical questions, and that is not a measured result — it is a philosophical commitment, exactly as much a prior as mine, which you have declared rather than defended. Second, your internal-tension argument attacks a list I did not write. If some compiler files 'circle' and 'four corners' carelessly, that is a fact about that compiler's care, not about whether Ecclesiastes 1:5 describes a moving sun. Third, you quote Galileo — a man the Church condemned — as though his hermeneutic were the tradition's settled position. You cannot claim neutrality on interpretation and then adopt one side's framing as your organising principle.",
+      "preemptive": "The strongest of these is the second, and it should be answered rather than deflected. The internal-tension point is deliberately scoped: it is not evidence about what any passage means, and the treatment says so. It is evidence about a specific method — proof-text extraction of physical shape — aimed at the compilations these sixteen items were actually drawn from. An advocate who disclaims the compilations is welcome to; the cost is that the sixteen items lose their evidentiary framing and become sixteen readings, which is a weaker position than the one they were entered under. On the first: the review does not claim instrumentation arbitrates all questions — it claims the narrower thing, that once a claim asserts what a gyroscope will read, that assertion is answerable to the gyroscope. Claims that decline to enter that scope are recorded as UNFALSIFIABLE rather than refuted, which is what happened here. On the third: fair — the treatment makes no claim that Galileo's hermeneutic is correct or authoritative, and cites him only to establish that the domain distinction has been argued from inside the tradition by believers. That is a point about provenance, not about who is right.",
+      "argument": "ARG-C02",
+      "name": "Proof-texts on a moving Sun",
+      "verdict": "UNFALSIFIABLE"
     },
     "ARG-E17": {
       "survives": 3,

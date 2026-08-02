@@ -14,6 +14,8 @@ BATCH1 = {
 
 # ───────────────────────────────────────────────────────── T1-PD
 "B05": dict(
+    verdict_challenge=dict(challenged=False, proposed_verdict=None,
+                          reasoning=None),  # backfilled: predates the field
     tldr=("Most engineering works genuinely do not apply a curvature correction, and "
           "Carpenter was right that they don't. But that is exactly what a round Earth "
           "predicts: a “level” surface is defined by gravity, and on a spinning Earth that "
@@ -105,6 +107,8 @@ BATCH1 = {
 
 # ─────────────────────────────────────────────────── T2-COPYRIGHT
 "A02": dict(
+    verdict_challenge=dict(challenged=False, proposed_verdict=None,
+                          reasoning=None),  # backfilled: predates the field
     tldr=("Michelson–Gale is the one experiment on this entire list that detected something, "
           "and what it detected was the Earth turning. The 1925 paper predicted a fringe "
           "displacement of 0.236 for a rotating Earth and measured 0.230, recovering the "
@@ -200,6 +204,8 @@ BATCH1 = {
 
 # ────────────────────────────────────────────────── T3-UNATTRIBUTED
 "E17": dict(
+    verdict_challenge=dict(challenged=False, proposed_verdict=None,
+                          reasoning=None),  # backfilled: predates the field
     tldr=("Isotropy is what every observer sees in a homogeneous universe, so an astronomer "
           "in a galaxy a billion light-years away would report the same uniformity we do. "
           "Several items in this cluster are simply true and carry no cosmological content: "

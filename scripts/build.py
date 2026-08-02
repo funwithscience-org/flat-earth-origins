@@ -62,6 +62,12 @@ for cid, d in DEEP.items():
         assert d.get("untraceable"), f"{cid}: passage is None so `untraceable` is required"
     else:
         assert d["passage"]["work"] in WORKS, f"{cid} -> unknown work"
+    vc = d.get("verdict_challenge")
+    if vc is not None:
+        assert isinstance(vc.get("challenged"), bool), f"{cid} verdict_challenge.challenged must be bool"
+        if vc["challenged"]:
+            assert vc.get("proposed_verdict") and vc.get("reasoning"), \
+                f"{cid}: a challenged verdict needs proposed_verdict AND reasoning"
     s = d.get("advocate", {}).get("survives")
     assert isinstance(s, int) and 1 <= s <= 5, f"{cid} advocate.survives must be 1-5"
     if s >= 3:

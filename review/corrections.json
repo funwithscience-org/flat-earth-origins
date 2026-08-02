@@ -16,6 +16,14 @@
       "old_argument": "Bowden, Journal of Creation 16(2) 2002, pp. 79-82.",
       "new_argument": "The PDF paginates 79-81. The quoted concession is on p. 80.",
       "reason": "Page range did not match the document."
+    },
+    {
+      "at": "2026-08-02",
+      "found_by": "agent writing ARG-C02, batch 2",
+      "where": "corpus: ARG-C02 originator; and claude/source-genealogy.md by implication",
+      "old_argument": "Attributed the 16 sun-motion scriptural proof-texts (Joshua 10, Habakkuk 3, Ecclesiastes 1:5, Psalm 19, Isaiah 38) to William Carpenter, One Hundred Proofs (1885).",
+      "new_argument": "Verified against the full Gutenberg text (143,011 chars): Carpenter's book contains exactly ONE scriptural proof, #50, and it concerns immovability and the stretched-out earth, not the sun's motion. The words Joshua, Habakkuk and Ecclesiastes appear ZERO times in the book. Carpenter's own sun-motion proofs (38, 39) argue from observed appearance. The sun-motion proof-text corpus is a later accretion; C02 reattributed to Rob Skiba's modern biblical-cosmology compilations. C01 (immovability texts) correctly stays with Carpenter.",
+      "reason": "Attribution asserted from the shape of the genre rather than checked against the primary text."
     }
   ]
 }

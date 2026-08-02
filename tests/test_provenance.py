@@ -251,6 +251,21 @@ _concede = ("genuinely open" in PAGE or "live question in cosmology" in PAGE)
 check("CMB careful case concedes the debate is unresolved", _concede)
 check("CMB basis text still carries the CAREFUL CASE marker",
       "CAREFUL CASE" in _e01["basis"])
+if _e01["depth"] == "full":
+    _t = json.dumps(_e01["deep"])
+    check("E01 states plainly that the anomaly is NOT resolved",
+          "have not been resolved" in _t or "unresolved" in _t)
+    check("E01 does not claim the anomaly is debunked or explained away",
+          "anomaly is debunked" not in _t and "have been explained away" not in _t)
+    # NB: check the REFUTATION, not the whole deep record — advocate text is
+    # stripped from the published corpus, so phrases living only there will miss.
+    _ref = _e01["deep"]["refutation"]
+    check("E01 refutation carries the ecliptic/local-frame argument",
+          "ecliptic" in _ref and "points inward" in _ref)
+    check("E01 carries the axis-is-not-a-centre argument",
+          "axis is not a centre" in _t.lower() or "not a centre" in _t.lower())
+    check("E01 represents the pro-anomaly camp by name",
+          "Starkman" in _t and "Schwarz" in _t)
 check("all four careful cases are present in the corpus",
       all(f"ARG-{c}" in ARGS for c in ("A03", "A02", "R01", "E01")))
 

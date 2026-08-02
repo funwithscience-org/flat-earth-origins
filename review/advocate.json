@@ -1,6 +1,14 @@
 {
   "_note": "Internal only. Never rendered to docs/. A rating >=3 obliges a preemptive change to the refutation prose.",
   "entries": {
+    "ARG-A02": {
+      "survives": 3,
+      "best_defense": "We have never disputed the fringe shift. We report it, we report its size, and we accept that it agrees with the rotating-Earth calculation to within a couple of per cent. The issue is what an interferometer can and cannot tell you. The Sagnac formula contains a single angular velocity — the rotation of the apparatus relative to the light-carrying frame — and no measurement made inside the apparatus can say which of the two bodies owns it. Michelson and Gale established that the Earth and the cosmos are in relative rotation. That is all they established. Assigning the motion to the Earth rather than the heavens is a choice of reference frame, and general relativity is explicit that the choice is not forced. Mach saw the point long before us. So when you say the experiment measured the Earth's rotation, you are reporting your frame convention and calling it a result.",
+      "preemptive": "Grant the frame point in full, because it is correct as far as it goes, then note what it has cost. Three things. First, it is a different claim from the one on the list: “no interferometer can uniquely assign the rotation” is defensible; “Michelson–Gale shows a stationary Earth” is not, and the source itself offers a disjunction instead. Second, the argument cannot be run selectively — if the reply is Machian, the rotating cosmos must also account for the Foucault pendulum, Coriolis circulation and the mechanical gyrocompass, none of which interact with a light-carrying medium; broadened that far it is the standard account under another name, with a shell whose angular velocity was set by hand to match the number already measured. Third, the specific escape offered in the text — that the experiment could not separate a solar from a sidereal period — has been closed by later instruments of the same type. What remains is a naming dispute, which is where Bouw arrived on his own.",
+      "argument": "ARG-A02",
+      "name": "Michelson–Gale / Sagnac interferometry shows a stationary Earth",
+      "verdict": "REFUTED"
+    },
     "ARG-A03": {
       "best_defense": "You are being too quick. Fresnel drag is not an independent prediction — it is a coefficient reverse-engineered to save the aether theory from exactly this class of result, and Lorentz had to keep patching it. And your relativistic answer proves my point rather than yours: relativity explains the null by denying that absolute motion is detectable at all. If no experiment can detect absolute motion, then no experiment establishes that the Earth is absolutely moving either. You have not shown the Earth moves. You have shown the question cannot be settled — which is what geocentrists have been saying.",
       "survives": 4,
@@ -8,6 +16,22 @@
       "argument": "ARG-A03",
       "name": "“Airy's failure” — water-filled telescope shows no Earth motion",
       "verdict": "REFUTED"
+    },
+    "ARG-B05": {
+      "survives": 2,
+      "preemptive": null,
+      "best_defense": "You have not shown me a measurement; you have shown me models with the radius already inside them. WGS 84 is a fitted ellipsoid you assume before processing a single satellite observation. The 4/3 effective-earth factor is a correction applied on top of an assumed radius, and its value is elastic — under ducting it runs to infinity, so the parameter can be set to whatever makes the link budget work. The Gotthard figure is agreement between two survey networks reduced using the same ellipsoidal model, so of course they agree; consistency inside a model is not a test of it. Verrazzano is the clearest case: nobody climbed those towers and measured 1 5/8 inches. Meanwhile the observations that require no model at all — 164 km of canal holding water with no locks and no allowance, a levelling line closing on itself across a country, a datum line specified by Parliament to be the same horizontal line throughout — are what a plane predicts, and you rescue them only by redefining “level” to mean “curved.”",
+      "argument": "ARG-B05",
+      "name": "Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",
+      "verdict": "REFUTED"
+    },
+    "ARG-E17": {
+      "survives": 3,
+      "best_defense": "I am not claiming a miracle, I am making a point about method. Look at what is actually measured rather than what is inferred. The star fields balance around us. Light bends symmetrically about us. The planets ride a plane we sit in. The magnetic field we live inside is centred on us, the aurorae wrap our poles, the solar wind piles into a bow around us. Every one of those is an observation. To escape the plain reading of them, cosmology has to add a premise nobody has ever observed — that our vantage point is typical. That premise is doing all the work. You are preferring an unobservable homogeneity to an observed centrality because the alternative sits badly with a philosophical commitment made in the sixteenth century.",
+      "preemptive": "Expect the move from “the Copernican principle is only an assumption” to “therefore centrality is equally well supported.” It was an assumption; it stopped being one. The specific alternative — the Earth near the centre of a gigaparsec-scale spherically symmetric void — makes a checkable prediction: off-centre gas clouds would see a CMB dipole and scatter it into a first-order kinetic Sunyaev–Zel'dovich signal. ACT and SPT measured that spectrum and the required void overshoots the observed limit substantially. The homogeneity scale is likewise measured rather than posited. Expect also an attempt to make the magnetospheric items carry argumentative weight; they cannot, since a magnetosphere centred on its own planet is a fact about that planet's core, and Jupiter's is centred on Jupiter.",
+      "argument": "ARG-E17",
+      "name": "Observed isotropy / Earth-centred fields imply we are the centre",
+      "verdict": "MISLEADING"
     }
   }
 }

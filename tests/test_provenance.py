@@ -146,7 +146,17 @@ deep = [a for a in ARGS.values() if a["depth"] == "full"]
 check("at least one argument at full depth", len(deep) >= 1, len(deep))
 for a in deep:
     d = a["deep"]
-    check(f"{a['id']} passage cites a known work", d["passage"]["work"] in WORKS)
+    # T3-unattributed arguments have no passage; they owe an `untraceable` explanation
+    if d.get("passage") is None:
+        check(f"{a['id']} (no passage) explains its untraceability",
+              bool(d.get("untraceable")))
+        check(f"{a['id']} untraceable text concedes our own research limit",
+              "not that none exists" in d.get("untraceable", ""))
+    else:
+        check(f"{a['id']} passage cites a known work", d["passage"]["work"] in WORKS)
+        check(f"{a['id']} in-copyright quote stays short (fair use)",
+              d["passage"]["pd"] or len(d["passage"]["quote"].split()) <= 60,
+              len(d["passage"]["quote"].split()))
     check(f"{a['id']} steelman has both halves",
           bool(d["steelman"]["description"]) and bool(d["steelman"]["why_it_doesnt_save_claim"]))
     sv = ADVOCATE["entries"][a["id"]]["survives"]

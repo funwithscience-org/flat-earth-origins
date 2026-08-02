@@ -152,3 +152,9 @@ DEEP = {
         dict(label="Royal Observatory Greenwich on Airy",
              url="https://www.royalobservatorygreenwich.org/articles.php?article=1069")]),
 }
+
+# ---- agent-written batches ------------------------------------------
+from deep_batch1 import BATCH1
+for _k, _v in BATCH1.items():
+    assert _k not in DEEP, f"batch1 collides with a hand-written entry: {_k}"
+    DEEP[_k] = _v

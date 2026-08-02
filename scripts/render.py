@@ -92,24 +92,33 @@ def render_argument(a):
                    f'<em>Real work cited:</em> {e(a["real_source_cited"])}</p>'
                    if a["real_source_cited"] else "") + "</div>")
 
-    p, sm = d["passage"], d["steelman"]
-    w = WORKS[p["work"]]
-    pd_note = ("Public domain &mdash; quoted at length." if p["pd"] else
-               "In copyright &mdash; short excerpt under fair use, with citation.")
+    p, sm = d.get("passage"), d["steelman"]
+    if p:
+        w = WORKS[p["work"]]
+        pd_note = ("Public domain &mdash; quoted at length." if p["pd"] else
+                   "In copyright &mdash; short excerpt under fair use, with citation.")
+        block1 = ('<details class="ds-win-section"><summary class="ks-summary">'
+                  '<strong>1 &middot; The claim in its own words</strong>'
+                  f'<p class="ks-tldr">{e(w["title"])}, {e(w["year"])}. {pd_note}</p></summary>'
+                  '<div class="ks-detail">'
+                  f'<blockquote style="margin:.4rem 0 .8rem;padding:.6rem 1rem;'
+                  f'border-left:3px solid var(--rule);background:var(--card-bg);'
+                  f'font-style:italic;white-space:pre-wrap">{e(p["quote"])}</blockquote>'
+                  f'<p style="font-family:var(--sans);font-size:.8rem;color:var(--ink-3)">&mdash; '
+                  f'{wlink(p["work"])}, {e(p["locator"])}</p><p>{p["gloss"]}</p></div></details>')
+    else:
+        block1 = ('<details class="ds-win-section"><summary class="ks-summary">'
+                  '<strong>1 &middot; No original to quote</strong>'
+                  '<p class="ks-tldr">This cluster has no named author and no traceable source '
+                  'publication. That is a finding about how the list was assembled, not only a '
+                  'gap in our records.</p></summary>'
+                  f'<div class="ks-detail">{d["untraceable"]}</div></details>')
     h = [f'<div class="ks-test" id="ARG-{cid}">',
          f'<h3 style="margin-top:0">ARG-{cid} &middot; {e(a["name"])} '
          f'<span class="ks-status ks-claimed">full treatment</span></h3>',
          meta, chip(a["verdict"]),
          f'<p class="ks-tldr" style="font-style:italic;color:var(--ink-2)">{e(d["tldr"])}</p>',
-         '<details class="ds-win-section"><summary class="ks-summary">'
-         '<strong>1 &middot; The claim in its own words</strong>'
-         f'<p class="ks-tldr">{e(w["title"])}, {e(w["year"])}. {pd_note}</p></summary>'
-         '<div class="ks-detail">'
-         f'<blockquote style="margin:.4rem 0 .8rem;padding:.6rem 1rem;'
-         f'border-left:3px solid var(--rule);background:var(--card-bg);font-style:italic">'
-         f'{e(p["quote"])}</blockquote>'
-         f'<p style="font-family:var(--sans);font-size:.8rem;color:var(--ink-3)">&mdash; '
-         f'{wlink(p["work"])}, {e(p["locator"])}</p><p>{p["gloss"]}</p></div></details>',
+         block1,
          '<details class="ds-win-section"><summary class="ks-summary">'
          '<strong>2 &middot; Steelman &mdash; what they get right</strong>'
          '<p class="ks-tldr">The strongest form of the argument, stated before it is answered. '

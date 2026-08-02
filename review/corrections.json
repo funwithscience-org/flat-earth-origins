@@ -1,2 +1,21 @@
-{"_note": "Public record of times this review was wrong. Rendered on the Method tab once populated. Append-only.",
- "entries": []}
+{
+  "_note": "Public record of times this review was wrong. Rendered on the Method tab once populated. Append-only.",
+  "entries": [
+    {
+      "at": "2026-08-02",
+      "found_by": "agent writing ARG-A02, batch 1",
+      "where": "claude/source-genealogy.md, Tychonian lineage table, Bouw row",
+      "old_argument": "Cited creation.com/geocentric-gobbledegook as the source for Bouw's concession that his model is observationally equivalent to heliocentrism.",
+      "new_argument": "That page is Danny Faulkner reviewing Marshall Hall's 'The Earth is not Moving'. It does not support the Bouw concession. Use the Bouw Wikipedia entry and Faulkner's companion article 'Geocentrism and Creation', Journal of Creation 15(2) 2001, which states the essential difference is a coordinate change from Sun to Earth.",
+      "reason": "Citation checked against the source and did not say what we attributed to it."
+    },
+    {
+      "at": "2026-08-02",
+      "found_by": "agent writing ARG-A02, batch 1",
+      "where": "claude/source-genealogy.md, Bowden citation",
+      "old_argument": "Bowden, Journal of Creation 16(2) 2002, pp. 79-82.",
+      "new_argument": "The PDF paginates 79-81. The quoted concession is on p. 80.",
+      "reason": "Page range did not match the document."
+    }
+  ]
+}

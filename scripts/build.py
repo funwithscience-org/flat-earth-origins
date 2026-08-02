@@ -58,7 +58,10 @@ for cid, d in DEEP.items():
         assert pid in PEOPLE, f"{cid} -> unknown person {pid}"
     for rid in d.get("related", []):
         assert rid in CLUSTERS, f"{cid} -> unknown argument {rid}"
-    assert d["passage"]["work"] in WORKS, f"{cid} -> unknown work"
+    if d.get("passage") is None:
+        assert d.get("untraceable"), f"{cid}: passage is None so `untraceable` is required"
+    else:
+        assert d["passage"]["work"] in WORKS, f"{cid} -> unknown work"
     s = d.get("advocate", {}).get("survives")
     assert isinstance(s, int) and 1 <= s <= 5, f"{cid} advocate.survives must be 1-5"
     if s >= 3:

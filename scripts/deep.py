@@ -164,3 +164,7 @@ from deep_batch2 import BATCH2
 for _k, _v in BATCH2.items():
     assert _k not in DEEP, f"batch2 collision: {_k}"
     DEEP[_k] = _v
+from deep_batch3 import BATCH3
+for _k, _v in BATCH3.items():
+    assert _k not in DEEP, f"batch3 collision: {_k}"
+    DEEP[_k] = _v

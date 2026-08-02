@@ -1,0 +1,230 @@
+# -*- coding: utf-8 -*-
+"""Batch 3 — written 2026-08-02. R06 (15 items) and A10 (13 items).
+
+⚠️ R06 produced the third provenance finding in five agent-written treatments.
+A full-text search of the archive.org scan of Galileo Was Wrong Vol. I returns
+ZERO occurrences of "Noether", "Fermat", "light cone"/"lightcone"; "gauge"
+occurs only as Ron Hatch's clock-rate scale factor, not as gauge symmetry;
+"renormalization" occurs only as a complaint about QFT infinities, never in
+connection with frames; and "anthropic" appears three times with the authors
+ATTACKING the anthropic principle — so the item title "Anthropic coordinate
+justification" states the reverse of the source's stance.
+
+At least six of R06's fifteen item titles are therefore UNLOCATABLE in the cited
+source. The treatment says so, with the caveats the agent insisted on: the scan
+is one volume of a multi-volume work, OCR quality is variable, and these
+vocabularies do circulate in downstream forum material. The defensible claim is
+"not located in the scanned text of Vol. I", not "the authors never wrote this".
+Logged as review/corrections.json entry 4.
+"""
+
+BATCH3 = {
+
+# ═══════════════════════════════════════════════ R06 — 15 items
+"R06": dict(
+    tldr=("Fifteen list items are one idea wearing fifteen technical costumes: physics can "
+          "be written in Earth-centred coordinates. That is true, Sungenis and Bennett state "
+          "it correctly, and Kretschmann pointed out in 1917 that general covariance by "
+          "itself carries no physical content — which removes it as support for geocentrism "
+          "just as surely as for anything else. What distinguishes a rotating Earth is not "
+          "the coordinate labels but the dynamical metric, whose off-diagonal terms in an "
+          "Earth-fixed chart are the Coriolis and centrifugal effects the authors themselves "
+          "derive."),
+    passage=dict(
+        work="WRK-SUNGENIS-2006", pd=False,
+        locator=("Vol. I, ch. 10, section “General covariance”, p. 171 of the archive.org scan; "
+                 "the operative technical derivation is nine pages earlier, at p. 161"),
+        quote=("The system may have a symmetry which matches that of the coordinate system and "
+               "simplifies the mathematical clutter used in its description…. Nevertheless, any "
+               "reasonable coordinate system may be used. The weave pattern of a net does not "
+               "determine the shape of the objects that are put into it."),
+        gloss="""<p>This is the whole of ARG-R06 in three sentences, and it is correct. The section around it is an accurate textbook statement: general covariance is the invariance of the form of physical laws under arbitrary coordinate transformations, all physical theories admit a generally covariant formulation, and a coordinate system is a description rather than a constituent of the thing described. Nothing here needs correcting.</p>
+<p>What is worth noticing is where the net metaphor points. If the weave of the coordinate net does not determine the shape of what is put into it, then laying an Earth-centred net over the solar system does not make the Earth the centre of anything either. The metaphor is an argument for the irrelevance of coordinate choice, and irrelevance is symmetric.</p>
+<p>The actual physics sits at p. 161, where the authors write the Lagrangian for a test body in a frame with the Earth spinning at angular velocity &omega;, obtain the equation of motion containing the Coriolis term &minus;2<em>m</em>(<strong>&omega;</strong>&times;<strong>v</strong>) and the centrifugal term &minus;<em>m</em>[<strong>&omega;</strong>&times;(<strong>&omega;</strong>&times;<strong>r</strong>)], then write the corresponding Lagrangian with a stationary Earth and a rotating star shell generating a field they label <em>B</em>, and observe that the two equations of motion coincide when &omega; = <em>B</em>/2. That is a clean and honest demonstration &mdash; of a change of coordinates. It is also the source of the terms that make the rotation measurable.</p>"""),
+    steelman=dict(
+        description="""<p><strong>SURFACE (the version to avoid).</strong> &ldquo;Fifteen pieces of jargon dressed over one point.&rdquo; Descriptively true and argumentatively worthless. It invites the reader to dismiss rather than to check, and it does not engage the reason a technically literate person finds this cluster persuasive.</p>
+<p><strong>DEEPER.</strong> Coordinate freedom is genuine. You can write mechanics, electrodynamics and general relativity in an Earth-fixed rotating chart and compute correct answers for eclipses, occultations and satellite clock rates. Working astronomers do this routinely; ephemerides are published in Earth-centred frames because that is where the observers are.</p>
+<p><strong>KERNEL &mdash; and it belongs to Erich Kretschmann.</strong> In 1916 Einstein presented general covariance as the foundational principle of general relativity, the thing that generalised the relativity of motion beyond inertial frames. In 1917 Kretschmann replied that the demand places no constraint on physics at all: <em>any</em> spacetime theory can be given a generally covariant formulation if one is willing to do the reformulating work. Special relativity can be written in arbitrary coordinates; Newtonian gravitation was later given a fully geometric, generally covariant form by Cartan. If every theory can wear the costume, wearing it distinguishes nothing. Einstein conceded a great deal of this, and the resulting dispute ran for eight decades.</p>
+<p>So the serious position underneath R06 is not a misunderstanding. It is this: the formalism of general relativity, considered as formalism, does not single out a preferred centre or a preferred state of rotation, and anyone who claims the equations by themselves refute a stationary Earth is claiming more than Kretschmann allows. That objection is roughly 110 years old, it was pressed by a professional physicist against Einstein directly, and Einstein had to answer it. Conceding it costs us nothing; refusing costs us the reader.</p>""",
+        why_it_doesnt_save_claim="""<p>Kretschmann's blade has two edges and the second is fatal here. If general covariance has no physical content, it has none to lend geocentrism. An argument that the formalism is neutral cannot then be cited as evidence that the formalism favours you. At best it establishes that this question is not settled by the choice of coordinates &mdash; which is what everyone on the other side has been saying.</p>
+<p>What does the discriminating work in general relativity is not covariance but the equivalence principle together with a <em>dynamical</em> metric. Spacetime geometry is not a passive labelling scheme; it is a physical field with its own degrees of freedom, sourced by stress-energy, carrying its own initial-value problem, and detectable in its own right &mdash; gravitational waves are that field oscillating. Coordinate labels can be changed at will; the metric field cannot. Write the metric in an Earth-fixed rotating chart and it acquires off-diagonal time&ndash;angle components. Those components are not bookkeeping. They are the Coriolis and centrifugal effects, and they are measured: by Foucault pendulums, by the Michelson&ndash;Gale fringe shift, by the Wettzell ring laser tracking length-of-day variation below one part in 10<sup>9</sup>, and by the 207.4 ns path-dependence GPS must correct for around an eastward circumnavigation. The authors' own p. 161 derivation produces precisely these terms and names them.</p>
+<p>A change of chart is free; the field that appears in the chart is not, and it is locally measurable.</p>"""),
+    refutation="""<p><strong>Kind 1 &mdash; correct physics, inference does not follow (nine of the fifteen).</strong> &ldquo;Metric tensors Earth-centered&rdquo;, &ldquo;Covariance of tensor math&rdquo;, &ldquo;Gauge choice alters story only&rdquo;, &ldquo;Geodesics drawn from observers&rdquo;, &ldquo;Variational minimal paths Earth frame&rdquo;, &ldquo;Hamiltonian Earth-origin simplicity&rdquo;, &ldquo;Boundary conditions Earth surface&rdquo;, &ldquo;Conservation in Earth frame&rdquo; and &ldquo;Fermat with rotating medium&rdquo; are one statement: the equations can be written in any coordinates. Yes. Tensor equations are covariant by construction &mdash; that is the definition of a tensor equation, not a discovery about the Earth. Geodesics are fixed by the metric and the affine connection; the observer who draws them contributes nothing to where they run. Fermat's principle in a moving medium is real optics (it is how Fresnel dragging is described), but it concerns light in matter, not the arrangement of the solar system. The Hamiltonian item is weakest, because it appeals to simplicity &mdash; and on the page facing the covariance passage the authors reject simplicity as a criterion, arguing that Occam's razor can conceal complexity beneath a veneer. If simplicity is not evidence when it favours general relativity, an Earth-origin Hamiltonian being tidier is not evidence either.</p>
+<p><strong>Kind 2 &mdash; a term imported from a domain where it means something else.</strong> &ldquo;Gauge freedom equality&rdquo; treats gauge freedom as a synonym for coordinate freedom. There is a real family resemblance worth stating honestly: both are redundancies in a description, and in the constrained-Hamiltonian treatment of general relativity diffeomorphism invariance <em>is</em> handled as a gauge freedom. But the gauge symmetries of the Standard Model act on internal field space, not on spacetime. The U(1) of electromagnetism rotates the phase of the electron field; the SU(3) of quantum chromodynamics rotates colour. Performing one does not move you to a different origin, frame or state of rotation, and only gauge-invariant quantities are observables.</p>
+<p><strong>Kind 3 &mdash; a term whose actual content runs the opposite way.</strong> &ldquo;Noether charges Earth-defined&rdquo; and &ldquo;Symmetry breaking selects Earth&rdquo; invert their own physics. Noether's first theorem derives conserved quantities <em>from</em> continuous symmetries of the action: time-translation invariance yields energy, spatial-translation yields momentum, rotational yields angular momentum. The direction of derivation is symmetry &rarr; charge. Choosing an Earth-centred origin does not create a symmetry, and no charge follows from a choice of origin. The deeper point cuts harder: Noether's <em>second</em> theorem applies when the invariance is local rather than global &mdash; exactly the case in a generally covariant theory &mdash; and there the would-be conservation laws collapse into identities satisfied by the field equations rather than into independent charges. This is why gravitational energy in general relativity has no local density; the standard constructions are pseudotensors, and a pseudotensor can be made to vanish at any chosen point by a choice of coordinates. Of all these vocabularies, Noether's is the one that most emphatically refuses to attach a conserved charge to a coordinate origin. Spontaneous symmetry breaking is likewise about a field's ground state failing to share the symmetry of its Lagrangian; the asymmetry lives in field space. It does not select spatial locations.</p>
+<p><strong>Kind 4 &mdash; equivocation on a word.</strong> &ldquo;Renormalization frame Earth lab&rdquo; appears to trade on the word &ldquo;frame&rdquo;. The renormalization scale &mu;<sub>R</sub> is an energy, quoted in GeV; the Particle Data Group describes it as unphysical and states that physical observables do not depend on unphysical scales. It has no spatial orientation, no origin and no state of motion. Even granting the item its best reading, it would establish that the choice makes no difference &mdash; the opposite of what a preferred-frame argument needs.</p>
+<p><strong>Kind 5 &mdash; the item with genuine physics in it.</strong> &ldquo;Light cone tilt reinterpretation&rdquo; is the only member of this cluster pointing at something real. Light cones do tilt. Inside the ergosphere of a rotating black hole the tilt is severe enough that no observer can remain static relative to infinity. In rotating coordinates the Langevin metric has a <em>g</em><sub>tt</sub> coefficient proportional to (1 &minus; &omega;&sup2;<em>r</em>&sup2;/<em>c</em>&sup2;), which vanishes at <em>r</em> = <em>c</em>/&omega; &mdash; the light cylinder, a radius that also does real work in pulsar magnetosphere physics. Beyond it no observer can be at rest in those coordinates. But read what that says. It is a statement about the coordinate patch, not about the world: coordinate velocities in a non-inertial chart are not bounded by <em>c</em>; only locally measured velocities are. A chart failing at <em>r</em> = <em>c</em>/&omega; is a chart of limited domain, exactly as Schwarzschild coordinates fail at the horizon while the spacetime does not. And the direction of the difficulty matters: <strong>this is a problem for models in which the universe physically rotates about a stationary Earth</strong>, since there the distant stars traverse their circuits once a day and those beyond <em>r</em> = <em>c</em>/&omega; move superluminally. The standard picture has no such object.</p>
+<p><strong>The arithmetic of the cluster.</strong> Fifteen items with fifteen vocabularies create the impression of fifteen convergent lines of support. They are one line, restated. An argument that fails once fails fifteen times, and the count is an artefact of the thesaurus rather than of the evidence. This is already answered at <a href="#ARG-R01">R01</a>; R06 adds terminology and no new premise.</p>""",
+    straw_man=dict(
+        identified=True,
+        detail=("The straw-man risk here is OURS, not theirs, and it is concrete. A full-text "
+                "search of the archive.org scan of Vol. I returns ZERO occurrences of “Noether”, "
+                "zero of “Fermat”, and zero of “light cone”/“lightcone”. “Renormalization” occurs "
+                "four times, all in ch. 13 as a complaint that infinities in quantum field theory "
+                "are swept under the rug — never in connection with frames. “Gauge” occurs only "
+                "as Ron Hatch's clock-rate scale factor, not as gauge symmetry. “Anthropic” "
+                "occurs three times and the authors are ATTACKING the anthropic principle, so the "
+                "item title “Anthropic coordinate justification” states the reverse of the "
+                "source's stance. “Spontaneous symmetry breaking” does not occur. At least six of "
+                "the fifteen item titles should therefore be marked unlocatable in the cited "
+                "source rather than refuted as the authors' claims. Caveats that must travel with "
+                "this: the scan is one volume of a multi-volume work, OCR quality is variable (it "
+                "renders “All” as “A11” and omega as “co”), and these vocabularies do circulate "
+                "in downstream forum material. The defensible statement is “not located in the "
+                "scanned text of Vol. I”, not “the authors never wrote this”. This is the same "
+                "failure mode the corrections log already records for ARG-A02.")),
+    verdict_challenge=dict(challenged=False, proposed_verdict=None, reasoning=None),
+    people=["PER-SUNGENIS"],
+    related=["R01", "R02", "R03", "R08"],
+    advocate=dict(
+        survives=3,
+        best_defense=("Drop the claim that the formalism supports geocentrism and keep only the "
+                      "claim that it does not refute it. On that reading the argument is: general "
+                      "relativity's field equations admit an Earth-fixed chart; the source's own "
+                      "p. 161 derivation shows the equations of motion in the two descriptions "
+                      "coinciding under ω = B/2; Bouw conceded in print that his model is "
+                      "observationally equivalent to heliocentrism and must be chosen on other "
+                      "grounds. Therefore the choice between the pictures is not made by the "
+                      "field equations, and whatever makes it is external to the physics. That is "
+                      "a coherent, technically literate position, close to what Kretschmann "
+                      "argued against Einstein, and it does not require any of the fifteen "
+                      "vocabularies to be used correctly — only the first one."),
+        preemptive=("It survives because it is basically right, and it is right at the cost of "
+                    "everything the argument was recruited to do. Reframed this way it is a claim "
+                    "about what physics does not settle, not evidence for a stationary Earth, and "
+                    "it belongs in the same category as “the data underdetermine the theory” "
+                    "rather than in a proof list. Two limits are worth pressing. First, "
+                    "equivalence of charts is not equivalence of models: relabelling one "
+                    "spacetime in Earth-fixed coordinates leaves the same dynamical metric and "
+                    "the same local measurements, whereas a universe that physically rotates "
+                    "about a stationary Earth is a different physical claim needing a dynamical "
+                    "account of what holds the shell together at those radii — the light cylinder "
+                    "is where that requirement becomes visible. Second, the concession is "
+                    "symmetric: it removes the field equations as an argument for geocentrism at "
+                    "the same moment it removes them as an argument against it, leaving the "
+                    "position on the theological grounds Bouw named.")),
+    sources=[
+        dict(label="Norton, “General covariance and the foundations of general relativity: eight decades of dispute”, Rep. Prog. Phys. 56 (1993) 791",
+             url="https://iopscience.iop.org/article/10.1088/0034-4885/56/7/001"),
+        dict(label="Norton, “General covariance, gauge theories, and the Kretschmann objection” (Univ. of Pittsburgh, full PDF)",
+             url="https://sites.pitt.edu/~jdnorton/papers/NortonGCGTKO_final.pdf"),
+        dict(label="Kretschmann, “Über den physikalischen Sinn der Relativitätspostulate”, Annalen der Physik 358 (1918) 575–614",
+             url="https://onlinelibrary.wiley.com/doi/abs/10.1002/andp.19183581602"),
+        dict(label="Teh, “Symmetry and Symmetry Breaking”, Stanford Encyclopedia of Philosophy (rev. 2023)",
+             url="https://plato.stanford.edu/entries/symmetry-breaking/"),
+        dict(label="Szabados, “Quasi-Local Energy-Momentum and Angular Momentum in GR”, Living Reviews in Relativity 12:4 (2009) — why gravitational energy density is not localisable",
+             url="https://link.springer.com/article/10.12942/lrr-2009-4"),
+        dict(label="Particle Data Group, “Quantum Chromodynamics” review (2024) — μ_R is an unphysical energy scale",
+             url="https://pdg.lbl.gov/2024/reviews/rpp2024-rev-qcd.pdf"),
+        dict(label="Crowell, Special Relativity §8.1 “Rotating Frames of Reference” — the rotating metric and the light cylinder",
+             url="https://phys.libretexts.org/Bookshelves/Relativity/Special_Relativity_(Crowell)/08:_Rotation/8.01:_Rotating_Frames_of_Reference"),
+        dict(label="Ashby, “Relativity in the Global Positioning System”, Living Reviews in Relativity 6:1 (2003)",
+             url="https://link.springer.com/article/10.12942/lrr-2003-1"),
+        dict(label="Sungenis & Bennett, Galileo Was Wrong Vol. I (2006), full-text scan — “General covariance” p. 171; rotating-frame Lagrangian p. 161",
+             url="https://archive.org/stream/GalileoWasWrongTheChurchSungenisRobertA.Bennett4276/Galileo%20Was%20Wrong_%20The%20Church%20%20-%20Sungenis,%20Robert%20A.%20&%20Bennett,_4276_djvu.txt")]),
+
+# ═══════════════════════════════════════════════ A10 — 13 items
+"A10": dict(
+    tldr=("Rowbotham's argument assumes the atmosphere would have to be dragged along by "
+          "friction with a rough, spinning surface, and that clouds seen drifting "
+          "east-to-west therefore disprove rotation. In fact the atmosphere is "
+          "gravitationally bound and co-rotates as a matter of shared angular momentum; "
+          "winds are small differential motions of metres per second riding on a bulk "
+          "co-rotation of about 465 m/s at the equator. The very wind patterns these 13 "
+          "items cite as evidence against rotation are produced by it — the Coriolis "
+          "deflection reverses sign across the equator, a handedness no sun-driven-only "
+          "model can generate."),
+    passage=dict(
+        work="WRK-ROWBOTHAM-1865", pd=True,
+        locator=("Zetetic Astronomy: Earth Not a Globe! — Section II, “The Earth No Axial or "
+                 "Orbital Motion” (1865); expanded into the explicitly atmospheric form in the "
+                 "enlarged 3rd ed. (1881), ch. III, “Experiment 4” and following"),
+        quote="""[1865, Section II — the seed of the cluster]
+
+"It is therefore demanded that if the Earth had a motion upon axes from west to east, and a ball, instead of being dropped down a mine or allowed to fall from the mast head of a ship, be shot upwards into the air; from the moment of its beginning to descend the surface of the Earth would turn from under its direction, and it would fall behind or to the west of its line of descent. On making the experiment no such effect is observed, and therefore the conclusion is unavoidable, that the Earth DOES NOT MOVE UPON AXES!"
+
+[1881, ch. III — the atmospheric form, ancestor of all 13 items]
+
+"Take a large grinding stone, and let the whole surface of the rim be well rubbed over with a saturated solution of phosphorus in olive oil … If it be now turned rapidly round … the phosphoric vapour, or the steam from the flannel, which surrounds it and which may be called its atmosphere — analogous to the atmosphere of the earth — will be seen to follow the direction of the revolving surface. Now the surface of the earth is very irregular in its outline … and if it is a globe revolving on its axis, with the immense velocity at the equator of more than a thousand miles an hour, it is exceedingly difficult if not altogether impossible to conceive of such a mass moving at such a rate, and yet not taking the atmosphere along with it. … Hence we are compelled to conclude that if the earth revolves, the atmosphere revolves also, and in the same direction.
+
+"If the atmosphere rushes forward from west to east continually, we are again obliged to conclude that whatever floats or is suspended in it, at any altitude, must of necessity partake of its eastward motion. … But what is the fact? If we fix upon any star as a standard or datum outside the visible atmosphere, we may sometimes observe a stratum of clouds going for hours together in a direction the very opposite to that in which the earth is supposed to be moving. … Not only may a stratum of clouds be seen moving rapidly from east to west, but at the same moment other strata may often be seen moving from north to south, and from south to north. … Such a state of the atmosphere is compatible only with the fact which other evidence has demonstrated, that the earth is at rest."
+
+[And Rowbotham's explicit rejection of the ship analogy:]
+
+"A ship with a number of passengers going rapidly in one continued direction, like the earth's atmosphere, could nevertheless have upon its deck a number of distinctly and variously moving objects, like the clouds in the atmosphere. … but the passengers are sentient beings, having within themselves the power of distinct and independent motions: the clouds are the reverse; and here the parallelism fails.\"""",
+        gloss="""<p>All thirteen items descend from these pages, and Rowbotham's chain of reasoning is more careful than most of his successors'. He <em>grants</em> that a rotating Earth would carry its atmosphere with it &mdash; his grinding-stone experiment is offered as proof that it would. His objection is the next step: if the whole envelope is swept eastward at over a thousand miles an hour, then everything suspended in it must be swept eastward too, like cork on a moving stream. Clouds drifting east-to-west, or several strata drifting in different directions at once, therefore look to him like a fatal counter-observation.</p>
+<p>The lineage runs much further back. Ptolemy raises the identical objection in the <em>Almagest</em> I.7, around 150 CE: if the Earth turned, <em>&ldquo;never would a cloud be seen to move toward the east nor anything else that flew or was thrown into the air.&rdquo;</em> Ptolemy then considers the co-rotating-air reply and dismisses it. Rowbotham's 1881 pages reproduce both halves of Ptolemy's argument &mdash; the objection and the refusal of the co-rotation answer &mdash; with no evidence he had read the <em>Almagest</em>. It is a natural argument that intelligent people have reached independently for nearly two millennia, which is exactly why it deserves a careful answer rather than a dismissal.</p>"""),
+    steelman=dict(
+        description="""<p>The surface version &mdash; &ldquo;the atmosphere is just dragged along&rdquo; &mdash; is weak, and it invites Rowbotham's follow-up: dragged by what? A fifty-mile shell of gas resting on a rough surface is not a viscous coupling problem with an obvious answer, and Rowbotham is right that friction alone is a poor mechanism.</p>
+<p>The kernel underneath is a genuine problem in physics: <strong>how is angular momentum communicated to and maintained in a fluid envelope, and why does that envelope not lag or lead the solid body beneath it?</strong> This is not a settled triviality. It is the reason atmospheric superrotation on Venus remains an active research question seventy years after its discovery: Venus's cloud-top atmosphere circles the planet in about four Earth days while the solid planet takes 243 &mdash; roughly sixty times faster &mdash; and identifying the momentum pump that sustains it required a dedicated orbiter (JAXA's Akatsuki) and produced a <em>Science</em> paper in 2020 attributing it to thermal tides. Titan's stratosphere superrotates too. So &ldquo;why should a fluid envelope share the rotation of the body it sits on?&rdquo; is a real question with a non-obvious answer that differs from planet to planet. Rowbotham deserves credit for noticing that the coupling needs an account.</p>""",
+        why_it_doesnt_save_claim="""<p>The kernel is a good question; the prediction Rowbotham derived from it fails in three separable ways.</p>
+<p>First, the mechanism is misidentified. The atmosphere is not dragged by friction from a rough surface. It is gravitationally bound, it formed with the Earth, and it has shared the Earth's angular momentum since. Nothing needs to grip it.</p>
+<p>Second, the observation Rowbotham treats as decisive &mdash; strata moving in different directions, sometimes east-to-west &mdash; is not a residual of failed coupling. Bulk co-rotation at the equator is about 465 m/s. Ordinary surface winds are 0&ndash;30 m/s, and even jet-stream cores are 30&ndash;100 m/s. These are differential motions of a few per cent riding on a co-rotating carrier. A stratum drifting westward relative to the ground is a 10 m/s perturbation on a 465 m/s carrier, not a counter-example to the carrier.</p>
+<p>Third, and decisively, the kernel question has an empirical answer that runs the wrong way for the claim. If Rowbotham had asked what observable signature a rotating frame <em>would</em> leave in the wind field, rather than assuming it must be a permanent westward gale, he would have been asking the question Hadley, Coriolis and Ferrel were answering in the same century. The signature is a latitude-dependent deflection that reverses sign at the equator, and it is present in every wind system he cites.</p>"""),
+    refutation="""<p><strong>The frame problem, answered in 1632.</strong> The reply predates <em>Earth Not a Globe</em> by 233 years. In the Second Dialogue of Galileo's <em>Dialogo</em>, Salviati states the principle: &ldquo;Whatsoever motion may be ascribed to the Earth, it is necessary that it be to us, (as inhabitants upon it, and consequently partakers of the same) altogether imperceptible &hellip; so long as we have regard onely to terrestrial things.&rdquo; Galileo dramatises it with the sealed cabin below decks, where flies fly and water drips straight down and the ship's motion cannot be detected from inside &mdash; and the point of putting the observer <em>below decks</em> is precisely that the enclosed air participates in the motion. The atmosphere is inside the cabin.</p>
+<p>Galileo also answers Rowbotham's specific air-gun experiment, in advance and almost verbatim: &ldquo;those who make the Earth moveable, answer, that the piece, and the ball that is in it, partake of the same motion with the Earth &hellip; And the same you see to ensue, in making the experiment in a ship with a bullet shot upwards perpendicularly with a Crosse-bow, which returneth to the same place whether the ship doth move, or stand still.&rdquo; Rowbotham performed that experiment in the 1860s, got Galileo's predicted result, and read it as a refutation.</p>
+<p><strong>The centrepiece: the deflection reverses across the equator.</strong> The strongest evidence against this cluster is the evidence the cluster itself points at. Earth's rotation produces the Coriolis effect, which deflects moving air to the right in the Northern Hemisphere and to the left in the Southern. The consequences are not subtle. The trade winds blow toward the west in both hemispheres but arrive from opposite corners: from the northeast in the north, from the southeast in the south. Cyclonic storms follow the same rule &mdash; counter-clockwise in the north, clockwise in the south.</p>
+<p>This reversal is fatal to the sun-driven-only alternative the items propose (<em>Jet streams sun-driven</em>, <em>Trade winds sun-driven</em>, <em>Wind bands sun-synced</em>). Solar heating is a thermal forcing. It is approximately symmetric about the thermal equator and it has <strong>no handedness</strong>: it can drive air from hot to cold, but it contains nothing that could make air veer clockwise on one side of a line and anticlockwise on the other. Only a rotation axis defines a chirality, and only a rotation axis makes that chirality flip where the axial component of the local vertical flips. A sun-driven-only model does not merely fail to predict the reversal; it has no term from which a reversal could come.</p>
+<p><strong>The item that concedes the case.</strong> <em>Cloud opposite spin</em> &mdash; the observation that storm systems rotate one way north of the equator and the other way south &mdash; <em>is</em> the hemispheric reversal, offered as though it were a difficulty. It is not a difficulty; it is the fingerprint. Rowbotham does the same thing in 1881: to support his case he quotes Sir James Clark Ross on upper cloud strata &ldquo;moving in an exactly opposite direction to that of the wind &mdash; a circumstance which is frequently recorded in our meteorological journal both in the north-east and south-east trades.&rdquo; He names the north-east and south-east trades, in the same sentence, without registering that their mirrored orientation is the thing needing explanation.</p>
+<p><strong>The Coriolis parameter and the calm belts.</strong> The strength of the deflection is <em>f</em> = 2&Omega;sin&phi;. Sin&phi; is zero at the equator and maximal at the poles, so a rotating Earth predicts a band along the equator in which rotational deflection vanishes. That band exists: NOAA notes that &ldquo;right at the equator there is almost no wind at all &mdash; an area sometimes called the doldrums.&rdquo; The prediction goes further and is testable: with <em>f</em>&rarr;0 there is no torque to organise convection into a rotating vortex, and NOAA's Hurricane Research Division states a storm &ldquo;must be at least 300 miles from the equator in order for the Coriolis force to create the spin&rdquo; &mdash; about five degrees, which is where the observed tropical-cyclone exclusion zone sits. <em>Equatorial calm belts</em> is therefore not a problem for rotation. It is one of rotation's sharper confirmed predictions, listed on the wrong side of the ledger.</p>
+<p><strong>Jet streams and pressure bands.</strong> <em>Jet streams sun-driven</em> is half right, and the omitted half is the rotation. Jets are driven by horizontal temperature gradients, but the reason that gradient produces a narrow west-to-east ribbon rather than a broad poleward drift is angular momentum in a rotating frame. NOAA states it directly: &ldquo;For air moving toward the poles, the Earth's rotational velocity decreases beneath it, but the air itself retains its eastward momentum. This results in wind that moves faster than the Earth rotates.&rdquo; That sentence is a description of the atmosphere carrying the planet's rotational momentum &mdash; the thing the cluster says does not happen. The same applies to <em>Constant air pressure bands</em> and <em>Atmosphere concentric layers</em>: the subtropical high near 30&deg; and the subpolar low near 60&deg; are surface signatures of the three-cell structure, and the reason there are three cells per hemisphere rather than one is that rotation limits how far a thermally direct cell can extend before conservation of angular momentum breaks it. On a non-rotating Earth you would expect single pole-to-equator cells and no banded pressure structure.</p>
+<p><strong>Superrotation, misapplied.</strong> <em>Atmospheric superrotation contradiction</em> uses a real technical term for the opposite of what it means. Superrotation is an atmosphere rotating <em>faster</em> than the body beneath it &mdash; Venus's cloud deck at roughly sixty times the planet's rate, Titan's stratosphere at 100&ndash;200 m/s. Earth's atmosphere does not significantly superrotate. The term presupposes a co-rotating baseline from which to depart, so invoking it concedes the framework the argument is trying to deny.</p>
+<p><strong>Airglow.</strong> <em>No annual airglow wind</em> cannot be assessed as stated. Airglow is real &mdash; faint chemiluminescent emission concentrated near 90 km, routinely used to measure upper-atmosphere winds &mdash; but the item specifies no quantity, no predicted magnitude, no observation and no instrument. It should be marked underspecified rather than refuted.</p>
+<p><strong>Routine measurement.</strong> The Earth-rotation effect on air is not inferred; it is measured daily. Foucault demonstrated rotation directly in Paris on 3 February 1851, with a latitude-dependent precession matching <em>f</em> = 2&Omega;sin&phi;. Rowbotham devotes several pages of the 1865 edition to collecting newspaper complaints about Foucault's pendulum, which tells us he understood how much rested on it. Every operational weather model carries an explicit Coriolis term, and forecasts fail without it.</p>""",
+    straw_man=dict(
+        identified=True,
+        detail=("The cluster attributes to the rotating-Earth model a mechanism the model does "
+                "not use. Rowbotham's grinding-stone experiment and the item 'Atmospheric "
+                "coupling unexplained' both frame the mainstream position as claiming the "
+                "atmosphere is frictionally dragged by contact with a rough surface, and then "
+                "show that friction is inadequate for a fifty-mile gas shell. The mainstream "
+                "position is that the atmosphere is gravitationally bound and shares the Earth's "
+                "angular momentum from formation, with friction and pressure gradients "
+                "redistributing momentum inside an already co-rotating system. The demolished "
+                "mechanism is not the one in use. A second instance: 'Jet streams sun-driven' and "
+                "'Trade winds sun-driven' are presented as though meteorology attributed these "
+                "winds to rotation alone, so that demonstrating a solar-thermal driver would "
+                "refute it. Meteorology attributes them to both — and it is the second term that "
+                "produces the hemispheric reversal the items elsewhere report.")),
+    verdict_challenge=dict(challenged=False, proposed_verdict=None, reasoning=None),
+    people=["PER-ROWBOTHAM", "PER-PTOLEMY"],
+    related=["A09", "A13", "A17", "A22", "A26"],
+    advocate=dict(
+        survives=2, preemptive=None,
+        best_defense=("The most defensible position is the narrow one: strip out the claim that "
+                      "clouds disprove rotation, and hold only that the coupling of a fluid "
+                      "envelope to a rotating body is a non-trivial physical problem, not "
+                      "something to be waved through. That is true, and it is why Venus's "
+                      "superrotation required a dedicated mission to explain and why the general "
+                      "circulation was not quantitatively understood until the twentieth century. "
+                      "Rowbotham's grinding-stone intuition about frictional dragging is a "
+                      "reasonable thing for a self-taught experimenter in 1865 to try, and the "
+                      "textbook reply he was given at the time — the vague 'the atmosphere is "
+                      "carried along' — really was inadequate as stated and did invite his "
+                      "objection.")),
+    sources=[
+        dict(label="Rowbotham, Zetetic Astronomy: Earth Not a Globe! (1865) — Section II (public domain)",
+             url="https://www.gutenberg.org/ebooks/69892"),
+        dict(label="Rowbotham, Zetetic Astronomy, 3rd enlarged ed. (1881), ch. III — Experiment 4 and following",
+             url="https://www.sacred-texts.com/earth/za/za21.htm"),
+        dict(label="Ptolemy, Almagest I.7 — “never would a cloud be seen to move toward the east” (Taliaferro trans.)",
+             url="https://bertie.ccsu.edu/naturesci/cosmology/ptolemy.html"),
+        dict(label="Galileo, The Systeme of the World, Second Dialogue — Salusbury's 1661 translation; relativity principle and the vertical-shot answer",
+             url="https://en.wikiquote.org/wiki/The_Systeme_of_the_World:_in_Four_Dialogues"),
+        dict(label="NOAA NESDIS — What Is the Coriolis Effect? (deflection right in N, left in S; storm rotation reverses)",
+             url="https://www.nesdis.noaa.gov/about/k-12-education/atmosphere/what-the-coriolis-effect"),
+        dict(label="NOAA NESDIS — What Are Trade Winds? (Coriolis origin of the trades; the doldrums)",
+             url="https://www.nesdis.noaa.gov/about/k-12-education/atmosphere/what-are-trade-winds"),
+        dict(label="Met Office — Global circulation patterns (Hadley, Ferrel, Polar cells; ITCZ; jet streams)",
+             url="https://weather.metoffice.gov.uk/learn-about/weather/atmosphere/global-circulation-patterns"),
+        dict(label="NOAA JetStream — The Jet Stream: poleward air retains eastward momentum",
+             url="https://www.noaa.gov/jetstream/global/jet-stream"),
+        dict(label="NOAA AOML Hurricane Research Division FAQ — cyclones require ~300 miles (≈5°) from the equator",
+             url="https://www.aoml.noaa.gov/hrd-faq/"),
+        dict(label="Encyclopaedia Britannica — Coriolis parameter, f = 2ω sin φ",
+             url="https://www.britannica.com/science/Coriolis-parameter"),
+        dict(label="JAXA/ISAS — Horinouchi et al., Science (24 April 2020): Venus's atmosphere superrotates ~60× the planet",
+             url="https://www.isas.jaxa.jp/en/topics/002372.html"),
+        dict(label="Smithsonian — How Does Foucault's Pendulum Prove the Earth Rotates? (Paris, 3 February 1851)",
+             url="https://www.smithsonianmag.com/smithsonian-institution/how-does-foucaults-pendulum-prove-earth-rotates-180968024/")]),
+}

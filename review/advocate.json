@@ -17,12 +17,28 @@
       "name": "“Airy's failure” — water-filled telescope shows no Earth motion",
       "verdict": "REFUTED"
     },
+    "ARG-A10": {
+      "survives": 2,
+      "preemptive": null,
+      "best_defense": "The most defensible position is the narrow one: strip out the claim that clouds disprove rotation, and hold only that the coupling of a fluid envelope to a rotating body is a non-trivial physical problem, not something to be waved through. That is true, and it is why Venus's superrotation required a dedicated mission to explain and why the general circulation was not quantitatively understood until the twentieth century. Rowbotham's grinding-stone intuition about frictional dragging is a reasonable thing for a self-taught experimenter in 1865 to try, and the textbook reply he was given at the time — the vague 'the atmosphere is carried along' — really was inadequate as stated and did invite his objection.",
+      "argument": "ARG-A10",
+      "name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "verdict": "REFUTED"
+    },
     "ARG-A22": {
       "survives": 4,
       "best_defense": "For the daily appearance of the sky, the geocentric and heliocentric models are observationally equivalent — they predict the same thing to arbitrary precision. Ptolemaic astronomy was accurate, predictive and self-correcting, and it served for fourteen centuries. Anyone who asserted that the Earth moves before there was a measurement capable of detecting that motion was asserting more than the evidence supported, and it is fair to say so.",
       "preemptive": "The strongest anticipated reply is that aberration and parallax are themselves model-dependent — that a Tychonic arrangement with the stars carried around annually could reproduce both. It can be made to, and van der Kamp attempted exactly this by reinterpreting aberration as parallax; Bouw later rejected that move and modified the model instead. But the cost is the point: each new measurement has to be absorbed by adding a fresh stipulation, applied to every star in the sky simultaneously, with no independent reason for it. Bouw conceded in print that the resulting model is observationally equivalent to heliocentrism and must therefore be chosen on theological grounds. That concession is the honest end state of the 'saving the appearances' programme, and it is not a claim about evidence.",
       "argument": "ARG-A22",
       "name": "The sky's daily appearance is equally described by a moving sky",
+      "verdict": "STANDARD PHYSICS"
+    },
+    "ARG-R06": {
+      "survives": 3,
+      "best_defense": "Drop the claim that the formalism supports geocentrism and keep only the claim that it does not refute it. On that reading the argument is: general relativity's field equations admit an Earth-fixed chart; the source's own p. 161 derivation shows the equations of motion in the two descriptions coinciding under ω = B/2; Bouw conceded in print that his model is observationally equivalent to heliocentrism and must be chosen on other grounds. Therefore the choice between the pictures is not made by the field equations, and whatever makes it is external to the physics. That is a coherent, technically literate position, close to what Kretschmann argued against Einstein, and it does not require any of the fifteen vocabularies to be used correctly — only the first one.",
+      "preemptive": "It survives because it is basically right, and it is right at the cost of everything the argument was recruited to do. Reframed this way it is a claim about what physics does not settle, not evidence for a stationary Earth, and it belongs in the same category as “the data underdetermine the theory” rather than in a proof list. Two limits are worth pressing. First, equivalence of charts is not equivalence of models: relabelling one spacetime in Earth-fixed coordinates leaves the same dynamical metric and the same local measurements, whereas a universe that physically rotates about a stationary Earth is a different physical claim needing a dynamical account of what holds the shell together at those radii — the light cylinder is where that requirement becomes visible. Second, the concession is symmetric: it removes the field equations as an argument for geocentrism at the same moment it removes them as an argument against it, leaving the position on the theological grounds Bouw named.",
+      "argument": "ARG-R06",
+      "name": "Tensor/gauge/coordinate formalism can be written Earth-centred",
       "verdict": "STANDARD PHYSICS"
     },
     "ARG-R08": {

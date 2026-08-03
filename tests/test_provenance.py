@@ -231,6 +231,30 @@ check("advocate mode is stripped from the published corpus",
 check("every full-depth argument still has an internal advocate record",
       all(a["id"] in ADVOCATE["entries"] for a in ARGS.values() if a["depth"] == "full"))
 
+_r01 = ARGS["ARG-R01"]
+if _r01["depth"] == "full":
+    _rt = json.dumps(_r01["deep"])
+    check("R01 concedes general covariance without hedging",
+          "no preferred frame in general relativity" in _rt)
+    # The phrase "relativity forbids an Earth-fixed frame" appears in R01's
+    # straw_man field as the error to AVOID. Test the refutation, which is what
+    # a reader sees as our position, and test for the concession being present.
+    _rr = _r01["deep"]["refutation"]
+    check("R01 refutation states outright that an Earth-fixed chart is legitimate",
+          "Anyone answering this argument by asserting that physics forbids an "
+          "Earth-fixed frame is wrong" in _rr)
+    check("R01 refutation does not assert a preferred frame exists in GR",
+          "general relativity has a preferred frame" not in _rr)
+    check("R01 carries the Kretschmann cuts-both-ways move", "Kretschmann" in _rt)
+    check("R01 carries the relabelling-vs-different-model crux",
+          "not a rival model" in _rt or "relabelling" in _rt.lower())
+    check("R01 notes the equivalence concession costs them the rest of the list",
+          "withdraw every experimental item" in _rt
+          or "own refutation side by side" in _rt)
+check("no treatment cites the superseded Bouw source (see corrections entry 1)",
+      "geocentric-gobbledegook" not in json.dumps(ARGS),
+      "creation.com/geocentric-gobbledegook is Faulkner on Marshall Hall, not Bouw")
+
 print("\n[5] attribution guards (see claude/source-genealogy.md)")
 # claims the research flagged as unverified must not appear as fact
 check("does not assert Carpenter 1885 as provably the FIRST numbered list",

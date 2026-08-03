@@ -33,6 +33,14 @@
       "name": "The sky's daily appearance is equally described by a moving sky",
       "verdict": "STANDARD PHYSICS"
     },
+    "ARG-R01": {
+      "survives": 4,
+      "best_defense": "Nothing here is a physics error. General relativity is generally covariant, there is no preferred frame, and an Earth-fixed solution of the field equations is as legitimate as any other. Kretschmann's objection is conceded on your side too, and it establishes symmetry: if covariance settles nothing, it does not settle against us either. The rotating-frame terms critics point to — Coriolis, centrifugal, Sagnac — are what a rotating cosmos would produce as real gravitomagnetic fields, and Thirring showed in 1918 that a rotating mass shell drags inertial frames inside it. Bouw and Faulkner agree the models differ by a coordinate change. Since physics is silent, the choice is made on other grounds, and we say so openly rather than presenting a preference as a discovery.",
+      "preemptive": "Expect the reply that the mechanism already exists in Thirring 1918 and that ring lasers and Michelson–Gale measure only relative rotation, which the geocentric reading also predicts. Answer on the level of dynamics, not coordinates: Thirring's result is a linearised interior solution for a slowly rotating shell in an otherwise asymptotically flat spacetime, and it has never been scaled into a self-consistent cosmological solution — with a stress-energy tensor and a fit to the data — in which the observed matter distribution turns once a sidereal day. Then press the symmetry: rotation relative to the local inertial structure is a coordinate-free invariant, and Wettzell measures it to one part in 10⁹. Finally hold them to the equivalence they claim — if it holds, they must withdraw every experimental item on the list; if they will not withdraw those, they have conceded that experiments discriminate, and the experiments have answered.",
+      "argument": "ARG-R01",
+      "name": "General covariance permits a stationary-Earth frame",
+      "verdict": "STANDARD PHYSICS"
+    },
     "ARG-R06": {
       "survives": 3,
       "best_defense": "Drop the claim that the formalism supports geocentrism and keep only the claim that it does not refute it. On that reading the argument is: general relativity's field equations admit an Earth-fixed chart; the source's own p. 161 derivation shows the equations of motion in the two descriptions coinciding under ω = B/2; Bouw conceded in print that his model is observationally equivalent to heliocentrism and must be chosen on other grounds. Therefore the choice between the pictures is not made by the field equations, and whatever makes it is external to the physics. That is a coherent, technically literate position, close to what Kretschmann argued against Einstein, and it does not require any of the fifteen vocabularies to be used correctly — only the first one.",

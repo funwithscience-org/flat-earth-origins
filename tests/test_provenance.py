@@ -340,6 +340,46 @@ check("the rule states the anti-strawman half",
 check("the rule states the no-escape-hatch half",
       "is not an escape hatch" in PAGE)
 
+# --- the three mis-aimed refutations, fixed 2026-08-05 ---------------
+# These regressed once already. Each check pins the SOURCE-facing move, so a
+# future edit that drifts back to refuting the list's fragments turns them red.
+_r08 = ARGS["ARG-R08"]["deep"]["refutation"]
+check("R08 answers the book's conventionalism before the items",
+      "conventional origin is not a conventional dynamics" in _r08)
+check("R08 restores the condition on the Einstein/Infeld quotation",
+      "<em>if</em> the laws of physics" in _r08 and "<em>then</em>" in _r08)
+check("R08 states that the source names no instrument",
+      "no instrument is named at all" in _r08)
+check("R08 labels the 28 items as the list's addition, not the authors'",
+      "the list&rsquo;s addition, not the" in _r08)
+check("R08 does not open by refuting the fragments",
+      _r08.index("what the book actually argues") < _r08.index("Kind 1"))
+
+_r06 = ARGS["ARG-R06"]["deep"]["refutation"]
+check("R06 concedes the source's sentence is correct",
+      "What the source says is correct" in _r06)
+check("R06 states the six unlocatable titles BEFORE refuting any of them",
+      _r06.index("could not be found in the source") < _r06.index("Kind 1"))
+check("R06 keeps the caveats on that count",
+      "not located in the scanned text" in _r06 and "OCR quality is variable" in _r06)
+check("R06 leaves the anthropic reversal unsettled rather than asserting it",
+      "unsettled rather than claim a reversal" in _r06)
+check("R06 attributes the remaining items to an unknown author",
+      "whose author we do not know" in _r06)
+
+_a10 = ARGS["ARG-A10"]["deep"]["refutation"]
+check("A10 opens by stating that Rowbotham GRANTS co-rotation",
+      "He claims the opposite" in _a10 and "the atmosphere revolves" in _a10)
+check("A10 no longer argues for co-rotation as though it were disputed",
+      "The atmosphere is inside the cabin." not in _a10)
+# NB: the old wrong name is quoted once on the Method tab, in the disclosure of
+# this very error. That occurrence must SURVIVE; only the live name must change.
+check("A10's cluster name no longer states the reverse of its source",
+      "co-rotate" not in ARGS["ARG-A10"]["name"]
+      and "co-rotate" not in json.dumps(ARGS["ARG-A10"]["deep"]["tldr"]))
+check("the Method tab still owns up to the old wrong name",
+      "the atmosphere can&rsquo;t co-rotate" in PAGE)
+
 # R01 is the calibration case: the wording barely moves, the speech act does.
 if "ARG-R01" in _assessed:
     check("R01 is recorded as a concession repurposed as a proof",

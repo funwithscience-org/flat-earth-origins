@@ -45,10 +45,10 @@
   {
    "at": "2026-08-05",
    "found_by": "hedge-rule audit, batch B",
-   "where": "ARG-R08 and ARG-R06 refutation prose (open, not yet rewritten)",
+   "where": "ARG-R08 and ARG-R06 refutation prose (FIXED 2026-08-05)",
    "old_argument": "Both refutations argue against the list's fragments artefact by artefact - GPS, sextants, ephemerides for R08; Noether, Fermat, light cones, gauge symmetry for R06.",
-   "new_argument": "Neither argument form appears in the cited source. R08's source-facing answer (a conventional choice of origin is not a conventional choice of dynamics) currently exists only inside the steelman; R06 argues at length against terms our own corrections log records as absent from the text. Both refutations need rewriting against what the source actually claims. Flagged on the page as open rather than quietly repaired.",
-   "reason": "Same failure as A10, caught by the same audit. Recording it before fixing it, because a review about provenance should not be able to correct itself silently."
+   "new_argument": "Neither argument form appears in the cited source. Both refutations have been rewritten. R08 now answers the book's conventionalism first - the Einstein/Infeld sentence with its governing condition restored, and the reply that a conventional choice of origin is not a conventional choice of dynamics - and reaches the 28 artefacts only afterwards, under a heading stating they are the list's addition and not the authors'. R06 now concedes the one sentence the source does supply, states the six unlocatable item titles WITH the caveats (one scanned volume, variable OCR, unresolved volume identity, search not independently re-run) before refuting anything, leaves the anthropic reversal unsettled given Woit's contrary testimony, and addresses the remaining items as claims of unknown authorship. Regression tests pin all of it.",
+   "reason": "Same failure as A10, caught by the same audit. Recording it before fixing it, because a review about provenance should not be able to correct itself silently. Fixed same week; the A10 headline and TLDR were found to carry the same mis-attribution and were rewritten with them."
   }
  ]
 }

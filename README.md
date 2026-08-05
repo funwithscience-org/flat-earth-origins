@@ -77,6 +77,27 @@ do *not* appear as fact (Carpenter's pamphlet as provably the first numbered lis
 Oakley; Paul Ellwanger as a geocentrist; "Dubay plagiarised"). These exist because those
 are the errors a future edit is most likely to reintroduce.
 
+## The hedge rule
+
+**Refute the source's hedged wording, never the list's compressed phrasing.** Standing
+rule as of 2026-08-05; it governs every treatment and the curmudgeon pass checks it first.
+
+List items are fragments — *"Airy's failure to detect starlight motion."* The books they
+came from qualify, scope to a case, and sometimes concede outright. Beating the fragment
+beats nobody, and it is the move we object to when it is done to us. **This is the reason
+the project traces claims back to originals at all**, rather than answering the list.
+
+The second clause matters as much: a hedge is not an escape hatch. The compressed version
+is what circulates, so where an item claims more than its source did, that gap is
+published as a finding on the argument itself — both texts side by side, with what
+changed named. Answer the source on the merits *and* show the drift.
+
+Mechanically: every `DEEP` entry carries a `compression` block, `build.py` refuses to
+build without one, and the page publishes how many arguments have been checked. See the
+schema and the seven `drift_type` values at the top of `scripts/deep.py`; worked cases are
+`ARG-R01` (`force_upgraded`) and `ARG-A03` (`category_shifted`). `assessed=False` means
+nobody has compared the texts yet — it never means the phrasing is faithful.
+
 ## Sourcing standard
 
 Every verdict cites a public source or a reproducible calculation. Engage the strongest

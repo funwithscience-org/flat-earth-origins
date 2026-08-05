@@ -38,6 +38,16 @@ def e(x):
     return html.escape(str(x)) if x is not None else ""
 
 
+DRIFT_LABEL = {
+    "hedge_dropped": "The qualifier was dropped",
+    "force_upgraded": "A concession was re-used as a proof",
+    "scope_widened": "A narrow case was generalised",
+    "reversed": "The item states the opposite of its source",
+    "category_shifted": "The kind of claim changed",
+    "unsourced_addition": "The source does not contain this",
+}
+
+
 def rng(nums):
     nums = sorted(nums); out = []; i = 0
     while i < len(nums):
@@ -131,6 +141,43 @@ def render_argument(a):
          f'{chip(a["verdict"])}<p class="ks-tldr">{e(a["basis"])}</p></summary>'
          f'<div class="ks-detail">{d["refutation"]}</div></details>',
     ]
+
+    cp = d["compression"]
+    if cp["assessed"] and cp["drifted"]:
+        h.append(
+            '<details class="ds-win-section"><summary class="ks-summary">'
+            '<strong>The list overstates its own source</strong>'
+            '<p class="ks-tldr">We answer the original above, not the one-line version. '
+            'Here is the gap between them.</p></summary>'
+            '<div class="ks-detail">'
+            '<p style="font-family:var(--sans);font-size:.8rem;color:var(--ink-3);'
+            'text-transform:uppercase;letter-spacing:.04em;margin-bottom:.2rem">The list says</p>'
+            f'<blockquote style="margin:0 0 .9rem;padding:.5rem 1rem;border-left:3px solid '
+            f'var(--misleading-solid);background:var(--card-bg)">{e(cp["list_phrasing"])}</blockquote>'
+            '<p style="font-family:var(--sans);font-size:.8rem;color:var(--ink-3);'
+            'text-transform:uppercase;letter-spacing:.04em;margin-bottom:.2rem">The source says</p>'
+            f'<blockquote style="margin:0 0 .9rem;padding:.5rem 1rem;border-left:3px solid '
+            f'var(--rule);background:var(--card-bg);font-style:italic">{cp["source_wording"]}</blockquote>'
+            f'<p><strong>{e(DRIFT_LABEL[cp["drift_type"]])}.</strong> {cp["note"]}</p>'
+            '</div></details>')
+    elif cp["assessed"] == "no_source":
+        h.append('<details class="ds-win-section"><summary class="ks-summary">'
+                 '<strong>Nothing to compare it against</strong>'
+                 '<p class="ks-tldr">We went looking for the first person to say this and did '
+                 'not find one. That is the finding, not a gap.</p></summary>'
+                 f'<div class="ks-detail"><p>{cp["note"]}</p></div></details>')
+    elif cp["assessed"] is True:
+        h.append('<details class="ds-win-section"><summary class="ks-summary">'
+                 '<strong>Faithfully compressed</strong>'
+                 '<p class="ks-tldr">The one-line item states this claim at the strength its '
+                 'source states it &mdash; so the original is what we answer, and the original '
+                 'is what the list has.</p></summary>'
+                 + (f'<div class="ks-detail"><p>{cp["note"]}</p></div>'
+                    if cp.get("note") else
+                    '<div class="ks-detail"><p>We compared the item text with the source&rsquo;s '
+                    'own wording and found no material difference in what is claimed or how '
+                    'strongly.</p></div>')
+                 + '</details>')
 
     if d["straw_man"]["identified"]:
         h.append('<div class="tally" style="border-left-color:var(--misleading-solid)">'
@@ -361,6 +408,16 @@ def tab_overview():
         f'Known limits</a>.</span><span class="ds-fm-status ds-fm-status-partial">'
         f'<span class="ds-fm-status-num">{S["arguments_at_full_depth"]}/{S["distinct_arguments"]}</span>'
         f'<span class="ds-fm-status-sub">audited</span></span></li>'
+        f'<li class="ds-fm-row"><span class="ds-fm-condition">Checked against the source&rsquo;s '
+        f'own wording</span>'
+        f'<span class="ds-fm-desc">The list is a trimmed derivative. We refute what the original '
+        f'author actually wrote, at the strength they wrote it &mdash; and where the one-line '
+        f'version claims more than its source did, we say so on the argument. Unchecked is not '
+        f'a claim that the phrasing is faithful; it means nobody has compared them '
+        f'yet &mdash; and a further {S["hedge_no_source"]} was traced to no author at '
+        f'all.</span><span class="ds-fm-status ds-fm-status-partial">'
+        f'<span class="ds-fm-status-num">{S["hedge_checked"]}/{S["distinct_arguments"]}</span>'
+        f'<span class="ds-fm-status-sub">{S["hedge_drifted"]} overstated</span></span></li>'
         f'<li class="ds-fm-row"><span class="ds-fm-condition">Biographies written</span>'
         f'<span class="ds-fm-desc">The rest carry verified identity and sources only, with no '
         f'interpretation.</span><span class="ds-fm-status ds-fm-status-pending">'
@@ -413,8 +470,31 @@ def tab_method():
         'text harder to attack &mdash; not to be read as part of it, which would only hand the '
         'reader the other side&rsquo;s best case at the moment the argument is meant to have '
         'landed.</p>'
+        '<h2>The rule that governs all of it</h2>'
+        '<div class="ds-evidence">'
+        '<h3 style="margin-top:0">Refute the source, not the summary</h3>'
+        '<p>A list item is a fragment. <em>&ldquo;Airy&rsquo;s failure to detect starlight '
+        'motion.&rdquo; &ldquo;Relativity permits stationary Earth frame.&rdquo;</em> The books '
+        'those came from almost never read that way &mdash; they qualify, they scope to a case, '
+        'and now and then they concede outright. Beating the fragment would be beating nobody, and '
+        'it would be the same move we are objecting to.</p>'
+        '<p>So every refutation on this page is written against <strong>what the original author '
+        'actually wrote, at the strength they wrote it</strong>. If the source says <em>may</em>, '
+        'we answer <em>may</em>. Going back to the original and arguing with that is the entire '
+        'reason this review exists rather than a rebuttal of the list.</p>'
+        '<p>The second half matters as much. A hedge is not an escape hatch: we do not get to '
+        'reply &ldquo;nobody really claims that&rdquo; and move on, because the compressed version '
+        'is the one in circulation and it is the one readers meet. So the gap gets published as a '
+        'finding in its own right &mdash; where an item claims more than the work it came from, '
+        'the argument carries both texts side by side and names what changed. Two products from '
+        'one comparison: the source answered on the merits, and the drift shown.</p>'
+        '<p>That drift is also the cleanest evidence for what this page is about. A short list of '
+        'authors, a long chain of distributors, and claims that get firmer at every step &mdash; '
+        'consistently firmer than the person who first made them was willing to be.</p></div>'
         '<h2>Principles</h2><ol>'
         '<li>Every claim is independently verifiable, with a reference.</li>'
+        '<li>We answer the source&rsquo;s hedged wording, never the list&rsquo;s compressed '
+        'phrasing &mdash; and we publish the gap where there is one.</li>'
         '<li>We use the claim&rsquo;s own logic against it &mdash; the strongest refutation of '
         '&ldquo;experiment X shows no motion&rdquo; is experiment X&rsquo;s published result.</li>'
         '<li>We evaluate against measurement, not authority.</li>'
@@ -438,9 +518,20 @@ def tab_method():
         f'argument still marked &ldquo;cluster depth&rdquo; as provisional.</strong> The verdicts '
         f'and the family counts do not depend on those attributions and are unaffected; the '
         f'named-originator claims on unaudited arguments do.</p>'
-        f'<p style="margin-bottom:0">Roughly a third of spot-checks failing is not a rate we '
-        f'are comfortable with, and re-auditing the remaining arguments is now ahead of writing '
-        f'new ones.</p></div>'
+        f'<p>Roughly a third of spot-checks failing is not a rate we are comfortable with, and '
+        f're-auditing the remaining arguments is now ahead of writing new ones.</p>'
+        f'<p><strong>And the audit found a second kind of error, in us.</strong> The first sweep '
+        f'under the hedge rule &mdash; comparing every list item against its source&rsquo;s own '
+        f'sentence &mdash; turned up <strong>three refutations aimed at the list&rsquo;s fragment '
+        f'rather than at what the author actually wrote</strong>. The worst was ours twice over: '
+        f'we had named an argument &ldquo;the atmosphere can&rsquo;t co-rotate&rdquo; when '
+        f'Rowbotham grants co-rotation explicitly and argues from inside that concession. We were '
+        f'busy refuting a position his book does not hold. That argument is fixed and logged; the '
+        f'other two are named in the corrections log and marked open rather than quietly '
+        f'repaired.</p>'
+        f'<p style="margin-bottom:0">We are reporting this because it is the exact failure this '
+        f'page criticises, committed by this page. It is also the argument for the rule: it was '
+        f'introduced on a Wednesday and caught three of our own errors the same afternoon.</p></div>'
         f'<ul>'
         f'<li>{untraced} items could not be traced to a named origin. That is a limit of this '
         f'pass, not evidence of originality &mdash; they are one-line assertions with no cited '

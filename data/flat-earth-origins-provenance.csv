@@ -34,7 +34,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 33,Planetary retrograde motion fit geocentric math.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
 34,Day–night cycle from firmament rotation.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
 35,Lunar phases explainable without orbit.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-36,No visible rotation of atmosphere or clouds.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+36,No visible rotation of atmosphere or clouds.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 37,No naked-eye parallax.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
 38,Star rotation constant 24 hours.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
 39,Precession from dome rotation.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
@@ -47,12 +47,12 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 46,GPS Earth-centered.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
 47,Surveying assumes stationary ground.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
 48,Plumb lines perpendicular worldwide.,B,B,ARG-B09,B09,Plumb lines are perpendicular everywhere,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-49,Atmosphere concentric layers.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+49,Atmosphere concentric layers.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 50,Engineering curvature corrections unnecessary.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
 51,Relativity allows Earth-centered math.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
 52,Indistinguishable rotating universe equivalence.,A,A-REL,ARG-R05,R05,GR admits rotating-universe solutions / frame dragging,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gödel 1949; Lense–Thirring 1918; Gravity Probe B,MISLEADING
 53,Conservation of momentum paradox.,A,A-EXP,ARG-A17,A17,Conservation-of-momentum paradox for a moving Earth,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-54,"No wind drag from 67,000 mph orbit.",A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+54,"No wind drag from 67,000 mph orbit.",A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 55,Equatorial bulge alternative cause.,A,A-EXP,ARG-A13,A13,No centrifugal effects felt; equatorial bulge has another cause,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
 56,Water rotation electromagnetic explanation.,A,A-EXP,ARG-A09,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
 57,Equivalence principle permits rest frame.,A,A-REL,ARG-R04,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
@@ -105,7 +105,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 104,Solar inertial wobble about Earth.,E,E,ARG-E14,E14,"Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",,,,,REFUTED
 105,Stable equatorial bulge.,A,A-EXP,ARG-A13,A13,No centrifugal effects felt; equatorial bulge has another cause,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
 106,Coriolis equivalence with sky rotation.,A,A-EXP,ARG-A09,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
-107,Atmospheric coupling unexplained.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+107,Atmospheric coupling unexplained.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 108,High-altitude balloons drift anomaly.,A,A-EXP,ARG-A16,A16,High-altitude balloon drift and sun-angle anomalies,,,,,NOT DEMONSTRATED
 109,Geostationary satellites reinterpretation.,A,A-EXP,ARG-A21,A21,Satellites and geostationary orbits reinterpreted in an Earth-fixed frame,Samuel Shenton,International Flat Earth Research Society,1957,,STANDARD PHYSICS
 110,Flight symmetry east/west.,A,A-EXP,ARG-A08,A08,Aircraft don't compensate for spin; east/west flight times symmetric,Samuel Rowbotham,Earth Not a Globe,1865,Inertial navigation systems measure Earth rate on every flight,REFUTED
@@ -209,8 +209,8 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 208,Lunar ranging fixed baseline.,A,A-EXP,ARG-A20,A20,Lunar laser ranging shows a fixed baseline,,,,Apollo/Lunokhod retroreflector ranging,NOT DEMONSTRATED
 209,Eclipse timing by rotating sky.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
 210,Seasonal stars via dome.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-211,Constant air pressure bands.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-212,Jet streams sun-driven.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+211,Constant air pressure bands.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
+212,Jet streams sun-driven.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 213,Perfect star circles.,B,B,ARG-B08,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
 214,No coriolis coding in drones.,A,A-EXP,ARG-A09,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
 215,Marine sextant geocentric.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
@@ -239,13 +239,13 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 238,Bolide entry clustering.,E,E,ARG-E16,E16,"Meteor, bolide and micrometeor distributions",,,,,STANDARD PHYSICS
 239,Meteor showers calendar-fixed.,E,E,ARG-E16,E16,"Meteor, bolide and micrometeor distributions",,,,,STANDARD PHYSICS
 240,Stellar proper motion tiny.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
-241,No annual airglow wind.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+241,No annual airglow wind.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 242,Micrometeor isotropy.,E,E,ARG-E16,E16,"Meteor, bolide and micrometeor distributions",,,,,STANDARD PHYSICS
 243,Solar wind bow shock centered.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
 244,Satellite ground tracks Earth-based.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
 245,Tidal resonance geocentric.,A,A-EXP,ARG-A27,A27,Tides explained by sky/firmament torque,,,,,NOT DEMONSTRATED
-246,Equatorial calm belts.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-247,Trade winds sun-driven.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+246,Equatorial calm belts.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
+247,Trade winds sun-driven.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 248,Bird migration sky cues.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
 249,Pendulum building sensitivity.,A,A-EXP,ARG-A15,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED
 250,Torsion balance null variation.,A,A-EXP,ARG-A15,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED
@@ -254,7 +254,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 253,Solar tables geocentric.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
 254,Analemma lamp artifact.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
 255,Sun apparent speed constant.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-256,Atmospheric superrotation contradiction.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+256,Atmospheric superrotation contradiction.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 257,No equatorial centrifugal relief.,A,A-EXP,ARG-A13,A13,No centrifugal effects felt; equatorial bulge has another cause,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
 258,Ballistics ignore rotation.,A,A-EXP,ARG-A14,A14,Ballistics and artillery ignore Earth's rotation,Samuel Rowbotham,Earth Not a Globe,1865,Standard long-range fire-control tables,REFUTED
 259,Bridges no curvature allowance.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
@@ -266,10 +266,10 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 265,Planet brightness epicycles.,D,D,ARG-D03,D03,Geocentric/Ptolemaic models made accurate predictions,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,STANDARD PHYSICS
 266,Libration perspective optical.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
 267,Constellation stability.,B,B,ARG-B08,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
-268,Wind bands sun-synced.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-269,Cloud opposite spin.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+268,Wind bands sun-synced.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
+269,Cloud opposite spin.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 270,Ring stability issue.,A,A-EXP,ARG-A25,A25,Orbital / lunar / ring stability objections,,,,,NOT DEMONSTRATED
-271,Lightning frequency sun path.,A,A-EXP,ARG-A10,A10,No wind/drag from Earth's motion; atmosphere can't co-rotate,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
+271,Lightning frequency sun path.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 272,Any point inertial possible.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
 273,GR allows rotating universe.,A,A-REL,ARG-R05,R05,GR admits rotating-universe solutions / frame dragging,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gödel 1949; Lense–Thirring 1918; Gravity Probe B,MISLEADING
 274,Lense–Thirring frame dragging.,A,A-REL,ARG-R05,R05,GR admits rotating-universe solutions / frame dragging,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gödel 1949; Lense–Thirring 1918; Gravity Probe B,MISLEADING

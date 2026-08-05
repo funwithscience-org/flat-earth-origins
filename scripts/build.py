@@ -68,6 +68,35 @@ for cid, d in DEEP.items():
         if vc["challenged"]:
             assert vc.get("proposed_verdict") and vc.get("reasoning"), \
                 f"{cid}: a challenged verdict needs proposed_verdict AND reasoning"
+    # THE HEDGE RULE — refute the source's wording, not the list's compression.
+    cp = d.get("compression")
+    assert cp is not None, f"{cid}: `compression` is required (see the hedge rule in deep.py)"
+    assert cp.get("assessed") in (True, False, "no_source"), \
+        f"{cid} compression.assessed must be True, False or 'no_source'"
+    DRIFTS = {"none", "hedge_dropped", "force_upgraded", "scope_widened",
+              "reversed", "category_shifted", "unsourced_addition"}
+    if cp["assessed"] is False:
+        assert cp.get("drifted") is None, \
+            f"{cid}: unassessed compression cannot claim a drift verdict either way"
+    elif cp["assessed"] == "no_source":
+        # The comparison was ATTEMPTED and terminated in a result: there is no
+        # original to compare against. That is a finding about how the list was
+        # assembled, not a backlog item, and it must not be counted as either
+        # "unchecked" or "faithful".
+        assert cp.get("drifted") is None, \
+            f"{cid}: with no source there is nothing to have drifted from"
+        assert cp.get("note"), \
+            f"{cid}: 'no_source' must record what search was run and where it stopped"
+    else:
+        assert isinstance(cp.get("drifted"), bool), f"{cid} compression.drifted must be bool"
+        assert cp.get("drift_type") in DRIFTS, f"{cid} compression.drift_type invalid: {cp.get('drift_type')}"
+        if cp["drifted"]:
+            assert cp["drift_type"] != "none", f"{cid}: drifted=True needs a drift_type"
+            for f in ("list_phrasing", "source_wording", "note"):
+                assert cp.get(f), f"{cid}: a recorded drift requires `{f}` — show the reader both texts"
+        else:
+            assert cp["drift_type"] == "none", f"{cid}: drifted=False must carry drift_type 'none'"
+
     s = d.get("advocate", {}).get("survives")
     assert isinstance(s, int) and 1 <= s <= 5, f"{cid} advocate.survives must be 1-5"
     if s >= 3:
@@ -157,6 +186,12 @@ summary = {
     "items_traceable_to_a_named_originator": named_items,
     "people_count": len(people), "works_count": len(works),
     "arguments_at_full_depth": sum(1 for a in arguments.values() if a["depth"] == "full"),
+    "hedge_checked": sum(1 for a in arguments.values()
+                         if a["deep"] and a["deep"]["compression"]["assessed"] is True),
+    "hedge_drifted": sum(1 for a in arguments.values()
+                         if a["deep"] and a["deep"]["compression"].get("drifted")),
+    "hedge_no_source": sum(1 for a in arguments.values()
+                           if a["deep"] and a["deep"]["compression"]["assessed"] == "no_source"),
     "bios_worked": sum(1 for p in people.values() if p["bio_status"] == "worked"),
     "items_by_family": dict(sorted(collections.Counter(r["family"] for r in items).items())),
     "items_by_lane": dict(sorted(lane_items.items())),

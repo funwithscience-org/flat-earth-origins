@@ -24,16 +24,60 @@ verbatim text and carry on with the review.
 1. **Read our current text.** Every field a reader sees, headline first. A TLDR that
    overstates the body is a hole even when the body is correct.
 2. **Read the primary source we are characterising.** Not our summary of it. The source.
-3. **Attack.** For each piece of our evidence:
+3. **Apply the hedge rule** (below). Do this before attacking anything else — if we
+   have refuted the list's fragment rather than the source's sentence, every finding
+   downstream is about the wrong target.
+4. **Attack.** For each piece of our evidence:
    - Is it factually correct? Check dates, editions, page numbers, attributions.
    - Where is the weakest link a defender goes for first?
    - Are we strawmanning? Does the source actually say what we claim it says?
    - Are there stronger arguments we are missing?
-4. **Find the kernel of truth** (below).
-5. **Advocate mode** (below).
-6. **Check every citation.** Does it exist, is it the right edition, does it say what we
+5. **Find the kernel of truth** (below).
+6. **Advocate mode** (below).
+7. **Check every citation.** Does it exist, is it the right edition, does it say what we
    claim, are author/year/publisher correct?
-7. **Write the review JSON** to `review/reviews/<TARGET-ID>.c<N>.json`.
+8. **Write the review JSON** to `review/reviews/<TARGET-ID>.c<N>.json`.
+
+## The hedge rule — standing, and it outranks everything else here
+
+**Test the rebuttal against the source's hedged wording, not the list's compressed
+phrasing.**
+
+The list items are fragments — *"Airy's failure to detect starlight motion." "Relativity
+permits stationary Earth frame."* The books they came from almost never read that way.
+They qualify, they scope to a case, and now and then they concede outright. A refutation
+aimed at the fragment has beaten nobody, and it is the same move we object to when they
+do it to us. **This is why the project traces claims back to originals at all.**
+
+On every argument target, do this explicitly:
+
+1. Put the list item's text and the source's own sentence side by side.
+2. Ask what our refutation is aimed at. If it only lands on the fragment, that is a
+   **critical** hole — same tier as a fabricated citation, because it is the same failure:
+   attributing to a source something the source does not say.
+3. Record the comparison in the `compression` block. `assessed=False` means nobody has
+   looked; it is never a way of saying the phrasing is fine.
+
+**The hedge is not an escape hatch.** When the source is more careful than the list, we do
+not get to write "nobody really claims this" and stop. The compressed version is the one
+in circulation and the one readers arrive with. Answer the source on the merits *and*
+publish the gap as a finding. Two products from one comparison.
+
+Two worked cases, both live on the page:
+
+- **`ARG-R01` — `force_upgraded`.** Van der Kamp: relativity *"can indeed not pillory an
+  Earth-centered cosmology"*, and a win on those terms is *"forcing an open door."* The
+  list item says "Relativity permits stationary Earth frame." The wording barely moves;
+  the **speech act** does. A concession, stated as such by its own author, appears on the
+  list as proof item 26. Nothing was misquoted and everything changed.
+- **`ARG-A03` — `category_shifted`.** The source claims the experiment *was called* a
+  failure and that the name reveals what its contemporaries felt: a historiographical
+  claim, in the passive voice. The item asserts Airy *failed to detect starlight motion*:
+  a claim about optics, and false, since Airy measured aberration perfectly well.
+
+If a drift you record is not one of the seven `drift_type` values in `scripts/deep.py`,
+say so in the review rather than forcing it into the nearest box — the enum is a
+convenience, not a theory.
 
 ## Find the kernel of truth
 
@@ -85,7 +129,8 @@ rhetorically vulnerable**. They are different jobs — do both.
 
 - **critical** — factual error a defender could use to discredit the whole site. Wrong
   dates, fabricated or misattributed citations, claims about what a source says that the
-  source doesn't say.
+  source doesn't say — **including a refutation aimed at the list's compression rather
+  than the source's own wording**, which is that same error wearing a disguise.
 - **major** — significant weakness in one argument. Missing the strongest counterpoint,
   mischaracterising a figure's actual position, wrong edition.
 - **moderate** — the argument works but could be stronger. Missing context, imprecise

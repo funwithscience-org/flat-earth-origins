@@ -64,6 +64,25 @@ BATCH5 = {
 <p><strong>Sixth, the concession is the argument's own end state &mdash; and it is expensive.</strong> Faulkner's review states the position plainly: &ldquo;Mathematically, the essential difference between the heliocentric and Tychonian models is a co-ordinate change from the Sun to the Earth.&rdquo; Bouw does not dispute it; he grants that the two models &ldquo;can both account for the observed motions of the universe&rdquo;, endorses Hoyle's judgement that the difference &ldquo;has no physical significance&rdquo;, and refers the decision to Scripture. Follow that out. Equivalence runs both ways: if no observation can discriminate, then Michelson&ndash;Gale cannot be evidence for a stationary Earth, and neither can the Sagnac effect, &ldquo;Airy's failure&rdquo;, Michelson&ndash;Morley, Miller's drift or the microwave-background alignments. Every one of those items asserts that an experiment came out the geocentrist's way, which presupposes that experiments can decide. R01 says they cannot. <strong>The list runs an argument and its own refutation side by side</strong>, and the defender must pick one. Bouw picked, the honest way: on grounds outside physics.</p>
 <p><strong>Seventh, the genuine GR neighbours.</strong> Rotating solutions of the field equations exist and should not be waved away. G&ouml;del's 1949 solution is a real, exact, rotating cosmology &mdash; but it does not expand and contains closed timelike curves through every event, so it is not the universe we observe. Frame dragging is real and measured: Gravity Probe B returned a Lense&ndash;Thirring drift of &minus;37.2 &plusmn; 7.2 mas/yr against a predicted &minus;39.2. That is a genuine confirmation of Machian-flavoured effects in general relativity, and it is roughly ten orders of magnitude too small to be the diurnal rotation &mdash; about 1&times;10<sup>&minus;9</sup> degrees per hour against 15 degrees per hour. Machian sympathy is not a completed dynamics, and nobody in this literature has produced one.</p>
 <p><strong>Verdict: standard physics.</strong> The true content of the argument &mdash; the field equations may be written in Earth-centred coordinates &mdash; is taught in every general relativity course and disputed by nobody. It is a statement about the freedom to relabel events. It does not become a statement about which events occur, it does not distinguish the Earth from any other body one might fix a chart to, and the moment its defenders press it into a physical rotating-cosmos model they trade covariance for a preferred-frame ether and forfeit the rest of the list with it.</p>""",
+    compression=dict(
+        assessed=True, drifted=True,
+        list_phrasing="Relativity permits stationary Earth frame.",
+        source_wording=("“the reigning relativity can indeed <em>not pillory</em> an Earth-centered "
+                        "cosmology. … If Einstein is right the Tychonian quest amounts simply to "
+                        "<em>forcing an open door</em>.”"),
+        drift_type="force_upgraded",
+        note=("This is the sharpest case on the page, because the <em>wording</em> barely drifts at "
+              "all — “relativity permits a stationary-Earth frame” is a fair paraphrase of “relativity "
+              "cannot pillory an Earth-centred cosmology.” What changes is what the sentence is "
+              "<em>for</em>. In van der Kamp it is a <strong>concession</strong>, and he says so in "
+              "the same breath: a win by relativity is <em>forcing an open door</em>, and an open "
+              "door proves nothing about the room. On the list the identical proposition appears as "
+              "<strong>proof item 26</strong>, in a numbered list of evidence for a stationary Earth. "
+              "A permission has been promoted to a demonstration without a word being altered. "
+              "The refutation above answers van der Kamp's version — which is why it concedes the "
+              "covariance point outright instead of disputing it, and puts the weight on what the "
+              "concession costs the other 150-odd items that need experiments to be decisive.")),
+
     straw_man=dict(
         identified=True,
         detail=("Two straw men, and one of them is ours. The one to avoid on our side is "

@@ -24,6 +24,9 @@
     "people_count": 19,
     "works_count": 19,
     "arguments_at_full_depth": 11,
+    "hedge_checked": 10,
+    "hedge_drifted": 9,
+    "hedge_no_source": 1,
     "bios_worked": 2,
     "items_by_family": {
       "A": 182,
@@ -91,7 +94,7 @@
       },
       {
         "cluster_id": "A10",
-        "name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+        "name": "No wind or drag is felt from the Earth's motion",
         "items": 13,
         "originator": "Samuel Rowbotham"
       },
@@ -1194,7 +1197,15 @@
             "label": "Gerardus D. Bouw — PhD astronomy, Case Western Reserve; model observationally equivalent to heliocentrism",
             "url": "https://en.wikipedia.org/wiki/Gerardus_D._Bouw"
           }
-        ]
+        ],
+        "compression": {
+          "assessed": true,
+          "drifted": true,
+          "list_phrasing": "Michelson–Gale ether drift detection. / Sagnac effect consistent with stationary Earth. / Sagnac proves apparatus rotation.",
+          "source_wording": "&ldquo;Michelson-Gale detected the ether moving past the Earth&rsquo;s surface at 2% of the rotation speed. &hellip; the Michelson-Gale experiment measured <em>either</em> the effect of the Earth&rsquo;s rotation <em>or</em> the ether&rsquo;s rotation around the Earth.&rdquo;",
+          "drift_type": "force_upgraded",
+          "note": "Sungenis and Bennett do not misreport the experiment. They say on the same pages that Michelson&ndash;Gale &ldquo;did not produce null results&rdquo; and that the displacement was closely related to the Earth&rsquo;s rotational velocity, and their summary sentence is a <em>disjunction</em>: the apparatus measured <em>either</em> the Earth&rsquo;s rotation <em>or</em> the ether&rsquo;s rotation around it. That is a statement about what an interferometer cannot decide. It is not a claim that the Earth is at rest, and the section heading in their own text &mdash; <em>Sidereal Relative Rotation</em> &mdash; says as much.</p><p>The list keeps the caution and changes the job. &ldquo;Sagnac effect consistent with stationary Earth&rdquo; is a fair rendering of one branch of that disjunction, but it is entered as one of 461 numbered proofs, where <em>consistent with</em> is counted as evidence <em>for</em>. A live option has been promoted to a demonstration without a word being strengthened. Item 281, &ldquo;Sagnac proves apparatus rotation,&rdquo; is correct physics pointing the other way, and it sits in the same list unremarked.</p><p><strong>The refutation above answers the disjunction, not the fragment.</strong> It concedes outright that Michelson&ndash;Gale alone cannot assign the rotation to one body, and puts the weight on the instruments a rotating optical medium cannot reach: the pendulum, the gyrocompass, and Coriolis circulation."
+        }
       }
     },
     "ARG-A03": {
@@ -1234,6 +1245,14 @@
           "why_it_doesnt_save_claim": "Because the null was <strong>predicted in advance, twice, by theories that assume the Earth moves</strong> — which is precisely the case underdetermination does not cover. Fresnel's dragging coefficient, published decades before Airy and already confirmed by Fizeau, says aether inside a medium of refractive index <em>n</em> is dragged at <em>v</em>(1 − 1/<em>n</em>²), exactly cancelling the slower light speed and restoring the vacuum angle. Special relativity gets the same result more cleanly: aberration is a transformation of the light ray's <em>direction</em> between frames, fixed by the relative velocity of source and observer, so a refracting medium downstream of that transformation cannot alter it. A result that two competing theories both predicted, and that a third (stationary aether) got wrong, is evidence against the third — not for a stationary Earth."
         },
         "refutation": "<p>Three things have to be separated, because the argument depends on running them together.</p><p><strong>1. What Airy measured.</strong> A null — no change in the aberration angle with a water-filled tube. Uncontested by anyone.</p><p><strong>2. What the null rules out.</strong> Klinkerfues's stationary-aether prediction. That is a hypothesis about the <em>aether</em>, not about the Earth. Airy's result killed one aether model and left the Earth's motion untouched.</p><p><strong>3. What aberration itself implies.</strong> This is the step the argument never takes, and it is fatal. Stellar aberration is the annual ~20.5″ elliptical wobble Bradley discovered in 1729, and it exists <em>because the observer is moving</em>. On a stationary Earth there is no relative velocity between source and observer, so there is no aberration to have a magnitude at all. The argument takes an experiment that measures a consequence of Earth's orbital motion, shows the magnitude is medium-independent, and reports this as evidence the Earth does not move. The phenomenon being measured is the refutation.</p><p>The rebranding is the tell. An experiment whose result matched the standing prediction is not a failure in any sense a physicist would recognise; it is a confirmation. The word does no work except to make a confirmation sound like a scandal — and it entered the literature 117 years after the experiment, from outside physics.</p>",
+        "compression": {
+          "assessed": true,
+          "drifted": true,
+          "list_phrasing": "Airy's failure to detect starlight motion.",
+          "source_wording": "“this experiment was called ‘Airy's failure,’ because it contradicted the heliocentric metaphysics. The term … gives psychological insight to the thoughts of the experimenters during this era.”",
+          "drift_type": "category_shifted",
+          "note": "The source makes a <em>historiographical</em> claim in the passive voice — that the experiment <em>was called</em> a failure, and that the name tells us something about how its contemporaries felt. The list item makes a <em>physical</em> claim: that Airy failed to detect starlight motion. Those are different assertions and only the second is false on its face, because Airy detected stellar aberration perfectly well; what he found was that filling the tube with water did not change it. <strong>The refutation above answers the source's version</strong> — the underdetermination argument van der Kamp actually makes, which is a real argument — and not the fragment. But the fragment is what travels, and it converts a claim about Victorian sentiment into a claim about optics that the source never made."
+        },
         "straw_man": {
           "identified": true,
           "detail": "The claim that the term reflects “the thoughts of the experimenters during this era” attributes to Airy and his contemporaries a dismay they left no record of. Airy reported a null against a hypothesis he was testing, in neutral language, in the ordinary way. The imputed embarrassment is supplied entirely by the phrase, coined 117 years later."
@@ -1421,13 +1440,13 @@
       "cluster_id": "A10",
       "lane": "A-EXP",
       "family": "A",
-      "name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "name": "No wind or drag is felt from the Earth's motion",
       "verdict": "REFUTED",
-      "basis": "Assumes the atmosphere is not gravitationally bound to the Earth. It is.",
+      "basis": "Rowbotham grants that the air turns with the Earth, then argues no residual effect is felt. It is: Coriolis deflection, measured daily.",
       "originator": "Samuel Rowbotham",
       "originator_id": "PER-ROWBOTHAM",
-      "originator_work": "Earth Not a Globe",
-      "originator_year": "1865",
+      "originator_work": "Earth Not a Globe (3rd ed., enl.)",
+      "originator_year": "1881",
       "real_source_cited": null,
       "items": [
         36,
@@ -1529,7 +1548,15 @@
             "label": "Smithsonian — How Does Foucault's Pendulum Prove the Earth Rotates? (Paris, 3 February 1851)",
             "url": "https://www.smithsonianmag.com/smithsonian-institution/how-does-foucaults-pendulum-prove-earth-rotates-180968024/"
           }
-        ]
+        ],
+        "compression": {
+          "assessed": true,
+          "drifted": true,
+          "list_phrasing": "Atmospheric coupling unexplained. / No wind drag from 67,000 mph orbit. / No visible rotation of atmosphere or clouds.",
+          "source_wording": "&ldquo;it is exceedingly difficult if not altogether impossible to conceive of such a mass moving at such a rate, and yet not taking the atmosphere along with it. &hellip; Hence we are compelled to conclude that if the earth revolves, the atmosphere revolves also, and in the same direction.&rdquo; &mdash; and, at the end of the argument, &ldquo;Such a state of the atmosphere is compatible <em>only</em> with the fact which other evidence has demonstrated, that the earth is at rest.&rdquo;",
+          "drift_type": "reversed",
+          "note": "Rowbotham is blunter than the list, not more careful: his conclusion is that the observed sky is compatible <em>only</em> with a stationary Earth. So the drift is not in the strength. It is in the premise. Rowbotham <em>grants</em> co-rotation and spends a page establishing it &mdash; the grinding-stone experiment exists to show that a rugged spinning globe must carry its air &mdash; and his objection begins only afterwards: if the whole envelope streams east at 1,042 miles an hour, everything floating in it should stream east too, and clouds visibly do not. The list inverts that into &ldquo;atmospheric coupling unexplained&rdquo; and a drag from the 67,000 mph <em>orbit</em>, a figure and a mechanism absent from his atmospheric argument, which concerns axial rotation only.</p><p><strong>This bears on our own text.</strong> The refutation opens by answering the fragment &mdash; Galileo&rsquo;s sealed cabin, the air is inside the cabin, the atmosphere co-rotates &mdash; and Rowbotham agrees with every word of it. The part that answers <em>him</em> is the arithmetic, a 10 m/s stratum riding a 465 m/s carrier, and the hemispheric reversal of the Coriolis deflection that his own citation of Ross&rsquo;s north-east and south-east trades hands us."
+        }
       }
     },
     "ARG-A11": {
@@ -1874,7 +1901,15 @@
             "label": "Emlen, “Celestial Rotation: Its Importance in the Development of Migratory Orientation”, Science 170:1198 (1970)",
             "url": "https://www.science.org/doi/10.1126/science.170.3963.1198"
           }
-        ]
+        ],
+        "compression": {
+          "assessed": true,
+          "drifted": true,
+          "list_phrasing": "Celestial sphere rotation about observer. / Day–night cycle from firmament rotation. / Precession from dome rotation. / Seasonal stars via dome.",
+          "source_wording": "<em>Almagest</em> I.7: &ldquo;as far as the appearances of the stars are concerned, nothing would perhaps keep things from being in accordance with this simpler conjecture&rdquo; &mdash; the conjecture being that the earth turns. And I.4: &ldquo;if it were flat, the stars would rise and set for all people together and at the same time.&rdquo;",
+          "drift_type": "force_upgraded",
+          "note": "Ptolemy&rsquo;s chapter I.7 says close to the opposite of what twenty proof-items need it to say. He states the rotating-Earth hypothesis and concedes it: as far as the stars go, nothing would keep things from being in accordance with the simpler conjecture. On his own account the sky cannot decide. He rejects rotation on other grounds &mdash; clouds and thrown objects would be left behind &mdash; and that is the one part of the chapter that is wrong. The list takes the very appearances he declared non-discriminating and enters them as evidence, twenty times over.</p><p>A second drift rides along, and the enum has no clean word for it. Items 34, 39 and 210 credit him with a &ldquo;firmament&rdquo; and a &ldquo;dome.&rdquo; Ptolemy has neither. Three chapters earlier he proves the Earth spherical and disposes of the flat option in a single clause. <em>unsourced_addition</em> understates that: he does not merely omit the dome, he refutes the cosmology it belongs to.</p><p><strong>Our refutation answers Ptolemy</strong>, agreeing with him that these observations were the shared premises of the dispute, and dating the four measurements that ended the equivalence he was right to assert."
+        }
       }
     },
     "ARG-A23": {
@@ -2001,6 +2036,14 @@
           "why_it_doesnt_save_claim": "<p>Because the kernel's conclusion is <em>the coordinates do not settle it</em>, and the claim on the list is <em>the Earth is stationary</em>. Those are not the same sentence, and the gap between them is where the whole argument lives.</p>\n<p>Kretschmann's blade cuts both ways, and the second cut is the one that matters. If general covariance places no constraint on physical content &mdash; because special relativity, Newtonian gravitation and anything else can be written in arbitrary coordinates &mdash; then it constrains nothing <em>in favour of</em> a stationary Earth either. A principle that permits every cosmology confers no distinction on this one. Van der Kamp put it more sharply than any critic: an open door.</p>\n<p>And Bouw's version of the kernel is not free. Observational equivalence is symmetric. If no measurement discriminates, then no measurement is evidence &mdash; which retires the interferometry, aberration and microwave-background items that make up most of the rest of this list.</p>"
         },
         "refutation": "<p><strong>First, the concession, without hedging.</strong> General relativity is a generally covariant theory. Its field equations are tensor equations, and a tensor equation that holds in one smooth coordinate system holds in every one related to it by a diffeomorphism. There is no preferred frame in general relativity. You may adopt coordinates rigidly attached to the rotating Earth, integrate the field equations there, and obtain correct predictions for every observable; geodesy, satellite navigation and VLBI do it as routine business. Anyone answering this argument by asserting that physics forbids an Earth-fixed frame is wrong.</p>\n<p><strong>Second, what general covariance is worth.</strong> Erich Kretschmann's 1917 reply to Einstein is the standard answer and it has never been overturned. Norton's summary: Kretschmann held that in demanding general covariance &ldquo;Einstein had placed no constraint on the physical content of his theory. He had merely challenged his mathematical ingenuity&rdquo;, since &ldquo;any spacetime theory could be given a generally covariant formulation as long as we are prepared to put sufficient energy into the task of reformulating it.&rdquo; Norton then works the example: special relativity, ordinarily written with the Minkowski line element in standard coordinates, becomes a generally covariant theory the moment one writes <em>ds&sup2; = g<sub>ik</sub> dx<sup>i</sup> dx<sup>k</sup></em> with the field equation <em>R<sub>iklm</sub> = 0</em> and geodesic equations of motion. Special relativity has an absolute inertial structure and is still generally covariant. So covariance cannot be what tells you whether a theory has absolute structure &mdash; which is what this argument needs it to tell you.</p>\n<p>Norton's own refinement is worth stating rather than hiding. He argues that once a theory has been given a generally covariant formulation, that covariance does express something: a gauge freedom, a redundancy in the description. That is still a fact about descriptions. A redundancy in how you label events is not a fact about which events happen.</p>\n<p><strong>Third &mdash; and this is the crux &mdash; relabelling is not a rival model.</strong> Two quite different things go under the same slogan, and the argument runs on the equivocation between them.</p>\n<p>(a) <em>The chart change.</em> Take the standard solar system &mdash; one spacetime, one metric, one set of worldlines &mdash; and describe it in coordinates fixed to the Earth. Nothing physical has been altered. Every point-coincidence is preserved: the same eclipses at the same events, the same pulsar arrival times, the same ring-laser fringe count, the same 207.4 ns of accumulated Sagnac offset. This is what covariance guarantees. It proves nothing about the Earth, because the identical move yields a Jupiter-fixed or a Ceres-fixed chart on the same terms, and nobody takes those for cosmologies.</p>\n<p>(b) <em>The physical claim.</em> That the Earth is truly non-rotating with respect to the local inertial structure, and that the sun, planets, stars and distant galaxies physically circle it once a sidereal day. This is a different model of the world, not a re-labelling of the standard one. It has different content, so it needs its own dynamics: a matter distribution, a stress-energy tensor, a solution, and a demonstration that it reproduces the observations. Covariance supplies none of that. It tells you that whatever the true solution is, you may write it in any coordinates; it does not tell you which solution is true. The argument moves from (a) to (b) as though the licence for the first carried over to the second, and it does not.</p>\n<p><strong>Fourth, what does discriminate.</strong> Not the coordinates &mdash; the metric and the inertial compass. Write the Earth-fixed rotating chart honestly and the metric acquires off-diagonal time-angle components. Those terms are not decoration; they are the Coriolis and centrifugal effects, and they are locally measurable. Ashby's review derives the resulting path dependence directly: in the rotating frame, synchronisation around a closed equatorial loop fails to close by 207.4 ns, and &ldquo;path-dependent discrepancies in the rotating frame are thus inescapable&rdquo;, which is why GPS synchronises the whole constellation in the Earth-Centred Inertial frame instead. Foucault, Michelson&ndash;Gale&ndash;Pearson and modern ring lasers measure the same quantity by other means: the G ring laser at Wettzell resolves Earth's angular rate to better than one part in 10<sup>9</sup>, tracking the Chandler wobble, diurnal polar motion and solid-Earth tides. Note what this does and does not show. It is not &ldquo;the Earth-fixed chart is illegal.&rdquo; It is that <em>rotation relative to the local inertial structure</em> is a coordinate-free invariant, it is non-zero for the Earth, and it has been measured to nine digits. Model (b) says that quantity is zero &mdash; a claim about the world, which the world has answered.</p>\n<p><strong>Fifth, what the physical version costs.</strong> A rigidly co-rotating cosmos puts everything beyond <em>r</em> = <em>c</em>/&omega; &mdash; about 4.1&times;10<sup>12</sup> m, roughly 27.5 AU, so from about Neptune outward &mdash; at a coordinate speed exceeding <em>c</em>. Be fair about this: it is not an instant refutation. Coordinate velocities in a non-inertial chart are not bounded by <em>c</em>, and no light cone is violated by the arithmetic alone. But under reading (a) the figure is an artefact of the labels and carries no commitment, while under reading (b) it describes real matter really moving, and a mechanism is owed. Sungenis and Bennett's published answer is the decisive datum: asked how stars can circle faster than light, they reply that superluminality &ldquo;is inherent in Galilean relativity, which has no limit for the velocity of physical objects&rdquo;, and elsewhere in the same chapter they identify the Earth-Centred Inertial frame as &ldquo;one universal absolute preferred frame in which <em>c</em> is isotropic.&rdquo; <strong>That is a preferred-frame ether theory.</strong> It may be argued on its own merits, but it is the negation of the covariance argument, not an extension of it. The two cannot be run together: one says no frame is preferred, the other says one is.</p>\n<p><strong>Sixth, the concession is the argument's own end state &mdash; and it is expensive.</strong> Faulkner's review states the position plainly: &ldquo;Mathematically, the essential difference between the heliocentric and Tychonian models is a co-ordinate change from the Sun to the Earth.&rdquo; Bouw does not dispute it; he grants that the two models &ldquo;can both account for the observed motions of the universe&rdquo;, endorses Hoyle's judgement that the difference &ldquo;has no physical significance&rdquo;, and refers the decision to Scripture. Follow that out. Equivalence runs both ways: if no observation can discriminate, then Michelson&ndash;Gale cannot be evidence for a stationary Earth, and neither can the Sagnac effect, &ldquo;Airy's failure&rdquo;, Michelson&ndash;Morley, Miller's drift or the microwave-background alignments. Every one of those items asserts that an experiment came out the geocentrist's way, which presupposes that experiments can decide. R01 says they cannot. <strong>The list runs an argument and its own refutation side by side</strong>, and the defender must pick one. Bouw picked, the honest way: on grounds outside physics.</p>\n<p><strong>Seventh, the genuine GR neighbours.</strong> Rotating solutions of the field equations exist and should not be waved away. G&ouml;del's 1949 solution is a real, exact, rotating cosmology &mdash; but it does not expand and contains closed timelike curves through every event, so it is not the universe we observe. Frame dragging is real and measured: Gravity Probe B returned a Lense&ndash;Thirring drift of &minus;37.2 &plusmn; 7.2 mas/yr against a predicted &minus;39.2. That is a genuine confirmation of Machian-flavoured effects in general relativity, and it is roughly ten orders of magnitude too small to be the diurnal rotation &mdash; about 1&times;10<sup>&minus;9</sup> degrees per hour against 15 degrees per hour. Machian sympathy is not a completed dynamics, and nobody in this literature has produced one.</p>\n<p><strong>Verdict: standard physics.</strong> The true content of the argument &mdash; the field equations may be written in Earth-centred coordinates &mdash; is taught in every general relativity course and disputed by nobody. It is a statement about the freedom to relabel events. It does not become a statement about which events occur, it does not distinguish the Earth from any other body one might fix a chart to, and the moment its defenders press it into a physical rotating-cosmos model they trade covariance for a preferred-frame ether and forfeit the rest of the list with it.</p>",
+        "compression": {
+          "assessed": true,
+          "drifted": true,
+          "list_phrasing": "Relativity permits stationary Earth frame.",
+          "source_wording": "“the reigning relativity can indeed <em>not pillory</em> an Earth-centered cosmology. … If Einstein is right the Tychonian quest amounts simply to <em>forcing an open door</em>.”",
+          "drift_type": "force_upgraded",
+          "note": "This is the sharpest case on the page, because the <em>wording</em> barely drifts at all — “relativity permits a stationary-Earth frame” is a fair paraphrase of “relativity cannot pillory an Earth-centred cosmology.” What changes is what the sentence is <em>for</em>. In van der Kamp it is a <strong>concession</strong>, and he says so in the same breath: a win by relativity is <em>forcing an open door</em>, and an open door proves nothing about the room. On the list the identical proposition appears as <strong>proof item 26</strong>, in a numbered list of evidence for a stationary Earth. A permission has been promoted to a demonstration without a word being altered. The refutation above answers van der Kamp's version — which is why it concedes the covariance point outright instead of disputing it, and puts the weight on what the concession costs the other 150-odd items that need experiments to be decisive."
+        },
         "straw_man": {
           "identified": true,
           "detail": "Two straw men, and one of them is ours. The one to avoid on our side is “geocentrists do not understand relativity” or, worse, “relativity forbids an Earth-fixed frame” — both false, and both hand the argument away. The one on theirs is compression: the list items ('Relativity permits stationary Earth frame', 'GR coordinate freedom') are flatter and firmer than their sources. Van der Kamp called the relativistic route an open door and held general relativity untenable in its present form; Sungenis and Bennett's covariance passage argues the narrower, correct point that coordinate systems are arbitrary descriptive choices. Test the rebuttal against those texts, not the one-line list phrasings."
@@ -2265,7 +2308,15 @@
             "label": "Sungenis & Bennett, Galileo Was Wrong Vol. I (2006), full-text scan — “General covariance” p. 171; rotating-frame Lagrangian p. 161",
             "url": "https://archive.org/stream/GalileoWasWrongTheChurchSungenisRobertA.Bennett4276/Galileo%20Was%20Wrong_%20The%20Church%20%20-%20Sungenis,%20Robert%20A.%20&%20Bennett,_4276_djvu.txt"
           }
-        ]
+        ],
+        "compression": {
+          "assessed": true,
+          "drifted": true,
+          "drift_type": "unsourced_addition",
+          "list_phrasing": "Metric tensors Earth-centered. / Fermat with rotating medium. / Gauge freedom equality. / Covariance of tensor math. / Hamiltonian Earth-origin simplicity. / Anthropic coordinate justification. / Variational minimal paths Earth frame. / Light cone tilt reinterpretation. / Symmetry breaking selects Earth. / Noether charges Earth-defined. / Conservation in Earth frame. / Boundary conditions Earth surface. / Gauge choice alters story only. / Renormalization frame Earth lab. / Geodesics drawn from observers.",
+          "source_wording": "&ldquo;The system may have a symmetry which matches that of the coordinate system and simplifies the mathematical clutter used in its description&hellip;. Nevertheless, any reasonable coordinate system may be used. The weave pattern of a net does not determine the shape of the objects that are put into it.&rdquo; (<em>Galileo Was Wrong</em> Vol.&nbsp;I, ch.&nbsp;10, &ldquo;General covariance&rdquo;)",
+          "note": "<p>The cited source says one thing, and says it correctly: any reasonable coordinate system may be used. What it does not supply is the vocabulary. The full-text search logged in this review&rsquo;s corrections file found no occurrence of <em>Noether</em>, <em>Fermat</em> or <em>light cone</em> in the scanned volume, <em>gauge</em> only as Ron Hatch&rsquo;s clock-rate scale factor, and <em>renormalization</em> only as a complaint about infinities in quantum field theory. Six of the fifteen titles are on that showing not the authors&rsquo; claims at all but names attached to their position by later hands. We could not re-run the search independently: every route open to us either refused the file or returned a truncated view whose silence proves nothing &mdash; and the archive item cited in our own source list is labelled <em>Galileo Was Wrong (2)</em>, not volume&nbsp;I, which should be resolved before the count is leaned on. A second, weaker drift sits inside the first: &ldquo;Anthropic coordinate justification&rdquo; recruits a principle the authors are recorded as attacking, which would make that one item <em>reversed</em>; but Woit, writing on the film <em>The Principle</em>, describes Sungenis as taking anthropic cosmology to support him, so we leave it unsettled. <strong>Our refutation still argues against all fifteen as though the authors had written them.</strong></p>"
+        }
       }
     },
     "ARG-R07": {
@@ -2423,7 +2474,15 @@
             "label": "Karney, “Algorithms for geodesics”, J. Geodesy 87:43–55 (2013) — shortest paths on an ellipsoid of revolution",
             "url": "https://link.springer.com/article/10.1007/s00190-012-0578-z"
           }
-        ]
+        ],
+        "compression": {
+          "assessed": true,
+          "drifted": true,
+          "drift_type": "unsourced_addition",
+          "list_phrasing": "Modern astronomy uses Earth-centered coordinates. / GPS Earth-centered. / Marine sextant geocentric. / Radar ECEF coordinates. / Nav systems Earth-fixed. / Satellite ground tracks Earth-based. / Solar tables geocentric. / GPS Earth-centered corrections. / ECI/ECEF transforms geocentric. / Navigation inertial Earth base. / Barycentric transforms yield observer ephemerides. / Ephemeris time Earth-defined. / Parallax equations Earth start. / Center equals measurement origin. / Metrology standard Earth clocks. / Naked-eye astronomy topocentric. / Geodesy Earth-centered. / WGS84 ECEF. / ITRF Earth crust reference. / Airliner FMS Earth grid. / VOR network Earth bearings. / Great-circle math. / Nautical almanac geocentric. / Drone RTK Earth grid. / LiDAR ECEF. / Seismology Earth-fixed. / Volcano infrasound triangulation. / GNSS pseudorange Earth clocks.",
+          "source_wording": "&ldquo;Either coordinate system could be used with equal justification. The two sentences: &lsquo;the sun is at rest and the Earth moves,&rsquo; or &lsquo;the sun moves and the Earth is at rest,&rsquo; would simply mean two different conventions concerning two different coordinate systems.&rdquo; &mdash; quoted by Sungenis &amp; Bennett from Einstein &amp; Infeld, where it stands under a conditional: <em>If this can be done, our difficulties will be over</em> &hellip; the struggle &ldquo;would <em>then</em> be quite meaningless.&rdquo;",
+          "note": "<p>The list supplies both halves of the inference. Sungenis and Bennett argue conventionalism &mdash; that the Ptolemy&ndash;Copernicus dispute is about description rather than fact &mdash; and they argue it by quoting Einstein and Infeld, Poincar&eacute; and Bellarmine. They nowhere argue that GPS, WGS&nbsp;84, ITRF, seismic hypocentres or a nautical almanac are <em>evidence</em> that the Earth does not move, and Sungenis&rsquo;s own later restatements of the case reach for the Einstein quotation without naming a single instrument. Twenty-eight technical artefacts have been added to the source&rsquo;s account. The premise that turns them into an argument comes from the page they sit on, which is headed &ldquo;435 Pieces of Evidence The Earth is Not A Spinning Ball&rdquo;; the items themselves are bare noun phrases. Two smaller drifts ride along. The Einstein sentence is conditional in its original &mdash; <em>if</em> the laws can be written for arbitrary frames, the old struggle <em>would then</em> be meaningless &mdash; and arrives here unconditioned; and a permission is again doing the work of a proof, the pattern already recorded at R01. <strong>Note where our refutation points.</strong> Its body answers the twenty-eight fragments artefact by artefact; the source&rsquo;s actual claim is met only in the steelman, where the reply is that conventionality of origin is not conventionality of dynamics.</p>"
+        }
       }
     },
     "ARG-R09": {
@@ -2703,7 +2762,15 @@
             "label": "WGS 84 reference sheet — ellipsoid semi-major axis 6 378 137 m, flattening 1/298.257223563",
             "url": "https://www.unoosa.org/pdf/icg/2012/template/WGS_84.pdf"
           }
-        ]
+        ],
+        "compression": {
+          "assessed": true,
+          "drifted": true,
+          "drift_type": "scope_widened",
+          "list_phrasing": "Engineering curvature corrections unnecessary. / Bridges no curvature allowance. / Microwave links flat. / Undersea cables straight. / Pipelines straight. / Railroads negligible curvature. / Highways horizon. / Wind farm layout flat. / Tunnel breakthroughs align. / Power line sag flat. / Microwave Fresnel zone flat. / Aerial refueling flat line.",
+          "source_wording": "&ldquo;Surveyors&rsquo; operations in the construction of railroads, tunnels, or canals are conducted without the slightest &lsquo;allowance&rsquo; being made for &lsquo;curvature,&rsquo; although it is taught that this so-called allowance is absolutely necessary! This is a cutting proof that Earth is not a globe.&rdquo; (proof&nbsp;3) &mdash; and at proof&nbsp;26 Carpenter does the arithmetic himself: the Atlantic &ldquo;would &hellip; curvate downwards, in the 1665 miles across the Atlantic to Newfoundland, according to the astronomers&rsquo; own tables, more than three-hundred miles.&rdquo;",
+          "note": "<p>On strength there is no drift, and it should be said plainly: Carpenter is blunter than the list. He asserts flatly that no allowance is made and closes each item with <em>it is a proof that the Earth is not a globe</em>; the list&rsquo;s &ldquo;Railroads negligible curvature&rdquo; is the milder of the two, conceding a curvature Carpenter denied outright. What has moved is scope. His engineering proofs cover surveyors&rsquo; cuttings, canals, railways, tunnels and the Atlantic cable soundings &mdash; the works of 1885 &mdash; and within them the observation is correct: the correction genuinely is not applied. The list carries the same frame into microwave path design, Fresnel-zone clearance, wind-farm layout, power-line sag, aerial refuelling and 57&nbsp;km tunnel breakthroughs. None of those appear in Carpenter, and none in Dubay&rsquo;s intermediate <em>200 Proofs</em>, whose proof&nbsp;7 adds only bridges. They are the point at which the claim stops being a mis-inference from a true observation and becomes simply false, because in an RF link budget the Earth&rsquo;s radius is the dominant term rather than a neglected one. Our refutation is aimed correctly: it answers Carpenter&rsquo;s own case first &mdash; the definition of <em>level</em>, Suez, the balanced back-and-fore sight, Parliament&rsquo;s datum line &mdash; before it reaches the modern items.</p>"
+        }
       }
     },
     "ARG-B06": {
@@ -3023,7 +3090,15 @@
             "label": "HM Nautical Almanac Office — rise/set and twilight data service",
             "url": "https://astro.ukho.gov.uk/nao/websurf/"
           }
-        ]
+        ],
+        "compression": {
+          "assessed": true,
+          "drifted": false,
+          "drift_type": "none",
+          "list_phrasing": "Eccles 1:5 sun rises and sets. / Joshua 10:13 sun stood still. / Habakkuk 3:11 sun and moon halted. / Isaiah 38 sundial reversal. / Sun's circuit divine metaphor.",
+          "source_wording": "&ldquo;Indeed, without a doubt, Scripture is telling us the earth is not constantly moving. In fact, there is growing evidence within the scientific community revealing that the earth is not rotating either. It is quite stationary in every respect.&rdquo; &mdash; and, of the plain text, &ldquo;no one would ever think anything different from what it says.&rdquo;",
+          "note": "This comparison could have gone the other way, and it is worth saying why it did not. The concern was that the source might treat these verses as devotional or observer-relative language &mdash; how the sky looks from where a person stands &mdash; while the list re-presented them as physical claims about the sun&rsquo;s motion. That would be a category shift, and it is the commonest failure in this family. Read against the named source&rsquo;s own text, it is not what happened. Skiba states the conclusion in the flattest terms available: the earth is <em>not rotating either</em>, and is <em>quite stationary in every respect</em>. The appearance-from-the-observer reading is not conceded and then overrun; it is never entertained, and he adds that on a plain reading no one would think otherwise. The list items are bare verse labels and carry <em>less</em> assertion than the paragraphs they were drawn from, not more.</p><p><strong>The treatment above is therefore aimed at the source&rsquo;s own claim</strong> &mdash; a stationary Earth asserted as fact, not a reading offered as devotion. One caveat we record rather than resolve: two Psalm 19 items sit in this cluster, though the compilations file those verses under headings about the firmament and the &ldquo;line&rdquo; of creation rather than under sun-motion."
+        }
       }
     },
     "ARG-C03": {
@@ -3764,7 +3839,15 @@
             "label": "The Principle — distributor press release containing the official synopsis quoted above",
             "url": "https://www.prnewswire.com/news-releases/controversial-new-film-the-principle-addresses-one-of-the-most-heated-debates-of-our-timeour-place-in-the-cosmos-300055351.html"
           }
-        ]
+        ],
+        "compression": {
+          "assessed": true,
+          "drifted": true,
+          "list_phrasing": "CMB axis aligned with Earth. / Anisotropy toward Earth. / Cosmic anisotropy Earth-oriented. / Planck data Earth preference.",
+          "source_wording": "&ldquo;unexpected evidence of a preferred direction in the cosmos, aligned with our <em>supposedly</em> insignificant Earth&rdquo; &mdash; framed by the same release as a question, &ldquo;What if everything you think you know about our Universe is wrong?&rdquo; Its producer: the film &ldquo;is not about geocentrism per se, but is instead an in-depth cinematic examination of the Copernican Principle itself.&rdquo;",
+          "drift_type": "hedge_dropped",
+          "note": "The list states as fact what the film puts as a question. The distributor&rsquo;s synopsis opens <em>What if everything you think you know about our Universe is wrong?</em> and asks whether new evidence <em>reveals</em> a preferred direction; DeLano, asked directly, said the film is <em>not about geocentrism per se</em> but an examination of the Copernican Principle &mdash; though he has elsewhere called geocentrism a profoundly important part of the story, so the scoping is not consistent. A reviewer who watched it reports a film that seeds the conclusion without owning it, saying the patterns <em>seem</em> to align with the Earth. Ten numbered items keep none of that: <em>CMB axis aligned with Earth</em>, flat.</p><p>The wider gap is one link further back. The papers the film draws on hedge harder than the film does &mdash; Land and Magueijo revisited their own axis in 2007 and found no evidence for the most general model under Bayesian comparison, and Planck 2018 VII says the extent to which these features evidence a violation of isotropy remains unclear. Certainty is added at every handoff.</p><p><strong>None of which makes the anomaly go away, and the refutation above does not claim it does.</strong> It answers the film&rsquo;s actual claim &mdash; that the Copernican principle has been contradicted &mdash; while conceding that the alignments are real, reproducible and unexplained."
+        }
       }
     },
     "ARG-E02": {
@@ -4202,7 +4285,15 @@
             "label": "R. Pogge, Ohio State Astronomy 162 — The Milky Way as a band; globular clusters concentrated toward Sagittarius",
             "url": "https://www.astronomy.ohio-state.edu/pogge.1/Ast162/Unit4/milkyway.html"
           }
-        ]
+        ],
+        "compression": {
+          "assessed": "no_source",
+          "drifted": null,
+          "list_phrasing": null,
+          "source_wording": null,
+          "drift_type": null,
+          "note": "There is no original to hold this against. These seven items assert that the universe looks the same in every direction from here and that this makes here the centre &mdash; and the search for a first author returned nothing: no named originator, no cited publication, no earlier list that carries them. That is not a gap in our records so much as a fact about the claim. It is the part of the list that grew by restatement rather than by citation, and the hedge rule has nothing to bite on because nobody hedged it, because nobody in particular said it first. The refutation therefore answers the argument on its own terms rather than its author&rsquo;s: isotropy about an observer is what every observer in a homogeneous universe sees, which is why it cannot single any of them out."
+        }
       }
     },
     "ARG-E18": {
@@ -4319,13 +4410,13 @@
     },
     "A10": {
       "lane": "A-EXP",
-      "name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "name": "No wind or drag is felt from the Earth's motion",
       "originator": "Samuel Rowbotham",
-      "originator_work": "Earth Not a Globe",
-      "year": "1865",
+      "originator_work": "Earth Not a Globe (3rd ed., enl.)",
+      "year": "1881",
       "real_source": null,
       "verdict": "REFUTED",
-      "note": "Assumes the atmosphere is not gravitationally bound to the Earth. It is."
+      "note": "Rowbotham grants that the air turns with the Earth, then argues no residual effect is felt. It is: Coriolis deflection, measured daily."
     },
     "A11": {
       "lane": "A-EXP",
@@ -5742,10 +5833,10 @@
       "lane": "A-EXP",
       "argument": "ARG-A10",
       "cluster_id": "A10",
-      "cluster_name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "cluster_name": "No wind or drag is felt from the Earth's motion",
       "originator": "Samuel Rowbotham",
-      "originator_work": "Earth Not a Globe",
-      "originator_year": "1865",
+      "originator_work": "Earth Not a Globe (3rd ed., enl.)",
+      "originator_year": "1881",
       "real_source_cited": null,
       "verdict": "REFUTED"
     },
@@ -5937,10 +6028,10 @@
       "lane": "A-EXP",
       "argument": "ARG-A10",
       "cluster_id": "A10",
-      "cluster_name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "cluster_name": "No wind or drag is felt from the Earth's motion",
       "originator": "Samuel Rowbotham",
-      "originator_work": "Earth Not a Globe",
-      "originator_year": "1865",
+      "originator_work": "Earth Not a Globe (3rd ed., enl.)",
+      "originator_year": "1881",
       "real_source_cited": null,
       "verdict": "REFUTED"
     },
@@ -6012,10 +6103,10 @@
       "lane": "A-EXP",
       "argument": "ARG-A10",
       "cluster_id": "A10",
-      "cluster_name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "cluster_name": "No wind or drag is felt from the Earth's motion",
       "originator": "Samuel Rowbotham",
-      "originator_work": "Earth Not a Globe",
-      "originator_year": "1865",
+      "originator_work": "Earth Not a Globe (3rd ed., enl.)",
+      "originator_year": "1881",
       "real_source_cited": null,
       "verdict": "REFUTED"
     },
@@ -6807,10 +6898,10 @@
       "lane": "A-EXP",
       "argument": "ARG-A10",
       "cluster_id": "A10",
-      "cluster_name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "cluster_name": "No wind or drag is felt from the Earth's motion",
       "originator": "Samuel Rowbotham",
-      "originator_work": "Earth Not a Globe",
-      "originator_year": "1865",
+      "originator_work": "Earth Not a Globe (3rd ed., enl.)",
+      "originator_year": "1881",
       "real_source_cited": null,
       "verdict": "REFUTED"
     },
@@ -8367,10 +8458,10 @@
       "lane": "A-EXP",
       "argument": "ARG-A10",
       "cluster_id": "A10",
-      "cluster_name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "cluster_name": "No wind or drag is felt from the Earth's motion",
       "originator": "Samuel Rowbotham",
-      "originator_work": "Earth Not a Globe",
-      "originator_year": "1865",
+      "originator_work": "Earth Not a Globe (3rd ed., enl.)",
+      "originator_year": "1881",
       "real_source_cited": null,
       "verdict": "REFUTED"
     },
@@ -8382,10 +8473,10 @@
       "lane": "A-EXP",
       "argument": "ARG-A10",
       "cluster_id": "A10",
-      "cluster_name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "cluster_name": "No wind or drag is felt from the Earth's motion",
       "originator": "Samuel Rowbotham",
-      "originator_work": "Earth Not a Globe",
-      "originator_year": "1865",
+      "originator_work": "Earth Not a Globe (3rd ed., enl.)",
+      "originator_year": "1881",
       "real_source_cited": null,
       "verdict": "REFUTED"
     },
@@ -8817,10 +8908,10 @@
       "lane": "A-EXP",
       "argument": "ARG-A10",
       "cluster_id": "A10",
-      "cluster_name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "cluster_name": "No wind or drag is felt from the Earth's motion",
       "originator": "Samuel Rowbotham",
-      "originator_work": "Earth Not a Globe",
-      "originator_year": "1865",
+      "originator_work": "Earth Not a Globe (3rd ed., enl.)",
+      "originator_year": "1881",
       "real_source_cited": null,
       "verdict": "REFUTED"
     },
@@ -8892,10 +8983,10 @@
       "lane": "A-EXP",
       "argument": "ARG-A10",
       "cluster_id": "A10",
-      "cluster_name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "cluster_name": "No wind or drag is felt from the Earth's motion",
       "originator": "Samuel Rowbotham",
-      "originator_work": "Earth Not a Globe",
-      "originator_year": "1865",
+      "originator_work": "Earth Not a Globe (3rd ed., enl.)",
+      "originator_year": "1881",
       "real_source_cited": null,
       "verdict": "REFUTED"
     },
@@ -8907,10 +8998,10 @@
       "lane": "A-EXP",
       "argument": "ARG-A10",
       "cluster_id": "A10",
-      "cluster_name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "cluster_name": "No wind or drag is felt from the Earth's motion",
       "originator": "Samuel Rowbotham",
-      "originator_work": "Earth Not a Globe",
-      "originator_year": "1865",
+      "originator_work": "Earth Not a Globe (3rd ed., enl.)",
+      "originator_year": "1881",
       "real_source_cited": null,
       "verdict": "REFUTED"
     },
@@ -9042,10 +9133,10 @@
       "lane": "A-EXP",
       "argument": "ARG-A10",
       "cluster_id": "A10",
-      "cluster_name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "cluster_name": "No wind or drag is felt from the Earth's motion",
       "originator": "Samuel Rowbotham",
-      "originator_work": "Earth Not a Globe",
-      "originator_year": "1865",
+      "originator_work": "Earth Not a Globe (3rd ed., enl.)",
+      "originator_year": "1881",
       "real_source_cited": null,
       "verdict": "REFUTED"
     },
@@ -9222,10 +9313,10 @@
       "lane": "A-EXP",
       "argument": "ARG-A10",
       "cluster_id": "A10",
-      "cluster_name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "cluster_name": "No wind or drag is felt from the Earth's motion",
       "originator": "Samuel Rowbotham",
-      "originator_work": "Earth Not a Globe",
-      "originator_year": "1865",
+      "originator_work": "Earth Not a Globe (3rd ed., enl.)",
+      "originator_year": "1881",
       "real_source_cited": null,
       "verdict": "REFUTED"
     },
@@ -9237,10 +9328,10 @@
       "lane": "A-EXP",
       "argument": "ARG-A10",
       "cluster_id": "A10",
-      "cluster_name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "cluster_name": "No wind or drag is felt from the Earth's motion",
       "originator": "Samuel Rowbotham",
-      "originator_work": "Earth Not a Globe",
-      "originator_year": "1865",
+      "originator_work": "Earth Not a Globe (3rd ed., enl.)",
+      "originator_year": "1881",
       "real_source_cited": null,
       "verdict": "REFUTED"
     },
@@ -9267,10 +9358,10 @@
       "lane": "A-EXP",
       "argument": "ARG-A10",
       "cluster_id": "A10",
-      "cluster_name": "No wind/drag from Earth's motion; atmosphere can't co-rotate",
+      "cluster_name": "No wind or drag is felt from the Earth's motion",
       "originator": "Samuel Rowbotham",
-      "originator_work": "Earth Not a Globe",
-      "originator_year": "1865",
+      "originator_work": "Earth Not a Globe (3rd ed., enl.)",
+      "originator_year": "1881",
       "real_source_cited": null,
       "verdict": "REFUTED"
     },

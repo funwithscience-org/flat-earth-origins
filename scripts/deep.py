@@ -22,9 +22,59 @@ Schema:
   advocate           {best_defense, survives (1-5), preemptive}
                      survives >= 3 obligates a concrete text change in `preemptive`
   straw_man          {identified: bool, detail: str|None} - do THEY misrepresent US
+  compression        {assessed, drifted, list_phrasing, source_wording, drift_type, note}
+                     See THE HEDGE RULE below. Required on every entry.
   people             [PER-*] ids implicated
   related            [ARG-*] ids
   sources            [{label, url}]
+
+
+THE HEDGE RULE  (standing, 2026-08-05)
+--------------------------------------
+**Test the rebuttal against the source's hedged wording, not the list's compressed
+phrasing.** This is the reason the project exists: the list is a trimmed derivative,
+and refuting a trimmed derivative is refuting a straw man of its own author.
+
+The list items are fragments — "Airy's failure to detect starlight motion.",
+"Relativity permits stationary Earth frame." The originals almost never read that
+way. They hedge, they qualify, they scope to a case, and sometimes they concede.
+Beat the fragment and we have beaten nobody.
+
+So: the `refutation` must answer what the SOURCE actually claims, at the strength
+the source claims it. Never the fragment.
+
+**The second clause, which matters just as much.** The hedge is not an escape hatch.
+When the source is more careful than the list, we do not get to say "nobody really
+claims this" and move on — the compressed version is what circulates, and readers
+meet it, not the original. The gap is a *finding*, and it gets published as one:
+the list misrepresents its own authority. Answer the source on the merits AND name
+the drift. Two products from one comparison.
+
+This is also the cleanest evidence for the project's social thesis. Few originators,
+many distributors, and the chain degrades the claim in transit — with the degradation
+running consistently towards more certainty than the author was willing to state.
+
+`drift_type` — exactly one of:
+  none                the list states the source's claim at the source's strength
+  hedge_dropped       source qualified ("may", "if X then", "on this reading"); list asserts flat
+  force_upgraded      wording preserved, but a concession or permission is re-used as a proof
+  scope_widened       source's claim is about a narrow case; the list generalises it
+  reversed            the list states the opposite of what the source says
+  category_shifted    source makes a historical or philosophical claim; the list makes a physical one
+  unsourced_addition  the list attributes to the source something the source does not contain
+
+`assessed` has THREE states, not two:
+  False         nobody has compared the item text to the original yet. NOT a claim
+                that the phrasing is faithful. Published as a coverage gap.
+  True          the comparison was made; `drifted` carries the result.
+  "no_source"   the comparison was attempted and terminated in a result: there is no
+                original to compare against. `drifted` stays None and `note` must
+                record what was searched and where it stopped.
+
+The third state exists because collapsing it into `False` states something untrue —
+that the work is outstanding — when in fact it is finished and the answer is that the
+claim descends from nobody in particular. For a review about provenance that is a
+headline finding, not a backlog item, so it is counted and published separately.
 """
 
 DEEP = {
@@ -129,6 +179,24 @@ DEEP = {
             "specific one and can only support the modest one. Cross-link this to "
             "<a href=\"#ARG-R01\">ARG-R01</a>, where the same trade is made explicitly.")),
 
+    compression=dict(
+        assessed=True, drifted=True,
+        list_phrasing="Airy's failure to detect starlight motion.",
+        source_wording=("“this experiment was called ‘Airy's failure,’ because it contradicted "
+                        "the heliocentric metaphysics. The term … gives psychological insight to "
+                        "the thoughts of the experimenters during this era.”"),
+        drift_type="category_shifted",
+        note=("The source makes a <em>historiographical</em> claim in the passive voice — that the "
+              "experiment <em>was called</em> a failure, and that the name tells us something about "
+              "how its contemporaries felt. The list item makes a <em>physical</em> claim: that Airy "
+              "failed to detect starlight motion. Those are different assertions and only the second "
+              "is false on its face, because Airy detected stellar aberration perfectly well; what "
+              "he found was that filling the tube with water did not change it. "
+              "<strong>The refutation above answers the source's version</strong> — the "
+              "underdetermination argument van der Kamp actually makes, which is a real argument — "
+              "and not the fragment. But the fragment is what travels, and it converts a claim about "
+              "Victorian sentiment into a claim about optics that the source never made.")),
+
     straw_man=dict(
         identified=True,
         detail=("The claim that the term reflects “the thoughts of the experimenters during "
@@ -176,3 +244,47 @@ from deep_batch5 import BATCH5
 for _k, _v in BATCH5.items():
     assert _k not in DEEP, f"batch5 collision: {_k}"
     DEEP[_k] = _v
+
+# ---- hedge rule: the audit pass -------------------------------------
+# Comparison of each list item against its source's own wording, run 2026-08-05.
+from _hedge_audit_batch_a import HEDGE_A
+from _hedge_audit_batch_b import HEDGE_B
+from _hedge_audit_batch_c import HEDGE_C
+for _b in (HEDGE_A, HEDGE_B, HEDGE_C):
+    for _k, _c in _b.items():
+        assert _k in DEEP, f"hedge audit covers {_k}, which has no treatment"
+        assert "compression" not in DEEP[_k], f"{_k} already has a compression block"
+        if _c["assessed"] is not False:
+            DEEP[_k]["compression"] = _c
+
+# E17 is the T3 case: no named author, no traceable publication. The audit was run
+# and returned an answer — there is nothing to compare against — which is a finding
+# about how the list grew, not an outstanding task. See the three-state note above.
+DEEP["E17"]["compression"] = dict(
+    assessed="no_source", drifted=None, list_phrasing=None, source_wording=None,
+    drift_type=None,
+    note=("There is no original to hold this against. These seven items assert that the "
+          "universe looks the same in every direction from here and that this makes here "
+          "the centre &mdash; and the search for a first author returned nothing: no named "
+          "originator, no cited publication, no earlier list that carries them. That is not "
+          "a gap in our records so much as a fact about the claim. It is the part of the "
+          "list that grew by restatement rather than by citation, and the hedge rule has "
+          "nothing to bite on because nobody hedged it, because nobody in particular said "
+          "it first. The refutation therefore answers the argument on its own terms rather "
+          "than its author&rsquo;s: isotropy about an observer is what every observer in a "
+          "homogeneous universe sees, which is why it cannot single any of them out."))
+
+# ---- hedge rule: honest default -------------------------------------
+# Entries written before the rule was standing get `assessed=False`, which means
+# "nobody has compared the item text to the original yet" — NOT "the phrasing is
+# faithful." The page publishes the unassessed count. Delete an entry from this
+# set by writing a real `compression` block in its batch file; the assert below
+# stops anyone quietly widening the default to cover new work.
+_PRE_RULE = set()  # audited 2026-08-05; nothing outstanding
+for _k, _v in DEEP.items():
+    if "compression" not in _v:
+        assert _k in _PRE_RULE, (
+            f"{_k}: `compression` is required — see THE HEDGE RULE at the top of this file. "
+            f"New treatments must compare the list's phrasing against the source's own wording.")
+        _v["compression"] = dict(assessed=False, drifted=None, list_phrasing=None,
+                                 source_wording=None, drift_type=None, note=None)

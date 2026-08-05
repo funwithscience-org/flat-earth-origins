@@ -8,7 +8,7 @@ new figure to docs/index.html, add a check for it below. Claims without tests ro
 
 Run:  python3 tests/test_provenance.py     (or tests/run.sh)
 """
-import json, os, re, sys, collections
+import json, os, re, sys, html, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
@@ -292,6 +292,62 @@ if _e01["depth"] == "full":
           "Starkman" in _t and "Schwarz" in _t)
 check("all four careful cases are present in the corpus",
       all(f"ARG-{c}" in ARGS for c in ("A03", "A02", "R01", "E01")))
+
+# ---------------------------------------------------------------------
+print("\n[6] the hedge rule — refute the source, not the list's compression")
+
+_deep = {a: r for a, r in ARGS.items() if r["deep"]}
+check("every full treatment carries a compression record",
+      all("compression" in r["deep"] for r in _deep.values()))
+
+_assessed = {a: r["deep"]["compression"] for a, r in _deep.items()
+             if r["deep"]["compression"]["assessed"] is True}
+_nosrc = {a: r["deep"]["compression"] for a, r in _deep.items()
+          if r["deep"]["compression"]["assessed"] == "no_source"}
+_drifted = {a: c for a, c in _assessed.items() if c["drifted"]}
+
+check("the published hedge-check count matches the corpus",
+      S["hedge_checked"] == len(_assessed) and S["hedge_drifted"] == len(_drifted)
+      and S["hedge_no_source"] == len(_nosrc),
+      (S["hedge_checked"], len(_assessed), S["hedge_drifted"], len(_drifted)))
+check("'no source' is counted apart from 'not yet checked'",
+      all(a not in _assessed for a in _nosrc))
+check("a no-source entry records where the search stopped",
+      all(c["note"] and c["drifted"] is None for c in _nosrc.values()))
+check("unassessed entries make no claim about faithfulness either way",
+      all(r["deep"]["compression"]["drifted"] is None
+          for r in _deep.values() if r["deep"]["compression"]["assessed"] is False))
+check("every recorded drift shows the reader BOTH texts",
+      all(c["list_phrasing"] and c["source_wording"] and c["note"]
+          for c in _drifted.values()))
+check("every recorded drift names a drift type",
+      all(c["drift_type"] not in (None, "none") for c in _drifted.values()))
+
+# The drift is a finding, not an internal note: if we recorded one it must reach
+# the page. This is the check that stops the rule becoming a private spreadsheet.
+for _a, _c in sorted(_drifted.items()):
+    check(f"{_a}'s drift is published, not just recorded",
+          html.escape(_c["list_phrasing"]) in PAGE)
+check("the drift blocks render under an honest heading",
+      _drifted == {} or "The list overstates its own source" in PAGE)
+
+# The rule itself is a promise to the reader; it has to be visible so they can
+# hold us to it. Losing this text in a restructure is how the promise rots.
+check("the hedge rule is published on the Method tab",
+      "Refute the source, not the summary" in PAGE)
+check("the rule states the anti-strawman half",
+      "at the strength they wrote it" in PAGE)
+check("the rule states the no-escape-hatch half",
+      "is not an escape hatch" in PAGE)
+
+# R01 is the calibration case: the wording barely moves, the speech act does.
+if "ARG-R01" in _assessed:
+    check("R01 is recorded as a concession repurposed as a proof",
+          _assessed["ARG-R01"]["drift_type"] == "force_upgraded")
+# A03 is the other calibration case: historiography restated as optics.
+if "ARG-A03" in _assessed:
+    check("A03 is recorded as a category shift, not a simple exaggeration",
+          _assessed["ARG-A03"]["drift_type"] == "category_shifted")
 
 print()
 if FAILURES:

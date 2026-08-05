@@ -72,10 +72,18 @@ CLUSTERS = {
     real_source="Gaspard-Gustave de Coriolis 1835",
     verdict="STANDARD PHYSICS", note="Frame restatement; adds no prediction the rotating model does not already make."),
 
-"A10": dict(lane="A-EXP", name="No wind/drag from Earth's motion; atmosphere can't co-rotate",
-    originator="Samuel Rowbotham", originator_work="Earth Not a Globe", year="1865",
+"A10": dict(lane="A-EXP", name="No wind or drag is felt from the Earth's motion",
+    originator="Samuel Rowbotham", originator_work="Earth Not a Globe (3rd ed., enl.)",
+    year="1881",
     real_source=None, verdict="REFUTED",
-    note="Assumes the atmosphere is not gravitationally bound to the Earth. It is."),
+    # Renamed and rewritten 2026-08-05 under the hedge rule. The old name — "atmosphere
+    # can't co-rotate" — and the old basis — "assumes the atmosphere is not
+    # gravitationally bound to the Earth" — both stated the REVERSE of the source.
+    # Rowbotham grants co-rotation explicitly ("we are compelled to conclude that if the
+    # earth revolves, the atmosphere revolves also, and in the same direction") and builds
+    # his argument from inside that concession. Refuting the fragment was refuting nobody.
+    note="Rowbotham grants that the air turns with the Earth, then argues no residual "
+         "effect is felt. It is: Coriolis deflection, measured daily."),
 
 "A11": dict(lane="A-EXP", name="Michelson–Pease–Pearson null result",
     originator="Robert Sungenis & Robert Bennett", originator_work="Galileo Was Wrong, Vol. I", year="2006",

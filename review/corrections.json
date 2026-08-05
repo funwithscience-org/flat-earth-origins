@@ -1,38 +1,54 @@
 {
-  "_note": "Public record of times this review was wrong. Rendered on the Method tab once populated. Append-only.",
-  "entries": [
-    {
-      "at": "2026-08-02",
-      "found_by": "agent writing ARG-A02, batch 1",
-      "where": "claude/source-genealogy.md, Tychonian lineage table, Bouw row",
-      "old_argument": "Cited creation.com/geocentric-gobbledegook as the source for Bouw's concession that his model is observationally equivalent to heliocentrism.",
-      "new_argument": "That page is Danny Faulkner reviewing Marshall Hall's 'The Earth is not Moving'. It does not support the Bouw concession. Use the Bouw Wikipedia entry and Faulkner's companion article 'Geocentrism and Creation', Journal of Creation 15(2) 2001, which states the essential difference is a coordinate change from Sun to Earth.",
-      "reason": "Citation checked against the source and did not say what we attributed to it."
-    },
-    {
-      "at": "2026-08-02",
-      "found_by": "agent writing ARG-A02, batch 1",
-      "where": "claude/source-genealogy.md, Bowden citation",
-      "old_argument": "Bowden, Journal of Creation 16(2) 2002, pp. 79-82.",
-      "new_argument": "The PDF paginates 79-81. The quoted concession is on p. 80.",
-      "reason": "Page range did not match the document."
-    },
-    {
-      "at": "2026-08-02",
-      "found_by": "agent writing ARG-C02, batch 2",
-      "where": "corpus: ARG-C02 originator; and claude/source-genealogy.md by implication",
-      "old_argument": "Attributed the 16 sun-motion scriptural proof-texts (Joshua 10, Habakkuk 3, Ecclesiastes 1:5, Psalm 19, Isaiah 38) to William Carpenter, One Hundred Proofs (1885).",
-      "new_argument": "Verified against the full Gutenberg text (143,011 chars): Carpenter's book contains exactly ONE scriptural proof, #50, and it concerns immovability and the stretched-out earth, not the sun's motion. The words Joshua, Habakkuk and Ecclesiastes appear ZERO times in the book. Carpenter's own sun-motion proofs (38, 39) argue from observed appearance. The sun-motion proof-text corpus is a later accretion; C02 reattributed to Rob Skiba's modern biblical-cosmology compilations. C01 (immovability texts) correctly stays with Carpenter.",
-      "reason": "Attribution asserted from the shape of the genre rather than checked against the primary text."
-    },
-    {
-      "at": "2026-08-02",
-      "found_by": "agent writing ARG-R06, batch 3",
-      "where": "corpus: ARG-R06 item attributions",
-      "old_argument": "All 15 R06 item titles attributed to Sungenis & Bennett, Galileo Was Wrong Vol. I (2006).",
-      "new_argument": "Full-text search of the archive.org scan of Vol. I returns ZERO occurrences of 'Noether', 'Fermat', 'light cone'/'lightcone'. 'Gauge' occurs only as Ron Hatch's clock-rate scale factor, not gauge symmetry. 'Renormalization' occurs only as a complaint about QFT infinities, never about frames. 'Anthropic' occurs three times with the authors ATTACKING the anthropic principle, so the item title 'Anthropic coordinate justification' states the REVERSE of the source's stance. At least 6 of 15 item titles are unlocatable in the cited source and are marked as such rather than refuted as the authors' claims.",
-      "reason": "Cluster-level attribution was applied to every item in the cluster without checking each against the source text.",
-      "caveats": "The scan is one volume of a multi-volume work; OCR quality is variable; these vocabularies do circulate in downstream forum material. The defensible claim is 'not located in the scanned text of Vol. I', NOT 'the authors never wrote this'."
-    }
-  ]
+ "_note": "Public record of times this review was wrong. Rendered on the Method tab once populated. Append-only.",
+ "entries": [
+  {
+   "at": "2026-08-02",
+   "found_by": "agent writing ARG-A02, batch 1",
+   "where": "claude/source-genealogy.md, Tychonian lineage table, Bouw row",
+   "old_argument": "Cited creation.com/geocentric-gobbledegook as the source for Bouw's concession that his model is observationally equivalent to heliocentrism.",
+   "new_argument": "That page is Danny Faulkner reviewing Marshall Hall's 'The Earth is not Moving'. It does not support the Bouw concession. Use the Bouw Wikipedia entry and Faulkner's companion article 'Geocentrism and Creation', Journal of Creation 15(2) 2001, which states the essential difference is a coordinate change from Sun to Earth.",
+   "reason": "Citation checked against the source and did not say what we attributed to it."
+  },
+  {
+   "at": "2026-08-02",
+   "found_by": "agent writing ARG-A02, batch 1",
+   "where": "claude/source-genealogy.md, Bowden citation",
+   "old_argument": "Bowden, Journal of Creation 16(2) 2002, pp. 79-82.",
+   "new_argument": "The PDF paginates 79-81. The quoted concession is on p. 80.",
+   "reason": "Page range did not match the document."
+  },
+  {
+   "at": "2026-08-02",
+   "found_by": "agent writing ARG-C02, batch 2",
+   "where": "corpus: ARG-C02 originator; and claude/source-genealogy.md by implication",
+   "old_argument": "Attributed the 16 sun-motion scriptural proof-texts (Joshua 10, Habakkuk 3, Ecclesiastes 1:5, Psalm 19, Isaiah 38) to William Carpenter, One Hundred Proofs (1885).",
+   "new_argument": "Verified against the full Gutenberg text (143,011 chars): Carpenter's book contains exactly ONE scriptural proof, #50, and it concerns immovability and the stretched-out earth, not the sun's motion. The words Joshua, Habakkuk and Ecclesiastes appear ZERO times in the book. Carpenter's own sun-motion proofs (38, 39) argue from observed appearance. The sun-motion proof-text corpus is a later accretion; C02 reattributed to Rob Skiba's modern biblical-cosmology compilations. C01 (immovability texts) correctly stays with Carpenter.",
+   "reason": "Attribution asserted from the shape of the genre rather than checked against the primary text."
+  },
+  {
+   "at": "2026-08-02",
+   "found_by": "agent writing ARG-R06, batch 3",
+   "where": "corpus: ARG-R06 item attributions",
+   "old_argument": "All 15 R06 item titles attributed to Sungenis & Bennett, Galileo Was Wrong Vol. I (2006).",
+   "new_argument": "Full-text search of the archive.org scan of Vol. I returns ZERO occurrences of 'Noether', 'Fermat', 'light cone'/'lightcone'. 'Gauge' occurs only as Ron Hatch's clock-rate scale factor, not gauge symmetry. 'Renormalization' occurs only as a complaint about QFT infinities, never about frames. 'Anthropic' occurs three times with the authors ATTACKING the anthropic principle, so the item title 'Anthropic coordinate justification' states the REVERSE of the source's stance. At least 6 of 15 item titles are unlocatable in the cited source and are marked as such rather than refuted as the authors' claims.",
+   "reason": "Cluster-level attribution was applied to every item in the cluster without checking each against the source text.",
+   "caveats": "The scan is one volume of a multi-volume work; OCR quality is variable; these vocabularies do circulate in downstream forum material. The defensible claim is 'not located in the scanned text of Vol. I', NOT 'the authors never wrote this'."
+  },
+  {
+   "at": "2026-08-05",
+   "found_by": "hedge-rule audit, batch A",
+   "where": "scripts/clusters.py ARG-A10 (name + basis), affecting 13 items",
+   "old_argument": "Named the argument \"No wind/drag from Earth's motion; atmosphere can't co-rotate\" and gave the basis as \"Assumes the atmosphere is not gravitationally bound to the Earth. It is.\"",
+   "new_argument": "Rowbotham asserts the opposite of what we attributed to him. Earth Not a Globe grants co-rotation outright - \"we are compelled to conclude that if the earth revolves, the atmosphere revolves also, and in the same direction\" - and argues from inside that concession that no residual effect is felt. Renamed \"No wind or drag is felt from the Earth's motion\"; basis now answers the real claim via Coriolis deflection. Originator year corrected 1865 to 1881: the atmospheric argument enters with the enlarged 3rd edition.",
+   "reason": "We refuted the list's one-line fragment instead of the source's sentence, and the fragment states the reverse of the source. This is precisely the failure the hedge rule was introduced to catch, and it was the first thing the rule caught."
+  },
+  {
+   "at": "2026-08-05",
+   "found_by": "hedge-rule audit, batch B",
+   "where": "ARG-R08 and ARG-R06 refutation prose (open, not yet rewritten)",
+   "old_argument": "Both refutations argue against the list's fragments artefact by artefact - GPS, sextants, ephemerides for R08; Noether, Fermat, light cones, gauge symmetry for R06.",
+   "new_argument": "Neither argument form appears in the cited source. R08's source-facing answer (a conventional choice of origin is not a conventional choice of dynamics) currently exists only inside the steelman; R06 argues at length against terms our own corrections log records as absent from the text. Both refutations need rewriting against what the source actually claims. Flagged on the page as open rather than quietly repaired.",
+   "reason": "Same failure as A10, caught by the same audit. Recording it before fixing it, because a review about provenance should not be able to correct itself silently."
+  }
+ ]
 }

@@ -44,10 +44,16 @@ CLUSTERS = {
     note="Bouw rejected van der Kamp's version and rebuilt the model to keep aberration — an internal contradiction within the movement."),
 
 "A05": dict(lane="A-EXP", name="No measurable stellar parallax",
-    originator="Samuel Rowbotham", originator_work="Zetetic Astronomy: Earth Not a Globe (as “Parallax”)", year="1865",
+    # Corrected 2026-08-07. (1) Not in the 1865 edition — "parallax" occurs there twice, both
+    # in the byline. The argument is an 1881 3rd-ed. addition, ch. III pp. 82-87. (2) "Took his
+    # pseudonym from the thing he denied" was FALSE and is withdrawn: he was using "Parallax"
+    # by the end of 1849, 32 years before writing on stellar parallax, in the generic optical
+    # sense his own perspective theory RELIES on. A rhetorically attractive line that did not
+    # survive checking.
+    originator="Samuel Rowbotham", originator_work="Zetetic Astronomy, 3rd ed. enl. (1881), ch. III (as “Parallax”)", year="1881",
     real_source="Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",
     verdict="REFUTED",
-    note="Gaia DR3 publishes parallaxes for ~1.468 billion sources at 0.02–0.03 mas for G<15. Rowbotham took his pseudonym from the thing he denied."),
+    note="Gaia DR3 publishes parallaxes for ~1.468 billion sources at 0.02–0.03 mas for G<15. Rowbotham's own third edition prints the measurements it is cited against."),
 
 "A06": dict(lane="A-EXP", name="Foucault pendulum explained by a rotating firmament",
     originator="Robert Sungenis & Robert Bennett", originator_work="Galileo Was Wrong, Vol. I", year="2006",
@@ -227,9 +233,12 @@ CLUSTERS = {
 
 # ---------------------------------------------------------------- B
 "B01": dict(lane="B", name="Water finds its level, therefore the surface is a plane",
-    originator="Samuel Rowbotham", originator_work="Zetetic Astronomy", year="1849",
+    # Corrected 2026-08-07: item 42 is Rowbotham 1849, but item 384 (river grades) is NOT —
+    # "Nile" does not occur in the 1865 text and the 1881 index has no Nile/Rivers entry.
+    # Earliest documented text is Carpenter 1885 proof 4, passing near-verbatim into Dubay 5.
+    originator="Samuel Rowbotham", originator_work="Zetetic Astronomy (item 384: Carpenter 1885, proof 4)", year="1849",
     real_source=None, verdict="REFUTED",
-    note="Equivocates on 'level': a level surface is an equipotential surface, which on a rotating spheroid is curved."),
+    note="Equivocates on 'level': a level surface is an equipotential surface, which on a rotating spheroid is curved. Newton derived the Earth's oblateness from that same premise in the Principia."),
 
 "B02": dict(lane="B", name="The horizon is flat and rises to eye level",
     originator="Samuel Rowbotham", originator_work="Zetetic Astronomy", year="1849",
@@ -242,9 +251,14 @@ CLUSTERS = {
     note="Rowbotham's two-point setup with a near-water sightline is the exact configuration in which refraction produces a false null. Wallace's three-point 1870 repeat and Oldham's 1901 replication both found the curvature. Flat-earthers cite the court voiding the *wager* as if it reversed the *measurement*."),
 
 "B04": dict(lane="B", name="Long-range visibility of ships, lighthouses and towers",
-    originator="Samuel Rowbotham", originator_work="Zetetic Astronomy", year="1849",
+    # Corrected 2026-08-07. (1) 1849 is impossible: the ancestral passage cites the Port
+    # Nicholson light, erected 1859, and the lighthouse table is absent from the 1865 edition.
+    # It is an 1881 3rd-ed. addition, ch. II pp. 28-35. (2) Dubay 89 is Cape Agulhas, not Cape
+    # Hatteras — "Cape Hatteras" does not occur in 200 Proofs at all. (3) The lighthouse spine
+    # of the cluster is Rowbotham's table, not Carpenter's.
+    originator="Samuel Rowbotham", originator_work="Zetetic Astronomy, 3rd ed. enl. (1881), ch. II", year="1881",
     real_source=None, verdict="MISLEADING",
-    note="Carpenter's proofs 5 and 36 (Cape Hatteras, Chesapeake Bay) reappear as Dubay's 89 and 96. Atmospheric refraction over water routinely extends the visible horizon; Lady Blount's own 1904 photographer recorded the shimmering vapour layer that explains her result."),
+    note="Rowbotham reprints the Britannica “Levelling” article in the same chapter as his lighthouse table — it gives him the refraction mechanism, the one-seventh coefficient, and the variability that a flat plane cannot produce. Lady Blount's own 1904 photographer recorded the shimmering vapour layer that explains her result."),
 
 "B05": dict(lane="B", name="Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",
     originator="William Carpenter", originator_work="One Hundred Proofs that the Earth Is Not a Globe", year="1885",
@@ -357,11 +371,19 @@ CLUSTERS = {
     originator="William Walker Atkinson (as 'Three Initiates')", originator_work="The Kybalion", year="1908",
     real_source="Emerald Tablet, Arabic recensions c. 750–830 CE",
     verdict="UNFALSIFIABLE",
-    note="The maxim is a 12th-c. Latin rendering of an 8th–9th-c. Arabic alchemical text about transmutation, popularised in its modern form by a 1908 Chicago New Thought pamphlet. It is not an Egyptian statement about the shape of the Earth."),
+    # Corrected 2026-08-07: the Kybalion CODIFIED the axiom as a numbered Principle;
+    # the compact English form was already free-standing in Blavatsky 1877. "Popularised" overcredited it.
+    note="The maxim is a 12th-c. Latin rendering of an 8th–9th-c. Arabic alchemical text about transmutation — current in English occultism from Blavatsky (1877) and codified as a numbered Hermetic Principle by a 1908 Chicago New Thought pamphlet. It is not an Egyptian statement about the shape of the Earth."),
 "D07": dict(lane="D", name="Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography",
-    originator="Helena Blavatsky; Manly P. Hall", originator_work="Isis Unveiled (1877); The Secret Teachings of All Ages (1928)", year="1877",
+    # Corrected 2026-08-07. Three faults, one MAJOR. (1) The Book of Dzyan sentence is
+    # withdrawn: it frames The Secret Doctrine (1888), not Isis Unveiled (1877); the people on
+    # record calling it fabricated are historians and critics, not Buddhist-studies scholars —
+    # the one long-term Sanskrit/Tibetan specialist on the question, David Reigle, reports
+    # circumstantial evidence FOR authenticity. And no item here descends from Dzyan anyway.
+    # (2) The items track Hall 1928 almost one-for-one, so Hall is primary. (3) Year follows.
+    originator="Manly P. Hall; Helena Blavatsky", originator_work="The Secret Teachings of All Ages (1928); Isis Unveiled (1877)", year="1928",
     real_source=None, verdict="UNFALSIFIABLE",
-    note="Esoteric interpretive literature. Blavatsky's claimed source text, the 'Book of Dzyan', is regarded by Buddhist-studies scholars as her own invention."),
+    note="Esoteric interpretive literature. Where these traditions do carry cosmology it is the geocentric nested spheres of their own century — which contain a spherical Earth. Hall captions the Rosicrucian plate a “Ptolemaic chart”."),
 "D08": dict(lane="D", name="Temple, cathedral and Dendera-zodiac architecture as cosmology",
     originator="Manly P. Hall", originator_work="The Secret Teachings of All Ages", year="1928",
     real_source="Dendera zodiac, Louvre E 13482, dated c. 50 BCE",

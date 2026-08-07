@@ -380,6 +380,47 @@ check("A10's cluster name no longer states the reverse of its source",
 check("the Method tab still owns up to the old wrong name",
       "the atmosphere can&rsquo;t co-rotate" in PAGE)
 
+# --- batch 6: family D and the Rowbotham audit -----------------------
+for _a in ("ARG-D06", "ARG-D07", "ARG-B01", "ARG-B04", "ARG-A05"):
+    check(f"{_a} is written in full", ARGS[_a]["depth"] == "full")
+check("family D is no longer at zero coverage",
+      any(r["depth"] == "full" for r in ARGS.values() if r["lane"] == "D"))
+
+# The UNFALSIFIABLE lane is where we are most likely to sneer. This is the guard
+# the social-section framing asks for, applied early to the two D treatments.
+_dtext = json.dumps([ARGS[a]["deep"] for a in ("ARG-D06", "ARG-D07")]).lower()
+for _bad in ("grift", "charlatan", "hoax", "gullible", "crackpot", "nonsense",
+             "delusion", "ridiculous", "absurd belief", "obviously false"):
+    check(f"family D avoids loaded word: {_bad!r}", _bad not in _dtext)
+check("family D does not adjudicate whether God exists",
+      "god does not exist" not in _dtext and "god is not real" not in _dtext
+      and "proves there is no god" not in _dtext)
+
+# The three edition corrections. Each was credited to a work that provably cannot
+# contain the passage; a regression here means someone restored the old dating.
+check("A05 is dated to the 1881 third edition, not 1865",
+      ARGS["ARG-A05"]["originator_year"] == "1881")
+check("B04 is dated to the 1881 third edition, not 1849",
+      ARGS["ARG-B04"]["originator_year"] == "1881")
+# NB: both treatments quote our old wrong line in order to withdraw it in public.
+# Those occurrences must SURVIVE. What must not survive is the claim ASSERTED as
+# fact, which lives in the cluster basis line.
+check("the withdrawn pseudonym claim is no longer asserted as fact",
+      "pseudonym from the thing he denied" not in ARGS["ARG-A05"]["basis"])
+check("the withdrawn Book of Dzyan claim is no longer asserted as fact",
+      "Dzyan" not in ARGS["ARG-D07"]["basis"])
+check("both withdrawals are shown to the reader, not just made quietly",
+      "pseudonym from the thing he denied" in PAGE and "Dzyan" in PAGE)
+check("D07 credits Hall first, matching the items",
+      ARGS["ARG-D07"]["originator"].startswith("Manly P. Hall"))
+
+# Our own error rate is derived, never typed. If the log and the page disagree,
+# the page is claiming an honesty it has not got.
+check("the page states the derived correction count, not a literal",
+      f'{S["arguments_with_a_correction"]} of the {S["arguments_at_full_depth"]}' in PAGE)
+check("corrections log is not silently shrinking",
+      S["corrections_logged"] >= 11, S["corrections_logged"])
+
 # R01 is the calibration case: the wording barely moves, the speech act does.
 if "ARG-R01" in _assessed:
     check("R01 is recorded as a concession repurposed as a proof",

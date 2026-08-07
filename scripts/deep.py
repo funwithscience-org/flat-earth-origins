@@ -245,6 +245,18 @@ for _k, _v in BATCH5.items():
     assert _k not in DEEP, f"batch5 collision: {_k}"
     DEEP[_k] = _v
 
+# ---- batch 6 (2026-08-07) -------------------------------------------
+# Chosen for COVERAGE OF GAPS, not item count. Family D was 0/18 arguments and
+# 0/83 items; Rowbotham was 1/16 audited despite being the largest originator on
+# the list, and the one sample we had checked (A10) stated the reverse of his
+# position. D06+D07 open family D; B01+B04+A05 test the Rowbotham surface.
+# B01 is 2 items and would never have made a top-30 cut on volume — it is here
+# because it is the claim currently circulating.
+for _m in ("_b6_D06", "_b6_D07", "_b6_B01", "_b6_B04", "_b6_A05"):
+    for _k, _v in __import__(_m).ENTRY.items():
+        assert _k not in DEEP, f"batch6 collision: {_k}"
+        DEEP[_k] = _v
+
 # ---- hedge rule: the audit pass -------------------------------------
 # Comparison of each list item against its source's own wording, run 2026-08-05.
 from _hedge_audit_batch_a import HEDGE_A

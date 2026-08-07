@@ -49,6 +49,46 @@
    "old_argument": "Both refutations argue against the list's fragments artefact by artefact - GPS, sextants, ephemerides for R08; Noether, Fermat, light cones, gauge symmetry for R06.",
    "new_argument": "Neither argument form appears in the cited source. Both refutations have been rewritten. R08 now answers the book's conventionalism first - the Einstein/Infeld sentence with its governing condition restored, and the reply that a conventional choice of origin is not a conventional choice of dynamics - and reaches the 28 artefacts only afterwards, under a heading stating they are the list's addition and not the authors'. R06 now concedes the one sentence the source does supply, states the six unlocatable item titles WITH the caveats (one scanned volume, variable OCR, unresolved volume identity, search not independently re-run) before refuting anything, leaves the anthropic reversal unsettled given Woit's contrary testimony, and addresses the remaining items as claims of unknown authorship. Regression tests pin all of it.",
    "reason": "Same failure as A10, caught by the same audit. Recording it before fixing it, because a review about provenance should not be able to correct itself silently. Fixed same week; the A10 headline and TLDR were found to carry the same mis-attribution and were rewritten with them."
+  },
+  {
+   "at": "2026-08-07",
+   "found_by": "agent writing ARG-A05, batch 6",
+   "where": "scripts/clusters.py ARG-A05 - originator year AND published basis line",
+   "old_argument": "Credited to Zetetic Astronomy: Earth Not a Globe, 1865, with the basis line 'Rowbotham took his pseudonym from the thing he denied.'",
+   "new_argument": "Both wrong. The parallax argument is NOT in the 1865 edition - 'parallax' occurs there twice, both times in the byline - it is an 1881 third-edition addition, ch. III pp. 82-87. And the pseudonym line is false: Rowbotham was signing himself 'Parallax' by the end of 1849, 32 years before he wrote about stellar parallax, in the generic optical sense (apparent shift with viewpoint) that his own perspective theory depends on. He relied on parallax, he did not name himself after a thing he denied. Line withdrawn and replaced.",
+   "reason": "A rhetorically attractive line that did not survive checking. Those are the ones most likely to be wrong, which is why it was checked."
+  },
+  {
+   "at": "2026-08-07",
+   "found_by": "agent writing ARG-B04, batch 6",
+   "where": "scripts/clusters.py ARG-B04 - originator year and basis line",
+   "old_argument": "Credited to Zetetic Astronomy 1849. Basis said Carpenter's proofs 5 and 36 (Cape Hatteras, Chesapeake Bay) reappear as Dubay's 89 and 96.",
+   "new_argument": "1849 is impossible: the ancestral passage cites the Port Nicholson light, erected 1859, and the lighthouse table is absent from the 1865 first book edition. It is an 1881 third-edition addition, ch. II pp. 28-35. On the basis line, proof 36 to Dubay 96 holds, but Dubay's 89 is Cape Agulhas and 'Cape Hatteras' does not occur in 200 Proofs at all; Carpenter's proof 5 survives instead in a 2018 Dubay blog post. The lighthouse spine of the cluster is Rowbotham's table, not Carpenter's - the reverse of what the old line implied.",
+   "reason": "Edition dating never checked against the primary text; a lighthouse erected in 1859 cannot appear in an 1849 pamphlet."
+  },
+  {
+   "at": "2026-08-07",
+   "found_by": "agent writing ARG-B01, batch 6",
+   "where": "scripts/clusters.py ARG-B01 - originator, item 384",
+   "old_argument": "Both items credited to Rowbotham, Zetetic Astronomy, 1849.",
+   "new_argument": "Item 42 is Rowbotham's. Item 384 (river grades) is not: it is absent from the 1849 pamphlet as quoted by Schadewald, 'Nile' does not occur in the 1865 text, and the 1881 General Index has no entry for Nile, Rivers, Amazon or Mississippi. Earliest documented text is Carpenter 1885 proof 4 - 'the Nile, which, in a thousand miles, falls but a foot' - passing near-verbatim into Dubay's proof 5.",
+   "reason": "We inherited the attribution from the movement's own genealogy rather than checking the primary text. Third instance of this failure mode."
+  },
+  {
+   "at": "2026-08-07",
+   "found_by": "agent writing ARG-D07, batch 6",
+   "where": "scripts/clusters.py ARG-D07 - basis line, originator order and year",
+   "old_argument": "Basis said: \"Blavatsky's claimed source text, the 'Book of Dzyan', is regarded by Buddhist-studies scholars as her own invention.\" Credited to Blavatsky first, Isis Unveiled, 1877.",
+   "new_argument": "The Dzyan sentence is withdrawn entirely. It is wrong on three counts: the Stanzas frame The Secret Doctrine (1888), not Isis Unveiled (1877), which is the work this cluster was dated to; the people on record treating it as fabricated are a historian, a 19th-c. critic and a writer on fringe claims, not Buddhist-studies scholars, while the one long-term Sanskrit and Tibetan-Buddhist specialist on the question, David Reigle, reports circumstantial evidence in FAVOUR of authenticity; and no item in the cluster descends from Dzyan in any case. Separately, the twelve items track Hall's 1928 chapter list almost one-for-one, so Hall is the primary originator and the year is 1928.",
+   "reason": "MAJOR under our own review rules: an unsourced bad-faith attribution, made in the name of a scholarly field that says close to the opposite. It was also irrelevant to every item in the cluster, which is how it survived unchecked."
+  },
+  {
+   "at": "2026-08-07",
+   "found_by": "agent writing ARG-D06, batch 6",
+   "where": "scripts/clusters.py ARG-D06 - basis line",
+   "old_argument": "Said the maxim was 'popularised in its modern form by a 1908 Chicago New Thought pamphlet.'",
+   "new_argument": "Overcredits the Kybalion. The compact English axiom was already free-standing in Blavatsky's Isis Unveiled (1877) - 'As above, so it is below... As in heaven, so on earth.' The Kybalion's contribution was to codify it as one of seven numbered Principles, not to popularise it. Wording corrected.",
+   "reason": "Precision, not a reversal - but on a page whose product is provenance, 'popularised by' and 'codified by' are different claims about who did what."
   }
  ]
 }

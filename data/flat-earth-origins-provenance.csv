@@ -3,10 +3,10 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 2,Michelson–Gale ether drift detection.,A,A-EXP,ARG-A02,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
 3,Sagnac effect consistent with stationary Earth.,A,A-EXP,ARG-A02,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
 4,Airy's failure to detect starlight motion.,A,A-EXP,ARG-A03,A03,“Airy's failure” — water-filled telescope shows no Earth motion,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"G. B. Airy 1871, Proc. Roy. Soc. London, pp. 35–39",REFUTED
-5,Lack of stellar parallax in early measurements.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
+5,Lack of stellar parallax in early measurements.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. III (as “Parallax”)",1881,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
 6,Coriolis effects reinterpreted as rotating heavens.,A,A-EXP,ARG-A09,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
 7,Stellar aberration optical not mechanical.,A,A-EXP,ARG-A04,A04,"Stellar aberration is optical/parallax, not Earth's motion",Walter van der Kamp,Bulletin of the Tychonian Society,1970s,James Bradley 1729,REFUTED
-8,Constant stellar angular sizes.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
+8,Constant stellar angular sizes.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. III (as “Parallax”)",1881,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
 9,Uniform star distribution in all directions.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
 10,Michelson–Pease null rotation detection.,A,A-EXP,ARG-A11,A11,Michelson–Pease–Pearson null result,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Pease & Pearson 1929, JOSA 18(3):181",STANDARD PHYSICS
 11,Foucault pendulum explainable by rotating firmament.,A,A-EXP,ARG-A06,A06,Foucault pendulum explained by a rotating firmament,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Léon Foucault 1851,STANDARD PHYSICS
@@ -35,12 +35,12 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 34,Day–night cycle from firmament rotation.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
 35,Lunar phases explainable without orbit.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
 36,No visible rotation of atmosphere or clouds.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
-37,No naked-eye parallax.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
+37,No naked-eye parallax.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. III (as “Parallax”)",1881,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
 38,Star rotation constant 24 hours.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
 39,Precession from dome rotation.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
 40,CMB axis aligned with Earth.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
 41,Human perception stationary.,D,D,ARG-D11,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
-42,Water finds level.,B,B,ARG-B01,B01,"Water finds its level, therefore the surface is a plane",Samuel Rowbotham,Zetetic Astronomy,1849,,REFUTED
+42,Water finds level.,B,B,ARG-B01,B01,"Water finds its level, therefore the surface is a plane",Samuel Rowbotham,"Zetetic Astronomy (item 384: Carpenter 1885, proof 4)",1849,,REFUTED
 43,Horizon flat in long-distance views.,B,B,ARG-B02,B02,The horizon is flat and rises to eye level,Samuel Rowbotham,Zetetic Astronomy,1849,,REFUTED
 44,Horizon rises to eye level.,B,B,ARG-B02,B02,The horizon is flat and rises to eye level,Samuel Rowbotham,Zetetic Astronomy,1849,,REFUTED
 45,Plane flight times consistent with rest Earth.,A,A-EXP,ARG-A08,A08,Aircraft don't compensate for spin; east/west flight times symmetric,Samuel Rowbotham,Earth Not a Globe,1865,Inertial navigation systems measure Earth rate on every flight,REFUTED
@@ -101,7 +101,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 100,Miller aether drift detections.,A,A-EXP,ARG-A12,A12,Dayton Miller detected a real aether drift that was suppressed,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Miller 1933, Rev. Mod. Phys. 5:203; Shankland et al. 1955, Rev. Mod. Phys. 27:167",REFUTED
 101,Flyby anomalies Earth-centered.,E,E,ARG-E08,E08,Pioneer and flyby anomalies are Earth-directed,,,,"Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",REFUTED
 102,GPS relativity Earth frame.,A,A-EXP,ARG-A18,A18,GPS/time-dilation corrections work in an Earth frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,GPS relativistic clock corrections,STANDARD PHYSICS
-103,Inconsistent stellar parallax.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
+103,Inconsistent stellar parallax.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. III (as “Parallax”)",1881,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
 104,Solar inertial wobble about Earth.,E,E,ARG-E14,E14,"Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",,,,,REFUTED
 105,Stable equatorial bulge.,A,A-EXP,ARG-A13,A13,No centrifugal effects felt; equatorial bulge has another cause,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
 106,Coriolis equivalence with sky rotation.,A,A-EXP,ARG-A09,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
@@ -163,20 +163,20 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 162,Sacred geometry centered on observer.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
 163,Temple cosmology orientation.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
 164,Four corners stability symbol.,C,C,ARG-C05,C05,"Circle, four corners and ends of the Earth",Rob Skiba,biblical-cosmology teaching,2015,,SELF-CONTRADICTED
-165,Kabbalistic Malkuth fixed.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-166,Alchemical fixed Earth.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+165,Kabbalistic Malkuth fixed.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
+166,Alchemical fixed Earth.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
 167,Geocentric astrology predictive.,D,D,ARG-D09,D09,Geocentric astrology and zodiacal symbolism as evidence,,,,,UNFALSIFIABLE
-168,Gnostic concentric heavens.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-169,Christian mystic heart-center.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-170,Rosicrucian dome symbolism.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-171,Solar Christ circling soul.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+168,Gnostic concentric heavens.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
+169,Christian mystic heart-center.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
+170,Rosicrucian dome symbolism.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
+171,Solar Christ circling soul.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
 172,Egyptian Nut and Geb model.,D,D,ARG-D16,D16,World mythologies depict a circling sun or a covering sky,,,,,UNFALSIFIABLE
 173,Hindu Mount Meru axis.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
 174,Norse Yggdrasil.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
 175,Tibetan mandalas still center.,D,D,ARG-D05,D05,Mandala / still-centre symbolism,Mircea Eliade (misapplied),Patterns in Comparative Religion,1949,,UNFALSIFIABLE
 176,Platonic solid cosmos.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
 177,Heaven within mirrors geometry.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
-178,Fixed versus volatile elements.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+178,Fixed versus volatile elements.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
 179,Direct sensory stillness.,D,D,ARG-D11,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
 180,No felt centrifugal force.,A,A-EXP,ARG-A13,A13,No centrifugal effects felt; equatorial bulge has another cause,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
 181,Simpler moving sky.,D,D,ARG-D12,D12,Simplicity / common sense favours a fixed Earth,Samuel Rowbotham,Zetetic Astronomy,1849,,NOT DEMONSTRATED
@@ -220,7 +220,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 219,Solar noon symmetry.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
 220,Constant solar diameter.,B,B,ARG-B10,B10,Sun and Moon appear the same size; solar diameter constant,Samuel Rowbotham,Earth Not a Globe,1865,,MISLEADING
 221,Refraction invoked for curvature.,B,B,ARG-B07,B07,Refraction is invoked ad hoc to rescue curvature,Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
-222,Repeated long-range visibility.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
+222,Repeated long-range visibility.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. II",1881,,MISLEADING
 223,Surveying plane assumption.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
 224,No rotation proof mechanical.,A,A-EXP,ARG-A26,A26,No orbital acceleration or rotation has ever been directly detected,Walter van der Kamp,De Labore Solis,1988,,SELF-CONTRADICTED
 225,Ring laser gyro corrections.,A,A-EXP,ARG-A07,A07,Gyroscopes / ring-laser gyros show no Earth rotation,Bob Knodel,GlobeBusters / Behind the Curve,2018,Sagnac 1913; standard ring-laser INS engineering,SELF-CONTRADICTED
@@ -238,7 +238,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 237,Balloon sun-angle mismatch.,A,A-EXP,ARG-A16,A16,High-altitude balloon drift and sun-angle anomalies,,,,,NOT DEMONSTRATED
 238,Bolide entry clustering.,E,E,ARG-E16,E16,"Meteor, bolide and micrometeor distributions",,,,,STANDARD PHYSICS
 239,Meteor showers calendar-fixed.,E,E,ARG-E16,E16,"Meteor, bolide and micrometeor distributions",,,,,STANDARD PHYSICS
-240,Stellar proper motion tiny.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
+240,Stellar proper motion tiny.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. III (as “Parallax”)",1881,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
 241,No annual airglow wind.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 242,Micrometeor isotropy.,E,E,ARG-E16,E16,"Meteor, bolide and micrometeor distributions",,,,,STANDARD PHYSICS
 243,Solar wind bow shock centered.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
@@ -258,11 +258,11 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 257,No equatorial centrifugal relief.,A,A-EXP,ARG-A13,A13,No centrifugal effects felt; equatorial bulge has another cause,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
 258,Ballistics ignore rotation.,A,A-EXP,ARG-A14,A14,Ballistics and artillery ignore Earth's rotation,Samuel Rowbotham,Earth Not a Globe,1865,Standard long-range fire-control tables,REFUTED
 259,Bridges no curvature allowance.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
-260,Tower sight lines beyond curve.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
+260,Tower sight lines beyond curve.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. II",1881,,MISLEADING
 261,Microwave links flat.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
 262,Laser canal tests flat.,B,B,ARG-B03,B03,Bedford Level / laser canal tests show no curvature,Samuel Rowbotham,Old Bedford Canal trials,1838,Wallace 1870; Oldham 1901,REFUTED
 263,Mirage optical ducts.,B,B,ARG-B13,B13,Mirage and optical ducting explain far sightings,,,,,SELF-CONTRADICTED
-264,No naked-eye parallax.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,Zetetic Astronomy: Earth Not a Globe (as “Parallax”),1865,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
+264,No naked-eye parallax.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. III (as “Parallax”)",1881,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
 265,Planet brightness epicycles.,D,D,ARG-D03,D03,Geocentric/Ptolemaic models made accurate predictions,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,STANDARD PHYSICS
 266,Libration perspective optical.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
 267,Constellation stability.,B,B,ARG-B08,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
@@ -376,13 +376,13 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 375,VOR network Earth bearings.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
 376,Great-circle math.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
 377,Nautical almanac geocentric.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-378,Harbor lights flat lines.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
-379,Lighthouse visibility.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
+378,Harbor lights flat lines.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. II",1881,,MISLEADING
+379,Lighthouse visibility.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. II",1881,,MISLEADING
 380,Undersea cables straight.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
-381,Oil rig sightlines.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
+381,Oil rig sightlines.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. II",1881,,MISLEADING
 382,Leveling equipotential planes.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
 383,Hydrology planar.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
-384,River grades.,B,B,ARG-B01,B01,"Water finds its level, therefore the surface is a plane",Samuel Rowbotham,Zetetic Astronomy,1849,,REFUTED
+384,River grades.,B,B,ARG-B01,B01,"Water finds its level, therefore the surface is a plane",Samuel Rowbotham,"Zetetic Astronomy (item 384: Carpenter 1885, proof 4)",1849,,REFUTED
 385,Pipelines straight.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
 386,Railroads negligible curvature.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
 387,Highways horizon.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
@@ -399,7 +399,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 398,Pendulum clocks stable.,A,A-EXP,ARG-A15,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED
 399,GNSS pseudorange Earth clocks.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
 400,Bathymetry sonar straight.,B,B,ARG-B11,B11,"Radar, LiDAR, photogrammetry and sonar assume a plane",,,,,MISLEADING
-401,Ship optical range.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
+401,Ship optical range.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. II",1881,,MISLEADING
 402,Harbor mirage charts.,B,B,ARG-B13,B13,Mirage and optical ducting explain far sightings,,,,,SELF-CONTRADICTED
 403,Tunnel breakthroughs align.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
 404,Power line sag flat.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
@@ -450,13 +450,13 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 449,"Biblical metaphors of “pillars,” “foundations,” “footstool.”",C,C,ARG-C03,C03,Proof-texts on foundations and pillars,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
 450,Prophetic visions framed from an Earth-fixed vantage.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
 451,"Axis mundi symbols (world tree, mountain) worldwide.",D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
-452,Djed pillar / Jachin & Boaz under starry vaults.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+452,Djed pillar / Jachin & Boaz under starry vaults.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
 453,Omphalos stones marking the world's navel/center.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
 454,Jerusalem/Delphi as “navel of the world” motifs.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
 455,"Mandalas with still center, rotating periphery.",D,D,ARG-D05,D05,Mandala / still-centre symbolism,Mircea Eliade (misapplied),Patterns in Comparative Religion,1949,,UNFALSIFIABLE
 456,Dendera zodiac as dome above Earth.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
-457,Mithraic iconography mapping stellar rotation.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-458,Rosicrucian temple diagrams: cosmos around sanctum.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
-459,Masonic tracing boards beneath starry canopy.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+457,Mithraic iconography mapping stellar rotation.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
+458,Rosicrucian temple diagrams: cosmos around sanctum.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
+459,Masonic tracing boards beneath starry canopy.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
 460,"Hermetic altar at the world center (“as above, so below”).",D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
-461,Alchemy: Earth as [truncated in source],D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Helena Blavatsky; Manly P. Hall,Isis Unveiled (1877); The Secret Teachings of All Ages (1928),1877,,UNFALSIFIABLE
+461,Alchemy: Earth as [truncated in source],D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE

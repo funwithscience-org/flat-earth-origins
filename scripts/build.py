@@ -192,6 +192,10 @@ summary = {
                          if a["deep"] and a["deep"]["compression"].get("drifted")),
     "hedge_no_source": sum(1 for a in arguments.values()
                            if a["deep"] and a["deep"]["compression"]["assessed"] == "no_source"),
+    # Our OWN error rate, derived from the corrections log rather than typed as a
+    # literal. House rule: never write a computed number by hand.
+    "corrections_logged": None,      # filled below
+    "arguments_with_a_correction": None,
     "bios_worked": sum(1 for p in people.values() if p["bio_status"] == "worked"),
     "items_by_family": dict(sorted(collections.Counter(r["family"] for r in items).items())),
     "items_by_lane": dict(sorted(lane_items.items())),
@@ -211,6 +215,19 @@ summary = {
 # from the published corpus and written to review/advocate.json instead. Objection
 # handling that survives review belongs in the refutation prose, in the author's voice.
 REVIEW = os.path.join(ROOT, "review")
+
+# Derive our own error rate from the corrections log. An argument counts once no
+# matter how many faults it produced, so the ratio is "arguments that turned up at
+# least one error in our own record" over "arguments written in full".
+import re as _re
+_corr = json.load(open(os.path.join(REVIEW, "corrections.json"), encoding="utf-8"))
+_argids = set()
+for _e in _corr["entries"]:
+    _argids |= set(_re.findall(r"\bARG-([A-Z]\d{2})\b", _e.get("where", "") + " " + _e.get("old_argument", "")))
+summary["corrections_logged"] = len(_corr["entries"])
+summary["arguments_with_a_correction"] = len(_argids & set(DEEP))
+assert summary["arguments_with_a_correction"] <= summary["arguments_at_full_depth"], \
+    "a correction names an argument that has no full treatment - check the `where` field"
 advocate = {a: dict(arguments[a]["deep"]["advocate"], argument=a,
                     name=arguments[a]["name"], verdict=arguments[a]["verdict"])
             for a in arguments if arguments[a]["deep"]}

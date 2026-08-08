@@ -25,11 +25,11 @@ The page reviews published *claims*. It does not target any individual.
 |---|---|
 | Items in the specimen | 461 |
 | Distinct arguments | 98 (4.7× compression) |
-| Named originators | 20, covering 366 of 461 items |
+| Named originators | 20, covering 372 of 461 items |
 | Items that discriminate flat/stationary from the globe | **0** |
 
-Two people account for 42% of the list: **Samuel Rowbotham** (65 items, writing 1849–65)
-and **Robert Sungenis** across three bylines (128). The largest single cluster — 28 items —
+Two people account for 43% of the list: **Samuel Rowbotham** (65 items, writing 1849–65)
+and **Robert Sungenis** across three bylines (134). The largest single cluster — 28 items —
 is one idea restated in eight technical vocabularies.
 
 ## Layout
@@ -105,7 +105,12 @@ form of each argument. Unfalsifiable claims are named, not ridiculed. Duplicate 
 grouped and scored once per distinct argument, so the "461" headline does not inflate the
 work. Provenance attributions trace to a specific publication with a date; where an
 attribution could not be established the item is recorded as **untraced rather than
-guessed** (95 items, 30 clusters).
+guessed** (89 items, 29 clusters).
+
+**"Untraced" is a claim, not a fact about the list, and it is audited like any other.**
+ARG-E13 was recorded as untraced until 2026-08-08, when a search found three of its six
+items in Sungenis & Bennett. Two of the 30 have now been tested and one came back the
+other way, so treat the remaining 28 as provisional in *both* directions.
 
 Verified attributions, with URLs and an explicit list of what could *not* be verified, live
 in the project doc `claude/source-genealogy.md`. **Read it before writing any provenance
@@ -113,9 +118,10 @@ claim.** It cost three parallel research passes; do not re-derive it.
 
 ## Known limits
 
-- 95 of 461 items could not be traced to a named origin. That is a limit of this pass, not
+- 89 of 461 items could not be traced to a named origin. That is a limit of this pass, not
   evidence of originality — they are mostly one-line assertions with no cited source, which
-  is *why* they are unattributable.
+  is *why* they are unattributable. One cluster has already moved out of this bucket on
+  audit, so the figure should be read as an upper bound.
 - Cluster boundaries involve judgement. A handful of items could defensibly sit in an
   adjacent cluster; that would move counts by a few units without changing any verdict.
 - Carpenter 1885 is the earliest numbered proof-list **identified**, not provably the first —

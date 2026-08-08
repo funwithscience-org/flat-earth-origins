@@ -427,7 +427,13 @@ CLUSTERS = {
 
 # ---------------------------------------------------------------- E
 "E01": dict(lane="E", name="CMB 'Axis of Evil' aligns with Earth / the ecliptic",
-    originator="Robert Sungenis & Rick DeLano", originator_work="The Principle (film)", year="2014",
+    # Corrected 2026-08-08: the dipole argument is TEXTUAL, not filmic. It runs to
+    # thirteen numbered "Claims and Responses" across Galileo Was Wrong Vol. I ch. 3 and
+    # Vol. II ch. 10; the film contains the least of it. Separately, "dark flow" and
+    # "bulk flow" occur ZERO times in all three volumes — item 327 traces to DeLano's
+    # blog, 18 May 2013, not to the book or the film.
+    originator="Robert Sungenis & Rick DeLano",
+    originator_work="Galileo Was Wrong (7th ed., 2013), Vol. I ch. 3 and Vol. II ch. 10", year="2013",
     real_source="Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",
     verdict="MISLEADING",
     note="CAREFUL CASE — represent honestly. The alignment is a real, reproducible feature of the data and the significance debate is genuinely open. But Land & Magueijo themselves walked the significance back in 2007 ('no evidence' under Bayesian model comparison for the general model); Planck 2018 VII notes the look-elsewhere effect and finds no corresponding anomaly in polarization. Decisively: the axis aligns with the *ecliptic and the dipole*, which points to a local/systematic origin — i.e. the alignment is evidence the signal may be partly non-cosmological, which is the opposite of what is claimed."),
@@ -478,8 +484,20 @@ CLUSTERS = {
     real_source="Tifft 1976; refuted by 2dF/SDSS surveys",
     verdict="REFUTED", note="Quantization disappeared as sample sizes grew; the effect was an artefact of small, sparse redshift samples."),
 "E13": dict(lane="E", name="Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",
-    originator=None, originator_work=None, year=None, real_source=None,
-    verdict="NOT DEMONSTRATED", note="Named without a stated result or inference."),
+    # Corrected 2026-08-08. This cluster was one of THIRTY carrying `originator: None`,
+    # and only one of the thirty had ever been audited. E13 was the second test and it
+    # came back the other way: three of six items have a documented ancestor in
+    # Sungenis & Bennett. The birefringence item is the firmest — Vol. II gives Nodland
+    # and Ralston three pages under a subheading reading simply "Birefringence:" and
+    # closes by placing the axis "in the ecliptic plane along the equinox", which is
+    # where the item's two content words come from. "Untraced" was our claim, not a
+    # fact about the list, and it did not survive contact.
+    originator="Robert Sungenis & Robert Bennett",
+    originator_work="Galileo Was Wrong, Vol. II (7th ed., 2013), ch. 10; Vol. I, chs 2-3",
+    year="2013", real_source=None,
+    verdict="NOT DEMONSTRATED",
+    note="Real anomalies, none of which discriminate. Three of six items trace to Sungenis "
+         "& Bennett; the cluster was recorded as untraced until audited 2026-08-08."),
 "E14": dict(lane="E", name="Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",
     originator=None, originator_work=None, year=None, real_source=None,
     verdict="REFUTED", note="The solar neutrino problem was solved by neutrino oscillation (SNO, 2001; Nobel 2015). The barycentre wobble is a *prediction* of the Sun being orbited by planets."),

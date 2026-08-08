@@ -73,7 +73,10 @@ check("summary agrees with recomputed cluster count",
 named = {k["originator"] for k in CLUSTERS.values() if k["originator"]}
 check("named originators == 20", len(named) == 20, sorted(named))
 traced = sum(1 for r in ROWS if r["originator"])
-check("traced items == 366", traced == 366, traced)
+# 366 -> 372 on 2026-08-08: ARG-E13 was recorded as untraced and the audit found an
+# originator (Sungenis & Bennett), moving its 6 items into the traced column. The
+# figure went UP because a claim of ours was withdrawn, not because a bar was lowered.
+check("traced items == 372", traced == 372, traced)
 check("summary traced count agrees",
       S["items_traceable_to_a_named_originator"] == traced)
 check("compression ratio == 4.7", abs(S["compression_ratio"] - 4.7) < 0.05,
@@ -95,9 +98,9 @@ orig = collections.Counter(r["originator"] for r in ROWS if r["originator"])
 check("Rowbotham == 65 items", orig["Samuel Rowbotham"] == 65,
       orig["Samuel Rowbotham"])
 sungenis = sum(v for k, v in orig.items() if k.startswith("Robert Sungenis"))
-check("Sungenis across all bylines == 128 items", sungenis == 128, sungenis)
-check("Rowbotham + Sungenis == 42% of the list",
-      round((65 + sungenis) / 461 * 100) == 42, (65 + sungenis) / 461 * 100)
+check("Sungenis across all bylines == 134 items", sungenis == 134, sungenis)  # +6 from E13
+check("Rowbotham + Sungenis == 43% of the list",
+      round((65 + sungenis) / 461 * 100) == 43, (65 + sungenis) / 461 * 100)
 check("largest cluster R08 == 28 items",
       collections.Counter(ASSIGN.values())["R08"] == 28)
 check("exact duplicate pairs == 3", S["exact_duplicate_pairs"] == 3)
@@ -108,7 +111,7 @@ for label, needle in [
     ("headline 461", "461"),
     ("headline 98 arguments", ">98<"),
     ("headline 20 authors", ">20<"),
-    ("traced 366", "366 of the 461"),
+    ("traced 372", "372 of the 461"),
     ("compression 4.7x", "4.7&times;"),
     ("family A total 182", "<strong>182</strong>"),
     ("family B total 54", "<strong>54</strong>"),

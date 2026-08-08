@@ -257,6 +257,16 @@ for _m in ("_b6_D06", "_b6_D07", "_b6_B01", "_b6_B04", "_b6_A05"):
         assert _k not in DEEP, f"batch6 collision: {_k}"
         DEEP[_k] = _v
 
+# ---- batch 7 (2026-08-08) -------------------------------------------
+# C lane was 1/10 arguments and 16/69 items, the thinnest on the board; the
+# untraced pile was 1/30 audited. C04/C05/C07 open the scriptural lane, E03
+# extends the CMB work begun at the E01 careful case, E13 tests whether an
+# "untraced" record survives contact.
+for _m in ("_b7_C04", "_b7_C05", "_b7_C07", "_b7_E03", "_b7_E13"):
+    for _k, _v in __import__(_m).ENTRY.items():
+        assert _k not in DEEP, f"batch7 collision: {_k}"
+        DEEP[_k] = _v
+
 # ---- hedge rule: the audit pass -------------------------------------
 # Comparison of each list item against its source's own wording, run 2026-08-05.
 from _hedge_audit_batch_a import HEDGE_A

@@ -89,6 +89,22 @@
    "old_argument": "Said the maxim was 'popularised in its modern form by a 1908 Chicago New Thought pamphlet.'",
    "new_argument": "Overcredits the Kybalion. The compact English axiom was already free-standing in Blavatsky's Isis Unveiled (1877) - 'As above, so it is below... As in heaven, so on earth.' The Kybalion's contribution was to codify it as one of seven numbered Principles, not to popularise it. Wording corrected.",
    "reason": "Precision, not a reversal - but on a page whose product is provenance, 'popularised by' and 'codified by' are different claims about who did what."
+  },
+  {
+   "at": "2026-08-08",
+   "found_by": "agent writing ARG-E13, batch 7",
+   "where": "scripts/clusters.py ARG-E13 - originator recorded as None",
+   "old_argument": "Recorded with originator=None, originator_work=None, year=None - one of 30 arguments carrying no traceable source, with the basis line 'Named without a stated result or inference.'",
+   "new_argument": "Three of the six items have a documented ancestor in Sungenis & Bennett. Firmest is item 358 'Cosmic birefringence ecliptic': Galileo Was Wrong Vol. II ch. 10 gives Nodland and Ralston's 1997 polarization-rotation claim three pages under a subheading reading simply 'Birefringence:' and closes by placing the axis 'in the ecliptic plane along the equinox' - the item's two content words, appearing together as that section's heading and its punchline. Item 334 (supernova dimming alternatives) traces to Vol. I ch. 2 citing Riess 1998 and Celerier; item 194 held loosely. Cluster reattributed to Sungenis & Bennett, 2013.",
+   "reason": "'Untraced' is a claim we make, and it had been audited on exactly one of thirty clusters. The second test came back the other way. Traced items 366 to 372, Sungenis 128 to 134, the headline pair 42 to 43 percent - all published figures moved because a claim of ours was withdrawn."
+  },
+  {
+   "at": "2026-08-08",
+   "found_by": "agent writing ARG-E03, batch 7",
+   "where": "scripts/clusters.py ARG-E03 - originator_work",
+   "old_argument": "Credited to 'The Principle (film)', 2014.",
+   "new_argument": "The dipole argument is textual, not filmic: thirteen numbered 'Claims and Responses' across Galileo Was Wrong Vol. I ch. 3 and Vol. II ch. 10 (7th ed., 2013). The film contains the least of it. Separately, 'dark flow' and 'bulk flow' occur ZERO times across all three volumes - item 327 traces to DeLano's blog of 18 May 2013, not to the book or the film.",
+   "reason": "We pointed readers at the artefact with the least of the argument in it."
   }
  ]
 }

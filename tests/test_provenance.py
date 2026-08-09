@@ -507,20 +507,49 @@ for _phrase, _allowed in WITHDRAWN:
 # contain X"; write "X is not located in [the text actually searched]". This is a
 # RATCHET, not an allowlist - the current count is debt recorded in the sweep report,
 # and it may fall but never rise.
-_ABSENCE = [r"\bdoes not (?:contain|mention|cite|occur|appear|use|say)\b",
-            r"\bdo not (?:contain|mention|cite|occur|appear)\b",
-            r"\bnever (?:mentions|cites|uses|wrote|says|appears)\b",
+#
+# EXTENDED 2026-08-09 after the batch-8 sweep. The rule held nowhere it was checked
+# and failed in four of twelve targets — because the banned construction had MIGRATED
+# INTO FIELDS THIS TEST DID NOT SCAN (`compression.note`, the cluster `note`) and into
+# phrasings the regex did not match ("nobody has produced", "did not treat"). The
+# sweep's verdict is worth keeping verbatim: *writers have learned the regex, not the
+# rule.* That is the standing hazard with any lint aimed at prose — closing the two
+# holes is cheap, but it does not make the next paraphrase safe, and a clean run here
+# is not evidence that no unscoped absence claim was written.
+_ABSENCE = [r"\bdoes not (?:contain|mention|cite|occur|appear|use|say|treat|discuss)\b",
+            r"\bdo not (?:contain|mention|cite|occur|appear|treat)\b",
+            r"\bdid not (?:treat|mention|discuss|address)\b",
+            r"\bnever (?:mentions|cites|uses|wrote|says|appears|treats)\b",
+            # Narrowly aimed. A first cut used a bare `\bnobody (has|in|ever)\b` and it
+            # fired on four rhetorical uses that assert nothing about a source at all
+            # ("descends from nobody in particular", "nobody hedged it"). That matters
+            # more than the false-positive count: a lint that cries wolf is precisely
+            # what teaches writers to paraphrase around it, which is the failure this
+            # extension was written to fix. So match the CLAIM SHAPE — nobody has
+            # produced / published / is on record — not the word "nobody".
+            r"\bnobody (?:\w+ ){0,4}?(?:has |is |are )?(?:produced|published|is on record|are on record|obtained)\b",
+            r"\bno one (?:\w+ ){0,4}?(?:has )?(?:produced|published|obtained|is on record)\b",
             r"\bnowhere (?:in|does|appears)\b", r"\bcontains none of\b", r"\bis absent from\b"]
+# A claim about OUR OWN corpus is already scoped: "not in the 461 items" names the
+# exact text searched, and the reader has it on the Claims tab to check. Those were
+# always meant to be allowed — the original ceiling of 4 was described as mostly this
+# class — but the regex had no way to say so, so they were being counted as debt.
 _SCOPE = re.compile(r"not located|text searched|full text|as quoted|scanned|the \d{4}|ed\.|"
                     r"edition|Vol\.|volume|ch\.|chapter|p{1,2}\.\s?\d|pamphlet|the PDF|"
-                    r"we could read|searched", re.I)
+                    r"we could read|searched|the 461 items|200 Proofs|"
+                    r"the specimen|this corpus|our corpus", re.I)
 _unscoped = 0
 for _a in ARGS.values():
     _d = _a.get("deep")
     if not _d:
         continue
+    # `compression.note` and the cluster `note` are added because that is exactly where
+    # the constructions went once the four original fields were policed. Both render to
+    # the reader, so an unscoped claim there costs the same as one in the refutation.
     _blocks = [_d.get("tldr") or "", _d.get("refutation") or "", _d.get("untraceable") or "",
-               (_d.get("passage") or {}).get("gloss") or ""]
+               (_d.get("passage") or {}).get("gloss") or "",
+               (_d.get("compression") or {}).get("note") or "",
+               _a.get("note") or ""]
     for _t in _blocks:
         if not isinstance(_t, str):
             continue
@@ -548,9 +577,28 @@ check("the page renders the pre-modern state rather than a blank",
       "older than the movement" in PAGE and "Listed as distributors, not authors" in PAGE)
 
 # 11 -> 4 on 2026-08-09 after the sweep-application pass rescoped seven of them.
-# RATCHET: this number goes down, never up. The four survivors are C04, C05 and D07
-# (claims about our own 461-item corpus, where "the text searched" is the corpus and
-# a reader can check it) and one in R06. Lower it again as they are scoped.
+#
+# 2026-08-09, later: the batch-8 sweep found the rule failing in 4 of 12 targets while
+# this counter sat at 4, because the constructions had moved into fields the check did
+# not read. Widening the net took the true count to 16; tightening two over-eager new
+# patterns and teaching _SCOPE that "the 461 items" IS a named text took it to 8; and
+# rewriting the four genuine offenders (A05, A07, R01, R04 — the same ones the sweep
+# confirmed) took it back to 4. The number is unchanged and means something different:
+# it was measuring less than it claimed to before.
+#
+# The 4 that remain are the regex's limits rather than writing faults, and are recorded
+# here so nobody spends an afternoon rediscovering them:
+#   D07  "anything it does not say can be assigned to the inner teaching" — describes
+#        the unfalsifiability structure; asserts nothing about any source. A false hit.
+#   R06  "'Spontaneous symmetry breaking' does not occur in it" — a word-count search of
+#        a named document, evidenced by the neighbouring "occurs three times".
+#   C04  "absent from Skiba's teaching document" — names the text; the scope is the
+#        sentence, which is what the rule asks for, just not in words _SCOPE knows.
+#   C05  "the verses do not contain" — the verses are enumerated a paragraph earlier.
+# Chasing these to zero would mean tuning the regex until the number looks good, which
+# is the opposite of the point.
+#
+# RATCHET: this number goes down, never up.
 UNSCOPED_CEILING = 4
 check(f"unscoped absence-claims do not increase ({_unscoped}/{UNSCOPED_CEILING})",
       _unscoped <= UNSCOPED_CEILING, _unscoped)

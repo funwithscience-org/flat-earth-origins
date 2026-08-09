@@ -341,9 +341,9 @@ ENTRY = {
             "to.</p>"
             "<p><strong>The gap is the finding, and it runs the usual direction.</strong> A "
             "cluster whose best items are a careful objection to a circular proof arrives on "
-            "the list under a headline asserting a result nobody in its own lineage is on "
-            "record obtaining. What circulates is item 12. What was actually said is the "
-            "quotation above.</p>")),
+            "the list under a headline asserting a result that is not obtained anywhere in "
+            "the sequences the press transcriptions cover. What circulates is item 12. What "
+            "was actually said is the quotation above.</p>")),
 
     verdict_challenge=dict(challenged=False, proposed_verdict=None, reasoning=None),
 

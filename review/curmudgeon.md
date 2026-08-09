@@ -38,13 +38,43 @@ verbatim text and carry on with the review.
    claim, are author/year/publisher correct?
 8. **Write the review JSON** to `review/reviews/<TARGET-ID>.c<N>.json`.
 
+## Two sweeps in, here is what actually moves
+
+| | Sweep 1 (23 targets) | Sweep 8 (12 targets) |
+|---|---|---|
+| Raised | 214 (9.3/target) | 111 (9.25/target) |
+| Confirmed | 45 (1.96/target) | 15 (1.25/target) |
+| Confirmation rate | 21.0% | 13.5% |
+| **Hedge-rule failures** | **9 of 21** | **0 of 12** |
+| Criticals surviving at critical | 0 | 0 |
+
+Confirmed defects per target fell 36% while the raise rate stayed flat (9.3 → 9.25), so
+reviewers were looking just as hard and finding less that survived refutation. That is
+real improvement, not a quieter sweep.
+
+**The lesson is about which kind of rule works.** The hedge rule — written down,
+mechanically checkable, checked first — went from 9 failures to 0 and held under
+pressure. The absence-claim rule, which depends on the writer's judgement, failed in 4
+of 12 targets *while its test was green*, because the banned constructions had migrated
+into fields the test did not scan (`compression.note`, the cluster `note`) and into
+phrasings the regex did not match. The sweep's own verdict, worth keeping verbatim:
+**writers have learned the regex, not the rule.** Expect that of every prose lint. A
+green ratchet is evidence about the fields it reads, and nothing more.
+
+Also: 9 of the 15 confirmed were raised as `major` and downgraded to `moderate` on
+verification. The raise-then-verify loop is doing calibration work, not just filtering —
+do not read a raw `major` count as a severity estimate.
+
 ## The four recurring failures — check these FIRST
 
 From the first full sweep, 2026-08-09: 23 targets, 91 agents, 214 raised, 45 confirmed.
-Full report at `review/CURMUDGEON-SWEEP-2026-08-09.md`. **Not one verdict was
-challenged** — the analysis is sound. Every confirmed defect was in the layer *around*
-the arguments. Start there, because these four patterns predict where the 77 unaudited
-arguments are also wrong.
+Full report at `review/CURMUDGEON-SWEEP-2026-08-09.md`; batch 8 at
+`review/CURMUDGEON-SWEEP-BATCH8-2026-08-09.md`. **Across both sweeps not one verdict was
+overturned and no piece of physics or arithmetic was shown wrong** — the analysis is
+sound. Every confirmed defect was in the layer *around* the arguments: sourcing and
+attribution. On a project whose product *is* provenance, that is the worst available
+place for them. Start there, because these patterns predict where the 65 unwritten
+arguments will also break.
 
 **1. Absence asserted from a single passage.** The dominant failure — nine confirmed.
 We write "the source does not contain X" having read one section of one edition.
@@ -68,6 +98,25 @@ recommendation as published prose. A commit-message TODO is invisible to a reade
 **Findings about our own record are written in the past tense after the edit lands, or
 not at all.** If you catch this, it is at least `major`: the page is telling a reader
 something about itself that is no longer true.
+
+**5. `clusters.py` renders into the entry and contradicts it.** Added after batch 8,
+where it hit five of twelve targets: B06's `year`, A07's `note`, B08's `people[]`, R03's
+null `real_source`, D04's stale docstring. The mechanism is a process failure, not a
+writing one — the agent writing a treatment does not own `clusters.py`, so it reports the
+defect upward and the defect does not get applied. **That is the E01/E03 pattern —
+"recorded, NOT ACTUALLY APPLIED" — for at least the fourth time.** It is the highest-
+leverage thing on this list, because those fields render into the summary line next to
+the verdict chip, where they are read by people who never expand the entry.
+
+If you are the one applying: **anchor every `clusters.py` edit on the cluster key, never
+on the `originator=` line.** That line is byte-identical across B02, B06, B07 and D12,
+and a positional `replace(old, new, 1)` on it is exactly how the E01/E03 misfile was
+manufactured — ten rows published wrong, with no total moving, so nothing went red.
+
+**6. TLDRs written from memory of the argument.** Batch 8: A09, A07, R04, D04, C08. The
+TLDR is systematically *stronger* than the body it summarises — it asserts a match the
+body says cannot be established, or invents a specific ("the Pacific sea floor") that the
+cited source does not contain. Read the TLDR against the body last, as its own check.
 
 ## An empty review is a real result
 

@@ -432,13 +432,24 @@ CLUSTERS = {
     real_source=None, verdict="STANDARD PHYSICS",
     note="True, and the point: they were superseded *by measurement*, not by decree."),
 "D04": dict(lane="D", name="Axis mundi / world tree / omphalos symbolism",
-    originator="Mircea Eliade (misapplied)", originator_work="The Myth of the Eternal Return", year="1949",
+    # Corrected 2026-08-09, the C02 shape again: the FIELD was wrong, so no substituted name
+    # would have been right. `originator` is documented as "the person who introduced this
+    # argument into the flat-earth or geocentric canon". Eliade introduced nothing into that
+    # canon - he was a historian of religion REPORTING how myths structure sacred space, and
+    # says so: "the multiplicity, or even the infinity, of centers of the world raises no
+    # difficulty for religious thought" (The Sacred and the Profane, ch. 1). Naming him
+    # originator put a real scholar on the People tab as the author of a flat-earth argument.
+    # He belongs in `real_source` - the field for whose genuine work is being cited - and
+    # that is where he now is, alone.
+    originator=None, originator_work=None, year=None,
     real_source="Eliade 1949; Guénon, Le Roi du Monde 1927",
     verdict="UNFALSIFIABLE",
     note="Eliade described religious *symbolism*, not geography — and Jonathan Z. Smith showed even the universality claim is a scholarly construct built on a misread of Spencer and Gillen."),
 "D05": dict(lane="D", name="Mandala / still-centre symbolism",
-    originator="Mircea Eliade (misapplied)", originator_work="Patterns in Comparative Religion", year="1949",
-    real_source=None, verdict="UNFALSIFIABLE", note="Symbol resemblance is not measurement."),
+    # Same correction as D04, 2026-08-09.
+    originator=None, originator_work=None, year=None,
+    real_source="Mircea Eliade, Patterns in Comparative Religion (1949) - reported, not asserted",
+    verdict="UNFALSIFIABLE", note="Symbol resemblance is not measurement."),
 "D06": dict(lane="D", name="Hermetic 'as above, so below' / sacred geometry / microcosm",
     originator="William Walker Atkinson (as 'Three Initiates')", originator_work="The Kybalion", year="1908",
     real_source="Emerald Tablet, Arabic recensions c. 750–830 CE",

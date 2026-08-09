@@ -15,7 +15,7 @@ so 461 items feels like a fortress. A claim is not a witness — it has an autho
 authors can be counted. This review sorts one representative specimen (the 461-item list
 at `withthesun33.com/about-1`, retrieved 2026-08-02) by **where each claim came from**.
 
-Sorted that way it collapses to **98 distinct arguments** traceable to **20 named people**
+Sorted that way it collapses to **98 distinct arguments** traceable to **19 named people**
 in **two lineages that were never reconciled with each other** — plus a body of esoteric
 literature whose authors were not making claims about geography at all.
 
@@ -25,7 +25,7 @@ The page reviews published *claims*. It does not target any individual.
 |---|---|
 | Items in the specimen | 461 |
 | Distinct arguments | 98 (4.7× compression) |
-| Named originators | 20, covering 356 of 461 items |
+| Named originators | 19, covering 348 of 461 items |
 | Items that discriminate flat/stationary from the globe | **0** |
 
 Two people account for 43% of the list: **Samuel Rowbotham** (65 items, writing 1849–65)
@@ -104,9 +104,9 @@ Every verdict cites a public source or a reproducible calculation. Engage the st
 form of each argument. Unfalsifiable claims are named, not ridiculed. Duplicate items are
 grouped and scored once per distinct argument, so the "461" headline does not inflate the
 work. Provenance attributions trace to a specific publication with a date. Origin is recorded in
-**three states, not two**: traced to a named modern author (356 items); **older than the
+**three states, not two**: traced to a named modern author (348 items); **older than the
 movement** (16 items, 1 argument) where we found the origin and it predates everyone on the
-People tab; and **untraced rather than guessed** (89 items, 29 clusters) where we looked and
+People tab; and **untraced rather than guessed** (97 items, 31 clusters) where we looked and
 found nothing. The middle state exists because C02's attribution was corrected twice and then
 withdrawn — Carpenter was wrong, Skiba was wrong the other way, and Bellarmine deploys
 Ecclesiastes 1:5 against Copernicus in 1615. Nobody modern originated it, so nobody is
@@ -123,7 +123,7 @@ claim.** It cost three parallel research passes; do not re-derive it.
 
 ## Known limits
 
-- 89 of 461 items could not be traced to a named origin. That is a limit of this pass, not
+- 97 of 461 items could not be traced to a named origin. That is a limit of this pass, not
   evidence of originality — they are mostly one-line assertions with no cited source, which
   is *why* they are unattributable. One cluster has already moved out of this bucket on
   audit, so the figure should be read as an upper bound.

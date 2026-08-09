@@ -306,6 +306,17 @@ for _m in ("_b7_C04", "_b7_C05", "_b7_C07", "_b7_E03", "_b7_E13"):
         assert _k not in DEEP, f"batch7 collision: {_k}"
         DEEP[_k] = _v
 
+# ---- batch 8 (2026-08-09) -------------------------------------------
+# Twelve treatments written in parallel, one agent per argument, each owning its
+# own file — so unlike the sweep-application pass there is no collision surface.
+# Weighted at the thinnest lanes rather than by item count: D was 29% covered,
+# B 37%. C08 is the third audit of the 28 remaining untraced clusters.
+for _m in ("_b8_D08", "_b8_D11", "_b8_D04", "_b8_D02", "_b8_D13", "_b8_B08",
+           "_b8_B06", "_b8_A09", "_b8_A07", "_b8_R03", "_b8_R04", "_b8_C08"):
+    for _k, _v in __import__(_m).ENTRY.items():
+        assert _k not in DEEP, f"batch8 collision: {_k}"
+        DEEP[_k] = _v
+
 # ---- hedge rule: the audit pass -------------------------------------
 # Comparison of each list item against its source's own wording, run 2026-08-05.
 from _hedge_audit_batch_a import HEDGE_A

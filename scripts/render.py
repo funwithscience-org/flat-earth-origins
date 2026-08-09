@@ -203,6 +203,25 @@ def render_argument(a):
                     'strongly.</p></div>')
                  + '</details>')
 
+    # A reviewer who thinks our verdict is wrong says so in `verdict_challenge`, and
+    # until 2026-08-09 that field was asserted by the build and rendered nowhere — so the
+    # first challenge the project produced would have been invisible to every reader. On a
+    # page that publishes its own corrections, a recorded internal dissent that no reader
+    # can see is the same failure in a different coat.
+    _vc = d.get("verdict_challenge") or {}
+    if _vc.get("challenged"):
+        h.append(
+            '<details class="ds-win-section" style="border-left:3px solid var(--notdemo-solid)">'
+            '<summary class="ks-summary"><strong>Our own reviewer disputes this verdict</strong>'
+            '<p class="ks-tldr">The writer of this treatment thinks the verdict above is wrong. '
+            'It is recorded rather than quietly resolved.</p></summary>'
+            f'<div class="ks-detail"><p><strong>Proposed instead:</strong> '
+            f'{e(_vc["proposed_verdict"])}</p><p>{e(_vc["reasoning"])}</p>'
+            '<p style="font-family:var(--sans);font-size:.82rem;color:var(--ink-3)">'
+            'The verdict on the scorecard is unchanged until the question is settled. '
+            'Publishing the disagreement is the point: a rubric that never produces dissent '
+            'is not being applied.</p></div></details>')
+
     if d["straw_man"]["identified"]:
         h.append('<div class="tally" style="border-left-color:var(--misleading-solid)">'
                  f'<strong>Straw man identified.</strong> {e(d["straw_man"]["detail"])}</div>')

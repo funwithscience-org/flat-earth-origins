@@ -145,6 +145,22 @@
    "old_argument": "Forty confirmed defects stood in published text after Tier 0 was cleared: a work/quote mismatch on A03, a fabricated quantitative attribution to a named living scholar on A05, an uncited ITU paraphrase on B05, an unlocatable Chrysostom quotation on C07, a Foucault factor-of-two in A10 and A22, TLDRs contradicting their own bodies on A22/A02/E13/D06, and volume mislabels propagating from a single bad work record.",
    "new_argument": "61 edits applied, none skipped. Highlights: A03's passage block now cites the work the quote actually came from (Sungenis & Bennett, not van der Kamp, whose book our own gloss already named); A05's 'as wide as Saturn's orbit' is gone - Saturn appears nowhere in Graney's paper - replaced with the orbit of the Earth; the Foucault pendulum precession is now Omega*sin(phi) and distinguished from the Coriolis parameter 2*Omega*sin(phi); R06 scopes its unlocatable-titles count to 'the volume we were able to search' and states the corrected volume identity in the past tense.",
    "reason": "Applied by file, never by argument, with one agent owning each file exclusively - deep_batch2.py alone holds A22, C02 and R08, and concurrent edits to one file is how the E01/E03 misfile was manufactured. Two independent agents in different files derived Rowbotham's refraction error as a factor of SEVEN and both rejected the sweep's own recommendation of five; that agreement, reached separately, is better evidence than either alone. Unscoped absence-claims fell from 11 to 4 and the test ceiling was ratcheted down to match."
+  },
+  {
+   "at": "2026-08-09",
+   "found_by": "agent writing ARG-D04, batch 8",
+   "where": "scripts/clusters.py ARG-D04 and ARG-D05 - originator",
+   "old_argument": "Both credited originator='Mircea Eliade (misapplied)'. The field is documented as 'the person who introduced this argument into the flat-earth or geocentric canon', so this printed a real historian of religion on the People tab as the author of a flat-earth argument.",
+   "new_argument": "Withdrawn. Eliade introduced nothing into that canon - he was reporting how myths structure sacred space, and states the governing rule himself: 'the multiplicity, or even the infinity, of centers of the world raises no difficulty for religious thought' (The Sacred and the Profane, ch. 1). originator=None; Eliade moved to real_source, the field for whose genuine work is being cited. Named originators 20 to 19, traced items 356 to 348.",
+   "reason": "The C02 shape a second time: the FIELD was wrong, so any substituted name would also have been wrong. The parenthetical '(misapplied)' shows we knew, and shipped it anyway - a caveat inside a field whose whole meaning contradicts the caveat. Also reported and NOT fixed: no PER-* id exists for Rene Guenon, who is half of D04's real_source line and carries the strongest form of the argument."
+  },
+  {
+   "at": "2026-08-09",
+   "found_by": "integration check after batch 8",
+   "where": "tests/test_provenance.py - page/dataset consistency needles",
+   "old_argument": "The check labelled 'headline 20 authors' asserted the literal string '>20<' and kept passing after the author count became 19.",
+   "new_argument": "It was matching a table cell containing an ITEM count of 20, not the author count. Replaced with needles that assert a number together with the words giving it meaning, derived from the corpus rather than typed: f'{S[\"named_originators\"]} named', f'{S[\"total_items\"]} items', and so on.",
+   "reason": "Sixth test in this suite retargeted for pinning a string that meant something else. A test that passes for the wrong reason is worse than no test, because it certifies the thing it is not checking. The rule is now recorded inline: assert the number WITH its words, and derive it."
   }
  ]
 }

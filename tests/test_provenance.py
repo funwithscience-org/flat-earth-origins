@@ -72,7 +72,12 @@ check("distinct arguments == 98", n_clusters == 98, n_clusters)
 check("summary agrees with recomputed cluster count",
       S["distinct_arguments"] == n_clusters)
 named = {k["originator"] for k in CLUSTERS.values() if k["originator"]}
-check("named originators == 20", len(named) == 20, sorted(named))
+# 20 -> 19 on 2026-08-09: "Mircea Eliade (misapplied)" was withdrawn from D04/D05. He
+# introduced nothing into the flat-earth canon - he reported how myths structure sacred
+# space and said the multiplicity of centres raises no difficulty - so naming him an
+# ORIGINATOR put a real scholar on the People tab as author of a flat-earth argument.
+# He is in `real_source` now, which is the field for whose genuine work is being cited.
+check("named originators == 19", len(named) == 19, sorted(named))
 traced = sum(1 for r in ROWS if r["originator"])
 # 366 -> 372 on 2026-08-08: ARG-E13 was recorded as untraced and the audit found an
 # originator (Sungenis & Bennett), moving its 6 items into the traced column.
@@ -80,12 +85,12 @@ traced = sum(1 for r in ROWS if r["originator"])
 # proof-texts have no modern originator - Bellarmine deploys Ecclesiastes 1:5 in 1615 -
 # so its 16 items moved OUT of traced into the new pre-modern bucket. They did NOT
 # become untraced, which stays at 89. Three buckets now, and they must sum to 461.
-check("traced items == 356", traced == 356, traced)
+check("traced items == 348", traced == 348, traced)   # -8, D04+D05, per above
 check("the three origin buckets account for every item",
       traced + S["pre_modern_items"]
       + (S["total_items"] - traced - S["pre_modern_items"]) == S["total_items"])
-check("untraced did not absorb the pre-modern cluster (still 89)",
-      S["total_items"] - traced - S["pre_modern_items"] == 89,
+check("untraced accounts for the rest (97)",
+      S["total_items"] - traced - S["pre_modern_items"] == 97,
       S["total_items"] - traced - S["pre_modern_items"])
 check("summary traced count agrees",
       S["items_traceable_to_a_named_originator"] == traced)
@@ -117,11 +122,17 @@ check("exact duplicate pairs == 3", S["exact_duplicate_pairs"] == 3)
 
 print("\n[4] page/dataset consistency")
 # every figure asserted above must actually appear in the rendered page
+# Bare-number needles are a trap. ">20<" passed for two days after the author count
+# became 19, because it matched a table cell holding an ITEM count of 20. Six tests in
+# this suite have now been retargeted for pinning a string that meant something else.
+# RULE: assert a number together with the words that give it its meaning, and derive
+# the number from the corpus rather than typing it.
 for label, needle in [
-    ("headline 461", "461"),
-    ("headline 98 arguments", ">98<"),
-    ("headline 20 authors", ">20<"),
-    ("traced 356", "356 of the 461"),
+    ("headline 461", f'{S["total_items"]} items'),
+    ("headline 98 arguments", f'{S["distinct_arguments"]}</strong>'),
+    ("author count in context", f'{S["named_originators"]} named'),
+    ("traced in context", f'{S["items_traceable_to_a_named_originator"]} of them trace'),
+    ("traced 348", "348 of the 461"),
     ("compression 4.7x", "4.7&times;"),
     ("family A total 182", "<strong>182</strong>"),
     ("family B total 54", "<strong>54</strong>"),

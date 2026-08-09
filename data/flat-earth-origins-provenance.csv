@@ -158,7 +158,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 157,Isaiah 38 sundial reversal.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,,,,,UNFALSIFIABLE
 158,Revelation 6:13 stars fall.,C,C,ARG-C04,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
 159,Microcosm–macrocosm correspondence.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
-160,Axis mundi doctrine.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
+160,Axis mundi doctrine.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,,,,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
 161,Hermetic as above so below.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
 162,Sacred geometry centered on observer.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
 163,Temple cosmology orientation.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
@@ -171,9 +171,9 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 170,Rosicrucian dome symbolism.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
 171,Solar Christ circling soul.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
 172,Egyptian Nut and Geb model.,D,D,ARG-D16,D16,World mythologies depict a circling sun or a covering sky,,,,,UNFALSIFIABLE
-173,Hindu Mount Meru axis.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
-174,Norse Yggdrasil.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
-175,Tibetan mandalas still center.,D,D,ARG-D05,D05,Mandala / still-centre symbolism,Mircea Eliade (misapplied),Patterns in Comparative Religion,1949,,UNFALSIFIABLE
+173,Hindu Mount Meru axis.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,,,,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
+174,Norse Yggdrasil.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,,,,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
+175,Tibetan mandalas still center.,D,D,ARG-D05,D05,Mandala / still-centre symbolism,,,,"Mircea Eliade, Patterns in Comparative Religion (1949) - reported, not asserted",UNFALSIFIABLE
 176,Platonic solid cosmos.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
 177,Heaven within mirrors geometry.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
 178,Fixed versus volatile elements.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
@@ -449,11 +449,11 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 448,Church art: mandorla over Earth-centered cosmos.,C,C,ARG-C09,C09,Church art and iconography as cosmology,,,,,UNFALSIFIABLE
 449,"Biblical metaphors of “pillars,” “foundations,” “footstool.”",C,C,ARG-C03,C03,Proof-texts on foundations and pillars,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
 450,Prophetic visions framed from an Earth-fixed vantage.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,,,,,UNFALSIFIABLE
-451,"Axis mundi symbols (world tree, mountain) worldwide.",D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
+451,"Axis mundi symbols (world tree, mountain) worldwide.",D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,,,,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
 452,Djed pillar / Jachin & Boaz under starry vaults.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
-453,Omphalos stones marking the world's navel/center.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
-454,Jerusalem/Delphi as “navel of the world” motifs.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,Mircea Eliade (misapplied),The Myth of the Eternal Return,1949,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
-455,"Mandalas with still center, rotating periphery.",D,D,ARG-D05,D05,Mandala / still-centre symbolism,Mircea Eliade (misapplied),Patterns in Comparative Religion,1949,,UNFALSIFIABLE
+453,Omphalos stones marking the world's navel/center.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,,,,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
+454,Jerusalem/Delphi as “navel of the world” motifs.,D,D,ARG-D04,D04,Axis mundi / world tree / omphalos symbolism,,,,"Eliade 1949; Guénon, Le Roi du Monde 1927",UNFALSIFIABLE
+455,"Mandalas with still center, rotating periphery.",D,D,ARG-D05,D05,Mandala / still-centre symbolism,,,,"Mircea Eliade, Patterns in Comparative Religion (1949) - reported, not asserted",UNFALSIFIABLE
 456,Dendera zodiac as dome above Earth.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
 457,Mithraic iconography mapping stellar rotation.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE
 458,Rosicrucian temple diagrams: cosmos around sanctum.,D,D,ARG-D07,D07,Kabbalistic / alchemical / Gnostic / Rosicrucian / Masonic iconography,Manly P. Hall; Helena Blavatsky,The Secret Teachings of All Ages (1928); Isis Unveiled (1877),1928,,UNFALSIFIABLE

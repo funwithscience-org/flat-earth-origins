@@ -11,7 +11,7 @@ cadastral survey, mine orientation.
 Findings a future session should not have to re-derive.
 
 1. THE PASSAGE IS NOT FROM 1849, AND THE TEXT DATES ITSELF. The cluster's
-   originator_work/year is "Zetetic Astronomy", 1849 — the 16-page pamphlet.
+   originator_work/year read "Zetetic Astronomy", 1849 — the 16-page pamphlet.
    The surveying argument turns on a quoted Standing Order of the Houses of
    Lords and Commons on Railway Operations which the 1881 third edition dates
    to "the Session of 1862". A text quoting an 1862 Standing Order cannot be in
@@ -19,8 +19,9 @@ Findings a future session should not have to re-derive.
    edition, pp. 54-56 (Project Gutenberg #69892, verified on two independent
    mirrors), i.e. WRK-ROWBOTHAM-1865, whose own imprint field covers the 1881
    3rd ed. as well. passage.work is set to WRK-ROWBOTHAM-1865 here.
-   >>> clusters.py ARG-B06 originator_work/year need the same correction.
-   NOT MADE BY THIS AGENT — file not owned. Reported to the parent.
+   >>> clusters.py ARG-B06 needed the same correction; it was reported by this
+   agent (file not owned) and applied on 2026-08-09, in the house title form for
+   this work: originator_work "Earth Not a Globe", year "1865".
 
 2. THE BASIS LINE'S MECHANISM IS UNCONFIRMED. Our published basis says
    Rowbotham's "8 inches per mile squared" is "lifted from a surveying text".
@@ -72,9 +73,12 @@ Findings a future session should not have to re-derive.
    ("Surveying plane assumption.") matches the passage. Item 47 ("Surveying
    assumes stationary ground.") is a claim about MOTION, not shape. Items 382,
    383, 395 use vocabulary (equipotential, hydrology, mining) we did not locate
-   in the passages searched. 383 duplicates B01's item 384, whose documented
-   ancestor is Carpenter 1885 proof 4, not Rowbotham. This is the R06 pattern:
-   cluster-level attribution applied item by item without checking.
+   in the passages searched. 383 ("Hydrology planar.") we read as the
+   river-gradient claim of B01's item 384 ("River grades."), which is an
+   inference from two words rather than anything the item says; on that reading
+   the earliest text B01 could document for it is Carpenter 1885 proof 4, not
+   Rowbotham. This is the R06 pattern: cluster-level attribution applied item by
+   item without checking.
 
 COULD NOT REACH: any copy or transcription of the 1849 pamphlet (B01 recorded
 the same, 2026-08-07); the Encyclopaedia Britannica article "Levelling" in any
@@ -166,7 +170,7 @@ ENTRY = {
 
 <p><strong>7. Item 47, which is a different claim and answers itself underground.</strong> &ldquo;Surveying assumes stationary ground&rdquo; is about motion, not shape, and we did not locate any argument of that kind in the passages searched. Answered on its merits: the standard instrument for orienting a survey where the sky is not visible is the <strong>gyrotheodolite</strong>, and what it senses is the earth's rotation. A wheel spun at 20,000&nbsp;rpm and released near the meridian precesses into alignment with it, because &ldquo;<em>the gyroscopic reaction of spin and Earth's rotation results in precession of the spin axis in the direction of alignment with the plane of the meridian</em>&rdquo;. It is &ldquo;<em>the main instrument for orientation in mine surveying and in tunnel engineering</em>&rdquo;; it steered the Channel Tunnel; it gives the meridian to about 10 arcseconds; and it stops working within roughly 15&deg; of the pole, &ldquo;<em>where the angle between the earth's rotation and the direction of gravity is too small for it to work reliably</em>&rdquo;. That latitude dependence is a rotating sphere's signature, and it is the reason mine surveyors buy a different instrument at high latitudes. Above ground the same point is made by the geodetic datums themselves, which no longer pretend the ground is fixed: modern reference frames carry station velocities and epoch-dependent coordinates precisely because the crust moves.</p>
 
-<p><strong>8. Item 395, mine surveys, and item 383.</strong> Mine surveying is where the argument is weakest rather than strongest: an underground survey is tied to the surface network through the shaft, oriented by an instrument that works only because the earth turns, and computed on the same national grid as everything above it. It is also, historically, where the mass of the earth was weighed &mdash; Airy's 1854 pendulum experiment in the Harton Colliery was published as an <em>Account of pendulum experiments undertaken in the Harton Colliery, for the purpose of determining the mean density of the Earth</em>, and &ldquo;mean specific gravity of the Earth&rdquo; is on the title page of the Ordnance Survey's triangulation report for the same reason. Item 383, &ldquo;Hydrology planar&rdquo;, restates the river-gradient claim whose documented ancestor <a href="#ARG-B01">ARG-B01</a> traced to Carpenter's 1885 proof 4 rather than to Rowbotham. The engineering form of the no-allowance argument &mdash; canals, rail, pipelines, bridges &mdash; is <a href="#ARG-B05">ARG-B05</a>'s and is not re-argued here.</p>
+<p><strong>8. Item 395, mine surveys, and item 383.</strong> Mine surveying is where the argument is weakest rather than strongest: an underground survey is tied to the surface network through the shaft, oriented by an instrument that works only because the earth turns, and computed on the same national grid as everything above it. It is also, historically, where the mass of the earth was weighed &mdash; Airy's 1854 pendulum experiment in the Harton Colliery was published as an <em>Account of pendulum experiments undertaken in the Harton Colliery, for the purpose of determining the mean density of the Earth</em>, and &ldquo;mean specific gravity of the Earth&rdquo; is on the title page of the Ordnance Survey's triangulation report for the same reason. Item 383 is two words, &ldquo;Hydrology planar&rdquo;, and we read it as the river-gradient claim &mdash; an inference from those two words rather than anything the item states. On that reading the earliest text <a href="#ARG-B01">ARG-B01</a> could document for it is Carpenter's 1885 proof 4 rather than anything of Rowbotham's. The engineering form of the no-allowance argument &mdash; canals, rail, pipelines, bridges &mdash; is <a href="#ARG-B05">ARG-B05</a>'s and is not re-argued here.</p>
 
 <p><strong>Verdict: self-contradicted, and by a witness of his own choosing.</strong> The argument's evidence is (i) an encyclopaedia article on levelling, whose subject is the difference between the true and the apparent level and which states that refraction offsets about one-seventh of the curvature of the earth; (ii) a Standing Order requiring a datum line referred to a fixed benchmark, on a network whose zero was a tide gauge; and (iii) the Ordnance Survey, whose principal publication of the period derived the figure and dimensions of the earth from the survey in question. All three were in the book. Two of them he printed himself.</p>""",
 
@@ -248,9 +252,11 @@ ENTRY = {
               "1881 3rd ed., ch. II Experiments 13&ndash;14 via the Internet Sacred Text Archive), and "
               "we did not run a full-text search of either edition for it. Items 382, 383 and 395 "
               "introduce vocabulary &mdash; equipotential surfaces, hydrology, mine surveying &mdash; "
-              "for which we located no ancestor in those same passages; item 383 restates the "
-              "river-gradient claim that <a href=\"#ARG-B01\">ARG-B01</a> traced to Carpenter's 1885 "
-              "proof 4 rather than to Rowbotham. Unreachable is not absent, and this is a statement "
+              "for which we located no ancestor in those same passages; item 383, &ldquo;Hydrology "
+              "planar&rdquo;, we read as the river-gradient claim, which is an inference from two "
+              "words rather than anything the item states, and on that reading the earliest text "
+              "<a href=\"#ARG-B01\">ARG-B01</a> could document for it is Carpenter's 1885 proof 4 "
+              "rather than anything of Rowbotham's. Unreachable is not absent, and this is a statement "
               "about the passages we read, not about the corpus.</p>"
               "<p>That pattern &mdash; one cluster attribution applied to every item in the cluster &mdash; "
               "is the same failure recorded against ARG-R06 in the corrections log, and the same "

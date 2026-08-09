@@ -211,13 +211,29 @@ if [ "$ARCHIVE_ONLY" = "0" ]; then
 
   # Secret scan. This repo is PUBLIC and has leaked a token once already
   # (2026-08-02, via a transcript). The cost of this check is a second.
-  LEAK="$(git -C "$CLONE" diff HEAD incoming -- . \
-          | grep -nE "$SECRET_PATTERN" \
-          | head -5 || true)"
+  #
+  # SCANNED PER COMMIT, NOT JUST ENDPOINT-TO-ENDPOINT — and that distinction is not
+  # theoretical. On 2026-08-09 this gate refused a push over a credential-shaped string
+  # in .ops/selftest.sh; the fix removed it in a LATER commit, and the retry passed
+  # because the endpoint diff netted to zero. It netted to zero while the string sat
+  # permanently in the pushed history at 8c1b806, where anyone who clones can read it.
+  # An endpoint diff answers "what changed overall", which is the wrong question: git
+  # keeps every intermediate commit forever, so a secret introduced and removed inside
+  # one push is still published. That one was a synthetic fixture and harmless. A real
+  # token would have sailed through on identical logic.
+  LEAK=""
+  for _c in $(git -C "$CLONE" rev-list HEAD..incoming); do
+    _hit="$(git -C "$CLONE" show --format=%H "$_c" -- . \
+            | grep -nE "$SECRET_PATTERN" | head -3 || true)"
+    if [ -n "$_hit" ]; then
+      LEAK="$LEAK commit $(git -C "$CLONE" log -1 --format=%h "$_c");"
+    fi
+  done
   if [ -n "$LEAK" ]; then
-    abort "secret-in-diff" "The incoming diff contains something shaped like a credential. NOT pushing. First match(es) redacted to line numbers: $(printf '%s' "$LEAK" | cut -c1-40)"
+    abort "secret-in-diff" \
+      "A credential-shaped string appears in the CONTENT of one or more incoming commits:$LEAK NOT pushing. Removing it in a later commit does NOT fix this — git keeps the earlier commit forever and the repo is public. Rewrite the history so the string was never introduced, or build it at runtime (see FAKE_PAT in .ops/selftest.sh)."
   fi
-  ok "no credential-shaped strings in the diff"
+  ok "no credential-shaped strings in any incoming commit"
 
   # -------------------------------------------------------------------------
   stage "5  fast-forward"

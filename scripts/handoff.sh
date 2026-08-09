@@ -49,8 +49,16 @@ if [ "$REMOTE_SHA" = "$LOCAL" ]; then
     exit 0
 fi
 
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+[ "$BRANCH" = "main" ] || { echo "refusing to bundle from branch '$BRANCH', expected main" >&2; exit 1; }
+
 if [ -n "$REMOTE_SHA" ] && git cat-file -e "$REMOTE_SHA^{commit}" 2>/dev/null; then
-    git bundle create "$OUT/feo-unpushed.bundle" "$REMOTE_SHA..HEAD" >/dev/null 2>&1
+    # Bundle the BRANCH, not HEAD. `$REMOTE_SHA..HEAD` packages a ref literally
+    # named "HEAD", so the documented `git fetch <bundle> main:incoming` fails with
+    # "couldn't find remote ref main" — which is exactly what happened on 2026-08-08
+    # and cost a round-trip. Naming the range against `main` puts refs/heads/main in
+    # the bundle, so the instructions below are the instructions that work.
+    git bundle create "$OUT/feo-unpushed.bundle" "$REMOTE_SHA..main" >/dev/null 2>&1
     BASE="$REMOTE_SHA"
 else
     # GitHub has a commit we do not, or is unreachable. An incremental bundle
@@ -62,7 +70,16 @@ fi
 git bundle create "$OUT/feo-full.bundle" --all >/dev/null 2>&1
 
 # Verify before shipping. An unverified bundle is worse than no bundle.
+# NB: `git bundle verify` must be run from inside a repo — running it from $HOME
+# gives "need a repository to verify a bundle", which reads like a corrupt bundle
+# and is not. Say so in HANDOFF.md too; the operator hit it.
 git bundle verify "$OUT/feo-full.bundle" >/dev/null 2>&1 || { echo "FULL BUNDLE FAILED VERIFY" >&2; exit 1; }
+# The incremental is the one the operator actually uses. Check the ref name is the
+# one the instructions tell them to fetch, so a rename here fails here.
+if [ -f "$OUT/feo-unpushed.bundle" ]; then
+    git bundle list-heads "$OUT/feo-unpushed.bundle" | grep -q 'refs/heads/main$' \
+        || { echo "INCREMENTAL BUNDLE HAS NO refs/heads/main" >&2; exit 1; }
+fi
 
 COMMITS=$(if [ -n "$BASE" ]; then git log --oneline "$BASE..HEAD"; else git log --oneline -20; fi)
 
@@ -92,6 +109,16 @@ Existing clone:
 
 \`--ff-only\` is deliberate: if it refuses, something diverged and you want to
 know rather than have git merge it quietly.
+
+Run these from **inside the clone**, not from your home directory. \`git bundle\`
+needs a repository for context; from \`~\` it says *"need a repository to verify a
+bundle"*, which looks like a corrupt file and is not one.
+
+If git asks for a password, note that GitHub has not accepted account passwords
+over HTTPS since 2021 — paste the PAT into the password field. And if you export
+the token to use the URL form, \`export GH_PAT=...\` it: a plain \`read -s GH_PAT\`
+creates a shell variable the credential helper subprocess cannot see, so git
+sends an empty password and GitHub answers *"Invalid username or token"*.
 
 No clone:
 

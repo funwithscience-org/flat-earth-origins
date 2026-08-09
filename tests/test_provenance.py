@@ -433,6 +433,75 @@ if "ARG-A03" in _assessed:
     check("A03 is recorded as a category shift, not a simple exaggeration",
           _assessed["ARG-A03"]["drift_type"] == "category_shifted")
 
+# ---------------------------------------------------------------------
+section = lambda t: print(f"\n{t}")
+section("[7] guards from the curmudgeon sweep, 2026-08-09")
+# The sweep found 45 confirmed defects and four SYSTEMIC patterns. Prose about a
+# pattern rots; these are the patterns as executable checks. See
+# review/CURMUDGEON-SWEEP-2026-08-09.md.
+
+# --- Pattern: an edit lands on the wrong record ----------------------
+# The E03 correction was applied to E01 because the two carried a byte-identical
+# originator/work/year line and the edit replaced the first match. No total moved,
+# so nothing went red. Pin the specific records that collided.
+check("E01 keeps its own work record (the E03 edit landed here once)",
+      ARGS["ARG-E01"]["originator_work"] == "The Principle (film)"
+      and ARGS["ARG-E01"]["originator_year"] == "2014")
+check("E03 carries the correction that was written for it",
+      ARGS["ARG-E03"]["originator_year"] == "2013"
+      and "Galileo Was Wrong" in ARGS["ARG-E03"]["originator_work"])
+
+# --- Pattern: a corrected originator string with no PER-* mapping -----
+# D07's originator was flipped Hall-first and ORIGINATOR_PID was not updated, so
+# originator_id silently became None: the card printed "no named originator" above a
+# TLDR naming Blavatsky, and the lineage totals were out by D07's twelve items.
+_unmapped = [a["id"] for a in ARGS.values() if a["originator"] and not a["originator_id"]]
+check("every named originator resolves to a person", not _unmapped, _unmapped)
+
+# --- Pattern: a withdrawn claim still asserted somewhere --------------
+# A retraction is worthless while the retracted sentence is still rendered. Each
+# entry: the phrase, and how many times it may legitimately appear (the Method tab
+# and corrections log QUOTE these in order to withdraw them - those must survive).
+WITHDRAWN = [
+    ("naming himself after the measurement", 0),   # PER-ROWBOTHAM formation
+    ("pseudonym from the thing he denied", 1),     # Method tab owns up to it
+    ("atmosphere can&rsquo;t co-rotate", 1),       # ditto
+]
+for _phrase, _allowed in WITHDRAWN:
+    _n = PAGE.count(_phrase)
+    check(f"withdrawn claim not re-asserted: {_phrase[:38]!r} ({_n}/{_allowed})",
+          _n <= _allowed, _n)
+
+# --- Pattern: absence asserted from a single passage ------------------
+# Nine confirmed findings collapse into one rule: never write "the source does not
+# contain X"; write "X is not located in [the text actually searched]". This is a
+# RATCHET, not an allowlist - the current count is debt recorded in the sweep report,
+# and it may fall but never rise.
+_ABSENCE = [r"\bdoes not (?:contain|mention|cite|occur|appear|use|say)\b",
+            r"\bdo not (?:contain|mention|cite|occur|appear)\b",
+            r"\bnever (?:mentions|cites|uses|wrote|says|appears)\b",
+            r"\bnowhere (?:in|does|appears)\b", r"\bcontains none of\b", r"\bis absent from\b"]
+_SCOPE = re.compile(r"not located|text searched|full text|as quoted|scanned|the \d{4}|ed\.|"
+                    r"edition|Vol\.|volume|ch\.|chapter|p{1,2}\.\s?\d|pamphlet|the PDF|"
+                    r"we could read|searched", re.I)
+_unscoped = 0
+for _a in ARGS.values():
+    _d = _a.get("deep")
+    if not _d:
+        continue
+    _blocks = [_d.get("tldr") or "", _d.get("refutation") or "", _d.get("untraceable") or "",
+               (_d.get("passage") or {}).get("gloss") or ""]
+    for _t in _blocks:
+        if not isinstance(_t, str):
+            continue
+        for _p in _ABSENCE:
+            for _m in re.finditer(_p, _t, re.I):
+                if not _SCOPE.search(_t[max(0, _m.start() - 160):_m.end() + 160]):
+                    _unscoped += 1
+UNSCOPED_CEILING = 11
+check(f"unscoped absence-claims do not increase ({_unscoped}/{UNSCOPED_CEILING})",
+      _unscoped <= UNSCOPED_CEILING, _unscoped)
+
 print()
 if FAILURES:
     print(f"FAILED: {len(FAILURES)} check(s)\n  - " + "\n  - ".join(FAILURES))

@@ -63,6 +63,25 @@ running consistently towards more certainty than the author was willing to state
   category_shifted    source makes a historical or philosophical claim; the list makes a physical one
   unsourced_addition  the list attributes to the source something the source does not contain
 
+TWO WRITING RULES, from the 2026-08-09 curmudgeon sweep
+-------------------------------------------------------
+Both are enforced by tests. See `review/CURMUDGEON-SWEEP-2026-08-09.md`.
+
+**Never assert that a source does not contain something.** Nine confirmed defects
+collapse into this one rule. We read one section of one edition and then write
+"the source does not cite GPS" or "contains none of these topics" — claims about
+an entire corpus, made from a sample. Write instead: *"X is not located in [the
+specific text searched]"*, and name the edition, volume and route. If you could
+not reach the text, say that; unreachable is not absent. A ratcheting test counts
+unscoped absence-claims and they may fall but never rise.
+
+**Write about our own errors in the past tense, after the fix lands.** The other
+recurring failure is a treatment that diagnoses a defect in our records, writes an
+accurate paragraph *recommending* the repair, and ships the recommendation as
+published prose — so the page tells the reader something about itself that stopped
+being true. Either apply the fix and describe it as done, or leave it out of the
+prose and put it in `review/corrections.json`. Never publish a to-do as a finding.
+
 `assessed` has THREE states, not two:
   False         nobody has compared the item text to the original yet. NOT a claim
                 that the phrasing is faithful. Published as a coverage gap.

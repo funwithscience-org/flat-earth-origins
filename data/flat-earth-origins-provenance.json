@@ -4,15 +4,15 @@
     "items_by_lineage": {
       "Tychonian (geocentric) lineage": 164,
       "Zetetic (flat-earth) lineage": 149,
-      "(no named originator)": 101,
-      "Esoteric / Traditionalist literature": 27,
+      "(no named originator)": 89,
+      "Esoteric / Traditionalist literature": 39,
       "Pre-modern astronomy": 20
     },
     "clusters_by_lineage": {
       "Tychonian (geocentric) lineage": 33,
       "Zetetic (flat-earth) lineage": 30,
-      "(no named originator)": 30,
-      "Esoteric / Traditionalist literature": 4,
+      "(no named originator)": 29,
+      "Esoteric / Traditionalist literature": 5,
       "Pre-modern astronomy": 1
     },
     "total_items": 461,
@@ -27,7 +27,7 @@
     "hedge_checked": 20,
     "hedge_drifted": 18,
     "hedge_no_source": 1,
-    "corrections_logged": 14,
+    "corrections_logged": 16,
     "arguments_with_a_correction": 12,
     "bios_worked": 2,
     "items_by_family": {
@@ -297,7 +297,7 @@
         "WRK-ROWBOTHAM-1865"
       ],
       "bio_status": "worked",
-      "formation": "Rowbotham began at Manea Fen, a short-lived Owenite socialist commune in the Cambridgeshire Fens, in the late 1830s. The setting matters more than it looks: the Old Bedford Canal runs arrow-straight for six miles there, and it was the one piece of apparatus he had. His method came out of the same milieu — a self-taught radical's distrust of credentialed authority, formalised as the <em>zetetic</em> method: from Greek <em>zeteo</em>, to search. In his own words, it proceeds “only by inquiry; to take nothing for granted” and stands “in contradistinction from the word ‘theoretic,’ the meaning of which is, speculative—imaginary—not tangible.” That sentence is the load-bearing move of the entire tradition, and everything downstream inherits it: observation is real, theory is imaginary. He took the pseudonym “Parallax” — naming himself after the measurement he spent his life denying.",
+      "formation": "Rowbotham began at Manea Fen, a short-lived Owenite socialist commune in the Cambridgeshire Fens, in the late 1830s. The setting matters more than it looks: the Old Bedford Canal runs arrow-straight for six miles there, and it was the one piece of apparatus he had. His method came out of the same milieu — a self-taught radical's distrust of credentialed authority, formalised as the <em>zetetic</em> method: from Greek <em>zeteo</em>, to search. In his own words, it proceeds “only by inquiry; to take nothing for granted” and stands “in contradistinction from the word ‘theoretic,’ the meaning of which is, speculative—imaginary—not tangible.” That sentence is the load-bearing move of the entire tradition, and everything downstream inherits it: observation is real, theory is imaginary. He wrote as “Parallax” from the end of 1849 — in the ordinary optical sense of an apparent shift with viewpoint, which is the engine of his own perspective theory. (An earlier version of this page said he named himself after the measurement he spent his life denying. That was false and was withdrawn on 2026-08-07: he adopted the name 32 years before he wrote about stellar parallax, and he relied on the phenomenon rather than denying it.)",
       "had": "More than he is usually credited with. The “8 inches per mile, multiplied by the square of the distance” figure is not invented — he lifted it from the <em>Encyclopaedia Britannica</em> article on Levelling, and it is genuine surveying arithmetic for the difference between true and apparent level. He read the astronomy of his day and engaged its numbers. His observations at the canal were real observations, repeated over years, and he reported what he actually saw.",
       "ignored": "Two things, and the second is the fatal one. First, atmospheric refraction over water — described in the surveying literature he was quoting <em>from</em>, and the reason a near-water sightline over a canal is the single worst configuration in which to test for curvature. Second, and unanswerable: the southern sky. Circumpolar star trails rotating about a <em>southern</em> pole had been logged by European navigators for three centuries and were in every nautical almanac he could have opened. No single-plane model produces two opposite centres of rotation. He did not engage it.",
       "kernel": {
@@ -796,10 +796,11 @@
       "kernel": null,
       "id": "PER-HALL",
       "arguments": [
+        "ARG-D07",
         "ARG-D08"
       ],
-      "argument_count": 1,
-      "item_count": 7
+      "argument_count": 2,
+      "item_count": 19
     },
     "PER-ATKINSON": {
       "name": "William Walker Atkinson",
@@ -4279,7 +4280,7 @@
       "verdict": "UNFALSIFIABLE",
       "basis": "Esoteric interpretive literature. Where these traditions do carry cosmology it is the geocentric nested spheres of their own century — which contain a spherical Earth. Hall captions the Rosicrucian plate a “Ptolemaic chart”.",
       "originator": "Manly P. Hall; Helena Blavatsky",
-      "originator_id": null,
+      "originator_id": "PER-HALL",
       "originator_work": "The Secret Teachings of All Ages (1928); Isis Unveiled (1877)",
       "originator_year": "1928",
       "real_source_cited": null,

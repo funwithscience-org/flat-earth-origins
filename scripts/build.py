@@ -37,6 +37,11 @@ ORIGINATOR_PID = {
     "Robert Sungenis & Robert Bennett": "PER-SUNGENIS",
     "Robert Sungenis & Rick DeLano": "PER-SUNGENIS", "Marshall Hall": "PER-MARSHALLHALL",
     "Helena Blavatsky; Manly P. Hall": "PER-BLAVATSKY", "Manly P. Hall": "PER-HALL",
+    # Added 2026-08-09. D07's originator was flipped to Hall-first in batch 6 and the map
+    # was not updated, so originator_id resolved to None: the card rendered "no named
+    # originator" directly above a TLDR naming Blavatsky, and the lineage totals were out
+    # by exactly D07's twelve items. A test now asserts every originator string is a key here.
+    "Manly P. Hall; Helena Blavatsky": "PER-HALL",
     "William Walker Atkinson (as 'Three Initiates')": "PER-ATKINSON",
     "Mircea Eliade (misapplied)": "PER-ELIADE",
     "Claudius Ptolemy (via the modern movement)": "PER-PTOLEMY",

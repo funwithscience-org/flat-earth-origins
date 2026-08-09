@@ -50,8 +50,12 @@ PEOPLE = {
         "“in contradistinction from the word ‘theoretic,’ the meaning of which is, "
         "speculative—imaginary—not tangible.” That sentence is the load-bearing move of "
         "the entire tradition, and everything downstream inherits it: observation is real, "
-        "theory is imaginary. He took the pseudonym “Parallax” — naming himself after the "
-        "measurement he spent his life denying."),
+        "theory is imaginary. He wrote as “Parallax” from the end of 1849 — in the ordinary "
+        "optical sense of an apparent shift with viewpoint, which is the engine of his own "
+        "perspective theory. (An earlier version of this page said he named himself after "
+        "the measurement he spent his life denying. That was false and was withdrawn on "
+        "2026-08-07: he adopted the name 32 years before he wrote about stellar parallax, "
+        "and he relied on the phenomenon rather than denying it.)"),
     had=(
         "More than he is usually credited with. The “8 inches per mile, multiplied by the "
         "square of the distance” figure is not invented — he lifted it from the "

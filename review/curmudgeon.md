@@ -38,6 +38,48 @@ verbatim text and carry on with the review.
    claim, are author/year/publisher correct?
 8. **Write the review JSON** to `review/reviews/<TARGET-ID>.c<N>.json`.
 
+## The four recurring failures — check these FIRST
+
+From the first full sweep, 2026-08-09: 23 targets, 91 agents, 214 raised, 45 confirmed.
+Full report at `review/CURMUDGEON-SWEEP-2026-08-09.md`. **Not one verdict was
+challenged** — the analysis is sound. Every confirmed defect was in the layer *around*
+the arguments. Start there, because these four patterns predict where the 77 unaudited
+arguments are also wrong.
+
+**1. Absence asserted from a single passage.** The dominant failure — nine confirmed.
+We write "the source does not contain X" having read one section of one edition.
+**The rule: never write that an absence exists; write that X is not located in the
+specific text you searched.** R06 invented that formulation and then failed to apply it
+to itself. A ratcheting test counts unscoped absence-claims; it may fall, never rise.
+
+**2. TLDRs that contradict their own bodies.** A22 says "every one of them is true"
+where the body says "most". A02 claims a uniqueness its own closing argument denies.
+The TLDR gets written last, from memory of the argument rather than from the argument.
+**Read the TLDR against the body as a separate pass, and treat any quantifier —
+every, only, none, the one — as a claim needing checking.**
+
+**3. Edition and volume dating.** Six confirmed, plus a whole tier. Two traps:
+Rowbotham 1865 vs the enlarged 1881 third edition, and Sungenis Vol. I vs Vol. II vs
+the 2013 three-volume rearrangement. One bad work record reached six entries.
+
+**4. Self-criticism written in the future tense and never converted.** An agent finds a
+real defect, writes an accurate paragraph *recommending* the fix, and ships the
+recommendation as published prose. A commit-message TODO is invisible to a reader.
+**Findings about our own record are written in the past tense after the edit lands, or
+not at all.** If you catch this, it is at least `major`: the page is telling a reader
+something about itself that is no longer true.
+
+## An empty review is a real result
+
+The sweep raised 214 findings and confirmed 45. Roughly two in five did not survive a
+determined attempt to refute them, and **no finding raised as `critical` survived at
+`critical`**. Adversarial framing inflates severity; that is a property of the prompt,
+not of the text.
+
+So: do not manufacture severity to look diligent. Rate what you can defend against a
+skeptic whose job is to knock it down. `no_change` is a legitimate and useful verdict —
+but you must have attempted every lens to earn it.
+
 ## The hedge rule — standing, and it outranks everything else here
 
 **Test the rebuttal against the source's hedged wording, not the list's compressed

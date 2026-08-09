@@ -48,6 +48,13 @@ CLONE="${TMPDIR:-/tmp}/feo-push-clone"
 DELETE_CEILING=25          # files a single push may delete without allow_deletions
 CHANGE_CEILING=400         # files a single push may touch at all, deletions included
 
+# SINGLE SOURCE OF TRUTH for the credential scan. `.ops/selftest.sh` seds this exact
+# line out of this file rather than keeping its own copy, so the pattern the tests
+# exercise is provably the pattern the gate enforces. Keep it one line, single-quoted,
+# in this shape — the extraction depends on the format, and the selftest fails loudly
+# if it stops matching.
+SECRET_PATTERN='github_pat_[A-Za-z0-9_]{20,}|ghp_[A-Za-z0-9]{30,}|gho_[A-Za-z0-9]{30,}|x-access-token:[^@[:space:]]{20,}'
+
 stage()  { echo ""; echo "==== $1 ===="; }
 ok()     { echo "  ok: $1"; }
 
@@ -205,7 +212,7 @@ if [ "$ARCHIVE_ONLY" = "0" ]; then
   # Secret scan. This repo is PUBLIC and has leaked a token once already
   # (2026-08-02, via a transcript). The cost of this check is a second.
   LEAK="$(git -C "$CLONE" diff HEAD incoming -- . \
-          | grep -nE 'github_pat_[A-Za-z0-9_]{20,}|ghp_[A-Za-z0-9]{30,}|gho_[A-Za-z0-9]{30,}|x-access-token:[^@[:space:]]{20,}' \
+          | grep -nE "$SECRET_PATTERN" \
           | head -5 || true)"
   if [ -n "$LEAK" ]; then
     abort "secret-in-diff" "The incoming diff contains something shaped like a credential. NOT pushing. First match(es) redacted to line numbers: $(printf '%s' "$LEAK" | cut -c1-40)"

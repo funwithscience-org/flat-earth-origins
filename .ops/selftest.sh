@@ -15,7 +15,18 @@
 #
 set -u
 SCRIPT="$(cd "$(dirname "$0")" && pwd)/push-bundle.sh"
+REPO="$(cd "$(dirname "$0")/.." && pwd)"
 LAB="${TMPDIR:-/tmp}/feo-selftest"
+
+# Read the credential pattern OUT OF THE GATE rather than restating it here. A second
+# copy would drift, and a drifted copy is worse than none: the tests would go green
+# against a pattern the gate does not use.
+SECRET_PATTERN="$(sed -n "s/^SECRET_PATTERN='\(.*\)'\$/\1/p" "$SCRIPT")"
+if [ -z "$SECRET_PATTERN" ]; then
+  echo "FATAL: could not extract SECRET_PATTERN from $SCRIPT — the line format changed."
+  echo "       Fix the extraction; do not paste a copy of the pattern in here."
+  exit 2
+fi
 PASS=0; FAIL=0
 declare -a FAILED
 
@@ -136,6 +147,17 @@ bundle "$NEWBASE" main
 # concatenation gives the runtime the full pattern while the file on disk never
 # contains it, so the gate stays absolute and the test still proves it fires.
 FAKE_PAT="github""_pat_""11ABCDEFG0123456789abcdefghijklmnopqrstuvwxyz012345"
+# Assert the fixture still matches the gate's own pattern, extracted from the script
+# rather than copied. Without this the failure mode is a MISLEADING RED, not a silent
+# green: a shortened fixture makes the push succeed and scenario 8 fails with "wanted
+# rc 1", which points at the gate instead of at the fixture. It can also pass for the
+# wrong reason if anything else in the diff happens to match. One line removes both.
+if ! printf '%s' "$FAKE_PAT" | grep -qE "$SECRET_PATTERN"; then
+  echo "  FAIL  fixture no longer matches the scanner pattern — scenario 8 proves nothing"
+  FAIL=$((FAIL+1)); FAILED+=("fixture matches pattern")
+else
+  echo "  PASS  fixture still matches the gate's own pattern"; PASS=$((PASS+1))
+fi
 printf 'token: %s\n' "$FAKE_PAT" > "$LAB/work/docs/oops.txt"
 git -C "$LAB/work" add -A; git -C "$LAB/work" commit --quiet -m "oops"
 LEAKTIP="$(git -C "$LAB/work" rev-parse HEAD)"
@@ -182,7 +204,32 @@ NOTESTTIP="$(git -C "$LAB/work" rev-parse HEAD)"
 manifest "$NEWBASE2" "$NOTESTTIP" true; bundle "$NEWBASE2" main
 expect "no-test-suite" 1 "no-test-suite"
 
-say "13  every abort left a sentinel"
+say "13  the repo's own tracked tree carries no credential-shaped string"
+# Added after the agent's first live run refused to push because .ops/selftest.sh held
+# a literal fake token. That was found the expensive way — at the push gate, after a
+# bundle had been cut, staged, synced and fired. The same scan run here costs a second
+# and fails at the moment the string is written. Tracked files only: the gate scans a
+# diff, so anything git ignores can never reach it.
+#
+# FIRST VERSION OF THIS CHECK WAS BROKEN AND THE CANARY IS THE ONLY REASON WE KNOW.
+# It piped `git -C "$REPO" ls-files` into a bare `grep`. ls-files prints paths relative
+# to the repo root, but by this point the script has cd'd into $LAB/work, so grep looked
+# for every path in the wrong directory, found nothing, and `2>/dev/null` swallowed the
+# errors. It reported PASS while scanning zero files — the exact "quietly stops testing"
+# failure this check was added to prevent, reproduced inside the check itself.
+# `git grep` resolves paths against the repo it is given, so there is no cwd to get wrong.
+_HITS="$(git -C "$REPO" grep -lE "$SECRET_PATTERN" -- . 2>/dev/null || true)"
+if [ -z "$_HITS" ]; then
+  echo "  PASS  no credential-shaped string in any tracked file"; PASS=$((PASS+1))
+else
+  echo "  FAIL  credential-shaped string in tracked file(s):"
+  printf '        %s\n' $_HITS
+  echo "        Build it at runtime (see FAKE_PAT above). Do NOT allowlist the path —"
+  echo "        a path-shaped hole in a secret scanner is permanent and silent."
+  FAIL=$((FAIL+1)); FAILED+=("tracked tree clean")
+fi
+
+say "14  every abort left a sentinel"
 N="$(ls "$Q/aborts" 2>/dev/null | wc -l | tr -d ' ')"
 [ "${N:-0}" -ge 7 ] \
   && { echo "  PASS  $N sentinels written"; PASS=$((PASS+1)); } \

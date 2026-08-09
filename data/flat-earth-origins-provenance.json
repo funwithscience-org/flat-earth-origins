@@ -3,15 +3,15 @@
     "specimen": "withthesun33.com/about-1 (Andy J. Consoli), retrieved 2026-08-02",
     "items_by_lineage": {
       "Tychonian (geocentric) lineage": 164,
-      "Zetetic (flat-earth) lineage": 149,
-      "(no named originator)": 89,
+      "Zetetic (flat-earth) lineage": 133,
+      "(no named originator)": 105,
       "Esoteric / Traditionalist literature": 39,
       "Pre-modern astronomy": 20
     },
     "clusters_by_lineage": {
       "Tychonian (geocentric) lineage": 33,
-      "Zetetic (flat-earth) lineage": 30,
-      "(no named originator)": 29,
+      "(no named originator)": 30,
+      "Zetetic (flat-earth) lineage": 29,
       "Esoteric / Traditionalist literature": 5,
       "Pre-modern astronomy": 1
     },
@@ -20,14 +20,16 @@
     "compression_ratio": 4.7,
     "exact_duplicate_pairs": 3,
     "named_originators": 20,
-    "items_traceable_to_a_named_originator": 372,
+    "items_traceable_to_a_named_originator": 356,
     "people_count": 19,
     "works_count": 19,
     "arguments_at_full_depth": 21,
     "hedge_checked": 20,
     "hedge_drifted": 18,
     "hedge_no_source": 1,
-    "corrections_logged": 16,
+    "pre_modern_clusters": 1,
+    "pre_modern_items": 16,
+    "corrections_logged": 17,
     "arguments_with_a_correction": 12,
     "bios_worked": 2,
     "items_by_family": {
@@ -86,7 +88,7 @@
         "cluster_id": "C02",
         "name": "Proof-texts on a moving Sun",
         "items": 16,
-        "originator": "Rob Skiba"
+        "originator": null
       },
       {
         "cluster_id": "R06",
@@ -164,8 +166,8 @@
     "originator_ranking_by_items": [
       {
         "originator": "(no named originator)",
-        "items": 89,
-        "distinct_arguments": 29
+        "items": 105,
+        "distinct_arguments": 30
       },
       {
         "originator": "Robert Sungenis & Robert Bennett",
@@ -176,11 +178,6 @@
         "originator": "Samuel Rowbotham",
         "items": 65,
         "distinct_arguments": 16
-      },
-      {
-        "originator": "Rob Skiba",
-        "items": 38,
-        "distinct_arguments": 4
       },
       {
         "originator": "Robert Sungenis",
@@ -196,6 +193,11 @@
         "originator": "Robert Sungenis & Rick DeLano",
         "items": 24,
         "distinct_arguments": 4
+      },
+      {
+        "originator": "Rob Skiba",
+        "items": 22,
+        "distinct_arguments": 3
       },
       {
         "originator": "Claudius Ptolemy (via the modern movement)",
@@ -602,13 +604,12 @@
       "kernel": null,
       "id": "PER-SKIBA",
       "arguments": [
-        "ARG-C02",
         "ARG-C03",
         "ARG-C04",
         "ARG-C05"
       ],
-      "argument_count": 4,
-      "item_count": 38
+      "argument_count": 3,
+      "item_count": 22
     },
     "PER-KNODEL": {
       "name": "Bob Knodel",
@@ -1095,6 +1096,7 @@
       "originator_work": "The Heart of the Matter",
       "originator_year": "1968",
       "real_source_cited": "Michelson & Morley 1887, Am. J. Sci. 34:333",
+      "pre_modern": null,
       "items": [
         1,
         99,
@@ -1117,6 +1119,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": "Michelson, Gale & Pearson 1925, ApJ 61:140",
+      "pre_modern": null,
       "items": [
         2,
         3,
@@ -1223,6 +1226,7 @@
       "originator_work": "De Labore Solis: Airy's Failure Reconsidered",
       "originator_year": "1988",
       "real_source_cited": "G. B. Airy 1871, Proc. Roy. Soc. London, pp. 35–39",
+      "pre_modern": null,
       "items": [
         4
       ],
@@ -1312,6 +1316,7 @@
       "originator_work": "Bulletin of the Tychonian Society",
       "originator_year": "1970s",
       "real_source_cited": "James Bradley 1729",
+      "pre_modern": null,
       "items": [
         7,
         18
@@ -1333,6 +1338,7 @@
       "originator_work": "Zetetic Astronomy, 3rd ed. enl. (1881), ch. III (as “Parallax”)",
       "originator_year": "1881",
       "real_source_cited": "Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",
+      "pre_modern": null,
       "items": [
         5,
         8,
@@ -1476,6 +1482,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": "Léon Foucault 1851",
+      "pre_modern": null,
       "items": [
         11
       ],
@@ -1496,6 +1503,7 @@
       "originator_work": "GlobeBusters / Behind the Curve",
       "originator_year": "2018",
       "real_source_cited": "Sagnac 1913; standard ring-laser INS engineering",
+      "pre_modern": null,
       "items": [
         12,
         19,
@@ -1520,6 +1528,7 @@
       "originator_work": "Earth Not a Globe",
       "originator_year": "1865",
       "real_source_cited": "Inertial navigation systems measure Earth rate on every flight",
+      "pre_modern": null,
       "items": [
         13,
         45,
@@ -1543,6 +1552,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": "Gaspard-Gustave de Coriolis 1835",
+      "pre_modern": null,
       "items": [
         6,
         56,
@@ -1568,6 +1578,7 @@
       "originator_work": "Earth Not a Globe (3rd ed., enl.)",
       "originator_year": "1881",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         36,
         49,
@@ -1692,6 +1703,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": "Michelson, Pease & Pearson 1929, JOSA 18(3):181",
+      "pre_modern": null,
       "items": [
         10
       ],
@@ -1712,6 +1724,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": "Miller 1933, Rev. Mod. Phys. 5:203; Shankland et al. 1955, Rev. Mod. Phys. 27:167",
+      "pre_modern": null,
       "items": [
         100,
         289
@@ -1733,6 +1746,7 @@
       "originator_work": "Earth Not a Globe",
       "originator_year": "1865",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         55,
         105,
@@ -1756,6 +1770,7 @@
       "originator_work": "Earth Not a Globe",
       "originator_year": "1865",
       "real_source_cited": "Standard long-range fire-control tables",
+      "pre_modern": null,
       "items": [
         114,
         258,
@@ -1778,6 +1793,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         232,
         249,
@@ -1801,6 +1817,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         108,
         227,
@@ -1823,6 +1840,7 @@
       "originator_work": "Earth Not a Globe",
       "originator_year": "1865",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         53
       ],
@@ -1843,6 +1861,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": "GPS relativistic clock corrections",
+      "pre_modern": null,
       "items": [
         20,
         102
@@ -1864,6 +1883,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": "Gyrocompass operating principle",
+      "pre_modern": null,
       "items": [
         229
       ],
@@ -1884,6 +1904,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": "Apollo/Lunokhod retroreflector ranging",
+      "pre_modern": null,
       "items": [
         193,
         208
@@ -1905,6 +1926,7 @@
       "originator_work": "International Flat Earth Research Society",
       "originator_year": "1957",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         15,
         96,
@@ -1927,6 +1949,7 @@
       "originator_work": "Almagest",
       "originator_year": "c. 150 CE",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         32,
         33,
@@ -2045,6 +2068,7 @@
       "originator_work": "Zion sermons & Leaves of Healing",
       "originator_year": "1915",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         82
       ],
@@ -2065,6 +2089,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         95,
         270
@@ -2086,6 +2111,7 @@
       "originator_work": "De Labore Solis",
       "originator_year": "1988",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         134,
         224
@@ -2107,6 +2133,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         233,
         245,
@@ -2130,6 +2157,7 @@
       "originator_work": "The Heart of the Matter",
       "originator_year": "1968",
       "real_source_cited": "Einstein, general relativity (1915)",
+      "pre_modern": null,
       "items": [
         26,
         51,
@@ -2244,6 +2272,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": "Ernst Mach, The Science of Mechanics (1883)",
+      "pre_modern": null,
       "items": [
         27,
         129,
@@ -2267,6 +2296,7 @@
       "originator_work": "The Heart of the Matter",
       "originator_year": "1968",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         29,
         81,
@@ -2294,6 +2324,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": "Einstein equivalence principle",
+      "pre_modern": null,
       "items": [
         28,
         57,
@@ -2318,6 +2349,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": "Gödel 1949; Lense–Thirring 1918; Gravity Probe B",
+      "pre_modern": null,
       "items": [
         52,
         273,
@@ -2340,6 +2372,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         278,
         284,
@@ -2452,6 +2485,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         290,
         291
@@ -2473,6 +2507,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": "WGS84, ITRF, ECEF/ECI, nautical almanacs",
+      "pre_modern": null,
       "items": [
         30,
         46,
@@ -2618,6 +2653,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": "Reichenbach–Grünbaum conventionality thesis",
+      "pre_modern": null,
       "items": [
         313,
         314
@@ -2639,6 +2675,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         136,
         285
@@ -2660,6 +2697,7 @@
       "originator_work": "Geocentricity",
       "originator_year": "1992",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         293,
         310,
@@ -2682,6 +2720,7 @@
       "originator_work": "The Principle (film)",
       "originator_year": "2014",
       "real_source_cited": "Zhang & Stebbins 2011, PRL 107:041301",
+      "pre_modern": null,
       "items": [
         354
       ],
@@ -2702,6 +2741,7 @@
       "originator_work": "Zetetic Astronomy (item 384: Carpenter 1885, proof 4)",
       "originator_year": "1849",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         42,
         384
@@ -2822,6 +2862,7 @@
       "originator_work": "Zetetic Astronomy",
       "originator_year": "1849",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         43,
         44,
@@ -2844,6 +2885,7 @@
       "originator_work": "Old Bedford Canal trials",
       "originator_year": "1838",
       "real_source_cited": "Wallace 1870; Oldham 1901",
+      "pre_modern": null,
       "items": [
         14,
         262
@@ -2865,6 +2907,7 @@
       "originator_work": "Zetetic Astronomy, 3rd ed. enl. (1881), ch. II",
       "originator_year": "1881",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         222,
         260,
@@ -3031,6 +3074,7 @@
       "originator_work": "One Hundred Proofs that the Earth Is Not a Globe",
       "originator_year": "1885",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         50,
         259,
@@ -3146,6 +3190,7 @@
       "originator_work": "Zetetic Astronomy",
       "originator_year": "1849",
       "real_source_cited": "Encyclopaedia Britannica article 'Levelling'",
+      "pre_modern": null,
       "items": [
         47,
         223,
@@ -3170,6 +3215,7 @@
       "originator_work": "Zetetic Astronomy",
       "originator_year": "1849",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         221
       ],
@@ -3190,6 +3236,7 @@
       "originator_work": "200 Proofs Earth Is Not a Spinning Ball",
       "originator_year": "2015",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         16,
         17,
@@ -3216,6 +3263,7 @@
       "originator_work": "Earth Not a Globe",
       "originator_year": "1865",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         48,
         396,
@@ -3238,6 +3286,7 @@
       "originator_work": "Earth Not a Globe",
       "originator_year": "1865",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         31,
         97,
@@ -3260,6 +3309,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         217,
         390,
@@ -3283,6 +3333,7 @@
       "originator_work": "Flat Earth News",
       "originator_year": "1972",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         128,
         408,
@@ -3305,6 +3356,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         263,
         402
@@ -3326,6 +3378,7 @@
       "originator_work": "Flat Earth News",
       "originator_year": "1972",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         228
       ],
@@ -3346,6 +3399,7 @@
       "originator_work": "One Hundred Proofs (proof 50 onward)",
       "originator_year": "1885",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         61,
         62,
@@ -3365,11 +3419,35 @@
       "name": "Proof-texts on a moving Sun",
       "verdict": "UNFALSIFIABLE",
       "basis": "Outside the testable domain. Reattributed 2026-08-02: Carpenter's 1885 pamphlet contains exactly ONE scriptural proof (#50, on immovability) and never mentions Joshua, Habakkuk or Ecclesiastes. The sun-motion proof-text corpus is a later accretion reaching its present shape in modern thematic compilations.",
-      "originator": "Rob Skiba",
-      "originator_id": "PER-SKIBA",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_id": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": {
+        "earliest_documented_use": "Cardinal Bellarmine to Foscarini, 12 April 1615",
+        "repopularised": [
+          {
+            "who": "Robert Schadewald",
+            "work": "“The Flat-Earth Bible,” Bulletin of the Tychonian Society 44",
+            "year": "1987",
+            "role": "surveyed and catalogued the corpus — from the debunking side, writing for geocentrist readers"
+          },
+          {
+            "who": "Gerardus Bouw",
+            "work": "Geocentricity; A Geocentricity Primer",
+            "year": "1992/1999",
+            "role": "runs Joshua 10:12–13, Isaiah 38:8 and Psalm 19:4–6 as evidence the Sun's motion is real rather than apparent"
+          },
+          {
+            "who": "Rob Skiba",
+            "work": "biblical-cosmology teaching",
+            "year": "2015",
+            "role": "the proximate route these sixteen items travelled into the modern flat-earth compilations; quotes Schadewald by name"
+          }
+        ],
+        "note": "Bellarmine cites Ecclesiastes 1:5 &mdash; <em>&ldquo;The sun also riseth, and the sun goeth down, and hasteth to his place where he arose&rdquo;</em> &mdash; as evidence that the sun really moves and the Earth stands still, and argues that unlike a passenger who sees the shore recede, here <em>&ldquo;no wise man has any need to correct the error.&rdquo;</em> That is this cluster's argument, in 1615, four centuries before the list. The modern compilers are distributing it, not inventing it &mdash; which is what this review exists to show."
+      },
       "items": [
         64,
         65,
@@ -3403,7 +3481,7 @@
           "description": "<p>The strongest version of this argument is not about astronomy at all. It is about hermeneutic consistency, and it deserves to be stated at full strength.</p>\n<p>Suppose you hold a text to be authoritative and to speak plainly about the world. You did not adopt that position casually; it is load-bearing for a great deal else you believe, and it has a long and serious intellectual pedigree. Now you notice that the same text describes the sun as running a circuit, as being halted, as reversing on a sundial. You have two options. You can read those passages plainly, the way you read the passages you build your life on. Or you can read them non-literally &mdash; but then you owe an account of <em>why these and not others</em>, and if the honest answer is &ldquo;because modern astronomy says so,&rdquo; you have made astronomy the arbiter of your text.</p>\n<p>Someone who declines to do that is not being naive. They are refusing a move they regard as special pleading. Consistency is a real intellectual virtue, and applying one's hermeneutic without exception when it is inconvenient is a harder discipline than applying it only when it is comfortable. That is a defensible position, and treating it as ignorance is both wrong and rude.</p>",
           "why_it_doesnt_save_claim": "<p>The kernel is defensible right up to a specific point, and it is worth naming that point precisely.</p>\n<p>A commitment about how to read a text is a commitment about reading. It stays entirely inside its own domain, and nothing this review does can touch it. But the argument here does not stop there. It continues: <em>therefore</em> the sun physically moves over a stationary Earth. That &ldquo;therefore&rdquo; carries the claim across a boundary. The moment a reading is asserted to entail that a gyroscope will precess a certain way, that a pendulum will rotate at a certain rate, that a ring interferometer will show a certain fringe shift &mdash; the claim has become a claim about instrument readings.</p>\n<p>And instrument readings are answerable to instruments. Not to argument, not to authority, and not to the interpretive question, which remains exactly as open as it was. The dilemma the steelman poses is real, but its second horn was never &ldquo;let astronomy arbitrate your text.&rdquo; It is that a reading which generates a physical prediction has stepped into a domain with its own arbiter, and the prediction is now separable from the reading that produced it. The prediction can fail without the reading being adjudicated at all &mdash; which is precisely why this treatment can reach a verdict without touching the theology.</p>"
         },
-        "refutation": "<p><strong>This section is about domain, not about the text.</strong> Nothing here argues that a scriptural passage is false, and nothing here takes a position on whether God exists. Those are not questions a review of measurements can answer, in either direction, and this review does not attempt them. What follows concerns only what kind of claim is being made and what can settle it.</p>\n<p><strong>1. Describing appearance is not asserting mechanism.</strong> This is an observation about language, not a claim about what any text means. &ldquo;The sun rises&rdquo; is how observers in every language and every era have described what they see from where they stand. It is also how working astronomy describes it today: the US Naval Observatory and HM Nautical Almanac Office both publish sunrise and sunset tables, every marine almanac and aviation chart uses the same vocabulary, and celestial navigation is computed in a frame where the observer is fixed and the bodies move. Nobody drawing a sight reduction from an almanac believes they have thereby asserted geocentrism. Noting this does not tell us what any given text intends by it &mdash; that is the interpretive question, addressed next.</p>\n<p><strong>2. The interpretive question is contested, and it is not ours.</strong> Many religious traditions, commentators and scholars have read these passages non-literally for a very long time. Others read them literally. Both are theological positions, held by serious people, argued on textual and traditional grounds. This review takes no side, and readers should not infer one from anything above. The dispute is internal to interpretation, and &mdash; this is the operative point &mdash; <strong>no instrument resolves it.</strong> There is no measurement whose outcome makes one reading correct. That is not a criticism of either reading. It is a statement about what measurement is for, and about the limits of this review's remit.</p>\n<p><strong>3. What <em>is</em> in our domain: the proof-text method conflicts with itself.</strong> The lists these sixteen items come from are not offered as devotional reading. They are offered as <em>evidence</em>, sorted into evidentiary categories, in a dispute about the shape of the Earth. Assessing whether a stated method delivers consistent results is fair comment on the argument being made, and it requires no theology.</p>\n<p>It does not deliver consistent results. The standard compilation files Isaiah 40:22 under &ldquo;Earth is a Disk/Circle&rdquo; and Revelation 7:1 under &ldquo;Earth has 4 Corners/Quarters&rdquo; &mdash; two different shapes, entered as two separate proofs of the same conclusion. Its pillars heading reads, verbatim, &ldquo;Earth has Pillars, and hangs on nothing,&rdquo; bundling Job 26:7 with 1 Samuel 2:8 and Job 9:6 under a single label that states two incompatible things. A method that returns &ldquo;circle&rdquo; and &ldquo;four corners&rdquo; and &ldquo;pillars&rdquo; and &ldquo;hangs upon nothing&rdquo; as four independent confirmations of one physical model is not filtering anything. It is counting.</p>\n<p>Note carefully what this is and is not. It is <em>not</em> a claim that the texts contradict each other &mdash; every one of those passages has been read coherently within the tradition for centuries, and how they fit together is again the interpretive question we are not touching. It is a claim about the <em>method</em>: read this way, as a shape-extraction procedure, it yields mutually exclusive shapes.</p>\n<p><strong>4. The domain distinction comes from inside the tradition.</strong> The fairest available framing of this boundary was not written by a critic of religion. It was written in 1615 by Galileo, a believer, in his <em>Letter to the Grand Duchess Christina</em>, making a theological argument to a devout audience. Quoting Cardinal Baronius, he wrote: <em>&ldquo;That the intention of the Holy Ghost is to teach us how one goes to heaven, not how heaven goes.&rdquo;</em> He develops the point at length, observing that scripture speaks of physical things &ldquo;but casually,&rdquo; and concluding that &ldquo;in discussions of physical problems we ought to begin not from the authority of scriptural passages but from sense-experiences and necessary demonstrations.&rdquo;</p>\n<p>Galileo's own view was that scripture and nature &ldquo;proceed alike from the divine Word.&rdquo; We cite him not as an authority on what the texts mean &mdash; he was making a contested theological argument and knew it &mdash; but because the domain distinction drawn here is not an outsider's imposition. It has been argued from within, by believers, for four hundred years.</p>\n<p><strong>5. Joshua 10, specifically.</strong> This passage has been read in several ways within the tradition, over a long period, by people who took it entirely seriously. We are not going to tell readers which reading is right; that is exactly the line this treatment does not cross. The only thing within our remit is this: astronomy does not settle it. There is no observation that arbitrates between the readings, and anyone claiming a telescope has decided the question has made the same category error the proof-texts are being asked to make. The passage is not evidence in a physics dispute &mdash; in either direction.</p>\n<p><strong>Verdict.</strong> UNFALSIFIABLE, in a precise and non-pejorative sense: the claim as stated cannot be confirmed or refuted by measurement, because a reading of a text is not the kind of thing measurement addresses. This is a statement about our remit and about the structure of the claim. It is not a statement about the value of the text, and it should not be read as one.</p>",
+        "refutation": "<p><strong>This section is about domain, not about the text.</strong> Nothing here argues that a scriptural passage is false, and nothing here takes a position on whether God exists. Those are not questions a review of measurements can answer, in either direction, and this review does not attempt them. What follows concerns only what kind of claim is being made and what can settle it.</p>\n<p><strong>1. Describing appearance is not asserting mechanism.</strong> This is an observation about language, not a claim about what any text means. &ldquo;The sun rises&rdquo; is how observers in every language and every era have described what they see from where they stand. It is also how working astronomy describes it today: the US Naval Observatory and HM Nautical Almanac Office both publish sunrise and sunset tables, every marine almanac and aviation chart uses the same vocabulary, and celestial navigation is computed in a frame where the observer is fixed and the bodies move. Nobody drawing a sight reduction from an almanac believes they have thereby asserted geocentrism. Noting this does not tell us what any given text intends by it &mdash; that is the interpretive question, addressed next.</p>\n<p><strong>2. The interpretive question is contested, and it is not ours.</strong> Many religious traditions, commentators and scholars have read these passages non-literally for a very long time. Others read them literally. Both are theological positions, held by serious people, argued on textual and traditional grounds. This review takes no side, and readers should not infer one from anything above. The dispute is internal to interpretation, and &mdash; this is the operative point &mdash; <strong>no instrument resolves it.</strong> There is no measurement whose outcome makes one reading correct. That is not a criticism of either reading. It is a statement about what measurement is for, and about the limits of this review's remit.</p>\n<p><strong>3. What <em>is</em> in our domain: the proof-text method conflicts with itself.</strong> The lists these sixteen items come from are not offered as devotional reading. They are offered as <em>evidence</em>, sorted into evidentiary categories, in a dispute about the shape of the Earth. Assessing whether a stated method delivers consistent results is fair comment on the argument being made, and it requires no theology.</p>\n<p>It does not deliver consistent results, and the list under review demonstrates that without any help from us. Item&nbsp;414 enters Isaiah 40:22, the <em>circle</em> of the Earth. Item&nbsp;420 enters Revelation 7:1, the <em>four corners</em>. Items&nbsp;410 and 415 enter the <em>pillars</em> of Psalm 75:3 and 1 Samuel 2:8. Item&nbsp;412 enters Job 26:7, the Earth <em>hung upon nothing</em>. That is four different shapes and two incompatible supports, entered as five separate confirmations of a single physical model. A disc has no corners; a thing resting on pillars is not hanging upon nothing. A method returning all five as independent evidence is not filtering anything &mdash; it is counting. Every number above is checkable in the item table on this page, which is the point: the internal conflict is a property of the list, not of our reading of it.</p>\n<p>Note carefully what this is and is not. It is <em>not</em> a claim that the texts contradict each other &mdash; every one of those passages has been read coherently within the tradition for centuries, and how they fit together is again the interpretive question we are not touching. It is a claim about the <em>method</em>: read this way, as a shape-extraction procedure, it yields mutually exclusive shapes.</p>\n<p><strong>4. The domain distinction comes from inside the tradition.</strong> The fairest available framing of this boundary was not written by a critic of religion. It was written in 1615 by Galileo, a believer, in his <em>Letter to the Grand Duchess Christina</em>, making a theological argument to a devout audience. Quoting Cardinal Baronius, he wrote: <em>&ldquo;That the intention of the Holy Ghost is to teach us how one goes to heaven, not how heaven goes.&rdquo;</em> He develops the point at length, observing that scripture speaks of physical things &ldquo;but casually,&rdquo; and concluding that &ldquo;in discussions of physical problems we ought to begin not from the authority of scriptural passages but from sense-experiences and necessary demonstrations.&rdquo;</p>\n<p>Galileo's own view was that scripture and nature &ldquo;proceed alike from the divine Word.&rdquo; We cite him not as an authority on what the texts mean &mdash; he was making a contested theological argument and knew it &mdash; but because the domain distinction drawn here is not an outsider's imposition. It has been argued from within, by believers, for four hundred years.</p>\n<p><strong>5. Joshua 10, specifically.</strong> This passage has been read in several ways within the tradition, over a long period, by people who took it entirely seriously. We are not going to tell readers which reading is right; that is exactly the line this treatment does not cross. The only thing within our remit is this: astronomy does not settle it. There is no observation that arbitrates between the readings, and anyone claiming a telescope has decided the question has made the same category error the proof-texts are being asked to make. The passage is not evidence in a physics dispute &mdash; in either direction.</p>\n<p><strong>Verdict.</strong> UNFALSIFIABLE, in a precise and non-pejorative sense: the claim as stated cannot be confirmed or refuted by measurement, because a reading of a text is not the kind of thing measurement addresses. This is a statement about our remit and about the structure of the claim. It is not a statement about the value of the text, and it should not be read as one.</p>",
         "straw_man": {
           "identified": true,
           "detail": "Two straw men run in opposite directions and both should be named. The one this treatment must avoid: characterising the argument as 'religious people believe the Bible instead of science.' That misdescribes the position, insults a large share of this site's own audience, and is empirically wrong — many of the most rigorous rebuttals of flat-earth claims come from believers, which is itself evidence that the fault line is not religion versus science. The one the argument itself deploys: Carpenter's Proof 50 frames the astronomer's position as 'the groundwork of modern infidelity', converting a dispute about measurement into a loyalty test. That framing is inherited by the modern lists and does real work — it makes any evidentiary objection look like an attack on the reader's faith, which forecloses the conversation the evidence would otherwise have. Both moves substitute a fight about identity for a question about domain."
@@ -3474,6 +3552,7 @@
       "originator_work": "biblical-cosmology teaching",
       "originator_year": "2015",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         68,
         155,
@@ -3499,6 +3578,7 @@
       "originator_work": "biblical-cosmology teaching",
       "originator_year": "2015",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         67,
         72,
@@ -3644,6 +3724,7 @@
       "originator_work": "biblical-cosmology teaching",
       "originator_year": "2015",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         164,
         413,
@@ -3784,6 +3865,7 @@
       "originator_work": "Zion sermons",
       "originator_year": "1915",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         69,
         71,
@@ -3809,6 +3891,7 @@
       "originator_work": "Galileo Was Wrong, Vol. III",
       "originator_year": "2006",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         24,
         77,
@@ -3962,6 +4045,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         429,
         431,
@@ -3987,6 +4071,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         432,
         433,
@@ -4010,6 +4095,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         412
       ],
@@ -4030,6 +4116,7 @@
       "originator_work": "Galileo Was Wrong, Vol. II",
       "originator_year": "2006",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         21,
         25,
@@ -4053,6 +4140,7 @@
       "originator_work": "Galileo Was Wrong, Vol. II",
       "originator_year": "2006",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         22,
         120,
@@ -4077,6 +4165,7 @@
       "originator_work": "Galileo Was Wrong, Vol. II",
       "originator_year": "2006",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         23,
         218,
@@ -4099,6 +4188,7 @@
       "originator_work": "The Myth of the Eternal Return",
       "originator_year": "1949",
       "real_source_cited": "Eliade 1949; Guénon, Le Roi du Monde 1927",
+      "pre_modern": null,
       "items": [
         160,
         173,
@@ -4124,6 +4214,7 @@
       "originator_work": "Patterns in Comparative Religion",
       "originator_year": "1949",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         175,
         455
@@ -4145,6 +4236,7 @@
       "originator_work": "The Kybalion",
       "originator_year": "1908",
       "real_source_cited": "Emerald Tablet, Arabic recensions c. 750–830 CE",
+      "pre_modern": null,
       "items": [
         159,
         161,
@@ -4284,6 +4376,7 @@
       "originator_work": "The Secret Teachings of All Ages (1928); Isis Unveiled (1877)",
       "originator_year": "1928",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         165,
         166,
@@ -4459,6 +4552,7 @@
       "originator_work": "The Secret Teachings of All Ages",
       "originator_year": "1928",
       "real_source_cited": "Dendera zodiac, Louvre E 13482, dated c. 50 BCE",
+      "pre_modern": null,
       "items": [
         74,
         126,
@@ -4485,6 +4579,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         167,
         199,
@@ -4507,6 +4602,7 @@
       "originator_work": "The Earth is not Moving",
       "originator_year": "1991",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         76
       ],
@@ -4527,6 +4623,7 @@
       "originator_work": "Zetetic Astronomy (the zetetic method)",
       "originator_year": "1849",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         41,
         80,
@@ -4553,6 +4650,7 @@
       "originator_work": "Zetetic Astronomy",
       "originator_year": "1849",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         83,
         181
@@ -4574,6 +4672,7 @@
       "originator_work": "The Principle (film)",
       "originator_year": "2014",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         85,
         184,
@@ -4598,6 +4697,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         86,
         351,
@@ -4621,6 +4721,7 @@
       "originator_work": "Galileo Was Wrong, Vol. III",
       "originator_year": "2006",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         125
       ],
@@ -4641,6 +4742,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         172,
         205
@@ -4662,6 +4764,7 @@
       "originator_work": "Flat Earth Clues",
       "originator_year": "2015",
       "real_source_cited": "Schumann resonance (real, and a consequence of a spherical cavity)",
+      "pre_modern": null,
       "items": [
         201,
         202,
@@ -4684,6 +4787,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         363,
         364,
@@ -4707,6 +4811,7 @@
       "originator_work": "The Principle (film)",
       "originator_year": "2014",
       "real_source_cited": "Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",
+      "pre_modern": null,
       "items": [
         40,
         89,
@@ -4831,6 +4936,7 @@
       "originator_work": "The Principle (film)",
       "originator_year": "2014",
       "real_source_cited": "Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",
+      "pre_modern": null,
       "items": [
         326,
         331,
@@ -4856,6 +4962,7 @@
       "originator_work": "Galileo Was Wrong (7th ed., 2013), Vol. I ch. 3 and Vol. II ch. 10",
       "originator_year": "2013",
       "real_source_cited": "Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",
+      "pre_modern": null,
       "items": [
         137,
         294,
@@ -5024,6 +5131,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": "Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",
+      "pre_modern": null,
       "items": [
         90,
         117,
@@ -5047,6 +5155,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": "Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",
+      "pre_modern": null,
       "items": [
         189,
         323,
@@ -5069,6 +5178,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": "Sawala et al. 2023, Nature Astronomy 7:481",
+      "pre_modern": null,
       "items": [
         330,
         337,
@@ -5091,6 +5201,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         197,
         328
@@ -5112,6 +5223,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": "Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",
+      "pre_modern": null,
       "items": [
         92,
         101,
@@ -5134,6 +5246,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": "Riess et al. 2022, ApJL 934:L7; Kenworthy et al. 2019, ApJ 875:145",
+      "pre_modern": null,
       "items": [
         98,
         325
@@ -5155,6 +5268,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         196,
         332,
@@ -5179,6 +5293,7 @@
       "originator_work": "The Principle (film)",
       "originator_year": "2014",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         360
       ],
@@ -5199,6 +5314,7 @@
       "originator_work": "Geocentricity",
       "originator_year": "1992",
       "real_source_cited": "Tifft 1976; refuted by 2dF/SDSS surveys",
+      "pre_modern": null,
       "items": [
         60,
         355
@@ -5220,6 +5336,7 @@
       "originator_work": "Galileo Was Wrong, Vol. II (7th ed., 2013), ch. 10; Vol. I, chs 2-3",
       "originator_year": "2013",
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         194,
         334,
@@ -5400,6 +5517,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         104,
         138,
@@ -5424,6 +5542,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         345,
         346,
@@ -5446,6 +5565,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         238,
         239,
@@ -5468,6 +5588,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         9,
         59,
@@ -5574,6 +5695,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
+      "pre_modern": null,
       "items": [
         93
       ],
@@ -6116,9 +6238,33 @@
     "C02": {
       "lane": "C",
       "name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "year": null,
+      "pre_modern": {
+        "earliest_documented_use": "Cardinal Bellarmine to Foscarini, 12 April 1615",
+        "repopularised": [
+          {
+            "who": "Robert Schadewald",
+            "work": "“The Flat-Earth Bible,” Bulletin of the Tychonian Society 44",
+            "year": "1987",
+            "role": "surveyed and catalogued the corpus — from the debunking side, writing for geocentrist readers"
+          },
+          {
+            "who": "Gerardus Bouw",
+            "work": "Geocentricity; A Geocentricity Primer",
+            "year": "1992/1999",
+            "role": "runs Joshua 10:12–13, Isaiah 38:8 and Psalm 19:4–6 as evidence the Sun's motion is real rather than apparent"
+          },
+          {
+            "who": "Rob Skiba",
+            "work": "biblical-cosmology teaching",
+            "year": "2015",
+            "role": "the proximate route these sixteen items travelled into the modern flat-earth compilations; quotes Schadewald by name"
+          }
+        ],
+        "note": "Bellarmine cites Ecclesiastes 1:5 &mdash; <em>&ldquo;The sun also riseth, and the sun goeth down, and hasteth to his place where he arose&rdquo;</em> &mdash; as evidence that the sun really moves and the Earth stands still, and argues that unlike a passenger who sees the shore recede, here <em>&ldquo;no wise man has any need to correct the error.&rdquo;</em> That is this cluster's argument, in 1615, four centuries before the list. The modern compilers are distributing it, not inventing it &mdash; which is what this review exists to show."
+      },
       "real_source": null,
       "verdict": "UNFALSIFIABLE",
       "note": "Outside the testable domain. Reattributed 2026-08-02: Carpenter's 1885 pamphlet contains exactly ONE scriptural proof (#50, on immovability) and never mentions Joshua, Habakkuk or Ecclesiastes. The sun-motion proof-text corpus is a later accretion reaching its present shape in modern thematic compilations."
@@ -7519,9 +7665,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },
@@ -7534,9 +7680,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },
@@ -7549,9 +7695,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },
@@ -7609,9 +7755,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },
@@ -7744,9 +7890,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },
@@ -8794,9 +8940,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },
@@ -8809,9 +8955,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },
@@ -8824,9 +8970,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },
@@ -8899,9 +9045,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },
@@ -8914,9 +9060,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },
@@ -12814,9 +12960,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },
@@ -12829,9 +12975,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },
@@ -12889,9 +13035,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },
@@ -12904,9 +13050,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },
@@ -13084,9 +13230,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },
@@ -13309,9 +13455,9 @@
       "argument": "ARG-C02",
       "cluster_id": "C02",
       "cluster_name": "Proof-texts on a moving Sun",
-      "originator": "Rob Skiba",
-      "originator_work": "biblical-cosmology teaching",
-      "originator_year": "2015",
+      "originator": null,
+      "originator_work": null,
+      "originator_year": null,
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
     },

@@ -25,7 +25,7 @@ The page reviews published *claims*. It does not target any individual.
 |---|---|
 | Items in the specimen | 461 |
 | Distinct arguments | 98 (4.7× compression) |
-| Named originators | 20, covering 372 of 461 items |
+| Named originators | 20, covering 356 of 461 items |
 | Items that discriminate flat/stationary from the globe | **0** |
 
 Two people account for 43% of the list: **Samuel Rowbotham** (65 items, writing 1849–65)
@@ -103,9 +103,14 @@ nobody has compared the texts yet — it never means the phrasing is faithful.
 Every verdict cites a public source or a reproducible calculation. Engage the strongest
 form of each argument. Unfalsifiable claims are named, not ridiculed. Duplicate items are
 grouped and scored once per distinct argument, so the "461" headline does not inflate the
-work. Provenance attributions trace to a specific publication with a date; where an
-attribution could not be established the item is recorded as **untraced rather than
-guessed** (89 items, 29 clusters).
+work. Provenance attributions trace to a specific publication with a date. Origin is recorded in
+**three states, not two**: traced to a named modern author (356 items); **older than the
+movement** (16 items, 1 argument) where we found the origin and it predates everyone on the
+People tab; and **untraced rather than guessed** (89 items, 29 clusters) where we looked and
+found nothing. The middle state exists because C02's attribution was corrected twice and then
+withdrawn — Carpenter was wrong, Skiba was wrong the other way, and Bellarmine deploys
+Ecclesiastes 1:5 against Copernicus in 1615. Nobody modern originated it, so nobody is
+credited; the people who *carried* it forward are listed as repopularisers instead.
 
 **"Untraced" is a claim, not a fact about the list, and it is audited like any other.**
 ARG-E13 was recorded as untraced until 2026-08-08, when a search found three of its six

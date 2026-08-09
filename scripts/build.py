@@ -106,6 +106,21 @@ for cid, d in DEEP.items():
     assert isinstance(s, int) and 1 <= s <= 5, f"{cid} advocate.survives must be 1-5"
     if s >= 3:
         assert d["advocate"].get("preemptive"), f"{cid} survives>=3 requires a preemptive fix"
+# pre_modern is a THIRD origin state, not a flavour of untraced. Guard it so nobody can
+# credit a modern author with founding what they inherited.
+for cid, c in CLUSTERS.items():
+    pm = c.get("pre_modern")
+    if pm is None:
+        continue
+    assert c["originator"] is None, \
+        f"{cid}: pre_modern is set, so originator must be None - nobody founded this"
+    assert pm.get("earliest_documented_use"), f"{cid}: pre_modern needs earliest_documented_use"
+    assert pm.get("note"), f"{cid}: pre_modern needs a note showing the early use"
+    assert "first " not in pm["earliest_documented_use"].lower(), \
+        f"{cid}: say EARLIEST DOCUMENTED, never 'first' - we cannot show anything is first"
+    for r in pm.get("repopularised", []):
+        assert r.get("who") and r.get("year"), f"{cid}: each repopulariser needs who and year"
+
 for pid, p in PEOPLE.items():
     for w in p["works"]:
         assert w in WORKS, f"{pid} -> unknown work {w}"
@@ -141,6 +156,7 @@ for cid, c in CLUSTERS.items():
         "basis": c["note"], "originator": c["originator"], "originator_id": pid,
         "originator_work": c["originator_work"], "originator_year": c["year"],
         "real_source_cited": c["real_source"],
+        "pre_modern": c.get("pre_modern"),
         "items": sorted(by_cluster[cid]), "item_count": len(by_cluster[cid]),
         "depth": "full" if d else "cluster",
         "deep": d,
@@ -199,6 +215,9 @@ summary = {
                            if a["deep"] and a["deep"]["compression"]["assessed"] == "no_source"),
     # Our OWN error rate, derived from the corrections log rather than typed as a
     # literal. House rule: never write a computed number by hand.
+    "pre_modern_clusters": sum(1 for c in CLUSTERS.values() if c.get("pre_modern")),
+    "pre_modern_items": sum(len(by_cluster[cid]) for cid, c in CLUSTERS.items()
+                            if c.get("pre_modern")),
     "corrections_logged": None,      # filled below
     "arguments_with_a_correction": None,
     "bios_worked": sum(1 for p in people.values() if p["bio_status"] == "worked"),

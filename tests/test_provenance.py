@@ -49,9 +49,10 @@ check("item 461 is flagged truncated in source", "truncated" in ITEMS[460].lower
 print("\n[2] cluster schema")
 REQUIRED = {"lane", "name", "originator", "originator_work", "year",
             "real_source", "verdict", "note"}
+OPTIONAL = {"pre_modern"}   # a third origin state; see the clusters.py docstring
 VERDICTS = {"REFUTED", "STANDARD PHYSICS", "SELF-CONTRADICTED",
             "MISLEADING", "UNFALSIFIABLE", "NOT DEMONSTRATED"}
-bad_schema = [c for c, k in CLUSTERS.items() if set(k) != REQUIRED]
+bad_schema = [c for c, k in CLUSTERS.items() if not REQUIRED <= set(k) <= REQUIRED | OPTIONAL]
 check("every cluster carries the full field set", not bad_schema, bad_schema[:3])
 bad_verdict = [c for c, k in CLUSTERS.items() if k["verdict"] not in VERDICTS]
 check("every verdict is one of the six", not bad_verdict, bad_verdict[:3])
@@ -74,9 +75,18 @@ named = {k["originator"] for k in CLUSTERS.values() if k["originator"]}
 check("named originators == 20", len(named) == 20, sorted(named))
 traced = sum(1 for r in ROWS if r["originator"])
 # 366 -> 372 on 2026-08-08: ARG-E13 was recorded as untraced and the audit found an
-# originator (Sungenis & Bennett), moving its 6 items into the traced column. The
-# figure went UP because a claim of ours was withdrawn, not because a bar was lowered.
-check("traced items == 372", traced == 372, traced)
+# originator (Sungenis & Bennett), moving its 6 items into the traced column.
+# 372 -> 356 on 2026-08-09: C02's attribution was withdrawn entirely. The sun-motion
+# proof-texts have no modern originator - Bellarmine deploys Ecclesiastes 1:5 in 1615 -
+# so its 16 items moved OUT of traced into the new pre-modern bucket. They did NOT
+# become untraced, which stays at 89. Three buckets now, and they must sum to 461.
+check("traced items == 356", traced == 356, traced)
+check("the three origin buckets account for every item",
+      traced + S["pre_modern_items"]
+      + (S["total_items"] - traced - S["pre_modern_items"]) == S["total_items"])
+check("untraced did not absorb the pre-modern cluster (still 89)",
+      S["total_items"] - traced - S["pre_modern_items"] == 89,
+      S["total_items"] - traced - S["pre_modern_items"])
 check("summary traced count agrees",
       S["items_traceable_to_a_named_originator"] == traced)
 check("compression ratio == 4.7", abs(S["compression_ratio"] - 4.7) < 0.05,
@@ -111,7 +121,7 @@ for label, needle in [
     ("headline 461", "461"),
     ("headline 98 arguments", ">98<"),
     ("headline 20 authors", ">20<"),
-    ("traced 372", "372 of the 461"),
+    ("traced 356", "356 of the 461"),
     ("compression 4.7x", "4.7&times;"),
     ("family A total 182", "<strong>182</strong>"),
     ("family B total 54", "<strong>54</strong>"),
@@ -498,6 +508,25 @@ for _a in ARGS.values():
             for _m in re.finditer(_p, _t, re.I):
                 if not _SCOPE.search(_t[max(0, _m.start() - 160):_m.end() + 160]):
                     _unscoped += 1
+# --- the pre-modern origin state ------------------------------------
+# C02's attribution was corrected twice and then withdrawn: Carpenter was wrong,
+# Skiba was wrong the other way, and substituting Bouw was rejected on verification
+# as repeating the error one step upstream. Some arguments are simply older than
+# anyone we could name. Guard the state so it cannot decay back into a false credit.
+_pm = {a["id"]: a["pre_modern"] for a in ARGS.values() if a.get("pre_modern")}
+check("pre-modern arguments credit nobody as originator",
+      all(ARGS[a]["originator"] is None for a in _pm), list(_pm))
+check("each pre-modern argument cites an earliest DOCUMENTED use",
+      all(p.get("earliest_documented_use") for p in _pm.values()))
+check("pre-modern never claims to have found the FIRST use",
+      all("first " not in p["earliest_documented_use"].lower() for p in _pm.values()))
+check("C02 is recorded as older than the movement, not credited to a modern author",
+      "ARG-C02" in _pm and ARGS["ARG-C02"]["originator"] is None)
+check("C02 names the repopularisers who carried it, without calling them authors",
+      len(_pm.get("ARG-C02", {}).get("repopularised", [])) >= 2)
+check("the page renders the pre-modern state rather than a blank",
+      "older than the movement" in PAGE and "Listed as distributors, not authors" in PAGE)
+
 UNSCOPED_CEILING = 11
 check(f"unscoped absence-claims do not increase ({_unscoped}/{UNSCOPED_CEILING})",
       _unscoped <= UNSCOPED_CEILING, _unscoped)

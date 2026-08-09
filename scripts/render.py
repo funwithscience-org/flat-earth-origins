@@ -92,7 +92,31 @@ def render_argument(a):
             f'restate this'
             + (f' &middot; items {rng(a["items"])}' if a["item_count"] <= 12 else "")
             + (f' &middot; first published by {plink(a["originator_id"])}'
-               if a["originator_id"] else " &middot; no named originator") + "</p>")
+               if a["originator_id"]
+               else (" &middot; older than the movement"
+                     if a.get("pre_modern") else " &middot; no named originator")) + "</p>")
+    pm = a.get("pre_modern")
+    if pm:
+        # A third origin state, and it renders as a finding rather than a blank. The
+        # repopularisation chain is the point: an argument older than the movement still
+        # had to be carried into it, and the carriers are nameable.
+        chain = "".join(
+            f'<li><strong>{e(r["who"])}</strong>, {e(r["year"])}'
+            + (f' &mdash; <em>{e(r["work"])}</em>' if r.get("work") else "")
+            + (f'. {e(r["role"])}' if r.get("role") else "") + "</li>"
+            for r in pm.get("repopularised", []))
+        meta += (
+            '<details class="ds-win-section"><summary class="ks-summary">'
+            '<strong>Older than the movement</strong>'
+            '<p class="ks-tldr">Nobody modern originated this. Earliest documented use: '
+            f'{e(pm["earliest_documented_use"])}.</p></summary>'
+            f'<div class="ks-detail"><p>{pm["note"]}</p>'
+            + ('<p style="margin-top:.8rem"><strong>Carried forward by:</strong></p>'
+               f'<ul style="font-family:var(--sans);font-size:.88rem">{chain}</ul>'
+               '<p style="font-family:var(--sans);font-size:.82rem;color:var(--ink-3)">'
+               'Listed as distributors, not authors. Naming them as originators would be '
+               'the same error this page documents elsewhere.</p>' if chain else "")
+            + "</div></details>")
     if not d:
         return (f'<div class="ks-test" id="ARG-{cid}">'
                 f'<h3 style="margin-top:0">ARG-{cid} &middot; {e(a["name"])} '
@@ -444,7 +468,11 @@ def tab_overview():
 
 
 def tab_method():
-    untraced = S["total_items"] - S["items_traceable_to_a_named_originator"]
+    # Three buckets, not two: traced to a modern author, older than the movement, and
+    # genuinely untraced. Folding the middle one into "untraced" would state something
+    # untrue - we found the origin, it is just older than anyone on the People tab.
+    untraced = (S["total_items"] - S["items_traceable_to_a_named_originator"]
+                - S["pre_modern_items"])
     return (
         '<h1>Method</h1><h2>The question that settles most items</h2>'
         '<div class="ds-evaluate-preface"><p style="margin:.2rem 0 0"><strong>Does the claim '
@@ -545,7 +573,11 @@ def tab_method():
         f'<ul>'
         f'<li>{untraced} items could not be traced to a named origin. That is a limit of this '
         f'pass, not evidence of originality &mdash; they are one-line assertions with no cited '
-        f'source, which is <em>why</em> they are unattributable.</li>'
+        f'source, which is <em>why</em> they are unattributable. A further '
+        f'<strong>{S["pre_modern_items"]}</strong> items across {S["pre_modern_clusters"]} '
+        f'argument(s) are counted separately as <em>older than the movement</em>: we looked, '
+        f'found the origin, and it predates everyone on the People tab. That is a finding, '
+        f'not a gap.</li>'
         f'<li>The &ldquo;{S["named_originators"]} authors&rdquo; figure is soft in one direction. '
         f'Untraceable arguments were recorded as untraced rather than assigned to a plausible '
         f'source, so the true producer count is somewhere between {S["named_originators"]} and '

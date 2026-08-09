@@ -10,6 +10,31 @@ Each cluster records:
   real_source     - where a genuine scientist's real work is being cited, who
                     actually did it (so the reader can go check the original)
   verdict         - six-verdict rubric; "PENDING" where the writeup is not done
+  pre_modern      - OPTIONAL. Set when the argument demonstrably PREDATES the modern
+                    movement and no modern author originated it. This is a THIRD state,
+                    not a flavour of untraced, and the distinction is the same one
+                    `compression.assessed` draws with "no_source":
+
+                      originator="Name"   a modern author put this into the canon
+                      originator=None     we looked for an origin and did not find one
+                      pre_modern={...}    we looked, and found the origin is older than
+                                          the movement - a finding, not a gap
+
+                    Shape: {earliest_documented_use, note, repopularised[]}.
+                    `earliest_documented_use` must be a citable instance we have actually
+                    read, phrased as EARLIEST DOCUMENTED, never "first" - we cannot show
+                    anything is first. A cluster with pre_modern set MUST have
+                    originator=None, so nobody is credited with founding what they inherited.
+
+                    `repopularised` is the point of the field, not a footnote to it. An
+                    argument older than the movement still had to be CARRIED into it, wave
+                    by wave, and each wave is nameable: [{who, work, year}] in date order.
+                    That is the distribution chain this whole review exists to expose - few
+                    people make these arguments, many carry them - and it is exactly the
+                    information a bare originator=None would throw away. Skiba did not
+                    originate the sun-motion proof-texts; he is the reason sixteen items of
+                    this particular list carry them, and that is worth recording as what it
+                    is rather than mislabelling as authorship.
 """
 
 # lane codes: A-EXP geocentric experiment | A-REL relativity/coordinates
@@ -313,7 +338,37 @@ CLUSTERS = {
     originator="William Carpenter", originator_work="One Hundred Proofs (proof 50 onward)", year="1885",
     real_source=None, verdict="UNFALSIFIABLE", note="Outside the testable domain."),
 "C02": dict(lane="C", name="Proof-texts on a moving Sun",
-    originator="Rob Skiba", originator_work="biblical-cosmology teaching", year="2015",
+    # Attribution corrected TWICE and now withdrawn entirely, 2026-08-09.
+    # Carpenter (original) was wrong: his 1885 pamphlet has exactly ONE scriptural proof
+    # and never mentions Joshua, Habakkuk or Ecclesiastes. Skiba (2026-08-02) was wrong in
+    # the other direction: Bellarmine deploys Ecclesiastes 1:5 against Copernicus in 1615,
+    # Galileo's Letter to Christina - which this treatment quotes - replies to that genre,
+    # and Bouw runs the same bloc in 1999. Substituting Bouw was rejected on verification
+    # as repeating the error one step upstream. There is no modern first author to name,
+    # so we name none, and record instead that the origin is older than the movement.
+    originator=None, originator_work=None, year=None,
+    pre_modern=dict(
+        earliest_documented_use="Cardinal Bellarmine to Foscarini, 12 April 1615",
+        repopularised=[
+            dict(who="Robert Schadewald", work="“The Flat-Earth Bible,” Bulletin of the "
+                     "Tychonian Society 44", year="1987",
+                 role="surveyed and catalogued the corpus — from the debunking side, "
+                      "writing for geocentrist readers"),
+            dict(who="Gerardus Bouw", work="Geocentricity; A Geocentricity Primer",
+                 year="1992/1999",
+                 role="runs Joshua 10:12–13, Isaiah 38:8 and Psalm 19:4–6 as evidence the "
+                      "Sun's motion is real rather than apparent"),
+            dict(who="Rob Skiba", work="biblical-cosmology teaching", year="2015",
+                 role="the proximate route these sixteen items travelled into the modern "
+                      "flat-earth compilations; quotes Schadewald by name"),
+        ],
+        note="Bellarmine cites Ecclesiastes 1:5 &mdash; <em>&ldquo;The sun also riseth, and "
+             "the sun goeth down, and hasteth to his place where he arose&rdquo;</em> &mdash; "
+             "as evidence that the sun really moves and the Earth stands still, and argues "
+             "that unlike a passenger who sees the shore recede, here <em>&ldquo;no wise man "
+             "has any need to correct the error.&rdquo;</em> That is this cluster's argument, "
+             "in 1615, four centuries before the list. The modern compilers are distributing "
+             "it, not inventing it &mdash; which is what this review exists to show."),
     real_source=None, verdict="UNFALSIFIABLE",
     note="Outside the testable domain. Reattributed 2026-08-02: Carpenter's 1885 pamphlet "
          "contains exactly ONE scriptural proof (#50, on immovability) and never mentions "

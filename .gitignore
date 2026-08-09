@@ -8,3 +8,4 @@ handoff/
 # to push any diff containing a PAT-shaped string (.ops/push-bundle.sh gate 4).
 .gitcred/
 commit-queue/
+.ops-bootstrap/

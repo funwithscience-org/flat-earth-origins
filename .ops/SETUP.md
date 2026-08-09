@@ -86,11 +86,21 @@ also fine, since firing it costs nothing when the queue is empty.
 
 ---
 
-## Bootstrap note for the very first run
+## Bootstrap — handled, no manual push needed
 
-`.ops/push-bundle.sh` has to exist on GitHub before the agent can clone-and-run it. It does not
-yet — it is in the six unpushed commits. So **the first push is still manual** (`HANDOFF.md`),
-and every push after that is the agent. One more hand-run, then done.
+`.ops/push-bundle.sh` normally comes from the fresh clone, so the agent runs reviewed,
+version-controlled code rather than whatever is sitting in a synced folder. But on the very
+first run it is not on GitHub yet — it is inside the commits waiting to be pushed, which is
+circular.
+
+So a copy also lives at `.ops-bootstrap/push-bundle.sh` in the connected folder, and the agent
+uses it **only when the clone has none**. It announces which copy it used. You should see the
+`BOOTSTRAP:` line exactly once, on run one; if it appears a second time, the first push did not
+actually land and you should read `commit-queue/aborts/`.
+
+After that first successful push, `.ops-bootstrap/` is dead weight and can be deleted — the
+clone will always have the real thing. Leaving it costs nothing but is one more copy to keep
+in step, so deleting it is tidier.
 
 ---
 

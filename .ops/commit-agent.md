@@ -59,7 +59,19 @@ git clone --quiet "https://x-access-token:${PAT}@github.com/funwithscience-org/f
   || { echo "clone failed — token expired or wrong scope"; exit 1; }
 unset PAT
 
-bash "$BOOT/.ops/push-bundle.sh" "$WORKSPACE"
+# Prefer the clone's copy — reviewed, version-controlled, and what the repo says it is.
+# Fall back to the folder copy ONLY when the clone has none, which happens exactly once:
+# on the first run, before .ops/ has ever been pushed. Say which one you used, out loud.
+if [ -f "$BOOT/.ops/push-bundle.sh" ]; then
+  echo "using .ops/push-bundle.sh from the clone (normal)"
+  bash "$BOOT/.ops/push-bundle.sh" "$WORKSPACE"
+elif [ -f "$WORKSPACE/.ops-bootstrap/push-bundle.sh" ]; then
+  echo "BOOTSTRAP: the clone has no .ops/ yet — running the copy from the connected folder."
+  echo "BOOTSTRAP: this should happen once. If you see it twice, the first push did not land."
+  bash "$WORKSPACE/.ops-bootstrap/push-bundle.sh" "$WORKSPACE"
+else
+  echo "no push-bundle.sh in the clone or the folder — see .ops/SETUP.md"; exit 1
+fi
 ```
 
 The script re-reads the credential itself, verifies its scope against the GitHub API before

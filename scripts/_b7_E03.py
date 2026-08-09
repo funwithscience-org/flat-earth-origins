@@ -192,6 +192,15 @@ ENTRY = {
                         "the universe to be geocentric!” · “these anisotropies … lie about a "
                         "plane passing through the two equinoxes and the north celestial pole”"),
         drift_type="none",
+        # drifted=False records that nothing was HARDENED in transit; the enum has no
+        # slot for the opposite. What happened here is softening, so the collapsed
+        # summary must not read "faithfully compressed" — these two fields carry the
+        # honest headline for the render layer. Plain text, no markup, so they are safe
+        # whether the renderer escapes them or not.
+        headline="The list understates its own source",
+        headline_tldr=("The one-line items claim less than the book and the blog do. We answer "
+                       "the original, and we publish the gap - the fragment a reader arrives "
+                       "with is milder than the proclamation it descends from."),
         note="""<p><strong>The list is not stronger than its source here. It is weaker, and that is the finding.</strong> On six of the seven items the compressed phrasing states less than the original, and in two cases much less. Item 137 carries only the premise &mdash; that our velocity relative to the CMB is small &mdash; where Volume II draws the conclusion out loud: <em>&ldquo;we must be very close to the expansion center. Even the Big Bang shows the universe to be geocentric!&rdquo;</em> Item 294 says the dipole is &ldquo;Earthward&rdquo;; the source says it cannot be attributed to the Earth's motion at all and divides the universe along the Earth's equator. Item 327 reproduces DeLano's own list entry almost exactly, scare quotes and all. Item 359 compresses Singal's equinox-and-celestial-pole plane into &ldquo;ecliptic&rdquo;, which is the right neighbourhood and the wrong great circle, but the source does also say elsewhere that the dipole lies in the ecliptic plane, so the item is defensible against its own ancestry. Item 343 names a debate that the source does treat as a debate.</p>
 
 <p><strong>Why this matters for the entry above.</strong> The standing warning about this originator &mdash; recorded at <a href="#ARG-E01">ARG-E01</a> &mdash; is that <em>The Principle</em>'s promotional register is insidiously coy, saying patterns <em>seem to align</em> rather than asserting, so that a rebuttal aimed at the list's flat phrasing beats a straw man. That warning does not apply to the dipole. In the book and on the producer's blog the claim is asserted flat, with three exclamation marks, and the refutation above is aimed at the asserted version: <em>the dipole is not our motion, it is an intrinsic polarity of the universe centred on the Earth's equator</em>. Refuting that is refuting the author.</p>

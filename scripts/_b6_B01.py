@@ -46,7 +46,8 @@ ENTRY = {
           "rotating Earth that surface is curved: Newton derived the planet's oblateness from "
           "this premise alone in 1687, and the sea obliges by standing 21.4 km further from the "
           "centre at the equator than at the poles. The argument needs “level” to mean “planar”, "
-          "and the word has never meant that in the engineering it cites."),
+          "and that sense is a later offshoot of a word that began as the name of a gravity "
+          "instrument."),
 
     passage=dict(
         work="WRK-ROWBOTHAM-1849", pd=True,
@@ -79,7 +80,7 @@ ENTRY = {
 
 <p><strong>2. What &ldquo;level&rdquo; means, in the trade that owns the word.</strong> A level surface is an <em>equipotential</em> surface of the gravity field: a surface along which you can move a mass without doing work on it or extracting work from it. NOAA's National Geodetic Survey puts it in exactly those terms &mdash; &ldquo;<em>We define horizontal motion, when there is no change in potential energy</em>&rdquo;, as against &ldquo;<em>motions along the vertical that are associated with a gain or loss of energy</em>&rdquo; &mdash; and states the consequence for fluids directly: &ldquo;<em>Water will flow as a function of height difference and/or changes in the gravity field. This combination is defined as geopotential.</em>&rdquo; The particular equipotential that best fits global mean sea level is the <strong>geoid</strong>. It is closed, it wraps the planet, it is the reference for every orthometric height ever published, and it is curved. A plumb line hangs along its normal; a bubble level sits in its tangent plane; still water lies in it.</p>
 
-<p>The word's own history says the same thing. &ldquo;Level&rdquo; comes into English in the mid fourteenth century as the name of a <em>tool</em> &mdash; Old French <em>livel</em>, from Latin <em>libella</em>, &ldquo;a balance,&rdquo; the diminutive of <em>libra</em>, the scales. It is named after the instrument that finds the direction of gravity. It never meant &ldquo;planar&rdquo; and was never derived from geometry; it was derived from weighing. An argument that runs &ldquo;we say sea <em>level</em>, not sea <em>curve</em>&rdquo; is an argument about a word whose etymology is a gravity instrument.</p>
+<p>The word's own history says the same thing. &ldquo;Level&rdquo; comes into English in the mid fourteenth century as the name of a <em>tool</em> &mdash; Old French <em>livel</em>, from Latin <em>libella</em>, &ldquo;a balance,&rdquo; the diminutive of <em>libra</em>, the scales. It is named after the instrument that finds the direction of gravity, and the geometric senses are later growths from that root: the Online Etymology Dictionary dates the adjective &ldquo;having an even surface&rdquo; to the early fifteenth century, and &ldquo;lying in the same horizontal plane&rdquo; to the 1550s &mdash; two centuries after the tool. Both are genuine senses of the word, as the steelman above concedes, but neither is the primitive one; and &ldquo;sea level&rdquo; itself descends from the noun sense &ldquo;position as marked by a horizontal line&rdquo; (1530s), which is a height, not a shape. An argument that runs &ldquo;we say sea <em>level</em>, not sea <em>curve</em>&rdquo; leans on the derived sense while presenting it as the original one, and the original one is the name of a gravity instrument.</p>
 
 <p><strong>3. Where the equivocation happens, in numbers.</strong> The argument needs one word to carry two meanings: (a) <em>level</em> = perpendicular to gravity everywhere, and (b) <em>level</em> = lying in a Euclidean plane. Over short runs these are indistinguishable, and the honest thing is to say by how much. Taking R = 6,371 km, a tangent plane departs from the equipotential by d&sup2;/2R:</p>
 <ul>
@@ -244,6 +245,8 @@ ENTRY = {
              url="https://www.britannica.com/place/Nile-River/Physiography"),
         dict(label="Etymology of “level” — Old French livel, Latin libella “a balance”, diminutive of libra “scales”; originally the name of the instrument",
              url="https://etymology.en-academic.com/21893/level"),
+        dict(label="Online Etymology Dictionary, “level” — noun mid-14c. (the tool); “position as marked by a horizontal line” 1530s (as in sea-level); adjective “having an even surface” early 15c.; “lying in the same horizontal plane” 1550s",
+             url="https://www.etymonline.com/word/level"),
         dict(label="Rebuttals to Dubay, 200 Proofs — proof 3 (“the natural physics of water is to find and maintain its level”) and proof 5 (the Nile, “a thousand miles with a fall of only one foot”)",
              url="https://flatearth.ws/eric-dubay")]),
 }

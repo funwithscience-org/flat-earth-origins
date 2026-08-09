@@ -64,14 +64,39 @@ PEOPLE = {
         "the astronomy of his day and engaged its numbers. His observations at the canal "
         "were real observations, repeated over years, and he reported what he actually saw."),
     ignored=(
-        "Two things, and the second is the fatal one. First, atmospheric refraction over "
-        "water — described in the surveying literature he was quoting <em>from</em>, and "
-        "the reason a near-water sightline over a canal is the single worst configuration "
-        "in which to test for curvature. Second, and unanswerable: the southern sky. "
-        "Circumpolar star trails rotating about a <em>southern</em> pole had been logged by "
-        "European navigators for three centuries and were in every nautical almanac he "
-        "could have opened. No single-plane model produces two opposite centres of "
-        "rotation. He did not engage it."),
+        "Two things, and the second is the fatal one. Neither is a case of never having "
+        "looked. Both are cases of looking, and then setting the result aside. "
+        "First, atmospheric refraction over water — which he underrated rather than "
+        "overlooked. He reprints the <em>Encyclopædia Britannica</em> article on Levelling, "
+        "which hands him the mechanism (“the unequal densities of the air at different "
+        "distances from the earth”) and the coefficient (“at a mean … about one-seventh of "
+        "the curvature of the earth”), and then substitutes an allowance of his own — "
+        "“one-twelfth the altitude of the object observed” — which is the wrong variable, "
+        "since refraction scales with the square of the distance and not with the height "
+        "of the target. On Cape Bonavista that substitution deducts 13 feet where the "
+        "encyclopaedia's own mean would take about 90, roughly seven times more. His "
+        "General Index carries both “Experiments showing that refraction does not account "
+        "for the elevation of objects seen at a distance of several miles” and “Refraction "
+        "can only exist where the line of sight passes from one medium into another of "
+        "different density” — and the second is contradicted by the article he had just "
+        "typeset. The consequence is that he tested for curvature in the one configuration, "
+        "a sightline a few inches above still water, where the effect he had cut by a "
+        "factor of seven is largest. "
+        "Second, and unanswerable: the southern sky. Circumpolar star trails rotating about "
+        "a <em>southern</em> pole had been logged by European navigators for three centuries "
+        "and were in every nautical almanac he could have opened. No single-plane model "
+        "produces two opposite centres of rotation. He engaged it, and disqualified it. The "
+        "3rd edition's General Index lists “Stars, north and south, motion of [284]” and "
+        "“Southern Cross [287]”; under the heading “Motion of Stars North and South” he has "
+        "every southern constellation, “pole star included,” sweeping “over a great southern "
+        "arc and across the meridian” about the one northern centre, and treats the Southern "
+        "Cross as a constellation that has simply not yet risen for observers further north. "
+        "He quotes Sir James Clark Ross, Humboldt, and von Spix and von Martius on the "
+        "latitudes at which they first sighted it, and then sets their testimony aside on the "
+        "ground that observers “educated to believe that the earth is a globe … do not examine "
+        "such matters critically.” What he passed over was not the observation. It was the "
+        "observers: when the reading could only come out one way, the people holding the "
+        "instrument stopped counting as witnesses."),
     kernel=dict(
         description=(
             "The zetetic complaint had a real target. Mid-Victorian popular astronomy did "
@@ -109,7 +134,9 @@ PEOPLE = {
 # ─────────────────────────────────────────────── worked example (tychonian)
 "PER-VANDERKAMP": _p(
     name="Walter van der Kamp", dates="5 March 1913 – 26 January 1998",
-    lineage="Tychonian", role="Founder of modern geocentrism. Coined “Airy's failure”.",
+    lineage="Tychonian",
+    role="Founder of modern geocentrism. Earliest documented user of the phrase "
+         "“Airy's failure”.",
     works=["WRK-VDK-1988"],
     bio_status="worked",
     formation=(
@@ -135,10 +162,17 @@ PEOPLE = {
         "for reasons having nothing to do with a stationary Earth. Fresnel's dragging "
         "coefficient predicted Airy's null before Airy ran it; special relativity predicts "
         "it again from the transformation of ray direction between frames. He also passed "
-        "over Michelson–Gale–Pearson (1925), a positive detection of Earth's rotation "
+        "over Michelson–Gale–Pearson (1925), a positive detection of the Earth's rotation "
         "published in the <em>Astrophysical Journal</em>, which measures the very motion he "
-        "denied — and over stellar aberration, which exists at all only because the Earth "
-        "moves, and which his own successor Bouw rebuilt the model to accommodate."),
+        "denied: we do not find it treated anywhere in <em>De Labore Solis</em> (1988), the "
+        "one work of his we hold. Stellar aberration he did <em>not</em> pass over — "
+        "<em>De Labore Solis</em> is a book about it, working through Bradley and Molyneux "
+        "at the chimney stack and resting the whole argument on the aberration angle. What "
+        "he passed over is what aberration is evidence <em>of</em>. He kept Bradley's "
+        "phenomenon and moved the motion — “then the starry sphere swings” — and that book "
+        "does not account for why the swing should imitate the Earth's orbit so exactly. "
+        "His own successor declined to follow him there: Bouw rebuilt the model to keep "
+        "aberration."),
     kernel=dict(
         description=(
             "The underdetermination argument is not crankery. Van der Kamp was right that "
@@ -158,12 +192,19 @@ PEOPLE = {
             "elsewhere relies on.")),
     legacy=(
         "24 items on the list, six distinct arguments, and one phrase that has outlived "
-        "him. “Airy's failure” exists nowhere in the physics literature — every occurrence "
-        "traces to this movement, and Bouw's obituary of him credits the coinage by name, "
-        "calling him “the father of modern geocentricity.” Sungenis inherits the term "
-        "without attribution, writing that the experiment “was called” that, and adding "
-        "the false gloss that it reflects “the thoughts of the experimenters during this "
-        "era.” Airy's own paper is titled neutrally and does not contain the word."),
+        "him. “Airy's failure” is not a term of art in physics: no use of it as a name for "
+        "the 1871 water-telescope experiment has been found outside this movement, and the "
+        "earliest documented occurrence is the subtitle of his own 1988 book. Bouw's "
+        "obituary does not credit him with the coinage — it uses the phrase as settled "
+        "vocabulary, credits his “pioneering work in pointing out the geocentric nature of "
+        "Airy's failure,” and calls him “the father of modern geocentricity.” Sungenis "
+        "inherits the term without attribution, writing that the experiment “was called” "
+        "that, and adding the false gloss that it reflects “the thoughts of the "
+        "experimenters during this era.” Airy's own paper is titled neutrally — “On a "
+        "supposed alteration in the amount of astronomical aberration of light, produced by "
+        "the passage of the light through a considerable thickness of refracting medium,” "
+        "<em>Proceedings of the Royal Society of London</em> 20 (1871), pp. 35–39 — and the "
+        "word “failure” is not located anywhere in it."),
     sources=[
         dict(label="De Labore Solis: Airy's Failure Reconsidered (1988)",
              url="https://geocentricity.com/bibastron/ts_history/de_labore.pdf"),

@@ -29,28 +29,50 @@ Findings a future session should not have to re-derive.
    cause. The line is a pun that reads as a fact. Recommended replacement is
    in the report; the tldr here does not use it.
 
-3. THE KERNEL IS BASE-LINE SCALING. Rowbotham identified the correct
-   discriminating test — parallax is evidence of the Earth's orbit only if the
-   displacement scales with the base line — and then asserted, "as an absolute
-   truth the result of actual experiment", that three feet gives the same
-   answer as the orbit, without describing any experiment. Run properly, that
-   is exactly the test that confirms the orbit.
+3. THE KERNEL IS BASE-LINE SCALING, AND THE EXPERIMENT EXISTS. Rowbotham
+   identified the correct discriminating test — parallax is evidence of the
+   Earth's orbit only if the displacement scales with the base line — and
+   answered it with the two-parallel-tubes trial of pp. 79-81 of the same 1881
+   chapter (za21.htm): two bored tubes "not less than six feet in length", "one
+   yard asunder", axes "perfectly parallel", two observers knocking as a star
+   near meridian enters each tube, result "a distinct period of time will
+   elapse between the signals given". One yard IS three feet, so the p. 86
+   sentence back-references it. We formerly wrote "No experiment follows. No
+   apparatus…" in six places; that was false and is corrected (2026-08-09).
+   The true refutation is stronger: the real angle over one yard is
+   1.7e-12 arcsec against a naked-eye limit near 60 arcsec — ~13 orders of
+   magnitude — so the audible lag measures the misalignment of his own tubes,
+   amplified by the star's diurnal drift of up to ~15 arcsec per second of
+   time. Run properly, the base-line test confirms the orbit.
 
-4. THE LIST REVERSES ITS OWN SOURCE. The descendant claim in Dubay's proof 19
-   is "not a single inch of parallax can be detected in the stars". Rowbotham's
-   text contains the detections. drift_type = reversed.
+4. THE LIST DOES NOT REVERSE ITS SOURCE; THE DESCENDANT DOES. Dubay's proof 19
+   — "not a single inch of parallax can be detected in the stars" — is the
+   reversal, and Rowbotham's text contains the detections. None of the six list
+   items says that: 5/37/264 are scoped true statements promoted to proofs,
+   8/240 are unsourced additions, 103 is faithful. drift_type corrected from
+   "reversed" to "hedge_dropped" (2026-08-09), matching this block's own
+   item-by-item tally. NOT FIXED HERE: the cluster label in clusters.py still
+   reads "No measurable stellar parallax", which overstates the six items; it
+   is outside this file and left for the parent.
+
+5. STAR SIZES: NO SATURN. Graney's Church Life Journal piece gives Locher's
+   figure as "any first-magnitude star well larger than the whole orbit of the
+   Earth", and "Saturn" is not located in Graney & Grayson, arXiv 1003.4918.
+   Our "as wide as Saturn's orbit, on Graney and Grayson's reconstruction" was
+   an invented quantity and is corrected (2026-08-09).
 """
 
 ENTRY = {
 
 "A05": dict(
-    tldr=("The cluster is titled “no measurable stellar parallax” and its own source prints "
+    tldr=("This cluster reads as a denial that parallax is measurable. Its own source prints "
           "the measurements: Henderson's 0.98 arcsec for Alpha Centauri, Bessel's 0.35 arcsec "
           "for a star in Cygnus, both quoted approvingly by Rowbotham. What he actually argued "
           "is that a three-foot base line gives the same displacement as the Earth's orbit — "
-          "the right discriminating test, asserted with no experiment attached. Run it: over "
-          "three feet 61 Cygni shifts by about 1.7 trillionths of an arcsecond, roughly eleven "
-          "million times below what Gaia can resolve."),
+          "the right discriminating test — and he backed it with two six-foot tubes set a yard "
+          "apart, an instrument some thirteen orders of magnitude too coarse to run it. Run it "
+          "properly: over three feet 61 Cygni shifts by about 1.7 trillionths of an arcsecond, "
+          "roughly eleven million times below what Gaia can resolve."),
 
     passage=dict(
         work="WRK-ROWBOTHAM-1865", pd=True,
@@ -92,7 +114,7 @@ ENTRY = {
             "passage to 1881 removes any excuse: it puts Rowbotham 43 years after Bessel, writing "
             "with Henderson&rsquo;s and Bessel&rsquo;s numbers open in front of him &mdash; he "
             "prints them &mdash; and it is in that setting that he answers them with an experiment "
-            "he does not describe.</p>"
+            "whose apparatus cannot resolve the angle in dispute.</p>"
             "<p><strong>Note what he does not say.</strong> He does not say parallax is unobserved. "
             "He recites the failures (Tycho, Kepler, Brinkley&rsquo;s illusory second of arc), then "
             "the successes, then reassigns the successes to a three-foot base line. The compressed "
@@ -133,8 +155,9 @@ ENTRY = {
             "<p><em>First, Tycho&rsquo;s version was a valid deduction from a false premise, and "
             "the false premise was an instrument.</em> Tycho could see that stars appeared to have "
             "real angular diameters. If a star subtends a measurable disc and must also be far "
-            "enough away to show no parallax, then it is physically enormous &mdash; on Graney and "
-            "Grayson&rsquo;s reconstruction, a single star as wide as Saturn&rsquo;s orbit, and "
+            "enough away to show no parallax, then it is physically enormous &mdash; on "
+            "Graney&rsquo;s rendering of Locher, who cites Tycho, any first-magnitude star &ldquo;well "
+            "larger than the whole orbit of the Earth&rdquo;, and "
             "Ingoli&rsquo;s version has the fixed stars &ldquo;surpass or equal the size of the "
             "orbit circle of the Earth itself.&rdquo; That is a real physical absurdity derived by "
             "correct reasoning from an observation anyone could repeat. The observation was wrong, "
@@ -163,8 +186,9 @@ ENTRY = {
             "1.7 &times; 10<sup>&minus;12</sup> arcsec &mdash; roughly eleven million times smaller "
             "than Gaia&rsquo;s median uncertainty of 0.02&ndash;0.03 mas. His &ldquo;equal degree "
             "of parallax from a very minute base line&rdquo; is not a marginal error. It is off by "
-            "eleven orders of magnitude, and he offers no observation for it, which is a strange "
-            "thing to find in a book whose method is to take nothing for granted.</p>"
+            "eleven orders of magnitude, and the only observation he offers for it is a pair of "
+            "hand-aligned tubes on a wooden frame &mdash; a strange foundation in a book whose "
+            "method is to take nothing for granted.</p>"
             "<p><strong>Because the naked-eye point dates the argument instead of supporting "
             "it.</strong> &ldquo;No naked-eye parallax&rdquo; is true and inert. It is the "
             "observation that <em>every</em> annual parallax is smaller than one arcsecond, which "
@@ -221,19 +245,42 @@ ENTRY = {
         "the fault is. He now engages, prints the numbers, and answers them with a factual claim "
         "&mdash; three feet gives the same parallax as the orbit &mdash; introduced with the words "
         "&ldquo;it is only necessary to state as an absolute truth the result of actual "
-        "experiment.&rdquo; No experiment follows. No apparatus, no star, no date, no observer, no "
-        "number. In a book whose founding rule is to proceed &ldquo;only by inquiry; to take "
-        "nothing for granted,&rdquo; the load-bearing measurement of the chapter is taken for "
-        "granted. <strong>This is not anachronism, it is the opposite:</strong> he had the data, "
-        "he quoted the data, and he set it aside on the authority of an experiment he did not "
-        "perform.</p>"
+        "experiment.&rdquo; The experiment is there, and it is the weak point. Seven pages "
+        "earlier, at pp. 79&ndash;81 of the same chapter, he sets out the apparatus: two "
+        "carefully-bored metallic tubes &ldquo;not less than six feet in length&rdquo;, placed "
+        "&ldquo;one yard asunder&rdquo; on a wooden frame and adjusted so that their axes of "
+        "vision &ldquo;shall be perfectly parallel to each other&rdquo;, directed at a notable "
+        "fixed star a few seconds before its meridian time, with an observer at each tube "
+        "knocking the moment the star enters his field. His reported result is that &ldquo;a "
+        "distinct period of time will elapse between the signals given&rdquo; &mdash; the same "
+        "star is &ldquo;not visible at the same moment by two parallel lines of sight &hellip; "
+        "when only one yard asunder.&rdquo; One yard is three feet, so the p. 86 sentence we "
+        "quote is a back-reference to that trial rather than a bare assertion.</p>"
+        "<p><strong>The trouble is what the rig can resolve.</strong> Over a one-yard base line "
+        "61 Cygni is displaced by about 1.7 &times; 10<sup>&minus;12</sup> arcsec, while a naked "
+        "eye behind an unmagnifying six-foot tube resolves no better than about a minute of arc "
+        "&mdash; some thirteen orders of magnitude coarser. Two genuinely parallel tubes a yard "
+        "apart must therefore show the star at the same instant. A lag between the knocks "
+        "measures one quantity only: the residual angle between the two axes, which the "
+        "star&rsquo;s diurnal motion &mdash; up to about 15 arcsec per second of time &mdash; "
+        "turns into a delay long enough to hear. Rowbotham sees the mechanism and reads it the "
+        "other way, noting that &ldquo;a slight inclination of the tube, B, C, towards the first "
+        "tube A, S, would be required for the star, S, to be seen through both tubes at the same "
+        "instant.&rdquo; He names no star, no date, no observer and no measured angle, and he "
+        "reports no alignment control &mdash; reversing the frame end for end, or repeating the "
+        "trial on a second star, would have separated the sky from the woodwork. In a book whose "
+        "founding rule is to proceed &ldquo;only by inquiry; to take nothing for granted,&rdquo; "
+        "the one check that would have told him which of the two he was reading is the one not "
+        "made. <strong>This is not anachronism, it is the opposite:</strong> he had the data, he "
+        "quoted the data, and he set it aside on the authority of an instrument that reads out "
+        "its own construction error.</p>"
 
         "<p><strong>3. The classical objection was rigorous, and it died of measurement.</strong> "
         "Ptolemy&rsquo;s reason for a stationary Earth, and far more sharply Tycho&rsquo;s, was "
         "that no stellar displacement is seen. Tycho&rsquo;s version is the one that deserves "
         "respect: stars appeared to have angular diameters, so a star distant enough to hide its "
-        "parallax would have to be physically vast &mdash; as wide as Saturn&rsquo;s orbit, on "
-        "Graney&rsquo;s reconstruction; Ingoli, following Tycho, has the fixed stars "
+        "parallax would have to be physically vast &mdash; larger than the whole orbit of the "
+        "Earth, on Graney&rsquo;s account of Locher; Ingoli, following Tycho, has the fixed stars "
         "&ldquo;surpass or equal the size of the orbit circle of the Earth itself.&rdquo; Valid "
         "reasoning, absurd conclusion, and therefore &mdash; correctly, by the standards of the "
         "time &mdash; a reason to reject the premise. The premise that was false was the "
@@ -326,7 +373,8 @@ ENTRY = {
         "&mdash; entered twice, 227 apart. One of the three exact duplicate pairs in the whole "
         "461-item specimen falls inside this one cluster of six. Two more items (5 and 37/264) "
         "are true statements with their scope intact, sitting in a numbered list of evidence for a "
-        "stationary Earth. Two (8 and 240) have no counterpart anywhere in the source we credit. "
+        "stationary Earth. Two (8 and 240) have no counterpart in either text we searched &mdash; "
+        "the 1865 first book edition and the 1881 third edition&rsquo;s ch. III. "
         "One (103) is a fair compression of a real argument. That distribution is not what a "
         "reading of Rowbotham produces; it is what paraphrase-expansion of a handful of stock "
         "sentences produces, and the duplicate is the fingerprint.</p>"
@@ -336,7 +384,8 @@ ENTRY = {
         "inverse-distance amplitude that only a moving Earth predicts. The source&rsquo;s own "
         "chapter contains the measurements the list says do not exist, and the one claim that "
         "would defeat them &mdash; equal parallax from a three-foot base line &mdash; is wrong by "
-        "eleven orders of magnitude and was published without an experiment.</p>"),
+        "eleven orders of magnitude, and the experiment offered for it measures the alignment of "
+        "his own tubes.</p>"),
 
     advocate=dict(
         best_defense=(
@@ -404,17 +453,25 @@ ENTRY = {
                         "fixed star will, when observed from the two ends of a base line of not "
                         "more than three feet, give a parallax equal to that which it is said is "
                         "observed only from the two extremities of the earth&rsquo;s orbit.&rdquo;"),
-        drift_type="reversed",
+        drift_type="hedge_dropped",
         note=(
-            "<p><strong>The dominant drift is a straight reversal.</strong> The cluster is headed "
-            "&ldquo;No measurable stellar parallax&rdquo; and its modern descendant, Dubay&rsquo;s "
-            "proof 19, says &ldquo;not a single inch of parallax can be detected in the stars.&rdquo; "
-            "The source says parallax <em>is</em> detected, quotes two values to two decimal places, "
-            "and argues about its <em>cause</em>. Rowbotham&rsquo;s claim is that the cause is a "
+            "<p><strong>The dominant drift is a qualifier doing no work.</strong> Items 5, 37 and "
+            "264 keep their scope &mdash; <em>early</em> measurements, <em>naked-eye</em> parallax "
+            "&mdash; and as written are simply true; what changes is that a scoped historical "
+            "observation is entered as a numbered proof of a stationary Earth, where the reader "
+            "supplies the generalisation the sentence withholds. Note what the list does "
+            "<em>not</em> do: no item in it denies that parallax is detected. That denial arrives "
+            "downstream, in Dubay&rsquo;s proof 19 &mdash; &ldquo;not a single inch of parallax "
+            "can be detected in the stars, proving we have not moved at all&rdquo; &mdash; and "
+            "<em>that</em> is a straight reversal of the source, which quotes two values to two "
+            "decimal places, 0&Prime;.98 and 0&Prime;.35, and argues about their <em>cause</em>: a "
             "three-foot base line rather than a 186-million-mile one. That is a falsifiable claim "
-            "about base-line scaling; &ldquo;no parallax exists&rdquo; is a different and weaker "
-            "one, and it is the one the list carries.</p>"
-            "<p><strong>The other five drifts, item by item, because they are not all the same "
+            "about base-line scaling, and it is a different and stronger claim than &ldquo;no "
+            "parallax exists.&rdquo; The reversal also shaped this cluster&rsquo;s label and the "
+            "drift type this block used to carry, both of which read the downstream slogan back "
+            "onto the six items; the drift type is corrected above. A summary that overstates the "
+            "items it summarises is the same fault we are documenting.</p>"
+            "<p><strong>The six items, one by one, because they are not all the same "
             "type.</strong></p>"
             "<ul>"
             "<li><strong>Items 5, 37 and 264</strong> &mdash; <em>hedge_dropped shading into "
@@ -424,8 +481,9 @@ ENTRY = {
             "historical observation appears in a numbered list of proofs of a stationary Earth, "
             "where the qualifier does no work and the reader supplies the missing generalisation. "
             "Nothing was misquoted; a true sentence was promoted to a proof.</li>"
-            "<li><strong>Items 8 and 240</strong> &mdash; <em>unsourced_addition</em>. Neither "
-            "appears in the work we credit, in either edition. &ldquo;Constant stellar angular "
+            "<li><strong>Items 8 and 240</strong> &mdash; <em>unsourced_addition</em>. Neither is "
+            "located in the 1865 first book edition (Project Gutenberg #69892) or in ch. III of "
+            "the 1881 third edition, the two texts searched. &ldquo;Constant stellar angular "
             "sizes&rdquo; is Tycho&rsquo;s star-size objection arriving without Tycho and without "
             "the diffraction that dissolved it; &ldquo;Stellar proper motion tiny&rdquo; imports a "
             "phenomenon Rowbotham never mentions and, on inspection, one that argues against him. "

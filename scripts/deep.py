@@ -104,25 +104,31 @@ DEEP = {
     tldr=("Airy filled a telescope with water and found stellar aberration unchanged. "
           "That null is exactly what Fresnel predicted before him and what relativity "
           "predicts today. Calling it a “failure” inverts what the experiment showed — "
-          "and aberration exists at all only because the Earth moves."),
+          "and the aberration it measures is produced by the observer's motion, which is "
+          "why the geocentric version of the argument needs a universe 60 light-days across."),
 
     passage=dict(
-        work="WRK-VDK-1988", locator="subtitle, and ch. “The Unfailing Import of Airy's Failure”, p. 52",
+        work="WRK-SUNGENIS-2006",
+        locator=("Vol. I, p. 853 of the Internet Archive scan (item GallileoWasWrong); "
+                 "printed page approx. 841, not yet checked against a print copy"),
         pd=False,
         quote=("In fact, this experiment was called “Airy's failure,” because it "
                "contradicted the heliocentric metaphysics. The term “Airy's failure” "
                "gives psychological insight to the thoughts of the experimenters "
                "during this era."),
-        gloss=("Quoted from Sungenis &amp; Bennett, <em>Galileo Was Wrong</em> Vol. I, which "
-               "inherits the phrase from van der Kamp. Note the passive voice — "
+        gloss=("Sungenis and Bennett inherit the phrase from van der Kamp, whose 1988 book "
+               "carries it in the subtitle and as a chapter title (“The Unfailing Import of "
+               "Airy's Failure”, p. 52). Note the passive voice — "
                "<em>was called</em> — and the claim about what Airy's contemporaries "
                "thought. Both are checkable, and both fail. Airy's own paper is titled "
                "neutrally: <em>“On a supposed alteration in the amount of Astronomical "
                "Aberration of light, produced by the passage of light through a "
                "considerable thickness of Refracting Medium,”</em> Proc. Roy. Soc. London "
-               "(1871), pp. 35–39. It does not contain the word “failure.” The phrase is "
+               "(1871), pp. 35–39. The word “failure” is not in that title. The phrase is "
                "internal to the movement: its earliest documented use is van der Kamp's "
-               "1988 subtitle, and Bouw's obituary credits him with the coinage by name.")),
+               "1988 subtitle, and Bouw's obituary of him uses it as settled vocabulary, "
+               "crediting van der Kamp with “pioneering work in pointing out the geocentric "
+               "nature of Airy's failure”.")),
 
     steelman=dict(
         description=(
@@ -159,15 +165,25 @@ DEEP = {
         "<p><strong>2. What the null rules out.</strong> Klinkerfues's stationary-aether "
         "prediction. That is a hypothesis about the <em>aether</em>, not about the Earth. "
         "Airy's result killed one aether model and left the Earth's motion untouched.</p>"
-        "<p><strong>3. What aberration itself implies.</strong> This is the step the "
-        "argument never takes, and it is fatal. Stellar aberration is the annual ~20.5″ "
-        "elliptical wobble Bradley discovered in 1729, and it exists <em>because the "
-        "observer is moving</em>. On a stationary Earth there is no relative velocity "
-        "between source and observer, so there is no aberration to have a magnitude at "
-        "all. The argument takes an experiment that measures a consequence of Earth's "
-        "orbital motion, shows the magnitude is medium-independent, and reports this as "
-        "evidence the Earth does not move. The phenomenon being measured is the "
-        "refutation.</p>"
+        "<p><strong>3. What aberration itself implies.</strong> The annual ~20.5″ ellipse "
+        "Bradley discovered in 1729 tracks the <em>observer's</em> velocity: it follows the "
+        "Earth's orbit, and it is the same ~20.5″ for every star, whatever that star's "
+        "distance, proper motion or direction of travel. Van der Kamp did not miss this. "
+        "His answer was to move the sky instead — the Earth at rest, with “the starry dome "
+        "… revolving relative to us” (<em>De Labore Solis</em>, p. 40) — and to keep the "
+        "dome's tangential speed below <em>c</em> he had to shrink the cosmos: Bouw's "
+        "obituary records that “Walter believed [aberration] implied a small universe 60 "
+        "light days in radius.” That is the price of the model, and it is where the "
+        "refutation lands. A revolving sky generates aberration from the sources' own "
+        "tangential speeds, which on a rigidly turning sky grow with distance, so getting "
+        "the same angle for every star requires every star to sit at the same distance. "
+        "The measured parallaxes say otherwise: they run from Proxima Centauri's 0.768″ "
+        "down to microarcseconds, which puts Proxima alone about 1,550 light-days away, "
+        "and Gaia DR3 publishes them for about 1.47 billion sources. Aberration is flat "
+        "across that whole range and parallax is not — which is what a moving observer "
+        "predicts and a moving sky cannot deliver. So the argument takes an experiment "
+        "that measures a consequence of the Earth's orbital motion, shows the magnitude is "
+        "medium-independent, and reports this as evidence the Earth does not move.</p>"
         "<p>The rebranding is the tell. An experiment whose result matched the standing "
         "prediction is not a failure in any sense a physicist would recognise; it is a "
         "confirmation. The word does no work except to make a confirmation sound like a "
@@ -232,8 +248,12 @@ DEEP = {
              url="https://en.wikipedia.org/wiki/Aberration_(astronomy)"),
         dict(label="van der Kamp, De Labore Solis (1988) — earliest documented use of the phrase",
              url="https://geocentricity.com/bibastron/ts_history/de_labore.pdf"),
-        dict(label="Bouw's obituary crediting van der Kamp with the coinage",
+        dict(label="Bouw's obituary of van der Kamp — “pioneering work in pointing out the "
+                   "geocentric nature of Airy's failure”, and the 60-light-day universe",
              url="https://www.geocentricity.com/ba1/no084/obits.pdf"),
+        dict(label="Sungenis & Bennett, Galileo Was Wrong Vol. I — Internet Archive scan "
+                   "(item GallileoWasWrong); the “Airy's failure” sentence at scan p. 853",
+             url="https://archive.org/details/GallileoWasWrong"),
         dict(label="Fizeau experiment — Fresnel drag confirmed experimentally, 1851",
              url="https://en.wikipedia.org/wiki/Fizeau_experiment"),
         dict(label="Experimental basis of special relativity (Baez) — “in agreement with the prediction of SR”",

@@ -371,10 +371,19 @@ check("R08 does not open by refuting the fragments",
 _r06 = ARGS["ARG-R06"]["deep"]["refutation"]
 check("R06 concedes the source's sentence is correct",
       "What the source says is correct" in _r06)
-check("R06 states the six unlocatable titles BEFORE refuting any of them",
-      _r06.index("could not be found in the source") < _r06.index("Kind 1"))
+# NB the wording moved on 2026-08-09 from "could not be found in the source" to
+# "could not be located in the volume we were able to search" - the absence-claim
+# rule requires naming the text searched. Test the INTENT (stated before anything is
+# refuted) and the scoping, not one phrasing.
+_r06_absence = _r06.find("could not be located in")
+check("R06 scopes its unlocatable-titles claim to the text actually searched",
+      _r06_absence > 0 and "volume we were able to search" in _r06)
+check("R06 states the unlocatable titles BEFORE refuting any of them",
+      0 < _r06_absence < _r06.index("Kind 1"))
+# Test the three caveats themselves, not the sentence that used to carry them.
 check("R06 keeps the caveats on that count",
-      "not located in the scanned text" in _r06 and "OCR quality is variable" in _r06)
+      "multi-volume work" in _r06 and "OCR quality is variable" in _r06
+      and "unable to re-run the search independently" in _r06)
 check("R06 leaves the anthropic reversal unsettled rather than asserting it",
       "unsettled rather than claim a reversal" in _r06)
 check("R06 attributes the remaining items to an unknown author",
@@ -527,7 +536,11 @@ check("C02 names the repopularisers who carried it, without calling them authors
 check("the page renders the pre-modern state rather than a blank",
       "older than the movement" in PAGE and "Listed as distributors, not authors" in PAGE)
 
-UNSCOPED_CEILING = 11
+# 11 -> 4 on 2026-08-09 after the sweep-application pass rescoped seven of them.
+# RATCHET: this number goes down, never up. The four survivors are C04, C05 and D07
+# (claims about our own 461-item corpus, where "the text searched" is the corpus and
+# a reader can check it) and one in R06. Lower it again as they are scoped.
+UNSCOPED_CEILING = 4
 check(f"unscoped absence-claims do not increase ({_unscoped}/{UNSCOPED_CEILING})",
       _unscoped <= UNSCOPED_CEILING, _unscoped)
 

@@ -196,7 +196,14 @@ CLUSTERS = {
 
 # ---------------------------------------------------------------- A-REL
 "R01": dict(lane="A-REL", name="General covariance permits a stationary-Earth frame",
-    originator="Walter van der Kamp", originator_work="The Heart of the Matter", year="1968",
+    # Corrected 2026-08-09. Credited to The Heart of the Matter (1968), but every scrap of
+    # evidence in the treatment - passage, gloss, compression comparison - comes from
+    # De Labore Solis (1988). We have not read the 1968 text. Cite the earliest text we can
+    # actually quote, per the standing rule against asserting what a source we have not read
+    # contains. (That string occurs three times in this file; this edit is anchored on the
+    # R01 key, after a batch-7 edit anchored on a shared field line landed on the wrong cluster.)
+    originator="Walter van der Kamp",
+    originator_work="De Labore Solis: Airy's Failure Reconsidered", year="1988",
     real_source="Einstein, general relativity (1915)",
     verdict="STANDARD PHYSICS",
     note="CAREFUL CASE. The true part must be conceded: you may write physics in any coordinates. But coordinate freedom is not physical rest — in Earth-centred coordinates the rest of the universe acquires enormous fictitious forces, which is the observable difference."),
@@ -388,8 +395,18 @@ CLUSTERS = {
     originator="Wilbur Glenn Voliva", originator_work="Zion sermons", year="1915",
     real_source=None, verdict="UNFALSIFIABLE", note="A theological claim about purpose, not geometry."),
 "C07": dict(lane="C", name="Patristic, scholastic and church-tradition affirmation",
-    originator="Robert Sungenis", originator_work="Galileo Was Wrong, Vol. III", year="2006",
-    real_source=None, verdict="NOT DEMONSTRATED", note="Appeal to authority; also historically contested."),
+    # Corrected 2026-08-09. "Vol. III (2006)" cannot exist: the copyright page of the volume
+    # we hold records five previous editions in TWO volumes, 2005-2010, and a sixth edition in
+    # three volumes from January 2013. Our own gloss already said this was "not a citation that
+    # can exist" while the record went on asserting it - the sweep's pattern 4, self-criticism
+    # shipped as prose instead of applied as a fix. real_source added: Bellarmine is the
+    # argument's documented earlier hand, quoted and credited by Sungenis himself.
+    originator="Robert Sungenis",
+    originator_work="Galileo Was Wrong, Vol. III (three-volume edition)", year="2013",
+    real_source="Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",
+    verdict="NOT DEMONSTRATED", note="Appeal to authority; also historically contested. The "
+    "tradition invoked is geocentric AND spherical-Earth - Sungenis himself records that "
+    "Lactantius was the only Father who held the Earth non-spherical."),
 "C08": dict(lane="C", name="Liturgy, calendar and eastward orientation as cosmology",
     originator=None, originator_work=None, year=None, real_source=None,
     verdict="NOT DEMONSTRATED", note="Ritual practice keyed to apparent sky motion is not a measurement of the sky."),
@@ -466,7 +483,9 @@ CLUSTERS = {
     real_source=None, verdict="MISLEADING",
     note="Rhetorically effective and substantively empty: an unexplained residual in a theory is not evidence for a specific alternative, least of all one with no quantitative model."),
 "D15": dict(lane="D", name="The Galileo affair was scientific, not religious",
-    originator="Robert Sungenis", originator_work="Galileo Was Wrong, Vol. III", year="2006",
+    # Corrected 2026-08-09, same impossible pairing as C07: no Vol. III existed in 2006.
+    originator="Robert Sungenis",
+    originator_work="Galileo Was Wrong, Vol. III (three-volume edition)", year="2013",
     real_source=None, verdict="NOT DEMONSTRATED", note="A history-of-science claim with no bearing on the Earth's motion either way."),
 "D16": dict(lane="D", name="World mythologies depict a circling sun or a covering sky",
     originator=None, originator_work=None, year=None, real_source=None,

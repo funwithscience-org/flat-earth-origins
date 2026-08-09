@@ -22,9 +22,9 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 21,Ancient cosmologies uniformly geocentric.,D,D,ARG-D01,D01,All ancient cultures were geocentric,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
 22,Tycho Brahe's hybrid model.,D,D,ARG-D02,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
 23,Ptolemaic predictive accuracy.,D,D,ARG-D03,D03,Geocentric/Ptolemaic models made accurate predictions,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,STANDARD PHYSICS
-24,Church consistency with Scripture.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
+24,Church consistency with Scripture.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III (three-volume edition)",2013,"Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",NOT DEMONSTRATED
 25,Pre-Copernican universal geocentrism.,D,D,ARG-D01,D01,All ancient cultures were geocentric,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
-26,Relativity permits stationary Earth frame.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+26,Relativity permits stationary Earth frame.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"Einstein, general relativity (1915)",STANDARD PHYSICS
 27,Mach's principle supports fixed Earth possibility.,A,A-REL,ARG-R02,R02,Mach's principle / relational mechanics allows a fixed Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Ernst Mach, The Science of Mechanics (1883)",STANDARD PHYSICS
 28,Einstein's equivalence of motion.,A,A-REL,ARG-R04,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
 29,No experiment proving absolute motion.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
@@ -49,14 +49,14 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 48,Plumb lines perpendicular worldwide.,B,B,ARG-B09,B09,Plumb lines are perpendicular everywhere,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
 49,Atmosphere concentric layers.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 50,Engineering curvature corrections unnecessary.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
-51,Relativity allows Earth-centered math.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+51,Relativity allows Earth-centered math.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"Einstein, general relativity (1915)",STANDARD PHYSICS
 52,Indistinguishable rotating universe equivalence.,A,A-REL,ARG-R05,R05,GR admits rotating-universe solutions / frame dragging,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gödel 1949; Lense–Thirring 1918; Gravity Probe B,MISLEADING
 53,Conservation of momentum paradox.,A,A-EXP,ARG-A17,A17,Conservation-of-momentum paradox for a moving Earth,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
 54,"No wind drag from 67,000 mph orbit.",A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 55,Equatorial bulge alternative cause.,A,A-EXP,ARG-A13,A13,No centrifugal effects felt; equatorial bulge has another cause,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
 56,Water rotation electromagnetic explanation.,A,A-EXP,ARG-A09,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
 57,Equivalence principle permits rest frame.,A,A-REL,ARG-R04,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
-58,Relativistic coordinates Earth-valid.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+58,Relativistic coordinates Earth-valid.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"Einstein, general relativity (1915)",STANDARD PHYSICS
 59,Light bending symmetric about Earth.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
 60,Redshift symmetry concentric around Earth.,E,E,ARG-E12,E12,Redshift quantization in concentric shells around Earth,Gerardus Bouw,Geocentricity,1992,Tifft 1976; refuted by 2dF/SDSS surveys,REFUTED
 61,Psalm 93:1 immovable world.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
@@ -75,8 +75,8 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 74,Ancient temple as cosmic model.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
 75,Divine order centered on man.,C,C,ARG-C06,C06,Anthropocentric creation / Earth as footstool,Wilbur Glenn Voliva,Zion sermons,1915,,UNFALSIFIABLE
 76,Occult roots of heliocentrism.,D,D,ARG-D10,D10,Heliocentrism has occult/masonic roots,Marshall Hall,The Earth is not Moving,1991,,NOT DEMONSTRATED
-77,Early theologians affirmed geocentrism.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
-78,Medieval hierarchy centered on Earth.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
+77,Early theologians affirmed geocentrism.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III (three-volume edition)",2013,"Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",NOT DEMONSTRATED
+78,Medieval hierarchy centered on Earth.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III (three-volume edition)",2013,"Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",NOT DEMONSTRATED
 79,Sun's circuit divine metaphor.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,,,,,UNFALSIFIABLE
 80,Observation inherently geocentric.,D,D,ARG-D11,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
 81,No empirical distinction of motion.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
@@ -116,14 +116,14 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 115,GPS Sagnac confirmation.,A,A-EXP,ARG-A02,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
 116,CMB ecliptic alignment.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
 117,Quasar alignment with ecliptic.,E,E,ARG-E04,E04,Quasar polarization alignment and large quasar groups,,,,"Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
-118,Relativistic invariance of frame.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+118,Relativistic invariance of frame.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"Einstein, general relativity (1915)",STANDARD PHYSICS
 119,All ancient cultures geocentric.,D,D,ARG-D01,D01,All ancient cultures were geocentric,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
 120,Plato's Timaeus central Earth.,D,D,ARG-D02,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
 121,Aristotle's unmoved mover.,D,D,ARG-D02,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
 122,Ptolemy's spheres.,D,D,ARG-D02,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
 123,Tycho's geo-heliocentric compromise.,D,D,ARG-D02,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
-124,Early Church fathers.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
-125,Galileo debate empirical not faith.,D,D,ARG-D15,D15,"The Galileo affair was scientific, not religious",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
+124,Early Church fathers.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III (three-volume edition)",2013,"Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",NOT DEMONSTRATED
+125,Galileo debate empirical not faith.,D,D,ARG-D15,D15,"The Galileo affair was scientific, not religious",Robert Sungenis,"Galileo Was Wrong, Vol. III (three-volume edition)",2013,,NOT DEMONSTRATED
 126,Temples as world-centers.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
 127,Medieval art concentric heavens.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
 128,Navigation charts fixed pole.,B,B,ARG-B12,B12,Polar navigation and dead reckoning imply a dome/disc,Charles K. Johnson,Flat Earth News,1972,,REFUTED
@@ -131,7 +131,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 130,Einstein admission of equivalence.,A,A-REL,ARG-R04,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
 131,No absolute frame.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
 132,Equivalence principle validation.,A,A-REL,ARG-R04,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
-133,GR geocentric solutions possible.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+133,GR geocentric solutions possible.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"Einstein, general relativity (1915)",STANDARD PHYSICS
 134,No orbital acceleration detected.,A,A-EXP,ARG-A26,A26,No orbital acceleration or rotation has ever been directly detected,Walter van der Kamp,De Labore Solis,1988,,SELF-CONTRADICTED
 135,Inertial frame symmetry.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
 136,Quantum observer centrality.,A,A-REL,ARG-R10,R10,Quantum observer-defined frames put the observer at the centre,,,,,MISLEADING
@@ -270,15 +270,15 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 269,Cloud opposite spin.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 270,Ring stability issue.,A,A-EXP,ARG-A25,A25,Orbital / lunar / ring stability objections,,,,,NOT DEMONSTRATED
 271,Lightning frequency sun path.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
-272,Any point inertial possible.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+272,Any point inertial possible.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"Einstein, general relativity (1915)",STANDARD PHYSICS
 273,GR allows rotating universe.,A,A-REL,ARG-R05,R05,GR admits rotating-universe solutions / frame dragging,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gödel 1949; Lense–Thirring 1918; Gravity Probe B,MISLEADING
 274,Lense–Thirring frame dragging.,A,A-REL,ARG-R05,R05,GR admits rotating-universe solutions / frame dragging,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gödel 1949; Lense–Thirring 1918; Gravity Probe B,MISLEADING
 275,Mach inertia relation.,A,A-REL,ARG-R02,R02,Mach's principle / relational mechanics allows a fixed Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Ernst Mach, The Science of Mechanics (1883)",STANDARD PHYSICS
 276,Only relative motion observable.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
-277,GR coordinate freedom.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+277,GR coordinate freedom.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"Einstein, general relativity (1915)",STANDARD PHYSICS
 278,Metric tensors Earth-centered.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
 279,Null experiments fit rest Earth.,A,A-EXP,ARG-A01,A01,Michelson–Morley null proves Earth is not moving,Walter van der Kamp,The Heart of the Matter,1968,"Michelson & Morley 1887, Am. J. Sci. 34:333",STANDARD PHYSICS
-280,Einstein equations symmetric.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,The Heart of the Matter,1968,"Einstein, general relativity (1915)",STANDARD PHYSICS
+280,Einstein equations symmetric.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"Einstein, general relativity (1915)",STANDARD PHYSICS
 281,Sagnac proves apparatus rotation.,A,A-EXP,ARG-A02,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
 282,GPS Earth-centered corrections.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
 283,ECI/ECEF transforms geocentric.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
@@ -425,8 +425,8 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 424,Tobit 13 dome heaven.,C,C,ARG-C04,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
 425,1 Enoch concentric heavens.,C,C,ARG-C04,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
 426,Jubilees lights for Earth.,C,C,ARG-C04,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
-427,Church Fathers affirm rest.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
-428,Scholastics harmonize Aristotle.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
+427,Church Fathers affirm rest.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III (three-volume edition)",2013,"Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",NOT DEMONSTRATED
+428,Scholastics harmonize Aristotle.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III (three-volume edition)",2013,"Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",NOT DEMONSTRATED
 429,Liturgy calendar solar.,C,C,ARG-C08,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
 430,Temple as cosmos model.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
 431,Sacred east orientation.,C,C,ARG-C08,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
@@ -441,9 +441,9 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 440,Temple architecture mirroring revolving heavens.,D,D,ARG-D08,D08,"Temple, cathedral and Dendera-zodiac architecture as cosmology",Manly P. Hall,The Secret Teachings of All Ages,1928,"Dendera zodiac, Louvre E 13482, dated c. 50 BCE",SELF-CONTRADICTED
 441,Processional worship keyed to sun/moon over Earth.,C,C,ARG-C08,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
 442,Sacred calendars anchored to Earth-based observations.,C,C,ARG-C08,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
-443,Early catechisms reflecting immovable Earth language.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
-444,Medieval sermons describing concentric heavens.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
-445,Patristic commentaries on the sun's “course.”,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III",2006,,NOT DEMONSTRATED
+443,Early catechisms reflecting immovable Earth language.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III (three-volume edition)",2013,"Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",NOT DEMONSTRATED
+444,Medieval sermons describing concentric heavens.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III (three-volume edition)",2013,"Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",NOT DEMONSTRATED
+445,Patristic commentaries on the sun's “course.”,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III (three-volume edition)",2013,"Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",NOT DEMONSTRATED
 446,Liturgical eastward orientation assumes sun's path.,C,C,ARG-C08,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
 447,Monastic timekeeping by geocentric sky cycles.,C,C,ARG-C08,C08,"Liturgy, calendar and eastward orientation as cosmology",,,,,NOT DEMONSTRATED
 448,Church art: mandorla over Earth-centered cosmos.,C,C,ARG-C09,C09,Church art and iconography as cosmology,,,,,UNFALSIFIABLE

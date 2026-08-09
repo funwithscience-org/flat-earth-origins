@@ -2154,8 +2154,8 @@
       "basis": "CAREFUL CASE. The true part must be conceded: you may write physics in any coordinates. But coordinate freedom is not physical rest — in Earth-centred coordinates the rest of the universe acquires enormous fictitious forces, which is the observable difference.",
       "originator": "Walter van der Kamp",
       "originator_id": "PER-VANDERKAMP",
-      "originator_work": "The Heart of the Matter",
-      "originator_year": "1968",
+      "originator_work": "De Labore Solis: Airy's Failure Reconsidered",
+      "originator_year": "1988",
       "real_source_cited": "Einstein, general relativity (1915)",
       "pre_modern": null,
       "items": [
@@ -3885,12 +3885,12 @@
       "family": "C",
       "name": "Patristic, scholastic and church-tradition affirmation",
       "verdict": "NOT DEMONSTRATED",
-      "basis": "Appeal to authority; also historically contested.",
+      "basis": "Appeal to authority; also historically contested. The tradition invoked is geocentric AND spherical-Earth - Sungenis himself records that Lactantius was the only Father who held the Earth non-spherical.",
       "originator": "Robert Sungenis",
       "originator_id": "PER-SUNGENIS",
-      "originator_work": "Galileo Was Wrong, Vol. III",
-      "originator_year": "2006",
-      "real_source_cited": null,
+      "originator_work": "Galileo Was Wrong, Vol. III (three-volume edition)",
+      "originator_year": "2013",
+      "real_source_cited": "Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",
       "pre_modern": null,
       "items": [
         24,
@@ -4718,8 +4718,8 @@
       "basis": "A history-of-science claim with no bearing on the Earth's motion either way.",
       "originator": "Robert Sungenis",
       "originator_id": "PER-SUNGENIS",
-      "originator_work": "Galileo Was Wrong, Vol. III",
-      "originator_year": "2006",
+      "originator_work": "Galileo Was Wrong, Vol. III (three-volume edition)",
+      "originator_year": "2013",
       "real_source_cited": null,
       "pre_modern": null,
       "items": [
@@ -5969,8 +5969,8 @@
       "lane": "A-REL",
       "name": "General covariance permits a stationary-Earth frame",
       "originator": "Walter van der Kamp",
-      "originator_work": "The Heart of the Matter",
-      "year": "1968",
+      "originator_work": "De Labore Solis: Airy's Failure Reconsidered",
+      "year": "1988",
       "real_source": "Einstein, general relativity (1915)",
       "verdict": "STANDARD PHYSICS",
       "note": "CAREFUL CASE. The true part must be conceded: you may write physics in any coordinates. But coordinate freedom is not physical rest — in Earth-centred coordinates the rest of the universe acquires enormous fictitious forces, which is the observable difference."
@@ -6313,11 +6313,11 @@
       "lane": "C",
       "name": "Patristic, scholastic and church-tradition affirmation",
       "originator": "Robert Sungenis",
-      "originator_work": "Galileo Was Wrong, Vol. III",
-      "year": "2006",
-      "real_source": null,
+      "originator_work": "Galileo Was Wrong, Vol. III (three-volume edition)",
+      "year": "2013",
+      "real_source": "Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",
       "verdict": "NOT DEMONSTRATED",
-      "note": "Appeal to authority; also historically contested."
+      "note": "Appeal to authority; also historically contested. The tradition invoked is geocentric AND spherical-Earth - Sungenis himself records that Lactantius was the only Father who held the Earth non-spherical."
     },
     "C08": {
       "lane": "C",
@@ -6493,8 +6493,8 @@
       "lane": "D",
       "name": "The Galileo affair was scientific, not religious",
       "originator": "Robert Sungenis",
-      "originator_work": "Galileo Was Wrong, Vol. III",
-      "year": "2006",
+      "originator_work": "Galileo Was Wrong, Vol. III (three-volume edition)",
+      "year": "2013",
       "real_source": null,
       "verdict": "NOT DEMONSTRATED",
       "note": "A history-of-science claim with no bearing on the Earth's motion either way."
@@ -7066,9 +7066,9 @@
       "cluster_id": "C07",
       "cluster_name": "Patristic, scholastic and church-tradition affirmation",
       "originator": "Robert Sungenis",
-      "originator_work": "Galileo Was Wrong, Vol. III",
-      "originator_year": "2006",
-      "real_source_cited": null,
+      "originator_work": "Galileo Was Wrong, Vol. III (three-volume edition)",
+      "originator_year": "2013",
+      "real_source_cited": "Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",
       "verdict": "NOT DEMONSTRATED"
     },
     {
@@ -7096,8 +7096,8 @@
       "cluster_id": "R01",
       "cluster_name": "General covariance permits a stationary-Earth frame",
       "originator": "Walter van der Kamp",
-      "originator_work": "The Heart of the Matter",
-      "originator_year": "1968",
+      "originator_work": "De Labore Solis: Airy's Failure Reconsidered",
+      "originator_year": "1988",
       "real_source_cited": "Einstein, general relativity (1915)",
       "verdict": "STANDARD PHYSICS"
     },
@@ -7471,8 +7471,8 @@
       "cluster_id": "R01",
       "cluster_name": "General covariance permits a stationary-Earth frame",
       "originator": "Walter van der Kamp",
-      "originator_work": "The Heart of the Matter",
-      "originator_year": "1968",
+      "originator_work": "De Labore Solis: Airy's Failure Reconsidered",
+      "originator_year": "1988",
       "real_source_cited": "Einstein, general relativity (1915)",
       "verdict": "STANDARD PHYSICS"
     },
@@ -7576,8 +7576,8 @@
       "cluster_id": "R01",
       "cluster_name": "General covariance permits a stationary-Earth frame",
       "originator": "Walter van der Kamp",
-      "originator_work": "The Heart of the Matter",
-      "originator_year": "1968",
+      "originator_work": "De Labore Solis: Airy's Failure Reconsidered",
+      "originator_year": "1988",
       "real_source_cited": "Einstein, general relativity (1915)",
       "verdict": "STANDARD PHYSICS"
     },
@@ -7861,9 +7861,9 @@
       "cluster_id": "C07",
       "cluster_name": "Patristic, scholastic and church-tradition affirmation",
       "originator": "Robert Sungenis",
-      "originator_work": "Galileo Was Wrong, Vol. III",
-      "originator_year": "2006",
-      "real_source_cited": null,
+      "originator_work": "Galileo Was Wrong, Vol. III (three-volume edition)",
+      "originator_year": "2013",
+      "real_source_cited": "Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",
       "verdict": "NOT DEMONSTRATED"
     },
     {
@@ -7876,9 +7876,9 @@
       "cluster_id": "C07",
       "cluster_name": "Patristic, scholastic and church-tradition affirmation",
       "originator": "Robert Sungenis",
-      "originator_work": "Galileo Was Wrong, Vol. III",
-      "originator_year": "2006",
-      "real_source_cited": null,
+      "originator_work": "Galileo Was Wrong, Vol. III (three-volume edition)",
+      "originator_year": "2013",
+      "real_source_cited": "Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",
       "verdict": "NOT DEMONSTRATED"
     },
     {
@@ -8476,8 +8476,8 @@
       "cluster_id": "R01",
       "cluster_name": "General covariance permits a stationary-Earth frame",
       "originator": "Walter van der Kamp",
-      "originator_work": "The Heart of the Matter",
-      "originator_year": "1968",
+      "originator_work": "De Labore Solis: Airy's Failure Reconsidered",
+      "originator_year": "1988",
       "real_source_cited": "Einstein, general relativity (1915)",
       "verdict": "STANDARD PHYSICS"
     },
@@ -8566,9 +8566,9 @@
       "cluster_id": "C07",
       "cluster_name": "Patristic, scholastic and church-tradition affirmation",
       "originator": "Robert Sungenis",
-      "originator_work": "Galileo Was Wrong, Vol. III",
-      "originator_year": "2006",
-      "real_source_cited": null,
+      "originator_work": "Galileo Was Wrong, Vol. III (three-volume edition)",
+      "originator_year": "2013",
+      "real_source_cited": "Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",
       "verdict": "NOT DEMONSTRATED"
     },
     {
@@ -8581,8 +8581,8 @@
       "cluster_id": "D15",
       "cluster_name": "The Galileo affair was scientific, not religious",
       "originator": "Robert Sungenis",
-      "originator_work": "Galileo Was Wrong, Vol. III",
-      "originator_year": "2006",
+      "originator_work": "Galileo Was Wrong, Vol. III (three-volume edition)",
+      "originator_year": "2013",
       "real_source_cited": null,
       "verdict": "NOT DEMONSTRATED"
     },
@@ -8701,8 +8701,8 @@
       "cluster_id": "R01",
       "cluster_name": "General covariance permits a stationary-Earth frame",
       "originator": "Walter van der Kamp",
-      "originator_work": "The Heart of the Matter",
-      "originator_year": "1968",
+      "originator_work": "De Labore Solis: Airy's Failure Reconsidered",
+      "originator_year": "1988",
       "real_source_cited": "Einstein, general relativity (1915)",
       "verdict": "STANDARD PHYSICS"
     },
@@ -10786,8 +10786,8 @@
       "cluster_id": "R01",
       "cluster_name": "General covariance permits a stationary-Earth frame",
       "originator": "Walter van der Kamp",
-      "originator_work": "The Heart of the Matter",
-      "originator_year": "1968",
+      "originator_work": "De Labore Solis: Airy's Failure Reconsidered",
+      "originator_year": "1988",
       "real_source_cited": "Einstein, general relativity (1915)",
       "verdict": "STANDARD PHYSICS"
     },
@@ -10861,8 +10861,8 @@
       "cluster_id": "R01",
       "cluster_name": "General covariance permits a stationary-Earth frame",
       "originator": "Walter van der Kamp",
-      "originator_work": "The Heart of the Matter",
-      "originator_year": "1968",
+      "originator_work": "De Labore Solis: Airy's Failure Reconsidered",
+      "originator_year": "1988",
       "real_source_cited": "Einstein, general relativity (1915)",
       "verdict": "STANDARD PHYSICS"
     },
@@ -10906,8 +10906,8 @@
       "cluster_id": "R01",
       "cluster_name": "General covariance permits a stationary-Earth frame",
       "originator": "Walter van der Kamp",
-      "originator_work": "The Heart of the Matter",
-      "originator_year": "1968",
+      "originator_work": "De Labore Solis: Airy's Failure Reconsidered",
+      "originator_year": "1988",
       "real_source_cited": "Einstein, general relativity (1915)",
       "verdict": "STANDARD PHYSICS"
     },
@@ -13111,9 +13111,9 @@
       "cluster_id": "C07",
       "cluster_name": "Patristic, scholastic and church-tradition affirmation",
       "originator": "Robert Sungenis",
-      "originator_work": "Galileo Was Wrong, Vol. III",
-      "originator_year": "2006",
-      "real_source_cited": null,
+      "originator_work": "Galileo Was Wrong, Vol. III (three-volume edition)",
+      "originator_year": "2013",
+      "real_source_cited": "Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",
       "verdict": "NOT DEMONSTRATED"
     },
     {
@@ -13126,9 +13126,9 @@
       "cluster_id": "C07",
       "cluster_name": "Patristic, scholastic and church-tradition affirmation",
       "originator": "Robert Sungenis",
-      "originator_work": "Galileo Was Wrong, Vol. III",
-      "originator_year": "2006",
-      "real_source_cited": null,
+      "originator_work": "Galileo Was Wrong, Vol. III (three-volume edition)",
+      "originator_year": "2013",
+      "real_source_cited": "Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",
       "verdict": "NOT DEMONSTRATED"
     },
     {
@@ -13351,9 +13351,9 @@
       "cluster_id": "C07",
       "cluster_name": "Patristic, scholastic and church-tradition affirmation",
       "originator": "Robert Sungenis",
-      "originator_work": "Galileo Was Wrong, Vol. III",
-      "originator_year": "2006",
-      "real_source_cited": null,
+      "originator_work": "Galileo Was Wrong, Vol. III (three-volume edition)",
+      "originator_year": "2013",
+      "real_source_cited": "Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",
       "verdict": "NOT DEMONSTRATED"
     },
     {
@@ -13366,9 +13366,9 @@
       "cluster_id": "C07",
       "cluster_name": "Patristic, scholastic and church-tradition affirmation",
       "originator": "Robert Sungenis",
-      "originator_work": "Galileo Was Wrong, Vol. III",
-      "originator_year": "2006",
-      "real_source_cited": null,
+      "originator_work": "Galileo Was Wrong, Vol. III (three-volume edition)",
+      "originator_year": "2013",
+      "real_source_cited": "Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",
       "verdict": "NOT DEMONSTRATED"
     },
     {
@@ -13381,9 +13381,9 @@
       "cluster_id": "C07",
       "cluster_name": "Patristic, scholastic and church-tradition affirmation",
       "originator": "Robert Sungenis",
-      "originator_work": "Galileo Was Wrong, Vol. III",
-      "originator_year": "2006",
-      "real_source_cited": null,
+      "originator_work": "Galileo Was Wrong, Vol. III (three-volume edition)",
+      "originator_year": "2013",
+      "real_source_cited": "Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",
       "verdict": "NOT DEMONSTRATED"
     },
     {

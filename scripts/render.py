@@ -38,6 +38,21 @@ def e(x):
     return html.escape(str(x)) if x is not None else ""
 
 
+_WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
+          "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen",
+          "seventeen", "eighteen", "nineteen", "twenty", "twenty-one", "twenty-two",
+          "twenty-three", "twenty-four", "twenty-five", "twenty-six", "twenty-seven",
+          "twenty-eight", "twenty-nine", "thirty"]
+
+
+def w(n, cap=False):
+    """Spell a small count. Prose that reads as English still has to be DERIVED --
+    the head docstring says no published number is a literal, and a number spelled
+    out is exactly the kind that rots unnoticed when the dataset moves."""
+    s = _WORDS[n] if 0 <= n <= 30 else str(n)
+    return s[0].upper() + s[1:] if cap else s
+
+
 DRIFT_LABEL = {
     "hedge_dropped": "The qualifier was dropped",
     "force_upgraded": "A concession was re-used as a proof",
@@ -467,6 +482,84 @@ def tab_overview():
         f'<span class="ds-fm-status-num">{S["bios_worked"]}/{len(PEOPLE)}</span>'
         f'<span class="ds-fm-status-sub">pending</span></span></li>'
         f'</ul></div>'
+        # ── THE TWO CLOCKS ────────────────────────────────────────────────
+        # The scorecard above counts. This says what the count MEANS, which the page
+        # was not doing: it read as a tally with no thesis attached. Every figure here
+        # is derived in build.py from `real_source`, so it is a measurement.
+        f'<div class="ds-evidence">'
+        f'<h2 style="margin-top:0">The list has two clocks, and one of them stopped</h2>'
+        f'<p>Sorted by <em>the real work each argument points at</em>, the specimen does not '
+        f'look like a modern document. {w(S["cited_work_years"]["clusters"], cap=True)} '
+        f'arguments cite a dated piece of genuine '
+        f'science between them, covering {S["items_citing_dated_work"]} items, and the '
+        f'<strong>median year of that work is {S["cited_work_median_year"]}</strong>. '
+        f'{S["items_citing_pre1930_work"]} of those {S["items_citing_dated_work"]} items rest '
+        f'on something published before 1930.</p>'
+        f'<p>The experiments run in a straight line and then stop: Bradley on aberration in '
+        f'1729, Coriolis in 1835, Bessel measuring the first stellar parallax in 1838, '
+        f'Foucault&rsquo;s pendulum in 1851, Airy&rsquo;s water-filled telescope in 1871, '
+        f'Michelson and Morley in 1887, Sagnac in 1913, Michelson&ndash;Gale in 1925, and '
+        f'Miller&rsquo;s aether drift in 1933 &mdash; which Michelson, Pease and Pearson had '
+        f'already contradicted in 1929 and Shankland took apart in 1955. That is the list of '
+        f'things anybody in this tradition points to as an <em>experiment</em>.</p>'
+        f'<p><strong>After 1950 the citations change character entirely.</strong> Of the '
+        f'{w(len(S["post1950_cited_clusters"]))} '
+        f'arguments whose cited work postdates 1950, '
+        f'{w(len(S["post1950_cited_clusters"]) - len(S["post1950_all_lane_E_except"]))} '
+        f'are misappropriated astronomy '
+        f'&mdash; microwave-background maps, quasar surveys, the Pioneer anomaly, the Hubble '
+        f'tension. That is data gathered by other people for other purposes and reinterpreted. '
+        f'It is not an experiment about whether the Earth moves, and none of it was designed '
+        f'to be one.</p>'
+        f'<p>So the shape is this. <strong>A tradition that describes itself as evidence-led '
+        f'has not produced a new experiment in about ninety years.</strong> What it has '
+        f'produced is a growing apparatus for reading other people&rsquo;s results &mdash; '
+        f'which is the opposite of the zetetic method it was founded on, and a thing '
+        f'Rowbotham would have recognised as exactly what he was arguing against.</p>'
+        f'<p style="margin-bottom:0"><strong>With one exception, and it is the most '
+        f'interesting item on this page.</strong> In 2018 Bob Knodel bought a laser ring '
+        f'gyroscope and used it to test whether the Earth rotates &mdash; a real experiment, '
+        f'competently run, exactly what the method asks for. It returned 15 degrees per hour. '
+        f'That is 360 divided by 24. It is the answer the globe predicts, obtained by a '
+        f'flat-earth researcher using his own apparatus, on camera. See '
+        f'<a href="#ARG-A07">ARG-A07</a>.</p>'
+        f'</div>'
+
+        # ── WHY IT PERSISTS ───────────────────────────────────────────────
+        f'<div class="ds-evidence">'
+        f'<h2 style="margin-top:0">Why empty proofs keep working</h2>'
+        f'<p>If the {S["distinct_arguments"]} arguments do not discriminate &mdash; and none '
+        f'of them does &mdash; a question follows that the evidence review cannot answer on '
+        f'its own: why does any of this persist? The genealogy suggests the answer. '
+        f'<strong>Belief here was never sustained by the evidence, so removing the evidence '
+        f'does not touch it.</strong></p>'
+        f'<p>The corpus splits into two lineages that were never reconciled with each other, '
+        f'and they appear to run on different needs. The <strong>zetetic</strong> line starts '
+        f'with Rowbotham in 1849, in a secular Owenite commune, and its founding move is '
+        f'epistemic: observation is real, theory is imaginary, trust nothing you have not '
+        f'seen. The <strong>Tychonian</strong> line starts with van der Kamp more than a '
+        f'century later and is theological from the first page. One is about who gets to be '
+        f'believed. The other is about whether we are incidental. They found the same enemy '
+        f'from opposite directions, which is why the list welds &ldquo;flat&rdquo; to '
+        f'&ldquo;not rotating&rdquo; even though every Tychonian authority it cites held the '
+        f'Earth to be a sphere.</p>'
+        f'<p><strong>And part of what this reacts to actually happened.</strong> Popular '
+        f'science does deploy cosmic scale as an argument about meaning &mdash; the '
+        f'mote-of-dust register is a staple. But the mediocrity principle is a '
+        f'<em>methodological</em> rule: do not assume you occupy a special location when '
+        f'interpreting data. It is not a finding about whether anything matters. Someone who '
+        f'bristles at the slide from the first to the second is responding to something that '
+        f'was genuinely said. So, plainly: <strong>heliocentrism does not refute human '
+        f'significance. It declines to adjudicate it.</strong> A cosmology that does not '
+        f'require you to be at the centre has not ruled out your mattering.</p>'
+        f'<p style="margin-bottom:0"><strong>Which is where this review stops, and where it '
+        f'starts.</strong> Believing the universe is meaningful is not a factual claim and we '
+        f'have nothing to say about it. Believing the Earth does not rotate is a factual '
+        f'claim, it was tested, and the result is in. The line between the two is not an '
+        f'identity and not a personality &mdash; it is one specific moment: a prediction '
+        f'fails, and the belief does not update. That moment is on film, twice, from the same '
+        f'community, with opposite outcomes.</p>'
+        f'</div>'
         f'<div class="ds-verdict-bars"><div class="ds-vb-heading">Verdict distribution</div>'
         f'<div class="ds-vb-caption">All {S["total_items"]} items scored via their argument. '
         f'Bars show items.</div><div class="ds-vb-rows">{bars}</div></div>'

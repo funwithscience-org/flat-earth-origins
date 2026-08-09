@@ -215,6 +215,13 @@ summary = {
                            if a["deep"] and a["deep"]["compression"]["assessed"] == "no_source"),
     # Our OWN error rate, derived from the corrections log rather than typed as a
     # literal. House rule: never write a computed number by hand.
+    # THE TWO CLOCKS. The list looks current and is not. These figures are derived from
+    # `real_source` — the field recording whose genuine work each argument points at — so
+    # the claim on the page is a measurement, not an impression.
+    "cited_work_years": None,        # filled below
+    "cited_work_median_year": None,
+    "items_citing_pre1930_work": None,
+    "items_citing_dated_work": None,
     "pre_modern_clusters": sum(1 for c in CLUSTERS.values() if c.get("pre_modern")),
     "pre_modern_items": sum(len(by_cluster[cid]) for cid, c in CLUSTERS.items()
                             if c.get("pre_modern")),
@@ -244,6 +251,31 @@ REVIEW = os.path.join(ROOT, "review")
 # matter how many faults it produced, so the ratio is "arguments that turned up at
 # least one error in our own record" over "arguments written in full".
 import re as _re
+
+# ---- the two clocks --------------------------------------------------
+# Date every argument by the real work it points at, and weight by items, because that
+# is how a reader meets the list. The finding this exposes: the experiments are
+# Victorian and the modern-looking material is reinterpretation of other people's data.
+_YR = _re.compile(r"\b(1[5-9]\d\d|20\d\d)\b")
+_dated = []
+for _cid, _c in CLUSTERS.items():
+    _m = _YR.search(_c["real_source"] or "")
+    if _m:
+        _dated.append((int(_m.group(1)), len(by_cluster[_cid]), _cid))
+_dated.sort()
+_wt = sum(n for _, n, _ in _dated)
+_years = sorted(y for y, _, _ in _dated)
+summary["cited_work_years"] = {"earliest": _years[0], "latest": _years[-1],
+                               "clusters": len(_dated)}
+summary["cited_work_median_year"] = _years[len(_years) // 2]
+summary["items_citing_dated_work"] = _wt
+summary["items_citing_pre1930_work"] = sum(n for y, n, _ in _dated if y < 1930)
+# After 1950 the list stops citing experiments and starts citing other people's
+# cosmology — surveys and maps gathered for unrelated purposes and reinterpreted.
+summary["post1950_cited_clusters"] = [c for y, _, c in _dated if y >= 1950]
+summary["post1950_all_lane_E_except"] = [c for y, _, c in _dated
+                                         if y >= 1950 and CLUSTERS[c]["lane"] != "E"]
+
 _corr = json.load(open(os.path.join(REVIEW, "corrections.json"), encoding="utf-8"))
 _argids = set()
 for _e in _corr["entries"]:

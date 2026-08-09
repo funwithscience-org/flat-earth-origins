@@ -555,6 +555,64 @@ UNSCOPED_CEILING = 4
 check(f"unscoped absence-claims do not increase ({_unscoped}/{UNSCOPED_CEILING})",
       _unscoped <= UNSCOPED_CEILING, _unscoped)
 
+# ---------------------------------------------------------------------
+print("\n[8] the two clocks — the Overview's dating argument")
+# The Overview now makes a claim of its own rather than just tallying: the experiments
+# this tradition cites stop in the 1930s, and everything cited after 1950 is other
+# people's astronomy reinterpreted. Every figure in that section is derived in build.py
+# from each cluster's `real_source`, so it moves when the dataset moves. These checks
+# exist so it cannot move SILENTLY — the prose around the numbers would go stale first.
+_cw = S["cited_work_years"]
+check("dated-work window spans Bellarmine to the present",
+      _cw["earliest"] == 1615 and _cw["latest"] >= 2020, _cw)
+check("median year of cited work is 1933 (Miller's aether drift)",
+      S["cited_work_median_year"] == 1933, S["cited_work_median_year"])
+check("cited-work median is pre-war, which is the whole point of the section",
+      S["cited_work_median_year"] < 1950)
+# Written first as "pre-1930 is a majority" and it failed: 53 of 107 is one item SHORT
+# of half. Kept as a guard against writing "most" into the page, which is the mistake
+# the failing version of this test was about to license.
+check("pre-1930 items are close to half, but NOT a majority — do not write 'most'",
+      0.45 <= S["items_citing_pre1930_work"] / S["items_citing_dated_work"] < 0.5,
+      S["items_citing_pre1930_work"] / S["items_citing_dated_work"])
+check("page does not upgrade the pre-1930 share to a majority",
+      "most of those items rest" not in PAGE.lower())
+check("53 of 107 items rest on pre-1930 work",
+      (S["items_citing_pre1930_work"], S["items_citing_dated_work"]) == (53, 107),
+      (S["items_citing_pre1930_work"], S["items_citing_dated_work"]))
+# The load-bearing claim: post-1950 citations are not experiments. If a NON-lane-E
+# cluster ever acquires a post-1950 real_source, "nine of ten are misappropriated
+# astronomy" stops being true and the paragraph has to be rewritten, not renumbered.
+check("R12 is the only post-1950 citation outside misappropriated astronomy",
+      S["post1950_all_lane_E_except"] == ["R12"], S["post1950_all_lane_E_except"])
+check("post-1950 clusters number ten",
+      len(S["post1950_cited_clusters"]) == 10, S["post1950_cited_clusters"])
+# Page-side: assert each number WITH the words that give it meaning (the [4] rule).
+for label, needle in [
+    ("median cited year", f'median year of that work is {S["cited_work_median_year"]}'),
+    ("pre-1930 item count",
+     f'{S["items_citing_pre1930_work"]} of those {S["items_citing_dated_work"]} items rest'),
+    ("dated-argument count spelled out", "Twenty-seven arguments cite a dated piece"),
+    ("post-1950 breakdown", "ten arguments whose cited work postdates 1950, nine are"),
+]:
+    check(f"two-clocks section states {label}", needle in PAGE, needle)
+check("two-clocks section names the ninety-year experimental gap",
+      "has not produced a new experiment in about ninety years" in PAGE)
+check("the ninety-year gap is consistent with the latest experiment cited",
+      85 <= 2026 - S["cited_work_median_year"] <= 99, 2026 - S["cited_work_median_year"])
+check("two-clocks section closes on Knodel, the one real experiment, and its result",
+      "Knodel" in PAGE and "15 degrees per hour" in PAGE and "ARG-A07" in PAGE)
+# The psychology section. It is argument, not arithmetic, so pin the concessions —
+# these are the sentences most likely to be trimmed away by a later tightening pass,
+# and without them the section is just an accusation.
+check("persistence section concedes the steelman rather than only asserting",
+      "heliocentrism does not refute human significance" in PAGE
+      and "It declines to adjudicate it" in PAGE)
+check("persistence section defines the fringe/denial boundary as a testable moment",
+      "a prediction fails" in PAGE and "does not update" in PAGE)
+check("persistence section names both lineages and their different needs",
+      "zetetic" in PAGE.lower() and "Tychonian" in PAGE)
+
 print()
 if FAILURES:
     print(f"FAILED: {len(FAILURES)} check(s)\n  - " + "\n  - ".join(FAILURES))

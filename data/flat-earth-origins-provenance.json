@@ -27,6 +27,14 @@
     "hedge_checked": 31,
     "hedge_drifted": 29,
     "hedge_no_source": 2,
+    "cited_work_years": {
+      "earliest": 1615,
+      "latest": 2023,
+      "clusters": 27
+    },
+    "cited_work_median_year": 1933,
+    "items_citing_pre1930_work": 53,
+    "items_citing_dated_work": 107,
     "pre_modern_clusters": 1,
     "pre_modern_items": 16,
     "corrections_logged": 20,
@@ -281,6 +289,21 @@
         "repeat": 328,
         "text": "GRB anisotropy."
       }
+    ],
+    "post1950_cited_clusters": [
+      "E12",
+      "E08",
+      "E04",
+      "E01",
+      "E03",
+      "R12",
+      "E05",
+      "E02",
+      "E09",
+      "E06"
+    ],
+    "post1950_all_lane_E_except": [
+      "R12"
     ]
   },
   "people": {

@@ -81,8 +81,10 @@ WORKS = {
 "WRK-SUNGENIS-2006": dict(
     author="PER-SUNGENIS", year="2006", pd=False,
     title="Galileo Was Wrong: The Church Was Right",
-    imprint="With Robert J. Bennett. Vol. I, The Scientific Case for Geocentrism, 2006; "
-            "Vol. II historical; Vol. III church history. 10th ed. 2013.",
+    imprint="With Robert J. Bennett. Vol. I, The Scientific Case for Geocentrism, 2006. "
+            "Five editions in two volumes, 2005–2010; three volumes from the sixth edition "
+            "of January 2013, in which Vol. II is chapters 7–13 of the scientific argument "
+            "and Vol. III, chapters 14–17, the church-history volume. 7th ed. 2013.",
     url="https://www.goodreads.com/series/55023-galileo-was-wrong",
     note="Direct source of the Michelson–Gale, Sagnac, Miller, Foucault and Airy material "
          "in modern lists. In copyright — short excerpts only."),

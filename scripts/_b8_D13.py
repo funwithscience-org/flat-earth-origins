@@ -29,13 +29,27 @@ Three things this treatment leans on, all checked in this pass:
    place of honour" is post-Copernican. Danielson, AJP 69:1029 (2001), and Myth 6
    in Numbers ed., Galileo Goes to Jail (Harvard, 2009).
 
-ATTRIBUTION, REPORTED NOT APPLIED. The work record (WRK-PRINCIPLE-2014) survives
-this pass: Sungenis co-wrote and co-produced the film, the film carries the
-teleological framing, and reviewers place fine-tuning material in it. But items
-185 (teleological seasons) and 288 (cosmological constant "Earthward") were not
-verified against the film in this pass — we could not view it, and neither phrase
-turned up in the synopsis copy or in the six published reviews read here. Recorded
-as unchecked, not as absent. Flagged to the parent; clusters.py NOT edited.
+ATTRIBUTION. The work record (WRK-PRINCIPLE-2014) survives this pass on substance: the
+film carries the teleological framing and reviewers place fine-tuning material in it. Its
+authorship line did not. An earlier version of this docstring and of the gloss said
+Sungenis co-wrote and co-produced the film; both credit blocks located in this pass say
+otherwise, and one of them is a source this entry already cited. Variety's review lists
+Director: Katheryne Thomas / Producer and Screenplay: Rick DeLano / Executive producer:
+Robert Sungenis, and describes Sungenis as interviewed on screen throughout; the
+distributor release of 25 March 2015 (PR Newswire, In Ohm Entertainment) lists
+"Producer/Writer: Rick DeLano" and "Executive Producer: Robert Sungenis". The gloss now
+follows the credit blocks. Two consequences are reported, not applied here: works.py's
+WRK-PRINCIPLE-2014 imprint still reads "Produced by Rick DeLano and Robert Sungenis",
+which is loose about the executive-producer credit; and `originator` is deliberately NOT
+changed — a screenplay credit does not settle who introduced the argument, and Sungenis
+is the film's on-screen geocentric proponent and, with Bennett, the author of the
+Galileo Was Wrong material this cluster descends from. works.py and clusters.py NOT
+edited.
+
+Items 185 (teleological seasons) and 288 (cosmological constant "Earthward") were not
+verified against the film in this pass — we could not view it, and neither phrase turned
+up in the synopsis copy or in the six published reviews read here. Recorded as unchecked,
+not as absent. Flagged to the parent.
 """
 
 ENTRY = {
@@ -64,7 +78,7 @@ ENTRY = {
                "mankind?"),
         gloss="""<p>Read what the sentence actually does. It is a <em>question</em>, and the question is about <strong>significance</strong> and <strong>purpose</strong> &mdash; not about position, not about coordinates, and not about the Earth being in the middle of anything. The film is entitled to ask it. Physics does not answer it, and this page does not answer it either.</p>
 <p>The second thing to notice is which word is missing from this sentence: <em>centre</em>. The film's positional claim is carried elsewhere and by different material. John Hartnett, the University of Adelaide physicist who appears in the film, reviewed it on 3 November 2014 and separates the two loads explicitly: the concentric-shell structure in redshift space is his own work and he reads it as placing us near the centre of the <em>visible</em> universe, while the &ldquo;axis of evil&rdquo; defines an anisotropy direction rather than a unique centre. He states that the film aims at an absolute geocentric view and that he does not hold it. So a scientist inside the film draws precisely the distinction this cluster's five items collapse.</p>
-<p>The teleological register is real and is not a caricature of the film. Variety's reviewer reports it reaching for &ldquo;a baby's smile&rdquo; and &ldquo;the crescendo of a symphony&rdquo; as evidence of the planet's specialness. Those are appeals to meaning. They are offered as meaning, not as measurement, and the honest reply is not ridicule but the observation that they carry no coordinate. Rick DeLano produced the film with Sungenis, who co-wrote it; Sungenis and Bennett's <em>Galileo Was Wrong</em> supplies the CMB material that the film's positional half rests on, which is treated at <a href="#ARG-E01">ARG-E01</a>.</p>""",
+<p>The teleological register is real and is not a caricature of the film. Variety's reviewer reports it reaching for &ldquo;a baby's smile&rdquo; and &ldquo;the crescendo of a symphony&rdquo; as evidence of the planet's specialness. Those are appeals to meaning. They are offered as meaning, not as measurement, and the honest reply is not ridicule but the observation that they carry no coordinate. Rick DeLano wrote and produced the film &mdash; Variety credits the screenplay to him &mdash; and Robert Sungenis is its executive producer, interviewed on screen throughout; Sungenis and Bennett's <em>Galileo Was Wrong</em> supplies the CMB material that the film's positional half rests on, which is treated at <a href="#ARG-E01">ARG-E01</a>.</p>""",
     ),
 
     steelman=dict(

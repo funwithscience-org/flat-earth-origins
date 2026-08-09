@@ -27,7 +27,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 26,Relativity permits stationary Earth frame.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"Einstein, general relativity (1915)",STANDARD PHYSICS
 27,Mach's principle supports fixed Earth possibility.,A,A-REL,ARG-R02,R02,Mach's principle / relational mechanics allows a fixed Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Ernst Mach, The Science of Mechanics (1883)",STANDARD PHYSICS
 28,Einstein's equivalence of motion.,A,A-REL,ARG-R04,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
-29,No experiment proving absolute motion.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+29,No experiment proving absolute motion.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,"Henri Poincaré 1904, “The Present and the Future of Mathematical Physics” (St Louis)",STANDARD PHYSICS
 30,Modern astronomy uses Earth-centered coordinates.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
 31,Equal apparent size of Sun and Moon.,B,B,ARG-B10,B10,Sun and Moon appear the same size; solar diameter constant,Samuel Rowbotham,Earth Not a Globe,1865,,MISLEADING
 32,Celestial sphere rotation about observer.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
@@ -45,7 +45,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 44,Horizon rises to eye level.,B,B,ARG-B02,B02,The horizon is flat and rises to eye level,Samuel Rowbotham,Zetetic Astronomy,1849,,REFUTED
 45,Plane flight times consistent with rest Earth.,A,A-EXP,ARG-A08,A08,Aircraft don't compensate for spin; east/west flight times symmetric,Samuel Rowbotham,Earth Not a Globe,1865,Inertial navigation systems measure Earth rate on every flight,REFUTED
 46,GPS Earth-centered.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-47,Surveying assumes stationary ground.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
+47,Surveying assumes stationary ground.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Earth Not a Globe,1865,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
 48,Plumb lines perpendicular worldwide.,B,B,ARG-B09,B09,Plumb lines are perpendicular everywhere,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
 49,Atmosphere concentric layers.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 50,Engineering curvature corrections unnecessary.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
@@ -79,14 +79,14 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 78,Medieval hierarchy centered on Earth.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III (three-volume edition)",2013,"Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",NOT DEMONSTRATED
 79,Sun's circuit divine metaphor.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,,,,,UNFALSIFIABLE
 80,Observation inherently geocentric.,D,D,ARG-D11,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
-81,No empirical distinction of motion.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+81,No empirical distinction of motion.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,"Henri Poincaré 1904, “The Present and the Future of Mathematical Physics” (St Louis)",STANDARD PHYSICS
 82,Heliocentric gravity assumptions unproven.,A,A-EXP,ARG-A23,A23,Gravity / the heliocentric mechanism is unproven,Wilbur Glenn Voliva,Zion sermons & Leaves of Healing,1915,,REFUTED
 83,Simplicity favors geocentrism.,D,D,ARG-D12,D12,Simplicity / common sense favours a fixed Earth,Samuel Rowbotham,Zetetic Astronomy,1849,,NOT DEMONSTRATED
 84,Perception reliable evidence.,D,D,ARG-D11,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
 85,Universe ordered around observer.,D,D,ARG-D13,D13,"Meaning, teleology and fine-tuning imply centrality",Robert Sungenis,The Principle (film),2014,,UNFALSIFIABLE
 86,Dark matter patchwork like epicycles.,D,D,ARG-D14,D14,Dark matter / dark energy / MOND are modern epicycles,Robert Sungenis,"Galileo Was Wrong, Vol. I",2006,,MISLEADING
 87,Consciousness defines center.,D,D,ARG-D11,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
-88,No proof of revolution.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+88,No proof of revolution.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,"Henri Poincaré 1904, “The Present and the Future of Mathematical Physics” (St Louis)",STANDARD PHYSICS
 89,Axis of Evil alignment.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
 90,Quasar distribution symmetry.,E,E,ARG-E04,E04,Quasar polarization alignment and large quasar groups,,,,"Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
 91,Cosmic anisotropy Earth-oriented.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
@@ -129,11 +129,11 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 128,Navigation charts fixed pole.,B,B,ARG-B12,B12,Polar navigation and dead reckoning imply a dome/disc,Charles K. Johnson,Flat Earth News,1972,,REFUTED
 129,Mach's inertia explanation.,A,A-REL,ARG-R02,R02,Mach's principle / relational mechanics allows a fixed Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Ernst Mach, The Science of Mechanics (1883)",STANDARD PHYSICS
 130,Einstein admission of equivalence.,A,A-REL,ARG-R04,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
-131,No absolute frame.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+131,No absolute frame.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,"Henri Poincaré 1904, “The Present and the Future of Mathematical Physics” (St Louis)",STANDARD PHYSICS
 132,Equivalence principle validation.,A,A-REL,ARG-R04,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
 133,GR geocentric solutions possible.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"Einstein, general relativity (1915)",STANDARD PHYSICS
 134,No orbital acceleration detected.,A,A-EXP,ARG-A26,A26,No orbital acceleration or rotation has ever been directly detected,Walter van der Kamp,De Labore Solis,1988,,SELF-CONTRADICTED
-135,Inertial frame symmetry.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+135,Inertial frame symmetry.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,"Henri Poincaré 1904, “The Present and the Future of Mathematical Physics” (St Louis)",STANDARD PHYSICS
 136,Quantum observer centrality.,A,A-REL,ARG-R10,R10,Quantum observer-defined frames put the observer at the centre,,,,,MISLEADING
 137,CMB rest frame small velocity.,E,E,ARG-E03,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,"Galileo Was Wrong (7th ed., 2013), Vol. I ch. 3 and Vol. II ch. 10",2013,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
 138,Solar apex inconsistency.,E,E,ARG-E14,E14,"Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",,,,,REFUTED
@@ -221,7 +221,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 220,Constant solar diameter.,B,B,ARG-B10,B10,Sun and Moon appear the same size; solar diameter constant,Samuel Rowbotham,Earth Not a Globe,1865,,MISLEADING
 221,Refraction invoked for curvature.,B,B,ARG-B07,B07,Refraction is invoked ad hoc to rescue curvature,Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
 222,Repeated long-range visibility.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. II",1881,,MISLEADING
-223,Surveying plane assumption.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
+223,Surveying plane assumption.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Earth Not a Globe,1865,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
 224,No rotation proof mechanical.,A,A-EXP,ARG-A26,A26,No orbital acceleration or rotation has ever been directly detected,Walter van der Kamp,De Labore Solis,1988,,SELF-CONTRADICTED
 225,Ring laser gyro corrections.,A,A-EXP,ARG-A07,A07,Gyroscopes / ring-laser gyros show no Earth rotation,Bob Knodel,GlobeBusters / Behind the Curve,2018,Sagnac 1913; standard ring-laser INS engineering,SELF-CONTRADICTED
 226,Fiber Sagnac frame-dependent.,A,A-EXP,ARG-A02,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
@@ -274,7 +274,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 273,GR allows rotating universe.,A,A-REL,ARG-R05,R05,GR admits rotating-universe solutions / frame dragging,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gödel 1949; Lense–Thirring 1918; Gravity Probe B,MISLEADING
 274,Lense–Thirring frame dragging.,A,A-REL,ARG-R05,R05,GR admits rotating-universe solutions / frame dragging,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gödel 1949; Lense–Thirring 1918; Gravity Probe B,MISLEADING
 275,Mach inertia relation.,A,A-REL,ARG-R02,R02,Mach's principle / relational mechanics allows a fixed Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Ernst Mach, The Science of Mechanics (1883)",STANDARD PHYSICS
-276,Only relative motion observable.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+276,Only relative motion observable.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,"Henri Poincaré 1904, “The Present and the Future of Mathematical Physics” (St Louis)",STANDARD PHYSICS
 277,GR coordinate freedom.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"Einstein, general relativity (1915)",STANDARD PHYSICS
 278,Metric tensors Earth-centered.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
 279,Null experiments fit rest Earth.,A,A-EXP,ARG-A01,A01,Michelson–Morley null proves Earth is not moving,Walter van der Kamp,The Heart of the Matter,1968,"Michelson & Morley 1887, Am. J. Sci. 34:333",STANDARD PHYSICS
@@ -296,7 +296,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 295,Relational mechanics fixed Earth.,A,A-REL,ARG-R02,R02,Mach's principle / relational mechanics allows a fixed Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Ernst Mach, The Science of Mechanics (1883)",STANDARD PHYSICS
 296,Hamiltonian Earth-origin simplicity.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
 297,Anthropic coordinate justification.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
-298,Kinematical equivalence.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+298,Kinematical equivalence.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,"Henri Poincaré 1904, “The Present and the Future of Mathematical Physics” (St Louis)",STANDARD PHYSICS
 299,Navigation inertial Earth base.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
 300,Variational minimal paths Earth frame.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
 301,Light cone tilt reinterpretation.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
@@ -315,7 +315,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 314,One-way light speed conventional.,A,A-REL,ARG-R09,R09,Clock synchronisation / one-way light speed is conventional,,,,Reichenbach–Grünbaum conventionality thesis,STANDARD PHYSICS
 315,Metrology standard Earth clocks.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
 316,Equivalence local labs rest.,A,A-REL,ARG-R04,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
-317,No global inertial frame proven.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,,STANDARD PHYSICS
+317,No global inertial frame proven.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,"Henri Poincaré 1904, “The Present and the Future of Mathematical Physics” (St Louis)",STANDARD PHYSICS
 318,Horizon problem Earth initial data.,A,A-REL,ARG-R11,R11,No falsifier distinguishes the frames; multiple cosmologies fit the data,Gerardus Bouw,Geocentricity,1992,,SELF-CONTRADICTED
 319,Geodesics drawn from observers.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
 320,CMB Axis of Evil.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
@@ -380,8 +380,8 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 379,Lighthouse visibility.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. II",1881,,MISLEADING
 380,Undersea cables straight.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
 381,Oil rig sightlines.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. II",1881,,MISLEADING
-382,Leveling equipotential planes.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
-383,Hydrology planar.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
+382,Leveling equipotential planes.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Earth Not a Globe,1865,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
+383,Hydrology planar.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Earth Not a Globe,1865,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
 384,River grades.,B,B,ARG-B01,B01,"Water finds its level, therefore the surface is a plane",Samuel Rowbotham,"Zetetic Astronomy (item 384: Carpenter 1885, proof 4)",1849,,REFUTED
 385,Pipelines straight.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
 386,Railroads negligible curvature.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
@@ -393,7 +393,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 392,SAR interferometry.,B,B,ARG-B11,B11,"Radar, LiDAR, photogrammetry and sonar assume a plane",,,,,MISLEADING
 393,Seismology Earth-fixed.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
 394,Volcano infrasound triangulation.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-395,Mining surveys flat.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Zetetic Astronomy,1849,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
+395,Mining surveys flat.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Earth Not a Globe,1865,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
 396,Architecture plumb/level universal.,B,B,ARG-B09,B09,Plumb lines are perpendicular everywhere,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
 397,Skyscraper vertical stable.,B,B,ARG-B09,B09,Plumb lines are perpendicular everywhere,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
 398,Pendulum clocks stable.,A,A-EXP,ARG-A15,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED

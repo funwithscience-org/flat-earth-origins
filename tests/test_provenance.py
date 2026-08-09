@@ -617,31 +617,51 @@ check("median year of cited work is 1933 (Miller's aether drift)",
       S["cited_work_median_year"] == 1933, S["cited_work_median_year"])
 check("cited-work median is pre-war, which is the whole point of the section",
       S["cited_work_median_year"] < 1950)
-# Written first as "pre-1930 is a majority" and it failed: 53 of 107 is one item SHORT
-# of half. Kept as a guard against writing "most" into the page, which is the mistake
-# the failing version of this test was about to license.
-check("pre-1930 items are close to half, but NOT a majority — do not write 'most'",
-      0.45 <= S["items_citing_pre1930_work"] / S["items_citing_dated_work"] < 0.5,
-      S["items_citing_pre1930_work"] / S["items_citing_dated_work"])
-check("page does not upgrade the pre-1930 share to a majority",
-      "most of those items rest" not in PAGE.lower())
-check("53 of 107 items rest on pre-1930 work",
-      (S["items_citing_pre1930_work"], S["items_citing_dated_work"]) == (53, 107),
-      (S["items_citing_pre1930_work"], S["items_citing_dated_work"]))
+# THE PRE-1930 SHARE IS A MOVING NUMBER AND THE PROSE MUST TRACK IT BOTH WAYS.
+# History: written first as "pre-1930 is a majority" and it failed — 53 of 107 was one
+# item SHORT of half — so it became a guard against writing "most". Then the batch-8
+# repair pass corrected B06's and D11's years and gave C07 its Bellarmine citation, more
+# clusters became datable, and the share crossed 50%. Re-pinning a new literal pair would
+# just queue up the same failure next time.
+#
+# So assert the INVARIANT instead of the snapshot: the page's wording must agree with the
+# arithmetic in whichever direction the arithmetic currently runs. Under half, "most" is
+# forbidden. Over half, the page is free to say it — but it must not still be hedging as
+# though it were under, because that is the same defect pointing the other way.
+_p30, _pdated = S["items_citing_pre1930_work"], S["items_citing_dated_work"]
+_share = _p30 / _pdated
+_claims_most = "most of those items rest" in PAGE.lower()
+check(f"pre-1930 share is a real fraction of the dated set ({_p30}/{_pdated} = {_share:.0%})",
+      0.35 <= _share <= 0.75, _share)
+check("page's wording matches which side of half the share falls on",
+      _claims_most == (_share >= 0.5), (round(_share, 3), _claims_most))
+# render.py picks the sentence form from the arithmetic, so pin whichever branch is live.
+_pair = (f'before 1930: {_p30} of {_pdated}' if _share >= 0.5
+         else f'{_p30} of those {_pdated} items rest')
+check("page states the pre-1930 pair exactly as the dataset computes it",
+      _pair in PAGE, (_p30, _pdated, _pair))
 # The load-bearing claim: post-1950 citations are not experiments. If a NON-lane-E
 # cluster ever acquires a post-1950 real_source, "nine of ten are misappropriated
 # astronomy" stops being true and the paragraph has to be rewritten, not renumbered.
 check("R12 is the only post-1950 citation outside misappropriated astronomy",
       S["post1950_all_lane_E_except"] == ["R12"], S["post1950_all_lane_E_except"])
-check("post-1950 clusters number ten",
-      len(S["post1950_cited_clusters"]) == 10, S["post1950_cited_clusters"])
+check("post-1950 group stays small enough for the paragraph's framing",
+      8 <= len(S["post1950_cited_clusters"]) <= 12, S["post1950_cited_clusters"])
 # Page-side: assert each number WITH the words that give it meaning (the [4] rule).
+# The spelled-out counts go through render.w() in the page, so DERIVE THE WORD HERE TOO
+# rather than typing "Twenty-seven". A literal in the test is the same rot as a literal
+# in the page — it just fails a commit later, when the cause is harder to see.
+sys.path.insert(0, os.path.join(ROOT, "scripts"))
+from render import w as _w                                              # noqa: E402
+_n50 = len(S["post1950_cited_clusters"])
+_nE = _n50 - len(S["post1950_all_lane_E_except"])
 for label, needle in [
     ("median cited year", f'median year of that work is {S["cited_work_median_year"]}'),
-    ("pre-1930 item count",
-     f'{S["items_citing_pre1930_work"]} of those {S["items_citing_dated_work"]} items rest'),
-    ("dated-argument count spelled out", "Twenty-seven arguments cite a dated piece"),
-    ("post-1950 breakdown", "ten arguments whose cited work postdates 1950, nine are"),
+    ("pre-1930 item count", _pair),   # same live branch as the check above
+    ("dated-argument count spelled out",
+     f'{_w(S["cited_work_years"]["clusters"], cap=True)} arguments cite a dated piece'),
+    ("post-1950 breakdown",
+     f'{_w(_n50)} arguments whose cited work postdates 1950, {_w(_nE)} are'),
 ]:
     check(f"two-clocks section states {label}", needle in PAGE, needle)
 check("two-clocks section names the ninety-year experimental gap",

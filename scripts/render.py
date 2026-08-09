@@ -493,8 +493,16 @@ def tab_overview():
         f'arguments cite a dated piece of genuine '
         f'science between them, covering {S["items_citing_dated_work"]} items, and the '
         f'<strong>median year of that work is {S["cited_work_median_year"]}</strong>. '
-        f'{S["items_citing_pre1930_work"]} of those {S["items_citing_dated_work"]} items rest '
-        f'on something published before 1930.</p>'
+        # The share crossed 50% when the batch-8 repairs made more clusters datable, and
+        # it could cross back. Rather than hand-editing the claim each time and risking a
+        # page that says "most" of a minority, the sentence picks its own form from the
+        # arithmetic. Both branches are pinned by the suite.
+        + (f'Most of those items rest on something published before 1930: '
+           f'{S["items_citing_pre1930_work"]} of {S["items_citing_dated_work"]}.</p>'
+           if S["items_citing_pre1930_work"] * 2 >= S["items_citing_dated_work"] else
+           f'{S["items_citing_pre1930_work"]} of those {S["items_citing_dated_work"]} '
+           f'items rest on something published before 1930.</p>')
+        +
         f'<p>The experiments run in a straight line and then stop: Bradley on aberration in '
         f'1729, Coriolis in 1835, Bessel measuring the first stellar parallax in 1838, '
         f'Foucault&rsquo;s pendulum in 1851, Airy&rsquo;s water-filled telescope in 1871, '

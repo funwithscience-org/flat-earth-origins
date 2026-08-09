@@ -47,7 +47,7 @@ ENTRY = {
           "for those who say the sky's rotation is physical rather than a change of "
           "coordinates: everything the deflection does, the rotating sky must now do too "
           "— reverse sign at the equator, scale as the sine of latitude, and wander in a "
-          "433-day wobble driven by pressure on the Pacific sea floor. A disc under a "
+          "433-day wobble driven by pressure on the sea floor. A disc under a "
           "rotating dome cannot "
           "produce the reversal at all, because its rotation axis points the same way "
           "everywhere on it."),
@@ -90,7 +90,7 @@ ENTRY = {
 
 <p><strong>Fifth, what the physical reading costs &mdash; and this is where the two readings part company.</strong> Following <a href="#ARG-R01">R01</a>: <em>(a)</em> writing the standard solar system in Earth-fixed rotating coordinates is a change of chart, free, and carries no commitment; <em>(b)</em> asserting that the cosmos physically turns about a stationary Earth is a different model that owes a dynamics. On reading (b) the rotating sky inherits every irregularity of the Earth's rotation, because the two are the same relative motion measured one way or the other. So:</p>
 <ul>
-<li><strong>The cosmos must wobble on a 433-day period.</strong> The Chandler wobble &mdash; period 433.0 &plusmn; 1.1 days &mdash; is the free nutation of a deformable spinning body, and Gross's analysis of 1985&ndash;1996 data attributes its excitation chiefly to <em>ocean-bottom pressure fluctuations</em> (3.45 mas&sup2; of power in the Chandler band, against 1.87 for atmospheric pressure). Under (b) the rotation axis of the universe is being nudged by pressure changes on the floor of the Pacific.</li>
+<li><strong>The cosmos must wobble on a 433-day period.</strong> The Chandler wobble &mdash; period 433.0 &plusmn; 1.1 days &mdash; is the free nutation of a deformable spinning body, and Gross's analysis of 1985&ndash;1996 data attributes its excitation chiefly to <em>ocean-bottom pressure fluctuations</em> (3.45 mas&sup2; of power in the Chandler band, against 1.87 for atmospheric pressure). Under (b) the rotation axis of the universe is being nudged by pressure changes on the sea floor.</li>
 <li><strong>The cosmos must speed up and slow down with the monsoon.</strong> Length of day varies by milliseconds, and EarthScope's summary puts about 90 per cent of the seasonal variation down to shifts in zonal wind patterns, with El Ni&ntilde;o years running long and La Ni&ntilde;a years short. A millisecond on 86,400 s is about one part in 10<sup>8</sup>; under (b) the whole rotating cosmos changes its rate by that fraction, twice a year, in step with the atmosphere's angular momentum, and secularly by the 2.3 ms per century that tidal friction adds.</li>
 </ul>
 <p>Be exact about what this does and does not show. It is not a contradiction on reading (a), where these are coordinate descriptions of the Earth's own wobbles and the arithmetic is the same arithmetic. It is a bill on reading (b), and reading (b) is the one Sungenis takes: in the same passage he credits Thirring's rotating universe with showing how &ldquo;its own nutation and precession would affect what we see on Earth.&rdquo; Once the sky's nutation is doing explanatory work, the sky owes an account of why its nutation is excited by seawater.</p>

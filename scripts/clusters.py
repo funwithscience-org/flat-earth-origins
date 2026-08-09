@@ -87,10 +87,16 @@ CLUSTERS = {
     note="Restates the observation in a rotating-universe frame. Non-discriminating on its own; ruled out in combination with ring-laser gyros and Michelson–Gale."),
 
 "A07": dict(lane="A-EXP", name="Gyroscopes / ring-laser gyros show no Earth rotation",
+    # Corrected 2026-08-09. The basis line published the instrument's price, which the
+    # treatment's gloss says it is deliberately withholding because its only use is to
+    # invite an inference about a living man's motive; struck. It also framed the
+    # shielding run as a refusal to accept the reading, where the refutation credits it
+    # as a control that did its job. The outcome stays hedged to the secondary account
+    # (Wile's review), which is the only account we have of that sequence.
     originator="Bob Knodel", originator_work="GlobeBusters / Behind the Curve", year="2018",
     real_source="Sagnac 1913; standard ring-laser INS engineering",
     verdict="SELF-CONTRADICTED",
-    note="Knodel's own $20,000 ring-laser gyro measured a 15°/hour drift on camera — exactly 360°÷24h. He looked for ways to shield the apparatus rather than accept the result."),
+    note="Knodel's own ring-laser gyro measured a 15°/hour drift on camera — exactly 360°÷24h. The magnetic-shielding run that followed was a reasonable control, and on the secondary account available it returned the same reading."),
 
 "A08": dict(lane="A-EXP", name="Aircraft don't compensate for spin; east/west flight times symmetric",
     originator="Samuel Rowbotham", originator_work="Earth Not a Globe", year="1865",
@@ -214,8 +220,18 @@ CLUSTERS = {
     verdict="STANDARD PHYSICS", note="Mach's principle is not a settled part of GR and does not privilege Earth in any case."),
 
 "R03": dict(lane="A-REL", name="No experiment detects absolute motion; only relative motion is observable",
+    # real_source added 2026-08-09. It was null although the proposition is Poincaré's
+    # principle of relativity almost verbatim, and van der Kamp quotes that sentence at
+    # p. 45 of the De Labore Solis scan - so the genuine work being cited is nameable and
+    # the reader can go and read the scope Poincaré wrote into it ("a uniform motion of
+    # translation"), which is the hinge of the treatment below.
+    # Filling the field has a downstream consequence, recorded here because it is not
+    # obvious from this line: build.py dates every argument from `real_source`, so R03's
+    # 8 items now count in the two-clocks totals (dated arguments 27 -> 28, items on
+    # pre-1930 work 53/107 -> 61/115, which crosses half; median stays 1933).
     originator="Walter van der Kamp", originator_work="The Heart of the Matter", year="1968",
-    real_source=None, verdict="STANDARD PHYSICS",
+    real_source="Henri Poincaré 1904, “The Present and the Future of Mathematical Physics” (St Louis)",
+    verdict="STANDARD PHYSICS",
     note="Correct, and it cuts both ways: it equally forbids establishing that the Earth is absolutely at rest."),
 
 "R04": dict(lane="A-REL", name="The equivalence principle validates a local rest frame",
@@ -298,7 +314,14 @@ CLUSTERS = {
     note="Carpenter's proofs 3 and 40 (Suez Canal) reappear as Dubay's 7 and 8. Local works are built to the local equipotential — which *is* the curved surface. Long-baseline works (tunnels, geodetic survey, GNSS) explicitly model the ellipsoid."),
 
 "B06": dict(lane="B", name="Surveyors assume a plane and make no 'allowance'",
-    originator="Samuel Rowbotham", originator_work="Zetetic Astronomy", year="1849",
+    # Corrected 2026-08-09. The record dated this to the 1849 pamphlet while the treatment
+    # rendered below it dates the text twice: the argument turns on a Standing Order of the
+    # Houses of Lords and Commons which the 1881 third edition introduces as "for the Session
+    # of 1862", and a text quoting an 1862 order cannot stand in an 1849 pamphlet. The
+    # earliest text located is the 1865 first book edition, pp. 54-56 (Gutenberg #69892,
+    # checked on two mirrors) - WRK-ROWBOTHAM-1865, which is also what passage.work cites.
+    # Title moved to the house form for that work at the same time.
+    originator="Samuel Rowbotham", originator_work="Earth Not a Globe", year="1865",
     real_source="Encyclopaedia Britannica article 'Levelling'",
     verdict="SELF-CONTRADICTED",
     note="Rowbotham's own '8 inches per mile squared' is lifted from a surveying text — real arithmetic for the difference between true and apparent level. He quoted the correction and then denied the thing it corrects for."),

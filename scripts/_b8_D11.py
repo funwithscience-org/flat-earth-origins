@@ -11,6 +11,23 @@ Notes for the parent, not for the page:
   * Items 87 and 183 ("Consciousness defines center", "Human consciousness defines
     center") look like a different strand from the other five; ARG-R10 is the cluster
     that already carries that doctrine. Reported, not edited.
+  * EDITION SPLIT ON THE EIGHT-INCH RULE — checked 2026-08-09, do not "correct" back.
+    The 1865 first book edition introduces the rate ("8 inches per mile multiplied by
+    the square of the distance") and immediately quotes the Encyclopaedia Britannica,
+    art. "Levelling", for it: "it is raised eight inches very nearly above the Earth's
+    surface at one mile's distance; four times as much, or 32 inches, at the distance
+    of two miles" (Project Gutenberg #69892). The same continuous extract carries the
+    refraction sentence about "a seventh of the curvature". The 1881 third edition
+    splits them: ch. II p. 10 states the 8-inch declination bare, with the footnote
+    "Any work on geometry or geodesy will furnish proofs of this declination" and the
+    table to 120 miles, while the Britannica extract at p. 34 (za14.htm) is cut down to
+    the refraction half — which is the ARG-B07 hinge. Section 3(c) therefore names the
+    1865 edition. A batch-8 finding that the Britannica attribution was simply false
+    was checked against both editions and not applied; it holds only for 1881.
+  * Sun height: "less than 4,000 miles" in 1865 (London/Brighton 51 miles;
+    London/Ackworth 151 miles; two Ordnance stations 800 miles apart at 45° and 38°),
+    "only 700 statute miles" in 1881 ch. V, pp. 99-104. The 3,000-mile figure that
+    stood here until 2026-08-09 is a later flat-earth number, not Rowbotham's.
 """
 
 ENTRY = {
@@ -23,7 +40,7 @@ ENTRY = {
           "visible inside his own work: the 1849 experiments run on a surveyor's theodolite, "
           "the Bedford Level test on “a good telescope” with the eye eight inches above the "
           "water, and the curvature both are measured against comes off an arithmetic table "
-          "he copied from an encyclopaedia. Instruments and inference are not the opposite "
+          "he takes on trust rather than measures. Instruments and inference are not the opposite "
           "of observation; they are what lets an observation settle anything."),
 
     passage=dict(
@@ -188,9 +205,11 @@ ENTRY = {
         "an input. Nobody has ever seen the Earth's radius. It is obtained by exactly the "
         "surveying-and-inference chain the zetetic method is defined against, and Rowbotham "
         "took the formula, on trust, out of the <em>Encyclopaedia Britannica</em> article on "
-        "Levelling. The number he uses to refute the globe is borrowed from the globe. So is "
-        "the 3,000-mile height he assigns the sun, which is computed from measured angles and "
-        "cannot be looked at. Strip out every instrument and every inference and the zetetic "
+        "Levelling, which the 1865 edition prints at length. The number he uses to refute the "
+        "globe is borrowed from the globe. So is the height he assigns the sun — “less than "
+        "4,000 miles” in the 1865 edition, “only 700 statute miles” by chapter V of the 1881 "
+        "third edition — reached by plane trigonometry from altitudes measured at two stations, "
+        "and not a thing anyone can look at. Strip out every instrument and every inference and the zetetic "
         "case does not become purer; it becomes empty, because there is nothing left to "
         "compare the water against.</p>"
 
@@ -364,6 +383,15 @@ ENTRY = {
                    "derivative; the introductory section carries the shorter form of the "
                    "definition",
              url="https://archive.org/details/1865RowbothamZeteticAstronomy"),
+        dict(label="Zetetic Astronomy, 1865 first book edition — Project Gutenberg #69892 "
+                   "transcription: the Encyclopædia Britannica “Levelling” extract that supplies "
+                   "the eight-inch rule (“raised eight inches very nearly … at one mile's "
+                   "distance”), and the sun at “less than 4,000 miles”",
+             url="https://www.gutenberg.org/cache/epub/69892/pg69892.txt"),
+        dict(label="Zetetic Astronomy, 3rd ed. 1881 — ch. V, “The True Distance of the Sun”, "
+                   "pp. 99–104: “only 700 statute miles”, from simultaneous altitudes at London "
+                   "Bridge and Brighton",
+             url="https://sacred-texts.com/earth/za/za23.htm"),
         dict(label="Schadewald, The Plane Truth, ch. 1 — the 1849 pamphlet at 16 pages, six "
                    "experiments with a surveyor's theodolite",
              url="https://www.cantab.net/users/michael.behrend/ebooks/PlaneTruth/pages/Chapter_01.html"),

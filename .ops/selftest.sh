@@ -125,7 +125,18 @@ expect "bundle-no-main" 1 "bundle-no-main"
 
 say "8  a credential in the diff is never pushed"
 bundle "$NEWBASE" main
-printf 'token: github_pat_11ABCDEFG0123456789abcdefghijklmnopqrstuvwxyz012345\n' > "$LAB/work/docs/oops.txt"
+# SYNTHESISED AT RUNTIME, NEVER STORED. The first version of this line held the
+# credential-shaped literal directly, and the agent's very first live run refused to
+# push because of it — correctly. The commit that introduces a secret scanner cannot
+# also introduce the one string the scanner is built to reject.
+#
+# The fix is not to allowlist this file. A path-shaped hole in a secret scanner is
+# permanent and silent: a real token pasted here later would sail through, and this is
+# exactly the file where someone debugging the gate would paste one. Adjacent-string
+# concatenation gives the runtime the full pattern while the file on disk never
+# contains it, so the gate stays absolute and the test still proves it fires.
+FAKE_PAT="github""_pat_""11ABCDEFG0123456789abcdefghijklmnopqrstuvwxyz012345"
+printf 'token: %s\n' "$FAKE_PAT" > "$LAB/work/docs/oops.txt"
 git -C "$LAB/work" add -A; git -C "$LAB/work" commit --quiet -m "oops"
 LEAKTIP="$(git -C "$LAB/work" rev-parse HEAD)"
 manifest "$NEWBASE" "$LEAKTIP" true; bundle "$NEWBASE" main

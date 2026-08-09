@@ -1,0 +1,85 @@
+[
+ {
+  "id": "clusters",
+  "files": [
+   "scripts/clusters.py"
+  ],
+  "brief": "SIX cluster-record fixes. These render into the summary line next to the verdict chip, so they are read by people who never expand the entry.\n\n(a) ARG-A07 `note` \u2014 it publishes a \"$20,000\" figure that the entry's own gloss says it is deliberately withholding, and it frames Knodel's shielding run as a REFUSAL while the refutation credits it as a CONTROL. MINIMAL FIX: strike the $20,000 figure, and fix the refusal/control contradiction to match what the refutation actually says. Do NOT state the shielding-run outcome unhedged - the body hedges it and the note must not outrun it. This is about a living person on the most screenshottable line on the board.\n\n(b) ARG-B06 `year` is \"1849\". The treatment rendered directly below it contradicts that twice. Read `scripts/_b8_B06.py` to see what the treatment actually establishes, then set the year to what the evidence supports.\n\n(c) ARG-B08 `people` list is missing PER-ROWBOTHAM. Rowbotham 1881 (sacred-texts za48.htm, \"Motion of Stars North and South\") carries the southern-pole material this cluster covers. Add him. Verify PER-ROWBOTHAM exists in scripts/people.py first.\n\n(d) ARG-R03 `real_source` is None and should not be.\n\n(e) ARG-D11 `year` is still 1849 and the treatment contradicts it. Same treatment: `scripts/_b8_D11.py`.\n\n(f) ARG-C07 `real_source` is null; it should carry Bellarmine to Foscarini, 12 April 1615.\n\n(g) ARG-D15 carries the impossible pairing \"Galileo Was Wrong, Vol. III (2006)\". Three volumes exist only from January 2013; 2005-2010 was two volumes across five editions. Fix the work/year pairing to something defensible or drop the volume number - do not invent a date."
+ },
+ {
+  "id": "people-works",
+  "files": [
+   "scripts/people.py",
+   "scripts/works.py",
+   "scripts/deep_batch1.py",
+   "scripts/deep_batch2.py",
+   "scripts/_b6_B01.py",
+   "scripts/_b6_B04.py",
+   "scripts/_b6_D07.py"
+  ],
+  "brief": "TWO jobs.\n\n(1) THE D11 FALSE CLAIM, corpus-wide in YOUR files only. We assert somewhere that Rowbotham used \"a table he copied from an encyclopaedia\". This is FALSE and it is one click from our own source list. Grep your files for the claim (try: encyclop, Britannica, copied). Fix every genuine instance. Note the Britannica IS cited by Rowbotham, but for REFRACTION at p. 34 - which is the ARG-B07 hinge - NOT as the source of the 8-inch-per-mile table. Do not replace one wrong attribution with another. Some hits on \"encyclop\" will be legitimate unrelated prose; leave those alone.\n\n(2) works.py WRK-SUNGENIS-2006: Volume II is NOT \"historical\" - it is chapters 7-13 of the scientific argument. And \"10th ed. 2013\" cannot stand when the 2013 printing is the seventh. Fix both."
+ },
+ {
+  "id": "D13",
+  "files": [
+   "scripts/_b8_D13.py"
+  ],
+  "brief": "The gloss says \"Rick DeLano produced the film with Sungenis, who co-wrote it\". FALSE about a named living man's authorship. Variety's credit block - which this very entry cites - reads *Screenplay by Rick DeLano*, with Sungenis as executive producer. Fix the gloss AND the module docstring in the same pass. Do NOT change the `originator` field; the evidence does not support that."
+ },
+ {
+  "id": "A09",
+  "files": [
+   "scripts/_b8_A09.py"
+  ],
+  "brief": "The TLDR says \"pressure on the Pacific sea floor\". Gross 2000 does not contain the word \"Pacific\" - we invented a geographic specific right next to a named citation, in the field most readers never expand past. Two-word fix. The entry's own verdict paragraph already carries the correct wording; match it. Do NOT touch the verdict_challenge - the cluster-split question is an operator decision and is NOT in scope."
+ },
+ {
+  "id": "D11",
+  "files": [
+   "scripts/_b8_D11.py"
+  ],
+  "brief": "THREE fixes.\n\n(a) TLDR: \"a table he copied from an encyclopaedia\" is FALSE. Remove it. Do NOT add the phrase \"at the same canal\" - the 1849 pamphlet's venue is the New Bedford and the 1881 book's Experiment 1 is the Old Bedford, so that clause would introduce a new error.\n\n(b) Section 3(c) puts the sun at 3,000 miles. Rowbotham's figures are <4,000 in 1865 and 700 in 1881. Fix to what the editions actually say, naming which edition.\n\n(c) Same section misattributes the Encyclopaedia Britannica as the source of the 8-inch-per-mile table. Rowbotham's actual Britannica citation is about REFRACTION, at p. 34 - the ARG-B07 hinge. Do NOT assert he took his coefficient from Britannica; ARG-B07 refutes exactly that."
+ },
+ {
+  "id": "D02",
+  "files": [
+   "scripts/_b8_D02.py"
+  ],
+  "brief": "THREE fixes.\n\n(a) Gloss, opening paragraph: \"the Sun some 93 million miles off\" appears inside a clause about \"everything Galileo's model contained\". Take the NINE-WORD STRIKE. Do not write a three-sentence excursus on the history of the astronomical unit.\n\n(b) Section 4 and sources[5]: the \"globe placed in the centre of the heavens\" sentence is JOWETT'S INTRODUCTION, not the *Phaedo* itself. Fix the attribution. Do not claim Perseus is robots-blocked - it is reachable.\n\n(c) Section 6 and gloss section 3: Schadewald is a CRITIC of geocentrism. His equivalence sentence is not an inside-the-tradition concession, and our phrase \"two of them from inside the tradition\" is false. Fix both fields plus the clause preceding them."
+ },
+ {
+  "id": "D08",
+  "files": [
+   "scripts/_b8_D08.py"
+  ],
+  "brief": "Section 7 treats \"revolving heavens\" as if it distinguished the models. It does not - BOTH models assert it, and our own corpus carries \"Precession from dome rotation\". The same defect recurs at section 9 and in `why_it_doesnt_save_claim`. Fix ALL THREE; fixing section 7 alone leaves the knockdown available to a defender. Also check items 126 and 127 in this entry against what the source supports."
+ },
+ {
+  "id": "R04",
+  "files": [
+   "scripts/_b8_R04.py"
+  ],
+  "brief": "The gloss's 2006/2013 chapter mapping is wrong and contradicts our own ARG-E13. Correct mapping: 2006 Vol. I ch. 10 maps to 2013 Vol. II ch. NINE. The 2013 Vol. II ch. 10 is a DIFFERENT chapter, descending from 2006 ch. 12. Read ARG-E13's treatment to confirm before editing, and make the two entries agree."
+ },
+ {
+  "id": "C08",
+  "files": [
+   "scripts/_b8_C08.py"
+  ],
+  "brief": "The `untraceable` block carries a false absence claim about Manly Hall's solar chapter - and it sits in the very block that invites readers to check us. Fix it, and scope any remaining absence statement to the specific text actually searched (never \"the source does not contain X\"; write \"X is not located in <the text searched>\"). Correct the docstring slug from sta12 to sta11. Do NOT attribute the material to Dupuis - Hall credits an anonymous Balliol treatise."
+ },
+ {
+  "id": "B08",
+  "files": [
+   "scripts/_b8_B08.py"
+  ],
+  "brief": "The gloss says \"the northern half of the cluster is inherited\", which positively asserts the southern half is NOT - and that is wrong. Rowbotham 1881 (sacred-texts za48.htm, \"Motion of Stars North and South\") carries the southern-pole denial, the simultaneity objection in Dubay's own comparative form, AND the perspective reply. Genealogy is this project's deliverable and this is the field a defender quotes. Rewrite so the inheritance claim covers what the 1881 text actually supports."
+ },
+ {
+  "id": "B06",
+  "files": [
+   "scripts/_b8_B06.py"
+  ],
+  "brief": "TWO fixes.\n\n(a) The item-383/Carpenter inference is stated more firmly than the evidence supports. Hedge it.\n\n(b) Use the house title form *Earth Not a Globe* throughout.\n\n(c) If this file repeats the false claim that Rowbotham copied a table from an encyclopaedia, remove it - the Britannica citation in Rowbotham is about REFRACTION at p. 34, not the 8-inch table."
+ }
+]

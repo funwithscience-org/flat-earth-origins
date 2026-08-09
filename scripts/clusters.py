@@ -427,13 +427,12 @@ CLUSTERS = {
 
 # ---------------------------------------------------------------- E
 "E01": dict(lane="E", name="CMB 'Axis of Evil' aligns with Earth / the ecliptic",
-    # Corrected 2026-08-08: the dipole argument is TEXTUAL, not filmic. It runs to
-    # thirteen numbered "Claims and Responses" across Galileo Was Wrong Vol. I ch. 3 and
-    # Vol. II ch. 10; the film contains the least of it. Separately, "dark flow" and
-    # "bulk flow" occur ZERO times in all three volumes — item 327 traces to DeLano's
-    # blog, 18 May 2013, not to the book or the film.
-    originator="Robert Sungenis & Rick DeLano",
-    originator_work="Galileo Was Wrong (7th ed., 2013), Vol. I ch. 3 and Vol. II ch. 10", year="2013",
+    # RESTORED 2026-08-09. A batch-7 edit intended for E03 landed here instead: E01 and E03
+    # carried an identical originator/work/year line, and the edit used replace(old, new, 1),
+    # which took the FIRST match. E01 silently gained E03's comment and E03's work/year, and
+    # ten E01 dataset rows were republished with them. E03 never got its correction at all.
+    # Caught by the curmudgeon sweep 2026-08-09 and logged in corrections.json.
+    originator="Robert Sungenis & Rick DeLano", originator_work="The Principle (film)", year="2014",
     real_source="Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",
     verdict="MISLEADING",
     note="CAREFUL CASE — represent honestly. The alignment is a real, reproducible feature of the data and the significance debate is genuinely open. But Land & Magueijo themselves walked the significance back in 2007 ('no evidence' under Bayesian model comparison for the general model); Planck 2018 VII notes the look-elsewhere effect and finds no corresponding anomaly in polarization. Decisively: the axis aligns with the *ecliptic and the dipole*, which points to a local/systematic origin — i.e. the alignment is evidence the signal may be partly non-cosmological, which is the opposite of what is claimed."),
@@ -442,7 +441,13 @@ CLUSTERS = {
     real_source="Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",
     verdict="MISLEADING", note="Same status as E01: real features, contested significance, no geocentric implication."),
 "E03": dict(lane="E", name="CMB dipole, dark flow and bulk-flow directionality",
-    originator="Robert Sungenis & Rick DeLano", originator_work="The Principle (film)", year="2014",
+    # Corrected 2026-08-08, actually applied 2026-08-09 (the first attempt landed on E01).
+    # The dipole argument is TEXTUAL, not filmic: thirteen numbered "Claims and Responses"
+    # across Galileo Was Wrong Vol. I ch. 3 and Vol. II ch. 10; the film contains the least
+    # of it. Separately, "dark flow" and "bulk flow" occur ZERO times in all three volumes —
+    # item 327 traces to DeLano's blog, 18 May 2013, not to the book or the film.
+    originator="Robert Sungenis & Rick DeLano",
+    originator_work="Galileo Was Wrong (7th ed., 2013), Vol. I ch. 3 and Vol. II ch. 10", year="2013",
     real_source="Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",
     verdict="REFUTED",
     note="The dipole *is* our motion — 369.82 ± 0.11 km/s, measured. Dark flow was not confirmed: Planck found no detection of bulk flow in any comoving sphere."),

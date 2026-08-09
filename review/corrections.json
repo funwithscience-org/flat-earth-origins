@@ -101,10 +101,18 @@
   {
    "at": "2026-08-08",
    "found_by": "agent writing ARG-E03, batch 7",
-   "where": "scripts/clusters.py ARG-E03 - originator_work",
+   "where": "scripts/clusters.py ARG-E03 - originator_work (recorded 2026-08-08, NOT ACTUALLY APPLIED until 2026-08-09 - see the entry below)",
    "old_argument": "Credited to 'The Principle (film)', 2014.",
    "new_argument": "The dipole argument is textual, not filmic: thirteen numbered 'Claims and Responses' across Galileo Was Wrong Vol. I ch. 3 and Vol. II ch. 10 (7th ed., 2013). The film contains the least of it. Separately, 'dark flow' and 'bulk flow' occur ZERO times across all three volumes - item 327 traces to DeLano's blog of 18 May 2013, not to the book or the film.",
    "reason": "We pointed readers at the artefact with the least of the argument in it."
+  },
+  {
+   "at": "2026-08-09",
+   "found_by": "curmudgeon full sweep, verified critical finding",
+   "where": "scripts/clusters.py ARG-E01 and ARG-E03 - and this corrections log itself",
+   "old_argument": "The batch-7 correction written for ARG-E03 was applied to ARG-E01 instead. E01 silently acquired E03's comment block and E03's originator_work/year ('Galileo Was Wrong (7th ed., 2013)...', 2013), and ten E01 dataset rows were rebuilt and published with them. ARG-E03 was never touched and still read 'The Principle (film)', 2014. The corrections entry logged on 2026-08-08 therefore asserted a location that was false.",
+   "new_argument": "E01 restored to 'The Principle (film)', 2014. The correction applied to E03, where it belonged, anchored on the cluster key so it cannot slide onto a neighbour again. The earlier entry amended to say it was not applied when logged.",
+   "reason": "ROOT CAUSE, and it is mechanical rather than a judgement failure: E01 and E03 carried a byte-identical originator/work/year line, and the edit used a Python replace(old, new, 1) whose first match was E01. The test suite did not catch it because the originator string was unchanged, so no derived count moved. TWO LESSONS. (1) Anchor every cluster edit on the cluster key, never on a field line that neighbours may share. (2) This is the failure this project exists to catch - an attribution silently reassigned to the wrong source - committed by us, inside the act of logging a correction, and it stood in published data for a day. It was found by the adversarial sweep, not by the tests, which is the argument for running the sweep."
   }
  ]
 }

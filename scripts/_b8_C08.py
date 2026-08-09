@@ -28,9 +28,18 @@ cosmology, and `pre_modern` was CONSIDERED AND REJECTED.  What was searched:
   * The neighbouring literature, because items 430/440 and 451-460 sit either side of
     these six and descend from Hall, Blavatsky and Eliade, and because "sacred time",
     "sacred calendar" and "orientation" are comparative-religion vocabulary.  Hall's
-    solar chapter (SECRET TEACHINGS, "The Sun, A Universal Deity", sacred-texts sta12) was
-    read for statements about Christian festivals, church orientation or processions and
-    none was located in that chapter.  We do NOT claim Hall or Eliade as the source.
+    solar chapter (SECRET TEACHINGS, "The Sun, A Universal Deity") is sacred-texts sta11;
+    the slug was recorded here as sta12 until 2026-08-09, and sta12 is a different chapter,
+    "The Zodiac and Its Signs".  sta11 was read for Christian festivals, the church
+    calendar, eastward orientation and solar processions, and two of the four are in it:
+    Hall dates the pagan "birthday of the Solar Man" to 25 December, and, quoting the
+    anonymous Balliol treatise MANKIND THEIR ORIGIN AND DESTINY, reads the mid-August feast
+    of the Assumption as an astronomical event.  (Hall does not name Dupuis anywhere in
+    sta11 — do not credit him; the credit in that chapter is to the Balliol treatise.)
+    What is NOT located in the text of that chapter as transcribed at sta11 is any
+    conclusion about the motion or arrangement of the Earth, and nothing on church
+    orientation or the monastic hours is located there either.  So the resemblance stays a
+    resemblance: we do NOT claim Hall or Eliade as the source.
 
 WHY NOT `pre_modern`.  The PRACTICES are demonstrably older than the movement —
 Tertullian on eastward prayer c. 197, Gregory of Tours' star manual in the sixth century,
@@ -77,7 +86,7 @@ ENTRY = {"C08": dict(
 
 <p><strong>Two further geocentric compendia, read end to end.</strong> The <em>Geocentrism</em> essay at scripturecatholic.com (2017) and the <em>Geocentrism</em> page at trueorthodoxy.org (Dormition Skete, 2022, forty-odd cited sources) both argue from scripture, from patristic consensus and from the interferometry experiments. Neither builds an argument out of the liturgy, the calendar, the orientation of churches, processions or the monastic hours.</p>
 
-<p><strong>And the literature next door.</strong> These six items sit inside a run of the list &mdash; temple architecture, iconography, the <em>axis mundi</em>, Masonic tracing boards &mdash; whose neighbours descend from Manly&nbsp;P. Hall, Blavatsky and Mircea Eliade, and &ldquo;sacred time&rdquo;, &ldquo;sacred calendar&rdquo; and &ldquo;orientation&rdquo; are that literature&rsquo;s vocabulary rather than the Tychonian movement&rsquo;s. We read Hall&rsquo;s solar chapter looking for the Christian festivals, the church calendar, eastward orientation and solar processions, and none of the four is located in that chapter as retrieved. So we record the resemblance as a resemblance and stop. We are not claiming Hall or Eliade as an author here.</p>
+<p><strong>And the literature next door.</strong> These six items sit inside a run of the list &mdash; temple architecture, iconography, the <em>axis mundi</em>, Masonic tracing boards &mdash; whose neighbours descend from Manly&nbsp;P. Hall, Blavatsky and Mircea Eliade, and &ldquo;sacred time&rdquo;, &ldquo;sacred calendar&rdquo; and &ldquo;orientation&rdquo; are that literature&rsquo;s vocabulary rather than the Tychonian movement&rsquo;s. We read Hall&rsquo;s solar chapter &mdash; <em>The Secret Teachings of All Ages</em>, &ldquo;The Sun, A Universal Deity&rdquo; (sacred-texts <code>sta11</code>) &mdash; and it does carry the move item&nbsp;429 makes, in miniature. Hall dates the pagan &ldquo;birthday of the Solar Man&rdquo; to 25&nbsp;December, and, quoting the treatise he credits to an anonymous Master of Arts of Balliol College, Oxford, <em>Mankind Their Origin and Destiny</em>, he reads the mid-August feast of the Assumption as an astronomical event: a phenomenon that &ldquo;gave rise to a festival which still exists&rdquo;. What is <em>not</em> located in the text of that chapter as transcribed at <code>sta11</code> is the step this cluster needs. Hall reads a Christian feast back to a solar cult &mdash; a claim about the genealogy of a religion &mdash; and draws no conclusion whatever about the motion or arrangement of the Earth; church orientation and the monastic hours are not located in that chapter either. So we record the resemblance as a resemblance and stop. We are not claiming Hall or Eliade as an author here.</p>
 
 <p><strong>Why we did not record this as older than the movement.</strong> The tempting move was to file the cluster as pre-modern, since the practices unquestionably are: Tertullian is describing eastward prayer around 197, Gregory of Tours wrote a manual for timing the night office by the stars in the sixth century, Bede&rsquo;s computus is from 725. But that field records where an <em>argument</em> came from, not where a <em>practice</em> came from, and the early texts contain this argument&rsquo;s negation rather than its origin. Tertullian reports the solar reading of eastward prayer as a mistake made by outsiders looking in, and rejects it. Filing the cluster as pre-modern would have credited antiquity with an inference antiquity declined to make.</p>
 
@@ -245,4 +254,12 @@ ENTRY = {"C08": dict(
         dict(label="trueorthodoxy.org, “Geocentrism” (Dormition Skete, 2022, 40+ cited sources) — "
                    "same search, same result: scripture, patristic consensus and the "
                    "interferometry experiments",
-             url="https://www.trueorthodoxy.org/teachings/con_geocentrism.html")])}
+             url="https://www.trueorthodoxy.org/teachings/con_geocentrism.html"),
+        dict(label="Manly P. Hall, The Secret Teachings of All Ages (1928), “The Sun, A "
+                   "Universal Deity” — sacred-texts sta11 (sta12 is “The Zodiac and Its "
+                   "Signs”). Read 2026-08-09 for Christian festivals, the church calendar, "
+                   "eastward orientation and processions: the 25 December and Assumption "
+                   "passages are there, credited by Hall to an anonymous Master of Arts of "
+                   "Balliol College, Oxford, Mankind Their Origin and Destiny; the "
+                   "cosmological inference is not located in that chapter",
+             url="https://sacred-texts.com/eso/sta/sta11.htm")])}

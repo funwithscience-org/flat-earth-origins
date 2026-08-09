@@ -46,6 +46,24 @@ Research notes for whoever picks this up next.
        Einstein's relativity of motion and his conventionalist remark, which are
        R01's and R08's material. The verdict is right for all five, so this is
        not a verdict_challenge — it is a composition note for the parent.
+
+5. CROSS-EDITION CHAPTER MAP, CORRECTED 2026-08-09. The gloss previously stated that
+   the same chapter 10 is Vol. I in 2006 and Vol. II in 2013. Both tables of contents
+   were read this pass and it is not so. 2006 Vol. I ch. 10 "Mathematical Models of a
+   Geocentric Universe" (p. 590) reappears as 2013 Vol. II ch. 9 "Modern Science and
+   the Acceptance of Geocentrism" (p. 111), carrying the same section run — Absolute
+   Rest versus Relative Motion 112, Fred Hoyle's 115, The Gyroscopic Effect on the
+   Earth 121, Einstein's Geocentrism 126, Thirring's 130, Barbour and Bertotti's 147.
+   2013 Vol. II ch. 10 is "Technical and Summary Analysis of Geocentrism" (p. 157) —
+   the chapter ARG-E13's locator already cites — and it descends from 2006 Vol. I
+   ch. 12 "Technical and Summary Analysis of Geocentric Cosmology" (p. 710). More
+   generally 2006 chs 8, 9, 10 map to 2013 Vol. II chs 7, 8, 9, and 2006 ch. 11
+   (Hildegard) to 2013 ch. 12; the 2013 ch. 11 (ALFA model) has no 2006 counterpart
+   under that title. Note also that "chapters 7–13 became Volume II" holds of the 2013
+   edition's own numbering only: 2006 ch. 7 is "What is Space?" (p. 395). This entry's
+   other locators — Vol. I (2006), ch. 10 at p. 590, the section at p. 607, and the
+   two relativity sections at ch. 5 p. 334 and ch. 7 p. 441 — were checked against the
+   same contents pages and are correct as they stand.
 """
 
 ENTRY = {
@@ -76,7 +94,7 @@ ENTRY = {
         gloss="""<p>What is quoted above is the book&rsquo;s own table of contents, and it is quoted because that is the part of this work we were able to read. The Internet Archive PDF renders far enough for a fetcher to return the front matter and the full contents listing and no further; the chapters themselves stop being retrievable long before p. 607. <strong>So the volume, chapter and page of this argument are recorded here and its wording is not.</strong> Anyone with the printed book should read ch. 10 pp. 590&ndash;637 and correct this entry.</p>
 <p>Even so, the contents page settles three things a reader should have.</p>
 <p><strong>Where the argument lives.</strong> Chapter 10, &ldquo;Mathematical Models of a Geocentric Universe&rdquo; (p. 590), runs: <em>Absolute Rest versus Relative Motion</em> 591, <em>The Gyroscopic Effect on Earth</em> 599, <em>Einstein&rsquo;s Geocentrism</em> 607, <em>Thirring&rsquo;s Geocentrism</em> 611, then Rosser 616, Bondi 619, Brill and Cohen 623, M&oslash;ller 624, Lynden-Bell 626, Barbour and Bertotti 628. That is not a list of cranks. Brill and Cohen&rsquo;s &ldquo;Rotating Masses and Their Effect on Inertial Frames&rdquo; (<em>Phys. Rev.</em> 143:1011, 1966) is a real result about a real effect, and the steelman below is built out of it.</p>
-<p><strong>Which volume this is, in which year.</strong> In the 2006 printing these are chapters of <em>Volume I</em>. In the seventh edition of 2013 the work was rearranged into three volumes and chapters 7&ndash;13 became <em>Volume II</em> &mdash; the identity our ARG-E03 and ARG-R01 entries had to establish the hard way. So the same chapter 10 is Vol. I in 2006 and Vol. II in 2013, and page citations in the critical literature to &ldquo;vol. 1, 9th ed.&rdquo; will not line up with this scan&rsquo;s pagination. Ours is the 2006 first printing throughout.</p>
+<p><strong>Which volume this is, in which year.</strong> In the 2006 printing these are chapters of <em>Volume I</em>. In the seventh edition of 2013 the work was split into three volumes, and that edition&rsquo;s own chapters 7&ndash;13 make up <em>Volume II</em> &mdash; the identity our ARG-E03 and ARG-R01 entries had to establish the hard way. The chapters were renumbered as well as rehoused. The chapter-10 section run quoted above, from <em>Absolute Rest versus Relative Motion</em> onward, reappears in the 2013 Volume II as chapter <strong>9</strong>, &ldquo;Modern Science and the Acceptance of Geocentrism&rdquo;, opening at p. 111, with <em>Einstein&rsquo;s Geocentrism</em> at p. 126 and <em>Thirring&rsquo;s Geocentrism</em> at p. 130. Chapter 10 of the 2013 Volume II is a different chapter &mdash; &ldquo;Technical and Summary Analysis of Geocentrism&rdquo;, p. 157, the one <a href="#ARG-E13">ARG-E13</a> cites &mdash; and it descends from chapter 12 of the 2006 Volume I, &ldquo;Technical and Summary Analysis of Geocentric Cosmology&rdquo;, p. 710. So neither chapter numbers nor page numbers carry between the two editions, and page citations in the critical literature to &ldquo;vol. 1, 9th ed.&rdquo; will not line up with this scan&rsquo;s pagination. Ours is the 2006 first printing throughout.</p>
 <p><strong>What the book announces about relativity.</strong> The same volume that models a geocentric universe on Thirring and Brill&ndash;Cohen also runs sections titled <em>The Failure of General Relativity</em> (ch. 5, p. 334) and <em>The Demise of Relativity Theory</em> (ch. 7, p. 441). That is not a contradiction on the authors&rsquo; part, and it should not be reported as one: the appeal to relativity is dialectical, and Sungenis says so himself in documents that are readable. Answering Phil Plait&rsquo;s <em>Bad Astronomy</em> post of 14 September 2010 he writes that <em>&ldquo;a geocentrist appeals to Relativity not as proof or even evidence for geocentrism&rdquo;</em> but to show that geocentrism &ldquo;can have just as much scientific respectability as heliocentrism&rdquo;, and adds that <em>&ldquo;the geocentrist makes his case for geocentrism on solid scientific evidence that has little or nothing to do with Relativity.&rdquo;</em> In an undated interview he puts the positive claim at its own strength: general relativity <em>&ldquo;not only supports geocentrism as a &lsquo;relative&rsquo; alternative&rdquo;</em>. A relative alternative, offered as respectability rather than evidence, is what the list has turned into &ldquo;Equivalence principle validation.&rdquo;</p>"""),
 
     steelman=dict(

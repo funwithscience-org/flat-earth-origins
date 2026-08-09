@@ -20,6 +20,21 @@ files this agent was told not to edit:
    through the same pane of glass all year round, which is the Polaris-fixed strand.
    Reported, not applied.
 
+   CORRECTED 2026-08-09, and it runs further back than this note first had it.
+   Rowbotham is the originator of BOTH strands, not Carpenter and not Dubay.
+   (a) Southern strand: Zetetic Astronomy 3rd ed., 1881, section "Motion of Stars
+   North and South" (sacred-texts za48.htm) carries the south-pole denial, the
+   Southern Cross / Great Bear simultaneity objection in Dubay's own comparative
+   form, and the Arthur's Seat perspective reply. That section is not located in
+   the 1865 first book edition (Gutenberg #69892, searched for circumpolar, pole
+   star, south polar, Southern Cross), so 1881 is the earliest edition we can
+   document it in. (b) Polaris-below-the-equator strand: present already in the
+   1865 first book edition, on Captain Wilkins in the Times of 13 May 1862 — two
+   decades before Carpenter's proof 71. The gloss now says so and cites both.
+   For the parent: clusters.py ARG-B08 still reads originator="Eric Dubay",
+   year="2015", real_source=None. PER-ROWBOTHAM has been added to this entry's
+   people[]; the originator and real_source fields are the parent's call.
+
 3. THE DRIFT RUNS BACKWARDS HERE. Every drift recorded on this page so far moves
    towards more certainty than the author stated. B08 moves the other way: the seven
    list items keep only the northern half, which nobody disputes, and drop the
@@ -83,8 +98,31 @@ ENTRY = {
                "equator.&rdquo; The Polaris-is-fixed strand has an 1885 ancestor too, in "
                "Carpenter&rsquo;s proof 80, which reasons from seeing the North Star through the "
                "very same corner of the very same pane of glass all the year round. What is new "
-               "in 2015 is the engagement with Sigma Octantis; the northern half of the cluster "
-               "is inherited.</p>"
+               "in 2015 is the naming of Sigma Octantis. The argument around it is not. "
+               "Rowbotham&rsquo;s <em>Zetetic Astronomy: Earth Not a Globe</em> (3rd ed., 1881) "
+               "gives the southern sky a section of its own, &ldquo;Motion of Stars North and "
+               "South&rdquo;, which opens on this exact claim &mdash; &ldquo;IT has often been "
+               "urged that the earth must be a globe, because the stars in the southern "
+               "&lsquo;hemisphere&rsquo; move round a south polar star&rdquo; &mdash; and "
+               "answers it with a denial: the southern region &ldquo;is not central, but "
+               "circumferential; and therefore there is no southern pole, no south pole star, "
+               "and no southern circumpolar constellations.&rdquo; Proof 101&rsquo;s "
+               "simultaneity objection is there in the same comparative form &mdash; &ldquo;The "
+               "Southern Cross is not at all times visible from every point of the southern "
+               "hemisphere, as the &lsquo;Great Bear&rsquo; is from every point in the "
+               "northern&rdquo; &mdash; and so is the perspective reply, which Rowbotham stages "
+               "by asking the reader to stand with his back to the north on Arthur&rsquo;s Seat, "
+               "near Edinburgh, and watch the stars in his zenith. Quoted from the 1881 third "
+               "edition; that section is not located in the 1865 first book edition as posted at "
+               "Project Gutenberg (#69892), which we searched for <em>circumpolar</em>, "
+               "<em>pole star</em>, <em>south polar</em> and <em>Southern Cross</em>. The 1865 "
+               "text does carry the other strand, though &mdash; the north polar star seen "
+               "&ldquo;as far even as the tropic of Capricorn&rdquo;, on a report of Captain "
+               "Wilkins in the <em>Times</em> of 13 May 1862 &mdash; twenty years before "
+               "Carpenter&rsquo;s proof 71. Both halves of this cluster are inherited, and of "
+               "the texts traced here the southern half is the earlier: 1881 against "
+               "Carpenter&rsquo;s fifth edition of 1885, whose own earlier editions we could not "
+               "obtain.</p>"
                "<p>The positive claim is stated most plainly outside the book. Dubay&rsquo;s "
                "video <em>Flat Earth Star Trails Explained</em>, published 30 November 2018 and "
                "archived at the Internet Archive, holds that star trails in both hemispheres "
@@ -383,7 +421,7 @@ ENTRY = {
 
     verdict_challenge=dict(challenged=False, proposed_verdict=None, reasoning=None),
 
-    people=["PER-DUBAY", "PER-CARPENTER"],
+    people=["PER-DUBAY", "PER-CARPENTER", "PER-ROWBOTHAM"],
     related=["A22", "A05", "B12", "B02", "D11"],
 
     sources=[
@@ -399,6 +437,16 @@ ENTRY = {
         dict(label="Carpenter, One Hundred Proofs that the Earth is Not a Globe (5th ed., 1885) "
                    "— Project Gutenberg full text; proofs 71 and 80, the 1885 ancestors",
              url="https://www.gutenberg.org/files/55387/55387-h/55387-h.htm"),
+        dict(label="Rowbotham (as “Parallax”), Zetetic Astronomy: Earth Not a Globe, 3rd ed. "
+                   "1881 — “Motion of Stars North and South”: the south-pole denial, the "
+                   "Southern Cross / Great Bear simultaneity objection, and the Arthur’s Seat "
+                   "perspective reply, all quoted above",
+             url="https://sacred-texts.com/earth/za/za48.htm"),
+        dict(label="Rowbotham, Zetetic Astronomy: Earth Not a Globe! (1865 first book edition), "
+                   "Project Gutenberg #69892 — searched for circumpolar, pole star, south "
+                   "polar, Southern Cross; carries the north polar star “as far even as the "
+                   "tropic of Capricorn” (Captain Wilkins, the Times, 13 May 1862)",
+             url="https://www.gutenberg.org/ebooks/69892"),
         dict(label="Sigma Octantis — magnitude 5.42, ~294 ly, F0 IV, Delta Scuti, just over 1° "
                    "from the south celestial pole",
              url="https://en.wikipedia.org/wiki/Sigma_Octantis"),

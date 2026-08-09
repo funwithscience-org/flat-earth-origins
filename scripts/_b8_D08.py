@@ -60,10 +60,12 @@ ENTRY = {
                    "the verdict. Its central exhibit is not an interpretation, it is an object "
                    "with an inventory number, a quarry, a findspot, a datable planetary "
                    "configuration and two datable eclipses; and the proof set contains, "
-                   "alongside it, items asserting concentric heavens and revolving heavens, "
-                   "which are the geometry of a sphere. The contradiction is therefore inside "
+                   "alongside it, an item asserting concentric heavens, which in the "
+                   "Latin-European art it names are drawn about a globe, while the cosmos its "
+                   "own temple items model is an inventory of seven planetary courses inside a "
+                   "zodiac circle. The contradiction is therefore inside "
                    "the set rather than imposed on it: the same seven items ask a reader to "
-                   "accept nested revolving spheres and a flat earth under a dome at once. "
+                   "accept nested spheres and a flat earth under a dome at once. "
                    "SELF-CONTRADICTED describes that exactly, and it is the more modest "
                    "verdict, because it convicts the argument out of its own materials rather "
                    "than out of a general claim about esoteric method.")),
@@ -214,12 +216,15 @@ ENTRY = {
             "particular year from the planets it shows plus a lunar eclipse of 25 September 52 BCE "
             "and a solar eclipse of 7 March 51 BCE &mdash; and it is neither native nor early. You "
             "may have the authority or the antiquity. Not both, and not from the same ceiling.</p>"
-            "<p>The kernel also reaches only two of the seven items. It does nothing for 127, "
+            "<p>The kernel also reaches only two of the seven items, and the second of those it "
+            "reaches to no effect: 456, the Dendera item, and 440, whose <em>revolving</em> "
+            "heavens a firmament turning over a plane supplies as readily as a turning sphere, so "
+            "that item settles nothing about shape in either direction. It does nothing for 127, "
             "whose concentric heavens are Latin-European and drawn around a sphere; nothing for "
-            "440, whose <em>revolving</em> heavens are the daily turn of that sphere; nothing for "
-            "74, 430 and 126, where the model&rsquo;s own inventory is seven planets and a zodiac "
-            "circle; and nothing for 163, where orientation is compatible with any ground "
-            "whatever.</p>")),
+            "74 and 430, where the model&rsquo;s own inventory is seven planets and a zodiac "
+            "circle; nothing for 126, whose world-centre vocabulary is Eliade&rsquo;s and is "
+            "treated at <a href=\"#ARG-D04\">D04</a>; and nothing for 163, where orientation is "
+            "compatible with any ground whatever.</p>")),
 
     refutation=(
         "<p><strong>1. What the object is.</strong> The Dendera zodiac is a sandstone bas-relief "
@@ -279,8 +284,12 @@ ENTRY = {
         "written on it, and computing the sky it shows.</p>"
 
         "<p><strong>5. Temple as cosmic model &mdash; conceded, and then read.</strong> Items 74, "
-        "126, 430 and 440 assert that temples were built as models of the cosmos. Grant it "
-        "entirely; the sources say so themselves, and Hall quotes them saying so. The question the "
+        "430 and 440 assert that temples were built as models of the cosmos. Grant it "
+        "entirely; the sources say so themselves, and Hall quotes them saying so. (Item 126, "
+        "&ldquo;Temples as world-centers&rdquo;, is a different claim in a different vocabulary "
+        "&mdash; Eliade&rsquo;s centre-of-the-world language, which this page treats at "
+        "<a href=\"#ARG-D04\">D04</a> &mdash; and it was not located in the Hall chapters read "
+        "for this entry.) The question the "
         "list never asks is <em>which cosmos</em>. Josephus&rsquo;s key, as Hall prints it, is: "
         "three parts for land, sea and heaven; seven lamps for &ldquo;the course of the planets, "
         "of which that is the number&rdquo;; twelve stones for &ldquo;the signs of that circle "
@@ -313,15 +322,20 @@ ENTRY = {
         "requires walking through the earth and coming out the other side is not testimony for a "
         "flat one.</p>"
 
-        "<p><strong>7. Item 440 says it out loud.</strong> &ldquo;Temple architecture mirroring "
-        "revolving heavens&rdquo; is a description of the daily rotation of the celestial sphere "
-        "about its poles &mdash; the motion that makes stars circle the pole, that fixes what "
-        "&lsquo;true north&rsquo; means, and that a temple axis can be aligned to. It is a real "
-        "phenomenon, it is what the builders watched, and it is the motion of a sphere. Filed as "
-        "evidence for a flat stationary earth, the item asserts the geometry it is meant to "
-        "refute. Whether the sphere or the observer turns is the geocentric question, which "
-        "belongs to lane A and to <a href=\"#ARG-D02\">D02</a>, not to this family &mdash; and "
-        "either way it is a question about motion, not about shape.</p>"
+        "<p><strong>7. Item 440, and what revolving heavens do not settle.</strong> &ldquo;Temple "
+        "architecture mirroring revolving heavens&rdquo; names the daily turning of the sky "
+        "&mdash; the motion that makes stars circle the pole, that fixes what &lsquo;true "
+        "north&rsquo; means, and that a temple axis can be aligned to. It is a real phenomenon "
+        "and it is what the builders watched. On its own it does not decide the shape question, "
+        "and we are not going to pretend it does: a firmament turning over a plane also carries "
+        "stars round a pole, and the list says so itself &mdash; &ldquo;Precession from dome "
+        "rotation&rdquo; and &ldquo;Day&ndash;night cycle from firmament rotation&rdquo; are "
+        "items in this same corpus. What decides it is that the turn has two centres, one in "
+        "each hemisphere, which no single axis through a disc delivers; that is argued at "
+        "<a href=\"#ARG-B08\">B08</a> and not re-run here. What item 440 concedes is that the "
+        "heavens revolve, which is a claim about motion; whether the sky or the observer turns "
+        "is the geocentric question, belonging to lane A and to <a href=\"#ARG-D02\">D02</a>, "
+        "not to this family.</p>"
 
         "<p><strong>8. Item 163, honestly: orientation is nearly content-free here.</strong> "
         "Aligning a building to the cardinal points, to a solstice sunrise, or to a star&rsquo;s "
@@ -342,8 +356,9 @@ ENTRY = {
         "&mdash; and those measurements are the ones that come out spherical. Everything else in "
         "the cluster is a claim about what a building meant to the people who built it, which is a "
         "real and answerable question, and one whose answer here is the nested spheres. A proof "
-        "set that contains &lsquo;concentric heavens&rsquo;, &lsquo;revolving heavens&rsquo; and "
-        "&lsquo;a dome above a flat earth&rsquo; is not being merely wrong; it is holding two "
+        "set that contains &lsquo;concentric heavens&rsquo; drawn about a globe and &lsquo;a dome "
+        "above a flat earth&rsquo;, and whose own temple items model a cosmos of seven planetary "
+        "courses inside a zodiac circle, is not being merely wrong; it is holding two "
         "geometries at once and drawing on whichever is convenient. That is the verdict.</p>"),
 
     advocate=dict(
@@ -452,7 +467,7 @@ ENTRY = {
               "not read &mdash; only a record of where the search reached.</p>")),
 
     people=["PER-HALL", "PER-ELIADE", "PER-PTOLEMY"],
-    related=["D07", "D06", "D04", "D02", "D01", "D09", "D16", "A22"],
+    related=["D07", "D06", "D04", "D02", "D01", "D09", "D16", "A22", "B08"],
 
     sources=[
         dict(label="Hall, The Secret Teachings of All Ages (1928), ch. IX “The Zodiac and Its "

@@ -3,3 +3,8 @@
 .DS_Store
 __pycache__/
 handoff/
+
+# Credentials for the local commit agent. Never committed; the agent also refuses
+# to push any diff containing a PAT-shaped string (.ops/push-bundle.sh gate 4).
+.gitcred/
+commit-queue/

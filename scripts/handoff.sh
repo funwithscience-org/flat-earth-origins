@@ -137,7 +137,43 @@ Pages redeploys in about a minute. The live page should then carry:
   if it still says "atmosphere can't co-rotate", the deploy has not taken
 EOF
 
+# ---- commit-queue manifest for the local commit agent ----------------------
+# The bundles alone let a human push. The manifest lets the SCHEDULED AGENT push,
+# because it pins what the bundle is supposed to contain. Without it the agent
+# would be trusting whatever bundle happens to be sitting in the folder — which is
+# a stale-file bug waiting to happen, since iCloud keeps old copies around.
+# `tests_green` is recorded here, not asserted by the agent, because the suite
+# needs the container's Python environment; the agent re-runs it anyway in its own
+# clone, so this field is a staging-time claim that the agent independently checks.
+if [ -n "$BASE" ]; then
+    TESTS_GREEN=false
+    if tests/run.sh >/dev/null 2>&1; then TESTS_GREEN=true; fi
+    python3 - "$OUT/pending.json" "$LOCAL" "$BASE" "$TESTS_GREEN" <<'PY'
+import json, subprocess, sys
+out, tip, base, tests = sys.argv[1:5]
+log = subprocess.run(["git", "log", "--format=%H%x1f%s", f"{base}..{tip}"],
+                     capture_output=True, text=True).stdout.strip().splitlines()
+commits = [dict(zip(("sha", "subject"), l.split("\x1f", 1))) for l in log if l]
+json.dump({
+    "bundle": "feo-unpushed.bundle",
+    "base": base,
+    "tip": tip,
+    "commits": commits,
+    "tests_green": tests == "true",
+    "allow_deletions": False,
+    "repo": "funwithscience-org/flat-earth-origins",
+    "staged_by": "cloud session (cannot push — issue #76248)",
+}, open(out, "w"), indent=2)
+print(f"manifest: {len(commits)} commit(s), tests_green={tests}")
+PY
+else
+    rm -f "$OUT/pending.json"
+    echo "NOTE: no base commit — manifest skipped; the agent cannot verify a full bundle." >&2
+fi
+
 echo
 ls -lh "$OUT"
 echo
-echo "Ready. Send these to the user and write them to the connected folder."
+echo "Ready. Send these to the user and write them to the connected folder:"
+echo "  feo-unpushed.bundle + pending.json  ->  <folder>/commit-queue/"
+echo "  feo-full.bundle + HANDOFF.md        ->  <folder>/   (manual fallback)"

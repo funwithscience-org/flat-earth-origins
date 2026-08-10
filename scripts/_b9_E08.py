@@ -41,12 +41,23 @@ Research notes for whoever picks this up next.
    Detail 15 concedes that the anomaly "contradicts the accurately known motion of the
    inner planets" — i.e. it is not a universal force centred on anything.
 
-4. THE KERNEL, AND IT IS A GOOD ONE. The best-fit direction really is Earth-pointing.
-   Turyshev et al., PRL 107:081103 (2011): "we find no support in favor of a Sun-pointing
-   direction over the Earth-pointing or along the spin-axis directions." Then PRL
-   108:241101 (2012) explains WHY: "If the acceleration were due to thermal recoil force,
-   it would be along the spacecraft spin axis, which generally points in the direction of
-   the Earth." The spin axis is aimed at Earth so the radio link closes. So Earth-pointing
+4. THE KERNEL, AND IT IS A GOOD ONE. Say it exactly as the papers do and no harder: the
+   direction was never determined. Turyshev et al., PRL 107:081103 (2011): "although the
+   direction of the acceleration remains imprecisely determined, we find no support in
+   favor of a Sun-pointing direction over the Earth-pointing or along the spin-axis
+   directions", and, in the body, "the spin and Earth-spacecraft axes are effectively
+   degenerate as the spacecraft were maintaining an Earth orientation for continuous radio
+   communication." PRL 108:241101 (2012) states the final form: the direction "cannot be
+   determined unambiguously", but "the Doppler residuals improve if one considers a
+   temporally varying acceleration in the direction of the Earth", which it calls
+   "suggestive". Do NOT write "the best-fit direction is the Earth" or "the direction
+   resolved towards the Earth" — no paper says that, and the case was closed by the
+   thermal model plus the independent Doppler fit, not by the direction. Then PRL
+   108:241101 (2012) explains WHY, and quote the whole sentence rather than half of it:
+   "If the acceleration were due to thermal recoil force, it would be along the spacecraft
+   spin axis, which generally points in the direction of the Earth and would have
+   temporally decreasing magnitude consistent with the decay of the on-board radioisotope
+   fuel (Pu238)." The spin axis is aimed at Earth so the radio link closes. So Earth-pointing
    is the signature of the mundane answer, and the true thing they found points the other
    way. Do not lead with "the anomaly is sunward" — that was the 1998 framing and the
    2011 paper walked it back.
@@ -69,9 +80,18 @@ Research notes for whoever picks this up next.
 6. WHAT IS OPEN. The flyby anomaly is not resolved and the page must keep saying so —
    E01 precedent. Galileo I 3.92 +/- 0.08 mm/s, NEAR 13.46 +/- 0.13, Rosetta I 1.82 +/-
    0.05 are real and unexplained. Later flybys are null: MESSENGER 0.02 +/- 0.01,
-   Rosetta II and III ~0 and -0.004 +/- 0.044, Juno 0 +/- 0.8. Iorio (Adv. Space Res.
-   54:2441, 2014) computed that Anderson's formula predicted ~6 mm/s for Juno; Thompson
-   et al. (AAS 14-435, NTRS 20160008163) measured nothing. Rievers & Lammerzahl (Ann.
+   Rosetta II and III ~0 and -0.004 +/- 0.044, Juno 0 +/- 0.8. BUT COUNT THE NULLS
+   HONESTLY, because only one of the four is a failed prediction. Anderson & Nieto scope
+   the relation to "flybys at an altitude of 2000 km or less"; perigee altitudes are
+   MESSENGER 2336 km, Rosetta II 5322 km, Rosetta III 2483 km, Juno 561 km (the earlier
+   positives sit at 956, 532 and 1954 km). MESSENGER is additionally predicted near-zero
+   by the relation, its declinations being near-symmetric. So Juno is the only clean
+   out-of-sample failure inside the claimed domain, and the entry now says exactly that.
+   Iorio (Adv. Space Res. 54:2441, 2014) computed that Anderson's formula predicted ~6
+   mm/s for Juno; note the chronology, because "predicted beforehand" is false: the Juno
+   flyby was 9 Oct 2013 and arXiv:1311.4218 v1 went up 17 Nov 2013 ("the recent flyby of
+   Juno, occurred on 9 October 2013"). It precedes the reconstruction, not the encounter.
+   Thompson et al. (AAS 14-435, NTRS 20160008163, Jan 2014) measured nothing. Rievers & Lammerzahl (Ann.
    Phys. 523:439, 2011) ruled thermal recoil out for Rosetta while confirming it for
    Pioneer, in one paper. Say all of that plainly.
 
@@ -89,7 +109,18 @@ Research notes for whoever picks this up next.
    has settled is Volume II (7th ed., 2013, chs 7-13). Printed page numbers as they
    appear in that OCR: the Pioneer section runs 399-408, the numbered details are on
    401, the four-direction list on 406-407, Claims and Responses on 408. Not checked
-   against a print copy and the locator says so. A different edition paginates the
+   against a print copy and the locator says so. Re-read against that OCR 2026-08-10:
+   numbered detail 2 and Claims #1 and #5 verified verbatim. WATCH THE TWO WORDINGS OF
+   THE PLANETARY-ORBIT POINT — Anderson et al. 2002 has "too large to have gone
+   undetected in planetary orbits, particularly for Earth and Mars"; the book's detail 2
+   has "too large to have escaped detection in ...". They are not interchangeable and an
+   earlier draft of this entry published the book's paraphrase as Anderson's words.
+   Claim #5 (p. 408) is likewise the book reporting real literature, not inventing a
+   position: it paraphrases Anderson et al. 2002 Sec. XI C on Rosales and Sanchez-Gomez
+   (cosmological Foucault experiment; "a coordinate transformation to the co-moving
+   cosmological coordinate frame would entirely remove the Pioneer effect"), rendering
+   that frame as the CMB rest frame, which is its standard operational identification.
+   Do not file that as a straw man; the straw man is the Claim #1 response only. A different edition paginates the
    Pioneer material at pp. 351-358 by one third-party account, so do not merge the two
    page ranges. CAUTION on the flyby footnote (ch. 7, printed p. 24, n. 58): as
    transcribed by the OCR it reads as though atmosphere, tides, charging and the rest
@@ -110,8 +141,9 @@ ENTRY = {
 
 "E08": dict(
 
-    tldr=("The Pioneer anomaly really did point at the Earth — and that is how it was solved. "
-          "The spacecraft's spin axis is aimed at Earth so the radio link closes, waste heat "
+    tldr=("The Pioneer anomaly's direction was never pinned down — but the Doppler residuals "
+          "improve if it points at the Earth, and that is a prediction of the answer, not a "
+          "problem for it. The spacecraft's spin axis is aimed at Earth so the radio link closes, waste heat "
           "leaves along that axis, and about 63 watts of one-sided radiation out of 2,578 watts "
           "of plutonium heat produces the whole effect; JPL closed the case in 2012. The flyby "
           "anomaly is genuinely unexplained and this page says so — but its one working formula "
@@ -139,7 +171,7 @@ ENTRY = {
     steelman=dict(
         description="""<p><strong>SURFACE (weak &mdash; do not use).</strong> &ldquo;The Pioneer anomaly points at the Sun, not the Earth, so the item is simply false.&rdquo; This loses, and it loses to a citation. Sunward was the 1998 framing; by 2011 the same group had reanalysed twice as much Doppler data and reported that they found <em>no support</em> for a Sun-pointing direction over the Earth-pointing or spin-axis ones. Anyone who opens with &ldquo;it&rsquo;s sunward&rdquo; is quoting a paper its own authors superseded.</p>
 <p><strong>DEEPER.</strong> The anomalies are real measurements, not misreadings. Pioneer&rsquo;s was confirmed by two independent orbit-determination codes at two institutions, survived a decade of attempts to kill it, and was taken seriously enough that a dedicated deep-space mission was proposed to chase it. The flyby anomaly is still on the standing list of unsolved problems in physics: NEAR left Earth in 1998 with 13.46 &plusmn; 0.13 mm/s of velocity that nobody can account for. A defender who says only this has said nothing a physicist would contest.</p>
-<p><strong>KERNEL.</strong> The strongest form combines the two and is genuinely uncomfortable. It runs: <em>the Pioneer anomaly&rsquo;s best-fit direction is the Earth, on the discoverers&rsquo; own reanalysis; the flyby anomaly happens at Earth and its only successful empirical description is written out of the Earth&rsquo;s own rotation rate and radius; two unexplained residuals in unrelated regimes, one in deep space and one at perigee, both carrying the Earth in their functional form. At what point does a pattern stop being a coincidence?</em> That is a real question, it is asked in the literature in almost those words, and every factual component of it is correct.</p>""",
+<p><strong>KERNEL.</strong> The strongest form combines the two and is genuinely uncomfortable. It runs: <em>the Pioneer anomaly&rsquo;s Doppler residuals improve when the acceleration is modelled as pointing at the Earth, on the discoverers&rsquo; own reanalysis, and that reanalysis found no support for the Sun; the flyby anomaly happens at Earth and its only successful empirical description is written out of the Earth&rsquo;s own rotation rate and radius; two unexplained residuals in unrelated regimes, one in deep space and one at perigee, both carrying the Earth in their functional form. At what point does a pattern stop being a coincidence?</em> That is a real question, it is asked in the literature in almost those words, and every factual component of it is correct.</p>""",
         why_it_doesnt_save_claim="""<p>Because both Earths are the <em>instrument&rsquo;s</em> Earth, and in the Pioneer case that was demonstrated rather than asserted.</p>
 <p>Pioneer 10 and 11 are spin-stabilised craft whose high-gain dish sits on the spin axis, and that axis is precessed to keep the Earth inside the antenna&rsquo;s narrow beam &mdash; otherwise the telemetry stops arriving. So the spacecraft is a body with a permanent thermal asymmetry along a line that is <em>maintained pointing at the Earth by the mission plan</em>. Turyshev et al. (2012) state the consequence before they prove it: if the acceleration were a thermal recoil force &ldquo;it would be along the spacecraft spin axis, which generally points in the direction of the Earth.&rdquo; The Earth-pointing is not a rival hypothesis to the thermal one. It is a <strong>prediction</strong> of the thermal one, and it was published as such.</p>
 <p>The flyby constant is the same trick in reverse. <em>K</em> = 2&omega;<sub>E</sub><em>R</em><sub>E</sub>/<em>c</em> is the Earth&rsquo;s surface rotation speed expressed as a fraction of the speed of light. Set the Earth&rsquo;s rotation to zero and the formula returns zero anomaly for every flyby ever flown. The one quantitative handle anybody has on the flyby anomaly is a handle on the Earth&rsquo;s <em>spin</em> &mdash; and it is the sidereal spin, rotation measured against the stars, which is the exact quantity the geocentric model denies.</p>"""),
@@ -156,7 +188,7 @@ ENTRY = {
 
 <p>Turyshev et al. did it properly rather than on an envelope, and their method is what makes the result stick. They built a finite-element thermal model of Pioneer 10 from the project design documents, drove it with the flight telemetry, and computed the recoil. Then &mdash; separately &mdash; they fitted the two efficiency parameters of a recoil model directly to the navigational Doppler data, without reference to the thermal model. The two estimates agree: &ldquo;We find no statistically significant difference between the two estimates and conclude that once the thermal recoil force is properly accounted for, no anomalous acceleration remains.&rdquo; Their closing sentence is blunter still &mdash; &ldquo;the anomalous acceleration of these spacecraft is consistent with known physics.&rdquo; Rievers and L&auml;mmerzahl reached the same conclusion in 2011 with a different thermal code. <em>Nature Physics</em> ran the obituary: &ldquo;Once again, the mundane possibilities have won out against exotic, new-physics explanations.&rdquo;</p>
 
-<p><strong>Now the part that is the argument&rsquo;s own best evidence, and which convicts it.</strong> The direction really did resolve towards the Earth. Turyshev et al. (2011), on twice the previous data: &ldquo;although the direction of the acceleration remains imprecisely determined, we find no support in favor of a Sun-pointing direction over the Earth-pointing or along the spin-axis directions.&rdquo; The list is entitled to that sentence. What it is not entitled to is the next one, from the paper that closed the case: <em>&ldquo;If the acceleration were due to thermal recoil force, it would be along the spacecraft spin axis, which generally points in the direction of the Earth.&rdquo;</em> Earth-pointing was the thermal hypothesis&rsquo;s own signature, stated in advance, alongside a second prediction &mdash; that the acceleration should <em>decay</em> as the plutonium decays. It does, at roughly 2 &times; 10<sup>&minus;11</sup> m/s&sup2; per year. A geocentric cause has no reason to fade with the half-life of the fuel.</p>
+<p><strong>Now the part that is the argument&rsquo;s own best evidence, and which convicts it.</strong> The direction was never pinned down &mdash; but what could be extracted of it never counted against the Earth, and did count against the Sun. Turyshev et al. (2011), on twice the previous data: &ldquo;although the direction of the acceleration remains imprecisely determined, we find no support in favor of a Sun-pointing direction over the Earth-pointing or along the spin-axis directions.&rdquo; They add that two of the four candidates are not separable even in principle: &ldquo;the spin and Earth-spacecraft axes are effectively degenerate as the spacecraft were maintaining an Earth orientation for continuous radio communication.&rdquo; The 2012 paper puts it in final form &mdash; the direction &ldquo;cannot be determined unambiguously&rdquo;, but &ldquo;the Doppler residuals improve if one considers a temporally varying acceleration in the direction of the Earth&rdquo;, a result it calls &ldquo;suggestive&rdquo;. The list is entitled to every word of that. What it is not entitled to is the sentence those words introduce: <em>&ldquo;If the acceleration were due to thermal recoil force, it would be along the spacecraft spin axis, which generally points in the direction of the Earth and would have temporally decreasing magnitude consistent with the decay of the on-board radioisotope fuel.&rdquo;</em> Earth-pointing was the thermal hypothesis&rsquo;s own signature, and it came with a second prediction &mdash; that the acceleration should <em>decay</em> as the plutonium decays. It does, at roughly 2 &times; 10<sup>&minus;11</sup> m/s&sup2; per year. A geocentric cause has no reason to fade with the half-life of the fuel.</p>
 
 <h4>2. Flyby: the anomaly&rsquo;s Earth is a spinning one</h4>
 
@@ -170,7 +202,9 @@ ENTRY = {
 
 <h4>3. The formula has since failed a prediction, in public</h4>
 
-<p>Its first genuine out-of-sample test was Juno&rsquo;s Earth flyby on 9 October 2013. Iorio published the prediction beforehand &mdash; roughly 6 mm/s on the Anderson relation, and, he showed, nothing in classical or relativistic gravitation that could produce it. Thompson and colleagues at JPL reconstructed the flyby and found 0 &plusmn; 0.8 mm/s. Rosetta&rsquo;s later encounters had already gone the same way: essentially zero in 2007 and &minus;0.004 &plusmn; 0.044 mm/s in 2009, where the relation expects a signal. MESSENGER, whose trajectory was near-symmetric about the equator, returned 0.02 &plusmn; 0.01 mm/s &mdash; consistent both with the formula and with nothing happening. So the position is: three clearly unexplained encounters between 1990 and 2005 &mdash; Galileo in 1990, NEAR in 1998, Rosetta in March 2005, with a marginal negative result at Cassini in 1999 &mdash; then four encounters consistent with zero from August 2005 onward, and a description that fits the first group and mispredicts the second. That is a live anomaly with a shrinking footprint, which is what a systematic in an evolving tracking-and-modelling pipeline looks like. It may yet be something else. It is not evidence of anything cosmological, and no one in the field has proposed that it is.</p>
+<p>Its first genuine out-of-sample test was Juno&rsquo;s Earth flyby on 9 October 2013, at a perigee altitude of 561 km &mdash; well inside the altitude regime Anderson and Nieto scoped the relation to. Iorio computed what the Anderson relation demanded, roughly 6 mm/s, and showed that nothing in classical or relativistic gravitation could produce it, before the flyby had been reconstructed. (His paper went up in November 2013: after the encounter, ahead of the reconstruction. A real out-of-sample test, not a pre-registered one, and nobody should call it one.) Thompson and colleagues at JPL then reconstructed the flyby and found 0 &plusmn; 0.8 mm/s.</p>
+
+<p>Be equally precise about what the rest of the later record does <em>not</em> add. Rosetta&rsquo;s subsequent encounters returned essentially zero in 2007 and &minus;0.004 &plusmn; 0.044 mm/s in 2009 &mdash; but at perigee altitudes of 5,322 km and 2,483 km, above the 2,000 km ceiling Anderson and Nieto themselves attached to the formula, so a defender can decline both. MESSENGER, at 2,336 km and near-symmetric about the equator, returned 0.02 &plusmn; 0.01 mm/s, which is what the relation itself predicts for that geometry; it is not a failed prediction either. So the position is: three clearly unexplained encounters between 1990 and 2005 &mdash; Galileo in 1990, NEAR in 1998, Rosetta in March 2005, with a marginal negative result at Cassini in 1999 &mdash; then a run of nulls from August 2005 onward of which exactly one, Juno&rsquo;s, is a clean failure of the description inside the domain claimed for it. One clean failure that survives inspection is worth more here than four that do not. That is a live anomaly with a shrinking footprint, which is what a systematic in an evolving tracking-and-modelling pipeline looks like. It may yet be something else. It is not evidence of anything cosmological, and no one in the field has proposed that it is.</p>
 
 <h4>4. Why the anomalies happen at Earth</h4>
 
@@ -180,16 +214,18 @@ ENTRY = {
 
 <h4>5. The force the geocentric reading needs cannot exist</h4>
 
-<p>Suppose the Pioneer anomaly had been a genuine Earth-directed pull. It was 8.7 &times; 10<sup>&minus;10</sup> m/s&sup2; at 20&ndash;70 AU, with no observed fall-off across that range. Uranus orbits at 19 AU and Neptune at 30 AU, inside the same region, and their orbits are known well enough that an unmodelled acceleration of that size would have been conspicuous for a century; Anderson et al. noted in 2002 that the acceleration &ldquo;is too large to have escaped detection in planetary orbits, particularly for Earth and Mars.&rdquo; A force that acts on a 241 kg probe and not on an ice giant is not a property of space; it is a property of the probe. <strong>The source concedes precisely this</strong> &mdash; its numbered detail 15 records that the anomaly &ldquo;contradicts the accurately known motion of the inner planets&rdquo; &mdash; and having conceded it, the book does not go on to claim a geocentric cause. It proposes a variable ether instead, and says so on the same pages.</p>
+<p>Suppose the Pioneer anomaly had been a genuine Earth-directed pull. It was 8.7 &times; 10<sup>&minus;10</sup> m/s&sup2; at 20&ndash;70 AU, with no observed fall-off across that range. Uranus orbits at 19 AU and Neptune at 30 AU, inside the same region, and their orbits are known well enough that an unmodelled acceleration of that size would have been conspicuous for a century. Anderson et al. put it plainly in 2002: &ldquo;The anomalous acceleration is too large to have gone undetected in planetary orbits, particularly for Earth and Mars.&rdquo; A force that acts on a 241 kg probe and not on an ice giant is not a property of space; it is a property of the probe. <strong>The source concedes precisely this, and does it twice.</strong> Its numbered detail 2, at printed p. 401, makes the planetary-orbit objection part of its own summary of the effect &mdash; large, bound astronomical bodies show no sign of the anomaly, &ldquo;although the acceleration is too large to have escaped detection in planetary orbits, particularly for Earth and Mars&rdquo; &mdash; and its detail 15 records that the anomaly &ldquo;contradicts the accurately known motion of the inner planets.&rdquo; Having conceded both, the book does not go on to claim a geocentric cause. It proposes a variable ether instead, and says so on the same pages.</p>
 
 <h4>6. What is left, stated without decoration</h4>
 
-<p>The Pioneer anomaly is closed, and it closed <em>because</em> the direction resolved towards the Earth: that, plus the decay with the fuel, is what identified a thermal recoil along an Earth-pointed spin axis. The flyby anomaly is open, is unexplained by anything standard, and this review will keep saying so until somebody explains it &mdash; but its Earth-content is the Earth&rsquo;s rotation and its predictive record since 2007 is four nulls. Neither anomaly discriminates between a moving Earth and a stationary one. One of them, taken at face value, requires a rotating one.</p>""",
+<p>The Pioneer anomaly is closed, and what closed it was a finite-element thermal model of the spacecraft cross-checked against an independent fit to the navigational Doppler data. The Earth-pointing the list relies on is not the counter-evidence to that; it is part of its signature, an acceleration along a spin axis held on the Earth, decaying with the fuel. The flyby anomaly is open, is unexplained by anything standard, and this review will keep saying so until somebody explains it &mdash; but its Earth-content is the Earth&rsquo;s rotation, and the one out-of-sample test of its formula inside the domain its authors claimed, Juno in 2013, came back null. Neither anomaly discriminates between a moving Earth and a stationary one. One of them, taken at face value, requires a rotating one.</p>""",
 
     advocate=dict(
         best_defense=(
             "Three moves, and take them in order. First, you have conceded that the "
-            "best-fit direction of the Pioneer anomaly is the Earth. Your answer is "
+            "Pioneer residuals fit an Earth-directed acceleration better than a "
+            "Sun-directed one, and that the discoverers found no support for the Sun "
+            "at all. Your answer is "
             "'because the antenna points there' — which is an explanation constructed "
             "after the fact, with a finite-element model carrying ten per cent error "
             "bars and two efficiency parameters, one of which they admit is the largest "
@@ -225,8 +261,13 @@ ENTRY = {
             "adjacent to the claim it qualifies; if an editor ever deletes it as "
             "throat-clearing, the strongest paragraph on the page becomes the most "
             "attackable one. The load then rests where it belongs — on the declination "
-            "geometry, which is defined by the equator, and on the four post-2007 nulls, "
-            "neither of which depends on K being anything in particular. On the third "
+            "geometry, which is defined by the equator, and on the Juno null, the one "
+            "later encounter low enough (561 km) to fall inside the altitude regime "
+            "Anderson and Nieto scoped the relation to; the Rosetta II and III nulls "
+            "are above that ceiling and MESSENGER is predicted near-zero by the "
+            "relation itself, so do not count them as failed predictions and do not "
+            "let the section rest on a tally of four. Neither the declination geometry "
+            "nor the Juno null depends on K being anything in particular. On the third "
             "move, agree in public. The page should say, as it does in the compression "
             "block, that the source is the careful party here and the list is not; that "
             "is the finding, not a concession wrung out of us. Finally, do not let "
@@ -245,11 +286,19 @@ ENTRY = {
                 "program; it is a fitted model, tested against planetary ranging and "
                 "spacecraft tracking to the metre, and revised when the residuals demand it. "
                 "Characterising a checkable, published ephemeris as a premise smuggled in "
-                "beforehand misdescribes what the analysis does. The same passage also "
-                "attributes to the analysts a claim about the CMB rest frame removing the "
-                "Pioneer effect, which reads as a paraphrase of a position not located in the "
-                "two JPL review papers the chapter otherwise follows closely (Nieto & "
-                "Turyshev, CQG 21:4005; Anderson et al., Phys. Rev. D 65:082004).")),
+                "beforehand misdescribes what the analysis does. The straw man is confined to "
+                "that response. The neighbouring Claim #5 on the same page — that on the "
+                "Foucault reading a coordinate transformation to the Cosmic Microwave "
+                "Background rest frame would entirely remove the Pioneer effect — is not a "
+                "position invented for the book to knock down: it tracks Anderson et al., "
+                "Phys. Rev. D 65:082004, Sec. XI C, which reports Rosales and Sánchez-Gómez's "
+                "proposal that the Pioneer effect is a new cosmological Foucault experiment, "
+                "that “the Pioneers are mimicking the role that the rotating Earth plays in "
+                "Foucault's experiment”, and that “a coordinate transformation to the "
+                "co-moving cosmological coordinate frame would entirely remove the Pioneer "
+                "effect.” Rendering that frame as the CMB rest frame is the standard "
+                "operational identification of it, not a misattribution, and the book answers "
+                "the claim on its merits.")),
 
     compression=dict(
         assessed=True, drifted=True,
@@ -289,8 +338,8 @@ ENTRY = {
               "is recorded because it is the plainest and most checkable of the three, and the "
               "reader can see both texts above.<br><br>"
               "<strong>The refutation answers the source, not the fragment:</strong> it grants "
-              "the directional ambiguity at full strength, grants that the best fit did resolve "
-              "towards the Earth, and puts the weight on why &mdash; the spin axis is aimed at "
+              "the directional ambiguity at full strength, grants that the Doppler residuals do "
+              "improve for an Earth-directed acceleration, and puts the weight on why &mdash; the spin axis is aimed at "
               "Earth so the radio link closes &mdash; and on the flyby formula&rsquo;s dependence "
               "on the Earth&rsquo;s sidereal rotation rate. On this argument the compressed "
               "version is not merely firmer than the book; it points somewhere the book "

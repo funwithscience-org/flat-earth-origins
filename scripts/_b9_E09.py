@@ -61,14 +61,37 @@ entry.
    bounds how far off-centre you can be. Alnes & Amarzguioui (astro-ph/0607334) found
    for their void model that the observer "has to be located within a radius of ~15 Mpc
    from the center for the induced dipole to be less than that observed by the COBE
-   satellite". 15 Mpc is 4.63e20 km, about 49 million light-years, about 3.6e16 Earth
-   diameters. That is the resolution of the claim. It cannot separate the Earth from the
-   Sun, from Andromeda, or from any of thousands of galaxies. Banik says it himself in
-   the RAS release: "our galaxy is close to the centre of a large, local void."
+   satellite". 15 Mpc is 4.63e20 km, about 49 million light-years (a RADIUS, so the
+   permitted ball is about twice that across), about 3.6e16 Earth diameters. That is the
+   resolution of the claim. It cannot separate the Earth from the Sun, from Andromeda,
+   or from any of thousands of galaxies.
+   SCOPE, verified 2026-08-10 against the ar5iv full text of astro-ph/0607334, section V:
+   the 15 Mpc bound is stated three sentences before "When compared to the size of the
+   underdensity, which according to Fig. 2 is around 1500 Mpc", and the paper closes by
+   calling these LTB models "an exotic alternative to dark energy". So the bound belongs
+   to a ~1500 Mpc dark-energy-replacing bubble, roughly five times the ~300 Mpc void this
+   cluster is about, and no centring bound for the shallower void was found in any paper
+   cited on this page. The entry therefore does NOT rest on the number: it adds the
+   insensitivity argument (note 6), which holds whichever way 15 Mpc moves.
 
-6. THE ARITHMETIC IN NOTE 5 WAS DONE IN-SESSION AND IS CHECKABLE: 1 Mpc = 3.0857e19 km,
-   so 15 Mpc = 4.629e20 km; divided by the Earth's mean diameter 12,742 km that is
-   3.63e16; 15 Mpc / 0.3066 Mpc-per-Mly = 48.9 Mly.
+6. THE ARITHMETIC IN NOTES 5 AND 7 WAS DONE IN-SESSION AND IS CHECKABLE: 1 Mpc = 3.0857e19
+   km, so 15 Mpc = 4.629e20 km; divided by the Earth's mean diameter 12,742 km that is
+   3.63e16; 15 Mpc / 0.3066 Mpc-per-Mly = 48.9 Mly. INSENSITIVITY: 1 AU = 1.496e8 km =
+   4.85e-12 Mpc, so 15 Mpc / 1 AU = 3.09e12 — the tolerance must tighten by a factor of
+   ~3e12, i.e. MORE THAN TWELVE orders of magnitude, before "the Earth rather than the
+   Sun" is expressible. The review finding that proposed this argument said "more than
+   fifteen orders of magnitude"; that is wrong by ~2.5 decades and the text says twelve.
+
+7. THE EARTH-REFERENT IS NOT THE LIST'S INVENTION, AND THE ENTRY NOW SAYS SO. The single
+   source cited for Banik's "our galaxy" quote is the University of Portsmouth / RAS
+   release, whose headline is "Is Earth inside a huge void?" and whose body states, in the
+   release's own voice, that "Earth and our solar system would need to be near the centre
+   of a void about a billion light-years in radius and with a density about 20 per cent
+   below the average" (fetched 2026-08-10). Writing "Banik says 'our galaxy', not 'the
+   Earth'" as an unqualified punchline invited a reader to click our own link and find an
+   apparent refutation in the title. The drift is real but it starts in science
+   communication; the list hardened it. That is the stronger finding for this project, so
+   the TLDR, section 7 and the compression note now attribute the swap where it happens.
 
 TRAP AVOIDED. The tempting line — "a local void was ruled out years ago" — is available
 from a 2026 review (Cai & Wang, arXiv:2606.20434, "a local Hubble bubble or cosmic void
@@ -88,8 +111,10 @@ ENTRY = {
           "answer is not that nobody thinks this. It is that the “special location” those "
           "models describe is a region tens of megaparsecs across centred on the Local "
           "Group, which cannot tell the Earth apart from Andromeda, let alone from the "
-          "Sun; the astronomer behind the 2025 headlines says “our galaxy”, not “the "
-          "Earth”. And the two items cancel: if the tension is an observation bias in the "
+          "Sun; the astronomer behind the 2025 headlines says “our galaxy”, and his own "
+          "university’s press release had already turned that into “Earth and our solar "
+          "system” before any proof list touched it. And the two items cancel: if the "
+          "tension is an observation bias in the "
           "distance ladder there is no anomaly left to locate anyone with, and if it is a "
           "location bias then the locating is done by an expanding relativistic universe "
           "measured with the redshifts, standard candles and standard rulers this list "
@@ -210,13 +235,31 @@ ENTRY = {
                                   "megaparsecs is about 49 million light-years. Every galaxy in "
                                   "the Local Group, the whole Local Sheet and thousands of others "
                                   "sit inside that tolerance, and the Earth is about 3.6&nbsp;&times;"
-                                  "&nbsp;10<sup>16</sup> times smaller than it. A hypothesis whose "
+                                  "&nbsp;10<sup>16</sup> times smaller than it. That bound is "
+                                  "theirs and it is for their own model &mdash; an underdensity "
+                                  "they describe as &ldquo;around 1500 Mpc&rdquo; in extent, built "
+                                  "as an alternative to dark energy rather than as a description of "
+                                  "the ~300 Mpc local void argued for today &mdash; and no "
+                                  "equivalent centring bound for that shallower void is present in "
+                                  "any of the papers cited on this page. It does not matter which "
+                                  "way the number moves. The Earth&ndash;Sun distance is "
+                                  "4.8&nbsp;&times;&nbsp;10<sup>&minus;12</sup> Mpc, so the "
+                                  "tolerance would have to tighten by a factor of about "
+                                  "3&nbsp;&times;&nbsp;10<sup>12</sup> &mdash; more than twelve "
+                                  "orders of magnitude &mdash; before a void model could express "
+                                  "the difference between &ldquo;the Earth&rdquo; and &ldquo;the "
+                                  "Sun&rdquo;. A hypothesis whose "
                                   "finest available &ldquo;here&rdquo; is a ball 49 million "
-                                  "light-years wide is not evidence about which body inside that "
+                                  "light-years in radius is not evidence about which body inside that "
                                   "ball is central; it cannot see the Earth at all. Indranil Banik, "
                                   "whose paper produced the 2025 headlines, states the referent "
                                   "himself: &ldquo;our galaxy is close to the centre of a large, "
-                                  "local void.&rdquo;</p>"
+                                  "local void.&rdquo; His university&rsquo;s release, quoting him, "
+                                  "had already reworded that to &ldquo;Earth and our solar "
+                                  "system&rdquo;, in the headline and in the body &mdash; so the "
+                                  "substitution is inherited from the press office rather than "
+                                  "invented by the list. It is a resolution error in both "
+                                  "places.</p>"
 
                                   "<p>And the non-Copernican fits do not deliver what the kernel "
                                   "promises. Camarena, Marra, Sakr &amp; Clarkson, having refused "
@@ -346,12 +389,25 @@ ENTRY = {
                 "model that the observer must lie within about 15 Mpc of the centre for the "
                 "induced dipole to stay under the COBE value. Fifteen megaparsecs is 49 million "
                 "light-years. The Milky Way is 0.03 Mpc across; Andromeda is 0.78 Mpc away; the "
-                "Virgo cluster is at about 16.5 Mpc. The centring constraint is a ball roughly "
-                "3.6&nbsp;&times;&nbsp;10<sup>16</sup> Earth diameters wide, and every galaxy in "
+                "Virgo cluster is at about 16.5 Mpc. The centring constraint is a ball whose "
+                "radius is roughly 3.6&nbsp;&times;&nbsp;10<sup>16</sup> Earth diameters, and "
+                "every galaxy in "
                 "the Local Group is inside it. There is no measurement here that distinguishes "
                 "the Earth from the Sun, from Andromeda, or from a galaxy thirty million "
-                "light-years away. The claim&rsquo;s own advocate uses the right noun: <em>our "
-                "galaxy</em> is near the centre. Converting that into a statement about the Earth "
+                "light-years away. Two scoping notes, both of which cut the same way. Their model "
+                "is not this one: the underdensity they are centring the observer in is, in their "
+                "words, &ldquo;around 1500 Mpc&rdquo; in extent and exists as an alternative to "
+                "dark energy, and no centring bound computed for the ~300 Mpc void at issue here "
+                "is present in any of the papers cited on this page. And the number is not "
+                "load-bearing: the Earth&ndash;Sun separation is 4.8&nbsp;&times;&nbsp;"
+                "10<sup>&minus;12</sup> Mpc, so the tolerance would have to tighten by more than "
+                "twelve orders of magnitude before any void model could mean &ldquo;the "
+                "Earth&rdquo; rather than &ldquo;the Sun&rdquo;. The claim&rsquo;s own advocate "
+                "uses the right noun: <em>our "
+                "galaxy</em> is near the centre &mdash; though, as the compression note below "
+                "records, the press release carrying that quote had already converted it to "
+                "&ldquo;Earth and our solar system&rdquo;. Either way, converting it into a "
+                "statement about the Earth "
                 "is not a stronger reading of the evidence; it is a claim at a resolution the "
                 "evidence does not have.</p>"
 
@@ -406,7 +462,8 @@ ENTRY = {
                 "&ldquo;bias&rdquo;.</strong> Both items point at genuine, contested, well-funded "
                 "research. Neither discriminates. On the observation reading the subject matter is "
                 "variable stars in other galaxies; on the location reading it is the mean density "
-                "of a region 49 million light-years across, at best, around the Local Group. The "
+                "of a large region around the Local Group, whose centre is pinned, at best, to "
+                "within 49 million light-years. The "
                 "list files both under a heading about the Earth, and the arithmetic of the "
                 "underlying papers would be unchanged if the Earth were deleted from them.</p>"),
 
@@ -448,12 +505,22 @@ ENTRY = {
             "strongest paragraph becomes the weakest. SECOND, the resolution argument is not a "
             "quibble and must not be allowed to read as one, so it stays quantified and stays "
             "attributed: 15 Mpc is Alnes and Amarzguioui's number for their model, it is scoped "
-            "as such in section 7, and the point is not that they declined to name a postcode but "
-            "that a hypothesis with a 49-million-light-year resolution cannot express the "
-            "proposition 'the Earth rather than the Sun'. Also keep Banik's own noun — 'our "
+            "as such in section 7 — their model is a ~1500 Mpc dark-energy substitute, not the "
+            "~300 Mpc void under discussion, and no centring bound for the latter was found in "
+            "the cited literature. The answer to 'hardly a law of nature' is therefore not to "
+            "restate the figure but to point out that it is not load-bearing: the Earth-Sun "
+            "separation is 4.8e-12 Mpc, so the tolerance would have to tighten by more than "
+            "twelve orders of magnitude before any void model could express the proposition 'the "
+            "Earth rather than the Sun'. The conclusion survives the number being wrong in either "
+            "direction, and section 7 must keep saying so. Also keep Banik's own noun — 'our "
             "galaxy' — in the text and in the compression block, because the defender's strongest "
             "rhetorical move is to treat that substitution as pedantry, and it is far easier to "
-            "resist when the advocate's own witness is the one making the distinction. THIRD, on "
+            "resist when the advocate's own witness is the one making the distinction — but keep "
+            "it next to the press release's 'Earth and our solar system', which the compression "
+            "note now quotes. A defender who clicks the single link we give for Banik's words "
+            "lands on a page headlined 'Is Earth inside a huge void?'. Conceding that the "
+            "substitution starts in the press office rather than on the list costs the argument "
+            "nothing and removes the entry's most clickable vulnerability. THIRD, on "
             "Hubble 1937: do not litigate the quotation, because the quotation defeats the use "
             "without help. The passage Sungenis prints contains Hubble's own resolution — restore "
             "homogeneity by spatial curvature — and the gloss says so in one sentence. Leave it "
@@ -501,12 +568,24 @@ ENTRY = {
               "Barger &amp; Cowie&rsquo;s original, <em>would be sufficient to resolve</em> if the "
               "luminous matter traces the mass. A three-word noun phrase has no room for an "
               "antecedent, so the item states as a property of the world what its sources state as "
-              "a hypothesis under test. <strong>The referent moves.</strong> Banik says "
+              "a hypothesis under test. <strong>The referent had already moved.</strong> Banik "
+              "says "
               "&ldquo;our galaxy&rdquo;; Haslbauer, Banik &amp; Kroupa say &ldquo;around the Local "
               "Group&rdquo;; Clifton, Ferreira &amp; Land say &ldquo;near the center of a "
-              "spherically symmetric under-density&rdquo;. On a list of proofs that the Earth is "
+              "spherically symmetric under-density&rdquo;. But the swap to the planet is not the "
+              "list&rsquo;s invention, and it would be convenient and false to say it was. The "
+              "University of Portsmouth release that carries Banik&rsquo;s quote &mdash; the one "
+              "linked in the sources below &mdash; is headlined <em>Is Earth inside a huge "
+              "void?</em>, and says in its own voice that &ldquo;Earth and our solar system would "
+              "need to be near the centre of a void about a billion light-years in radius and "
+              "with a density about 20 per cent below the average&rdquo;. The drift from the "
+              "galaxy to the planet begins in the professional communication of the result, and "
+              "the list inherited it. What the list adds is the filing. In a news item "
+              "&ldquo;Earth&rdquo; is ordinary shorthand for our cosmic neighbourhood; "
+              "on a list of proofs that the Earth is "
               "not a spinning ball, filed between <em>Dipole anisotropy exact fit</em> and "
-              "<em>Cold Spot preferred axis</em>, that becomes a claim about the Earth &mdash; at "
+              "<em>Cold Spot preferred axis</em>, the same word becomes a claim about the planet "
+              "&mdash; at "
               "a resolution roughly 3.6&nbsp;&times;&nbsp;10<sup>16</sup> times finer than the "
               "measurement supports. <strong>The dispute disappears.</strong> The same twelve "
               "months that produced the void headlines also produced a direct-distance test, "
@@ -567,7 +646,10 @@ ENTRY = {
         dict(label="University of Portsmouth / RAS National Astronomy Meeting release, July "
                    "2025 — Banik: “A potential solution to this inconsistency is that our "
                    "galaxy is close to the centre of a large, local void”; ~1 billion "
-                   "light-years radius, ~20% underdense",
+                   "light-years radius, ~20% underdense. Note the release’s own framing, which "
+                   "is where the Earth-referent enters: it is headlined “Is Earth inside a huge "
+                   "void?” and writes that “Earth and our solar system would need to be near "
+                   "the centre” of it",
              url="https://www.port.ac.uk/news-events-and-blogs/news/is-earth-inside-a-huge-void-sound-of-the-big-bang-hints-at-possible-solution-to-hubble-tension"),
         dict(label="Stiskalek, Desmond & Banik, “Testing the local supervoid solution to the "
                    "Hubble tension with direct distance tracers” (arXiv:2506.10518, v2 "

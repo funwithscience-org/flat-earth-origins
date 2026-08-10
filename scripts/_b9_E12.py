@@ -16,8 +16,14 @@ Research notes for whoever picks this up next.
      * The DERIVATION the section compresses is D. Russell Humphreys', "Our galaxy is
        the centre of the universe, 'quantized' redshifts show", TJ (Journal of Creation)
        16(2):95-104, 2002. Humphreys supplies the geometry, the arithmetic and the
-       one-in-a-trillion probability; Sungenis cites him twice by title and once
-       reproduces one of his figures. Humphreys is NOT a geocentrist and says so on
+       one-in-a-trillion probability, and chapter 3 reproduces both: his Figure 8 at
+       printed p. 431 (the two panels "Viewed from centre" / "2 million light-years
+       from centre") and, at p. 432, his eq. (15) probability calculation block-quoted
+       from "one cosmologist" with only the footnote naming him. An earlier picture at
+       p. 296 is captioned "courtesy of R. Humphrey's article" (sic). The title is
+       located at printed pp. 284, 296, 398, 432, 580, 631 and 694 of the OCR searched
+       (note 7) - seven times, not the "twice" an earlier draft of this note said.
+       Humphreys is NOT a geocentrist and says so on
        p. 100, in a sentence whose footnote 35 cites Bouw's `Geocentricity` (1992) as
        the geocentrism he is distinguishing himself from. Humphreys has no PER-* record,
        so he is named in prose and left out of `people`; do not invent an id for him.
@@ -28,8 +34,17 @@ Research notes for whoever picks this up next.
        phenomenon". The same issue announces that book as newly available; its ch. 37 is
        "The Axis of Evil", which dates the contents after 2005. The 1992 printing itself
        was not reachable from here.
-   clusters.py was NOT touched. Reported up: originator/originator_work/year, and the
-   `real_source` line (see note 4).
+   clusters.py was NOT touched. Reported up: originator/originator_work/year, the
+   `real_source` line, AND the cluster `note` (see note 5). The `note` matters as much as
+   the rest: build.py renders it as the basis line beside the verdict chip, where it is
+   read by people who never open the entry, and the E12 note as it stands - "Quantization
+   disappeared as sample sizes grew; the effect was an artefact of small, sparse redshift
+   samples" - is refused twice over by section IV below. Proposed basis: "The periodicity
+   survives only in frames defined by the Earth's motion, and the shell reading fails its
+   own author's blurring criterion by a factor of eight; large-sample tests reduce it to
+   ~2 sigma rather than eliminating it." Proposed real_source: "Tifft 1972-1984; Napier &
+   Guthrie 1997 (galactocentric); Humphreys TJ 16(2), 2002." Anchor any edit on the
+   cluster key "E12", never on the originator= line.
 
 2. THE HEDGE CHECK CAME BACK CLEAN, AND THAT IS THE FINDING. Held against Sungenis &
    Bennett, the two list items say what the book says at the strength the book says it —
@@ -130,7 +145,7 @@ ENTRY = {
 
 <p><strong>What Tifft made of his own pattern is printed two pages later in the same chapter.</strong> Sungenis and Bennett quote him &mdash; the redshift &ldquo;has imprinted on it a pattern that appears to have its origin in microscopic quantum physics&rdquo; &mdash; and then call that reading &ldquo;the ad hoc idea that something was &lsquo;imprinted&rsquo; on the light&rdquo;, adding that Tifft &ldquo;couldn&rsquo;t quite come to embrace his own results&rdquo;. Nothing is concealed. The author of the data is given his sentence and overruled, and the overruling is the argument. (The date is also loose: the Tifft quantization papers in Bajan et al.&rsquo;s bibliography begin in 1972, and the paper Sungenis&rsquo;s own footnote quotes is Tifft &amp; Cocke 1984.)</p>
 
-<p><strong>The derivation being compressed belongs to someone who rejects the conclusion.</strong> The geometry, the arithmetic and the one-in-a-trillion probability all come from D. Russell Humphreys, &ldquo;Our galaxy is the centre of the universe, &lsquo;quantized&rsquo; redshifts show&rdquo;, <em>TJ</em> 16(2):95&ndash;104 (2002), whom <em>Galileo Was Wrong</em> cites twice by title and once reproduces a figure from. Humphreys&rsquo; p. 100 states the difference himself: our galaxy is &ldquo;essentially at the centre of the cosmos, but not at rest with respect to it&rdquo;, which &ldquo;differs from geocentrism, which would have the Earth be at the exact centre and motionless with respect to it&rdquo;. Sungenis&rsquo;s own footnote records the same thing, noting that Humphreys and Gentry &ldquo;posit that the Earth has diurnal and translational motion&rdquo;. So the Earth-centred version is made with the distinction in view, not in ignorance of it.</p>
+<p><strong>The derivation being compressed belongs to someone who rejects the conclusion.</strong> The geometry, the arithmetic and the one-in-a-trillion probability all come from D. Russell Humphreys, &ldquo;Our galaxy is the centre of the universe, &lsquo;quantized&rsquo; redshifts show&rdquo;, <em>TJ</em> 16(2):95&ndash;104 (2002), and the borrowing is on the page rather than inferred. In the Internet Archive OCR used here the title appears seven times &mdash; printed pp. 284, 296, 398, 432, 580, 631 and 694 &mdash; and chapter 3 prints his working twice: his Figure 8 at p. 431, the two panels labelled &ldquo;Viewed from centre&rdquo; and &ldquo;2 million light-years from centre&rdquo;, and overleaf at p. 432 the probability calculation itself, <em>&delta;r</em>&nbsp;=&nbsp;1.6 million light years against a cosmos of radius &ldquo;about 20 billion light years&rdquo;, giving odds &ldquo;less than one out of a trillion&rdquo; &mdash; block-quoted from &ldquo;one cosmologist&rdquo;, with only the footnote naming which one. (A picture at p. 296 is likewise captioned &ldquo;courtesy of&rdquo; the same article.) Humphreys&rsquo; p. 100 states the difference himself: our galaxy is &ldquo;essentially at the centre of the cosmos, but not at rest with respect to it&rdquo;, which &ldquo;differs from geocentrism, which would have the Earth be at the exact centre and motionless with respect to it&rdquo;. Sungenis&rsquo;s own footnote records the same thing, noting that Humphreys and Gentry &ldquo;posit that the Earth has diurnal and translational motion&rdquo;. So the Earth-centred version is made with the distinction in view, not in ignorance of it.</p>
 
 <p><strong>On the geocentrist literature more broadly.</strong> The annotated index of Bouw&rsquo;s <em>Geocentricity: Christianity in the Woodshed</em>, printed in <em>Biblical Astronomer</em> no. 143, lists &ldquo;Tifft&rsquo;s phenomenon&rdquo; and &ldquo;distributions centered on the earth&rdquo; among the contents of ch. 36, p. 533; the same issue announces that book as newly available, and its ch. 37 on the CMB &ldquo;axis of evil&rdquo; places the contents after 2005. The 1992 printing of <em>Geocentricity</em> was not reachable from here, and no claim is made here about what is in it.</p>"""),
 
@@ -158,9 +173,13 @@ ENTRY = {
 
 <p>The periodicity is not a property of the numbers that come off the telescope. It is a property of those numbers after a velocity has been subtracted from them. Napier and Guthrie&rsquo;s own abstract locates the effect &ldquo;in the galactocentric frame of reference&rdquo;. Bajan and colleagues, reviewing the whole literature, put it without ornament: <em>&ldquo;The periodicity was observed only in the case of galactocentric radial velocities or using CMB reference frame, not in the case of heliocentric radial velocity&rdquo;</em>, and of Guthrie and Napier&rsquo;s 37.2&nbsp;km/s result, <em>&ldquo;this periodicity appeared only if galactocentric redshifts were considered&rdquo;</em>. Tifft&rsquo;s own later refinement went further in the same direction, moving to the frame in which the microwave background is isotropic.</p>
 
-<p>Now put the corrections beside the signal, using the numbers Humphreys tabulates in his own footnote 28. The Earth&rsquo;s orbital speed is 29.79&nbsp;km/s &mdash; 0.79 of one 37.5&nbsp;km/s interval, so the annual swing in an uncorrected redshift is about 1.6 intervals. The Sun&rsquo;s velocity with respect to the Galactic centre is 240&nbsp;km/s, six and a half intervals. The Galaxy&rsquo;s velocity with respect to the microwave background is 556&nbsp;km/s, about fifteen. <strong>To make the comb appear you must first place the observer on a body moving at all three of those speeds and take them out.</strong> On a stationary central Earth there is nothing to subtract, and the quantity that would carry the pattern is the raw telescope-frame redshift.</p>
+<p>Now put the corrections beside the signal, using the numbers Humphreys tabulates in his own footnote 28. The Earth&rsquo;s orbital speed is 29.79&nbsp;km/s &mdash; 0.79 of one 37.5&nbsp;km/s interval, so the annual swing in an uncorrected redshift is about 1.6 intervals. The Sun&rsquo;s velocity with respect to the Galactic centre is 240&nbsp;km/s, six and a half intervals. The Galaxy&rsquo;s velocity with respect to the microwave background is 556&nbsp;km/s, about fifteen. <strong>To make the comb appear you must first place the observer on a body moving at the first two of those speeds and take them out &mdash; and in the cosmic-background-rest-frame analyses, at all three.</strong> On a stationary central Earth there is nothing to subtract, and the quantity that would carry the pattern is the raw telescope-frame redshift.</p>
 
 <p>Sungenis and Bennett see this and object to it directly, writing that Tifft &ldquo;deliberately ignores the rest frame upon which his telescope is seated, namely, Earth&rdquo; and &ldquo;arbitrarily chooses&rdquo; the microwave background instead. That is an accurate description of the situation and it is fatal to the item rather than to Tifft. The choice of frame is not arbitrary: it is the frame in which the signal is present. A geostatic cosmology is being asked to accept, as its evidence, a pattern that its own preferred frame does not display.</p>
+
+<p><strong>The book has a printed answer to this, and it is the best thing in the whole cluster, so it gets quoted here rather than skirted.</strong> Volume II, chapter 10 &mdash; printed p. 298 of the same scan &mdash; concedes the frame problem and then turns it round: the subtraction <em>&ldquo;is only done for the first two motions &mdash; the orbit around the sun and the solar motion around the galaxy center, the galactocentric frame of reference! The Milky Way motion and the motion towards Leo &hellip; represent the largest component of the Earth&rsquo;s motion &mdash; about 600 km/s! &hellip; Unless, of course, the motions of the Earth are fictitious!&rdquo;</em> The premise is correct, which is why the &ldquo;first two&rdquo; above is stated carefully. The inference is not, and the counter-example is printed in the same book, one volume earlier. The footnote on p. 417 lists Tifft&rsquo;s papers on periodicity in the cosmic background rest frame &mdash; the book&rsquo;s own citation gives &ldquo;Global Redshift Periodicities: Association with the Cosmic Background Radiation&rdquo;, <em>Astrophysics and Space Science</em> 239:35 (1996), and &ldquo;Evidence for Quantized and Variable Redshifts in the CBR Rest Frame&rdquo; &mdash; and the Tifft passage block-quoted on p. 418 says the quantization is most obvious &ldquo;when viewed from an appropriate rest frame, especially the cosmic background rest frame&rdquo;. That is the frame in which the whole ~600 km/s <em>has</em> been taken out. Bajan and colleagues record the same pair of options and no third: galactocentric velocities <em>or</em> the CMB frame, never the heliocentric one.</p>
+
+<p>So the reply does not survive the book&rsquo;s own pages. The periodicity is reported after two subtractions and after three; the one frame in which the reviews consulted here record its absence is the heliocentric one, which is already a subtraction along from what the telescope delivers. A geostatic cosmology has to call those subtractions fictitious in one breath and spend, in the next, a result that exists only once they have been made. The p. 298 argument is a reductio, and it stands or falls on one factual premise &mdash; that the comb shows up with the largest motion left in. Take the premise seriously and the analyses in the CBR rest frame are precisely where it fails: there the largest motion is not left in, and the peaks are still reported. The reductio has no absurdity to point at.</p>
 
 <h4>III. What the pattern would have to be, to be shells</h4>
 
@@ -198,7 +217,7 @@ ENTRY = {
 
     advocate=dict(
         best_defense=(
-            "Three moves, and take the third one seriously. First, your peculiar-velocity "
+            "Four moves, and take the third and fourth seriously. First, your peculiar-velocity "
             "argument is circular. Peculiar velocities are not measured; they are what is left "
             "over after you subtract a Hubble flow from a redshift using distance indicators "
             "calibrated on the expanding-universe model you are defending. You have assumed the "
@@ -214,11 +233,20 @@ ENTRY = {
             "that distinction does not exist. The Earth is inside the Milky Way. You have "
             "refuted a distinction nobody needed, and you have done it because the alternative "
             "was engaging the claim, which is that the cosmos has a centre and we are sitting "
-            "at it."),
+            "at it. Fourth — and this one is in our book, in print, where you could have found "
+            "it. Volume II, chapter 10, page 298 answers your frame section directly, and you "
+            "do not mention it. The correction is only ever made for the first two motions, the "
+            "orbit around the sun and the solar motion around the galactic centre. The Milky "
+            "Way's own motion and the motion towards Leo — about 600 km/s, the largest "
+            "component of the whole business — were not known then and were not taken out at "
+            "all, and the quantum steps appear anyway, at intervals as low as 12 km/s. Either a "
+            "600 km/s smearing that should obliterate a 12 km/s step somehow does not, or the "
+            "motions of the Earth are fictitious. You quoted our objection to Tifft's choice of "
+            "rest frame and left the reason for it on the page you did not turn to."),
         survives=4,
         preemptive=(
-            "Four, driven by the first and third moves; the second is showy but answerable. "
-            "Three concrete requirements on the text. (a) The circularity charge must be "
+            "Four, driven by the first, third and fourth moves; the second is showy but "
+            "answerable. Four concrete requirements on the text. (a) The circularity charge must be "
             "answered where the number is used, not later. Section III as written already does "
             "it — the fingers-of-God paragraph and the surface-brightness-fluctuation distance "
             "to Virgo are there precisely so that the 638 km/s is anchored to something no "
@@ -234,7 +262,16 @@ ENTRY = {
             "geocentric reading does not fail because it names the wrong point. It fails because "
             "the signal requires the Earth to be moving. Never rest weight on the Earth/Galaxy "
             "distinction as though it were the refutation; it is a scope finding about the list, "
-            "and it belongs in the compression block, which is where it is. Resist one further "
+            "and it belongs in the compression block, which is where it is. (d) The Volume II "
+            "p. 298 objection must be quoted and answered inside section II, not left for the "
+            "reader to discover; an unanswered printed rebuttal to the load-bearing section is "
+            "the one thing that would sink the page. It is answered out of the book itself: the "
+            "footnote at p. 417 lists Tifft's cosmic-background-rest-frame papers and the Tifft "
+            "passage quoted at p. 418 puts the quantization in that frame, so the comb is "
+            "reported both after two subtractions and after all three. Do NOT answer it by "
+            "claiming the CMB correction is always applied — it is not, the galactocentric "
+            "result is the one this cluster leads with, and section II said 'all three' once "
+            "already and had to be corrected. Resist one further "
             "temptation: do not claim that redshift periodicity has been excluded outright. "
             "Bajan et al. report 2 sigma and say they expect a larger database to settle it, and "
             "a defender who knows that paper will use an overclaim to discredit the section."),
@@ -271,7 +308,7 @@ ENTRY = {
 
 <p><strong>The compression loss on this cluster is real and it happened one link upstream, twice.</strong> Both instances are visible on the page, in the book itself, with the original wording printed alongside &mdash; which is what makes them documentable rather than alleged.</p>
 <p><em>One: an interpretation is reversed.</em> Tifft measured a distribution of redshift <em>values</em> and read the pattern as a property of the redshift &mdash; it &ldquo;has imprinted on it a pattern that appears to have its origin in microscopic quantum physics&rdquo;. Chapter 3 reports his result as galaxies &ldquo;distributed at specific spherical distances from Earth&rdquo;, then quotes his sentence two pages later and calls it &ldquo;ad hoc&rdquo;. The astronomer&rsquo;s conclusion is not omitted; it is printed and overruled, and the overruling is the argument.</p>
-<p><em>Two: a scope is widened by about nine orders of magnitude.</em> The geometry, the arithmetic and the one-in-a-trillion figure are D. Russell Humphreys&rsquo;, from <em>TJ</em> 16(2):95&ndash;104 (2002). His bound localises the centre to within 1.6 million light years, or on his tightest interval about 100,000 &mdash; the diameter of the Galaxy &mdash; and he writes that our galaxy is &ldquo;essentially at the centre of the cosmos, but not at rest with respect to it&rdquo;, which &ldquo;differs from geocentrism&rdquo;. <em>Galileo Was Wrong</em> records the same distinction in a footnote, noting that Humphreys and Gentry &ldquo;posit that the Earth has diurnal and translational motion&rdquo;, and then heads its own section &ldquo;Centered Around the Earth&rdquo;. An argument whose stated resolution is the width of a galaxy arrives on a proof list as a statement about a planet.</p>
+<p><em>Two: a scope is widened from a galaxy to a planet.</em> The geometry, the arithmetic and the one-in-a-trillion figure are D. Russell Humphreys&rsquo;, from <em>TJ</em> 16(2):95&ndash;104 (2002), and chapter 3 reprints them &mdash; his Figure 8 at printed p. 431 and his probability calculation at p. 432, attributed in the body to &ldquo;one cosmologist&rdquo; and by name only in the footnote. His bound localises the centre to within 1.6 million light years, or on his tightest interval about 100,000 &mdash; the diameter of the Galaxy &mdash; and he writes that our galaxy is &ldquo;essentially at the centre of the cosmos, but not at rest with respect to it&rdquo;, which &ldquo;differs from geocentrism&rdquo;. <em>Galileo Was Wrong</em> records the same distinction in a footnote, noting that Humphreys and Gentry &ldquo;posit that the Earth has diurnal and translational motion&rdquo;, and then heads its own section &ldquo;Centered Around the Earth&rdquo;. An argument whose stated resolution is the width of a galaxy arrives on a proof list as a statement about a planet.</p>
 
 <p><strong>Why record this as <code>none</code> rather than forcing it into a box.</strong> The seven drift types describe the step from a source to the list, and on that step nothing moved. Recording a drift here would put the loss at the wrong link and let the book off. The finding this cluster contributes to the review&rsquo;s thesis is the other one: a chain can degrade a claim without a single misquotation, because the degradation happens where one author reads another, in the open, with the disagreement printed. Compare <a href="#ARG-R02">ARG-R02</a>, where the same book compresses its sources the same way and the list again copies it faithfully.</p>"""),
     ),

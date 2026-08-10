@@ -21,7 +21,10 @@ change the entry.
    it: Mueller et al. 2021 (A&A 645:L5), whose title is "The coherent motion of Cen A
    dwarf satellite galaxies REMAINS A CHALLENGE for LambdaCDM cosmology"; Seo et al.
    2024 (ApJ 976:253), which rebuilds the rarity test and still gets 0.00-3.40% for the
-   Milky Way disc of satellites; Pawlowski et al. 2024 (A&A, NGC 4490). Sawala's own
+   Milky Way disc of satellites; Pawlowski et al. 2024 (A&A, NGC 4490); and Kanehisa,
+   Pawlowski & Libeskind 2025 (Nature Astronomy, published 11 April 2025), which adds
+   M31's satellite lopsidedness towards the Milky Way at 4.7 sigma and <0.3% of simulated
+   analogues, and postdates everything the record's note rests on. Sawala's own
    follow-up (arXiv:2510.01318, v2 dated 19 March 2026) reconciles "transient" and
    "persistent" rather than declaring a win. Recorded in `record_problems`; the
    published prose below states the state of the dispute directly and does not comment
@@ -37,11 +40,14 @@ change the entry.
 4. NO MOVEMENT TEXT WAS LOCATED, AND THE SEARCH IS WRITTEN OUT IN `untraceable`. The
    djvu text of the three-volume Internet Archive scan
    'galileo-was-wrong-the-church-was-right-sungenis-vol-1-3-complete' was downloaded
-   whole (5.5 MB, 134,983 lines) and searched: "Kroupa", "Ibata", "M31", "Tully",
-   "plane of satellites", "disk of satellites" return zero; "dwarf" returns twelve, of
-   which the only astronomical run is the dwarf-irregular REDSHIFT-QUANTIZATION passage
-   that belongs to ARG-E12; "Andromeda" returns two, both Italian publisher addresses in
-   the bibliography. So the geocentric compendium this list demonstrably uses elsewhere
+   whole (5.5 MB, 134,983 lines) and searched: "Kroupa", "Ibata", "M31", "plane of
+   satellites" and "disk of satellites" return zero; "Tully" returns two, one OCR noise
+   ("caretully") and one the Fisher-Tully catalogue inside the REDSHIFT-QUANTIZATION
+   passage that belongs to ARG-E12; "dwarf" returns nine, of which the only astronomical
+   run is that same passage; "Andromeda" returns two, both Italian publisher addresses in
+   the bibliography. Every count above re-verified 2026-08-10 against the same
+   5,499,250-byte artifact; the earlier pass published "Tully: zero" and "dwarf: twelve",
+   and both were wrong. So the geocentric compendium this list demonstrably uses elsewhere
    does not appear to be where these three came from, and the claim's only identifiable
    ancestors are the astronomy papers themselves. originator=None stands.
 
@@ -83,12 +89,14 @@ ENTRY = {
           "in it is referenced to other galaxies rather than to us. The Milky Way's "
           "satellite plane is inclined about 65° to the ecliptic and Andromeda's about "
           "77°, and the two are inclined about 51° to each other, so there is no shared "
-          "axis on offer to point anywhere. The one genuinely Earth-facing fact is that "
-          "Andromeda's plane is seen edge-on from here, which is the condition for "
-          "detecting its rotation at all: its discoverers call that orientation "
-          "fortunate, and their own 2026 mock-observation study finds that orientation is "
-          "one of the two a survey can detect at all. The third item, cluster axes on the "
-          "ecliptic, matched "
+          "axis on offer to point anywhere. The two Earth-facing facts are that "
+          "Andromeda's plane is seen edge-on from here — the condition for detecting its "
+          "rotation at all, which its discoverers call fortunate and their own 2026 "
+          "mock-observation study finds is one of the two orientations a survey can "
+          "detect — and that all but one of its 37 satellites lie within 107° of our "
+          "Galaxy's direction, which is a statement about two galaxies 780 kpc apart and "
+          "is unchanged wherever in the Milky Way's disc the Sun sits. The third item, "
+          "cluster axes on the ecliptic, matched "
           "nothing in the cluster-alignment literature searched — where the ecliptic does "
           "show up in deep extragalactic catalogues, it is because that is where a "
           "spacecraft tied to the Earth's orbit can stare longest."),
@@ -99,7 +107,7 @@ ENTRY = {
 
 <p><strong>The specimen carries no citation.</strong> Re-fetched 2026-08-09: the heading reads &ldquo;435 Pieces of Evidence The Earth is Not A Spinning Ball&rdquo; over 461 numbered lines, and items 330, 337 and 338 are three bare noun phrases &mdash; <em>Cluster axes ecliptic.</em> &middot; <em>Dwarf galaxy planes coherence.</em> &middot; <em>Satellite alignments.</em> &mdash; with no author, paper, date or number attached to any of them.</p>
 
-<p><strong>The geocentric compendium the rest of the list uses was searched in full and did not yield them.</strong> The djvu text of the three-volume Internet Archive scan <code>galileo-was-wrong-the-church-was-right-sungenis-vol-1-3-complete</code> (5.5&nbsp;MB, 134,983 lines) was downloaded whole and searched term by term. &ldquo;Kroupa&rdquo;, &ldquo;Ibata&rdquo;, &ldquo;M31&rdquo;, &ldquo;Tully&rdquo;, &ldquo;plane of satellites&rdquo; and &ldquo;disk of satellites&rdquo; each return zero hits in that text. &ldquo;Dwarf&rdquo; returns twelve, of which one run is astronomical &mdash; the dwarf-irregular <em>redshift-quantization</em> passage, which is <a href="#ARG-E12">ARG-E12</a>&rsquo;s material and a different argument &mdash; and the rest are Gulliver, a simile about Hubble, and the phrase &ldquo;dwarfs any other&rdquo;. &ldquo;Andromeda&rdquo; returns two, both of them an Italian publisher&rsquo;s address in the bibliography.</p>
+<p><strong>The geocentric compendium the rest of the list uses was searched in full and did not yield them.</strong> The djvu text of the three-volume Internet Archive scan <code>galileo-was-wrong-the-church-was-right-sungenis-vol-1-3-complete</code> (5.5&nbsp;MB, 134,983 lines) was downloaded whole and searched term by term. &ldquo;Kroupa&rdquo;, &ldquo;Ibata&rdquo;, &ldquo;M31&rdquo;, &ldquo;plane of satellites&rdquo; and &ldquo;disk of satellites&rdquo; each return zero hits in that text. &ldquo;Tully&rdquo; returns two: one is scanning noise (&ldquo;caretully&rdquo; for <em>carefully</em>, on a page about the Pope), and the other is the Fisher&ndash;Tully catalogue, cited inside the dwarf-irregular <em>redshift-quantization</em> passage that is <a href="#ARG-E12">ARG-E12</a>&rsquo;s material and a different argument &mdash; a catalogue of rotating galaxies, not the satellite-plane literature. &ldquo;Dwarf&rdquo; returns nine: three in that same redshift-quantization passage, the only astronomical use among the nine; three in a passage about Gulliver and the Lilliputians; and three figurative &mdash; a revolution that &ldquo;dwarfs any other&rdquo;, Hubble&rsquo;s universe being &ldquo;dwarfed&rdquo;, and something that &ldquo;dwarfs the rest of the universe in comparison&rdquo;. &ldquo;Andromeda&rdquo; returns two, both of them an Italian publisher&rsquo;s address in the bibliography. Counts re-run 2026-08-10 against the same 5,499,250-byte file, case-insensitively, and a reader with <code>grep</code> should get the same numbers.</p>
 
 <p><strong>Where the vocabulary of item 330 does live.</strong> &ldquo;Ecliptic&rdquo; is dense in that same scan &mdash; scores of occurrences &mdash; but all of the ones read here are in the microwave-background chapter, arguing that the CMB multipoles line up with the Earth&rsquo;s orbital plane. That is <a href="#ARG-E01">ARG-E01</a>&rsquo;s claim, in <a href="#ARG-E01">ARG-E01</a>&rsquo;s words. Item 330 applies the same word to galaxy-cluster axes, and the sentence that would license it was not located in the text searched. We record the resemblance as a resemblance and stop: a shared word is not a derivation, and inventing an author to fill the blank is the error this review exists to document.</p>
 
@@ -112,7 +120,7 @@ ENTRY = {
 
 <p><strong>DEEPER.</strong> The observations are solid and they were made by people with no interest in this list. Around the Milky Way, satellites, young halo globular clusters and stellar streams share one highly inclined plane from 10 to 250&nbsp;kpc out, with an RMS height of about 29&nbsp;kpc (Pawlowski, Pflamm-Altenburg &amp; Kroupa 2012). Around Andromeda, Ibata et al. found a planar subgroup containing about half the satellites at 99.998% significance: at least 400&nbsp;kpc across, less than 14.1&nbsp;kpc thick, with the line-of-sight velocities showing a common sense of rotation (<em>Nature</em>, 2013). Around Centaurus&nbsp;A, 14 of the 16 satellites with measured velocities follow a coherent pattern along the long axis of their distribution, a configuration found in fewer than 0.5% of simulated analogues (<em>Science</em>, 2018). Anyone answering this by denying that the planes are there is simply wrong.</p>
 
-<p><strong>KERNEL.</strong> The strongest form is not &ldquo;an anomaly exists&rdquo;. It is that <em>the geometry demonstrably involves our own position</em>, and the discoverers say so in print. Ibata et al.&rsquo;s abstract calls it intriguing: the Andromeda plane is &ldquo;approximately aligned with the pole of the Milky Way&rsquo;s disk and is co-planar with the Milky Way to Andromeda position vector.&rdquo; Pawlowski, Kroupa &amp; Jerjen put a number on it &mdash; the plane&rsquo;s normal is almost perpendicular to the Milky Way&ndash;Andromeda line, so the structure &ldquo;is seen edge-on from the MW (inclined by only 3&deg;)&rdquo; &mdash; and they find the two Local Group dwarf planes &ldquo;surprisingly symmetric&rdquo;, similarly thin, with &ldquo;near-to-identical offsets from the MW and M31&rdquo;. A defender who builds the argument out of those three sentences is quoting the literature accurately and is not inventing anything.</p>""",
+<p><strong>KERNEL.</strong> The strongest form is not &ldquo;an anomaly exists&rdquo;. It is that <em>the geometry demonstrably involves our own position</em>, and the discoverers say so in print. Ibata et al.&rsquo;s abstract calls it intriguing: the Andromeda plane is &ldquo;approximately aligned with the pole of the Milky Way&rsquo;s disk and is co-planar with the Milky Way to Andromeda position vector.&rdquo; Pawlowski, Kroupa &amp; Jerjen put a number on it &mdash; the plane&rsquo;s normal is almost perpendicular to the Milky Way&ndash;Andromeda line, so the structure &ldquo;is seen edge-on from the MW (inclined by only 3&deg;)&rdquo; &mdash; and they find the two Local Group dwarf planes &ldquo;surprisingly symmetric&rdquo;, similarly thin, with &ldquo;near-to-identical offsets from the MW and M31&rdquo;. And the sharpest version of the kernel is not from 2013: in <em>Nature Astronomy</em> on 11 April 2025, Kanehisa, Pawlowski &amp; Libeskind reported that &ldquo;All but one of Andromeda&rsquo;s 37 satellite galaxies are contained within 107&deg; of our Galaxy&rdquo; &mdash; an arrangement their abstract calls &ldquo;aligned towards the Milky Way&rdquo;, distinct from isotropy at 4.7&sigma;, and reproduced by fewer than 0.3% of simulated Andromeda-like systems. A defender who builds the argument out of those quotations is quoting the literature accurately and is not inventing anything.</p>""",
         why_it_doesnt_save_claim="""<p>Because the body all three sentences are referenced to is a <em>galaxy</em>, and the step from there to the Earth is the one step nobody in that literature takes or needs. &ldquo;Aligned with the pole of the Milky Way&rsquo;s disk&rdquo; is a statement about the rotation axis of a 30-kpc stellar disc. &ldquo;Co-planar with the Milky Way to Andromeda position vector&rdquo; is a statement about a 780-kpc line joining two galaxies. Both are exactly what the proposed explanations predict &mdash; accretion along the local filament, or tidal debris flung out in a past encounter between the two big galaxies &mdash; and both would read identically if the Sun sat anywhere else in the disc. The ecliptic, by contrast, is the plane of a 1-astronomical-unit orbit, and one AU is about ten billion times smaller than the distance to the nearest satellite galaxy in the structure. A plane fitted to objects 10 to 250&nbsp;kpc out cannot resolve where in the Solar System you stood when you fitted it.</p>
 
 <p>And the edge-on geometry is the <strong>condition of the measurement</strong>, not a result of it. Corotation in the Andromeda system is inferred from line-of-sight velocities alone, which carry the signal only when the plane is presented near edge-on &mdash; which is why Pawlowski, Kroupa &amp; Jerjen call that orientation <em>fortunate</em> in the same paragraph where they use it. In 2026 the same group quantified the effect in mock observations of simulated hosts and reported that planes &ldquo;viewed nearly edge-on or face-on, are the most readily detected&rdquo;, with intermediate orientations largely missed. So the discovered cases are drawn from the orientations in which discovery is possible. A plane through Andromeda lies within 3&deg; of containing the Milky Way direction for about 5% of random orientations; that is a modest coincidence, and it is precisely the 5% in which the corotation can be seen at all.</p>""",),
@@ -125,7 +133,9 @@ ENTRY = {
 
 <p><strong>4. Whose centre these are fitted about.</strong> A plane has an orientation and an offset, and the offsets are published too. The Milky Way structure is fitted in galactocentric coordinates, spans 10 to 250&nbsp;kpc, and the globular-cluster plane inside it sits 2.6&nbsp;kpc off the <em>Galactic</em> centre. The Sun is about 8&nbsp;kpc from that centre, so if these were Earth-referenced structures the fits would be displaced by the Sun&rsquo;s offset, and they are not; nobody has needed to try. Centaurus&nbsp;A settles it without any arithmetic: its satellite plane is centred on a galaxy 3.8&nbsp;Mpc away. A thin, rotating structure around another galaxy cannot be evidence that this one is the centre of anything, whichever way it is tilted.</p>
 
-<p><strong>5. The one fact that does involve us, stated at full strength and then answered.</strong> The Andromeda plane is oriented so that it nearly contains the line from here to Andromeda: its normal is almost perpendicular to that line, and the plane is presented to us within about 3&deg; of edge-on. That is real and it is in the discovery papers. But it is also the reason the discovery exists. The rotation of the Andromeda system was established from line-of-sight velocities &mdash; northern members receding from us in the Andromeda rest frame, southern ones approaching &mdash; and a plane tilted face-on projects that motion out of the line of sight entirely. Pawlowski, Kroupa &amp; Jerjen say as much when they describe the orientation as fortunate; in 2026 Crosby, Pawlowski, Mueller and Jerjen built mock observations of simulated hosts to work out which planes surveys actually find, and reported that planes viewed nearly edge-on or face-on are the most readily detected while intermediate orientations are missed. That is a selection effect measured by the people who believe the planes are a problem, and it is the least contested thing in this section. What it means is plain: the case that looks addressed to us is the case in which an observation addressed to us was possible.</p>
+<p><strong>5. The facts that do involve our line of sight, stated at full strength and then answered.</strong> The Andromeda plane is oriented so that it nearly contains the line from here to Andromeda: its normal is almost perpendicular to that line, and the plane is presented to us within about 3&deg; of edge-on. That is real and it is in the discovery papers. But it is also the reason the discovery exists. The rotation of the Andromeda system was established from line-of-sight velocities &mdash; northern members receding from us in the Andromeda rest frame, southern ones approaching &mdash; and a plane tilted face-on projects that motion out of the line of sight entirely. Pawlowski, Kroupa &amp; Jerjen say as much when they describe the orientation as fortunate; in 2026 Crosby, Pawlowski, Mueller and Jerjen built mock observations of simulated hosts to work out which planes surveys actually find, and reported that planes viewed nearly edge-on or face-on are the most readily detected while intermediate orientations are missed. That is a selection effect measured by the people who believe the planes are a problem, and it is the least contested thing in this section. What it means is plain: the case that looks addressed to us is the case in which an observation addressed to us was possible.</p>
+
+<p><strong>And the second such fact, which that answer does not reach.</strong> In <em>Nature Astronomy</em> on 11 April 2025 &mdash; by the same group whose word <em>fortunate</em> the previous paragraph leans on, and later than every satellite-plane source cited above except the two 2026 preprints &mdash; Kanehisa, Pawlowski and Libeskind reported that all but one of Andromeda&rsquo;s 37 satellite galaxies fall within 107&deg; of our Galaxy&rsquo;s direction: a 4.7&sigma; departure from isotropy, matched by fewer than 0.3% of Andromeda-like systems in the TNG and EAGLE simulations, or 0.5% once possible observational incompleteness is allowed for. Selection does not dispose of this one. The asymmetry is azimuthal &mdash; a lopsidedness <em>about</em> the Milky Way&rsquo;s direction, not a question of how a plane is tilted to the line of sight, so the edge-on argument above simply does not apply; the survey incompleteness was tested rather than assumed away; and the rarity survives the look-elsewhere correction, which lifts the direction-free version of the same measurement to around 5% and leaves the Milky-Way-directed version at 0.3%. This is the strongest form the argument has ever had, and it should be conceded in that form. It is also, still, a statement about a galaxy. What M31&rsquo;s satellites are lopsided towards is the Milky Way, and the authors read it that way themselves, writing that the 6&deg; alignment between the asymmetry and our Galaxy&rsquo;s direction strongly hints at &ldquo;the role of our Galaxy as significant to the formation or evolution of the lopsided Andromeda system&rdquo;. They mean the Galaxy as a mass and as a formation environment, and they are candid that no mechanism yet accounts for it: no comparable asymmetry has been reported among the Milky Way&rsquo;s own satellites, a comparison they note is hampered by survey footprints and by obscuration from the Galactic disc, and they judge tidal effects unlikely to be strong enough to produce this one. The puzzle is open, and we say so. But it is a puzzle about how a trillion-solar-mass galaxy 780&nbsp;kpc away came to shape another galaxy&rsquo;s dwarfs. Move the Sun to the far side of the Galactic disc, sixteen kiloparsecs from here, and not one figure in that paper moves. The Earth is in it as the place the telescope stood, and nowhere else.</p>
 
 <p><strong>6. Item 330, and the ecliptic that really is in the catalogues.</strong> Galaxy-cluster axes do align &mdash; with each other. West et al. (2025) used the largest available cluster catalogue and found orientations correlated out to 200&ndash;300 comoving Mpc and detectable to redshift 1 or beyond, with the comparison to simulations suggesting that coherent structures on such scales &ldquo;may be expected in LCDM models&rdquo;. That is clusters growing along the filaments of the cosmic web and remembering the direction they grew from, at distances where the light left before the Solar System existed. What could not be located, in the cluster-alignment literature searched for this entry or in the geocentric volume searched for it, is any measurement tying cluster axes to the ecliptic. What <em>is</em> tied to the ecliptic is the observing. ROSAT surveyed the sky on great circles perpendicular to the ecliptic plane, and every such circle passes through the ecliptic poles, which is why the deepest X-ray exposure of that survey &mdash; and a literature of cluster papers with &ldquo;North Ecliptic Pole&rdquo; in the title &mdash; is there. JWST&rsquo;s North Ecliptic Pole Time-Domain Field was sited where it is because it is the one clean extragalactic deep field inside the telescope&rsquo;s northern Continuous Viewing Zone. Euclid&rsquo;s northern deep field is at 17h58m56s +66&deg;01&prime;, and ESA&rsquo;s stated reason is that &ldquo;the proximity to the ecliptic pole ensures maximum coverage throughout the year&rdquo;. So deep extragalactic samples really do accumulate towards the ecliptic poles, for the same reason a north-facing window sees more of the northern sky. An ecliptic signature in such a catalogue is the spacecraft&rsquo;s orbit showing through the data &mdash; which is the identical lesson <a href="#ARG-E01">ARG-E01</a> draws about the microwave background, and it points at a local systematic rather than a cosmic centre.</p>
 
@@ -139,10 +149,13 @@ ENTRY = {
         best_defense=(
             "Read what you have just written. You conceded that the anomaly is live, that "
             "the planes are real, that the significance is disputed, and that Andromeda's "
-            "plane is oriented within three degrees of edge-on to us. Then you explained "
-            "the one fact that involves our position by calling it a selection effect — "
-            "which is what a defender of any theory says about the observation that "
-            "embarrasses it. Note the shape of your argument: where the data point at us, "
+            "plane is oriented within three degrees of edge-on to us, and that all but one "
+            "of its thirty-seven satellites sit in a cone pointed at our Galaxy at "
+            "four-point-seven sigma. Then you explained the first of those by calling it a "
+            "selection effect — which is what a defender of any theory says about the "
+            "observation that embarrasses it — and the second by insisting the cone points "
+            "at the Milky Way and not at us, as if the two were unrelated addresses. Note "
+            "the shape of your argument: where the data point at us, "
             "the data are a bias; where they do not, they are evidence. Second, your "
             "ecliptic arithmetic refutes a claim we did not make. Items 337 and 338 say "
             "nothing about the ecliptic; you supplied the axis yourself and then knocked "
@@ -172,7 +185,12 @@ ENTRY = {
             "Jerjen's word 'fortunate' and to the 2026 mock-observation paper by "
             "Pawlowski's own group, and it stays that way, because an unattributed appeal "
             "to selection is exactly the move the defender has correctly identified as "
-            "cheap. Third, on the Local Group symmetry: do not answer it by minimising it, "
+            "cheap. And it must never be stretched over the 2025 lopsidedness result, which "
+            "it does not fit: that asymmetry is azimuthal about the Milky Way's direction "
+            "rather than an orientation of a plane to the line of sight, and Kanehisa, "
+            "Pawlowski and Libeskind tested incompleteness and the look-elsewhere effect "
+            "themselves. Concede it whole and answer it on the referent, which is what "
+            "section 5 now does. Third, on the Local Group symmetry: do not answer it by minimising it, "
             "because it is real and its authors say no detailed model explains it. Answer "
             "by naming what the symmetry is symmetric about — the Milky Way and Andromeda, "
             "two galaxies whose mutual orbit is the proposed cause — and note that the "
@@ -273,6 +291,12 @@ ENTRY = {
         dict(label="Müller et al., “The coherent motion of Cen A dwarf satellite galaxies "
                    "remains a challenge for ΛCDM cosmology”, A&A 645:L5 (2021)",
              url="https://www.aanda.org/articles/aa/full_html/2021/01/aa39973-20/aa39973-20.html"),
+        dict(label="Kanehisa, Pawlowski & Libeskind, “Andromeda's asymmetric satellite "
+                   "system as a challenge to cold dark matter cosmology”, Nature Astronomy, "
+                   "11 April 2025 (arXiv:2504.08047) — all but one of M31's 37 satellites "
+                   "within 107° of the Milky Way's direction, 4.7σ from isotropy, under 0.3% "
+                   "of simulated analogues (0.5% allowing for incompleteness)",
+             url="https://www.nature.com/articles/s41550-025-02480-3"),
         dict(label="Cautun et al., “Planes of satellite galaxies: when exceptions are the "
                    "rule”, MNRAS 452:3838 (2015) — flattened subsets are common, and the "
                    "look-elsewhere effect inflates the significance by factors of 30 and 100",

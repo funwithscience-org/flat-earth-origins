@@ -43,9 +43,17 @@ foundations text.
          scriptural phrases and carries one the source does not use.
 
    NO CHANGE WAS MADE TO clusters.py — this agent does not own it.  Reported
-   upward in `record_problems`, with a proposed shape, and deliberately NOT written
-   into the published prose as a recommendation.  The prose states only what was
-   verified about the sources themselves.
+   upward in the sub-batch report's top-level `record_problems` array (the channel
+   review/batch10-report.json actually carries; there is no `record_problems` key
+   inside ENTRY, and one must not be added, because deep.py iterates ENTRY.items()
+   as cluster records).  Deliberately NOT written into the published prose as a
+   recommendation.  The prose states only what was verified about the sources.
+   Proposed shape for whoever owns clusters.py, anchored on the cluster key and
+   never on the originator= line (that line is byte-identical across clusters):
+   originator_work="One Hundred Proofs, proof 50", year="1885", note="Proof 50
+   carries the shared KJV clause unattributed; the four chapter-and-verse citations
+   and Psalm 104:5 are not located in the Gutenberg text of the 5th edition
+   (#55387)."  Withdrawing the credit outright, as C02 did, is also defensible.
 
 2. WHERE THE EXACT FOUR-VERSE SET DOES APPEAR IN PRINT.  Robert Schadewald, "The
    Flat-Earth Bible", Bulletin of the Tychonian Society 44 (July 1987), pp. 33-34
@@ -181,7 +189,7 @@ ENTRY = {
 
 <p><strong>Third, and decisive for a <em>flat</em>-earth list: none of these four verses is about shape, and the English psalter says so out loud.</strong> The Book of Common Prayer psalter, Coverdale&rsquo;s, recited in English parish churches since 1549 and still published by the Church of England, renders Psalm 93 verse 2: <em>&ldquo;He hath made the round world so sure : that it cannot be moved.&rdquo;</em> And Psalm 96 verse 10: <em>&ldquo;it is he who hath made the round world so fast that it cannot be moved.&rdquo;</em> Roundness and fixity, in one clause, in the two flagship verses of this cluster, in the text English speakers actually said aloud for four centuries.</p>
 
-<p>Be exact about what that does and does not prove, because the overclaim is available and a defender will punish it. &ldquo;Round world&rdquo; is Coverdale following the Latin <em>orbis terrae</em>, and <em>orbis</em> means a circle or disc as readily as a globe &mdash; which is the very point <a href="#ARG-C05">ARG-C05</a> makes about Hebrew <em>ch&ucirc;g</em> in Isaiah 40:22, and we do not get to use a translator&rsquo;s word as evidence in one cluster having refused it in another. The narrower conclusion is the one that matters and it is not weakened: this clause was never carried as a shape claim by anybody, in either direction. It is a sentence about the world being secure, and the traditions that recited it weekly attached it to a word for the world that settles nothing about geometry. A list that files these four verses as evidence against a ball is using a sentence that its own liturgical history pairs with the word &ldquo;round&rdquo;.</p>
+<p>Be exact about what that does and does not prove, because the overclaim is available and a defender will punish it. &ldquo;Round world&rdquo; is Coverdale following the Latin <em>orbis terrae</em>, and <em>orbis</em> means a circle or disc as readily as a globe &mdash; which is the very point <a href="#ARG-C05">ARG-C05</a> makes about Hebrew <em>ch&ucirc;g</em> in Isaiah 40:22, and we do not get to use a translator&rsquo;s word as evidence in one cluster having refused it in another. The narrower conclusion is the one that matters and it is not weakened: the clause itself says nothing about shape. It is a sentence about the world being secure, and the traditions that recited it month by month attached it to a word for the world that settles nothing about geometry &mdash; which is why Carpenter, who does put the clause to work against a globe, has to reach that conclusion by an argument from silence about the Bible&rsquo;s vocabulary rather than from the sentence itself. A list that files these four verses as evidence against a ball is using a sentence that its own liturgical history pairs with the word &ldquo;round&rdquo;.</p>
 
 <p><strong>The book our record names contains that objection, and its answer.</strong> Carpenter&rsquo;s appendix, &ldquo;Odds and Ends&rdquo; &mdash; after the hundredth proof, at line 2210 of the Gutenberg text &mdash; reprints a clergyman, Rev. Dr. Brewer: <em>&ldquo;Both revelation and science agree as to the shape of the earth. The psalmist calls it the &lsquo;round world,&rsquo; even when it was universally supposed to be a flat extended plain.&rdquo;</em> Carpenter&rsquo;s reply, printed in full, is a bracket: <em>&ldquo;[What a mistake!?]&rdquo;</em>. He knew the reading, he put it in his own book, and he answered it with three words and a punctuation mark. That is the state of the argument in 1885 and it has not advanced since.</p>
 
@@ -222,8 +230,10 @@ ENTRY = {
             "goes to five. (a) THE COVERDALE HIT. The 'round world' paragraph must concede, in "
             "the body and before the defender gets there, that orbis terrae does not establish "
             "sphericity and that C05 says so about chug — and then state the narrower claim that "
-            "survives: the clause was never carried as a shape claim by anyone, in either "
-            "direction. That concession is now the second half of the third section and must not "
+            "survives: the clause itself says nothing about shape, which is why even Carpenter, "
+            "who does aim it at a globe, has to get there by an argument from silence about the "
+            "Bible's vocabulary rather than from the sentence. That concession is now the second "
+            "half of the third section and must not "
             "be cut for length; without it the strongest paragraph on the page becomes the most "
             "vulnerable. (b) THE VERDICT TENSION. It must be disarmed in the FIRST paragraph, "
             "not the sixth, because a reader who meets 'unfalsifiable' cold will supply the "

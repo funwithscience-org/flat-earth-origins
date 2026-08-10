@@ -86,7 +86,18 @@ is the one the refutation spends its measurements on.
    section devoted to the Sun's changing appearance. Be exact about what that
    section does: it treats the apparent ENLARGEMENT at the horizon and explains
    it as an optical impression. A predicted shrinkage of the measured angle is
-   not located in it. The scan spells the authority "Philips" with one l at
+   not located in it. And quote the section's FIRST half too, because that is
+   where the standard escape comes from: lines 1830-1841 argue that light through
+   a dense medium "will appear larger" and that the low Sun "must be dilated or
+   enlarged", which lets a defender concede the sine law and claim atmospheric
+   magnification cancels it. Answered in section two on optics — refraction lifts
+   rather than magnifies and lifts the lower limb more than the upper (disc
+   flattened vertically, horizontal width untouched), the sign is wrong and the
+   shortfall at 5 degrees is a factor of twelve — and Rowbotham's own next
+   sentence declines the escape ("only an optical impression, as proved by actual
+   measurement"). Added to advocate.best_defense as the fourth move; survives
+   stays at 4 because the move is answered as shipped. The scan spells the
+   authority "Philips" with one l at
    that footnote (line 1855) and "Phillips" at lines 1060 and 2199; the man is
    Sir Richard Phillips and the book is A Million of Facts. Quoted below as the
    scan prints it. Rowbotham's long dashes are printed "--" in the Gutenberg
@@ -118,7 +129,8 @@ ENTRY = {
 
 "C06": dict(
 
-    tldr=("This one is real, it is old, and in the books it comes from it is a "
+    tldr=("This one is real, it is old, and in the earliest books located that carry it "
+          "— Rowbotham 1865 and Carpenter 1885 — it is a "
           "conclusion rather than a proof. Rowbotham reaches “secondary, and subservient” "
           "only after claiming to have measured the Sun at under 4,000 miles, and "
           "Carpenter's “the heavenly bodies were made for man” is printed after proof 100, "
@@ -183,6 +195,8 @@ ENTRY = {
 
 <p>The Sun does not do this. Its angular diameter runs between about 31&prime;28&Prime; and 32&prime;32&Prime; &mdash; a swing of some 3.4 per cent peak to peak &mdash; and the swing is <em>annual</em>, largest in early January, which is the period and the phase of an orbit with the Earth nearest the Sun at perihelion. There is no daily term. And the source quoted above records this himself. Section 8 of the 1865 book is given over to the Sun&rsquo;s changing appearance near the horizon, and Rowbotham resolves the apparent enlargement as an optical impression by quoting <em>&ldquo;Million of Facts,&rdquo; by Sir Richard Philips</em> &mdash; the spelling is the scan&rsquo;s; the author is Sir Richard Phillips &mdash; at p. 537: <em>&ldquo;If the angle of the Sun or Moon be taken either with a tube or micrometer when they appear so large to the eye in the horizon, the measure is identical when they are in the meridian&rdquo;</em>, and <em>&ldquo;with an accurate instrument the measure of 5&deg; near the horizon is equal to 5&deg; in the zenith.&rdquo;</em> Identical. He wanted the sentence to dispose of an illusion and it disposes of his geometry instead. Be exact about the scope of that: Section 8 addresses the apparent enlargement, and a predicted shrinkage of the measured angle is not located in it.</p>
 
+<p><strong>And the escape from that measurement is in the first half of the same section, so meet it there.</strong> Before the footnote, Rowbotham reasons that &ldquo;when a light of any kind shines through a dense medium it will appear larger than when seen through a lighter medium&rdquo;, and that because the air near the Earth is denser and damper, the light of the low Sun &ldquo;must be dilated or enlarged as well as modified in colour&rdquo; (Gutenberg #69892, lines 1830&ndash;1841). A defender can pick that up and grant the whole sine law: the geometric shrink happens, thickened air at the horizon magnifies it back, and what the micrometer records is the net. Rowbotham does not take that road himself &mdash; his very next sentence is that &ldquo;the enlarged appearance of the Sun when rising and setting is only an optical impression, as proved by actual measurement&rdquo;, which is what the footnote is there to support &mdash; but the road is real optics, so answer it on optics. <strong>Refraction near the horizon does not magnify; it lifts, and it lifts the lower limb more than the upper.</strong> Standard refraction tables give roughly 34&prime; of lift at the horizon against about 29&prime; half a degree above it, so the disc is squashed vertically by some 5&prime; &mdash; near a sixth of its width &mdash; while the horizontal diameter is left alone. That is the visibly oval setting Sun, and it breaks the escape twice: the compensation would have to be a magnification rather than a compression, and it would have to supply a factor of about twelve at 5&deg; altitude rather than a few per cent, tracking altitude to the arcminute on every clear day at every latitude, in air whose refraction is itself variable while the measured diameter is not.</p>
+
 <p><strong>Third, the distance itself, which stopped being an argument a long time ago.</strong> The Sun&rsquo;s distance was not asserted by decree and it was not measured by anyone with a stake in this dispute. It was measured by triangulating the transits of Venus of 1761, 1769, 1874 and 1882 &mdash; expeditions dispatched by rival powers, reduced independently, converging &mdash; and then by bouncing radar off Venus in 1961, which turns the whole scale of the Solar System into a light-travel time. The astronomical unit is now a defined constant, exactly 149,597,870,700 metres (IAU 2012, Resolution B2), because the measurement stopped being the uncertain part. A spacecraft has since flown through the Sun&rsquo;s outer atmosphere: Parker Solar Probe passed about 3.8 million miles above the photosphere in December 2024, which is roughly a thousand times the height Rowbotham gives the whole firmament. The teleological premise is untestable; the number it was used to generate is not, and it failed.</p>
 
 <p><strong>Fourth, the two verses, read where they stand.</strong> Item 69 takes half a sentence out of Isaiah 45:18. The verse in the King James: <em>&ldquo;For thus saith the LORD that created the heavens; God himself that formed the earth and made it; he hath established it, he created it not in vain, he formed it to be inhabited: I am the LORD; and there is none else.&rdquo;</em> The clause the item wants &mdash; formed to be inhabited &mdash; sits inside a monotheism oracle whose punchline is the last five words, in the section of Isaiah addressed to Cyrus; &ldquo;not in vain&rdquo; is <em>tohu</em>, the word of Genesis 1:2, and the contrast being drawn is with formlessness, not with a sphere. Nothing in the sentence is about shape, and nothing is about motion.</p>
@@ -221,14 +235,24 @@ ENTRY = {
             "on your best measurement: Rowbotham's Section 8 quotes Phillips on angular "
             "measurement in a passage about optical illusion, and you have repurposed a "
             "footnote in a book you say is worthless as though it were data. Produce the "
-            "micrometer series yourself and we will talk. Fourth and last: UNFALSIFIABLE is "
+            "micrometer series yourself and we will talk. Fourth, and this is the one that "
+            "answers your geometry: you quoted the footnote and skipped the section it sits "
+            "in. Section 8 is headed with the cause of the Sun appearing larger when rising "
+            "and setting, and the cause Rowbotham gives is that a light shining through a "
+            "dense medium 'will appear larger', so that near the horizon, through denser and "
+            "damper air, the Sun 'must be dilated or enlarged'. Grant your sine law in full, "
+            "then: the shrink is there and the thick air at the horizon puts it back, and "
+            "what the micrometer reads is the sum of the two. Your best evidence is a net "
+            "measurement being read as though it were a single term. Fifth and last: "
+            "UNFALSIFIABLE is "
             "a chip that lets you file a claim without answering it, and you have as good as "
             "said so — you wrote that no instrument reaches a claim about purpose 'in either "
             "direction.' Then the honest verdict is that the question is open, and 'open' is "
             "all we have ever asked for."),
         survives=4,
         preemptive=(
-            "Four, and the number is driven by the first and fourth moves. All four are "
+            "Four, and the number is driven by the Danielson knife and the closing 'open is "
+            "all we have ever asked for'. All five moves are "
             "answered in the body as shipped; if a later edit removes any of them the rating "
             "goes to five. (a) THE DANIELSON KNIFE is the strongest thing available to the "
             "other side and it is fair. It must be answered by conceding it entirely and in "
@@ -254,7 +278,20 @@ ENTRY = {
             "the list is the specific one, that this shows the Earth is central or at rest, "
             "and the specific one does not follow from the modest one. Resist the temptation "
             "to reply that purpose has been ruled out. It has not, this page does not say it "
-            "has, and a defender who catches us saying it will be right."),
+            "has, and a defender who catches us saying it will be right. "
+            "(e) THE ATMOSPHERIC-MAGNIFICATION ESCAPE is the strongest reply available to "
+            "our best measurement, it comes out of Rowbotham's own Section 8, and it must "
+            "never be left standing: concede the sine law, let the dense air at the horizon "
+            "magnify the shrink away, and the constancy Phillips reports is the net of the "
+            "two. It is answered on optics rather than on rhetoric, and section two now "
+            "carries the answer - refraction near the horizon lifts rather than magnifies, "
+            "and lifts the lower limb more than the upper, so the disc is compressed "
+            "vertically and untouched horizontally, which is the wrong sign; and the "
+            "shortfall to be made up at 5 degrees of altitude is a factor of about twelve, "
+            "not a few per cent. Note in passing that Rowbotham himself declines the escape "
+            "on the next line, calling the enlargement 'only an optical impression, as "
+            "proved by actual measurement'. Do not let a later pass trim that paragraph for "
+            "length; without it the fourth move stands unanswered."),
     ),
 
     straw_man=dict(
@@ -371,6 +408,13 @@ ENTRY = {
                    "149 597 870 700 m, the scale fixed by Venus transits (1761, 1769, 1874, 1882) "
                    "and by radar ranging to Venus in 1961",
              url="https://www.iau.org/static/resolutions/IAU2012_English.pdf"),
+        dict(label="Andrew T. Young, “Bending of Light Rays”, in the atmospheric-refraction "
+                   "pages (San Diego State University) — near-horizon ray curvature of about "
+                   "1/6 that of the Earth, which he notes is “about the fraction by which the "
+                   "setting Sun is flattened at a distant sea horizon seen from an elevated "
+                   "location”. Cited for the direction of the effect: refraction near the "
+                   "horizon compresses the disc vertically rather than magnifying it",
+             url="https://aty.sdsu.edu/explain/atmos_refr/bending.html"),
         dict(label="Robert Schadewald, “The Flat-Earth Bible”, Bulletin of the Tychonian Society "
                    "44 (July 1987) — Isaiah 45:18 quoted from the New English Bible for “himself "
                    "fixed it fast”, in the immovability block with ARG-C01's four verses; "

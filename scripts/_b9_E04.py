@@ -6,11 +6,18 @@ Batch 9 — ARG-E04, "Quasar polarization alignment and large quasar groups".
 Research notes for whoever picks this up next. Five things, in order of how much
 they change the entry.
 
-1. THE CLUSTER IS TWO ARGUMENTS THAT CONTRADICT EACH OTHER, welded by one sentence
+1. THE CLUSTER IS TWO UNRELATED ARGUMENTS, welded by one sentence
    in the source. Item 90 is Varshni's 1976 concentric quasar SHELLS — perfect
    spherical symmetry about the Earth. Items 117/321/322 are the Hutsemekers
-   polarization ALIGNMENT — a preferred axis. A sphere has no axis and an axis has
-   no centre; you cannot cite both as evidence for the same conclusion. The weld is
+   polarization ALIGNMENT — a preferred axis. DO NOT say these are mutually
+   exclusive: the geocentrism this book argues for is a universe ROTATING about a
+   fixed Earth once a day (Vol. I ch. 2, the Foucault/equatorial-bulge answers), and
+   such a universe has a centre AND an axis. An earlier draft of this entry claimed
+   the source's model "predicts no preferred direction at all"; that was false about
+   the source and has been withdrawn. What survives is that the two results rest on
+   different data and different physics and are joined by nothing but "in other
+   words" — and that the axis must then be answered on the measurements, which is
+   what IV(a), (c) and (d) do. The weld is
    Galileo Was Wrong Vol. I, p. 414: "In other words, quasar distribution is
    centered around the Earth, just as Varshni had discovered thirty-six years
    earlier." That sentence is the passage quoted in this entry, and the whole
@@ -36,9 +43,24 @@ they change the entry.
    wavelengths", the ecliptic sentence is section II.C "Micro wavelengths". The
    ellipsis in Sungenis's quotation deletes the subject of "point all in the same
    direction" — "the normal vectors to the planes determined by the quadrupole and
-   the octopole" — i.e. it deletes the CMB. Item 117, "Quasar alignment with
-   ecliptic", is that deletion, propagated. This is checkable in ten seconds against
-   the arXiv text and it is the hardest single finding in the entry.
+   the octopole" — i.e. it deletes the CMB, and the interpolation "[sun-earth]"
+   re-describes the ecliptic as an Earth-Sun structure.
+   THAT IS ALL THAT SURVIVES, AND AN EARLIER DRAFT OVERREACHED IT. Do not say the
+   book changes the subject from the CMB to quasars behind the reader's back. One
+   sentence earlier, on printed p. 413, the book writes in its own voice: "Lastly, a
+   team studying the orientation of quasars has discovered that they have a preferred
+   axis, the same as they found for radio wavelengths and micro wavelengths (i.e.,
+   the CMB)." And Urban & Zhitnitsky do argue for one common axis: II.A has the
+   quasar vectors "closely align with the direction of the cosmological dipole",
+   II.B has P-odd radio statistics "single out a preferred axis, again coinciding
+   with the cosmological dipole", II.C has the CMB multipole normals. So item 117 is
+   a real claim and section V answers it rather than dismissing it as a misquotation.
+   Two numbers for that answer, both from astro-ph/0507274 footnote 9: quasar
+   A1-A3 axis (lII = 267, bII = 69), CMB dipole (lII = 264, bII = 48).
+   Also: the word "ecliptic" does not occur anywhere in the text of Hutsemekers et
+   al. 2005 as searched here — that paper works in equatorial, galactic and
+   supergalactic frames only, so IV(d) rebuts an equatorial-frame axis and no
+   ecliptic-frame test is reported either way in the papers cited on this page.
 
 4. VARSHNI 1976 IS A REDUCTIO AND THE FOOTNOTE PROVES SUNGENIS KNEW. Read Ap&SS
    43:3-8 to the last paragraph: three candidate explanations, the third is a
@@ -73,15 +95,17 @@ ENTRY = {
 
 "E04": dict(
 
-    tldr=("Two arguments were welded together here and they point opposite ways. Varshni's "
-          "1976 quasar shells were a reductio in his own paper — his conclusion was that if "
-          "quasar redshifts are cosmological you get an absurdity, so they are not "
+    tldr=("Two unrelated arguments were welded together here by the words “in other words”. "
+          "Varshni's 1976 quasar shells were a reductio in his own paper — his conclusion was "
+          "that if quasar redshifts are cosmological you get an absurdity, so they are not "
           "cosmological — and 384 redshifts scattered at random produce about as many "
-          "near-coincidences as he found. The polarization alignment is the reverse case: a "
-          "real, replicated signal whose gigaparsec-scale coherence is not fully explained, "
-          "but whose preferred direction rotates about 30° per gigaparsec and reverses "
-          "handedness between the galactic hemispheres. That is a set of directions, and a "
-          "direction has no middle."),
+          "near-coincidences as he found. The polarization alignment is the other kind of "
+          "case: a real, replicated signal whose gigaparsec-scale coherence is not fully "
+          "explained, but whose preferred direction rotates about 30° per gigaparsec, whose "
+          "apparent axis is read off a sky map the measuring team called “definitely affected "
+          "by observational biases”, and whose more natural reference frame, in those same "
+          "authors' words, is the Local Supercluster's. "
+          "That is a set of directions, and a direction on its own does not locate a centre."),
 
     passage=dict(
         work="WRK-SUNGENIS-2006",
@@ -99,9 +123,9 @@ ENTRY = {
                "just as Varshni had discovered thirty-six years earlier."),
         gloss="""<p>Four findings. The first one decides the shape of everything below it.</p>
 
-<p><strong>1. The three words that do the work are &ldquo;in other words&rdquo;.</strong> They join two claims that cannot both be evidence for the same conclusion. Varshni&rsquo;s result, set out nine pages earlier at pp.&nbsp;403&ndash;405, is that quasars sit on <em>concentric spherical shells</em> centred on the Earth &mdash; perfect spherical symmetry, no preferred direction anywhere. The Urban and Zhitnitsky material on this page is about a <em>preferred axis</em> &mdash; one direction singled out of all the others. A sphere centred on you has no axis. An axis has no centre. The list inherited both and files them four items apart (item&nbsp;90 and item&nbsp;117), so a reader meets them as two independent witnesses rather than as a contradiction.</p>
+<p><strong>1. The three words that do the work are &ldquo;in other words&rdquo;.</strong> They join two results that have nothing to do with one another. Varshni&rsquo;s result, set out nine pages earlier at pp.&nbsp;403&ndash;405, is that quasars sit on <em>concentric spherical shells</em> centred on the Earth &mdash; perfect spherical symmetry, no preferred direction anywhere. The Urban and Zhitnitsky material on this page is about a <em>preferred axis</em> &mdash; one direction singled out of all the others. It would be a cheap win to call those mutually exclusive, and this entry does not: the geocentrism this book argues for is a universe that turns about a fixed Earth once a day, and such a universe has a centre <em>and</em> an axis. What the two results are is unrelated &mdash; different objects, different instruments, different physics &mdash; and what joins them is the phrase &ldquo;in other words&rdquo; and nothing else. The list inherited both and files them four items apart (item&nbsp;90 and item&nbsp;117), so a reader meets them as two independent witnesses when neither is a witness for the other.</p>
 
-<p><strong>2. The ellipsis deletes the CMB.</strong> Urban and Zhitnitsky&rsquo;s sentence, in section II.C of their paper, headed <em>Micro wavelengths</em>, reads in full: <em>&ldquo;there is a very easily identifiable preferred axis, the cosmological dipole once again; that is, the normal vectors to the planes determined by the quadrupole and the octopole (there are four of them) point all in the same direction, that of the ecliptic or equinox.&rdquo;</em> The quadrupole and the octopole are multipoles of the <strong>microwave background</strong>. They are what points along the ecliptic. Sungenis&rsquo;s ellipsis removes the subject of the verb, the sentence lands in a paragraph about quasars, and item&nbsp;117 &mdash; <em>&ldquo;Quasar alignment with ecliptic&rdquo;</em> &mdash; is that deletion, propagated. The CMB alignment itself is real, is argued about seriously, and is answered at <a href="#ARG-E01">ARG-E01</a>; it is not a fact about quasars.</p>
+<p><strong>2. The ellipsis deletes the subject of the sentence &mdash; and the book names the CMB anyway.</strong> Urban and Zhitnitsky&rsquo;s sentence, in section II.C of their paper, headed <em>Micro wavelengths</em>, reads in full: <em>&ldquo;there is a very easily identifiable preferred axis, the cosmological dipole once again; that is, the normal vectors to the planes determined by the quadrupole and the octopole (there are four of them) point all in the same direction, that of the ecliptic or equinox.&rdquo;</em> The quadrupole and the octopole are multipoles of the <strong>microwave background</strong>. Sungenis&rsquo;s ellipsis removes them, so the verb loses its subject, and his bracketed <em>&ldquo;[sun-earth]&rdquo;</em> re-describes the ecliptic as an Earth&ndash;Sun structure; item&nbsp;117, <em>&ldquo;Quasar alignment with ecliptic&rdquo;</em>, is what comes out the far end. <strong>That is where the complaint stops.</strong> One sentence before the block quotation, on printed p.&nbsp;413, the book says in its own voice that the quasar team found <em>&ldquo;a preferred axis, the same as they found for radio wavelengths and micro wavelengths (i.e., the CMB)&rdquo;</em> &mdash; the subject the ellipsis removed is named, and named as the CMB, on the preceding page. And one axis common to optical, radio and micro is the quoted paper&rsquo;s own thesis, not something manufactured here. So this is not a subject swapped behind the reader&rsquo;s back; it is a real claim, and it is answered as one in section&nbsp;V.</p>
 
 <p><strong>3. The book prints Varshni&rsquo;s escape hatch in its own footnote.</strong> At p.&nbsp;404 the footnote to that passage reproduces the sentences in which Varshni declines the geocentric reading and points instead at his laser-star model, which in his words <em>&ldquo;does not require any redshifts.&rdquo;</em> So the source is not concealing the reversal &mdash; it is carrying it, in small type, under a body text that presents the shells as a discovery. That is the single most useful fact in this entry for the hedge rule: the qualification survives as far as the footnote and dies between the footnote and the list.</p>
 
@@ -112,16 +136,18 @@ ENTRY = {
 
 <p><strong>DEEPER.</strong> The effect is real and it has survived independent statistics. Hutsem&eacute;kers, Cabanac, Lamy and Sluse (<em>A&amp;A</em> 441:915, 2005) measured 355 polarized quasars and reported that the polarization vectors are &ldquo;not randomly oriented over the sky with a probability often in excess of 99.9%&rdquo;, coherent over ~1&nbsp;Gpc regions. Pelgrims and Cudell (<em>MNRAS</em> 442:1239, 2014) built a different estimator from scratch and found the probability that one redshift region&rsquo;s polarization directions are random to be &ldquo;as low as 0.003%&rdquo;. This is not a marginal result being kept alive by one group&rsquo;s method.</p>
 
-<p><strong>KERNEL.</strong> The strongest form of this argument is not about quasars pointing at us. It is that <em>coherent orientation on gigaparsec scales is not predicted by anything, and the mechanism on offer does not fully cover it.</em> The accepted astrophysics &mdash; quasar spin axes aligning with the large-scale structure they grew in (Hutsem&eacute;kers et al., <em>A&amp;A</em> 572:A18, 2014; independently in radio, Pelgrims &amp; Hutsem&eacute;kers, <em>A&amp;A</em> 590:A53, 2016) &mdash; explains alignment <em>relative to a filament</em>. It does not explain why the filaments themselves should be correlated across a billion parsecs, and when Friday, Clowes and Williger went looking for exactly that (<em>MNRAS</em> 511:4159, 2022) they reported correlated large-quasar-group axes at typical separations of ~1.6&nbsp;Gpc and wrote that if real it is &ldquo;at least an order of magnitude larger than any so far observed&rdquo; alignment of structure. And Varshni has a kernel of his own, which deserves saying plainly: his reasoning that a structure arranged in shells about our position would falsify the cosmological principle is <em>correct reasoning</em>, and it is the same reasoning cosmologists use when they test homogeneity rather than assume it. Concede all of that.</p>""",
-        why_it_doesnt_save_claim="""<p><strong>Because a preferred axis is a direction, and the model being defended predicts no direction at all.</strong> Put the geocentric prediction on the table the way <a href="#ARG-E03">ARG-E03</a> does with the dipole. An Earth at rest at the centre of a spherically symmetric universe predicts <em>isotropy</em> &mdash; that is what item&nbsp;90 claims to have found, 57 concentric shells with nothing distinguishing one direction from another. Every anisotropy result in the other three items is therefore evidence <em>against</em> the model the cluster is arguing for, not for it. The cluster is spending a symmetry claim and an asymmetry claim out of the same pocket.</p>
+<p><strong>THE COMMON-AXIS CLAIM, WHICH IS ITEM&nbsp;117 AT ITS BEST.</strong> Do not let the ecliptic item be reduced to a mangled quotation. Put at full strength it says: three independent observational channels have been reported picking out one region of sky. Urban and Zhitnitsky assemble exactly that list on their p.&nbsp;2 &mdash; optical quasar polarization vectors that &ldquo;tend to identify an axis in the sky which closely align with the direction of the cosmological dipole&rdquo;; P-odd radio statistics that &ldquo;single out a preferred axis, again coinciding with the cosmological dipole&rdquo;; and CMB quadrupole and octopole normals pointing along &ldquo;the ecliptic or equinox&rdquo;. Hutsem&eacute;kers et al. corroborate the geometry in their own footnote: the quasar A1&ndash;A3 axis at l<sup>II</sup>&nbsp;=&nbsp;267&deg;, b<sup>II</sup>&nbsp;=&nbsp;69&deg;, the CMB dipole at l<sup>II</sup>&nbsp;=&nbsp;264&deg;, b<sup>II</sup>&nbsp;=&nbsp;48&deg;, and region A1 lying towards Virgo. A defender who says &ldquo;several unrelated measurements keep landing in the same part of the sky, and one of the planes that part of the sky is near is the plane of the Earth&rsquo;s orbit&rdquo; is saying something the literature says too. Concede the assembly. The argument is about what it licenses.</p>
 
-<p><strong>And the alignment is not one direction anyway.</strong> The 2005 paper&rsquo;s own abstract says the aligned regions sit at both z&nbsp;~&nbsp;0.5 and z&nbsp;~&nbsp;1.5 and are &ldquo;characterized by different preferred directions&rdquo;; that the mean polarization angle &ldquo;appears to rotate with redshift at the rate of ~30&deg; per Gpc&rdquo;; and that the rotation runs clockwise with increasing redshift in the North Galactic hemisphere and counter-clockwise in the South. A single axis through the Earth predicts one direction, no rotation with distance, and the same handedness everywhere. The measurement delivers the opposite of all three.</p>
+<p><strong>KERNEL.</strong> The strongest form of this argument is not about quasars pointing at us. It is that <em>coherent orientation on gigaparsec scales is not predicted by anything, and the mechanism on offer does not fully cover it.</em> The accepted astrophysics &mdash; quasar spin axes aligning with the large-scale structure they grew in (Hutsem&eacute;kers et al., <em>A&amp;A</em> 572:A18, 2014; independently in radio, Pelgrims &amp; Hutsem&eacute;kers, <em>A&amp;A</em> 590:A53, 2016) &mdash; explains alignment <em>relative to a filament</em>. It does not explain why the filaments themselves should be correlated across a billion parsecs, and when Friday, Clowes and Williger went looking for exactly that (<em>MNRAS</em> 511:4159, 2022) they reported correlated large-quasar-group axes at typical separations of ~1.6&nbsp;Gpc and wrote that if real it is &ldquo;at least an order of magnitude larger than any so far observed&rdquo; alignment of structure. And Varshni has a kernel of his own, which deserves saying plainly: his reasoning that a structure arranged in shells about our position would falsify the cosmological principle is <em>correct reasoning</em>, and it is the same reasoning cosmologists use when they test homogeneity rather than assume it. Concede all of that.</p>""",
+        why_it_doesnt_save_claim="""<p><strong>Not because a centre and an axis are incompatible.</strong> That reply is available and this page declines it: the geocentrism being defended is a universe rotating about a fixed Earth once a day, which has a centre and an axis both, so &ldquo;you cannot claim a preferred direction&rdquo; is a technicality the source never walked into. The true objection is weaker and sufficient. The two halves of the cluster are unrelated measurements joined by an &ldquo;in other words&rdquo;; the shells half fails on Varshni&rsquo;s own argument and on the arithmetic; and the axis half has to be met on what was actually measured &mdash; which is done, in section&nbsp;IV.</p>
+
+<p><strong>And what was measured is not one direction.</strong> The 2005 paper&rsquo;s own abstract says the aligned regions sit at both z&nbsp;~&nbsp;0.5 and z&nbsp;~&nbsp;1.5 and are &ldquo;characterized by different preferred directions&rdquo;; that the mean polarization angle &ldquo;appears to rotate with redshift at the rate of ~30&deg; per Gpc&rdquo;; and that there is a &ldquo;regular alternance&rdquo; of aligned and randomly oriented regions along the line of sight on a scale of about 1.5&nbsp;Gpc. A single axis fixed in the sky and running through the Earth predicts one direction, holding at all distances. This is a quantity that changes as you go out, and turns back into noise and out of it again.</p>
 
 <p><strong>The authors state the selection bias themselves.</strong> On the question of whether the aligned regions define an axis, the 2005 paper says the distribution &ldquo;is definitely affected by observational biases&rdquo;, explains that the alignments were first found near the celestial equator and that follow-up observation was then concentrated there, and adds that &ldquo;it is not unexpected that the highest quasar densities and the highest significances do appear in these regions&rdquo;. Only 46 of the 355 quasars lie in the third of the sky opposite the high-significance regions, and the paper closes the section by saying that whether alignments exist away from that axis &ldquo;is still to be demonstrated&rdquo;.</p>
 
 <p><strong>Finally, on Varshni: his own paper spends the result rather than banking it,</strong> and the arithmetic does not survive. Both points are worked below.</p>"""),
 
-    refutation="""<p>This cluster carries two claims with two different ancestors, two different failure modes, and no way of both being true. Take them apart first, because the source&rsquo;s own sentence is what glues them: <em>&ldquo;In other words, quasar distribution is centered around the Earth, just as Varshni had discovered.&rdquo;</em> One half says the quasars are arranged with perfect spherical symmetry about us. The other half says they single out a direction. Spherical symmetry about a point is the absence of any preferred direction; a preferred direction is the absence of spherical symmetry. Whatever else is true, at most one of these items can be evidence for a central Earth.</p>
+    refutation="""<p>This cluster carries two claims with two different ancestors and two different failure modes. Take them apart first, because the source&rsquo;s own sentence is what glues them: <em>&ldquo;In other words, quasar distribution is centered around the Earth, just as Varshni had discovered.&rdquo;</em> One half says the quasars are arranged with perfect spherical symmetry about us. The other half says they single out a direction. It is tempting to stop there and call that a contradiction, and it is not one: the model this book argues for is a universe rotating about a fixed Earth once a day, and a rotating universe has a centre and an axis together. What the sentence does is not contradict itself. It splices. The two results come from different objects, different instruments and different physics, and the only thing holding them together is the phrase <em>in other words</em>. So they are separated here and answered one at a time.</p>
 
 <h4>I. Varshni 1976 is an argument that quasar redshifts are <em>not</em> cosmological</h4>
 
@@ -151,21 +177,29 @@ ENTRY = {
 
 <p>Now the half of the cluster that rests on something real. Hutsem&eacute;kers, Cabanac, Lamy and Sluse mapped the optical linear polarization of 355 quasars and confirmed that the vectors are &ldquo;not randomly oriented over the sky with a probability often in excess of 99.9%&rdquo;, coherently oriented over regions ~1&nbsp;Gpc across. Pelgrims and Cudell later built an independent estimator and got a probability as low as 0.003% for one region. Pelgrims tested the obvious foreground against Planck&rsquo;s dust maps and found dust cannot fully account for it. <strong>The effect is real, replicated and not fully explained, and this page says so without hedging.</strong></p>
 
-<p>What the effect will not do is point at anybody. Four features of the measurement, all from the paper the argument cites:</p>
+<p>What the effect will not do is point at anybody. Four things about the measurement, all from the paper the argument cites. The second is a feature this entry declines to use, and the reason is worth as much as the other three.</p>
 
 <p><strong>(a) The preferred direction changes with distance.</strong> The aligned regions sit at low (z&nbsp;~&nbsp;0.5) and high (z&nbsp;~&nbsp;1.5) redshift and are &ldquo;characterized by different preferred directions&rdquo;, with the mean angle rotating at ~30&deg; per Gpc. Along a single line of sight the paper finds a &ldquo;regular alternance&rdquo; of aligned and randomly oriented regions on a scale of about 1.5&nbsp;Gpc. That is a corkscrew, not a spoke.</p>
 
-<p><strong>(b) The handedness flips between hemispheres.</strong> Clockwise with increasing redshift in the North Galactic cap, counter-clockwise in the South. A geometry organised about the Earth has no way to know which <em>galactic</em> hemisphere it is in, so a mirror symmetry about the Galactic plane is a fact about where we sit in the Milky Way &mdash; and the Milky Way is not the thing the list says we are at the centre of. A mechanism tied to the Galaxy, or to the local matter distribution, can produce exactly this; a centre cannot.</p>
+<p><strong>(b) The handedness flip, and why it is not used here.</strong> The abstract does state it flatly &mdash; the mean angle rotating clockwise with increasing redshift in the North Galactic cap and counter-clockwise in the South &mdash; and an earlier version of this page leaned on it, arguing that a mirror symmetry about the Galactic plane must be a fact about our position in the Milky Way and so the work of some Galactic or local mechanism. That argument is withdrawn, for two reasons, both in the same paper. First, the paper says the opposite about local mechanisms: these characteristics, the abstract writes, &ldquo;make the alignment effect difficult to explain in terms of local mechanisms, namely a contamination by interstellar polarization in our Galaxy&rdquo;. Second, the body hedges the flip in ways the abstract does not. The mirror-like (S1) relation is &ldquo;the best defined and the most significant&rdquo;, but &ldquo;a counter-clockwise rotation in both the South and North Galactic Caps (S2 symmetry) cannot be totally excluded&rdquo;; &ldquo;both the slope and the constant of the linear fit depend on the coordinate system&rdquo;; &ldquo;due to the 180&deg; uncertainty, several other complicated or asymmetric solutions&rdquo; to the same relation &ldquo;could be imagined&rdquo;; and a step-like discontinuity at z&nbsp;=&nbsp;0 is expected in general, the authors explain, simply from the way position angles are defined for a structure crossing the observer. And the authors&rsquo; own reading of the symmetry, if it holds, runs the other way: it &ldquo;would be accounted for by a rotation axis close to the A1&ndash;A3 axis&rdquo; &mdash; a global rotation of the universe, which is nearer the defender&rsquo;s picture than to ours. So this page does not spend it. The weight of section&nbsp;IV sits on (a), (c) and (d), which do not turn on a choice of coordinates.</p>
 
 <p><strong>(c) The mechanism now on the table is about filaments, not about us.</strong> Hutsem&eacute;kers and colleagues measured polarization for quasars inside gigaparsec-scale quasar groups and found the vectors &ldquo;either parallel or perpendicular to the directions of the large-scale structures to which they belong&rdquo;, with the parallel/perpendicular split tracking emission-line width &mdash; that is, viewing inclination &mdash; and concluded that quasar spin axes are likely parallel to their host structures. Pelgrims and Hutsem&eacute;kers reproduced the correlation independently using radio polarization for quasars in a much larger sample of groups. The physical claim is that supermassive black holes end up spinning along the filaments they grew in, which is a statement about how structure forms and contains no reference to the observer.</p>
 
 <p><strong>(d) The Earth-frame alignment is a sampling artefact the authors flagged, and the natural frame is the local supercluster&rsquo;s.</strong> Asked directly whether the aligned regions define an axis, the 2005 paper answers that the map &ldquo;is definitely affected by observational biases&rdquo;: the first alignments were found near the celestial equator, follow-up observing was then concentrated there, and quasars are surveyed in equatorial fields anyway, so &ldquo;it is not unexpected that the highest quasar densities and the highest significances do appear in these regions&rdquo;. Only 46 of 355 objects lie in the opposite third of the sky. The same paper reports that the statistical significance is &ldquo;not extreme in the equatorial coordinate system&rdquo; and that many other coordinate systems do better &mdash; the opposite of what an Earth-oriented effect would give. And when the authors extrapolate the mean polarization angle to z&nbsp;=&nbsp;0 they get 90&deg; in equatorial coordinates, which they call &ldquo;an unpleasant coincidence&rdquo;, noting that the same value is 0&deg; in the <em>supergalactic</em> frame &mdash; the plane of the Local Supercluster. The frame in which the number comes out simple is the one defined by the nearby matter, not by the Earth&rsquo;s spin axis or its orbit.</p>
 
-<h4>V. The ecliptic sentence is about the microwave background</h4>
+<h4>V. The ecliptic sentence is about the microwave background &mdash; and the book says so a page earlier</h4>
 
-<p>Item&nbsp;117 says &ldquo;Quasar alignment with ecliptic.&rdquo; Its ancestor is the sentence quoted at the top of this entry, and the ellipsis in that quotation is doing the work. Urban and Zhitnitsky wrote, in the subsection of their paper headed <em>Micro wavelengths</em>: <em>&ldquo;there is a very easily identifiable preferred axis, the cosmological dipole once again; that is, the normal vectors to the planes determined by the quadrupole and the octopole (there are four of them) point all in the same direction, that of the ecliptic or equinox.&rdquo;</em> The quadrupole and the octopole are multipoles of the CMB. Delete the clause between the semicolon and &ldquo;point&rdquo; and the sentence acquires whatever subject the surrounding paragraph supplies &mdash; which, on p.&nbsp;414 of <em>Galileo Was Wrong</em>, is quasars.</p>
+<p>Item&nbsp;117 says &ldquo;Quasar alignment with ecliptic.&rdquo; Its ancestor is the sentence quoted at the top of this entry, and two pieces of editing in that sentence are worth naming. Urban and Zhitnitsky wrote, in the subsection of their paper headed <em>Micro wavelengths</em>: <em>&ldquo;there is a very easily identifiable preferred axis, the cosmological dipole once again; that is, the normal vectors to the planes determined by the quadrupole and the octopole (there are four of them) point all in the same direction, that of the ecliptic or equinox.&rdquo;</em> The quadrupole and the octopole are multipoles of the CMB. The quotation cuts the clause between the semicolon and &ldquo;point&rdquo;, so the verb loses its subject; and the interpolation <em>&ldquo;[sun-earth]&rdquo;</em> re-describes the ecliptic, which is the plane of the Earth&rsquo;s orbit about the Sun, as a structure belonging to the pair of them.</p>
 
-<p>Two further things about that paper are worth having. Its footnote to the quasar paragraph says the coincidence between the polarization axis and the dipole direction &ldquo;is somewhat at odds with the preferred axis coinciding with the local Doppler dipole; for the time being and for our discussion this is taken to be mere coincidence&rdquo; &mdash; the authors flag it as something to set aside, not to build on. And their own model is a <em>parity-odd universe</em>, in which a pseudoscalar field related to dark energy rotates the polarization of light crossing it. That is a mechanism with an axis and no centre; the paper is proposing new physics for the direction, not a location for the Earth. The CMB&rsquo;s own ecliptic alignment is a serious and genuinely unsettled question, and it is argued in full at <a href="#ARG-E01">ARG-E01</a>. It is not evidence about quasars.</p>
+<p><strong>And that is where the complaint has to stop, because the book is not hiding the subject.</strong> One sentence before the block quotation, on printed p.&nbsp;413, <em>Galileo Was Wrong</em> writes in its own voice that a team studying quasar orientations found &ldquo;a preferred axis, the same as they found for radio wavelengths and micro wavelengths (i.e., the CMB)&rdquo;. The microwave background is named, and glossed as the CMB, before the quotation begins. Nor is a single axis spanning the three bands an invention of the book&rsquo;s: it is the quoted paper&rsquo;s thesis. Section II.A reports that the optical polarization vectors &ldquo;tend to identify an axis in the sky which closely align with the direction of the cosmological dipole&rdquo;; II.B reports P-odd radio statistics that &ldquo;single out a preferred axis, again coinciding with the cosmological dipole&rdquo;; II.C is the ecliptic sentence. Item&nbsp;117 is therefore a claim to answer, not a misquotation to expose. Here is the answer, in three parts.</p>
+
+<p><strong>First, the CMB half is real and is argued elsewhere.</strong> The quadrupole&ndash;octopole planarity and its proximity to the ecliptic are a genuinely unsettled question, they are not disposed of by this page, and this review takes them at full strength at <a href="#ARG-E01">ARG-E01</a>. What they are not is a measurement of quasars.</p>
+
+<p><strong>Second, &ldquo;the same axis&rdquo; is the same to a couple of dozen degrees, and the authors say so.</strong> Hutsem&eacute;kers et al. put the numbers in a footnote: the quasar A1&ndash;A3 axis at l<sup>II</sup>&nbsp;=&nbsp;267&deg;, b<sup>II</sup>&nbsp;=&nbsp;69&deg;, the CMB dipole at l<sup>II</sup>&nbsp;=&nbsp;264&deg;, b<sup>II</sup>&nbsp;=&nbsp;48&deg;, which they describe as &ldquo;not far from&rdquo; each other and offer as a <em>possible</em> coincidence worth investigating. The same paper says the sky distribution the axis is read off &ldquo;is definitely affected by observational biases&rdquo;, and that whether alignments exist away from that axis &ldquo;is still to be demonstrated&rdquo;. An axis established that way will not carry a conclusion about where the universe is centred.</p>
+
+<p><strong>Third, the authors being cited decline the coincidence themselves.</strong> Urban and Zhitnitsky&rsquo;s footnote&nbsp;2, hung on the quasar paragraph, notes that the non-local character of the effect &ldquo;is somewhat at odds with the preferred axis coinciding with the local Doppler dipole; for the time being and for our discussion this is taken to be mere coincidence&rdquo;. And their own model is a <em>parity-odd universe</em>, in which a pseudoscalar field related to dark energy rotates the polarization of light crossing it: a mechanism with an axis and no centre. They are proposing new physics for the direction, not a location for the Earth.</p>
+
+<p><strong>One gap here is ours, and it is recorded as a gap.</strong> Item&nbsp;117 names the <em>ecliptic</em>. The word does not occur anywhere in the text of Hutsem&eacute;kers et al. 2005 as searched for this entry; that paper works in equatorial, galactic and supergalactic frames, and section&nbsp;IV(d) above accordingly rebuts an equatorial-frame axis rather than an ecliptic one. No test of the quasar polarization alignment against the ecliptic plane is reported in any of the papers cited on this page, in either direction. The ecliptic in item&nbsp;117 arrives from the CMB sentence, and it is answered where the CMB is answered.</p>
 
 <h4>VI. Large quasar groups: a live disagreement, and it is not about the ecliptic</h4>
 
@@ -181,7 +215,7 @@ ENTRY = {
 
 <h4>VIII. Verdict</h4>
 
-<p><strong>Misleading, and precisely in the sense the word is for.</strong> Every measurement in this cluster is somebody else&rsquo;s, taken for other purposes, and three of the four are correctly reported as far as they go. What is added is the inference, and the inference has two failures rather than one. The Varshni half takes a reductio for a result and rests on a probability computed after the boxes were drawn round the points. The alignment half takes a set of directions &mdash; rotating with distance, reversing between hemispheres, explained so far as it is explained by black-hole spins tracking their filaments &mdash; and reads them as an arrow pointing here. A direction is not an origin, which is the same structural inversion recorded at <a href="#ARG-E03">ARG-E03</a> for the dipole and at <a href="#ARG-A03">ARG-A03</a> for aberration. And the model these items are marshalled for &mdash; a central Earth in a spherically symmetric cosmos &mdash; predicts no preferred direction at all, so on its own terms three of these four items are evidence against it.</p>""",
+<p><strong>Misleading, and precisely in the sense the word is for.</strong> Every measurement in this cluster is somebody else&rsquo;s, taken for other purposes, and three of the four are correctly reported as far as they go. What is added is the inference, and the inference has two failures rather than one. The Varshni half takes a reductio for a result and rests on a probability computed after the boxes were drawn round the points. The alignment half takes a set of directions &mdash; rotating with distance, alternating in and out of coherence along the line of sight, explained so far as it is explained by black-hole spins tracking their filaments &mdash; and reads them as an arrow pointing here. A direction is not an origin, which is the same structural inversion recorded at <a href="#ARG-E03">ARG-E03</a> for the dipole and at <a href="#ARG-A03">ARG-A03</a> for aberration. The model these items are marshalled for does have an axis of its own to offer &mdash; a universe rotating about a fixed Earth once a day &mdash; and that is why the answer here is not a logical objection but a measurement one: the axis that was actually found does not point at the Earth, it changes direction with distance, the sky map it is read off is on its own authors&rsquo; account biased by where they chose to observe, and the frame in which its numbers come out simple is the Local Supercluster&rsquo;s.</p>""",
 
     advocate=dict(
         best_defense=(
@@ -194,7 +228,13 @@ ENTRY = {
             "arguing. You concede coherence over a gigaparsec is not predicted by any "
             "simulation. So the sum of your position is: there is a large-scale organisation "
             "of the universe that your cosmology did not predict, cannot presently explain, "
-            "and keeps finding in a direction near the one your own dipole picks out. Your "
+            "and keeps finding in a direction near the one your own dipole picks out. And do "
+            "not try to reduce item 117 to a mangled quotation: your own section V now admits "
+            "our book named the microwave background in its own voice a page before the "
+            "quotation, and that the paper we quoted argues for one axis running through "
+            "optical polarization, radio and the CMB multipoles alike, all of it near the "
+            "cosmological dipole. Three separate channels, one patch of sky, and one of the "
+            "planes that patch lies near is the plane of the Earth's orbit. Your "
             "reply is that a direction is not a centre. Fine — but 'not a centre' is not an "
             "explanation either, and you are using a logical point to stand in for a physical "
             "one you do not have. On the rotation with redshift: you present 30° per Gpc as "
@@ -219,11 +259,25 @@ ENTRY = {
             "terms; both must stay. The answer to the hit is not that we can explain the "
             "coherence but that an unexplained direction and a claimed centre are different "
             "propositions, and the second does not follow from the first — which is stated in "
-            "the verdict rather than left implicit. (b) The hemispheric mirror symmetry is the "
-            "defender's cleverest move and it is answered in one line that must not be cut: a "
-            "geometry organised about the Earth has no way to know which GALACTIC hemisphere "
-            "it is in, so a Galactic mirror symmetry is a fact about our position in the Milky "
-            "Way, and the Milky Way is not the thing the list says we are at the centre of. "
+            "the verdict rather than left implicit. Note too that 'a rotation about an axis is "
+            "what we claimed' is a fair hit and must NOT be met with the logical objection "
+            "that a direction is not a centre: the geocentrism in this book is a universe "
+            "rotating about a fixed Earth, so it does claim an axis, and saying otherwise "
+            "misdescribes the source. It is met on the measurements, in IV(a), (c) and (d) — "
+            "the axis does not point at the Earth, its direction changes with distance, the "
+            "map it is read off is biased by the authors' own observing choices, and the frame "
+            "in which it comes out simple is the Local Supercluster's. (b) The hemispheric "
+            "mirror symmetry is the defender's cleverest move and an earlier version of this "
+            "entry answered it WRONGLY, by claiming a Galactic or local mechanism could "
+            "produce it. The paper cited for the fact says the reverse in its own abstract: "
+            "these characteristics make the effect 'difficult to explain in terms of local "
+            "mechanisms, namely a contamination by interstellar polarization in our Galaxy'. "
+            "The same paper reads the mirror symmetry, if it holds, as the signature of a "
+            "global rotation about an axis near A1-A3 — nearer the defender's picture than "
+            "ours — and hedges it in the body (S2 not totally excluded; slope and constant "
+            "coordinate-dependent; a z=0 discontinuity expected from how position angles are "
+            "defined). Do not reinstate the deleted line. IV(b) now records those hedges and "
+            "the section rests on (a), (c) and (d) instead. "
             "(c) The Monte Carlo objection is pre-answered in the body — spectral similarity "
             "is a SECOND selection criterion applied to the same data, which widens the search "
             "rather than narrowing it, and Varshni's own quoted probability is computed purely "
@@ -250,10 +304,13 @@ ENTRY = {
                 "characterised as an author who 'seeks to explain away these anomalies' by "
                 "proposing a bubble universe and gravitational lensing - that is what proposing a "
                 "physical mechanism looks like, and it is what Hutsemekers, Pelgrims, Nadathur and "
-                "Fujii were all doing too. The heaviest instance is the one dissected in the "
-                "gloss: Urban and Zhitnitsky are made to say something about quasars that they "
-                "said about the microwave background, and are then cited in support of a "
-                "conclusion - a central Earth - that their own parity-odd model does not contain."),
+                "Fujii were all doing too. The heaviest instance is NOT the ellipsis dissected in "
+                "the gloss - the book names the microwave background in its own voice a page "
+                "before the quotation, so a charge of subject-swapping does not hold - but the "
+                "use made of the authors: Urban and Zhitnitsky are cited in support of a "
+                "conclusion, a central Earth, that their own parity-odd model does not contain, "
+                "and their footnoted decision to treat the dipole coincidence as 'mere "
+                "coincidence' is not carried across with the quotation."),
     ),
 
     compression=dict(
@@ -275,7 +332,7 @@ ENTRY = {
 
 <p><strong>Link two, the book to the list: the hedge is dropped.</strong> This is what <code>drift_type</code> records. The book&rsquo;s body carries a conditional &mdash; &ldquo;Varshni concludes that <em>if his analysis is correct</em> for quasars, then&hellip;&rdquo; &mdash; and the footnote on p.&nbsp;404 prints Varshni&rsquo;s refusal in his own words. Item&nbsp;90 reads &ldquo;Quasar distribution symmetry.&rdquo; The antecedent, the attribution and the author&rsquo;s stated preference for the other horn all go. The same happens on the alignment items: the source&rsquo;s underlying paper says the aligned regions have <em>different</em> preferred directions at different redshifts, that the map is &ldquo;definitely affected by observational biases&rdquo;, and that whether an axis exists &ldquo;is still to be demonstrated&rdquo;; item&nbsp;321 reads &ldquo;Quasar polarization alignment.&rdquo;</p>
 
-<p><strong>Item 117 is a third thing and the enum has no word for it.</strong> &ldquo;Quasar alignment with ecliptic&rdquo; is faithful to the book and the book is unfaithful to its own citation: the ellipsis in the quoted sentence removes &ldquo;the normal vectors to the planes determined by the quadrupole and the octopole&rdquo;, which is what Urban and Zhitnitsky said points along the ecliptic. The claim changes subject from the microwave background to quasars inside a pair of quotation marks. Recorded here rather than forced into the nearest box, per the standing instruction that the seven values are a convenience and not a theory.</p>
+<p><strong>Item 117 is a third thing and the enum has no word for it.</strong> &ldquo;Quasar alignment with ecliptic&rdquo; is faithful to the book&rsquo;s sentence, and the book&rsquo;s sentence has been edited twice over: the ellipsis removes &ldquo;the normal vectors to the planes determined by the quadrupole and the octopole&rdquo;, which is what Urban and Zhitnitsky said points along the ecliptic, and the interpolation &ldquo;[sun-earth]&rdquo; re-describes the ecliptic as an Earth&ndash;Sun structure. What this is <em>not</em> is a subject changed behind the reader&rsquo;s back: a page earlier the book names the microwave background itself, and one axis common to optical, radio and micro is the quoted paper&rsquo;s own thesis. So the drift recorded here is the elision plus the gloss, and the claim underneath it is answered on its merits in section&nbsp;V rather than treated as a misquotation. Recorded here rather than forced into the nearest box, per the standing instruction that the seven values are a convenience and not a theory.</p>
 
 <p><strong>The refutation above answers the source, not the fragment.</strong> It takes Varshni&rsquo;s statistics at the strength he claimed them and refutes the probability calculation on its own terms; it concedes the polarization alignment at the strength the 2005 paper and its independent replications give it, including that it is unexplained; and it leaves the large-quasar-group question open where the literature leaves it open. Item&nbsp;322 was not matched to any sentence in the seventh-edition scan searched, and is recorded as unmapped rather than counted as an unsourced addition.</p>""",
     ),
@@ -298,9 +355,14 @@ ENTRY = {
                    "damage is done by the inference and by an ellipsis. Two structural problems "
                    "with the cluster were noted and left alone, since neither is a verdict "
                    "question: the cluster name and cited real sources do not mention Varshni 1976, "
-                   "which is item 90's ancestor; and items 90 and 117 assert incompatible "
-                   "geometries — spherical symmetry and a preferred axis — which is arguably "
-                   "grounds for a split of the kind pending at A09.")),
+                   "which is item 90's ancestor; and items 90 and 117 rest on unrelated results "
+                   "in different geometries — spherical symmetry and a preferred axis — joined "
+                   "by nothing but the source's 'in other words', which is arguably grounds for "
+                   "a split of the kind pending at A09. They are not, to be clear, formally "
+                   "incompatible: the universe this book has rotating about a fixed Earth once a "
+                   "day possesses a centre and an axis both, and an earlier draft of this entry "
+                   "wrongly asserted that the source's model 'predicts no preferred direction at "
+                   "all'. That claim has been withdrawn throughout.")),
 
     people=["PER-SUNGENIS"],
     related=["E01", "E03", "E12", "E13", "E17", "R01", "A03"],
@@ -320,7 +382,9 @@ ENTRY = {
         dict(label="Hutsemékers, Cabanac, Lamy & Sluse, “Mapping extreme-scale alignments of "
                    "quasar polarization vectors”, A&A 441:915 (2005) — 355 quasars, >99.9%, "
                    "different preferred directions by redshift, ~30°/Gpc rotation, the "
-                   "observational-bias passage and the supergalactic-frame note",
+                   "observational-bias passage, the supergalactic-frame note, the S2 and "
+                   "coordinate-dependence caveats on the mirror symmetry, and footnote 9 giving "
+                   "the A1–A3 axis at (lII 267°, bII 69°) against the CMB dipole at (264°, 48°)",
              url="https://arxiv.org/abs/astro-ph/0507274"),
         dict(label="Hutsemékers et al. 2005 — journal record, A&A 441:915–930",
              url="https://www.aanda.org/articles/aa/abs/2005/39/aa3337-05/aa3337-05.html"),

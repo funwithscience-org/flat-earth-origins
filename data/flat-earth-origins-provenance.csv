@@ -58,10 +58,10 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 57,Equivalence principle permits rest frame.,A,A-REL,ARG-R04,R04,The equivalence principle validates a local rest frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Einstein equivalence principle,STANDARD PHYSICS
 58,Relativistic coordinates Earth-valid.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"Einstein, general relativity (1915)",STANDARD PHYSICS
 59,Light bending symmetric about Earth.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
-60,Redshift symmetry concentric around Earth.,E,E,ARG-E12,E12,Redshift quantization in concentric shells around Earth,Gerardus Bouw,Geocentricity,1992,Tifft 1976; refuted by 2dF/SDSS surveys,REFUTED
-61,Psalm 93:1 immovable world.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
-62,Psalm 104:5 Earth on foundations.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
-63,1 Chron 16:30 firmly established world.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
+60,Redshift symmetry concentric around Earth.,E,E,ARG-E12,E12,Redshift quantization in concentric shells around Earth,Gerardus Bouw,Geocentricity,1992,"Tifft 1976, ApJ 206:38; Tifft & Cocke 1984, ApJ 287:492; Napier & Guthrie 1997, J. Astrophys. Astr. 18:455; Humphreys, TJ 16(2), 2002",REFUTED
+61,Psalm 93:1 immovable world.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,"One Hundred Proofs, proof 50",1885,,UNFALSIFIABLE
+62,Psalm 104:5 Earth on foundations.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,"One Hundred Proofs, proof 50",1885,,UNFALSIFIABLE
+63,1 Chron 16:30 firmly established world.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,"One Hundred Proofs, proof 50",1885,,UNFALSIFIABLE
 64,Eccles 1:5 sun rises and sets.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,,,,,UNFALSIFIABLE
 65,Joshua 10:13 sun stood still.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,,,,,UNFALSIFIABLE
 66,Habakkuk 3:11 sun and moon halted.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,,,,,UNFALSIFIABLE
@@ -88,9 +88,9 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 87,Consciousness defines center.,D,D,ARG-D11,D11,Perception is reliable; the observer defines the centre,Samuel Rowbotham,Zetetic Astronomy (the zetetic method),1849,,NOT DEMONSTRATED
 88,No proof of revolution.,A,A-REL,ARG-R03,R03,No experiment detects absolute motion; only relative motion is observable,Walter van der Kamp,The Heart of the Matter,1968,"Henri Poincaré 1904, “The Present and the Future of Mathematical Physics” (St Louis)",STANDARD PHYSICS
 89,Axis of Evil alignment.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-90,Quasar distribution symmetry.,E,E,ARG-E04,E04,Quasar polarization alignment and large quasar groups,,,,"Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
+90,Quasar distribution symmetry.,E,E,ARG-E04,E04,Quasar polarization alignment and large quasar groups,,,,"Varshni 1976, Ap&SS 43:3–8; Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
 91,Cosmic anisotropy Earth-oriented.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-92,Pioneer anomaly Earth-directed.,E,E,ARG-E08,E08,Pioneer and flyby anomalies are Earth-directed,,,,"Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",REFUTED
+92,Pioneer anomaly Earth-directed.,E,E,ARG-E08,E08,Pioneer and flyby anomalies are Earth-directed,,,,"Anderson et al. 1998, PRL 81:2858; Anderson et al. 2008, PRL 100:091102; Turyshev et al. 2012, PRL 108:241101",REFUTED
 93,Angular momentum imbalance.,E,E,ARG-E18,E18,Solar-system angular-momentum distribution problem,,,,,STANDARD PHYSICS
 94,Planck data Earth preference.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
 95,Lunar stability conflict.,A,A-EXP,ARG-A25,A25,Orbital / lunar / ring stability objections,,,,,NOT DEMONSTRATED
@@ -99,7 +99,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 98,Hubble tension observation bias.,E,E,ARG-E09,E09,Hubble tension shows we are at a special location,,,,"Riess et al. 2022, ApJL 934:L7; Kenworthy et al. 2019, ApJ 875:145",MISLEADING
 99,Michelson–Morley replications null.,A,A-EXP,ARG-A01,A01,Michelson–Morley null proves Earth is not moving,Walter van der Kamp,The Heart of the Matter,1968,"Michelson & Morley 1887, Am. J. Sci. 34:333",STANDARD PHYSICS
 100,Miller aether drift detections.,A,A-EXP,ARG-A12,A12,Dayton Miller detected a real aether drift that was suppressed,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Miller 1933, Rev. Mod. Phys. 5:203; Shankland et al. 1955, Rev. Mod. Phys. 27:167",REFUTED
-101,Flyby anomalies Earth-centered.,E,E,ARG-E08,E08,Pioneer and flyby anomalies are Earth-directed,,,,"Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",REFUTED
+101,Flyby anomalies Earth-centered.,E,E,ARG-E08,E08,Pioneer and flyby anomalies are Earth-directed,,,,"Anderson et al. 1998, PRL 81:2858; Anderson et al. 2008, PRL 100:091102; Turyshev et al. 2012, PRL 108:241101",REFUTED
 102,GPS relativity Earth frame.,A,A-EXP,ARG-A18,A18,GPS/time-dilation corrections work in an Earth frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,GPS relativistic clock corrections,STANDARD PHYSICS
 103,Inconsistent stellar parallax.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. III (as “Parallax”)",1881,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
 104,Solar inertial wobble about Earth.,E,E,ARG-E14,E14,"Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",,,,,REFUTED
@@ -115,7 +115,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 114,Artillery stationary calculations.,A,A-EXP,ARG-A14,A14,Ballistics and artillery ignore Earth's rotation,Samuel Rowbotham,Earth Not a Globe,1865,Standard long-range fire-control tables,REFUTED
 115,GPS Sagnac confirmation.,A,A-EXP,ARG-A02,A02,Michelson–Gale / Sagnac interferometry shows a stationary Earth,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Gale & Pearson 1925, ApJ 61:140",REFUTED
 116,CMB ecliptic alignment.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-117,Quasar alignment with ecliptic.,E,E,ARG-E04,E04,Quasar polarization alignment and large quasar groups,,,,"Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
+117,Quasar alignment with ecliptic.,E,E,ARG-E04,E04,Quasar polarization alignment and large quasar groups,,,,"Varshni 1976, Ap&SS 43:3–8; Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
 118,Relativistic invariance of frame.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"Einstein, general relativity (1915)",STANDARD PHYSICS
 119,All ancient cultures geocentric.,D,D,ARG-D01,D01,All ancient cultures were geocentric,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
 120,Plato's Timaeus central Earth.,D,D,ARG-D02,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
@@ -150,8 +150,8 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 149,Psalm 19:4–6 sun's course.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,,,,,UNFALSIFIABLE
 150,Joshua 10 miracle sun stop.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,,,,,UNFALSIFIABLE
 151,Habakkuk 3 celestial stillness.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,,,,,UNFALSIFIABLE
-152,Chronicles 16:30 immovable Earth.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
-153,Psalm 96:10 fixed Earth.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,One Hundred Proofs (proof 50 onward),1885,,UNFALSIFIABLE
+152,Chronicles 16:30 immovable Earth.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,"One Hundred Proofs, proof 50",1885,,UNFALSIFIABLE
+153,Psalm 96:10 fixed Earth.,C,C,ARG-C01,C01,"Proof-texts on an immovable, established Earth",William Carpenter,"One Hundred Proofs, proof 50",1885,,UNFALSIFIABLE
 154,Genesis 1:14–18 firmament lights.,C,C,ARG-C04,C04,Proof-texts on the firmament / dome,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
 155,Job 38 Earth foundation.,C,C,ARG-C03,C03,Proof-texts on foundations and pillars,Rob Skiba,biblical-cosmology teaching,2015,,UNFALSIFIABLE
 156,Eccles 1:5 sun's circuit.,C,C,ARG-C02,C02,Proof-texts on a moving Sun,,,,,UNFALSIFIABLE
@@ -187,9 +187,9 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 186,Archetypal up/down symmetry.,D,D,ARG-D06,D06,"Hermetic 'as above, so below' / sacred geometry / microcosm",William Walker Atkinson (as 'Three Initiates'),The Kybalion,1908,"Emerald Tablet, Arabic recensions c. 750–830 CE",UNFALSIFIABLE
 187,Infinite universe removes meaning of center.,D,D,ARG-D13,D13,"Meaning, teleology and fine-tuning imply centrality",Robert Sungenis,The Principle (film),2014,,UNFALSIFIABLE
 188,Axis alignments repeating.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-189,Galaxy spin bias.,E,E,ARG-E05,E05,Galaxy spin handedness / hemispheric bias,,,,"Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",REFUTED
+189,Galaxy spin bias.,E,E,ARG-E05,E05,Galaxy spin handedness / hemispheric bias,,,,"Land et al. 2008, MNRAS 388:1686; Longo 2011, PLB 699:224; Hayes, Davis & Silva 2017, MNRAS 466:3928; Iye, Yagi & Fukumoto 2021, ApJ 907:123; Patel & Desmond 2024, MNRAS 534:1553",REFUTED
 190,Anisotropy toward Earth.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-191,Pioneer/Flyby anomalies repeated.,E,E,ARG-E08,E08,Pioneer and flyby anomalies are Earth-directed,,,,"Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",REFUTED
+191,Pioneer/Flyby anomalies repeated.,E,E,ARG-E08,E08,Pioneer and flyby anomalies are Earth-directed,,,,"Anderson et al. 1998, PRL 81:2858; Anderson et al. 2008, PRL 100:091102; Turyshev et al. 2012, PRL 108:241101",REFUTED
 192,Solar neutrino problem.,E,E,ARG-E14,E14,"Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",,,,,REFUTED
 193,Lunar ranging stability.,A,A-EXP,ARG-A20,A20,Lunar laser ranging shows a fixed baseline,,,,Apollo/Lunokhod retroreflector ranging,NOT DEMONSTRATED
 194,Photon spin alignment.,E,E,ARG-E13,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. II (7th ed., 2013), ch. 10; Vol. I, chs 2-3",2013,,NOT DEMONSTRATED
@@ -319,24 +319,24 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 318,Horizon problem Earth initial data.,A,A-REL,ARG-R11,R11,No falsifier distinguishes the frames; multiple cosmologies fit the data,Gerardus Bouw,Geocentricity,1992,,SELF-CONTRADICTED
 319,Geodesics drawn from observers.,A,A-REL,ARG-R06,R06,Tensor/gauge/coordinate formalism can be written Earth-centred,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
 320,CMB Axis of Evil.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-321,Quasar polarization alignment.,E,E,ARG-E04,E04,Quasar polarization alignment and large quasar groups,,,,"Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
-322,Large quasar groups ecliptic.,E,E,ARG-E04,E04,Quasar polarization alignment and large quasar groups,,,,"Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
-323,Radio galaxy handedness asymmetry.,E,E,ARG-E05,E05,Galaxy spin handedness / hemispheric bias,,,,"Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",REFUTED
+321,Quasar polarization alignment.,E,E,ARG-E04,E04,Quasar polarization alignment and large quasar groups,,,,"Varshni 1976, Ap&SS 43:3–8; Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
+322,Large quasar groups ecliptic.,E,E,ARG-E04,E04,Quasar polarization alignment and large quasar groups,,,,"Varshni 1976, Ap&SS 43:3–8; Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",MISLEADING
+323,Radio galaxy handedness asymmetry.,E,E,ARG-E05,E05,Galaxy spin handedness / hemispheric bias,,,,"Land et al. 2008, MNRAS 388:1686; Longo 2011, PLB 699:224; Hayes, Davis & Silva 2017, MNRAS 466:3928; Iye, Yagi & Fukumoto 2021, ApJ 907:123; Patel & Desmond 2024, MNRAS 534:1553",REFUTED
 324,Dipole anisotropy exact fit.,E,E,ARG-E03,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,"Galileo Was Wrong (7th ed., 2013), Vol. I ch. 3 and Vol. II ch. 10",2013,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
 325,Hubble tension location bias.,E,E,ARG-E09,E09,Hubble tension shows we are at a special location,,,,"Riess et al. 2022, ApJL 934:L7; Kenworthy et al. 2019, ApJ 875:145",MISLEADING
 326,Cold Spot preferred axis.,E,E,ARG-E02,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
 327,Dark flow directionality.,E,E,ARG-E03,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,"Galileo Was Wrong (7th ed., 2013), Vol. I ch. 3 and Vol. II ch. 10",2013,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
 328,GRB anisotropy.,E,E,ARG-E07,E07,Gamma-ray-burst anisotropy,,,,,NOT DEMONSTRATED
-329,Galaxy spin hemisphere bias.,E,E,ARG-E05,E05,Galaxy spin handedness / hemispheric bias,,,,"Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",REFUTED
-330,Cluster axes ecliptic.,E,E,ARG-E06,E06,Dwarf-galaxy planes and satellite alignments,,,,"Sawala et al. 2023, Nature Astronomy 7:481",MISLEADING
+329,Galaxy spin hemisphere bias.,E,E,ARG-E05,E05,Galaxy spin handedness / hemispheric bias,,,,"Land et al. 2008, MNRAS 388:1686; Longo 2011, PLB 699:224; Hayes, Davis & Silva 2017, MNRAS 466:3928; Iye, Yagi & Fukumoto 2021, ApJ 907:123; Patel & Desmond 2024, MNRAS 534:1553",REFUTED
+330,Cluster axes ecliptic.,E,E,ARG-E06,E06,Dwarf-galaxy planes and satellite alignments,,,,"Kroupa, Theis & Boily 2005, A&A 431:517; Pawlowski, Pflamm-Altenburg & Kroupa 2012, MNRAS 423:1109; Ibata et al. 2013, Nature 493:62; Müller et al. 2018, Science 359:534; Sawala et al. 2023, Nature Astronomy 7:481",MISLEADING
 331,ISW correlations ecliptic-linked.,E,E,ARG-E02,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
 332,Zodiacal contamination persistent.,E,E,ARG-E10,E10,Zodiacal dust and Kuiper structure show ecliptic symmetry,,,,,STANDARD PHYSICS
 333,Kinematic SZ ambiguity.,E,E,ARG-E03,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,"Galileo Was Wrong (7th ed., 2013), Vol. I ch. 3 and Vol. II ch. 10",2013,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
 334,Supernova dimming alternatives.,E,E,ARG-E13,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. II (7th ed., 2013), ch. 10; Vol. I, chs 2-3",2013,,NOT DEMONSTRATED
 335,BAO fits geocentric models.,E,E,ARG-E13,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. II (7th ed., 2013), ch. 10; Vol. I, chs 2-3",2013,,NOT DEMONSTRATED
 336,Cosmic isotropy violations.,E,E,ARG-E02,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
-337,Dwarf galaxy planes coherence.,E,E,ARG-E06,E06,Dwarf-galaxy planes and satellite alignments,,,,"Sawala et al. 2023, Nature Astronomy 7:481",MISLEADING
-338,Satellite alignments.,E,E,ARG-E06,E06,Dwarf-galaxy planes and satellite alignments,,,,"Sawala et al. 2023, Nature Astronomy 7:481",MISLEADING
+337,Dwarf galaxy planes coherence.,E,E,ARG-E06,E06,Dwarf-galaxy planes and satellite alignments,,,,"Kroupa, Theis & Boily 2005, A&A 431:517; Pawlowski, Pflamm-Altenburg & Kroupa 2012, MNRAS 423:1109; Ibata et al. 2013, Nature 493:62; Müller et al. 2018, Science 359:534; Sawala et al. 2023, Nature Astronomy 7:481",MISLEADING
+338,Satellite alignments.,E,E,ARG-E06,E06,Dwarf-galaxy planes and satellite alignments,,,,"Kroupa, Theis & Boily 2005, A&A 431:517; Pawlowski, Pflamm-Altenburg & Kroupa 2012, MNRAS 423:1109; Ibata et al. 2013, Nature 493:62; Müller et al. 2018, Science 359:534; Sawala et al. 2023, Nature Astronomy 7:481",MISLEADING
 339,CMB hemispheric power asymmetry.,E,E,ARG-E02,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
 340,Low-l multipole ecliptic alignment.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
 341,Parity asymmetry.,E,E,ARG-E02,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
@@ -352,8 +352,8 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 351,Oort cloud unnecessary.,D,D,ARG-D14,D14,Dark matter / dark energy / MOND are modern epicycles,Robert Sungenis,"Galileo Was Wrong, Vol. I",2006,,MISLEADING
 352,MOND epicycle analogy.,D,D,ARG-D14,D14,Dark matter / dark energy / MOND are modern epicycles,Robert Sungenis,"Galileo Was Wrong, Vol. I",2006,,MISLEADING
 353,Dark energy patching.,D,D,ARG-D14,D14,Dark matter / dark energy / MOND are modern epicycles,Robert Sungenis,"Galileo Was Wrong, Vol. I",2006,,MISLEADING
-354,Copernican principle assumption.,A,A-REL,ARG-R12,R12,The Copernican principle is an unproven assumption,Robert Sungenis & Robert Bennett,The Principle (film),2014,"Zhang & Stebbins 2011, PRL 107:041301",REFUTED
-355,Redshift quantization concentric.,E,E,ARG-E12,E12,Redshift quantization in concentric shells around Earth,Gerardus Bouw,Geocentricity,1992,Tifft 1976; refuted by 2dF/SDSS surveys,REFUTED
+354,Copernican principle assumption.,A,A-REL,ARG-R12,R12,The Copernican principle is an unproven assumption,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Zhang & Stebbins 2011, PRL 107:041301",REFUTED
+355,Redshift quantization concentric.,E,E,ARG-E12,E12,Redshift quantization in concentric shells around Earth,Gerardus Bouw,Geocentricity,1992,"Tifft 1976, ApJ 206:38; Tifft & Cocke 1984, ApJ 287:492; Napier & Guthrie 1997, J. Astrophys. Astr. 18:455; Humphreys, TJ 16(2), 2002",REFUTED
 356,Tully–Fisher scatter direction.,E,E,ARG-E13,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. II (7th ed., 2013), ch. 10; Vol. I, chs 2-3",2013,,NOT DEMONSTRATED
 357,Lyman-alpha anisotropy.,E,E,ARG-E13,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. II (7th ed., 2013), ch. 10; Vol. I, chs 2-3",2013,,NOT DEMONSTRATED
 358,Cosmic birefringence ecliptic.,E,E,ARG-E13,E13,"Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. II (7th ed., 2013), ch. 10; Vol. I, chs 2-3",2013,,NOT DEMONSTRATED

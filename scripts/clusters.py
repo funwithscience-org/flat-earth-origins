@@ -37,9 +37,16 @@ Each cluster records:
                     is rather than mislabelling as authorship.
 """
 
-# lane codes: A-EXP geocentric experiment | A-REL relativity/coordinates
+# lane codes: A-EXP geocentric experiment | A-REL relativity, coordinates and
+#                                                  underdetermination
 #             B flat-earth observation | C scriptural | D historical-esoteric
 #             E misappropriated astronomy
+#
+# The A-REL label was widened 2026-08-10. "relativity/coordinates" did not cover R12
+# (the Copernican principle), and arguably not R09 (conventionality of simultaneity) or
+# R11 either; in practice this is the underdetermination lane. Lane MEMBERSHIP is
+# unchanged - moving R12 would disturb post1950_cited_clusters, and it is filed
+# correctly. Only the description was wrong.
 
 CLUSTERS = {
 
@@ -274,10 +281,27 @@ CLUSTERS = {
     note="Bouw — the movement's only credentialed astronomer — conceded his model is observationally equivalent to heliocentrism and must therefore be chosen on theological grounds. That concession removes the list's own claim to be scientific evidence."),
 
 "R12": dict(lane="A-REL", name="The Copernican principle is an unproven assumption",
-    originator="Robert Sungenis & Robert Bennett", originator_work="The Principle (film)", year="2014",
+    # Corrected 2026-08-10, work/year and note.
+    # (1) The byline is the BOOK's pair, but the work recorded against it was the film,
+    #     which Bennett had no part in - works.py has the film as DeLano and Sungenis, and
+    #     E11 records it that way. The treatment quotes and cites the book only, and the
+    #     paragraph is already in the 2006 first edition at printed p. 145 (matching the
+    #     7th ed. at p. 309), the better part of a decade before the film. The byline was
+    #     right; the work pinned to it was not. Repointing to the film instead would have
+    #     required redoing the compression drift against DeLano, whose blog runs the
+    #     argument far harder than the book does; the force_upgraded finding is calibrated
+    #     to the book.
+    # (2) The note said the kSZ spectrum "rules out Gpc-scale off-centre void models".
+    #     "Off-centre" inverted the geometry - these models put US near the centre, and it
+    #     is the distant observers who are off-centre - and "Gpc-scale" now contradicts
+    #     the treatment's section four, which publishes Zhang & Stebbins's survival
+    #     window: voids with radius ≲0.6 h⁻¹ Gpc survive the kSZ bound and are excluded by
+    #     the supernovae instead.
+    originator="Robert Sungenis & Robert Bennett", originator_work="Galileo Was Wrong, Vol. I", year="2006",
     real_source="Zhang & Stebbins 2011, PRL 107:041301",
     verdict="REFUTED",
-    note="It is not merely assumed — it is tested. The kSZ power spectrum rules out Gpc-scale off-centre void models."),
+    note="It is not merely assumed — it is tested. The kSZ power spectrum rules out the "
+         "LTB void models deep enough to mimic dark energy."),
 
 # ---------------------------------------------------------------- B
 "B01": dict(lane="B", name="Water finds its level, therefore the surface is a plane",
@@ -365,8 +389,24 @@ CLUSTERS = {
 
 # ---------------------------------------------------------------- C
 "C01": dict(lane="C", name="Proof-texts on an immovable, established Earth",
-    originator="William Carpenter", originator_work="One Hundred Proofs (proof 50 onward)", year="1885",
-    real_source=None, verdict="UNFALSIFIABLE", note="Outside the testable domain."),
+    # Work label narrowed 2026-08-10. "(proof 50 onward)" was wrong and the meta line
+    # renders as "first published by William Carpenter", so the skim path read a
+    # first-publication attribution for four chapter-and-verse citations the pamphlet
+    # does not contain. Checked against Project Gutenberg #55387 (5th ed., Baltimore
+    # 1885): there are exactly 100 proofs, nothing runs "onward" from 50, and proof 50
+    # is the only one that touches scripture - Carpenter says so inside it ("we will
+    # just put down one proof--the Scriptural proof"). The credit is kept because that
+    # proof does argue this cluster's claim; what is withdrawn is the implication that
+    # the citations came through him. Withdrawing the credit outright, the route C02
+    # took, remains open to the operator - it moves the traced/untraced totals, so it
+    # is not this pass's to make.
+    originator="William Carpenter", originator_work="One Hundred Proofs, proof 50", year="1885",
+    real_source=None, verdict="UNFALSIFIABLE",
+    note="Outside the testable domain. Carpenter's proof 50 is the pamphlet's only "
+         "scriptural proof and carries the shared clause “established that it cannot be "
+         "moved” unattributed; the four chapter-and-verse citations these items give — "
+         "Psalm 93:1, Psalm 104:5, 1 Chronicles 16:30 and Psalm 96:10 — are not located "
+         "in the Project Gutenberg text of the fifth edition (#55387)."),
 "C02": dict(lane="C", name="Proof-texts on a moving Sun",
     # Attribution corrected TWICE and now withdrawn entirely, 2026-08-09.
     # Carpenter (original) was wrong: his 1885 pamphlet has exactly ONE scriptural proof
@@ -560,42 +600,105 @@ CLUSTERS = {
     verdict="REFUTED",
     note="The dipole *is* our motion — 369.82 ± 0.11 km/s, measured. Dark flow was not confirmed: Planck found no detection of bulk flow in any comoving sphere."),
 "E04": dict(lane="E", name="Quasar polarization alignment and large quasar groups",
+    # real_source gained Varshni 2026-08-10: it named Hutsemékers and Clowes but not the
+    # ancestor of item 90, which is the subject of two of the treatment's eight sections.
     originator=None, originator_work=None, year=None,
-    real_source="Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",
+    real_source="Varshni 1976, Ap&SS 43:3–8; Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",
     verdict="MISLEADING",
     note="Real, replicated signals with an accepted astrophysical mechanism — black-hole spins align with the filaments they sit in. Preferred directions differ by redshift slice and hemisphere, so there is no single axis through Earth. Nadathur 2013 showed Clowes's algorithm finds Gpc 'structures' in explicitly homogeneous random simulations."),
 "E05": dict(lane="E", name="Galaxy spin handedness / hemispheric bias",
+    # real_source completed 2026-08-10. It named Longo and Patel & Desmond only, while
+    # the three checks doing the load-bearing work in the treatment - and now named in
+    # its tldr - went uncredited.
     originator=None, originator_work=None, year=None,
-    real_source="Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",
+    real_source="Land et al. 2008, MNRAS 388:1686; Longo 2011, PLB 699:224; "
+                "Hayes, Davis & Silva 2017, MNRAS 466:3928; "
+                "Iye, Yagi & Fukumoto 2021, ApJ 907:123; "
+                "Patel & Desmond 2024, MNRAS 534:1553",
     verdict="REFUTED",
     note="The nearest thing to settled on this list. Galaxy Zoo found classifier bias; Iye et al. 2021 found a headline 4.0σ result collapsed to 0.29σ once duplicate entries were removed; Patel & Desmond 2024 pooled all public datasets and found consistency with isotropy."),
 "E06": dict(lane="E", name="Dwarf-galaxy planes and satellite alignments",
+    # Corrected 2026-08-10, both fields.
+    # (1) real_source named ONLY the rebuttal - the paper that argues the anomaly away
+    #     was recorded as the source of items that assert it. The papers items 337/338
+    #     actually compress are the ones now listed first; Sawala is kept last, as the
+    #     work that answers them. Kanehisa et al. 2025 is NOT added: it postdates the
+    #     list and so cannot be what these items point at, though it is in the treatment.
+    # (2) The note said the tension "has substantially deflated". That was stronger than
+    #     the literature supports and it contradicted the treatment's own section 1.
     originator=None, originator_work=None, year=None,
-    real_source="Sawala et al. 2023, Nature Astronomy 7:481",
-    verdict="MISLEADING", note="A real ΛCDM tension that has substantially deflated; with Gaia proper motions the Milky Way plane looks transient rather than rotation-supported. No geocentric content either way."),
+    real_source="Kroupa, Theis & Boily 2005, A&A 431:517; "
+                "Pawlowski, Pflamm-Altenburg & Kroupa 2012, MNRAS 423:1109; "
+                "Ibata et al. 2013, Nature 493:62; Müller et al. 2018, Science 359:534; "
+                "Sawala et al. 2023, Nature Astronomy 7:481",
+    verdict="MISLEADING", note="A real and still-unresolved ΛCDM tension. Sawala et al. 2023 answered the Milky Way case and said so; Seo et al. 2024 rebuilt the rarity test and still get 0.00–3.40%, and the Centaurus A result of 2021 is titled “remains a challenge”. No geocentric content either way."),
 "E07": dict(lane="E", name="Gamma-ray-burst anisotropy",
     originator=None, originator_work=None, year=None, real_source=None,
     verdict="NOT DEMONSTRATED", note="No specific result cited."),
 "E08": dict(lane="E", name="Pioneer and flyby anomalies are Earth-directed",
+    # Corrected 2026-08-10. The note called the flyby anomaly "an unreplicated 1990s
+    # Doppler-tracking puzzle ... a navigation problem". Both halves were wrong: Rosetta I
+    # is a March 2005 detection at 1.82 ± 0.05 mm/s, and "a navigation problem" asserted a
+    # resolution nobody has published. Two of the three items here are flyby items, so
+    # real_source also gained the flyby paper it had been missing.
     originator=None, originator_work=None, year=None,
-    real_source="Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",
+    real_source="Anderson et al. 1998, PRL 81:2858; Anderson et al. 2008, PRL 100:091102; "
+                "Turyshev et al. 2012, PRL 108:241101",
     verdict="REFUTED",
-    note="The Pioneer anomaly was resolved in 2012 — anisotropic thermal recoil. Nature Physics ran the farewell editorial. The flyby anomaly is an unreplicated 1990s Doppler-tracking puzzle with a decade of null results since; it is a navigation problem, not a cosmological one."),
+    note="The Pioneer anomaly was resolved in 2012 — anisotropic thermal recoil, of which "
+         "Earth-pointing was the prediction, not the puzzle. The flyby anomaly is not "
+         "resolved: Galileo 1990, NEAR 1998 and Rosetta in March 2005 are unexplained, and "
+         "the nulls since have shrunk its footprint rather than accounted for it. Neither "
+         "anomaly is evidence of anything cosmological, and nobody in the field has "
+         "proposed that either is."),
 "E09": dict(lane="E", name="Hubble tension shows we are at a special location",
+    # Corrected 2026-08-10. The note said the local-void reading "was tested directly on
+    # 1295 supernovae and excluded at 4–5σ". Kenworthy, Scolnic & Riess 2019 exclude
+    # SHARP-EDGED LTB underdensities deeper than 20%; they do not close the local-void
+    # reading, which is still argued in MNRAS and which the treatment's §5, §6 and tldr
+    # deliberately leave open. The note renders as the basis line beside the verdict chip,
+    # so skim readers were meeting the one claim the body refuses to make.
     originator=None, originator_work=None, year=None,
     real_source="Riess et al. 2022, ApJL 934:L7; Kenworthy et al. 2019, ApJ 875:145",
     verdict="MISLEADING",
-    note="The local-void reading was tested directly on 1295 supernovae and excluded at 4–5σ. The tension is between two ways of measuring the same number, both of which assume an expanding homogeneous universe."),
+    note="Two rival explanations of one number, counted as two proofs. Kenworthy et al. "
+         "2019 exclude sharp-edged voids deeper than 20% at 4–5σ on 1295 supernovae; a "
+         "shallower local void is still argued in MNRAS. Either way the region is tens to "
+         "hundreds of megaparsecs across and does not single out the Earth."),
 "E10": dict(lane="E", name="Zodiacal dust and Kuiper structure show ecliptic symmetry",
+    # Corrected 2026-08-10. The note read "Solar-system material lies in the solar-system
+    # plane. That is what a solar system is." — loose in exactly the way this argument
+    # turns on, since there is no single solar-system plane and the treatment's section 1
+    # is the demonstration that the ecliptic is the worst of the three fits to the dust.
     originator=None, originator_work=None, year=None, real_source=None,
-    verdict="STANDARD PHYSICS", note="Solar-system material lies in the solar-system plane. That is what a solar system is."),
+    verdict="STANDARD PHYSICS",
+    note="Solar-system material lies near a family of planes set by the planets' secular "
+         "perturbations, and there is no single solar-system plane: the ecliptic, the "
+         "invariable plane and the zodiacal cloud's fitted symmetry surface are mutually "
+         "inclined by one to two degrees. On both published fits of the dust, the Earth's "
+         "is the worst of the three."),
 "E11": dict(lane="E", name="The solar-system plane coincides with the CMB axis",
     originator="Robert Sungenis & Rick DeLano", originator_work="The Principle (film)", year="2014",
     real_source=None, verdict="MISLEADING", note="This is the E01 coincidence restated — and it is the strongest available hint that the CMB alignment is a local systematic."),
 "E12": dict(lane="E", name="Redshift quantization in concentric shells around Earth",
+    # Corrected 2026-08-10, real_source and note.
+    # real_source read "Tifft 1976; refuted by 2dF/SDSS surveys" and was wrong twice: the
+    # 2dF paper (Hawkins et al. 2002) tested the Burbidge–Karlsson log(1+z) QUASAR
+    # periodicity on 1647 galaxy-quasar pairs, not Tifft's galaxy comb, and the two
+    # carriers the items actually run through were unrecorded.
+    # The note claimed the effect "disappeared" and was "an artefact of small, sparse
+    # samples". Section IV of the treatment refuses both halves: large-sample tests put it
+    # at ~2σ rather than at zero, and the frame dependence is the thing that kills it.
+    # originator="Gerardus Bouw", 1992 is NOT confirmed - the vocabulary is Sungenis &
+    # Bennett's and the only documented Bouw instance is later. Withdrawing it moves the
+    # traced-item and per-person totals, so it is left for the operator.
     originator="Gerardus Bouw", originator_work="Geocentricity", year="1992",
-    real_source="Tifft 1976; refuted by 2dF/SDSS surveys",
-    verdict="REFUTED", note="Quantization disappeared as sample sizes grew; the effect was an artefact of small, sparse redshift samples."),
+    real_source="Tifft 1976, ApJ 206:38; Tifft & Cocke 1984, ApJ 287:492; "
+                "Napier & Guthrie 1997, J. Astrophys. Astr. 18:455; Humphreys, TJ 16(2), 2002",
+    verdict="REFUTED",
+    note="The periodicity survives only in frames defined by the Earth's motion, and the "
+         "shell reading fails its own author's blurring criterion by a factor of eight; "
+         "large-sample tests reduce it to ~2σ rather than eliminating it."),
 "E13": dict(lane="E", name="Supernova dimming, BAO, birefringence and Lyman-alpha anisotropy",
     # Corrected 2026-08-08. This cluster was one of THIRTY carrying `originator: None`,
     # and only one of the thirty had ever been audited. E13 was the second test and it
@@ -612,8 +715,25 @@ CLUSTERS = {
     note="Real anomalies, none of which discriminate. Three of six items trace to Sungenis "
          "& Bennett; the cluster was recorded as untraced until audited 2026-08-08."),
 "E14": dict(lane="E", name="Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",
+    # Note extended 2026-08-10: it answered only two of the four topics in the cluster's
+    # own title, and the oblateness silence was the costly one, because the treatment's
+    # verdict_challenge argues item 195 is a live 2025 question. Origin fields stay None:
+    # four of the five items have a page-located counterpart in Galileo Was Wrong Vol. I
+    # (oblateness pp. 1003-1004, apex p. 959, barycentre pp. 198-199 and 598-603) and
+    # item 192 has none in the volume searched, but a content match is not a transmission
+    # chain and the list carries no citations. That parallel was NOT written into
+    # real_source: that field records whose genuine work is being cited, and build.py
+    # dates the two-clocks section off it, so a geocentric book there would be counted as
+    # a piece of dated science.
     originator=None, originator_work=None, year=None, real_source=None,
-    verdict="REFUTED", note="The solar neutrino problem was solved by neutrino oscillation (SNO, 2001; Nobel 2015). The barycentre wobble is a *prediction* of the Sun being orbited by planets."),
+    verdict="REFUTED",
+    note="The solar neutrino problem was solved by neutrino oscillation (SNO 2001; Nobel "
+         "2015). The barycentre wobble is a prediction of the Sun being orbited by "
+         "planets, and Jupiter displaces the Sun 1,654 times as far as the Earth does. "
+         "The solar apex is what is left after Galactic rotation has been subtracted out "
+         "by construction. The Sun's exact oblateness is still argued over in the 2025 "
+         "literature, but a small stable flattening is what the standard picture expects, "
+         "and MESSENGER broke its degeneracy with Mercury's perihelion."),
 "E15": dict(lane="E", name="VLBI, interferometry and Gaia reductions assume an Earth frame",
     originator=None, originator_work=None, year=None, real_source=None,
     verdict="MISLEADING",

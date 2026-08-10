@@ -21,10 +21,14 @@ WORKS = {
 "WRK-ROWBOTHAM-1865": dict(
     author="PER-ROWBOTHAM", year="1865", pd=True,
     title="Earth Not a Globe",
-    imprint="1st book edition, 221 pp. 3rd ed., rev. and enl., London: Day, 1881, 430 pp.",
+    imprint="1st book edition, 221 pp. 2nd ed., rev. and enl., London: John B. Day, 1873. "
+            "3rd ed., rev. and enl., London: Day, 1881, 430 pp.",
     url="https://sacred-texts.com/earth/za/index.htm",
-    note="Discursive prose in numbered SECTIONS (I–XV). Verified: contains no numbered "
-         "proof-list — that format is Carpenter's."),
+    note="Discursive prose in numbered SECTIONS (I–XV). Verified: no numbered proof-list is "
+         "located in the 1865 or 1881 texts — that format is Carpenter's. Note the three book "
+         "editions before citing this record: Schadewald credits Rowbotham with 76 scriptures "
+         "in the last chapter of the SECOND edition, which his own bibliography dates to 1873, "
+         "and that edition was not reached for this review."),
 
 "WRK-CARPENTER-1885": dict(
     author="PER-CARPENTER", year="1885", pd=True,
@@ -81,7 +85,13 @@ WORKS = {
 "WRK-SUNGENIS-2006": dict(
     author="PER-SUNGENIS", year="2006", pd=False,
     title="Galileo Was Wrong: The Church Was Right",
-    imprint="With Robert J. Bennett. Vol. I, The Scientific Case for Geocentrism, 2006. "
+    imprint="With Robert J. Bennett. The Vol. I read for this review is the CD-ROM issue, "
+            "ISBN 0-9779640-0-0 (Internet Archive item GallileoWasWrong), whose title page reads "
+            "“Galileo Was Wrong: The Scientific, Scriptural, Ecclesiastical and Patristic "
+            "Evidence for Geocentrism / Volume I / The Scientific Evidence” and whose "
+            "introduction is signed 25 April 2006. “Volume I, The Scientific Case for "
+            "Geocentrism” is the hardcover's subtitle (ISBN 0-9779640-5-1, catalogued 2007) — a "
+            "different printing, not the same title page. "
             "Five editions in two volumes, 2005–2010; three volumes from the sixth edition "
             "of January 2013, in which Vol. II is chapters 7–13 of the scientific argument "
             "and Vol. III, chapters 14–17, the church-history volume. 7th ed. 2013.",

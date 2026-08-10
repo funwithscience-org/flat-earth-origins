@@ -29,7 +29,7 @@
     "hedge_no_source": 3,
     "cited_work_years": {
       "earliest": 1615,
-      "latest": 2023,
+      "latest": 2022,
       "clusters": 28
     },
     "cited_work_median_year": 1933,
@@ -292,15 +292,15 @@
     ],
     "post1950_cited_clusters": [
       "E12",
-      "E08",
       "E04",
+      "E08",
+      "E06",
       "E01",
+      "E05",
       "E03",
       "R12",
-      "E05",
       "E02",
-      "E09",
-      "E06"
+      "E09"
     ],
     "post1950_all_lane_E_except": [
       "R12"
@@ -939,9 +939,9 @@
       "year": "1865",
       "pd": true,
       "title": "Earth Not a Globe",
-      "imprint": "1st book edition, 221 pp. 3rd ed., rev. and enl., London: Day, 1881, 430 pp.",
+      "imprint": "1st book edition, 221 pp. 2nd ed., rev. and enl., London: John B. Day, 1873. 3rd ed., rev. and enl., London: Day, 1881, 430 pp.",
       "url": "https://sacred-texts.com/earth/za/index.htm",
-      "note": "Discursive prose in numbered SECTIONS (I–XV). Verified: contains no numbered proof-list — that format is Carpenter's.",
+      "note": "Discursive prose in numbered SECTIONS (I–XV). Verified: no numbered proof-list is located in the 1865 or 1881 texts — that format is Carpenter's. Note the three book editions before citing this record: Schadewald credits Rowbotham with 76 scriptures in the last chapter of the SECOND edition, which his own bibliography dates to 1873, and that edition was not reached for this review.",
       "id": "WRK-ROWBOTHAM-1865"
     },
     "WRK-CARPENTER-1885": {
@@ -1009,7 +1009,7 @@
       "year": "2006",
       "pd": false,
       "title": "Galileo Was Wrong: The Church Was Right",
-      "imprint": "With Robert J. Bennett. Vol. I, The Scientific Case for Geocentrism, 2006. Five editions in two volumes, 2005–2010; three volumes from the sixth edition of January 2013, in which Vol. II is chapters 7–13 of the scientific argument and Vol. III, chapters 14–17, the church-history volume. 7th ed. 2013.",
+      "imprint": "With Robert J. Bennett. The Vol. I read for this review is the CD-ROM issue, ISBN 0-9779640-0-0 (Internet Archive item GallileoWasWrong), whose title page reads “Galileo Was Wrong: The Scientific, Scriptural, Ecclesiastical and Patristic Evidence for Geocentrism / Volume I / The Scientific Evidence” and whose introduction is signed 25 April 2006. “Volume I, The Scientific Case for Geocentrism” is the hardcover's subtitle (ISBN 0-9779640-5-1, catalogued 2007) — a different printing, not the same title page. Five editions in two volumes, 2005–2010; three volumes from the sixth edition of January 2013, in which Vol. II is chapters 7–13 of the scientific argument and Vol. III, chapters 14–17, the church-history volume. 7th ed. 2013.",
       "url": "https://www.goodreads.com/series/55023-galileo-was-wrong",
       "note": "Direct source of the Michelson–Gale, Sagnac, Miller, Foucault and Airy material in modern lists. In copyright — short excerpts only.",
       "id": "WRK-SUNGENIS-2006"
@@ -3237,11 +3237,11 @@
       "family": "A",
       "name": "The Copernican principle is an unproven assumption",
       "verdict": "REFUTED",
-      "basis": "It is not merely assumed — it is tested. The kSZ power spectrum rules out Gpc-scale off-centre void models.",
+      "basis": "It is not merely assumed — it is tested. The kSZ power spectrum rules out the LTB void models deep enough to mimic dark energy.",
       "originator": "Robert Sungenis & Robert Bennett",
       "originator_id": "PER-SUNGENIS",
-      "originator_work": "The Principle (film)",
-      "originator_year": "2014",
+      "originator_work": "Galileo Was Wrong, Vol. I",
+      "originator_year": "2006",
       "real_source_cited": "Zhang & Stebbins 2011, PRL 107:041301",
       "pre_modern": null,
       "items": [
@@ -4231,10 +4231,10 @@
       "family": "C",
       "name": "Proof-texts on an immovable, established Earth",
       "verdict": "UNFALSIFIABLE",
-      "basis": "Outside the testable domain.",
+      "basis": "Outside the testable domain. Carpenter's proof 50 is the pamphlet's only scriptural proof and carries the shared clause “established that it cannot be moved” unattributed; the four chapter-and-verse citations these items give — Psalm 93:1, Psalm 104:5, 1 Chronicles 16:30 and Psalm 96:10 — are not located in the Project Gutenberg text of the fifth edition (#55387).",
       "originator": "William Carpenter",
       "originator_id": "PER-CARPENTER",
-      "originator_work": "One Hundred Proofs (proof 50 onward)",
+      "originator_work": "One Hundred Proofs, proof 50",
       "originator_year": "1885",
       "real_source_cited": null,
       "pre_modern": null,
@@ -7460,7 +7460,7 @@
       "originator_id": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",
+      "real_source_cited": "Varshni 1976, Ap&SS 43:3–8; Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",
       "pre_modern": null,
       "items": [
         90,
@@ -7601,7 +7601,7 @@
       "originator_id": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",
+      "real_source_cited": "Land et al. 2008, MNRAS 388:1686; Longo 2011, PLB 699:224; Hayes, Davis & Silva 2017, MNRAS 466:3928; Iye, Yagi & Fukumoto 2021, ApJ 907:123; Patel & Desmond 2024, MNRAS 534:1553",
       "pre_modern": null,
       "items": [
         189,
@@ -7714,12 +7714,12 @@
       "family": "E",
       "name": "Dwarf-galaxy planes and satellite alignments",
       "verdict": "MISLEADING",
-      "basis": "A real ΛCDM tension that has substantially deflated; with Gaia proper motions the Milky Way plane looks transient rather than rotation-supported. No geocentric content either way.",
+      "basis": "A real and still-unresolved ΛCDM tension. Sawala et al. 2023 answered the Milky Way case and said so; Seo et al. 2024 rebuilt the rarity test and still get 0.00–3.40%, and the Centaurus A result of 2021 is titled “remains a challenge”. No geocentric content either way.",
       "originator": null,
       "originator_id": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Sawala et al. 2023, Nature Astronomy 7:481",
+      "real_source_cited": "Kroupa, Theis & Boily 2005, A&A 431:517; Pawlowski, Pflamm-Altenburg & Kroupa 2012, MNRAS 423:1109; Ibata et al. 2013, Nature 493:62; Müller et al. 2018, Science 359:534; Sawala et al. 2023, Nature Astronomy 7:481",
       "pre_modern": null,
       "items": [
         330,
@@ -7876,12 +7876,12 @@
       "family": "E",
       "name": "Pioneer and flyby anomalies are Earth-directed",
       "verdict": "REFUTED",
-      "basis": "The Pioneer anomaly was resolved in 2012 — anisotropic thermal recoil. Nature Physics ran the farewell editorial. The flyby anomaly is an unreplicated 1990s Doppler-tracking puzzle with a decade of null results since; it is a navigation problem, not a cosmological one.",
+      "basis": "The Pioneer anomaly was resolved in 2012 — anisotropic thermal recoil, of which Earth-pointing was the prediction, not the puzzle. The flyby anomaly is not resolved: Galileo 1990, NEAR 1998 and Rosetta in March 2005 are unexplained, and the nulls since have shrunk its footprint rather than accounted for it. Neither anomaly is evidence of anything cosmological, and nobody in the field has proposed that either is.",
       "originator": null,
       "originator_id": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",
+      "real_source_cited": "Anderson et al. 1998, PRL 81:2858; Anderson et al. 2008, PRL 100:091102; Turyshev et al. 2012, PRL 108:241101",
       "pre_modern": null,
       "items": [
         92,
@@ -8004,7 +8004,7 @@
       "family": "E",
       "name": "Hubble tension shows we are at a special location",
       "verdict": "MISLEADING",
-      "basis": "The local-void reading was tested directly on 1295 supernovae and excluded at 4–5σ. The tension is between two ways of measuring the same number, both of which assume an expanding homogeneous universe.",
+      "basis": "Two rival explanations of one number, counted as two proofs. Kenworthy et al. 2019 exclude sharp-edged voids deeper than 20% at 4–5σ on 1295 supernovae; a shallower local void is still argued in MNRAS. Either way the region is tens to hundreds of megaparsecs across and does not single out the Earth.",
       "originator": null,
       "originator_id": null,
       "originator_work": null,
@@ -8138,7 +8138,7 @@
       "family": "E",
       "name": "Zodiacal dust and Kuiper structure show ecliptic symmetry",
       "verdict": "STANDARD PHYSICS",
-      "basis": "Solar-system material lies in the solar-system plane. That is what a solar system is.",
+      "basis": "Solar-system material lies near a family of planes set by the planets' secular perturbations, and there is no single solar-system plane: the ecliptic, the invariable plane and the zodiacal cloud's fitted symmetry surface are mutually inclined by one to two degrees. On both published fits of the dust, the Earth's is the worst of the three.",
       "originator": null,
       "originator_id": null,
       "originator_work": null,
@@ -8320,12 +8320,12 @@
       "family": "E",
       "name": "Redshift quantization in concentric shells around Earth",
       "verdict": "REFUTED",
-      "basis": "Quantization disappeared as sample sizes grew; the effect was an artefact of small, sparse redshift samples.",
+      "basis": "The periodicity survives only in frames defined by the Earth's motion, and the shell reading fails its own author's blurring criterion by a factor of eight; large-sample tests reduce it to ~2σ rather than eliminating it.",
       "originator": "Gerardus Bouw",
       "originator_id": "PER-BOUW",
       "originator_work": "Geocentricity",
       "originator_year": "1992",
-      "real_source_cited": "Tifft 1976; refuted by 2dF/SDSS surveys",
+      "real_source_cited": "Tifft 1976, ApJ 206:38; Tifft & Cocke 1984, ApJ 287:492; Napier & Guthrie 1997, J. Astrophys. Astr. 18:455; Humphreys, TJ 16(2), 2002",
       "pre_modern": null,
       "items": [
         60,
@@ -8621,7 +8621,7 @@
       "family": "E",
       "name": "Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",
       "verdict": "REFUTED",
-      "basis": "The solar neutrino problem was solved by neutrino oscillation (SNO, 2001; Nobel 2015). The barycentre wobble is a *prediction* of the Sun being orbited by planets.",
+      "basis": "The solar neutrino problem was solved by neutrino oscillation (SNO 2001; Nobel 2015). The barycentre wobble is a prediction of the Sun being orbited by planets, and Jupiter displaces the Sun 1,654 times as far as the Earth does. The solar apex is what is left after Galactic rotation has been subtracted out by construction. The Sun's exact oblateness is still argued over in the 2025 literature, but a small stable flattening is what the standard picture expects, and MESSENGER broke its degeneracy with Mercury's perihelion.",
       "originator": null,
       "originator_id": null,
       "originator_work": null,
@@ -9302,11 +9302,11 @@
       "lane": "A-REL",
       "name": "The Copernican principle is an unproven assumption",
       "originator": "Robert Sungenis & Robert Bennett",
-      "originator_work": "The Principle (film)",
-      "year": "2014",
+      "originator_work": "Galileo Was Wrong, Vol. I",
+      "year": "2006",
       "real_source": "Zhang & Stebbins 2011, PRL 107:041301",
       "verdict": "REFUTED",
-      "note": "It is not merely assumed — it is tested. The kSZ power spectrum rules out Gpc-scale off-centre void models."
+      "note": "It is not merely assumed — it is tested. The kSZ power spectrum rules out the LTB void models deep enough to mimic dark energy."
     },
     "B01": {
       "lane": "B",
@@ -9452,11 +9452,11 @@
       "lane": "C",
       "name": "Proof-texts on an immovable, established Earth",
       "originator": "William Carpenter",
-      "originator_work": "One Hundred Proofs (proof 50 onward)",
+      "originator_work": "One Hundred Proofs, proof 50",
       "year": "1885",
       "real_source": null,
       "verdict": "UNFALSIFIABLE",
-      "note": "Outside the testable domain."
+      "note": "Outside the testable domain. Carpenter's proof 50 is the pamphlet's only scriptural proof and carries the shared clause “established that it cannot be moved” unattributed; the four chapter-and-verse citations these items give — Psalm 93:1, Psalm 104:5, 1 Chronicles 16:30 and Psalm 96:10 — are not located in the Project Gutenberg text of the fifth edition (#55387)."
     },
     "C02": {
       "lane": "C",
@@ -9788,7 +9788,7 @@
       "originator": null,
       "originator_work": null,
       "year": null,
-      "real_source": "Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",
+      "real_source": "Varshni 1976, Ap&SS 43:3–8; Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",
       "verdict": "MISLEADING",
       "note": "Real, replicated signals with an accepted astrophysical mechanism — black-hole spins align with the filaments they sit in. Preferred directions differ by redshift slice and hemisphere, so there is no single axis through Earth. Nadathur 2013 showed Clowes's algorithm finds Gpc 'structures' in explicitly homogeneous random simulations."
     },
@@ -9798,7 +9798,7 @@
       "originator": null,
       "originator_work": null,
       "year": null,
-      "real_source": "Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",
+      "real_source": "Land et al. 2008, MNRAS 388:1686; Longo 2011, PLB 699:224; Hayes, Davis & Silva 2017, MNRAS 466:3928; Iye, Yagi & Fukumoto 2021, ApJ 907:123; Patel & Desmond 2024, MNRAS 534:1553",
       "verdict": "REFUTED",
       "note": "The nearest thing to settled on this list. Galaxy Zoo found classifier bias; Iye et al. 2021 found a headline 4.0σ result collapsed to 0.29σ once duplicate entries were removed; Patel & Desmond 2024 pooled all public datasets and found consistency with isotropy."
     },
@@ -9808,9 +9808,9 @@
       "originator": null,
       "originator_work": null,
       "year": null,
-      "real_source": "Sawala et al. 2023, Nature Astronomy 7:481",
+      "real_source": "Kroupa, Theis & Boily 2005, A&A 431:517; Pawlowski, Pflamm-Altenburg & Kroupa 2012, MNRAS 423:1109; Ibata et al. 2013, Nature 493:62; Müller et al. 2018, Science 359:534; Sawala et al. 2023, Nature Astronomy 7:481",
       "verdict": "MISLEADING",
-      "note": "A real ΛCDM tension that has substantially deflated; with Gaia proper motions the Milky Way plane looks transient rather than rotation-supported. No geocentric content either way."
+      "note": "A real and still-unresolved ΛCDM tension. Sawala et al. 2023 answered the Milky Way case and said so; Seo et al. 2024 rebuilt the rarity test and still get 0.00–3.40%, and the Centaurus A result of 2021 is titled “remains a challenge”. No geocentric content either way."
     },
     "E07": {
       "lane": "E",
@@ -9828,9 +9828,9 @@
       "originator": null,
       "originator_work": null,
       "year": null,
-      "real_source": "Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",
+      "real_source": "Anderson et al. 1998, PRL 81:2858; Anderson et al. 2008, PRL 100:091102; Turyshev et al. 2012, PRL 108:241101",
       "verdict": "REFUTED",
-      "note": "The Pioneer anomaly was resolved in 2012 — anisotropic thermal recoil. Nature Physics ran the farewell editorial. The flyby anomaly is an unreplicated 1990s Doppler-tracking puzzle with a decade of null results since; it is a navigation problem, not a cosmological one."
+      "note": "The Pioneer anomaly was resolved in 2012 — anisotropic thermal recoil, of which Earth-pointing was the prediction, not the puzzle. The flyby anomaly is not resolved: Galileo 1990, NEAR 1998 and Rosetta in March 2005 are unexplained, and the nulls since have shrunk its footprint rather than accounted for it. Neither anomaly is evidence of anything cosmological, and nobody in the field has proposed that either is."
     },
     "E09": {
       "lane": "E",
@@ -9840,7 +9840,7 @@
       "year": null,
       "real_source": "Riess et al. 2022, ApJL 934:L7; Kenworthy et al. 2019, ApJ 875:145",
       "verdict": "MISLEADING",
-      "note": "The local-void reading was tested directly on 1295 supernovae and excluded at 4–5σ. The tension is between two ways of measuring the same number, both of which assume an expanding homogeneous universe."
+      "note": "Two rival explanations of one number, counted as two proofs. Kenworthy et al. 2019 exclude sharp-edged voids deeper than 20% at 4–5σ on 1295 supernovae; a shallower local void is still argued in MNRAS. Either way the region is tens to hundreds of megaparsecs across and does not single out the Earth."
     },
     "E10": {
       "lane": "E",
@@ -9850,7 +9850,7 @@
       "year": null,
       "real_source": null,
       "verdict": "STANDARD PHYSICS",
-      "note": "Solar-system material lies in the solar-system plane. That is what a solar system is."
+      "note": "Solar-system material lies near a family of planes set by the planets' secular perturbations, and there is no single solar-system plane: the ecliptic, the invariable plane and the zodiacal cloud's fitted symmetry surface are mutually inclined by one to two degrees. On both published fits of the dust, the Earth's is the worst of the three."
     },
     "E11": {
       "lane": "E",
@@ -9868,9 +9868,9 @@
       "originator": "Gerardus Bouw",
       "originator_work": "Geocentricity",
       "year": "1992",
-      "real_source": "Tifft 1976; refuted by 2dF/SDSS surveys",
+      "real_source": "Tifft 1976, ApJ 206:38; Tifft & Cocke 1984, ApJ 287:492; Napier & Guthrie 1997, J. Astrophys. Astr. 18:455; Humphreys, TJ 16(2), 2002",
       "verdict": "REFUTED",
-      "note": "Quantization disappeared as sample sizes grew; the effect was an artefact of small, sparse redshift samples."
+      "note": "The periodicity survives only in frames defined by the Earth's motion, and the shell reading fails its own author's blurring criterion by a factor of eight; large-sample tests reduce it to ~2σ rather than eliminating it."
     },
     "E13": {
       "lane": "E",
@@ -9890,7 +9890,7 @@
       "year": null,
       "real_source": null,
       "verdict": "REFUTED",
-      "note": "The solar neutrino problem was solved by neutrino oscillation (SNO, 2001; Nobel 2015). The barycentre wobble is a *prediction* of the Sun being orbited by planets."
+      "note": "The solar neutrino problem was solved by neutrino oscillation (SNO 2001; Nobel 2015). The barycentre wobble is a prediction of the Sun being orbited by planets, and Jupiter displaces the Sun 1,654 times as far as the Earth does. The solar apex is what is left after Galactic rotation has been subtracted out by construction. The Sun's exact oblateness is still argued over in the 2025 literature, but a small stable flattening is what the standard picture expects, and MESSENGER broke its degeneracy with Mercury's perihelion."
     },
     "E15": {
       "lane": "E",
@@ -10831,7 +10831,7 @@
       "originator": "Gerardus Bouw",
       "originator_work": "Geocentricity",
       "originator_year": "1992",
-      "real_source_cited": "Tifft 1976; refuted by 2dF/SDSS surveys",
+      "real_source_cited": "Tifft 1976, ApJ 206:38; Tifft & Cocke 1984, ApJ 287:492; Napier & Guthrie 1997, J. Astrophys. Astr. 18:455; Humphreys, TJ 16(2), 2002",
       "verdict": "REFUTED"
     },
     {
@@ -10844,7 +10844,7 @@
       "cluster_id": "C01",
       "cluster_name": "Proof-texts on an immovable, established Earth",
       "originator": "William Carpenter",
-      "originator_work": "One Hundred Proofs (proof 50 onward)",
+      "originator_work": "One Hundred Proofs, proof 50",
       "originator_year": "1885",
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
@@ -10859,7 +10859,7 @@
       "cluster_id": "C01",
       "cluster_name": "Proof-texts on an immovable, established Earth",
       "originator": "William Carpenter",
-      "originator_work": "One Hundred Proofs (proof 50 onward)",
+      "originator_work": "One Hundred Proofs, proof 50",
       "originator_year": "1885",
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
@@ -10874,7 +10874,7 @@
       "cluster_id": "C01",
       "cluster_name": "Proof-texts on an immovable, established Earth",
       "originator": "William Carpenter",
-      "originator_work": "One Hundred Proofs (proof 50 onward)",
+      "originator_work": "One Hundred Proofs, proof 50",
       "originator_year": "1885",
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
@@ -11281,7 +11281,7 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",
+      "real_source_cited": "Varshni 1976, Ap&SS 43:3–8; Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",
       "verdict": "MISLEADING"
     },
     {
@@ -11311,7 +11311,7 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",
+      "real_source_cited": "Anderson et al. 1998, PRL 81:2858; Anderson et al. 2008, PRL 100:091102; Turyshev et al. 2012, PRL 108:241101",
       "verdict": "REFUTED"
     },
     {
@@ -11446,7 +11446,7 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",
+      "real_source_cited": "Anderson et al. 1998, PRL 81:2858; Anderson et al. 2008, PRL 100:091102; Turyshev et al. 2012, PRL 108:241101",
       "verdict": "REFUTED"
     },
     {
@@ -11686,7 +11686,7 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",
+      "real_source_cited": "Varshni 1976, Ap&SS 43:3–8; Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",
       "verdict": "MISLEADING"
     },
     {
@@ -12209,7 +12209,7 @@
       "cluster_id": "C01",
       "cluster_name": "Proof-texts on an immovable, established Earth",
       "originator": "William Carpenter",
-      "originator_work": "One Hundred Proofs (proof 50 onward)",
+      "originator_work": "One Hundred Proofs, proof 50",
       "originator_year": "1885",
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
@@ -12224,7 +12224,7 @@
       "cluster_id": "C01",
       "cluster_name": "Proof-texts on an immovable, established Earth",
       "originator": "William Carpenter",
-      "originator_work": "One Hundred Proofs (proof 50 onward)",
+      "originator_work": "One Hundred Proofs, proof 50",
       "originator_year": "1885",
       "real_source_cited": null,
       "verdict": "UNFALSIFIABLE"
@@ -12766,7 +12766,7 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",
+      "real_source_cited": "Land et al. 2008, MNRAS 388:1686; Longo 2011, PLB 699:224; Hayes, Davis & Silva 2017, MNRAS 466:3928; Iye, Yagi & Fukumoto 2021, ApJ 907:123; Patel & Desmond 2024, MNRAS 534:1553",
       "verdict": "REFUTED"
     },
     {
@@ -12796,7 +12796,7 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Anderson et al. 1998, PRL 81:2858; Turyshev et al. 2012, PRL 108:241101",
+      "real_source_cited": "Anderson et al. 1998, PRL 81:2858; Anderson et al. 2008, PRL 100:091102; Turyshev et al. 2012, PRL 108:241101",
       "verdict": "REFUTED"
     },
     {
@@ -14746,7 +14746,7 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",
+      "real_source_cited": "Varshni 1976, Ap&SS 43:3–8; Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",
       "verdict": "MISLEADING"
     },
     {
@@ -14761,7 +14761,7 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",
+      "real_source_cited": "Varshni 1976, Ap&SS 43:3–8; Hutsemékers et al. 2005, A&A 441:915; Clowes et al. 2013, MNRAS 429:2910",
       "verdict": "MISLEADING"
     },
     {
@@ -14776,7 +14776,7 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",
+      "real_source_cited": "Land et al. 2008, MNRAS 388:1686; Longo 2011, PLB 699:224; Hayes, Davis & Silva 2017, MNRAS 466:3928; Iye, Yagi & Fukumoto 2021, ApJ 907:123; Patel & Desmond 2024, MNRAS 534:1553",
       "verdict": "REFUTED"
     },
     {
@@ -14866,7 +14866,7 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Longo 2011, PLB 699:224; Patel & Desmond 2024, MNRAS 534:1553",
+      "real_source_cited": "Land et al. 2008, MNRAS 388:1686; Longo 2011, PLB 699:224; Hayes, Davis & Silva 2017, MNRAS 466:3928; Iye, Yagi & Fukumoto 2021, ApJ 907:123; Patel & Desmond 2024, MNRAS 534:1553",
       "verdict": "REFUTED"
     },
     {
@@ -14881,7 +14881,7 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Sawala et al. 2023, Nature Astronomy 7:481",
+      "real_source_cited": "Kroupa, Theis & Boily 2005, A&A 431:517; Pawlowski, Pflamm-Altenburg & Kroupa 2012, MNRAS 423:1109; Ibata et al. 2013, Nature 493:62; Müller et al. 2018, Science 359:534; Sawala et al. 2023, Nature Astronomy 7:481",
       "verdict": "MISLEADING"
     },
     {
@@ -14986,7 +14986,7 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Sawala et al. 2023, Nature Astronomy 7:481",
+      "real_source_cited": "Kroupa, Theis & Boily 2005, A&A 431:517; Pawlowski, Pflamm-Altenburg & Kroupa 2012, MNRAS 423:1109; Ibata et al. 2013, Nature 493:62; Müller et al. 2018, Science 359:534; Sawala et al. 2023, Nature Astronomy 7:481",
       "verdict": "MISLEADING"
     },
     {
@@ -15001,7 +15001,7 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": "Sawala et al. 2023, Nature Astronomy 7:481",
+      "real_source_cited": "Kroupa, Theis & Boily 2005, A&A 431:517; Pawlowski, Pflamm-Altenburg & Kroupa 2012, MNRAS 423:1109; Ibata et al. 2013, Nature 493:62; Müller et al. 2018, Science 359:534; Sawala et al. 2023, Nature Astronomy 7:481",
       "verdict": "MISLEADING"
     },
     {
@@ -15239,8 +15239,8 @@
       "cluster_id": "R12",
       "cluster_name": "The Copernican principle is an unproven assumption",
       "originator": "Robert Sungenis & Robert Bennett",
-      "originator_work": "The Principle (film)",
-      "originator_year": "2014",
+      "originator_work": "Galileo Was Wrong, Vol. I",
+      "originator_year": "2006",
       "real_source_cited": "Zhang & Stebbins 2011, PRL 107:041301",
       "verdict": "REFUTED"
     },
@@ -15256,7 +15256,7 @@
       "originator": "Gerardus Bouw",
       "originator_work": "Geocentricity",
       "originator_year": "1992",
-      "real_source_cited": "Tifft 1976; refuted by 2dF/SDSS surveys",
+      "real_source_cited": "Tifft 1976, ApJ 206:38; Tifft & Cocke 1984, ApJ 287:492; Napier & Guthrie 1997, J. Astrophys. Astr. 18:455; Humphreys, TJ 16(2), 2002",
       "verdict": "REFUTED"
     },
     {

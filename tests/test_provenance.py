@@ -97,6 +97,33 @@ check("summary traced count agrees",
 check("compression ratio == 4.7", abs(S["compression_ratio"] - 4.7) < 0.05,
       S["compression_ratio"])
 
+# --- origin state vs lineage: two taxonomies that must not merge -------------
+# Found 2026-08-10 while building a flow graphic whose spec required the bands to sum to
+# 461. Two of our own derivations of "traced" disagreed, and the cause was that the
+# lineage tally was TWO-valued where origin state is THREE-valued: every item without an
+# originator fell into "(no named originator)", folding the 16 pre-modern items back in
+# with the 97 untraced ones and undoing the exact distinction the third state exists to
+# draw. A separate trap sat beside it - the LINEAGE label "Pre-modern astronomy" (Ptolemy,
+# 20 items, traced, appropriated) shared its words with the pre_modern ORIGIN STATE (C02,
+# 16 items, nobody credited), so 20-vs-16 read as one count disagreeing with itself.
+_lin = S["items_by_lineage"]
+check("lineage bands sum to the whole corpus", sum(_lin.values()) == S["total_items"],
+      sum(_lin.values()))
+check("untraced and older-than-the-movement are separate lineage bands",
+      "(untraced)" in _lin and "Older than the movement" in _lin, sorted(_lin))
+check("the merged '(no named originator)' band is gone",
+      "(no named originator)" not in _lin)
+check("untraced band matches the untraced item count",
+      _lin["(untraced)"] == S["total_items"] - S["items_traceable_to_a_named_originator"]
+                            - S["pre_modern_items"], _lin.get("(untraced)"))
+check("older-than-the-movement band matches pre_modern_items",
+      _lin["Older than the movement"] == S["pre_modern_items"], _lin.get("Older than the movement"))
+check("the Ptolemy lineage label no longer collides with the pre_modern origin state",
+      "Pre-modern astronomy, appropriated" in _lin and "Pre-modern astronomy" not in _lin)
+check("the two 'pre-modern' quantities are genuinely different and both survive",
+      _lin["Pre-modern astronomy, appropriated"] != _lin["Older than the movement"],
+      (_lin.get("Pre-modern astronomy, appropriated"), _lin.get("Older than the movement")))
+
 lane = collections.Counter(r["lane"] for r in ROWS)
 EXPECT_LANE = {"A-EXP": 101, "A-REL": 81, "B": 54, "C": 69, "D": 83, "E": 73}
 check("lane item counts match published figures", dict(lane) == EXPECT_LANE, dict(lane))

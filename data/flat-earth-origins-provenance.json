@@ -4,16 +4,18 @@
     "items_by_lineage": {
       "Tychonian (geocentric) lineage": 164,
       "Zetetic (flat-earth) lineage": 133,
-      "(no named originator)": 113,
+      "(untraced)": 97,
       "Esoteric / Traditionalist literature": 31,
-      "Pre-modern astronomy": 20
+      "Pre-modern astronomy, appropriated": 20,
+      "Older than the movement": 16
     },
     "clusters_by_lineage": {
       "Tychonian (geocentric) lineage": 33,
-      "(no named originator)": 32,
+      "(untraced)": 31,
       "Zetetic (flat-earth) lineage": 29,
       "Esoteric / Traditionalist literature": 3,
-      "Pre-modern astronomy": 1
+      "Pre-modern astronomy, appropriated": 1,
+      "Older than the movement": 1
     },
     "total_items": 461,
     "distinct_arguments": 98,

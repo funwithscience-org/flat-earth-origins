@@ -50,7 +50,12 @@ LINEAGE_OF = {p: r["lineage"] for p, r in PEOPLE.items()}
 LINEAGE_LABEL = {"Zetetic": "Zetetic (flat-earth) lineage",
                  "Tychonian": "Tychonian (geocentric) lineage",
                  "Esoteric": "Esoteric / Traditionalist literature",
-                 "Pre-modern": "Pre-modern astronomy"}
+                 # Renamed 2026-08-10. This label is Ptolemy: material appropriated FROM
+                 # pre-modern astronomy by named modern authors, and it is TRACED. It
+                 # is not the `pre_modern` ORIGIN STATE, which is C02, 16 items, nobody
+                 # credited. Sharing the words "pre-modern" made 20 and 16 look like a
+                 # discrepancy between two counts of one thing.
+                 "Pre-modern": "Pre-modern astronomy, appropriated"}
 
 # ---- integrity -------------------------------------------------------
 assert len(ITEMS) == 461
@@ -187,12 +192,22 @@ orig_clusters = collections.Counter(c["originator"] or "(no named originator)" f
 named_items = sum(v for k, v in orig_items.items() if k != "(no named originator)")
 
 lin_items, lin_clusters = collections.Counter(), collections.Counter()
+# ORIGIN STATE IS THREE-VALUED AND THIS TALLY USED TO BE TWO-VALUED. Every item without
+# an originator fell into "(no named originator)", which merged the 16 pre-modern items
+# back in with the 97 genuinely untraced ones — collapsing exactly the distinction the
+# third state was created to draw. The bug surfaced only when a flow graphic demanded that
+# the bands balance to 461 and two of our own derivations of "traced" disagreed.
+_PM_CLUSTERS = {cid for cid, c in CLUSTERS.items() if c.get("pre_modern")}
+def _lineage_of(row_or_cluster_id, originator):
+    if originator:
+        pid = ORIGINATOR_PID.get(originator)
+        return LINEAGE_LABEL.get(LINEAGE_OF.get(pid), "(untraced)")
+    return "Older than the movement" if row_or_cluster_id in _PM_CLUSTERS else "(untraced)"
+
 for r in items:
-    pid = ORIGINATOR_PID.get(r["originator"]) if r["originator"] else None
-    lin_items[LINEAGE_LABEL.get(LINEAGE_OF.get(pid), "(no named originator)")] += 1
-for c in CLUSTERS.values():
-    pid = ORIGINATOR_PID.get(c["originator"]) if c["originator"] else None
-    lin_clusters[LINEAGE_LABEL.get(LINEAGE_OF.get(pid), "(no named originator)")] += 1
+    lin_items[_lineage_of(r["cluster_id"], r["originator"])] += 1
+for cid, c in CLUSTERS.items():
+    lin_clusters[_lineage_of(cid, c["originator"])] += 1
 
 cluster_size = collections.Counter(ASSIGN.values())
 summary = {

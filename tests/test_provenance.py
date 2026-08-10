@@ -103,8 +103,20 @@ check("lane item counts match published figures", dict(lane) == EXPECT_LANE, dic
 check("lane counts sum to 461", sum(lane.values()) == 461)
 
 verdict = collections.Counter(r["verdict"] for r in ROWS)
-EXPECT_VERDICT = {"REFUTED": 95, "UNFALSIFIABLE": 92, "STANDARD PHYSICS": 90,
-                  "MISLEADING": 88, "NOT DEMONSTRATED": 63, "SELF-CONTRADICTED": 33}
+# Rebaselined 2026-08-10 after four operator-approved verdict changes. 17 items moved.
+# All four were the same defect: OUR OWN NOTE CONTRADICTED OUR OWN VERDICT on the summary
+# line — the pattern batch 8 found five times in clusters.py, showing up in the verdict
+# column itself. D01 NOT DEMONSTRATED -> REFUTED (the note already said "false in detail");
+# R02 STANDARD PHYSICS -> MISLEADING (the note already said Mach's principle "is not a
+# settled part of GR", which contradicts "already explained"); D19 UNFALSIFIABLE ->
+# MISLEADING (the design reading came from the cluster NAME, not from any locatable
+# source); E14 REFUTED -> MISLEADING (we were publishing "contradicted by a specific
+# measurement" over solar oblateness, which is unresolved in the current literature — the
+# opposite of the restraint we insist on at E01 for the CMB axis).
+# MISLEADING is now the largest bucket, which is itself the finding: the characteristic
+# failure of this corpus is true-or-arguable material behind an inference nobody states.
+EXPECT_VERDICT = {"MISLEADING": 101, "REFUTED": 94, "UNFALSIFIABLE": 88,
+                  "STANDARD PHYSICS": 86, "NOT DEMONSTRATED": 59, "SELF-CONTRADICTED": 33}
 check("verdict item counts match published bars",
       dict(verdict) == EXPECT_VERDICT, dict(verdict))
 check("verdict counts sum to 461", sum(verdict.values()) == 461)

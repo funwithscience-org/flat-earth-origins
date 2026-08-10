@@ -161,6 +161,38 @@
    "old_argument": "The check labelled 'headline 20 authors' asserted the literal string '>20<' and kept passing after the author count became 19.",
    "new_argument": "It was matching a table cell containing an ITEM count of 20, not the author count. Replaced with needles that assert a number together with the words giving it meaning, derived from the corpus rather than typed: f'{S[\"named_originators\"]} named', f'{S[\"total_items\"]} items', and so on.",
    "reason": "Sixth test in this suite retargeted for pinning a string that meant something else. A test that passes for the wrong reason is worse than no test, because it certifies the thing it is not checking. The rule is now recorded inline: assert the number WITH its words, and derive it."
+  },
+  {
+   "date": "2026-08-10",
+   "where": "scripts/clusters.py ARG-D01",
+   "severity": "major",
+   "old_argument": "ARG-D01 scored NOT DEMONSTRATED while its own note said the claim was 'false in detail'.",
+   "correction": "Verdict changed to REFUTED. Three of four items carry an explicit universal quantifier, and a universal falls to one counterexample; six ancient primary witnesses supply them. Eratosthenes dropped from the note - he measured the Earth's shape, not its place.",
+   "found_by": "batch-10 treatment agent, verdict_challenge"
+  },
+  {
+   "date": "2026-08-10",
+   "where": "scripts/clusters.py ARG-R02",
+   "severity": "major",
+   "old_argument": "ARG-R02 scored STANDARD PHYSICS ('real, already explained') while its own note said Mach's principle is not a settled part of GR.",
+   "correction": "Verdict changed to MISLEADING. Bondi and Samuel enumerate eleven inequivalent statements of the principle, some of which GR violates. Counter-case recorded in the record: under Assis's relational mechanics one branch of the cluster is arguably true-but-non-discriminating.",
+   "found_by": "batch-10 treatment agent, verdict_challenge"
+  },
+  {
+   "date": "2026-08-10",
+   "where": "scripts/clusters.py ARG-D19",
+   "severity": "major",
+   "old_argument": "ARG-D19 scored UNFALSIFIABLE on the strength of its own CLUSTER NAME ('tuned to human timekeeping'), which reads as a design claim. No source making the design claim could be located.",
+   "correction": "Verdict changed to MISLEADING. The sourced argument is Rowbotham's eclipse chapter, where the point is that eclipse prediction is theory-independent - checkable, checked, factual core true, inference does not follow. Origin fields HELD rather than filled: crediting Rowbotham would move three published headlines and is an operator decision.",
+   "found_by": "batch-10 treatment agent, verdict_challenge"
+  },
+  {
+   "date": "2026-08-10",
+   "where": "scripts/clusters.py ARG-E14",
+   "severity": "critical",
+   "old_argument": "ARG-E14 published REFUTED - defined on this page as 'contradicted by a specific measurement' - over solar oblateness and its cycle variation, which is genuinely unresolved in the current literature. We called an open measurement closed, on the topic the cluster is named after.",
+   "correction": "Verdict changed to MISLEADING, the defensible verdict for the bundle. The per-item reading the treatment argues for cannot be expressed: the schema carries one verdict per cluster. This is the direct opposite of the restraint the page insists on at ARG-E01 for the CMB axis, and it was the most attackable sentence in the cluster.",
+   "found_by": "batch-10 treatment agent, verdict_challenge"
   }
  ]
 }

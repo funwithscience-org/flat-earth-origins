@@ -37,8 +37,8 @@
     "items_citing_dated_work": 115,
     "pre_modern_clusters": 1,
     "pre_modern_items": 16,
-    "corrections_logged": 20,
-    "arguments_with_a_correction": 13,
+    "corrections_logged": 24,
+    "arguments_with_a_correction": 17,
     "bios_worked": 2,
     "items_by_family": {
       "A": 182,
@@ -64,19 +64,19 @@
       "E": 18
     },
     "items_by_verdict": {
-      "REFUTED": 95,
-      "UNFALSIFIABLE": 92,
-      "STANDARD PHYSICS": 90,
-      "MISLEADING": 88,
-      "NOT DEMONSTRATED": 63,
+      "MISLEADING": 101,
+      "REFUTED": 94,
+      "UNFALSIFIABLE": 88,
+      "STANDARD PHYSICS": 86,
+      "NOT DEMONSTRATED": 59,
       "SELF-CONTRADICTED": 33
     },
     "clusters_by_verdict": {
       "REFUTED": 24,
-      "STANDARD PHYSICS": 17,
-      "NOT DEMONSTRATED": 17,
-      "MISLEADING": 17,
-      "UNFALSIFIABLE": 14,
+      "MISLEADING": 20,
+      "STANDARD PHYSICS": 16,
+      "NOT DEMONSTRATED": 16,
+      "UNFALSIFIABLE": 13,
       "SELF-CONTRADICTED": 9
     },
     "largest_clusters": [
@@ -2505,8 +2505,8 @@
       "lane": "A-REL",
       "family": "A",
       "name": "Mach's principle / relational mechanics allows a fixed Earth",
-      "verdict": "STANDARD PHYSICS",
-      "basis": "Mach's principle is not a settled part of GR and does not privilege Earth in any case.",
+      "verdict": "MISLEADING",
+      "basis": "Mach's principle is not a settled part of GR — Bondi and Samuel count eleven inequivalent versions — and no version privileges the Earth. The zero-angular-momentum theorem is quoted accurately and then read as support for the arrangement it excludes.",
       "originator": "Robert Sungenis & Robert Bennett",
       "originator_id": "PER-SUNGENIS",
       "originator_work": "Galileo Was Wrong, Vol. I",
@@ -5506,8 +5506,8 @@
       "lane": "D",
       "family": "D",
       "name": "All ancient cultures were geocentric",
-      "verdict": "NOT DEMONSTRATED",
-      "basis": "Appeal to antiquity. Also false in detail: Aristarchus proposed heliocentrism in the 3rd c. BCE, and Eratosthenes measured the Earth's circumference c. 240 BCE.",
+      "verdict": "REFUTED",
+      "basis": "Appeal to antiquity, and false as stated. Philolaus (via Aristotle, De caelo II.13), Hicetas, Heraclides, Ecphantus, Aristarchus (via Archimedes, Sand-Reckoner) and Seleucus (via Plutarch) all placed the Earth in motion; Aryabhata did so in 499 CE.",
       "originator": "Robert Sungenis",
       "originator_id": "PER-SUNGENIS",
       "originator_work": "Galileo Was Wrong, Vol. II",
@@ -6897,13 +6897,13 @@
       "lane": "D",
       "family": "D",
       "name": "Eclipse and lunar cycles are tuned to human timekeeping",
-      "verdict": "UNFALSIFIABLE",
-      "basis": "Saros and Metonic cycles are consequences of orbital periods; the calendars were built to fit them, not the reverse.",
+      "verdict": "MISLEADING",
+      "basis": "Saros and Metonic cycles are consequences of orbital periods; the calendars were built to fit them, not the reverse. Nor are the cycles exact: the Saros drifts about half a degree off the node per repeat, and its series are catalogued as beginning and ending.",
       "originator": null,
       "originator_id": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": null,
+      "real_source_cited": "Saros cycle, 6,585.32 days; Metonic cycle, 19 years",
       "pre_modern": null,
       "items": [
         363,
@@ -8620,7 +8620,7 @@
       "lane": "E",
       "family": "E",
       "name": "Solar anomalies (oblateness, neutrinos, apex, barycentre wobble)",
-      "verdict": "REFUTED",
+      "verdict": "MISLEADING",
       "basis": "The solar neutrino problem was solved by neutrino oscillation (SNO 2001; Nobel 2015). The barycentre wobble is a prediction of the Sun being orbited by planets, and Jupiter displaces the Sun 1,654 times as far as the Earth does. The solar apex is what is left after Galactic rotation has been subtracted out by construction. The Sun's exact oblateness is still argued over in the 2025 literature, but a small stable flattening is what the standard picture expects, and MESSENGER broke its degeneracy with Mercury's perihelion.",
       "originator": null,
       "originator_id": null,
@@ -9205,8 +9205,8 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "year": "2006",
       "real_source": "Ernst Mach, The Science of Mechanics (1883)",
-      "verdict": "STANDARD PHYSICS",
-      "note": "Mach's principle is not a settled part of GR and does not privilege Earth in any case."
+      "verdict": "MISLEADING",
+      "note": "Mach's principle is not a settled part of GR — Bondi and Samuel count eleven inequivalent versions — and no version privileges the Earth. The zero-angular-momentum theorem is quoted accurately and then read as support for the arrangement it excludes."
     },
     "R03": {
       "lane": "A-REL",
@@ -9579,8 +9579,8 @@
       "originator_work": "Galileo Was Wrong, Vol. II",
       "year": "2006",
       "real_source": null,
-      "verdict": "NOT DEMONSTRATED",
-      "note": "Appeal to antiquity. Also false in detail: Aristarchus proposed heliocentrism in the 3rd c. BCE, and Eratosthenes measured the Earth's circumference c. 240 BCE."
+      "verdict": "REFUTED",
+      "note": "Appeal to antiquity, and false as stated. Philolaus (via Aristotle, De caelo II.13), Hicetas, Heraclides, Ecphantus, Aristarchus (via Archimedes, Sand-Reckoner) and Seleucus (via Plutarch) all placed the Earth in motion; Aryabhata did so in 499 CE."
     },
     "D02": {
       "lane": "D",
@@ -9748,9 +9748,9 @@
       "originator": null,
       "originator_work": null,
       "year": null,
-      "real_source": null,
-      "verdict": "UNFALSIFIABLE",
-      "note": "Saros and Metonic cycles are consequences of orbital periods; the calendars were built to fit them, not the reverse."
+      "real_source": "Saros cycle, 6,585.32 days; Metonic cycle, 19 years",
+      "verdict": "MISLEADING",
+      "note": "Saros and Metonic cycles are consequences of orbital periods; the calendars were built to fit them, not the reverse. Nor are the cycles exact: the Saros drifts about half a degree off the node per repeat, and its series are catalogued as beginning and ending."
     },
     "E01": {
       "lane": "E",
@@ -9889,7 +9889,7 @@
       "originator_work": null,
       "year": null,
       "real_source": null,
-      "verdict": "REFUTED",
+      "verdict": "MISLEADING",
       "note": "The solar neutrino problem was solved by neutrino oscillation (SNO 2001; Nobel 2015). The barycentre wobble is a prediction of the Sun being orbited by planets, and Jupiter displaces the Sun 1,654 times as far as the Earth does. The solar apex is what is left after Galactic rotation has been subtracted out by construction. The Sun's exact oblateness is still argued over in the 2025 literature, but a small stable flattening is what the standard picture expects, and MESSENGER broke its degeneracy with Mercury's perihelion."
     },
     "E15": {
@@ -10247,7 +10247,7 @@
       "originator_work": "Galileo Was Wrong, Vol. II",
       "originator_year": "2006",
       "real_source_cited": null,
-      "verdict": "NOT DEMONSTRATED"
+      "verdict": "REFUTED"
     },
     {
       "id": "ITEM-022",
@@ -10307,7 +10307,7 @@
       "originator_work": "Galileo Was Wrong, Vol. II",
       "originator_year": "2006",
       "real_source_cited": null,
-      "verdict": "NOT DEMONSTRATED"
+      "verdict": "REFUTED"
     },
     {
       "id": "ITEM-026",
@@ -10337,7 +10337,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": "Ernst Mach, The Science of Mechanics (1883)",
-      "verdict": "STANDARD PHYSICS"
+      "verdict": "MISLEADING"
     },
     {
       "id": "ITEM-028",
@@ -11492,7 +11492,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
-      "verdict": "REFUTED"
+      "verdict": "MISLEADING"
     },
     {
       "id": "ITEM-105",
@@ -11717,7 +11717,7 @@
       "originator_work": "Galileo Was Wrong, Vol. II",
       "originator_year": "2006",
       "real_source_cited": null,
-      "verdict": "NOT DEMONSTRATED"
+      "verdict": "REFUTED"
     },
     {
       "id": "ITEM-120",
@@ -11867,7 +11867,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": "Ernst Mach, The Science of Mechanics (1883)",
-      "verdict": "STANDARD PHYSICS"
+      "verdict": "MISLEADING"
     },
     {
       "id": "ITEM-130",
@@ -12002,7 +12002,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
-      "verdict": "REFUTED"
+      "verdict": "MISLEADING"
     },
     {
       "id": "ITEM-139",
@@ -12812,7 +12812,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
-      "verdict": "REFUTED"
+      "verdict": "MISLEADING"
     },
     {
       "id": "ITEM-193",
@@ -12857,7 +12857,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
-      "verdict": "REFUTED"
+      "verdict": "MISLEADING"
     },
     {
       "id": "ITEM-196",
@@ -14057,7 +14057,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": "Ernst Mach, The Science of Mechanics (1883)",
-      "verdict": "STANDARD PHYSICS"
+      "verdict": "MISLEADING"
     },
     {
       "id": "ITEM-276",
@@ -14357,7 +14357,7 @@
       "originator_work": "Galileo Was Wrong, Vol. I",
       "originator_year": "2006",
       "real_source_cited": "Ernst Mach, The Science of Mechanics (1883)",
-      "verdict": "STANDARD PHYSICS"
+      "verdict": "MISLEADING"
     },
     {
       "id": "ITEM-296",
@@ -15347,7 +15347,7 @@
       "originator_work": null,
       "originator_year": null,
       "real_source_cited": null,
-      "verdict": "REFUTED"
+      "verdict": "MISLEADING"
     },
     {
       "id": "ITEM-362",
@@ -15376,8 +15376,8 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": null,
-      "verdict": "UNFALSIFIABLE"
+      "real_source_cited": "Saros cycle, 6,585.32 days; Metonic cycle, 19 years",
+      "verdict": "MISLEADING"
     },
     {
       "id": "ITEM-364",
@@ -15391,8 +15391,8 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": null,
-      "verdict": "UNFALSIFIABLE"
+      "real_source_cited": "Saros cycle, 6,585.32 days; Metonic cycle, 19 years",
+      "verdict": "MISLEADING"
     },
     {
       "id": "ITEM-365",
@@ -15406,8 +15406,8 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": null,
-      "verdict": "UNFALSIFIABLE"
+      "real_source_cited": "Saros cycle, 6,585.32 days; Metonic cycle, 19 years",
+      "verdict": "MISLEADING"
     },
     {
       "id": "ITEM-366",
@@ -15421,8 +15421,8 @@
       "originator": null,
       "originator_work": null,
       "originator_year": null,
-      "real_source_cited": null,
-      "verdict": "UNFALSIFIABLE"
+      "real_source_cited": "Saros cycle, 6,585.32 days; Metonic cycle, 19 years",
+      "verdict": "MISLEADING"
     },
     {
       "id": "ITEM-367",
@@ -15437,7 +15437,7 @@
       "originator_work": "Galileo Was Wrong, Vol. II",
       "originator_year": "2006",
       "real_source_cited": null,
-      "verdict": "NOT DEMONSTRATED"
+      "verdict": "REFUTED"
     },
     {
       "id": "ITEM-368",

@@ -224,7 +224,17 @@ CLUSTERS = {
 "R02": dict(lane="A-REL", name="Mach's principle / relational mechanics allows a fixed Earth",
     originator="Robert Sungenis & Robert Bennett", originator_work="Galileo Was Wrong, Vol. I", year="2006",
     real_source="Ernst Mach, The Science of Mechanics (1883)",
-    verdict="STANDARD PHYSICS", note="Mach's principle is not a settled part of GR and does not privilege Earth in any case."),
+    # Verdict changed 2026-08-10, STANDARD PHYSICS -> MISLEADING. STANDARD PHYSICS means
+    # "real, already explained, does not discriminate", and the note directly contradicted
+    # the middle clause: Mach's principle is an unfinished programme, not settled physics
+    # (Bondi and Samuel enumerate eleven inequivalent statements, some of which GR
+    # violates). What the source does is quote real papers by Lynden-Bell, Katz and Bicak
+    # and by Barbour and Bertotti under headings like "Lynden-Bell's Geocentrism" and
+    # conclude that geocentrism "has been established" — real data, wrong conclusion made
+    # to look supported, which is MISLEADING. Recorded counter-case: under Assis's
+    # relational mechanics the equivalence does hold, so one branch of the cluster is
+    # arguably true-but-non-discriminating. That branch is not the one carrying the weight.
+    verdict="MISLEADING", note="Mach's principle is not a settled part of GR — Bondi and Samuel count eleven inequivalent versions — and no version privileges the Earth. The zero-angular-momentum theorem is quoted accurately and then read as support for the arrangement it excludes."),
 
 "R03": dict(lane="A-REL", name="No experiment detects absolute motion; only relative motion is observable",
     # real_source added 2026-08-09. It was null although the proposition is Poincaré's
@@ -483,9 +493,16 @@ CLUSTERS = {
 
 # ---------------------------------------------------------------- D
 "D01": dict(lane="D", name="All ancient cultures were geocentric",
+    # Verdict changed 2026-08-10, NOT DEMONSTRATED -> REFUTED. The note already said the
+    # claim was "false in detail" while the verdict said the argument merely failed to
+    # reach its conclusion; those do not sit together. Three of the four items carry an
+    # explicit universal ("uniformly", "universal", "all"), and a universal falls to one
+    # counterexample. There are six, all from ancient primary witnesses rather than modern
+    # reconstruction. Eratosthenes was dropped from the note: he measured the Earth's
+    # SHAPE, not its place, so he answers a claim this cluster does not make.
     originator="Robert Sungenis", originator_work="Galileo Was Wrong, Vol. II", year="2006",
-    real_source=None, verdict="NOT DEMONSTRATED",
-    note="Appeal to antiquity. Also false in detail: Aristarchus proposed heliocentrism in the 3rd c. BCE, and Eratosthenes measured the Earth's circumference c. 240 BCE."),
+    real_source=None, verdict="REFUTED",
+    note="Appeal to antiquity, and false as stated. Philolaus (via Aristotle, De caelo II.13), Hicetas, Heraclides, Ecphantus, Aristarchus (via Archimedes, Sand-Reckoner) and Seleucus (via Plutarch) all placed the Earth in motion; Aryabhata did so in 499 CE."),
 "D02": dict(lane="D", name="Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",
     originator="Robert Sungenis", originator_work="Galileo Was Wrong, Vol. II", year="2006",
     real_source=None, verdict="NOT DEMONSTRATED",
@@ -570,8 +587,33 @@ CLUSTERS = {
     verdict="NOT DEMONSTRATED",
     note="Sargent's enclosed-world model. The Schumann resonance frequency is derived from the Earth-ionosphere cavity treated as a *sphere* of radius 6371 km — the number only comes out right on a globe."),
 "D19": dict(lane="D", name="Eclipse and lunar cycles are tuned to human timekeeping",
-    originator=None, originator_work=None, year=None, real_source=None,
-    verdict="UNFALSIFIABLE", note="Saros and Metonic cycles are consequences of orbital periods; the calendars were built to fit them, not the reverse."),
+    # Verdict changed 2026-08-10, UNFALSIFIABLE -> MISLEADING, and the four origin fields
+    # filled. UNFALSIFIABLE was chosen from the CLUSTER NAME: "tuned to human timekeeping"
+    # reads as a design claim, and a design claim is indeed untestable. But no source
+    # making the design claim could be located. The sourced argument is different and
+    # checkable — Rowbotham's eclipse chapter, where the Saros, the node and the apogee
+    # appear and the point built on them is that eclipse prediction is theory-independent.
+    # That descends intact to Dubay 2018 and is carried without the cycle names by
+    # Carpenter's proof 66 of 1885, so the route is overdetermined even where the
+    # vocabulary is not. Its factual core about ancient practice is true and the inference
+    # does not follow: MISLEADING. Recorded and not taken: SELF-CONTRADICTED, on the ground
+    # that a node and a draconic month are defined only by an inclined orbit crossing the
+    # ecliptic, so the items cite the globe model's own measurements against it. The
+    # primary source argues about method rather than about the cycles, so MISLEADING fits
+    # the source better — and the hedge rule says we answer the source.
+    # ORIGIN FIELDS HELD, NOT FILLED, and this is an operator decision rather than a
+    # research one. The treatment's evidence points at Rowbotham's eclipse chapter, and on
+    # that evidence originator="Samuel Rowbotham", originator_work="Zetetic Astronomy:
+    # Earth Not a Globe", year="1865" would be right. But crediting it moves three
+    # published headlines at once: traced items 348 -> 352, untraced 97 -> 93, and
+    # Rowbotham 65 -> 69, which tips the Rowbotham-plus-Sungenis share from 43% to 44%.
+    # The operator approved a verdict change, not an attribution change. Held deliberately
+    # — and note the direction: leaving it None publishes this cluster as untraced when we
+    # have a candidate source, so the untraced figure is an upper bound here in the way the
+    # README already says it is generally.
+    originator=None, originator_work=None, year=None,
+    real_source="Saros cycle, 6,585.32 days; Metonic cycle, 19 years",
+    verdict="MISLEADING", note="Saros and Metonic cycles are consequences of orbital periods; the calendars were built to fit them, not the reverse. Nor are the cycles exact: the Saros drifts about half a degree off the node per repeat, and its series are catalogued as beginning and ending."),
 
 # ---------------------------------------------------------------- E
 "E01": dict(lane="E", name="CMB 'Axis of Evil' aligns with Earth / the ecliptic",
@@ -726,7 +768,21 @@ CLUSTERS = {
     # dates the two-clocks section off it, so a geocentric book there would be counted as
     # a piece of dated science.
     originator=None, originator_work=None, year=None, real_source=None,
-    verdict="REFUTED",
+    # Verdict changed 2026-08-10, REFUTED -> MISLEADING, and this was the urgent one.
+    # REFUTED is defined on this page as "contradicted by a specific measurement". That is
+    # exactly right for three of the five items, and WRONG for the topic the cluster is
+    # named after: solar oblateness and its cycle variation are genuinely unresolved in the
+    # current literature, so publishing REFUTED over item 195 called an open measurement
+    # closed. A defender who has read Meftah or Mecheri could show that, and would be
+    # right. It is also the opposite of the restraint this project insists on at ARG-E01,
+    # where the page keeps saying the CMB axis debate is live.
+    #
+    # MISLEADING is the defensible verdict for the BUNDLE, because the bundle's move is
+    # assembling true or arguable solar facts behind an inference nobody states. The
+    # per-item reading the treatment argues for — REFUTED on 104, 138 and 192, MISLEADING
+    # on 361, NOT DEMONSTRATED on 195 — is better still, and cannot be expressed: the
+    # schema carries one verdict per cluster. That limitation is now a live design item.
+    verdict="MISLEADING",
     note="The solar neutrino problem was solved by neutrino oscillation (SNO 2001; Nobel "
          "2015). The barycentre wobble is a prediction of the Sun being orbited by "
          "planets, and Jupiter displaces the Sun 1,654 times as far as the Earth does. "

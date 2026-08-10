@@ -55,7 +55,7 @@ LINEAGE_LABEL = {"Zetetic": "Zetetic (flat-earth) lineage",
                  # is not the `pre_modern` ORIGIN STATE, which is C02, 16 items, nobody
                  # credited. Sharing the words "pre-modern" made 20 and 16 look like a
                  # discrepancy between two counts of one thing.
-                 "Pre-modern": "Pre-modern astronomy, appropriated"}
+                 "Pre-modern": "Pre-modern, appropriated"}
 
 # ---- integrity -------------------------------------------------------
 assert len(ITEMS) == 461
@@ -322,6 +322,50 @@ summary["corrections_logged"] = len(_corr["entries"])
 summary["arguments_with_a_correction"] = len(_argids & set(DEEP))
 assert summary["arguments_with_a_correction"] <= summary["arguments_at_full_depth"], \
     "a correction names an argument that has no full treatment - check the `where` field"
+# ---- graphic payload -------------------------------------------------
+# Emitted to the SINGLE data contract the graphic renderer consumes, so no publication
+# number is ever typed into JavaScript, CSS or a label. The renderer derives every
+# percentage and every stream width from these counts at runtime.
+#
+# THE BANDS MUST SUM TO total_items AND THE RENDERER WITHHOLDS THE GRAPHIC IF THEY DO NOT.
+# That requirement is not decoration: building this payload is what exposed the origin
+# state / lineage merge on 2026-08-10, because two of our own derivations of "traced"
+# disagreed by exactly the 20 Ptolemy items. A flow diagram that silently rebalances is a
+# diagram that can lie fluently, so it fails loudly instead.
+_BAND_STATE = {"(untraced)": "untraced", "Older than the movement": "pre_modern"}
+_bands = []
+for _label, _n in summary["items_by_lineage"].items():
+    _bands.append({
+        "id": _re.sub(r"[^a-z0-9]+", "-", _label.lower()).strip("-"),
+        "label": "Untraced" if _label == "(untraced)" else _label,
+        "itemCount": _n,
+        "originState": _BAND_STATE.get(_label, "modern_named"),
+        **({"argumentClusters": summary["clusters_by_lineage"].get(_label)} or {}),
+    })
+assert sum(b["itemCount"] for b in _bands) == summary["total_items"], \
+    "graphic bands must balance to the corpus - see the note above"
+
+graphic = {
+    "meta": {"title": "Flat Earth Origins", "prototype": False,
+             "datasetLabel": f'{summary["total_items"]}-item specimen, retrieved 2 August 2026'},
+    "flow": {
+        "totalItems": summary["total_items"],
+        "distinctArguments": summary["distinct_arguments"],
+        "namedPeople": summary["named_originators"],
+        "untracedClusters": summary["clusters_by_lineage"].get("(untraced)", 0),
+        "note": ("Width is claim items at every stage. The argument count is a grouping "
+                 "stage, not a second width scale - 461 items do not shrink to 98 and "
+                 "expand again. Percentages are derived at render time."),
+        "bands": _bands,
+    },
+    # The genealogy half stays empty until the transmission edges are evidenced. An empty
+    # edge list is the honest state, not a placeholder: the dataset holds one documented
+    # chain, and a diagram drawing more than that would be inventing provenance on a
+    # project whose product is provenance.
+    "genealogy": {"eras": [], "lanes": [], "precursors": [], "nodes": [], "edges": [],
+                  "status": "edges under research; none drawn until cited"},
+}
+
 advocate = {a: dict(arguments[a]["deep"]["advocate"], argument=a,
                     name=arguments[a]["name"], verdict=arguments[a]["verdict"])
             for a in arguments if arguments[a]["deep"]}
@@ -334,7 +378,7 @@ for a in arguments.values():
     if a["deep"]:
         a["deep"] = {k: v for k, v in a["deep"].items() if k != "advocate"}
 
-corpus = {"summary": summary, "people": people, "works": works,
+corpus = {"graphic": graphic, "summary": summary, "people": people, "works": works,
           "arguments": arguments, "clusters": CLUSTERS, "items": items}
 
 with open(os.path.join(DATA, "flat-earth-origins-provenance.json"), "w", encoding="utf-8") as f:

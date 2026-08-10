@@ -555,6 +555,29 @@ def tab_overview():
         f'green screen.</p>'
         f'</div>'
 
+
+        # ── THE FLOW GRAPHIC ──────────────────────────────────────────────
+        # This is the compression claim, drawn: 461 items are not 461 witnesses, they are
+        # 98 arguments, and a quarter of them have no source we could find. Every number
+        # comes from the `graphic` payload build.py emits, so nothing here is typed.
+        #
+        # Design by an outside pass; the rules it imposes are kept verbatim because each
+        # one prevents a specific lie. Width is CLAIM ITEMS at every stage, so the argument
+        # column is a grouping annotation and not a second width scale - otherwise the
+        # picture says 461 things shrink into 98 things and expand again. The untraced band
+        # is hatched, labelled SOURCE NOT LOCATED and drawn at FULL proportional width
+        # rather than greyed, shrunk or folded into "other". And if the bands ever stop
+        # summing to the total the graphic is withheld, because a flow diagram that
+        # silently rebalances is one that can lie fluently.
+        f'<div class="ds-evidence" style="padding-bottom:.4rem">'
+        f'<h2 style="margin-top:0">Where the {S["total_items"]} claims actually come from</h2>'
+        f'<p>A long numbered list works by volume: each item reads as an independent '
+        f'witness, so {S["total_items"]} of them feels like a fortress. Sorted by where '
+        f'each claim came from, it is not {S["total_items"]} witnesses. Width below is '
+        f'claim items at every stage.</p>'
+        f'<div id="fe-flow" class="fe-flow"></div>'
+        f'<p class="fe-flow-note" id="fe-flow-note"></p>'
+        f'</div>'
         # ── WHY IT PERSISTS ───────────────────────────────────────────────
         f'<div class="ds-evidence">'
         f'<h2 style="margin-top:0">Why proofs that settle nothing keep working</h2>'
@@ -775,6 +798,106 @@ for i, (t, l) in enumerate(TABS):
                   f'{RENDER[t]()}{nav}</div>')
 
 JS = """
+
+/* ── FLOW GRAPHIC ─────────────────────────────────────────────────────────
+   Reads one JSON payload emitted by build.py. No publication number appears in
+   this function: every count, percentage and stream width is derived at runtime.
+
+   Two rules are load-bearing and both come from the design pass.
+   1. WIDTH IS CLAIM ITEMS AT EVERY STAGE. The argument column is a grouping
+      annotation drawn at full height, never a second width scale, or the picture
+      claims 461 things shrink into 98 and expand again.
+   2. IF THE BANDS DO NOT SUM TO THE TOTAL, WITHHOLD THE GRAPHIC. A flow diagram
+      that silently rebalances is one that can lie fluently. Building this payload
+      is what surfaced a real merge defect in our own data, so the check stays. */
+window.FE_GRAPHIC = JSON.parse(document.getElementById("fe-graphic-data").textContent);
+function feRenderFlow() {
+  var host = document.getElementById('fe-flow');
+  if (!host || !window.FE_GRAPHIC) return;
+  var f = window.FE_GRAPHIC.flow, NS = 'http://www.w3.org/2000/svg';
+  var total = f.totalItems;
+  var sum = f.bands.reduce(function(a, b){ return a + b.itemCount; }, 0);
+  if (sum !== total) {
+    host.innerHTML = '<p class="fe-flow-fail"><strong>Flow withheld.</strong> The bands sum to '
+      + sum + ' but the corpus holds ' + total + '. A picture that rebalanced itself here '
+      + 'would be persuasive and wrong, so it is not drawn.</p>';
+    return;
+  }
+  function el(n, a){ var e = document.createElementNS(NS, n);
+    for (var k in a) e.setAttribute(k, a[k]); return e; }
+  function txt(x, y, s, cls){ var t = el('text', {x:x, y:y, 'class':cls||''}); t.textContent = s; return t; }
+  function ribbon(x0,ya0,yb0,x1,ya1,yb1){ var c=(x1-x0)*0.5;
+    return 'M'+x0+','+ya0+' C'+(x0+c)+','+ya0+' '+(x1-c)+','+ya1+' '+x1+','+ya1
+         + ' L'+x1+','+yb1+' C'+(x1-c)+','+yb1+' '+(x0+c)+','+yb0+' '+x0+','+yb0+' Z'; }
+
+  var W = 900, top = 74, bottom = 470, gap = 9;
+  var stackH = (bottom - top) - gap * (f.bands.length - 1);
+  var scale = stackH / total;
+  var xItems = 8, wItems = 118, xArgs = 250, wArgs = 128, xBands = 560, wBands = 332;
+
+  var svg = el('svg', {viewBox:'0 0 '+W+' 500', 'class':'fe-flow-svg',
+                       role:'img', 'aria-label':'Where the claims come from'});
+  var defs = el('defs');
+  var pat = el('pattern', {id:'feHatch', width:8, height:8,
+                           patternUnits:'userSpaceOnUse', patternTransform:'rotate(45)'});
+  pat.appendChild(el('rect', {width:8, height:8, 'class':'fe-hatch-bg'}));
+  pat.appendChild(el('line', {x1:0, y1:0, x2:0, y2:8, 'class':'fe-hatch-line'}));
+  defs.appendChild(pat); svg.appendChild(defs);
+
+  svg.appendChild(txt(xItems, 26, 'Claim items', 'fe-stage'));
+  svg.appendChild(txt(xItems, 44, total + ' in the specimen', 'fe-stage-sub'));
+  svg.appendChild(txt(xArgs, 26, 'Distinct arguments', 'fe-stage'));
+  svg.appendChild(txt(xArgs, 44, f.distinctArguments + ' after grouping', 'fe-stage-sub'));
+  svg.appendChild(txt(xBands, 26, 'Where they came from', 'fe-stage'));
+  svg.appendChild(txt(xBands, 44, 'width = claim items', 'fe-stage-sub'));
+
+  svg.appendChild(el('rect', {x:xItems, y:top, width:wItems, height:stackH, rx:10, 'class':'fe-trunk'}));
+  var n1 = txt(xItems + wItems/2, top + stackH/2 + 2, total, 'fe-trunk-num');
+  n1.setAttribute('text-anchor','middle'); svg.appendChild(n1);
+
+  svg.appendChild(el('path', {d: ribbon(xItems+wItems, top, top+stackH, xArgs, top, top+stackH),
+                              'class':'fe-ribbon fe-ribbon-trunk'}));
+  svg.appendChild(el('rect', {x:xArgs, y:top, width:wArgs, height:stackH, rx:10, 'class':'fe-args'}));
+  var n2 = txt(xArgs + wArgs/2, top + stackH/2 + 2, f.distinctArguments, 'fe-args-num');
+  n2.setAttribute('text-anchor','middle'); svg.appendChild(n2);
+
+  var yOut = top, yBand = top;
+  f.bands.forEach(function(b){
+    var h = b.itemCount * scale;
+    var un = b.originState === 'untraced';
+    svg.appendChild(el('path', {d: ribbon(xArgs+wArgs, yOut, yOut+h, xBands, yBand, yBand+h),
+      'class':'fe-ribbon' + (un ? ' fe-ribbon-untraced' : b.originState === 'pre_modern' ? ' fe-ribbon-premodern' : '')}));
+    svg.appendChild(el('rect', {x:xBands, y:yBand, width:wBands, height:h,
+      rx: Math.min(8, h/3), 'class':'fe-band' + (un ? ' fe-band-untraced' : '')}));
+    var mid = yBand + h/2;
+    var p = (100 * b.itemCount / total).toFixed(1).replace(/\.0$/, '');
+    var stat = b.itemCount + ' items · ' + p + '%';
+    if (h > 30) {
+      svg.appendChild(txt(xBands + 11, mid - 3, b.label, 'fe-band-label'));
+      svg.appendChild(txt(xBands + 11, mid + 13, stat, 'fe-band-num'));
+    } else {
+      /* A short band must still carry its own count. The first cut hid the number
+         below a height threshold, which silently unlabelled the three SMALLEST
+         bands - exactly the ones a reader is most likely to wonder about, and the
+         same instinct that makes charts shrink their inconvenient categories. */
+      var lab = txt(xBands + 11, mid + 4, b.label, 'fe-band-label fe-band-label-tight');
+      svg.appendChild(lab);
+      var st = txt(xBands + wBands - 11, mid + 4, stat, 'fe-band-num');
+      st.setAttribute('text-anchor', 'end'); svg.appendChild(st);
+    }
+    if (un) {
+      var m = txt(xBands - 10, mid + 4, 'SOURCE NOT LOCATED', 'fe-band-flag');
+      m.setAttribute('text-anchor', 'end'); svg.appendChild(m);
+    }
+    yOut += h; yBand += h + gap;
+  });
+  host.appendChild(svg);
+  var note = document.getElementById('fe-flow-note');
+  if (note) note.textContent = f.note;
+}
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', feRenderFlow);
+else feRenderFlow();
+
 function showTab(tabId, opts) {
   opts = opts || {};
   document.querySelectorAll('.ds-tab-content').forEach(function(p){ p.classList.remove('active'); });
@@ -834,6 +957,10 @@ window.addEventListener('popstate', function() {
 });
 """
 
+# The payload is embedded rather than fetched: the page is a single generated file
+# and must work from disk, from the connected folder, and in a screenshot.
+GRAPHIC_JSON = json.dumps(D["graphic"], separators=(",", ":")).replace("</", "<\\/")
+
 BODY = f"""
 <a class="ds-skip-link" href="#main">Skip to main content</a>
 <div class="wrap" style="max-width:900px;margin:0 auto;padding:0 1.1rem">
@@ -861,6 +988,7 @@ BODY = f"""
      an independent review project. This page reviews published <em>claims</em>; it does not target any individual.</p>
 </footer>
 </div></main>
+<script id="fe-graphic-data" type="application/json">{GRAPHIC_JSON}</script>
 <script>{JS}</script>
 </body>
 </html>

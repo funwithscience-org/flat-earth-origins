@@ -1,4 +1,70 @@
 {
+  "graphic": {
+    "meta": {
+      "title": "Flat Earth Origins",
+      "prototype": false,
+      "datasetLabel": "461-item specimen, retrieved 2 August 2026"
+    },
+    "flow": {
+      "totalItems": 461,
+      "distinctArguments": 98,
+      "namedPeople": 19,
+      "untracedClusters": 31,
+      "note": "Width is claim items at every stage. The argument count is a grouping stage, not a second width scale - 461 items do not shrink to 98 and expand again. Percentages are derived at render time.",
+      "bands": [
+        {
+          "id": "tychonian-geocentric-lineage",
+          "label": "Tychonian (geocentric) lineage",
+          "itemCount": 164,
+          "originState": "modern_named",
+          "argumentClusters": 33
+        },
+        {
+          "id": "zetetic-flat-earth-lineage",
+          "label": "Zetetic (flat-earth) lineage",
+          "itemCount": 133,
+          "originState": "modern_named",
+          "argumentClusters": 29
+        },
+        {
+          "id": "untraced",
+          "label": "Untraced",
+          "itemCount": 97,
+          "originState": "untraced",
+          "argumentClusters": 31
+        },
+        {
+          "id": "esoteric-traditionalist-literature",
+          "label": "Esoteric / Traditionalist literature",
+          "itemCount": 31,
+          "originState": "modern_named",
+          "argumentClusters": 3
+        },
+        {
+          "id": "pre-modern-appropriated",
+          "label": "Pre-modern, appropriated",
+          "itemCount": 20,
+          "originState": "modern_named",
+          "argumentClusters": 1
+        },
+        {
+          "id": "older-than-the-movement",
+          "label": "Older than the movement",
+          "itemCount": 16,
+          "originState": "pre_modern",
+          "argumentClusters": 1
+        }
+      ]
+    },
+    "genealogy": {
+      "eras": [],
+      "lanes": [],
+      "precursors": [],
+      "nodes": [],
+      "edges": [],
+      "status": "edges under research; none drawn until cited"
+    }
+  },
   "summary": {
     "specimen": "withthesun33.com/about-1 (Andy J. Consoli), retrieved 2026-08-02",
     "items_by_lineage": {
@@ -6,7 +72,7 @@
       "Zetetic (flat-earth) lineage": 133,
       "(untraced)": 97,
       "Esoteric / Traditionalist literature": 31,
-      "Pre-modern astronomy, appropriated": 20,
+      "Pre-modern, appropriated": 20,
       "Older than the movement": 16
     },
     "clusters_by_lineage": {
@@ -14,7 +80,7 @@
       "(untraced)": 31,
       "Zetetic (flat-earth) lineage": 29,
       "Esoteric / Traditionalist literature": 3,
-      "Pre-modern astronomy, appropriated": 1,
+      "Pre-modern, appropriated": 1,
       "Older than the movement": 1
     },
     "total_items": 461,

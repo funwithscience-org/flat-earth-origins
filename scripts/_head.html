@@ -298,6 +298,40 @@ td .ds-verdict-link{display:block;margin:-.45rem -.6rem;padding:.45rem .6rem}
 @media(max-width:600px){.ds-tab-btn{padding:.7rem .9rem;font-size:.85rem;min-height:44px}}
 @media(max-width:720px){.stacked-card-table thead{display:none}.stacked-card-table tr{display:block;margin:0 0 1rem;border:1px solid var(--border);border-radius:6px;padding:.6rem .8rem;background:var(--card-bg)}.stacked-card-table td{display:block;border:none;padding:.3rem 0;font-size:.95rem}.stacked-card-table td::before{content:attr(data-label) ": ";font-weight:600;color:var(--ink-2,#888);display:inline-block;min-width:7rem;text-transform:uppercase;letter-spacing:.04em;font-size:.78rem;font-family:var(--sans,inherit)}.stacked-card-table td.v-refuted::before,.stacked-card-table td.v-std::before,.stacked-card-table td.v-selfcon::before,.stacked-card-table td.v-misleading::before,.stacked-card-table td.v-unfalsifiable::before,.stacked-card-table td.v-notdemo::before{content:"Verdict: "}}
 
+
+/* ── flow graphic ────────────────────────────────────────────────────────
+   Colours come from the page's own tokens so the graphic cannot drift from the
+   design system. The untraced band is deliberately the most VISUALLY INSISTENT
+   thing here - hatched, outlined, flagged - because it is the quarter of the list
+   we could not source, and every instinct in chart design is to shrink it. */
+.fe-flow{margin:.9rem 0 .3rem}
+.fe-flow-svg{width:100%;height:auto;display:block;overflow:visible}
+.fe-flow-note{font-family:var(--sans);font-size:.8rem;color:var(--ink-3);margin:.2rem 0 0;line-height:1.5}
+.fe-flow-fail{font-family:var(--sans);font-size:.9rem;color:var(--refuted-solid);
+  border:1px solid var(--refuted-solid);border-radius:8px;padding:.7rem .9rem}
+.fe-stage{font-family:var(--sans);font-size:13px;font-weight:700;fill:var(--heading)}
+.fe-stage-sub{font-family:var(--sans);font-size:11px;fill:var(--ink-3)}
+.fe-trunk{fill:var(--heading);opacity:.92}
+.fe-trunk-num{font-family:var(--serif);font-size:30px;fill:var(--card-bg)}
+.fe-args{fill:var(--card-bg);stroke:var(--heading);stroke-width:1.6}
+.fe-args-num{font-family:var(--serif);font-size:26px;fill:var(--heading)}
+.fe-ribbon{fill:var(--rule);opacity:.34;stroke:none}
+.fe-ribbon-trunk{opacity:.22}
+.fe-ribbon-untraced{fill:url(#feHatch);opacity:.85}
+.fe-ribbon-premodern{opacity:.2}
+.fe-band{fill:var(--card-bg);stroke:var(--rule);stroke-width:1.2}
+.fe-band-untraced{stroke:var(--ink-3);stroke-width:2;stroke-dasharray:4 3}
+.fe-band-label{font-family:var(--sans);font-size:12px;font-weight:650;fill:var(--ink-1)}
+.fe-band-num{font-family:var(--sans);font-size:10.5px;fill:var(--ink-3)}
+/* A one-line band puts label and stat on the same baseline, so the label has to
+   yield rather than collide with the number it belongs to. */
+.fe-band-label-tight{font-size:10.5px}
+.fe-band-flag{font-family:var(--sans);font-size:9.5px;font-weight:800;fill:var(--ink-3);letter-spacing:.04em}
+.fe-hatch-bg{fill:var(--card-bg)}
+.fe-hatch-line{stroke:var(--ink-3);stroke-width:2.6;opacity:.42}
+@media (max-width:640px){
+  .fe-stage{font-size:12px}.fe-band-label{font-size:11px}.fe-band-flag{font-size:8px}
+}
 </style>
 </head>
 <body>

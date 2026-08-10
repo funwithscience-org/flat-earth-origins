@@ -119,10 +119,10 @@ check("untraced band matches the untraced item count",
 check("older-than-the-movement band matches pre_modern_items",
       _lin["Older than the movement"] == S["pre_modern_items"], _lin.get("Older than the movement"))
 check("the Ptolemy lineage label no longer collides with the pre_modern origin state",
-      "Pre-modern astronomy, appropriated" in _lin and "Pre-modern astronomy" not in _lin)
+      "Pre-modern, appropriated" in _lin and "Pre-modern astronomy" not in _lin)
 check("the two 'pre-modern' quantities are genuinely different and both survive",
-      _lin["Pre-modern astronomy, appropriated"] != _lin["Older than the movement"],
-      (_lin.get("Pre-modern astronomy, appropriated"), _lin.get("Older than the movement")))
+      _lin["Pre-modern, appropriated"] != _lin["Older than the movement"],
+      (_lin.get("Pre-modern, appropriated"), _lin.get("Older than the movement")))
 
 lane = collections.Counter(r["lane"] for r in ROWS)
 EXPECT_LANE = {"A-EXP": 101, "A-REL": 81, "B": 54, "C": 69, "D": 83, "E": 73}
@@ -212,6 +212,48 @@ check("structural: tables balanced",
       len(re.findall(r"<table", PAGE)) == len(re.findall(r"</table>", PAGE)))
 check("structural: sections balanced",
       len(re.findall(r"<section", PAGE)) == len(re.findall(r"</section>", PAGE)))
+
+print("\n[4d] the flow graphic")
+# The graphic is generated from one payload and carries no typed number. These checks
+# guard the two rules that stop a flow diagram lying: the bands must account for the
+# whole corpus, and the untraced quarter must be present at full weight rather than
+# shrunk, greyed or folded into "other" — which is what every charting instinct wants
+# to do with an inconvenient category.
+G = D["graphic"]
+_gb = G["flow"]["bands"]
+check("graphic bands sum to the corpus",
+      sum(b["itemCount"] for b in _gb) == S["total_items"],
+      sum(b["itemCount"] for b in _gb))
+check("graphic totals agree with the summary they came from",
+      G["flow"]["totalItems"] == S["total_items"]
+      and G["flow"]["distinctArguments"] == S["distinct_arguments"]
+      and G["flow"]["namedPeople"] == S["named_originators"])
+check("exactly one band is the untraced state",
+      len([b for b in _gb if b["originState"] == "untraced"]) == 1)
+check("the untraced band carries the real untraced count",
+      [b["itemCount"] for b in _gb if b["originState"] == "untraced"]
+      == [S["total_items"] - S["items_traceable_to_a_named_originator"] - S["pre_modern_items"]])
+check("the pre-modern origin state has its own band",
+      [b["itemCount"] for b in _gb if b["originState"] == "pre_modern"] == [S["pre_modern_items"]])
+check("no band is empty (an empty band is a label with no claim behind it)",
+      all(b["itemCount"] > 0 for b in _gb))
+# The SVG is built at runtime, so the class name legitimately appears in the renderer
+# source. The check that matters is that the DATA travels with the page: this file is
+# opened from disk, from a synced folder and in screenshots, so a fetch would break it.
+check("the payload is embedded in the page rather than fetched",
+      'id="fe-graphic-data" type="application/json"' in PAGE
+      and "fetch(" not in PAGE.split("fe-graphic-data")[1][:4000])
+check("the flow host and its withholding branch both ship",
+      'id="fe-flow"' in PAGE and "fe-flow-fail" in PAGE)
+check("the page states the untraced band's own label",
+      ">Untraced<" in PAGE or '"label":"Untraced"' in PAGE)
+check("SOURCE NOT LOCATED survives in the renderer",
+      "SOURCE NOT LOCATED" in PAGE)
+# The genealogy half must stay empty until edges are cited. If it ever fills without
+# every edge carrying a source, this is the check that should have stopped it.
+check("no genealogy edge ships without a source record",
+      all(e.get("sources") for e in G["genealogy"]["edges"]),
+      [e.get("id") for e in G["genealogy"]["edges"] if not e.get("sources")])
 
 print("\n[4b] corpus cross-references")
 for pid, p in PEOPLE.items():

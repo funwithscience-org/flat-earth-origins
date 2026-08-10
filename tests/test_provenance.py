@@ -699,6 +699,42 @@ check("two-clocks section closes on Knodel, the one real experiment, and its res
 # The psychology section. It is argument, not arithmetic, so pin the concessions —
 # these are the sentences most likely to be trimmed away by a later tightening pass,
 # and without them the section is just an accusation.
+# --- Overview fairness audit, 2026-08-10 -----------------------------------
+# The first adversarial pass over the front page raised two criticals, and both were
+# about claiming more than a provenance review can see. These pin the corrections so a
+# later edit cannot quietly reinstate them.
+# An HTML comment is READER-FACING SPACE. The first version of the strapline correction
+# was written as an HTML comment and quoted the false claim verbatim, so the correction
+# shipped the error it was correcting to every visitor and into view-source. The house
+# rule about self-reports not living in reader-facing prose covers comments too.
+check("no leftover self-report or correction note is emitted into the page",
+      not re.search(r"<!--(?![^>]*?(charset|IE|\[if))[^>]{80,}-->", PAGE, re.S),
+      [c[:70] for c in re.findall(r"<!--.*?-->", PAGE, re.S)][:3])
+
+check("strapline does NOT claim all 461 claims trace to named authors",
+      "tracing 461 claims back to" not in PAGE
+      and f'{S["items_traceable_to_a_named_originator"]} traced to' in PAGE)
+check("strapline publishes all three origin states, not just the traced one",
+      "untraced," in PAGE and "older than the movement." in PAGE)
+check("page does not assert what a community believed or why",
+      "Belief here was never sustained by the evidence" not in PAGE)
+check("the persistence claim is scoped to the texts we can actually see",
+      "these arguments were never doing the work" in PAGE
+      and "is not something a provenance review can reach" in PAGE)
+check("lineage motives are framed as what the texts are about, not what authors wanted",
+      "not the same as what their authors wanted" in PAGE
+      and "One is about who gets to be believed" not in PAGE)
+check("the closing belief-updating claim names its sourced instance",
+      "on film, twice, from the same" not in PAGE and "Union Glacier" in PAGE)
+# "Empty" was contradicted by our own verdict bars 400px below it: 90 items are STANDARD
+# PHYSICS, i.e. real physics correctly stated and pointed the wrong way. The charge is
+# that they do not DISCRIMINATE, which is narrower and true.
+check("the persistence heading does not call the arguments empty",
+      "Why empty proofs keep working" not in PAGE
+      and "Why proofs that settle nothing keep working" in PAGE)
+check("Rowbotham's commune is described as our own People tab describes it",
+      "secular Owenite commune" not in PAGE and "Owenite socialist commune" in PAGE)
+
 check("persistence section concedes the steelman rather than only asserting",
       "heliocentrism does not refute human significance" in PAGE
       and "It declines to adjudicate it" in PAGE)

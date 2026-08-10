@@ -557,20 +557,27 @@ def tab_overview():
 
         # ── WHY IT PERSISTS ───────────────────────────────────────────────
         f'<div class="ds-evidence">'
-        f'<h2 style="margin-top:0">Why empty proofs keep working</h2>'
+        f'<h2 style="margin-top:0">Why proofs that settle nothing keep working</h2>'
         f'<p>If the {S["distinct_arguments"]} arguments do not discriminate &mdash; and none '
         f'of them does &mdash; a question follows that the evidence review cannot answer on '
         f'its own: why does any of this persist? The genealogy suggests the answer. '
-        f'<strong>Belief here was never sustained by the evidence, so removing the evidence '
-        f'does not touch it.</strong></p>'
+        f'<strong>On the evidence of the corpus itself, these arguments were never doing the '
+        f'work.</strong> They do not discriminate, they contradict each other across the two '
+        f'lineages, and in case after case the source is more careful than the item drawn '
+        f'from it. That is a finding about the texts, which is all we can see from here. '
+        f'What any individual believes, and why, is not something a provenance review can '
+        f'reach &mdash; but it does tell you that refuting the list removes something that '
+        f'was not holding the weight.</p>'
         f'<p>The corpus splits into two lineages that were never reconciled with each other, '
         f'and they appear to run on different needs. The <strong>zetetic</strong> line starts '
-        f'with Rowbotham in 1849, in a secular Owenite commune, and its founding move is '
+        f'with Rowbotham, out of the Owenite socialist commune at Manea Fen, and its founding move is '
         f'epistemic: observation is real, theory is imaginary, trust nothing you have not '
         f'seen. The <strong>Tychonian</strong> line starts with van der Kamp more than a '
-        f'century later and is theological from the first page. One is about who gets to be '
-        f'believed. The other is about whether we are incidental. They found the same enemy '
-        f'from opposite directions, which is why the list welds &ldquo;flat&rdquo; to '
+        f'century later and is theological from the first page. Read as arguments rather than '
+        f'as motives, one is preoccupied with who is entitled to be believed and the other '
+        f'with whether we are incidental &mdash; that is what the texts are about, which is '
+        f'not the same as what their authors wanted. They arrive at the same opponent from '
+        f'opposite directions, which is why the list welds &ldquo;flat&rdquo; to '
         f'&ldquo;not rotating&rdquo; even though every Tychonian authority it cites held the '
         f'Earth to be a sphere.</p>'
         f'<p><strong>And part of what this reacts to actually happened.</strong> Popular '
@@ -587,8 +594,12 @@ def tab_overview():
         f'have nothing to say about it. Believing the Earth does not rotate is a factual '
         f'claim, it was tested, and the result is in. The line between the two is not an '
         f'identity and not a personality &mdash; it is one specific moment: a prediction '
-        f'fails, and the belief does not update. That moment is on film, twice, from the same '
-        f'community, with opposite outcomes.</p>'
+        f'fails, and the belief does not update. Both halves of that are on the record: '
+        f'Jeran Campanella watching the midnight sun at Union Glacier and saying his model '
+        f'was no longer valid, and the wider community answering the same footage with '
+        f'&ldquo;green screen&rdquo;. Same prediction, same failure, two responses &mdash; '
+        f'which is the whole distinction, drawn by the people it applies to rather than '
+        f'by us.</p>'
         f'</div>'
         f'<div class="ds-verdict-bars"><div class="ds-vb-heading">Verdict distribution</div>'
         f'<div class="ds-vb-caption">All {S["total_items"]} items scored via their argument. '
@@ -832,8 +843,11 @@ BODY = f"""
   </p>
   <h1 style="border:none;margin:.2rem 0">Flat Earth Origins</h1>
   <p style="font-size:1.05rem;color:var(--ink-2);margin:0">A provenance review of the flat-earth
-     &amp; geocentric &ldquo;proof&rdquo; lists &mdash; tracing {S['total_items']} claims back to
-     {S['named_originators']} authors.</p>
+     &amp; geocentric &ldquo;proof&rdquo; lists &mdash; {S['total_items']} claims sorted by where
+     each one came from: {S['items_traceable_to_a_named_originator']} traced to
+     {S['named_originators']} authors,
+     {S['total_items'] - S['items_traceable_to_a_named_originator'] - S['pre_modern_items']}
+     untraced, {S['pre_modern_items']} older than the movement.</p>
   <p style="font-family:var(--sans);font-size:.85rem;color:var(--ink-3)">
     Specimen: the {S['total_items']}-item list at <em>withthesun33.com/about-1</em>, retrieved
     2 August 2026. This page reviews published <em>claims</em>; it does not target any individual.</p>

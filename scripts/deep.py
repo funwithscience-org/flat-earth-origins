@@ -360,3 +360,32 @@ for _k, _v in DEEP.items():
             f"New treatments must compare the list's phrasing against the source's own wording.")
         _v["compression"] = dict(assessed=False, drifted=None, list_phrasing=None,
                                  source_wording=None, drift_type=None, note=None)
+
+# ---- batch 9 (2026-08-10) -------------------------------------------
+# Eighteen treatments across two overnight runs, each agent owning its own file and
+# each writeup adversarially reviewed as soon as it landed rather than at a barrier.
+# Weighted at the POST-1950 CLUSTERS first, because those are the evidence the
+# Overview's dating argument rests on and none of them had a treatment anyone had
+# attacked — the front page was leaning hardest on the lane we had done least work in.
+# That gamble paid: the Overview audit run alongside these found two criticals in it.
+for _m in ("_b9_C01",
+           "_b9_C03",
+           "_b9_C06",
+           "_b9_C09",
+           "_b9_D01",
+           "_b9_D14",
+           "_b9_D19",
+           "_b9_E02",
+           "_b9_E04",
+           "_b9_E05",
+           "_b9_E06",
+           "_b9_E08",
+           "_b9_E09",
+           "_b9_E10",
+           "_b9_E12",
+           "_b9_E14",
+           "_b9_R02",
+           "_b9_R12"):
+    for _k, _v in __import__(_m).ENTRY.items():
+        assert _k not in DEEP, f"batch9 collision: {_k}"
+        DEEP[_k] = _v

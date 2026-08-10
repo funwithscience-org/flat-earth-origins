@@ -272,9 +272,32 @@ summary["items_citing_dated_work"] = _wt
 summary["items_citing_pre1930_work"] = sum(n for y, n, _ in _dated if y < 1930)
 # After 1950 the list stops citing experiments and starts citing other people's
 # cosmology — surveys and maps gathered for unrelated purposes and reinterpreted.
+#
+# THE POST-1950 SET IS AMBIGUOUS AND THE PAGE MUST NOT PRETEND OTHERWISE. The Overview
+# audit (2026-08-10) found "nine of ten, all but one" was an artifact of dating each
+# cluster by the FIRST year in `real_source`. That field mixes two different things: the
+# work the argument leans on, and the work that settles it. A12 reads "Miller 1933 ...
+# Shankland et al. 1955" — first-year dates it by the claim, last-year by the refutation,
+# and neither is wrong, they answer different questions. Under first-year the set is 10
+# with R12 the lone non-E member; under last-year it is 11, with A12 joining R12.
+#
+# Switching to max() would have swapped one arbitrary reading for another, so both are
+# computed and the page publishes the range. The count that is STABLE across both — nine
+# lane-E clusters — is the one the prose leans on.
+_last = {}
+for _cid, _c in CLUSTERS.items():
+    _all = _YR.findall(_c["real_source"] or "")
+    if _all:
+        _last[_cid] = int(max(_all))
 summary["post1950_cited_clusters"] = [c for y, _, c in _dated if y >= 1950]
 summary["post1950_all_lane_E_except"] = [c for y, _, c in _dated
                                          if y >= 1950 and CLUSTERS[c]["lane"] != "E"]
+summary["post1950_by_last_year"] = sorted(c for c, y in _last.items() if y >= 1950)
+summary["post1950_by_last_year_non_E"] = sorted(
+    c for c, y in _last.items() if y >= 1950 and CLUSTERS[c]["lane"] != "E")
+# The stable quantity, and the only one the Overview is allowed to state flatly.
+summary["post1950_lane_E_count"] = len(
+    [c for c, y in _last.items() if y >= 1950 and CLUSTERS[c]["lane"] == "E"])
 
 _corr = json.load(open(os.path.join(REVIEW, "corrections.json"), encoding="utf-8"))
 _argids = set()

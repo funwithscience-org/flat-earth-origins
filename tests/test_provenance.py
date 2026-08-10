@@ -660,14 +660,40 @@ for label, needle in [
     ("pre-1930 item count", _pair),   # same live branch as the check above
     ("dated-argument count spelled out",
      f'{_w(S["cited_work_years"]["clusters"], cap=True)} arguments cite a dated piece'),
-    ("post-1950 breakdown",
-     f'{_w(_n50)} arguments whose cited work postdates 1950, {_w(_nE)} are'),
+    # Rewritten 2026-08-10 after the Overview audit: "nine of ten" was an artifact of
+    # first-year dating. Only the lane-E count is stable across both readings, so only it
+    # is stated flatly; both denominators are published as a range.
+    ("post-1950 lane-E count",
+     f'{_w(S["post1950_lane_E_count"], cap=True)} arguments cite post-1950 work'),
+    ("both datings published as a range",
+     f'{len(S["post1950_cited_clusters"])} by the earlier date, '
+     f'{len(S["post1950_by_last_year"])} by the later one'),
 ]:
     check(f"two-clocks section states {label}", needle in PAGE, needle)
-check("two-clocks section names the ninety-year experimental gap",
-      "has not produced a new experiment in about ninety years" in PAGE)
-check("the ninety-year gap is consistent with the latest experiment cited",
-      85 <= 2026 - S["cited_work_median_year"] <= 99, 2026 - S["cited_work_median_year"])
+# WITHDRAWN 2026-08-10. The page used to claim the tradition "has not produced a new
+# experiment in about ninety years". The Overview audit showed the chronology could not
+# carry it — every experiment in that list was run by an outsider, so it measured citation
+# and not production — and The Final Experiment (Union Glacier, December 2024) falsifies
+# the interval outright. The replacement claim is stronger and checkable: the authority is
+# borrowed, the movement's own experiments are few, and the modern ones went against it.
+check("page does NOT reinstate the withdrawn ninety-year claim",
+      "not produced a new experiment in about ninety years" not in PAGE)
+check("page states the borrowed-authority claim that replaced it",
+      "experimental authority in this tradition is almost entirely borrowed" in PAGE.lower()
+      or "Every one of those experiments was run by someone outside the movement" in PAGE)
+check("page carries the movement's own experiments, both ends",
+      "Bedford Level in 1838" in PAGE and "Wallace" in PAGE and "Oldham" in PAGE)
+check("page carries The Final Experiment and what it returned",
+      "The Final Experiment" in PAGE and "Union Glacier" in PAGE
+      and "Campanella" in PAGE and "midnight sun" in PAGE)
+check("Knodel is described as a sound DESIGN, not a competently run measurement",
+      "competently run" not in PAGE and "a sound design" in PAGE,
+      "ARG-A07 declines to lean on the reading as data; the Overview must not either")
+check("the Knodel paragraph carries A07's own caveat rather than asserting past it",
+      "reported figure, not a documented measurement" in PAGE)
+check("post-1950 design-intent claim is scoped, not blanket",
+      "none of it was designed to be one" not in PAGE
+      and "gathered to characterise the universe rather" in PAGE)
 check("two-clocks section closes on Knodel, the one real experiment, and its result",
       "Knodel" in PAGE and "15 degrees per hour" in PAGE and "ARG-A07" in PAGE)
 # The psychology section. It is argument, not arithmetic, so pin the concessions —

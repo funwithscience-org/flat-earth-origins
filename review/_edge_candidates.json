@@ -1,0 +1,74 @@
+[
+ {
+  "id": "E01",
+  "frm": "PER-ROWBOTHAM",
+  "to": "PER-CARPENTER",
+  "claim": "Carpenter drew his proof material from Rowbotham's zetetic corpus and worked as his associate/populariser."
+ },
+ {
+  "id": "E02",
+  "frm": "PER-CARPENTER",
+  "to": "PER-VOLIVA",
+  "claim": "Voliva's Zion organisation reprinted Carpenter's numbered proofs c.1929, forming a documentary bridge into the 20th century."
+ },
+ {
+  "id": "E03",
+  "frm": "PER-ROWBOTHAM",
+  "to": "PER-WINSHIP",
+  "claim": "Winship's Zetetic Cosmogony (1899) descends textually from Rowbotham's system."
+ },
+ {
+  "id": "E04",
+  "frm": "PER-ROWBOTHAM",
+  "to": "PER-SHENTON",
+  "claim": "Institutional continuity from Rowbotham's zetetic movement to Shenton's International Flat Earth Research Society (1956), and whether Lady Elizabeth Blount's Universal Zetetic Society (1893) is the documented intermediary. Blount is NOT currently in our People tab; establish whether she should be."
+ },
+ {
+  "id": "E05",
+  "frm": "PER-SHENTON",
+  "to": "PER-JOHNSON",
+  "claim": "Johnson succeeded Shenton and inherited the society and its archive."
+ },
+ {
+  "id": "E06",
+  "frm": "PER-CARPENTER",
+  "to": "PER-DUBAY",
+  "claim": "Dubay's 200 Proofs reuses Carpenter's and/or Rowbotham's proof material and format."
+ },
+ {
+  "id": "E07",
+  "frm": "PER-VANDERKAMP",
+  "to": "PER-BOUW",
+  "claim": "Bouw succeeded van der Kamp in the Tychonian Society and inherited its argument corpus."
+ },
+ {
+  "id": "E08",
+  "frm": "PER-BOUW",
+  "to": "PER-SUNGENIS",
+  "claim": "Sungenis's Galileo Was Wrong draws on Bouw's Geocentricity."
+ },
+ {
+  "id": "E09",
+  "frm": "PER-SUNGENIS",
+  "to": "PER-DUBAY",
+  "claim": "CROSS-LINEAGE, and the most important edge on the board: geocentric (spherical-Earth) material from Sungenis appears inside modern FLAT-earth lists. Establish whether the transfer is documented or merely parallel."
+ },
+ {
+  "id": "E10",
+  "frm": "PER-PTOLEMY",
+  "to": null,
+  "claim": "Ptolemaic material reaching the modern movement. ARG-A22 (20 items) already records this as 'via the modern movement'. Establish the actual intermediary: who carried it, and is it Sungenis, Bouw, or an anonymous compilation?"
+ },
+ {
+  "id": "E11",
+  "frm": "PER-HALL",
+  "to": "PER-SKIBA",
+  "claim": "Esoteric iconography from Manly P. Hall reaching the flat-earth/firmament lane. Note our record already says Hall captions the Rosicrucian plate 'a Ptolemaic chart'."
+ },
+ {
+  "id": "E12",
+  "frm": "PER-BLAVATSKY",
+  "to": null,
+  "claim": "Whether Theosophical material reaches the flat-earth corpus by any documented route at all, or only by later thematic reuse with no traceable carrier."
+ }
+]

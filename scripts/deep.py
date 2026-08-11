@@ -389,3 +389,27 @@ for _m in ("_b9_C01",
     for _k, _v in __import__(_m).ENTRY.items():
         assert _k not in DEEP, f"batch9 collision: {_k}"
         DEEP[_k] = _v
+
+# ---- batch 10 (2026-08-11) ------------------------------------------
+# Twelve treatments from the night-2 run, written target-scoped and each reviewed as
+# it landed. Weighted at lane B, which the two previous batches had left thinnest.
+#
+# NOTE FOR THE NEXT SCHEDULER: three of these (R11, B02, B09) were written a SECOND
+# time by the night-3 batch, because that batch's target list was computed by excluding
+# the _b10_ files present on disk at dispatch — and seven of twelve were still in
+# flight. Files on disk lag what is being worked. Exclude by TARGET LIST, not by ls.
+for _m in ("_b10_A08",
+           "_b10_A11",
+           "_b10_A13",
+           "_b10_A15",
+           "_b10_A19",
+           "_b10_A27",
+           "_b10_B02",
+           "_b10_B07",
+           "_b10_B09",
+           "_b10_B11",
+           "_b10_D12",
+           "_b10_R11"):
+    for _k, _v in __import__(_m).ENTRY.items():
+        assert _k not in DEEP, f"batch10 collision: {_k}"
+        DEEP[_k] = _v

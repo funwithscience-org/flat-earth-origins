@@ -106,10 +106,18 @@ CLUSTERS = {
     note="Knodel's own ring-laser gyro measured a 15°/hour drift on camera — exactly 360°÷24h. The magnetic-shielding run that followed was a reasonable control, and on the secondary account available it returned the same reading."),
 
 "A08": dict(lane="A-EXP", name="Aircraft don't compensate for spin; east/west flight times symmetric",
+    # note rewritten 2026-08-11, anchored on the "A08" key. The old basis line led with
+    # "The atmosphere co-moves", which is the reply the treatment's own steelman files as
+    # SURFACE ("this loses, and it deserves to") and which the refutation explicitly
+    # declines to make - so the summary line under the verdict chip was the one answer the
+    # body refuses. It also asserted descent from Rowbotham's vertical-projectile argument,
+    # which the treatment argues cannot hold. The originator/work/year fields still name
+    # Rowbotham for an argument about aeroplanes; that is an operator decision because
+    # withdrawing it moves the traced/untraced totals and the Rowbotham item count.
     originator="Samuel Rowbotham", originator_work="Earth Not a Globe", year="1865",
     real_source="Inertial navigation systems measure Earth rate on every flight",
     verdict="REFUTED",
-    note="Descends from Rowbotham's vertical-projectile argument. The atmosphere co-moves; INS platforms explicitly correct for a ~15°/hr Earth rate."),
+    note="A pre-flight IRS alignment derives the aircraft's own latitude from the sensed Earth rate and refuses to complete if that disagrees with the crew entry; Earth rate, transport rate and Coriolis stay in the mechanisation for the rest of the flight."),
 
 "A09": dict(lane="A-EXP", name="Coriolis effects reassigned to a rotating sky or to electromagnetism",
     originator="Robert Sungenis & Robert Bennett", originator_work="Galileo Was Wrong, Vol. I", year="2006",
@@ -130,10 +138,20 @@ CLUSTERS = {
          "effect is felt. It is: Coriolis deflection, measured daily."),
 
 "A11": dict(lane="A-EXP", name="Michelson–Pease–Pearson null result",
+    # Corrected 2026-08-11, anchored on the "A11" key. Two of the note's three factual
+    # claims were wrong on our own evidence and the note renders directly above a section
+    # headed "The higher altitude did not happen": Pease and Pearson did the observing
+    # under Michelson's direction (Swenson, The Ethereal Aether, p. 220), and the
+    # apparatus was in the Mount Wilson Observatory's PASADENA laboratory (pp. 220-221),
+    # not on the mountain - it went up the mountain in summer 1930, after publication.
+    # real_source also gained the Nature printing: the sentence the downstream tradition
+    # quotes ("no displacement as great as one-fifteenth") is Nature 19 Jan 1929, and the
+    # two 1929 printings give different limits. Both citations are 1929, so no dated-work
+    # figure moves.
     originator="Robert Sungenis & Robert Bennett", originator_work="Galileo Was Wrong, Vol. I", year="2006",
-    real_source="Michelson, Pease & Pearson 1929, JOSA 18(3):181",
+    real_source="Michelson, Pease & Pearson, Nature 123:88 (19 Jan 1929); J. Opt. Soc. Am. 18(3):181–182 (Mar 1929) — the two printings state different limits",
     verdict="STANDARD PHYSICS",
-    note="A high-precision repeat of Michelson–Morley (expected 0.9 fringe, measured 0.01), run by Michelson at Mount Wilson specifically to test Miller. Same non-discriminating status as A01."),
+    note="A high-precision repeat of Michelson–Morley (expected 0.9 fringe, measured 0.01), run by Pease and Pearson under Michelson at the Mount Wilson Observatory's Pasadena laboratory, specifically to test Miller. Same non-discriminating status as A01."),
 
 "A12": dict(lane="A-EXP", name="Dayton Miller detected a real aether drift that was suppressed",
     originator="Robert Sungenis & Robert Bennett", originator_work="Galileo Was Wrong, Vol. I", year="2006",
@@ -147,18 +165,43 @@ CLUSTERS = {
     note="Centrifugal acceleration at the equator is ~0.034 m/s², about 0.3% of g — below unaided perception but routinely measured by gravimeters."),
 
 "A14": dict(lane="A-EXP", name="Ballistics and artillery ignore Earth's rotation",
+    # note replaced 2026-08-11, anchored on the "A14" key (the originator= line is
+    # byte-identical in seven clusters). Neither half of the old note was verified and the
+    # first failed a check: "rotation of the earth" is not located in the archive.org OCR
+    # of Alger, The Groundwork of Practical Naval Gunnery (1917), and the mechanical
+    # fire-control-computer claim was not tested at all. The earliest gunnery document
+    # reached is FM 6-40 (1945). Two fields are NOT changed here because they move
+    # published figures and are the operator's: the Rowbotham attribution (the gunnery
+    # vocabulary is not located in the 1865 text), and real_source, where the proposed
+    # "TC 3-09.81 (2016); FM 6-40 (1945)" would date this A-lane cluster post-1950 and
+    # break the "R12 is the only post-1950 citation outside misappropriated astronomy"
+    # test.
     originator="Samuel Rowbotham", originator_work="Earth Not a Globe", year="1865",
     real_source="Standard long-range fire-control tables",
     verdict="REFUTED",
-    note="Long-range gunnery has corrected for Coriolis drift since WWI; naval fire-control computers did it mechanically."),
+    note="US Army firing tables have carried a rotation-of-the-earth correction, indexed by the latitude of the battery, since at least FM 6-40 of 1945; the 2016 cannon gunnery manual lists it under both range and deflection effects."),
 
-"A15": dict(lane="A-EXP", name="Torsion balances, gravimeters and pendulum clocks show no variation",
+"A15": dict(lane="A-EXP",
+    # name and note replaced 2026-08-11, anchored on the "A15" key. The old name asserted
+    # one claim the four items do not share and that is false of two of them - torsion
+    # balances do return nulls and pendulum apparatus really is sensitive to its mounting
+    # (the treatment's §9, which is why REFUTED was rejected). The old note, "No specific
+    # published measurement is cited by the list", is true of all 461 items - the specimen
+    # carries no citation anywhere - so it carried no A15-specific information while
+    # rendering as the basis line under the verdict chip.
+    name="Gravimeters, pendulum clocks and torsion balances register nothing of the Earth's motion",
     originator=None, originator_work=None, year=None, real_source=None,
-    verdict="NOT DEMONSTRATED", note="No specific published measurement is cited by the list."),
+    verdict="NOT DEMONSTRATED", note="Two of the four items state true things; what is not stated is the step from an instrument reading to a conclusion about the Earth. Measured gravity varies by 0.53% with latitude and by 100–300 microgal with the tide."),
 
 "A16": dict(lane="A-EXP", name="High-altitude balloon drift and sun-angle anomalies",
+    # note replaced 2026-08-11, anchored on the "A16" key. "No dataset cited." renders
+    # next to the verdict chip and misstates the failure: the observation is real and
+    # accurately reported (balloons do return near their launch point; Baumgartner landed
+    # in eastern New Mexico), and what fails is the inference. The verdict is left alone -
+    # a verdict_challenge proposing REFUTED is filed in the treatment and moving it would
+    # move the published verdict distribution.
     originator=None, originator_work=None, year=None, real_source=None,
-    verdict="NOT DEMONSTRATED", note="No dataset cited."),
+    verdict="NOT DEMONSTRATED", note="The observation is real and accurately reported — balloons do come down near where they went up — and the step from it to a stationary Earth is what is missing. A radiosonde drifts several hundred kilometres while the air moves east with the ground at 388 m/s."),
 
 "A17": dict(lane="A-EXP", name="Conservation-of-momentum paradox for a moving Earth",
     originator="Samuel Rowbotham", originator_work="Earth Not a Globe", year="1865",
@@ -170,9 +213,16 @@ CLUSTERS = {
     verdict="STANDARD PHYSICS", note="GPS corrections are computed in an Earth-centred inertial frame precisely because the Earth rotates within it."),
 
 "A19": dict(lane="A-EXP", name="Gyrocompasses are sky-locked, not Earth-locked",
+    # note replaced 2026-08-11, anchored on the "A19" key. The old second sentence - "It
+    # cannot function on a non-rotating Earth" - is answered in one line by the source and
+    # is conceded in bold by the refutation printed directly beneath it: on a stationary
+    # Earth inside a rotating cosmos the local inertial frame is dragged and the instrument
+    # reads normally (Sungenis & Bennett, Vol. I pp. 710-713, and they are right). The
+    # basis line was the popular version of the debunk this entry exists to warn against.
+    # What survives is the latitude dependence, which no flat surface can supply.
     originator=None, originator_work=None, year=None,
     real_source="Gyrocompass operating principle",
-    verdict="SELF-CONTRADICTED", note="A gyrocompass finds true north by sensing Earth's rotation. It cannot function on a non-rotating Earth."),
+    verdict="SELF-CONTRADICTED", note="A gyrocompass finds north from the horizontal component of the rotation vector, which goes as cos(latitude) — maximum at the equator, zero at the poles. That latitude dependence is unavailable on a flat surface whatever is rotating."),
 
 "A20": dict(lane="A-EXP", name="Lunar laser ranging shows a fixed baseline",
     originator=None, originator_work=None, year=None,
@@ -180,9 +230,17 @@ CLUSTERS = {
     verdict="NOT DEMONSTRATED", note="No measurement cited; LLR data in fact resolve Earth rotation and lunar recession."),
 
 "A21": dict(lane="A-EXP", name="Satellites and geostationary orbits reinterpreted in an Earth-fixed frame",
+    # note replaced 2026-08-11, anchored on the "A21" key. The old note quoted Shenton's
+    # "Isle of Wight" line as sourced. "Wight" returns zero hits in Schadewald, The Plane
+    # Truth ch. 9 as retrieved 2026-08-11 - the text people.py cites for PER-SHENTON - so
+    # the quotation is widely attributed but not verified from the source our own record
+    # leans on, and it must not be repeated as sourced. (The same unsourced quotation is
+    # in claude/source-genealogy.md, Lineage 1 table, Shenton row; not this file's to fix.)
+    # The originator/work/year fields are NOT changed here: withdrawing them moves the
+    # traced/untraced split, and the four faults in them are filed for the operator.
     originator="Samuel Shenton", originator_work="International Flat Earth Research Society", year="1957",
     real_source=None, verdict="STANDARD PHYSICS",
-    note="Shenton's Sputnik line — 'would sailing round the Isle of Wight prove it spherical?' — is the template."),
+    note="A rotating-heavens model reproduces the geostationary result by taking the equator, the altitude and the rotation rate from the rotating-globe solution as inputs. Reproducing a rival's number at the rival's location is agreement, not a measurement of its own."),
 
 "A22": dict(lane="A-EXP", name="The sky's daily appearance is equally described by a moving sky",
     originator="Claudius Ptolemy (via the modern movement)", originator_work="Almagest", year="c. 150 CE",
@@ -204,8 +262,16 @@ CLUSTERS = {
     note="Contradicted by items the list itself includes: Michelson–Gale, Sagnac, ring-laser gyros, stellar aberration, parallax."),
 
 "A27": dict(lane="A-EXP", name="Tides explained by sky/firmament torque",
+    # note replaced 2026-08-11, anchored on the "A27" key. "No mechanism specified." is
+    # contradicted by the treatment printed beneath it: Rowbotham 1865 §10 specifies one in
+    # detail and derives four consequences from it (Winship 1899 p. 131 and Scott 1901
+    # pp. 258-261 restate it), the Christian Flat Earth Ministry page of 2015 adds a polar
+    # vortex, and Sungenis & Bennett p. 794 add a latitude-varying ether flow. Mutually
+    # incompatible mechanisms are a different and worse problem than silence. The name is
+    # left alone: "sky torque" is item 233's own wording, and cluster names state the
+    # list's claim. Verdict untouched - a verdict_challenge proposing REFUTED is filed.
     originator=None, originator_work=None, year=None, real_source=None,
-    verdict="NOT DEMONSTRATED", note="No mechanism specified."),
+    verdict="NOT DEMONSTRATED", note="Mechanisms are specified — Rowbotham's atmosphere pressing on a floating plate, a polar vortex, a latitude-varying ether — and they are mutually incompatible. None of them ties to the 12 h 25 min lunar period the tide records carry."),
 
 # ---------------------------------------------------------------- A-REL
 "R01": dict(lane="A-REL", name="General covariance permits a stationary-Earth frame",
@@ -257,9 +323,21 @@ CLUSTERS = {
     verdict="STANDARD PHYSICS", note="Local, not global. It says nothing about the Earth's state of motion relative to distant matter."),
 
 "R05": dict(lane="A-REL", name="GR admits rotating-universe solutions / frame dragging",
+    # note replaced 2026-08-11, anchored on the "R05" key. "Frame dragging … is far too
+    # small to hold the stars in a daily circuit" compares the Earth-generated effect with
+    # a cosmological one and bounds nothing; the treatment's steelman files that exact
+    # formulation as "SURFACE (weak — do not use) … This loses, and it loses in one move"
+    # (a defender with Brill & Cohen 1966 in hand wins it: dragging becomes complete as a
+    # shell approaches its own gravitational radius, and the observable universe is within
+    # a factor of about two of its own). It rendered both under the verdict chip and as the
+    # summary line of section 3. NOT used: the previous pass's suggested replacement about
+    # spatially homogeneous rotating solutions, which is now known to mischaracterise
+    # ch. 10 - the chapter runs on rotating SHELLS. real_source is left alone: replacing
+    # Gödel 1949 / Gravity Probe B with 1918/1992/2004 moves the two-clocks median and the
+    # pre-1930 share, and that is an operator decision with a test to re-run.
     originator="Robert Sungenis & Robert Bennett", originator_work="Galileo Was Wrong, Vol. I", year="2006",
     real_source="Gödel 1949; Lense–Thirring 1918; Gravity Probe B",
-    verdict="MISLEADING", note="Gödel's universe is a mathematical solution incompatible with the observed cosmos. Frame dragging is real and measured — and is far too small to hold the stars in a daily circuit."),
+    verdict="MISLEADING", note="The chapter's own citations give a rotating shell, and a shell distinguishes its own centre, not whatever body sits there. And the frame-dragging measurement offered as support is computed from the Earth's own angular momentum: set the Earth's spin to zero and the predicted LAGEOS precession is zero."),
 
 "R06": dict(lane="A-REL", name="Tensor/gauge/coordinate formalism can be written Earth-centred",
     originator="Robert Sungenis & Robert Bennett", originator_work="Galileo Was Wrong, Vol. I", year="2006",
@@ -286,9 +364,26 @@ CLUSTERS = {
     verdict="MISLEADING", note="Equivocates on 'observer'. Quantum measurement is not about spatial centrality."),
 
 "R11": dict(lane="A-REL", name="No falsifier distinguishes the frames; multiple cosmologies fit the data",
+    # note replaced 2026-08-11, anchored on the "R11" key. Two faults in one sentence, both
+    # on the skim path. (1) It stated as Bouw's settled position one horn of the
+    # contradiction this entry exists to expose, and §3 of the treatment says the opposite:
+    # on the same book's p. 3 "every fundamental experiment ever devised to measure the
+    # speed of the earth through space measures a speed of zero", p. 523 geocentricity
+    # "predicts" what experiments detect, p. 539 the geocentric evidence has "forced" the
+    # model. The theological move is real but narrow - the Earth-versus-Milky-Way residual
+    # at p. 556 and the Bible-believer sufficiency claim at p. 15 - and the note generalised
+    # it into his whole position. (2) "the movement's only credentialed astronomer" is an
+    # unscoped superlative over an entire movement, untested by any pass, in the
+    # highest-traffic field on the entry; withdrawn rather than rescoped. The same
+    # overstatement is in claude/source-genealogy.md and claude/social-section-framing.md
+    # §3 and should be qualified in all three places at once - not this file's to fix.
+    # A parallel batch-11 pass reaches the opposite provenance conclusion (the contradiction
+    # printed in Sungenis & Bennett rather than in Bouw); this wording follows the live
+    # treatment, _b10_R11, which is the one deep.py loads. originator/year and real_source
+    # (Ellis 1978) are unresolved and move published figures: operator.
     originator="Gerardus Bouw", originator_work="Geocentricity", year="1992",
     real_source=None, verdict="SELF-CONTRADICTED",
-    note="Bouw — the movement's only credentialed astronomer — conceded his model is observationally equivalent to heliocentrism and must therefore be chosen on theological grounds. That concession removes the list's own claim to be scientific evidence."),
+    note="Bouw states the symmetry himself — dynamical proofs “are not proofs of anything; nor are they proofs against the geocentric universe” — and elsewhere in the same book calls the geocentric evidence overwhelming and reports his model as making predictions that experiments confirm. The list files the first claim as a proof while spending the second. Where the astronomical evidence runs out, at the Earth-versus-Galaxy gap, he names Scripture as what closes it."),
 
 "R12": dict(lane="A-REL", name="The Copernican principle is an unproven assumption",
     # Corrected 2026-08-10, work/year and note.
@@ -323,8 +418,18 @@ CLUSTERS = {
     note="Equivocates on 'level': a level surface is an equipotential surface, which on a rotating spheroid is curved. Newton derived the Earth's oblateness from that same premise in the Principia."),
 
 "B02": dict(lane="B", name="The horizon is flat and rises to eye level",
+    # note replaced 2026-08-11, anchored on the "B02" key (the originator= line is
+    # byte-identical across B02/B06/B07/D12; a positional replace on it is how the batch-7
+    # E03 correction landed on E01). render.py prints basis twice inside this entry, and
+    # the old sentence was the exact objection the treatment shows Rowbotham anticipated,
+    # reproduced with his own theodolite and answered with a lens-free instrument - our
+    # case at its weakest, stated on the skim path. NOT used: the earlier suggestion that
+    # "his own optics exempt the axis his own method uses", which he answers in the same
+    # section of the enlarged edition (pp. 203-204). The square-root clause is what the
+    # body rests on. year/originator_work are the operator's: the material is in the 1865
+    # book and the enlarged editions, and the 1849 pamphlet was not reached for review.
     originator="Samuel Rowbotham", originator_work="Zetetic Astronomy", year="1849",
-    real_source=None, verdict="REFUTED", note="Dip of horizon is measurable with a theodolite and grows with altitude."),
+    real_source=None, verdict="REFUTED", note="Rowbotham measured the theodolite dip himself and blamed the lenses; but the dip grows as the square root of the height, which no lens does."),
 
 "B03": dict(lane="B", name="Bedford Level / laser canal tests show no curvature",
     originator="Samuel Rowbotham", originator_work="Old Bedford Canal trials", year="1838",
@@ -361,9 +466,20 @@ CLUSTERS = {
     note="Rowbotham's own '8 inches per mile squared' is lifted from a surveying text — real arithmetic for the difference between true and apparent level. He quoted the correction and then denied the thing it corrects for."),
 
 "B07": dict(lane="B", name="Refraction is invoked ad hoc to rescue curvature",
+    # note and real_source 2026-08-11, anchored on the "B07" key, never on the originator=
+    # line (byte-identical across B02/B06/B07/D12). (1) The note asserted that refraction
+    # "was described before the dispute" with nothing to check it against; the treatment
+    # documents it (Lehn & van der Werf, Appl. Opt. 44:5624, 2005), so the basis line now
+    # carries the two dates. (2) real_source was null although the source names and
+    # reprints one - the same Britannica article already recorded under B06. It carries no
+    # year, so no dated-work figure moves. NOT changed here: year=1849, where the two
+    # reports disagree (1881 for the shilling-in-a-basin and the barometer control, 1865
+    # for the fuller Britannica extract) - an operator call, and an edition correction
+    # belongs in review/corrections.json, which this agent does not own.
     originator="Samuel Rowbotham", originator_work="Zetetic Astronomy", year="1849",
-    real_source=None, verdict="MISLEADING",
-    note="Refraction is independently measurable, was described before the dispute, and is used in the same form by surveyors who are not arguing about Earth's shape."),
+    real_source="Encyclopaedia Britannica article 'Levelling', as reprinted by Rowbotham — the Britannica edition it was taken from has not been identified",
+    verdict="MISLEADING",
+    note="Refraction is independently measurable and was described before the dispute — Tycho measured it and published in 1596, Gauss put the surveying coefficient near 0.13 from the Hannover triangulation of the 1820s — and it is used in the same form by surveyors who are not arguing about Earth's shape."),
 
 "B08": dict(lane="B", name="Star trails / Polaris fixed / southern circumpolar geometry",
     originator="Eric Dubay", originator_work="200 Proofs Earth Is Not a Spinning Ball", year="2015",
@@ -371,22 +487,66 @@ CLUSTERS = {
     note="Southern-hemisphere circumpolar star trails around a *southern* pole are impossible on any single-plane model. This is the item the flat model most clearly gets wrong."),
 
 "B09": dict(lane="B", name="Plumb lines are perpendicular everywhere",
+    # note replaced 2026-08-11, anchored on the "B09" key. "converges toward the centre"
+    # is not right and it rendered next to the verdict chip: the local vertical does not
+    # pass through the geocentre - on a smooth WGS84 ellipsoid it misses by up to 11.55
+    # arcminutes at latitude 45, and local deflections add tens of arcseconds on top. That
+    # gap is the cluster's whole subject and von Gumpach's circularity charge, so conceding
+    # it accurately is stronger than eliding it. The old wording also conflated deflection
+    # of the vertical (departure from the ellipsoid normal) with the convergence of
+    # neighbouring plumb lines. Left for the operator: year (the plumb-line passage is in
+    # the 1881 third edition, not the 1865 text searched - an edition correction needs a
+    # corrections.json entry), the Carpenter half of the attribution, and real_source.
     originator="Samuel Rowbotham", originator_work="Earth Not a Globe", year="1865",
-    real_source=None, verdict="REFUTED", note="Plumb lines point to the local gravity vector, which converges toward the centre. Measured by deflection-of-the-vertical surveys."),
+    real_source=None, verdict="REFUTED", note="Plumb lines follow local gravity, whose direction varies from place to place and is measured rather than assumed: deflection-of-the-vertical surveys read it against the star field to 0.1 arcsecond, and the Verrazzano-Narrows towers were built 41.275 mm farther apart at the top than at the base."),
 
 "B10": dict(lane="B", name="Sun and Moon appear the same size; solar diameter constant",
+    # note replaced 2026-08-11, anchored on the '"B10"' key and NOT on the originator=
+    # line (byte-identical across B02/B06/B07/D12 - the route by which the batch-7 E03
+    # correction landed on E01). The old note credited the Sun's 3.4% swing with producing
+    # both eclipse types. §1 of the treatment publishes the figures that contradict it:
+    # the Moon runs 29'26" to 33'30" against the Sun's 31'36" to 32'42", and the Moon's
+    # mean disc is the SMALLER of the two (31.07' against 31.97'), which is why a central
+    # eclipse is sometimes annular. The page was disagreeing with itself. The percentage
+    # figures the two reports proposed for the Moon's swing (~13.8% / ~14%) are not
+    # computed in the treatment, so the ranges are given instead. Origin fields and
+    # real_source, and the composite split (item 31 -> Winship 1899, 97/220 -> Carpenter
+    # 1885), are the operator's: they move published counts.
     originator="Samuel Rowbotham", originator_work="Earth Not a Globe", year="1865",
     real_source=None, verdict="MISLEADING",
-    note="Coincidence of angular size is real and well known. Solar angular diameter in fact varies ~3.4% annually — the reason we have both total and annular eclipses."),
+    note="Coincidence of angular size is real and well known. The Sun's disc does vary, 31′36″ to 32′42″; the Moon's varies over a wider range, 29′26″ to 33′30″, and its mean disc is the smaller of the two — which is why a central eclipse is sometimes annular."),
 
-"B11": dict(lane="B", name="Radar, LiDAR, photogrammetry and sonar assume a plane",
+"B11": dict(lane="B",
+    # name and note replaced 2026-08-11, anchored on the "B11" key. (1) The name promised
+    # an instrument the cluster does not contain: item 391 "LiDAR ECEF." is assigned to
+    # R08 (assign.py), correctly, and B11's four items are 217, 390, 392 and 400. The name
+    # renders in the H3 heading. (2) The basis line "All of these run on ellipsoidal
+    # datums" is true of 390 and 392 and is not the answer to 217 or 400 - a radar horizon
+    # is not a datum question and a sonar ray path is not a datum question - and the
+    # refutation printed beneath it opens by saying exactly that. The alternative wording
+    # proposed by the earlier pass ("every one of these fields publishes the limit of its
+    # own flat approximation") was not used: the treatment's own first paragraph splits the
+    # cluster two-and-two, and that is what the summary line should carry.
+    # originator/real_source stay None - the search confirmed untraced, and do NOT
+    # populate real_source with "WGS84, ITRF" by analogy with R08.
+    name="Radar, photogrammetry, SAR and sonar assume a plane",
     originator=None, originator_work=None, year=None, real_source=None,
-    verdict="MISLEADING", note="All of these run on ellipsoidal datums. Same convenience-frame error as R08."),
+    verdict="MISLEADING", note="Two of the four are datum questions and are answered at R08; a radar horizon and a sonar ray path are not, and are answered on the measurements."),
 
 "B12": dict(lane="B", name="Polar navigation and dead reckoning imply a dome/disc",
+    # note replaced 2026-08-11, anchored on the "B12" key. Two faults, both on the skim
+    # path: (a) the old note answered none of the cluster's three items, which are about
+    # charts, polar navigation practice and dead reckoning - the midnight-sun observation
+    # is a different argument; (b) "any disc model" is an unscoped universal, where what
+    # the December 2024 observation bears on is the north-centred disc of the
+    # Gleason/Rowbotham type. The replacement is the scale-free result the treatment turns
+    # on, which does reach all three items. The Campanella concession is unaffected and
+    # stays in the body. The originator (no Johnson text carrying a navigation argument was
+    # reached; a documented Rowbotham/Carpenter chain exists) moves items between people
+    # and is the operator's.
     originator="Charles K. Johnson", originator_work="Flat Earth News", year="1972",
     real_source=None, verdict="REFUTED",
-    note="Antarctic circumnavigation and the 24-hour midnight sun are incompatible with any disc model — as Jeran Campanella conceded on the December 2024 'Final Experiment' expedition."),
+    note="A degree of longitude measures 111.32 km at the equator and 78.85 km at 45°S, where every north-centred disc requires it to be longer in the south."),
 
 "B13": dict(lane="B", name="Mirage and optical ducting explain far sightings",
     originator=None, originator_work=None, year=None, real_source=None,
@@ -508,7 +668,16 @@ CLUSTERS = {
     real_source=None, verdict="NOT DEMONSTRATED",
     note="Every one of them held the Earth to be a *sphere*. Citing them supports geocentrism at best, and actively refutes the flat half of the list."),
 "D03": dict(lane="D", name="Geocentric/Ptolemaic models made accurate predictions",
-    originator="Robert Sungenis", originator_work="Galileo Was Wrong, Vol. II", year="2006",
+    # Volume corrected 2026-08-11, anchored on the "D03" key - the originator= line is
+    # byte-identical across D01, D02 and D03. The material is in VOLUME I in both
+    # arrangements: 2006 scan ch. 1 pp. 41-43 and ch. 4 pp. 210-212; seventh edition Vol. I
+    # ch. 1 pp. 40-41 and 55-56 and Vol. I ch. 2 "Objection #16". Vol. II in this project's
+    # settled reading is chs 7-13, the Michelson/Sagnac/Pioneer half, and none of this
+    # cluster is there. Same shape as the D15 correction of 2026-08-09. The originator and
+    # year do not survive checking either - three strands with three ancestries, the Venus
+    # answer quoted from Bouw 1992, fourteen years before our recorded year - but
+    # withdrawing them moves the traced/untraced totals, so that is filed for the operator.
+    originator="Robert Sungenis", originator_work="Galileo Was Wrong, Vol. I", year="2006",
     real_source=None, verdict="STANDARD PHYSICS",
     note="True, and the point: they were superseded *by measurement*, not by decree."),
 "D04": dict(lane="D", name="Axis mundi / world tree / omphalos symbolism",
@@ -553,8 +722,16 @@ CLUSTERS = {
     verdict="SELF-CONTRADICTED",
     note="The Dendera ceiling is a late-Ptolemaic *planisphere* incorporating the Babylonian/Greek zodiac — a projection of a spherical sky, and evidence of Hellenistic transmission rather than primordial hidden knowledge."),
 "D09": dict(lane="D", name="Geocentric astrology and zodiacal symbolism as evidence",
+    # note replaced 2026-08-11, anchored on the "D09" key. The old wording ran two
+    # different things together: astrological planetary positions are GEOCENTRIC apparent
+    # places, referred to the Earth's centre, and only the house cusps (plus the optional
+    # lunar-parallax correction) are TOPOCENTRIC, depending on the observer's latitude and
+    # longitude. §4 of the refutation printed beneath it keeps them apart deliberately, so
+    # the record was contradicting the entry it heads. originator/real_source are left
+    # None: the located ancestor (Hall 1928, already WRK-HALL-1928 in works.py) is an
+    # ancestor and not an origination, and filling either field moves published counts.
     originator=None, originator_work=None, year=None, real_source=None,
-    verdict="UNFALSIFIABLE", note="Astrology is geocentric because it is observational and topocentric, not because the Earth is fixed."),
+    verdict="UNFALSIFIABLE", note="Astrology is geocentric because it describes appearances: chart positions are apparent places referred to the Earth's centre, and only the house cusps and the optional lunar-parallax correction are topocentric. Neither requires the Earth to be fixed."),
 "D10": dict(lane="D", name="Heliocentrism has occult/masonic roots",
     originator="Marshall Hall", originator_work="The Earth is not Moving", year="1991",
     real_source=None, verdict="NOT DEMONSTRATED",
@@ -564,8 +741,17 @@ CLUSTERS = {
     real_source=None, verdict="NOT DEMONSTRATED",
     note="Rowbotham's founding move — 'observation is real, theory is imaginary'. It is the epistemology the whole genre rests on, and it is the thing actually being defended."),
 "D12": dict(lane="D", name="Simplicity / common sense favours a fixed Earth",
+    # note replaced 2026-08-11, anchored on the "D12" key, never on the originator= line
+    # (byte-identical across B02/B06/B07/D12). The old second clause reached only the flat
+    # branch, while item 83 says "geocentrism", which in this list's other lineage is a
+    # globe Earth with an ordinary southern sky - so the basis line under-described half
+    # its own cluster. The replacement carries both branches, as the refutation does.
+    # year/originator_work are NOT changed: the passage is in the 1865 book (Section XIV,
+    # pp. 180-181) and again in the 1881 third edition, and the 16-page 1849 pamphlet was
+    # not reachable - an edition correction that needs a corrections.json entry, which is
+    # the operator's to make.
     originator="Samuel Rowbotham", originator_work="Zetetic Astronomy", year="1849",
-    real_source=None, verdict="NOT DEMONSTRATED", note="Parsimony is not a measurement, and the flat/fixed model is not in fact simpler once it must account for the southern sky."),
+    real_source=None, verdict="NOT DEMONSTRATED", note="Parsimony is not a measurement. The plane leaves the southern sky unpaid, and turning the whole sky daily instead has to buy a rotating universe or an aether — the purchase this list calls a 'modern epicycle' when cosmologists make it."),
 "D13": dict(lane="D", name="Meaning, teleology and fine-tuning imply centrality",
     originator="Robert Sungenis", originator_work="The Principle (film)", year="2014",
     real_source=None, verdict="UNFALSIFIABLE", note="A claim about significance, not position."),
@@ -582,10 +768,21 @@ CLUSTERS = {
     originator=None, originator_work=None, year=None, real_source=None,
     verdict="UNFALSIFIABLE", note="Myth records how the sky looks, which is not in dispute."),
 "D17": dict(lane="D", name="An electromagnetic/toroidal dome centred on Earth",
+    # note replaced 2026-08-11, anchored on the "D17" key. "the number only comes out right
+    # on a globe" is false and it was live in docs/index.html in two places (render.py
+    # prints basis under the verdict chip and again as the Refutation summary): Schumann's
+    # ideal formula f_n = (c/2*pi*a)*sqrt(n(n+1)) with a = 6371 km gives 10.59 Hz against
+    # an observed 7.83 Hz, a 26% miss explained by finite ionospheric conductivity. The
+    # load is on the mode ratios, which contain no cavity size. The proposed opening
+    # sentence - that Sargent's model is real but is not the source of these three items -
+    # is NOT included here: it presumes the originator withdrawal, which moves published
+    # counts and is the operator's, and printing it under a meta line still reading "first
+    # published by Mark Sargent" would swap one self-contradiction for another. The
+    # treatment's past-tense disclosure sentence is likewise held until that lands.
     originator="Mark Sargent", originator_work="Flat Earth Clues", year="2015",
     real_source="Schumann resonance (real, and a consequence of a spherical cavity)",
     verdict="NOT DEMONSTRATED",
-    note="Sargent's enclosed-world model. The Schumann resonance frequency is derived from the Earth-ionosphere cavity treated as a *sphere* of radius 6371 km — the number only comes out right on a globe."),
+    note="The Schumann resonance is derived from the Earth-ionosphere cavity treated as a *sphere* of radius 6371 km; the ideal formula misses the observed 7.83 Hz by 26%, and the load sits on the mode ratios, which contain no cavity size."),
 "D19": dict(lane="D", name="Eclipse and lunar cycles are tuned to human timekeeping",
     # Verdict changed 2026-08-10, UNFALSIFIABLE -> MISLEADING, and the four origin fields
     # filled. UNFALSIFIABLE was chosen from the CLUSTER NAME: "tuned to human timekeeping"
@@ -790,13 +987,33 @@ CLUSTERS = {
          "by construction. The Sun's exact oblateness is still argued over in the 2025 "
          "literature, but a small stable flattening is what the standard picture expects, "
          "and MESSENGER broke its degeneracy with Mercury's perihelion."),
-"E15": dict(lane="E", name="VLBI, interferometry and Gaia reductions assume an Earth frame",
+"E15": dict(lane="E",
+    # name and note replaced 2026-08-11, anchored on the "E15" key, NEVER on the shared
+    # `originator=None, originator_work=None, year=None, real_source=None,` line, which is
+    # byte-identical across E14/E15/E16 and others. (1) "…assume an Earth frame" describes
+    # the R08 convenience-frame argument, while the entry's gloss says in terms that the
+    # claim is a circularity charge, not a frame-convention point, and the located source
+    # argues the stronger thing. (2) The old note's "microsecond precision" was not
+    # verified from anything read for the entry, and the note was silent on Gaia, one of
+    # the cluster's three items. Two name proposals were on file; the one kept names all
+    # three instruments, because a heading for a three-instrument cluster should not drop
+    # two of them. real_source stays None: ICRF3 (2020) and Gaia EDR3 would date this
+    # cluster and move the two-clocks figures, so it is the operator's.
+    name="VLBI, interferometry and Gaia reductions presuppose the Earth's motion",
     originator=None, originator_work=None, year=None, real_source=None,
     verdict="MISLEADING",
-    note="Same convenience-frame error as R08. VLBI is in fact one of the instruments that *measures* Earth orientation and rotation to microsecond precision."),
+    note="The reductions estimate the transformation between an Earth-fixed and a sky-fixed frame rather than assuming it; ICRF3 sessions observe tens to hundreds of sources each and measured the solar system's own galactic acceleration at 25 sigma, and Gaia's frame orientation and its 17-microarcsecond parallax bias are published corrections rather than hidden freedoms."),
 "E16": dict(lane="E", name="Meteor, bolide and micrometeor distributions",
+    # note replaced 2026-08-11, anchored on the "E16" key and NOT on the shared
+    # `originator=None, …` line (byte-identical across E14/E15/E16 - the batch-7 E01/E03
+    # misfire was manufactured exactly that way). The old note covered item 239 only, while
+    # the cluster bundles 238, 239 and 242 and the entry's verdict_challenge turns on 242
+    # being different in kind; a note that never mentions it misdescribes the chip it sits
+    # beside. Same shape as the E08 defect. real_source stays None deliberately: it feeds
+    # the "two clocks" median and the post-1950 lane-E tally, so adding the 2008-2020
+    # meteor literature is a dataset change and the operator's call.
     originator=None, originator_work=None, year=None, real_source=None,
-    verdict="STANDARD PHYSICS", note="Meteor-shower radiants and calendar fixity are consequences of Earth's orbit crossing debris streams — a heliocentric prediction."),
+    verdict="STANDARD PHYSICS", note="Shower dates are positions in the Earth's orbit, catalogued by solar longitude rather than by calendar. Meteorite-dropping bolides cluster near 18h local time, and the small-particle influx has six standing sources in a frame centred on the apex of the Earth's way."),
 "E17": dict(lane="E", name="Observed isotropy / Earth-centred fields imply we are the centre",
     originator=None, originator_work=None, year=None, real_source=None,
     verdict="MISLEADING",

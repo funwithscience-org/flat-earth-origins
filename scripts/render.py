@@ -94,7 +94,12 @@ def alink(cid):
 
 def srcs(lst):
     if not lst: return ""
-    li = "".join(f'<li><a href="{e(s["url"])}">{e(s["label"])}</a></li>' for s in lst)
+    # `note` says what the source was used FOR. On a provenance page that is the
+    # part worth reading, so it is published rather than kept in the research log.
+    li = "".join(f'<li><a href="{e(s["url"])}">{e(s["label"])}</a>'
+                 + (f' <span style="color:var(--ink-3)">&mdash; {e(s["note"])}</span>'
+                    if s.get("note") else "")
+                 + "</li>" for s in lst)
     return ('<p style="font-family:var(--sans);font-size:.82rem;color:var(--ink-3);'
             f'margin:.8rem 0 .2rem"><strong>Sources</strong></p>'
             f'<ul style="font-size:.85rem;margin-top:0">{li}</ul>')
@@ -351,11 +356,19 @@ def tab_people():
             f'{S["items_traceable_to_a_named_originator"]} of the {S["total_items"]} items trace '
             f'to <strong>{S["named_originators"]}</strong> named originators across two '
             f'traditions that were never reconciled with each other.</p>'
-            f'<div class="tally"><strong>Progress: {S["bios_worked"]} of {len(PEOPLE)} '
-            f'biographies worked.</strong> Stubs carry verified identity and sources only &mdash; '
-            f'no interpretation until the formation / had / ignored analysis is written and '
-            f'reviewed.</div>'
-            f'<h2>By lineage</h2><table class="stacked-card-table"><thead><tr><th>Lineage</th>'
+            + (f'<div class="tally"><strong>All {len(PEOPLE)} biographies are '
+               f'worked.</strong> Each carries where the position came from, the data they '
+               f'genuinely had, the data they passed over, the strongest form of their case '
+               f'and why it still fails &mdash; sourced per assertion. Most of them describe '
+               f'themselves, or are best described, as carriers rather than authors; '
+               f'{w(sum(1 for x in PEOPLE.values() if not x["argument_count"]))} of the '
+               f'{len(PEOPLE)} originate nothing on this list at all.</div>'
+               if S["bios_worked"] == len(PEOPLE) else
+               f'<div class="tally"><strong>Progress: {S["bios_worked"]} of {len(PEOPLE)} '
+               f'biographies worked.</strong> Stubs carry verified identity and sources only '
+               f'&mdash; no interpretation until the formation / had / ignored analysis is '
+               f'written and reviewed.</div>')
+            + f'<h2>By lineage</h2><table class="stacked-card-table"><thead><tr><th>Lineage</th>'
             f'<th style="width:7rem">Arguments</th><th style="width:5rem">Items</th>'
             f'<th style="width:5rem">Share</th></tr></thead><tbody>{lin_rows}</tbody></table>'
             f'<h2>By author</h2><table class="stacked-card-table"><thead><tr><th>Person</th>'
@@ -476,12 +489,21 @@ def tab_overview():
         f'all.</span><span class="ds-fm-status ds-fm-status-partial">'
         f'<span class="ds-fm-status-num">{S["hedge_checked"]}/{S["distinct_arguments"]}</span>'
         f'<span class="ds-fm-status-sub">{S["hedge_drifted"]} overstated</span></span></li>'
+        # This row read "pending" while stubs existed. It must not keep saying "the rest
+        # carry identity only" once there is no rest — the status text is derived from the
+        # count for the same reason the count is derived from the data.
         f'<li class="ds-fm-row"><span class="ds-fm-condition">Biographies written</span>'
-        f'<span class="ds-fm-desc">The rest carry verified identity and sources only, with no '
-        f'interpretation.</span><span class="ds-fm-status ds-fm-status-pending">'
-        f'<span class="ds-fm-status-num">{S["bios_worked"]}/{len(PEOPLE)}</span>'
-        f'<span class="ds-fm-status-sub">pending</span></span></li>'
-        f'</ul></div>'
+        + (f'<span class="ds-fm-desc">Every named originator now carries formation, what they '
+           f'had, what they passed over, a steelman and what descends from them. Sources are '
+           f'per-assertion.</span><span class="ds-fm-status">'
+           f'<span class="ds-fm-status-num">{S["bios_worked"]}/{len(PEOPLE)}</span>'
+           f'<span class="ds-fm-status-sub">complete</span></span></li>'
+           if S["bios_worked"] == len(PEOPLE) else
+           f'<span class="ds-fm-desc">The rest carry verified identity and sources only, with no '
+           f'interpretation.</span><span class="ds-fm-status ds-fm-status-pending">'
+           f'<span class="ds-fm-status-num">{S["bios_worked"]}/{len(PEOPLE)}</span>'
+           f'<span class="ds-fm-status-sub">pending</span></span></li>')
+        + f'</ul></div>'
         # ── THE TWO CLOCKS ────────────────────────────────────────────────
         # The scorecard above counts. This says what the count MEANS, which the page
         # was not doing: it read as a tally with no thesis attached. Every figure here
@@ -767,8 +789,14 @@ def tab_method():
         '<tr><td>2026-08-02</td><td>Restructured to a tabbed review over a single canonical corpus '
         '(<code>PER-</code> people, <code>WRK-</code> works, <code>ARG-</code> arguments, '
         '<code>ITEM-</code> list entries). Tabs are views; nothing is duplicated. Theme pinned '
-        f'light. First argument at full treatment ({S["arguments_at_full_depth"]}); first '
-        f'biographies worked ({S["bios_worked"]}).</td></tr>'
+        # A dated changelog row must NOT carry a live-derived figure. This one interpolated
+        # today's counts into a 2026-08-02 entry, so it silently rewrote history every build:
+        # it claimed 19 biographies on a day there were two. Live counts belong in the
+        # construction-status module above, which is about now.
+        'light. First arguments at full treatment; first biographies worked.</td></tr>'
+        f'<tr><td>2026-08-11</td><td>All {len(PEOPLE)} biographies worked: formation, the data '
+        f'they had, the data they passed over, steelman and legacy, sourced per assertion. '
+        f'Twenty-seven corrections applied to argument records in the same pass.</td></tr>'
         '<tr><td>2026-08-02</td><td>Full item-by-item provenance pass over all 461 items. '
         '<strong>Correction:</strong> the scaffold&rsquo;s estimated family counts were replaced '
         'with measured counts; family B was overestimated roughly twofold and family A '

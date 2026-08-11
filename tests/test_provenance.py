@@ -323,6 +323,36 @@ for p in worked:
     check(f"{p['id']} has a kernel with both halves",
           bool(p["kernel"]) and bool(p["kernel"]["why_it_doesnt_save_claim"]))
     check(f"{p['id']} cites sources", len(p.get("sources", [])) >= 2)
+    # Seventeen bios were integrated by a script from seventeen agents' structured
+    # returns. Three wire-formats went in; these are the artefacts that survive a bad
+    # normalisation and still look fine in a diff.
+    _fields = [p["role"], p["dates"], p.get("formation") or "", p.get("had") or "",
+               p.get("ignored") or "", p.get("legacy") or "",
+               p["kernel"]["description"], p["kernel"]["why_it_doesnt_save_claim"]]
+    check(f"{p['id']} carries no CDATA or escaped-tag wrapper",
+          not any(("CDATA" in f) or re.search(r"&lt;/?(p|strong|em|br)\b", f)
+                  for f in _fields))
+    check(f"{p['id']} kernel halves are not the renderer's own headings",
+          not re.match(r"(?i)\s*(<p>)?<strong>\s*(the kernel|description|why it)",
+                       p["kernel"]["description"]))
+    # `role` and `dates` are escaped on render, so markup in them prints as source.
+    check(f"{p['id']} role and dates are plain text",
+          not any(re.search(r"<[a-z/]|&[a-z]+;", x) for x in (p["role"], p["dates"])))
+    check(f"{p['id']} dates fit the heading they render in", len(p["dates"]) <= 70,
+          len(p["dates"]))
+check("every biography is worked", len(worked) == len(PEOPLE),
+      [p["id"] for p in PEOPLE.values() if p["bio_status"] != "worked"])
+check("the People tab publishes the biography count it actually has",
+      f"All {len(PEOPLE)} biographies are worked" in PAGE)
+_biorow = PAGE.split("Biographies written</span>")[-1][:600]
+check("the construction module no longer calls biographies pending",
+      "pending" not in _biorow and f'{S["bios_worked"]}/{len(PEOPLE)}' in _biorow,
+      _biorow[:160])
+# The 2026-08-02 changelog row used to interpolate today's derived counts, so every
+# build rewrote what happened that day. A dated row must be inert.
+_hist = PAGE.split("<h2>Version history</h2>")[-1]
+check("dated changelog rows do not restate today's live biography count",
+      f"biographies worked ({S['bios_worked']})" not in _hist)
 check("every person carries at least one source",
       all(p.get("sources") for p in PEOPLE.values()),
       [p["id"] for p in PEOPLE.values() if not p.get("sources")])
@@ -398,8 +428,24 @@ check("does not name Nathan Oakley (no citable source)",
       "Oakley" not in PAGE)
 check("does not name Paul Ellwanger (not a geocentrist)",
       "Ellwanger" not in PAGE)
-check("does not claim Dubay plagiarised",
-      "plagiar" not in PAGE.lower())
+# "plagiar" used to be banned outright, which worked only while nothing on the page
+# discussed plagiarism at all. The Dubay writeup now has to say that the PROTOCOLS are
+# plagiarised from Joly — that IS the provenance finding. So the guard has to protect
+# the thing it was actually for: the word must never land on a person. Sentence-scoped,
+# because a whole-page substring test cannot tell "the text is plagiarised" from
+# "he plagiarised".
+_blocks = re.sub(r"</?(li|p|div|br|h[1-6]|td|tr|summary|details)\b[^>]*>", " . ", PAGE)
+_flat = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", _blocks))
+_surnames = {p["name"].split()[-1] for p in PEOPLE.values()} | {"Dubay"}
+_bad = []
+for _m in re.finditer(r"plagiar", _flat, re.I):
+    _s = _flat.rfind(".", 0, _m.start()) + 1
+    _e = _flat.find(".", _m.end())
+    _sent = _flat[_s:_e if _e > 0 else len(_flat)]
+    _bad += [f"{n}: {_sent.strip()[:90]}" for n in _surnames if n in _sent]
+check("plagiarism is never attributed to a person, only to a text", not _bad, _bad[:2])
+check("the source-vs-person distinction is stated where plagiarism is discussed",
+      "a statement about a source, not about the man who cited it" in _flat)
 # E01 (CMB axis of evil) is a designated careful case. Whatever depth it is
 # rendered at, the page must concede the significance debate is unresolved —
 # overclaiming here would be this review's own worst error.

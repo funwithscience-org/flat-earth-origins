@@ -29,14 +29,23 @@ M=[
  ("originator silently changed",'clusters','originator="Eric Dubay"','originator="Samuel Rowbotham"'),
  ("a cluster's lane changed",'clusters','"B08": dict(lane="B"','"B08": dict(lane="E"'),
  ("pre-modern given an originator",'clusters','"C02": dict(lane="C"','"C02": dict(lane="C", originator_OVERRIDE="x"'),
- ("an item reassigned",'assign','    1: "A22"','    1: "A21"'),
+ ("an item reassigned",'assign','1:"A01",2:"A02"','1:"A02",2:"A02"'),
  ("strapline reverts to the false claim",'render',"{S['total_items']} claims sorted by where","tracing {S['total_items']} claims back to"),
  ("'most' claimed of a minority",'render',"Most of those items rest on something published","Nearly all of those items rest on something published"),
  ("ninety-year claim reinstated",'render','experimental authority in this tradition is','tradition has not produced a new experiment in about ninety years and the authority is'),
- ("Knodel called competently run",'render','a sound design, the right instrument','competently run, the right instrument'),
+ ("Knodel called competently run",'render',"design, the right instrument for the quantity","measurement, competently run, on the quantity"),
  ("flow balance assert disabled",'build','assert sum(b["itemCount"] for b in _bands)','assert True or sum(b["itemCount"] for b in _bands)'),
- ("a person's lineage flipped",'people','"lineage": "Tychonian"','"lineage": "Zetetic"'),
+ ("a person's lineage flipped",'people','lineage="Tychonian",','lineage="Zetetic",'),
  ("SOURCE NOT LOCATED removed",'render',"'SOURCE NOT LOCATED'","''"),
+ # the 2026-08-11 biography integration: seventeen agent returns in three wire-formats,
+ # normalised by one script. These are the failure modes that survive a diff read.
+ ("a bio reverts to stub",'people','    bio_status="worked",\n    formation=(\n        "A signwriter','    bio_status="stub",\n    formation=(\n        "A signwriter'),
+ ("escaped markup left in a bio",'people','"A signwriter in Dover','"&lt;p&gt;A signwriter in Dover'),
+ ("CDATA wrapper left in a bio",'people','"A signwriter in Dover','"<![CDATA[A signwriter in Dover'),
+ ("markup leaks into an escaped field",'people','role=(\n        "Institutional, not originating','role=(\n        "<em>Institutional</em>, not originating'),
+ ("kernel keeps the renderer's own heading",'people','description=(\n            "For the whole of his active career','description=(\n            "<strong>The kernel.</strong> For the whole of his active career'),
+ ("a dated changelog row goes live again",'render',"'light. First arguments at full treatment; first biographies worked.</td></tr>'",'f\'light. First arguments at full treatment; first biographies worked ({S["bios_worked"]}).</td></tr>\''),
+ ("plagiarism attributed to a person",'people','"is a statement about a source','"is what Dubay plagiarised. That is a statement about a source'),
 ]
 assert clean(), "tree not green before starting"
 res=[]

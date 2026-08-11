@@ -8,7 +8,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 7,Stellar aberration optical not mechanical.,A,A-EXP,ARG-A04,A04,"Stellar aberration is optical/parallax, not Earth's motion",Walter van der Kamp,Bulletin of the Tychonian Society,1970s,James Bradley 1729,REFUTED
 8,Constant stellar angular sizes.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. III (as “Parallax”)",1881,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
 9,Uniform star distribution in all directions.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
-10,Michelson–Pease null rotation detection.,A,A-EXP,ARG-A11,A11,Michelson–Pease–Pearson null result,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Pease & Pearson 1929, JOSA 18(3):181",STANDARD PHYSICS
+10,Michelson–Pease null rotation detection.,A,A-EXP,ARG-A11,A11,Michelson–Pease–Pearson null result,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"Michelson, Pease & Pearson, Nature 123:88 (19 Jan 1929); J. Opt. Soc. Am. 18(3):181–182 (Mar 1929) — the two printings state different limits",STANDARD PHYSICS
 11,Foucault pendulum explainable by rotating firmament.,A,A-EXP,ARG-A06,A06,Foucault pendulum explained by a rotating firmament,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Léon Foucault 1851,STANDARD PHYSICS
 12,Gyroscope anomalies indicating no rotation.,A,A-EXP,ARG-A07,A07,Gyroscopes / ring-laser gyros show no Earth rotation,Bob Knodel,GlobeBusters / Behind the Curve,2018,Sagnac 1913; standard ring-laser INS engineering,SELF-CONTRADICTED
 13,Aircraft navigation not compensating for spin.,A,A-EXP,ARG-A08,A08,Aircraft don't compensate for spin; east/west flight times symmetric,Samuel Rowbotham,Earth Not a Globe,1865,Inertial navigation systems measure Earth rate on every flight,REFUTED
@@ -21,7 +21,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 20,Time dilation explainable without orbital motion.,A,A-EXP,ARG-A18,A18,GPS/time-dilation corrections work in an Earth frame,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,GPS relativistic clock corrections,STANDARD PHYSICS
 21,Ancient cosmologies uniformly geocentric.,D,D,ARG-D01,D01,All ancient cultures were geocentric,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,REFUTED
 22,Tycho Brahe's hybrid model.,D,D,ARG-D02,D02,"Named ancient authorities (Plato, Aristotle, Ptolemy, Tycho)",Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,NOT DEMONSTRATED
-23,Ptolemaic predictive accuracy.,D,D,ARG-D03,D03,Geocentric/Ptolemaic models made accurate predictions,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,STANDARD PHYSICS
+23,Ptolemaic predictive accuracy.,D,D,ARG-D03,D03,Geocentric/Ptolemaic models made accurate predictions,Robert Sungenis,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
 24,Church consistency with Scripture.,C,C,ARG-C07,C07,"Patristic, scholastic and church-tradition affirmation",Robert Sungenis,"Galileo Was Wrong, Vol. III (three-volume edition)",2013,"Robert Bellarmine to Paolo Antonio Foscarini, 12 April 1615",NOT DEMONSTRATED
 25,Pre-Copernican universal geocentrism.,D,D,ARG-D01,D01,All ancient cultures were geocentric,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,REFUTED
 26,Relativity permits stationary Earth frame.,A,A-REL,ARG-R01,R01,General covariance permits a stationary-Earth frame,Walter van der Kamp,De Labore Solis: Airy's Failure Reconsidered,1988,"Einstein, general relativity (1915)",STANDARD PHYSICS
@@ -215,11 +215,11 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 214,No coriolis coding in drones.,A,A-EXP,ARG-A09,A09,Coriolis effects reassigned to a rotating sky or to electromagnetism,Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,Gaspard-Gustave de Coriolis 1835,STANDARD PHYSICS
 215,Marine sextant geocentric.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
 216,Radar ECEF coordinates.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-217,Flat radar horizon.,B,B,ARG-B11,B11,"Radar, LiDAR, photogrammetry and sonar assume a plane",,,,,MISLEADING
-218,Venus transits epicyclic math.,D,D,ARG-D03,D03,Geocentric/Ptolemaic models made accurate predictions,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,STANDARD PHYSICS
+217,Flat radar horizon.,B,B,ARG-B11,B11,"Radar, photogrammetry, SAR and sonar assume a plane",,,,,MISLEADING
+218,Venus transits epicyclic math.,D,D,ARG-D03,D03,Geocentric/Ptolemaic models made accurate predictions,Robert Sungenis,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
 219,Solar noon symmetry.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
 220,Constant solar diameter.,B,B,ARG-B10,B10,Sun and Moon appear the same size; solar diameter constant,Samuel Rowbotham,Earth Not a Globe,1865,,MISLEADING
-221,Refraction invoked for curvature.,B,B,ARG-B07,B07,Refraction is invoked ad hoc to rescue curvature,Samuel Rowbotham,Zetetic Astronomy,1849,,MISLEADING
+221,Refraction invoked for curvature.,B,B,ARG-B07,B07,Refraction is invoked ad hoc to rescue curvature,Samuel Rowbotham,Zetetic Astronomy,1849,"Encyclopaedia Britannica article 'Levelling', as reprinted by Rowbotham — the Britannica edition it was taken from has not been identified",MISLEADING
 222,Repeated long-range visibility.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. II",1881,,MISLEADING
 223,Surveying plane assumption.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Earth Not a Globe,1865,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
 224,No rotation proof mechanical.,A,A-EXP,ARG-A26,A26,No orbital acceleration or rotation has ever been directly detected,Walter van der Kamp,De Labore Solis,1988,,SELF-CONTRADICTED
@@ -230,7 +230,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 229,Gyrocompass sky-locked.,A,A-EXP,ARG-A19,A19,"Gyrocompasses are sky-locked, not Earth-locked",,,,Gyrocompass operating principle,SELF-CONTRADICTED
 230,Stellar scintillation isotropy.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
 231,Nav systems Earth-fixed.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-232,Gravimeter constancy.,A,A-EXP,ARG-A15,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED
+232,Gravimeter constancy.,A,A-EXP,ARG-A15,A15,"Gravimeters, pendulum clocks and torsion balances register nothing of the Earth's motion",,,,,NOT DEMONSTRATED
 233,Tidal nodes sky torque.,A,A-EXP,ARG-A27,A27,Tides explained by sky/firmament torque,,,,,NOT DEMONSTRATED
 234,Magnetosphere Earth-centered.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
 235,Aurora curtains Earth-focused.,E,E,ARG-E17,E17,Observed isotropy / Earth-centred fields imply we are the centre,,,,,MISLEADING
@@ -247,8 +247,8 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 246,Equatorial calm belts.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 247,Trade winds sun-driven.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
 248,Bird migration sky cues.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
-249,Pendulum building sensitivity.,A,A-EXP,ARG-A15,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED
-250,Torsion balance null variation.,A,A-EXP,ARG-A15,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED
+249,Pendulum building sensitivity.,A,A-EXP,ARG-A15,A15,"Gravimeters, pendulum clocks and torsion balances register nothing of the Earth's motion",,,,,NOT DEMONSTRATED
+250,Torsion balance null variation.,A,A-EXP,ARG-A15,A15,"Gravimeters, pendulum clocks and torsion balances register nothing of the Earth's motion",,,,,NOT DEMONSTRATED
 251,Seiche oscillations periodic.,A,A-EXP,ARG-A27,A27,Tides explained by sky/firmament torque,,,,,NOT DEMONSTRATED
 252,Tidal bores moon visual timing.,A,A-EXP,ARG-A27,A27,Tides explained by sky/firmament torque,,,,,NOT DEMONSTRATED
 253,Solar tables geocentric.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
@@ -263,7 +263,7 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 262,Laser canal tests flat.,B,B,ARG-B03,B03,Bedford Level / laser canal tests show no curvature,Samuel Rowbotham,Old Bedford Canal trials,1838,Wallace 1870; Oldham 1901,REFUTED
 263,Mirage optical ducts.,B,B,ARG-B13,B13,Mirage and optical ducting explain far sightings,,,,,SELF-CONTRADICTED
 264,No naked-eye parallax.,A,A-EXP,ARG-A05,A05,No measurable stellar parallax,Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. III (as “Parallax”)",1881,"Bessel 1838 (61 Cygni, 0.314″); ESA Gaia DR3",REFUTED
-265,Planet brightness epicycles.,D,D,ARG-D03,D03,Geocentric/Ptolemaic models made accurate predictions,Robert Sungenis,"Galileo Was Wrong, Vol. II",2006,,STANDARD PHYSICS
+265,Planet brightness epicycles.,D,D,ARG-D03,D03,Geocentric/Ptolemaic models made accurate predictions,Robert Sungenis,"Galileo Was Wrong, Vol. I",2006,,STANDARD PHYSICS
 266,Libration perspective optical.,A,A-EXP,ARG-A22,A22,The sky's daily appearance is equally described by a moving sky,Claudius Ptolemy (via the modern movement),Almagest,c. 150 CE,,STANDARD PHYSICS
 267,Constellation stability.,B,B,ARG-B08,B08,Star trails / Polaris fixed / southern circumpolar geometry,Eric Dubay,200 Proofs Earth Is Not a Spinning Ball,2015,,REFUTED
 268,Wind bands sun-synced.,A,A-EXP,ARG-A10,A10,No wind or drag is felt from the Earth's motion,Samuel Rowbotham,"Earth Not a Globe (3rd ed., enl.)",1881,,REFUTED
@@ -343,9 +343,9 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 342,Variance anomalies.,E,E,ARG-E02,E02,"CMB hemispheric asymmetry, Cold Spot, parity and variance anomalies",Robert Sungenis & Rick DeLano,The Principle (film),2014,"Planck 2018 VII, A&A 641:A7; Schwarz et al. 2016, CQG 33:184001",MISLEADING
 343,Kinematic quadrupole debate.,E,E,ARG-E03,E03,"CMB dipole, dark flow and bulk-flow directionality",Robert Sungenis & Rick DeLano,"Galileo Was Wrong (7th ed., 2013), Vol. I ch. 3 and Vol. II ch. 10",2013,"Kashlinsky et al. 2008; Planck Int. XIII 2014, A&A 561:A97",REFUTED
 344,Planck systematics Earthward.,E,E,ARG-E01,E01,CMB 'Axis of Evil' aligns with Earth / the ecliptic,Robert Sungenis & Rick DeLano,The Principle (film),2014,"Land & Magueijo 2005, PRL 95:071301; de Oliveira-Costa et al. 2004; Schwarz et al. 2004",MISLEADING
-345,VLBI Earth-fixed.,E,E,ARG-E15,E15,"VLBI, interferometry and Gaia reductions assume an Earth frame",,,,,MISLEADING
-346,Interferometry ground assumption.,E,E,ARG-E15,E15,"VLBI, interferometry and Gaia reductions assume an Earth frame",,,,,MISLEADING
-347,Gaia reduction flexible.,E,E,ARG-E15,E15,"VLBI, interferometry and Gaia reductions assume an Earth frame",,,,,MISLEADING
+345,VLBI Earth-fixed.,E,E,ARG-E15,E15,"VLBI, interferometry and Gaia reductions presuppose the Earth's motion",,,,,MISLEADING
+346,Interferometry ground assumption.,E,E,ARG-E15,E15,"VLBI, interferometry and Gaia reductions presuppose the Earth's motion",,,,,MISLEADING
+347,Gaia reduction flexible.,E,E,ARG-E15,E15,"VLBI, interferometry and Gaia reductions presuppose the Earth's motion",,,,,MISLEADING
 348,Zodiacal cloud symmetry.,E,E,ARG-E10,E10,Zodiacal dust and Kuiper structure show ecliptic symmetry,,,,,STANDARD PHYSICS
 349,Kuiper clumps ecliptic.,E,E,ARG-E10,E10,Zodiacal dust and Kuiper structure show ecliptic symmetry,,,,,STANDARD PHYSICS
 350,Dust inflow apex mismatch.,E,E,ARG-E10,E10,Zodiacal dust and Kuiper structure show ecliptic symmetry,,,,,STANDARD PHYSICS
@@ -388,17 +388,17 @@ item_no,text,family,lane,argument,cluster_id,cluster_name,originator,originator_
 387,Highways horizon.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
 388,Wind farm layout flat.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED
 389,Drone RTK Earth grid.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-390,Photogrammetry planar.,B,B,ARG-B11,B11,"Radar, LiDAR, photogrammetry and sonar assume a plane",,,,,MISLEADING
+390,Photogrammetry planar.,B,B,ARG-B11,B11,"Radar, photogrammetry, SAR and sonar assume a plane",,,,,MISLEADING
 391,LiDAR ECEF.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-392,SAR interferometry.,B,B,ARG-B11,B11,"Radar, LiDAR, photogrammetry and sonar assume a plane",,,,,MISLEADING
+392,SAR interferometry.,B,B,ARG-B11,B11,"Radar, photogrammetry, SAR and sonar assume a plane",,,,,MISLEADING
 393,Seismology Earth-fixed.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
 394,Volcano infrasound triangulation.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
 395,Mining surveys flat.,B,B,ARG-B06,B06,Surveyors assume a plane and make no 'allowance',Samuel Rowbotham,Earth Not a Globe,1865,Encyclopaedia Britannica article 'Levelling',SELF-CONTRADICTED
 396,Architecture plumb/level universal.,B,B,ARG-B09,B09,Plumb lines are perpendicular everywhere,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
 397,Skyscraper vertical stable.,B,B,ARG-B09,B09,Plumb lines are perpendicular everywhere,Samuel Rowbotham,Earth Not a Globe,1865,,REFUTED
-398,Pendulum clocks stable.,A,A-EXP,ARG-A15,A15,"Torsion balances, gravimeters and pendulum clocks show no variation",,,,,NOT DEMONSTRATED
+398,Pendulum clocks stable.,A,A-EXP,ARG-A15,A15,"Gravimeters, pendulum clocks and torsion balances register nothing of the Earth's motion",,,,,NOT DEMONSTRATED
 399,GNSS pseudorange Earth clocks.,A,A-REL,ARG-R08,R08,"Practical systems use Earth-fixed coordinates, therefore Earth is fixed",Robert Sungenis & Robert Bennett,"Galileo Was Wrong, Vol. I",2006,"WGS84, ITRF, ECEF/ECI, nautical almanacs",MISLEADING
-400,Bathymetry sonar straight.,B,B,ARG-B11,B11,"Radar, LiDAR, photogrammetry and sonar assume a plane",,,,,MISLEADING
+400,Bathymetry sonar straight.,B,B,ARG-B11,B11,"Radar, photogrammetry, SAR and sonar assume a plane",,,,,MISLEADING
 401,Ship optical range.,B,B,ARG-B04,B04,"Long-range visibility of ships, lighthouses and towers",Samuel Rowbotham,"Zetetic Astronomy, 3rd ed. enl. (1881), ch. II",1881,,MISLEADING
 402,Harbor mirage charts.,B,B,ARG-B13,B13,Mirage and optical ducting explain far sightings,,,,,SELF-CONTRADICTED
 403,Tunnel breakthroughs align.,B,B,ARG-B05,B05,"Engineering makes no curvature allowance (canals, rail, pipelines, bridges)",William Carpenter,One Hundred Proofs that the Earth Is Not a Globe,1885,,REFUTED

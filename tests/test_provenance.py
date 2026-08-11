@@ -124,6 +124,15 @@ check("the two 'pre-modern' quantities are genuinely different and both survive"
       _lin["Pre-modern, appropriated"] != _lin["Older than the movement"],
       (_lin.get("Pre-modern, appropriated"), _lin.get("Older than the movement")))
 
+# BAND VALUES, not just their sum. A mutation test flipped one person's lineage from
+# Tychonian to Zetetic and NOTHING went red: the sum is always 461, so a check on the
+# sum cannot see items moving between bands. Those bands are the flow graphic on the
+# Overview, so 164 and 133 are published figures with a picture drawn from them.
+EXPECT_LINEAGE = {"Tychonian (geocentric) lineage": 164, "Zetetic (flat-earth) lineage": 133,
+                  "(untraced)": 97, "Esoteric / Traditionalist literature": 31,
+                  "Pre-modern, appropriated": 20, "Older than the movement": 16}
+check("lineage band VALUES match the published flow graphic", _lin == EXPECT_LINEAGE, _lin)
+
 lane = collections.Counter(r["lane"] for r in ROWS)
 EXPECT_LANE = {"A-EXP": 101, "A-REL": 81, "B": 54, "C": 69, "D": 83, "E": 73}
 check("lane item counts match published figures", dict(lane) == EXPECT_LANE, dict(lane))
@@ -251,6 +260,25 @@ check("SOURCE NOT LOCATED survives in the renderer",
       "SOURCE NOT LOCATED" in PAGE)
 # The genealogy half must stay empty until edges are cited. If it ever fills without
 # every edge carrying a source, this is the check that should have stopped it.
+# THE GUARD ITSELF NEEDS A GUARD. A mutation test on 2026-08-11 disabled build.py's
+# band-balance assert — the one that withholds the flow graphic rather than draw a
+# picture that silently rebalances — and NOTHING WENT RED. Every other check here reads
+# the emitted payload, and the payload is fine while the data is fine; the assert only
+# earns its keep on the day the data is not. So a safety assert with no test that it is
+# still enabled is a safety assert that can be deleted in silence.
+#
+# This is weaker than the checks around it, and worth being honest about: it asserts the
+# guard is PRESENT in source, not that it FIRES. Proving it fires would mean building a
+# deliberately unbalanced corpus, which is a bigger harness than the risk justifies. The
+# balance itself is checked above; this is here so the guard cannot quietly vanish.
+_build_src = open(os.path.join(ROOT, "scripts", "build.py"), encoding="utf-8").read()
+check("build.py still refuses to emit unbalanced flow bands",
+      'assert sum(b["itemCount"] for b in _bands) == summary["total_items"]' in _build_src)
+check("the renderer still has a branch that withholds the graphic",
+      "fe-flow-fail" in open(os.path.join(ROOT, "scripts", "render.py"), encoding="utf-8").read())
+check("Knodel is still described as a sound DESIGN, not a competent run",
+      "sound design, the right instrument" in PAGE and "competently run" not in PAGE)
+
 check("no genealogy edge ships without a source record",
       all(e.get("sources") for e in G["genealogy"]["edges"]),
       [e.get("id") for e in G["genealogy"]["edges"] if not e.get("sources")])

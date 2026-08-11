@@ -404,7 +404,6 @@ for _m in ("_b10_A08",
            "_b10_A15",
            "_b10_A19",
            "_b10_A27",
-           "_b10_B02",
            "_b10_B07",
            "_b10_B09",
            "_b10_B11",
@@ -412,4 +411,31 @@ for _m in ("_b10_A08",
            "_b10_R11"):
     for _k, _v in __import__(_m).ENTRY.items():
         assert _k not in DEEP, f"batch10 collision: {_k}"
+        DEEP[_k] = _v
+
+# ---- batch 11 (2026-08-11) ------------------------------------------
+# Fourteen written, twelve merged. R11 and B09 were written twice (see f23ca8f)
+# and the batch-10 versions are kept: more sources, comparable structure. B02 is
+# taken from THIS batch instead — 10 sources against 8, thirteen refutation
+# sections against five — so _b10_B02 is dropped from the block above.
+#
+# THE DOUBLE-BOOKING PAID FOR ITSELF, WHICH DOES NOT EXCUSE IT. Two agents worked
+# each of the three in ignorance of the other, and all three pairs independently
+# returned the SAME compression drift_type — force_upgraded, scope_widened,
+# scope_widened. That is the only inter-rater check this project has ever run on
+# the hedge-rule classification, and it came back 3 for 3. It was an accident.
+for _m in ("_b11_A14",
+           "_b11_A16",
+           "_b11_A21",
+           "_b11_B02",
+           "_b11_B10",
+           "_b11_B12",
+           "_b11_D03",
+           "_b11_D09",
+           "_b11_D17",
+           "_b11_E15",
+           "_b11_E16",
+           "_b11_R05"):
+    for _k, _v in __import__(_m).ENTRY.items():
+        assert _k not in DEEP, f"batch11 collision: {_k}"
         DEEP[_k] = _v

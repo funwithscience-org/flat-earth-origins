@@ -122,7 +122,10 @@ Research notes for whoever picks this up next.
    So a transit prediction is not a thing epicyclic tables were in a position to make,
    and saying so needs no polemic.
 
-6. THE HEDGE RULE ON OUR SIDE — THE ONE SENTENCE THAT MUST NOT BE TRUNCATED. Barbour,
+6. THE HEDGE RULE ON OUR SIDE — TWO SENTENCES THAT MUST NOT BE TRUNCATED. The second is
+   the "As it stands..." sentence and its "once Copernicus' system was seized and
+   promoted..." clause; see the TRUNCATION DEFECT paragraph in note 9, which is where
+   this entry actually broke the rule in its first draft. The first is Barbour's. Barbour,
    as the book quotes him: the Tychonic system "is a special case of the Ptolemaic one,
    is kinematically identical to Copernicus's EXCEPT IN ITS RELATION TO THE DISTANT
    STARS." Quoting that to the comma before "except" would be exactly the offence this
@@ -167,12 +170,34 @@ Research notes for whoever picks this up next.
      (A) `GallileoWasWrong` — 2006, "Volume I, The Scientific Evidence", 3.3 MB OCR.
      (B) `galileo-was-wrong-the-church-was-right-sungenis-vol-1-3-complete` — seventh
          edition, Vols 1-3, 5.4 MB OCR.
-   The passage quoted in this entry is present in BOTH, word for word as transcribed:
-   (A) ch. 4, printed pp. 211-212; (B) Vol. I ch. 2, printed pp. ~211-212. The Barbour
-   material is in (B) only, at Vol. I ch. 1 printed pp. 40-41. Neither was checked
-   against a print copy and the locator says so. The chapter NUMBERS move between
-   editions while the printed page numbers happen to coincide for the four-fixes
-   passage; that coincidence is a trap, so the locator names the chapter title as well.
+   The passage quoted in this entry is present in BOTH, word for word as transcribed
+   (in (A) the running head and footnotes 448-449 are interleaved by the OCR in the
+   middle of the first sentence, at the page break; the words are continuous in print):
+   (A) ch. 4, printed pp. 210-211; (B) Vol. I ch. 2, printed p. 211. Page numbers
+   corrected 2026-08-11 from "211-212 / 211-212": the running heads in both OCRs sit at
+   the TOP of the page they number, and re-reading them puts the "As we noted
+   previously" sentence at the foot of (A) p. 210 and on (B) p. 211. The "As it stands"
+   sentence that closes the passage is (A) p. 211, (B) p. 213 — the editions diverge
+   here because (B) inserts the Barbour block and the "throw the baby out with the bath
+   water" sentence, neither of which is in (A). The Barbour six-parameters/distant-stars
+   quotation is in (B) only, at Vol. I ch. 1 printed p. 40 AND again at ch. 2 p. 212.
+   Neither scan was checked against a print copy and the locator says so. The chapter
+   NUMBERS move between editions; that is a trap, so the locator names the chapter title
+   as well.
+   TRUNCATION DEFECT, FOUND AND FIXED 2026-08-11 — DO NOT REINTRODUCE. The published
+   `passage.quote` ran the second sentence only as far as "but no one was willing to do
+   so", with no ellipsis, and the gloss and refutation then read that remnant as a
+   concession in the book's own voice. It is not. Both scans continue, identically:
+   "...once Copernicus' system was seized and promoted by the Renaissance and
+   Enlightenment as a means to demote the authority of Scripture and take control away
+   from the Catholic Church to influence the minds of men." Cut at "do so" the sentence
+   concedes; read whole it accuses. That is the hedge rule broken in OUR favour, in the
+   field the reader takes for the source's own words. `passage.quote` now carries two
+   sentences that do not reverse (the accuracy claim and the "Yet the same kind of
+   corrections could have been made" note, with the intervening sentence marked by an
+   ellipsis, 57 words, inside the 60-word fair-use cap), and the full closing sentence
+   is quoted through its final clause in the gloss, where the motive claim is named and
+   answered on the chronology rather than deleted.
    OCR notes: (B) renders "scraped" as "scrapped" relative to (A) in the sentence "The
    model itself did not have to be scraped" — (A) has "scraped", (B) has "scrapped".
    Nothing here rests on that word. (B) also renders Al-Zarqali as "Al-Zargali".
@@ -199,27 +224,32 @@ ENTRY = {
           "were about as good as Copernican ones. What that accuracy is made of is the "
           "giveaway, because Ptolemy's epicycle-to-deferent ratios encode the planets' "
           "distances from the Sun, and they return 0.72, 1.52 and 5.22 AU for Venus, Mars and "
-          "Jupiter, within half a per cent of the modern values. The model was not put down by "
-          "decree; it was overturned in steps and every step was a measurement, starting with "
-          "a Moon that its own parameters require to nearly double in apparent size against an "
-          "observed variation of 14 per cent."),
+          "Jupiter, within half a per cent of the modern values. The source says the model was "
+          "dropped not because it failed but because Copernicus' system was “seized and "
+          "promoted by the Renaissance and Enlightenment” against Scripture. The record says "
+          "otherwise: it was taken apart in steps between 1572 and 1639, every step a "
+          "measurement, starting with a Moon that its own parameters require to nearly double "
+          "in apparent size against an observed variation of 14 per cent."),
 
     passage=dict(
         work="WRK-SUNGENIS-2006",
         pd=False,
         locator=("Vol. I, in the section answering the phases-of-Venus objection — ch. 4 at "
-                 "printed pp. 211–212 of the archive.org OCR text of the 2006 scan (item "
+                 "printed pp. 210–211 of the archive.org OCR text of the 2006 scan (item "
                  "GallileoWasWrong, title page “Volume I / The Scientific Evidence”), and the "
                  "same wording at Vol. I ch. 2, “Objection #16: Don't the Phases of Venus "
-                 "Disprove Ptolemy?”, printed pp. 211–212 of the seventh-edition scan (item "
-                 "galileo-was-wrong-the-church-was-right-sungenis-vol-1-3-complete). Neither "
-                 "checked against a print copy"),
+                 "Disprove Ptolemy?”, printed p. 211 of the seventh-edition scan (item "
+                 "galileo-was-wrong-the-church-was-right-sungenis-vol-1-3-complete). The "
+                 "“As it stands…” sentence discussed below closes the same passage — printed "
+                 "p. 211 in the 2006 scan, p. 213 in the seventh edition. Neither checked "
+                 "against a print copy"),
         quote=("As we noted previously, before Kepler's improvements to the heliocentric "
                "model, Copernicus' system was no more accurate than Ptolemy's, despite the "
-               "fact that Copernicus used more epicycles than Ptolemy. … As it stands, there "
-               "was a lot of room to make adjustments to Ptolemy's model to fit the "
-               "observations, but no one was willing to do so"),
-        gloss="""<p><strong>Both halves of that sentence are load-bearing, and the second one is a concession.</strong> The claim is <em>comparative and dated</em> &mdash; Ptolemy against Copernicus, <em>before</em> Kepler &mdash; and it is correct. The claim is not that the Ptolemaic model was accurate full stop, and it is not that it stayed competitive after 1627. Then the book states in its own voice that the adjustments which would have kept it competitive <em>were never made</em>. Everything the list wants from this cluster lives in the gap between those two sentences.</p>
+               "fact that Copernicus used more epicycles than Ptolemy. … Yet the same kind "
+               "of corrections could have been made to the Ptolemaic model to improve its "
+               "accuracy, including corrections to account for the phases of Venus."),
+        gloss="""<p><strong>The accuracy claim is comparative and dated, and in that form it is correct.</strong> Ptolemy against Copernicus, <em>before</em> Kepler. It is not the claim that the Ptolemaic model was accurate full stop, and not the claim that it stayed competitive after 1627. The second sentence is a promissory note in the subjunctive &mdash; the corrections <em>could have been</em> made &mdash; and everything the list wants from this cluster lives in the gap between the two.</p>
+<p><strong>What the book says about why that note was never redeemed, quoted through the clause that turns it.</strong> The same passage closes &mdash; on the same page in the 2006 scan, two pages on in the seventh edition &mdash; <em>&ldquo;&hellip;there was a lot of room to make adjustments to Ptolemy&rsquo;s model to fit the observations, but no one was willing to do so once Copernicus&rsquo; system was seized and promoted by the Renaissance and Enlightenment as a means to demote the authority of Scripture and take control away from the Catholic Church to influence the minds of men.&rdquo;</em> Cut at &ldquo;do so&rdquo;, that sentence reads as a concession that the model was left unrepaired. Read whole, it is an accusation: the model was not beaten, it was dropped for reasons that were not scientific. The seventh edition sharpens the same charge two lines earlier &mdash; <em>&ldquo;&hellip;since Copernicus was influenced by many non-scientific factors, he chose not to make those adjustments and instead wanted to throw the baby out with the bath water&hellip;&rdquo;</em> (that sentence is in the seventh-edition scan and not in the 2006 one). So the book concedes less than the shorter quotation would suggest, and it claims more. Both are answered below: the promissory note on the physics, and the motive claim on the record &mdash; the adjustment the book says nobody was willing to make <em>was</em> made, by Tycho in 1588, and what defeated it afterwards was a sequence of measurements rather than a cultural movement.</p>
 <p><strong>Whose finding the accuracy claim is.</strong> Not the movement&rsquo;s. In the seventh edition it is carried by a quotation of <strong>Owen Gingerich</strong>, reaching the page at second hand through Lakatos: <em>&ldquo;in Tycho&rsquo;s observation books, we can see occasional examples where the older scheme based on the Alfonsine Tables yielded better predictions than could be obtained from the Copernican Prutenic Tables&rdquo;</em> (<em>Science Year</em> 1973, pp. 266&ndash;267, as quoted). The neighbouring material is Koestler&rsquo;s: the count of forty Ptolemaic epicycles against Copernicus&rsquo;s forty-eight comes from <em>The Sleepwalkers</em>, pp. 194&ndash;195 and 579&ndash;580, and the book cites it as such. Gingerich is also the source of the book&rsquo;s own correction to the opposite legend &mdash; that the 1969 <em>Britannica</em> claim of forty to sixty epicycles per planet was one nobody could evidence. The book is reporting real history of science accurately, and the history of science is not on anybody&rsquo;s side here.</p>
 <p><strong>What the book proposes instead, in its own words.</strong> The four repairs it offers for the Ptolemaic model are: elliptical paths around the Sun; the Sun&rsquo;s orbit made the deferent with the epicycle radius set to the true Sun&ndash;planet distance; the Sun&rsquo;s motion in one epicycle with the planets&rsquo; epicycles centred on the Sun; or the Earth aligned to the stars rather than the Sun. It then writes: <em>&ldquo;All four solutions would make the paths cycloidal with respect to the Earth and all will account for the phases of Venus. Option (c) is essentially the model proposed by Tycho Brahe.&rdquo;</em> In three of the four, the planets go round the Sun.</p>
 <p><strong>The seventh edition adds the strongest version of the point, and it is Julian Barbour&rsquo;s.</strong> At Vol. I ch. 1, printed pp. 40&ndash;41, it quotes <em>Absolute or Relative Motion</em>, Vol. I (Cambridge University Press, 1989), pp. 224&ndash;225: the Ptolemaic theory left six free parameters to be fixed by guesswork, and fixing them so that <em>&ldquo;the deferents of Mercury and Venus were taken equal to the earth-sun distance and the deferents of the superior planets to their actual distances from the sun&rdquo;</em> reproduces the Copernican geometry exactly &mdash; <em>&ldquo;This in fact is the system which Tycho Brahe proposed&hellip; the Tychonic system, which is a special case of the Ptolemaic one, is kinematically identical to Copernicus&rsquo;s except in its relation to the distant stars.&rdquo;</em> That last clause is quoted here in full deliberately. It is the true thing this argument found, it is a working physicist&rsquo;s sentence rather than a movement author&rsquo;s, and it names the exact place the equivalence stops.</p>
@@ -254,7 +284,7 @@ Saturn 6;30 &rarr; <strong>9.231</strong> (modern 9.5549, &minus;3.4%)</p>
 
 <p>Positions were the model&rsquo;s strength. <em>Distances</em> were where it could be caught, and it was caught in antiquity. Ptolemy&rsquo;s lunar model, driven to fit the Moon&rsquo;s motion in longitude, swings the Moon&rsquo;s distance from about 33 to about 64 Earth radii. That requires the lunar disc to grow by a factor of nearly 1.9 between apogee and perigee. The observed variation is <strong>14 per cent</strong>. This is not a modern objection dressed up: it is arithmetic on Ptolemy&rsquo;s own published parameters, and it is why Ibn al-Sh&#257;&#7789;ir and later Copernicus rebuilt the lunar model.</p>
 
-<p>The source&rsquo;s answer to that objection, met in Stephen Hawking&rsquo;s phrasing, is that the textbook diagrams of Ptolemy&rsquo;s system are not drawn to scale and that with the epicycles properly adjusted the correct lunar distance could have been accommodated. The first half is true and irrelevant &mdash; the objection is to the numbers in Book V of the <em>Almagest</em>, not to anybody&rsquo;s illustration. The second half is a promissory note, and the book&rsquo;s own next move is to say the note was never redeemed: <em>&ldquo;there was a lot of room to make adjustments to Ptolemy&rsquo;s model to fit the observations, but no one was willing to do so.&rdquo;</em> A model that could have been made to fit is not a model that fitted.</p>
+<p>The source&rsquo;s answer to that objection, met in Stephen Hawking&rsquo;s phrasing, is that the textbook diagrams of Ptolemy&rsquo;s system are not drawn to scale and that with the epicycles properly adjusted the correct lunar distance could have been accommodated. The first half is true and irrelevant &mdash; the objection is to the numbers in Book V of the <em>Almagest</em>, not to anybody&rsquo;s illustration. The second half is a promissory note, and the book says in its own voice that the note was never redeemed &mdash; but not as a concession. Its sentence runs on past the admission and names a cause: nobody was willing to make the adjustments <em>&ldquo;once Copernicus&rsquo; system was seized and promoted by the Renaissance and Enlightenment as a means to demote the authority of Scripture&hellip;&rdquo;</em>, quoted whole in section 1 above. So there are two things to answer, and both answers are short. A model that could have been made to fit is not a model that fitted. And the adjustment the book says nobody was willing to make <em>was</em> made: fixing the Ptolemaic system&rsquo;s free parameters at their true values is, on the book&rsquo;s own quotation of Barbour in &sect;4 below, precisely the system Tycho Brahe proposed &mdash; and Tycho proposed it in 1588. What decided against it was not a cultural movement but the measurements listed here: 1572 and 1577, 1610, 1627, 1631, 1639, then 1728 and 1838, the work of Tycho, Galileo, Kepler, Gassendi, Horrocks, Bradley and Bessel &mdash; among them a Lutheran nobleman, a devout Lutheran and a Catholic priest.</p>
 
 <h4>3. Venus: the item, both ways it can be read, and the fix that is Tycho&rsquo;s</h4>
 
@@ -384,10 +414,13 @@ Saturn 6;30 &rarr; <strong>9.231</strong> (modern 9.5549, &minus;3.4%)</p>
               "throughout &mdash; the lunar distance and the phases of Venus &ldquo;could have "
               "been made as prominent and precise as they appear in the improved Keplerian "
               "model <em>if</em>&rdquo; one of four listed changes were adopted &mdash; and it "
-              "closes by stating that the adjustments were never made: &ldquo;there was a lot "
-              "of room to make adjustments to Ptolemy&rsquo;s model to fit the observations, but "
-              "no one was willing to do so.&rdquo; The items state as accomplished what the book "
-              "states as forgone. On its own that is <code>hedge_dropped</code>. "
+              "closes by stating that the adjustments were never made. That closing sentence "
+              "is <em>not</em> a concession and is quoted whole in section 1 rather than cut "
+              "at the comfortable comma: it runs &ldquo;&hellip;no one was willing to do so "
+              "<em>once Copernicus&rsquo; system was seized and promoted by the Renaissance and "
+              "Enlightenment</em>&hellip;&rdquo;, i.e. a claim about motives, not about the "
+              "model. Either way the items state as accomplished what the book states as "
+              "forgone. On its own that is <code>hedge_dropped</code>. "
               "<em>Item 218 on the transit reading:</em> &ldquo;transit of Venus&rdquo; and "
               "&ldquo;transits of Venus&rdquo; return zero hits, and &ldquo;Horrocks&rdquo; and "
               "&ldquo;Rudolphine&rdquo; likewise, in the full-text OCR of the seventh-edition "

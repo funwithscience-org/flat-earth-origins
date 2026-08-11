@@ -10,7 +10,7 @@ Research notes for whoever picks this up next.
 
 1. THE CLUSTER NAME IS THE FIRST THING THAT DOES NOT SURVIVE CONTACT. A sky- or
    firmament-driven torque on the oceans is not located in any tide passage searched
-   for this pass: Rowbotham 1865 Section 10; Winship 1899 p. 131; Scott 1901 ch. XIII
+   for this pass: Rowbotham 1865 Section 10; Winship 1899 pp. 130-131; Scott 1901 ch. XIII
    sec. 2 (pp. 258-261); Dubay 2015 proofs 117-118; the Flat Earth Society wiki's
    Tides page as served 2026-08-10; and every page of the 1,160-page 2006 Galileo Was
    Wrong PDF on which the strings "tide" or "tidal" occur (25 pages, listed in note 4).
@@ -30,11 +30,20 @@ Research notes for whoever picks this up next.
      passages"; and a period of "once only in about twelve hours" because the earth
      "is proportionately larger" than a ship. The enlarged 1881 third edition carries
      this as Chapter XII with the 1/87 lunar-mass argument and the Newton remark added.
-   * Winship, Zetetic Cosmogony, 1899, p. 131 (archive.org zeteticcosmogony00unse).
+   * Winship, Zetetic Cosmogony, 1899, pp. 130-131 (archive.org zeteticcosmogony00unse).
+     READ BOTH PAGES BEFORE WRITING ABOUT THIS ITEM. On p. 130, in his own voice:
+     "But the tides are not uniform. At Port Natal the rise and fall is about six feet,
+     while at Beira, about 600 miles up the coast, the rise and fall is 26 feet. This
+     effectually settles the matter that the moon has no influence on the tides." He
+     then prints Melville's Omoo on Tahiti approvingly ("The Newtonian theory of the
+     Tides does not hold good at Tahiti"). So the Moon-tide mismatch of item 252 is
+     Winship's own flat assertion, not a distortion of him — an earlier draft of this
+     entry had it the other way round. Only after that does p. 131 give the conclusion
      "Tides are caused by the gentle and gradual rise and fall of the earth on the
-     bosom of the mighty deep." Then the sentence the list needed and did not take:
-     "The moon is the TIMEKEEPER for the tides, nothing more. The 'phase' of the moon
-     tells what kind of a tide may be expected."
+     bosom of the mighty deep" and the concession the list did not take: "The moon is
+     the TIMEKEEPER for the tides, nothing more. The 'phase' of the moon tells what
+     kind of a tide may be expected." Christian Flat Earth Ministry reprints the p. 130
+     block and cites it as "(130-131)".
    * Scott, Terra Firma, 1901, ch. XIII sec. 2 (archive.org cu31924031764594),
      pp. 258-261. Quotes Winship, and hedges harder than anyone: "By what means the
      tides are so regularly affected is at present only conjectured; possibly it may
@@ -84,11 +93,19 @@ Research notes for whoever picks this up next.
    the tidal argument NEUTRAL and says in its own voice that it does not discriminate.
    The list publishes it as proof item 245. That is force_upgraded and it is the
    cleanest instance in this cluster.
-   Page inventory for "tide"/"tidal" in that PDF (printed page in brackets): 192, 122,
-   131, 366, 508, 607, 631-635, 710, 794, 820, 868-869, 1026-1029, 1054-1055, and
-   bibliography 1101/1117/1137/1141. The 631-635 block is tidal BRAKING of rotation
-   (Hoyle, Holmberg, atmospheric tides) and belongs to whichever cluster owns
-   length-of-day, not here. 1026-1029 is the historical Galileo material.
+   Page inventory for "tide"/"tidal" in that PDF (printed page): 192, 122, 131, 366,
+   508, 607, 631-635, 710, 794, 820, 868-869, 1026-1027, 1029, 1054-1055, and
+   bibliography 1101/1117/1137/1141 — 25 pages. The 631-635 block is tidal BRAKING of
+   rotation (Hoyle, Holmberg, atmospheric tides) and belongs to whichever cluster owns
+   length-of-day, not here. 1054-1055 is the historical Galileo material.
+   CAUTION ON ITEM 245. The identification of item 245 ("Tidal resonance geocentric.")
+   with the p. 794 row is an inference and is now published as one. The p. 794 cell has
+   no resonance content: it is Galileo's sloshing-vessel argument and the Geocentric
+   Response to it. "Resonan*" occurs on printed pp. 633, 634, 809, 855, 864, 872, 875,
+   876, 888, 906, 965 and 1101 of that PDF, and not on 794; the one extended treatment
+   is Hoyle on the atmosphere at 633-634, which is tidal braking and belongs to the
+   length-of-day cluster. If a reviewer rejects the identification the consequence is
+   that no source was located for item 245.
 
 5. THE PHYSICS, WITH EVERY NUMBER RECOMPUTED HERE 2026-08-10.
    (a) Tidal acceleration 2GMR/d^3. Moon: 2 x 6.674e-11 x 7.342e22 x 6.371e6 /
@@ -203,7 +220,9 @@ ENTRY = {
 
 <p><strong>The chain forward, with pages.</strong> Thomas Winship reproduces the conclusion at <em>Zetetic Cosmogony</em> (1899) p. 131 &mdash; &ldquo;Tides are caused by the gentle and gradual rise and fall of the earth on the bosom of the mighty deep&rdquo; &mdash; and David Wardlaw Scott quotes Winship in turn at <em>Terra Firma</em> (1901), ch. XIII sec. 2, pp. 258&ndash;261. Eric Dubay carries Rowbotham&rsquo;s lunar-mass objection into <em>200 Proofs</em> (2015) as proofs 117 and 118 without the mechanism attached. The Flat Earth Society wiki&rsquo;s Tides page, as served on 2026-08-10, carries exactly one footnote, and it is &ldquo;Rowbotham, Samuel Birley. Chapter XII., Earth Not a Globe., Second Ed., p.160.&rdquo; &mdash; so the sentence that page offers about Newton is sourced to a flat-earth pamphlet rather than to Newton. This passage is cited here as the <strong>earliest located ancestor</strong> of the tide material, not as the origin of these four items: the vocabulary they use &mdash; tidal nodes, resonance, seiches, bores &mdash; is not located in any of those four texts.</p>
 
-<p><strong>Two hedges travel with it and neither survives into the list.</strong> Winship, on the same page 131: &ldquo;The moon is the TIMEKEEPER for the tides, nothing more. The &lsquo;phase&rsquo; of the moon tells what kind of a tide may be expected, but she does not and cannot &lsquo;attract&rsquo; either the solid body of the earth or the waters.&rdquo; Scott, closing the section: &ldquo;By what means the tides are so regularly affected is at present only conjectured; possibly it may be by atmospheric pressure on the waters of the Great Deep, and perhaps even the Moon itself, as suggested by the late Dr. Rowbotham, &lsquo;may influence the atmosphere &hellip; and indirectly the rise and fall of the Earth in the waters.&rsquo; Of this we cannot now be sure.&rdquo; The canon&rsquo;s own two carriers concede that the Moon&rsquo;s phase predicts the tide, and that the cause is conjectural. Item 252 asserts a mismatch between the tide and the Moon that Winship&rsquo;s sentence denies.</p>
+<p><strong>Two hedges travel with it and neither survives into the list.</strong> Winship, on the same page 131: &ldquo;The moon is the TIMEKEEPER for the tides, nothing more. The &lsquo;phase&rsquo; of the moon tells what kind of a tide may be expected, but she does not and cannot &lsquo;attract&rsquo; either the solid body of the earth or the waters.&rdquo; Scott, at the close of his account of the cause: &ldquo;By what means the tides are so regularly affected is at present only conjectured; possibly it may be by atmospheric pressure on the waters of the Great Deep, and perhaps even the Moon itself, as suggested by the late Dr. Rowbotham, &lsquo;may influence the atmosphere &hellip; and indirectly the rise and fall of the Earth in the waters.&rsquo; Of this we cannot now be sure.&rdquo; The canon&rsquo;s own two carriers concede that the Moon&rsquo;s phase predicts the tide, and that the cause is conjectural.</p>
+
+<p><strong>But read the page before, because it cuts the other way.</strong> The timekeeper sentence is a concession Winship attaches at the end; the flat assertion sits on p. 130, in his own voice, and it is the one item 252 preserves: &ldquo;But the tides are not uniform. At Port Natal the rise and fall is about six feet, while at Beira, about 600 miles up the coast, the rise and fall is 26 feet. This effectually settles the matter that the moon has no influence on the tides.&rdquo; He then prints Melville&rsquo;s Tahiti observation as proof of it. So the Moon&ndash;tide mismatch of item 252 is Winship&rsquo;s claim and not the list&rsquo;s: what travels is the assertion, and what is left behind is the qualification he put next to it.</p>
 
 <p><strong>And the evidence Winship printed is the answer to him.</strong> Directly above his conclusion on p. 131 he reprints a report from the <em>Leicester Daily Post</em> of 25 August 1892 on Ernst von Rebeur-Paschwitz&rsquo;s horizontal-pendulum observations at Wilhelmshaven and Potsdam, with the Tenerife runs of December 1890 and April 1891, and sets the finding in capitals: <em>&ldquo;IT WAS ESTABLISHED THAT THE EARTH RISES AND FALLS LIKE THE OCEAN OR THE ATMOSPHERE.&rdquo;</em> The clipping he chose says the oscillations correspond &ldquo;with the course of the moon&rdquo;. Those observations are the first detection of the solid Earth tide &mdash; Fr&eacute;chet and Rivera, <em>Journal of Seismology</em> 16:315&ndash;343 (2012): &ldquo;he succeeded in observing the luni-solar tide for the first time, by recording and measuring its effect on the apparent ground tilt.&rdquo; The ground does rise and fall, by about 38 cm in the M2 component and some 55 cm at the equator, and it does so on the Moon&rsquo;s clock.</p>
 
@@ -267,13 +286,17 @@ ENTRY = {
 
 <p>And that predicted beat is in the record. The fortnightly swing between spring and neap range is the beat of those two lines against each other; recomputed here, 1/(1/12.0000 &minus; 1/12.4206012) = 354.367 h = <strong>14.7653 days</strong>, against half a synodic month of 29.530588/2 = <strong>14.7653 days</strong>. Six significant figures. Be exact about what that shows and what it does not: given that M<sub>2</sub> is half a lunar day and S<sub>2</sub> half a solar day, the agreement is an algebraic identity, not an independent measurement. The evidence is that the ocean <em>has</em> a fortnightly modulation of that period at all, and that its maxima fall on the days of new and full moon rather than at some arbitrary phase. A sky-driven tide has one clock. The sea keeps two, and the second one is the Moon&rsquo;s.</p>
 
-<p>The record contains slower lunar signatures too, and they are not subtle. The Moon&rsquo;s orbital plane precesses with an 18.61-year period, which modulates the tidal constituents; Peng, Meng and Ge examined tide-gauge records worldwide and found that cycle changes high water levels by up to 30 cm. A whirlpool at the pole, an atmosphere pressing on a floating plate, or an ether flowing with latitude has no reason to know about the regression of the lunar nodes.</p>
+<p>The record contains slower lunar signatures too, and they are not subtle. The Moon&rsquo;s orbital plane precesses with an 18.61-year period, which modulates the tidal constituents; Peng and colleagues examined tide-gauge records worldwide and found that cycle changes high water levels by up to 30 cm. A whirlpool at the pole, an atmosphere pressing on a floating plate, or an ether flowing with latitude has no reason to know about the regression of the lunar nodes.</p>
 
-<p>There is exactly one way for a sky-driven model to produce 12 h 25 min, and it is fatal to take it. The Moon circuits the sky once every 24 h 50 min &mdash; slower than everything else up there &mdash; so a mechanism keyed to <em>the Moon&rsquo;s</em> passage overhead would deliver the right period at once. That is the escape, and it is not new: David Wardlaw Scott took it in 1901, suggesting that the Moon &ldquo;may influence the atmosphere, increasing or diminishing its barometric pressure, and indirectly the rise and fall of the Earth in the waters&rdquo;, immediately after conceding &ldquo;of this we cannot now be sure&rdquo;. But whoever takes it has conceded the case. The whole point of these four items is that the tide is not keyed to the Moon; a model that reproduces the tidal period by keying it to the Moon has agreed that the Moon sets the beat and is arguing only about the coupling. There is no third option, because there is nothing else in the sky with a period of 24 h 50 min.</p>
+<p>There is exactly one way for a sky-driven model to produce 12 h 25 min, and it is fatal to take it. The Moon circuits the sky once every 24 h 50 min &mdash; slower than everything else up there &mdash; so a mechanism keyed to <em>the Moon&rsquo;s</em> passage overhead would deliver the right period at once. That is the escape, and it is not new: David Wardlaw Scott took it in 1901, suggesting that the Moon &ldquo;may influence the atmosphere, increasing or diminishing its barometric pressure, and indirectly the rise and fall of the Earth in the waters&rdquo;, and adding in the same breath &ldquo;Of this we cannot now be sure&rdquo;. But whoever takes it has conceded the case. The whole point of these four items is that the tide is not keyed to the Moon; a model that reproduces the tidal period by keying it to the Moon has agreed that the Moon sets the beat and is arguing only about the coupling. There is no third option, because there is nothing else in the sky with a period of 24 h 50 min.</p>
 
 <h4>7. The proposed alternatives, answered on their own hedged terms</h4>
 
-<p><strong>The floating plane.</strong> Rowbotham&rsquo;s model is the only fully worked non-lunar mechanism in the tradition, and it fails on the consequences he himself drew. He predicts high water &ldquo;simultaneous&rdquo; along the coasts, because a rigid plate sinking into the deep sinks all at once and can have only one phase. The tradition&rsquo;s own favourite datum destroys that: Scott quotes Captain George Peacock reporting that at Holyhaven &ldquo;the tide is actually falling, and running down rapidly, while, at the same moment, it is running up rapidly at London Bridge&rdquo;, that the St Lawrence carries &ldquo;four high waters and three low waters&hellip;at the same time&rdquo;, and that the Amazon carries six or seven. Those are the signature of a <em>progressive wave</em> travelling up an estuary, which is what dynamic theory says a tide is. A rigid plate cannot produce them; it is the one thing a rigid plate is definitionally unable to do. He predicts no tides in lakes, and the Great Lakes have a measured semidiurnal astronomical tide under 5 cm &mdash; small, as an ocean-scale differential force acting across a small basin should be, but present and on the right clock. And he predicts a period fixed by the plate&rsquo;s inertia against the buoyancy of the deep, which gives &ldquo;once only in about twelve hours&rdquo; by assertion, with no reason on Earth for it to be 12 h 25 min or for its amplitude to swell every fourteen days and eighteen hours.</p>
+<p><strong>The floating plane.</strong> Rowbotham&rsquo;s model is the only fully worked non-lunar mechanism in the tradition, and it has to be met where its author left it defended. His stated consequences are narrower than they are usually made to sound. He does not predict high water simultaneously along a coastline; what he writes is &ldquo;The simultaneous ebb and flow upon meridians 180&deg; apart&rdquo; &mdash; and that is not a discriminating prediction at all, because the equilibrium tide of the theory he is rejecting also puts high water at both ends of the Earth&ndash;Moon line at once. And he pre-empts local disagreement in the same paragraph, tracing &ldquo;Whatever peculiarities are observable&rdquo; to &ldquo;the reaction of channels, bays, headlands, and other local causes&rdquo;.</p>
+
+<p>Take that escape at face value &mdash; it is his, and he is entitled to it &mdash; and it costs him the model&rsquo;s only quantitative content. Once channel reaction may supply any phase at any place, the floating plane predicts nothing whatever about when high water arrives anywhere. What is left in its own voice is the period, fixed by the size of the floating body: a laden ship fluctuates several times a minute, &ldquo;the Earth once only in about twelve hours, because it is proportionately larger&rdquo;. That is the prediction, and it is the one that fails. The ocean&rsquo;s largest constituent sits at 12 h 25 min, in records from basins of every size and shape, and its range swells and slackens on a 14.77-day cycle whose maxima fall on new and full moon. The size of a plate and the buoyancy of the deep contain no route to either number, and no appeal to headlands can reach a period that is the same in every basin. His remaining consequence fails on its own terms too: he predicts no tides in lakes and inland seas, and the Great Lakes carry a measured semidiurnal astronomical tide of under 5 cm &mdash; small, as an ocean-scale differential force acting across a small basin should be, but present, and keeping the sky&rsquo;s time rather than the basin&rsquo;s.</p>
+
+<p>The tradition&rsquo;s own favourite datum belongs here as illustration and not as the refutation, and the distinction matters. Scott quotes Captain George Peacock reporting that at Holyhaven &ldquo;the tide is actually falling, and running down rapidly, while, at the same moment, it is running up rapidly at London Bridge&rdquo;, that the St Lawrence carries &ldquo;four high waters and three low waters&hellip;at the same time&rdquo;, and that the Amazon carries six or seven. Those are the signature of a <em>progressive wave</em> travelling up an estuary, which is what dynamic theory says a tide is. But an estuary and a river are exactly the class Rowbotham scoped out, so they cannot be turned against him as a disproof without doing to him what this project objects to being done to it. What they do show is how much the escape concedes: Scott introduces them by granting that tides &ldquo;vary greatly in height, owing chiefly to the different configurations of the adjoining lands&rdquo;, which hands the basin precisely the role dynamic theory gives it, and leaves the plate with nothing to explain but a period it gets wrong.</p>
 
 <p>The part of the model that is right is the part its authors did not realise they had. The Earth <em>does</em> rise and fall. The solid ground flexes with an M<sub>2</sub> vertical amplitude of 384.83 mm, reaching about 55 cm at the equator, and it was first detected by the very observations Winship reprinted &mdash; Rebeur-Paschwitz&rsquo;s horizontal pendulums at Wilhelmshaven, Potsdam and Tenerife between 1889 and 1891, which Fr&eacute;chet and Rivera record as the occasion on which &ldquo;he succeeded in observing the luni-solar tide for the first time&rdquo;. The clipping Winship chose to print in capitals says the ground oscillations correspond with the course of the Moon. It is the correct observation attached to the wrong cause, and the instrument that made it was reading the Moon.</p>
 
@@ -299,12 +322,14 @@ ENTRY = {
             "falls thirty-eight centimetres twice a day. Rowbotham said the Earth rises and "
             "falls. Winship printed it in capitals. You have confirmed the zetetic observation "
             "and relabelled its cause, and you expect credit for it. Third, and this is the one "
-            "you cannot dodge: you have spent the whole entry showing that Winship called the "
-            "Moon the timekeeper, that Scott called the mechanism conjectural, and that "
-            "Sungenis agrees the Moon orbits the Earth. So by your own account nobody in this "
-            "literature denies the Moon's connection to the tides. You have written eight "
-            "sections against a claim your sources do not make, and the fact that some website "
-            "compressed it badly is not our problem."),
+            "you cannot dodge: you have spent the whole entry showing that our sources are "
+            "more careful than the list you are answering. Winship calls the Moon the "
+            "timekeeper. Scott calls the mechanism conjectural and says outright that he "
+            "cannot be sure. Sungenis's own table scores the tidal argument zero and grants "
+            "that the Moon goes round the Earth. Then you write eight sections against four "
+            "one-line fragments none of those men composed. Whatever the fragments claim, the "
+            "books claim less, and the fact that some website compressed them badly is not "
+            "our problem."),
         survives=4,
         preemptive=(
             "Four, and it is the first and third moves that earn it. On the curve-fitting "
@@ -330,7 +355,12 @@ ENTRY = {
             "careful than the list is the finding, it is published in the compression block "
             "with both texts side by side, and the refutation above answers Rowbotham's actual "
             "mechanism and Bennett's actual sentence rather than the four fragments. Say that "
-            "explicitly rather than letting a reader think we noticed it late. Finally, do not "
+            "explicitly rather than letting a reader think we noticed it late. But do not "
+            "overstate it either: on item 252 the source is NOT more careful than the list. "
+            "Winship states the Moon-tide mismatch flatly on p. 130 — “This effectually "
+            "settles the matter that the moon has no influence on the tides” — and only "
+            "concedes the timekeeping at the end of the passage, so that item is answered on "
+            "the merits and the drift there is a dropped hedge, not a reversal. Finally, do not "
             "let anyone upgrade the open questions into settled ones: 'the deep-ocean "
             "dissipation budget is unsettled' is correct and 'the tides are fully modelled' is "
             "not, and a defender who catches us doing that gets the section where we agree "
@@ -377,29 +407,46 @@ ENTRY = {
               "arguments for the phases of Venus, the moons of Jupiter and the tidal flows support "
               "both heliocentric and geocentric views&rdquo;. A row its own author scored as "
               "non-discriminating arrives on the list as item 245. (The doubled &ldquo;be&rdquo; is "
-              "in the original.)<br><br>"
+              "in the original.) <strong>The identification is ours, and it is an inference.</strong> "
+              "The p. 794 row is the one place in the located tide passages where the book scores a "
+              "tidal argument, but its cell says nothing about resonance &mdash; it answers "
+              "Galileo&rsquo;s sloshing-vessel argument &mdash; and the one extended "
+              "resonance passage located in that PDF, Hoyle on the atmosphere at printed pp. 633&ndash;634, is about "
+              "tidal braking of the Earth&rsquo;s rotation and is treated in the length-of-day "
+              "cluster. If a reader rejects the identification, the consequence is that no source "
+              "was located for item 245 either, which is a finding of the same weight.<br><br>"
               "<strong>Each of the other three items drifts differently, which is why one enum value "
               "cannot carry the block.</strong> <em>Item 233, &ldquo;Tidal nodes sky torque&rdquo;:</em> "
               "a sky- or firmament-driven torque on the oceans is not located in any of the tide "
               "passages searched for this entry &mdash; Rowbotham 1865 Section 10, Winship 1899 "
-              "p. 131, Scott 1901 pp. 258&ndash;261, Dubay 2015 proofs 117&ndash;118, the Flat Earth "
+              "pp. 130&ndash;131, Scott 1901 pp. 258&ndash;261, Dubay 2015 proofs 117&ndash;118, the Flat Earth "
               "Society wiki&rsquo;s Tides page as served on 2026-08-10, or any of the 25 pages of the "
               "2006 PDF carrying the strings &ldquo;tide&rdquo; or &ldquo;tidal&rdquo;. The closest "
               "text is the ether sentence quoted above, which is a flow and not a torque, and which "
               "is hedged. On the located record the phrase is the list&rsquo;s own; that is an "
               "<code>unsourced_addition</code>. <em>Item 252, &ldquo;Tidal bores moon visual "
-              "timing&rdquo;:</em> Winship&rsquo;s p. 131 says &ldquo;The moon is the TIMEKEEPER for "
-              "the tides&hellip;The &lsquo;phase&rsquo; of the moon tells what kind of a tide may be "
-              "expected&rdquo;, and Scott closes his section with &ldquo;at present only "
-              "conjectured&hellip;Of this we cannot now be sure.&rdquo; The item asserts a "
-              "Moon&ndash;tide mismatch that the canon&rsquo;s own carriers deny in the sentence next "
-              "to the one it took. <em>Item 251, &ldquo;Seiche oscillations periodic&rdquo;:</em> "
+              "timing&rdquo;:</em> this one does not drift on the mismatch. "
+              "Winship asserts it flatly, in his own voice, on "
+              "p. 130 &mdash; &ldquo;But the tides are not uniform. At Port Natal the rise and fall "
+              "is about six feet, while at Beira, about 600 miles up the coast, the rise and fall is "
+              "26 feet. This effectually settles the matter that the moon has no influence on the "
+              "tides.&rdquo; &mdash; prints Melville&rsquo;s Tahiti observation on p. 131 as proof of "
+              "it, and Dubay&rsquo;s proof 118 carries it forward as &ldquo;the Earth&rsquo;s tides "
+              "vary greatly and do not follow the Moon&rdquo;. What the list drops is the concession "
+              "Winship attaches at the end of the same passage, that the Moon is nonetheless &ldquo;the "
+              "TIMEKEEPER for the tides&hellip;The &lsquo;phase&rsquo; of the moon tells what kind of "
+              "a tide may be expected&rdquo;, and Scott&rsquo;s &ldquo;at present only "
+              "conjectured&hellip;Of this we cannot now be sure.&rdquo; That is "
+              "<code>hedge_dropped</code>, not a reversal. The bores are a separate matter: no "
+              "tidal-bore passage is located in any of the texts listed above. "
+              "<em>Item 251, &ldquo;Seiche oscillations periodic&rdquo;:</em> "
               "seiches are not located in any of those texts either; the term enters here from "
               "oceanography, not from the tradition.<br><br>"
               "<strong>The refutation above answers the sources, not the fragments.</strong> It "
               "takes Rowbotham&rsquo;s mechanism at full strength &mdash; atmospheric pressure "
-              "depressing a floating plane, with the four consequences he derives from it &mdash; and "
-              "answers those consequences; it takes Bennett&rsquo;s ether sentence at full strength "
+              "depressing a floating plane, with the consequences he derives from it and the "
+              "local-causes qualifier he attaches &mdash; and answers it where that qualifier cannot "
+              "reach, at the period; it takes Bennett&rsquo;s ether sentence at full strength "
               "and shows that a latitude-only flow is steady and axisymmetric in the frame his model "
               "requires, so it cannot oscillate twice a day; and it concedes what Rowbotham and Scott "
               "got right about Newton&rsquo;s equilibrium theory before answering them. The gap is "
@@ -418,16 +465,24 @@ ENTRY = {
             "floating on the deep, with the buoyant reaction restoring it — and derives four "
             "consequences from it: simultaneous high water on meridians 180 degrees apart, no "
             "tides in lakes, tidal wells fed by subterranean passages, and a period of about "
-            "twelve hours set by the size of the floating body. Winship 1899 p. 131 and Scott "
+            "twelve hours set by the size of the floating body. Winship 1899 pp. 130-131 and Scott "
             "1901 pp. 258-261 restate it; the Christian Flat Earth Ministry page of 2015 adds a "
             "second mechanism, a polar vortex reversing every six hours; and Sungenis and "
             "Bennett offer a third, an ether flow varying with latitude. The problem is not "
             "that no mechanism was proposed. It is that four incompatible ones were, and that "
-            "each makes a checkable prediction which fails: a rigid bobbing plate cannot "
-            "produce the progressive tidal wave the tradition's own Holyhaven, St Lawrence and "
-            "Amazon data describe; lakes do carry a measured semidiurnal astronomical tide "
-            "under five centimetres; and neither a plate, a vortex nor an axisymmetric ether "
-            "flow has any route to a 12 h 25 min period. Separately, items 251 and 252 are not "
+            "each makes a checkable prediction which fails even after its author's own "
+            "qualifier is granted. Rowbotham scopes local disagreement out in advance — "
+            "“Whatever peculiarities are observable they may be traced to the reaction of "
+            "channels, bays, headlands, and other local causes” — so the estuary and river "
+            "data the tradition itself likes to cite, at Holyhaven, on the St Lawrence and on "
+            "the Amazon, cannot be used against him and are not used against him here. What "
+            "the qualifier cannot reach is the period, which his model fixes by the size of "
+            "the floating body at “once only in about twelve hours”: the same 12 h 25 min line "
+            "turns up in tide records from every basin whatever its size or shape, the range "
+            "peaks at new and full moon, and "
+            "neither a plate, a vortex nor an axisymmetric ether flow has any route to that. "
+            "Lakes do carry a measured semidiurnal astronomical tide under five centimetres, "
+            "which he predicted they would not. Separately, items 251 and 252 are not "
             "mechanism claims at all but observational ones — about seiches, and about high "
             "water not arriving under the Moon — and both are answered by measurement rather "
             "than left undemonstrated. Where a stated mechanism makes a wrong prediction, the "
@@ -513,8 +568,9 @@ ENTRY = {
                    "Rev. Geophys. 52 (2014) — RMS about 0.9 cm pelagic, 5.0 cm shelf, 6.5 cm "
                    "coastal",
              url="https://archimer.ifremer.fr/doc/00838/94992/"),
-        dict(label="Peng, Meng & Ge, “Tide Gauge Records Show That the 18.61-Year Nodal Tidal "
-                   "Cycle Can Change High Water Levels by up to 30 cm”, JGR Oceans 124:736 (2019)",
+        dict(label="Peng, Hill, Meltzner & Switzer, “Tide Gauge Records Show That the 18.61-Year "
+                   "Nodal Tidal Cycle Can Change High Water Levels by up to 30 cm”, "
+                   "JGR Oceans 124:736–749 (2019)",
              url="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JC014695"),
         dict(label="Christian Flat Earth Ministry, “What Causes Ocean Tides?” (22 July 2015) — "
                    "reprints Rowbotham and Scott, and adds that tides “very well may be caused by "

@@ -75,10 +75,19 @@ Research notes for whoever picks this up next.
        but the Gutenberg text of 1865 prints 14,282, which inflates his claimed error
        by a thousand miles. Low-stakes and possibly a typesetting fault; scoped as
        "as printed in" wherever it is mentioned.
-   (c) The same 22,000 nmi figure exceeds the AZIMUTHAL-EQUIDISTANT flat map's own
-       prediction for that parallel (2 pi R theta = 31,440 km = 16,975 nmi) by 30%.
-       The Victorian data fit neither model, which is what you expect of sailing-route
-       distances being compared with arcs of a parallel.
+   (c) The same 22,000 nmi against the AZIMUTHAL-EQUIDISTANT flat map. CORRECTED
+       2026-08-11: an earlier version of this file computed the AE circumference at
+       45 deg NORTH (radius = R x 45 deg, 2 pi R theta = 31,440 km = 16,975 nmi) and
+       reported the sailing distances as 30% OVER the flat map. On a north-polar AE
+       chart the drawing radius is R x COLATITUDE, so the 45 deg S parallel sits at
+       R x 135 deg = 15,011 km and measures 2 pi r = 94,319 km = 50,928 nmi. Rowbotham's
+       22,000 nmi is therefore 44% over the globe's 15,282 nmi and 57% UNDER the disc's
+       50,928 - wrong by a factor of three and reversed in direction from what was
+       printed. The point survives and strengthens: the Victorian data fit neither
+       model, overshooting the globe and falling far short of the disc, which is what
+       you expect of sailing-route distances being compared with arcs of a parallel.
+       The same number appears in refutation section 3 and in advocate.preemptive; all
+       three now agree. Recomputed on R = 6371.0088 km, 2026-08-11.
    (d) AE-disc chord vs great circle, same endpoints: Sydney-Perth 8,301 vs 3,290 km
        (2.52x); Sydney-Santiago 25,684 vs 11,347 (2.26x); Johannesburg-Sydney 23,481
        vs 11,041 (2.13x). London-New York is 1.07x, which is why the discrepancy is
@@ -125,17 +134,40 @@ Research notes for whoever picks this up next.
    "from about 59.7 nautical miles at the equator to about 60.3 nautical miles at the
    poles", with 60 "correct at about latitude 45 deg".
 
-8. DEAD RECKONING IN THE SOUTHERN OCEAN - GET THE SIGN RIGHT. The lineage's own
-   examples run in OPPOSITE directions, which a uniform expansion of southern
-   parallels cannot produce. Dubay 37 has Wilkes "consistently east of his reckoning,
-   sometimes over 20 miles in less than 18 hours" (~1.1 kn of unaccounted set, which
-   is the Antarctic Circumpolar Current's order of magnitude; Donohue et al., GRL
-   43:11760, 2016, measure its Drake Passage transport at 173.3 Sv). Milner's Cape
-   example is the reverse - vessels "fancied themselves east of the Cape when still
-   west", i.e. LESS easting than reckoned. Do not assign a named current to the Cape
-   case; the mechanism there was not established for this entry and the argument does
-   not need it. What the entry says is only that the errors are directional and
-   locally opposite, and that a log measures speed through the water, not over ground.
+8. DEAD RECKONING IN THE SOUTHERN OCEAN - THE SIGN ARGUMENT IS WITHDRAWN, 2026-08-11.
+   DO NOT REINSTATE IT. Earlier text here and in refutation section 5 argued that the
+   lineage's own examples "run in OPPOSITE directions, which a uniform expansion of
+   southern parallels cannot produce", and published that as "the discriminating
+   detail". It is not discriminating, and on the documented track it favours the
+   SOURCE. Work the sign through: under any uniform stretch of the southern parallels
+   the navigator converts distance run into difference of longitude with the globe's
+   figure and so always OVER-reckons his change of longitude. Eastbound he plots
+   himself too far east, so the truth is WEST of his reckoning; westbound he plots
+   himself too far west, so the truth is EAST of it. Same along-track error, opposite
+   compass signs, produced by heading alone.
+     - Milner's Cape case (eastbound to India): "fancied themselves east of the Cape
+       when still West" = truth west of DR. Predicted by the flat model.
+     - Dubay 37's Wilkes case: "consistently east of his reckoning". Wilkes's Antarctic
+       coastal work of Jan-Feb 1840 ran WESTWARD, 140 deg 30' E to 112 deg 16' E and on
+       toward a goal of 105 deg E (United States Exploring Expedition). Westbound and
+       east of DR = also predicted by the flat model.
+   So both of the lineage's examples are consistent with Carpenter's geometry once the
+   heading is supplied, and the old paragraph asserted the reverse. Numerically the
+   model predicts a fixed FRACTIONAL over-reckoning set by latitude alone - on
+   Rowbotham's own figures, 69.44 against 49.52 statute miles to the degree at his
+   parallel, a reckoned change of longitude 40% larger than the true one, on every
+   heading and every day. That is the claim, and it is settled by measuring the ground
+   (sections 1-2), not by counting anecdotes. Also DELETED: the entry located Wilkes's
+   report in the Drake Passage, which neither Dubay's proof nor the expedition record
+   supports for that report.
+   The ACC is kept only as an ORDER OF MAGNITUDE for the reported set (~1.1 kn;
+   Donohue et al., GRL 43:11760, 2016, measure Drake Passage transport at 173.3 Sv),
+   scoped, and with the note that it flows EASTWARD and so sets a ship east of DR on
+   any heading - which fits the easting report but is not offered as the explanation of
+   an event this review did not establish from Wilkes's own record. Do not assign a
+   named current to the Cape case; the mechanism there was not established here and the
+   argument does not need it. What survives is only that dead reckoning is not a claim
+   about shape and that a log measures speed through the water, not over ground.
 9. THE TWO NAMED WRECKS IN THE LINEAGE'S OWN QUOTATION. Checked because they travel
    unchanged from 1865 to 2015. "A fine frigate, the 'Challenger,' in 1845" driven
    ashore on the African coast: the Royal Navy ship of that name whose loss is
@@ -168,7 +200,34 @@ Research notes for whoever picks this up next.
     edition, Baltimore 1885. Bowditch is the 2002 edition as transcribed on Wikisource;
     article numbers are that edition's and are given rather than page numbers.
 
-12. DEFECTS IN OUR OWN RECORD, reported up, NOT edited here — see `record_problems`.
+12. DEFECTS IN OUR OWN RECORD. Reported up in the `record_problems` array of THIS
+    UNIT'S STRUCTURED REPORT, which is the channel that actually exists — see
+    review/batch9-apply-report.json: an ENTRY-level `record_problems` key would be
+    consumed by deep.py's `for _k, _v in module.ENTRY.items()` loop as a phantom
+    cluster whose value is a list rather than a dict, and would break the build.
+    Earlier drafts of this docstring said "reported up in record_problems" as if it
+    were a field of this file. It is not, and nothing was ever written anywhere; that
+    wording is corrected here so the next agent does not repeat it. The defect: this
+    file's gloss calls Carpenter 1885 "the earliest text located", while clusters.py
+    B12 credits Charles K. Johnson, Flat Earth News, 1972, which render.py prints as
+    "· first published by Charles K. Johnson" on the summary line directly above.
+    Both cannot stand on one card.
+
+13. THE WILKES WORDING IS DUBAY'S, NOT WILKES'S, AND THE 1865 EASTING NUMBERS ARE
+    ROSS'S. Checked 2026-08-11 against the Gutenberg text of Rowbotham 1865 (#69892).
+    Rowbotham's only sentence about Wilkes is "Lieut. Wilkes, of the American Navy,
+    after great and prolonged efforts, and much confusion in his reckoning ... was
+    obliged to give up his attempt and return to the north" - no easting, no numbers.
+    The numbers a few lines later belong to Captain Sir James Clark Ross, quoted "at
+    page 96": "We found ourselves every day from 12 to 16 miles by observation in
+    advance of our reckoning" and "58 miles to the eastward of our reckoning in two
+    days". Dubay splits them: proof 36 carries Ross, proof 37 attaches an easting
+    report to Wilkes in Dubay's own words - "in his journals also mentioned being
+    consistently east of his reckoning, sometimes over 20 miles in less than 18 hours".
+    Earlier text here published that sentence as a quotation FROM Wilkes. It is not.
+    Wilkes's Narrative of the United States Exploring Expedition was not reached for
+    this entry, so the underlying journal entry is unverified here and the entry now
+    says so and says the argument does not depend on it.
 """
 
 ENTRY = {
@@ -210,7 +269,7 @@ ENTRY = {
     steelman=dict(
         description="""<p><strong>SURFACE (weak &mdash; do not use).</strong> &ldquo;Navigators know the Earth is round, so the argument is silly.&rdquo; This loses to a page of the navigator&rsquo;s own manual. Bowditch, ch. 24, defines plane sailing as solving for course, distance, difference of latitude and departure &ldquo;in which the Earth is regarded as a plane surface&rdquo;, and defines dead reckoning as projecting course and distance run from a known position &mdash; a plane construction with a straightedge. Anyone who opens by denying that navigation treats the sea as flat is contradicted by the standard reference in one sentence.</p>
 <p><strong>DEEPER.</strong> The pole really is privileged, and not by convention alone. It is the one direction a magnetic needle finds unaided, the one point a chart can be built around without choosing an arbitrary origin, and the one place a star sits nearly still all night. Charts, compass roses, gyro repeaters and grid overlays are all organised around it. A defender who says this has said something true that no navigator would dispute.</p>
-<p><strong>KERNEL.</strong> The strongest form is historical and it is uncomfortable, because for about forty years the data really did misbehave. Ships working the Southern Ocean in the 1830s and 1840s came out of their reckoning by tens of miles a day, reported it in their journals, and could not account for it: Wilkes recorded being &ldquo;consistently east of his reckoning, sometimes over 20 miles in less than 18 hours&rdquo;. No degree of longitude had then been measured on the ground south of the equator, and Rowbotham says so and asks for the measurement. So the honest 1865 position is: the southern hemisphere is charted from computation rather than from survey, the ships that sail it keep coming out wrong, and the people insisting the charts are right have not been there with a chain. <em>That is a legitimate demand for evidence, and it was made before the evidence existed.</em></p>""",
+<p><strong>KERNEL.</strong> The strongest form is historical and it is uncomfortable, because for about forty years the data really did misbehave. Ships working the Southern Ocean in the 1830s and 1840s came out of their reckoning by tens of miles a day and said so in print. Rowbotham quotes Ross&rsquo;s own account of the voyage, at page 96: &ldquo;We found ourselves every day from 12 to 16 miles by observation in advance of our reckoning&rdquo;, and &ldquo;&hellip; we found ourselves 58 miles to the eastward of our reckoning in two days&rdquo;. Dubay&rsquo;s proof 37 adds that Wilkes &ldquo;in his journals also mentioned being consistently east of his reckoning, sometimes over 20 miles in less than 18 hours&rdquo; &mdash; that wording is Dubay&rsquo;s, not Wilkes&rsquo;s, and Wilkes&rsquo;s <em>Narrative of the United States Exploring Expedition</em> was not reached for this entry, so treat it as a modern report of a journal rather than as the journal. Nothing below depends on it. What Rowbotham then asks for is a measurement: a degree of longitude taken on the ground far south of the equator, by &ldquo;proper geodetical operations&rdquo;, because the point &ldquo;has yet to be settled&rdquo;. So the honest 1865 position is: the southern hemisphere is charted from computation rather than from survey, the ships that sail it keep coming out wrong, and the people insisting the charts are right have not been there with a chain. <em>That is a legitimate demand for evidence, and it was made before the evidence existed.</em></p>""",
         why_it_doesnt_save_claim="""<p>Because the demand was met, and because the instruments the argument points at have the Earth&rsquo;s size and spin written into them.</p>
 <p>Rowbotham named his own test: measure a degree of longitude in the far south. He predicted 69.44 statute miles at the parallel of Port Jackson against 45 statute miles at 50&deg;N, and wrote that the question &ldquo;has yet to be settled&rdquo;. It was settled. The measured figure at 45&deg; is 48.99 statute miles &mdash; 8.9% above his northern value, not 54% above it. His northern number was right to within one per cent, which shows he was reading the tables correctly; his southern number is the prediction, and the prediction failed.</p>
 <p>And the equipment convicts him twice over. The mariner&rsquo;s compass he calls a proof of a central north dips into the ground at an angle that runs from 0&deg; at the magnetic equator to 90&deg; at the magnetic poles, which is why compass cards are balanced for magnetic zones. The gyrocompass that replaced it finds north by sensing the Earth&rsquo;s rotation, so its directive force &ldquo;is maximum at the equator and decreases to zero at the poles&rdquo; &mdash; and its natural period is about 84 minutes, which Bowditch stops to explain is &ldquo;the period of oscillation of a pendulum with an arm equal to the radius of the earth&rdquo;. The instrument that finds the pole for him has the planet&rsquo;s radius in its equation of motion.</p>"""),
@@ -235,17 +294,19 @@ ENTRY = {
 
 <p>Rowbotham&rsquo;s southern circuit is assembled from sailing distances: Cape of Good Hope to Port Jackson 8,000 miles, Port Jackson to Cape Horn 8,000, Cape Horn to the Cape 6,000, total 22,000, which he compares with the parallel of 45&deg;. The three great-circle distances between those places are 5,946, 5,065 and 3,612 nautical miles &mdash; <strong>14,623 in total</strong>, comfortably inside the 15,282 nmi his own table gives for the 45&deg; parallel. (His page prints 14,282 for that circuit; 360 &times; 42&middot;45 is 15,282, and the slip inflates his claimed discrepancy by a thousand miles.)</p>
 
-<p>The gap is not curvature. A sailing distance is what a ship covered, and square-riggers running the Southern Ocean did not follow parallels; they ran composite great-circle tracks far south of the rhumb line to hold the westerlies, and beat where they had to. Here is the check that settles it: <strong>22,000 nautical miles is 30% more than the flat azimuthal-equidistant map predicts for that same parallel</strong>, which is 16,975 nmi. The data Rowbotham rests his case on are too big for the globe <em>and</em> too big for the disc, which is the signature of a category error rather than of a discovery.</p>
+<p>The gap is not curvature. A sailing distance is what a ship covered, and square-riggers running the Southern Ocean did not follow parallels; they ran composite great-circle tracks far south of the rhumb line to hold the westerlies, and beat where they had to. But the figure does not rescue the disc either, and this is worth doing carefully because it is easy to get backwards. On a north-polar azimuthal-equidistant chart a parallel is drawn at a radius proportional to its <em>co</em>-latitude, so 45&deg;S sits at 135&deg; from the centre &mdash; a radius of 15,011 km &mdash; and measures <strong>94,319 km, or 50,928 nautical miles</strong>. Rowbotham&rsquo;s 22,000 nmi is 44% more than the globe&rsquo;s 15,282 and 57% <em>less</em> than the disc&rsquo;s 50,928. His data fit neither figure: too long for the globe and far too short for the disc, which is the signature of a category error rather than of a discovery. Note which way that cuts. To make 22,000 nmi come out right on the azimuthal-equidistant chart, the southern parallels would have to be <em>less</em> than half the length that chart gives them &mdash; the opposite of the stretching the argument needs.</p>
 
 <h4>4. The modern version of his experiment, which anybody can run this week</h4>
 
 <p>Sydney to Perth is 35&deg; of longitude at about 33&deg;S, flown nonstop about eleven times a day, published at 3,294 km and scheduled at roughly 5 hours 15 minutes. On the north-polar azimuthal-equidistant chart those two airports are <strong>8,301 km</strong> apart in a straight line, so the flight would have to average about 1,580 km/h &mdash; supersonic at cruising altitude, in a subsonic airliner. Sydney to Santiago, Qantas QF27, is published at 11,333 km and scheduled at about 12&nbsp;h&nbsp;30; the same chart puts those cities 25,684 km apart, beyond the range of any airliner ever built. The identical calculation for London&ndash;New York gives a discrepancy of 7%, which is why northern routes never expose the problem and southern ones always do.</p>
 
-<h4>5. Dead reckoning: what it is, and what it was doing wrong in 1840</h4>
+<h4>5. Dead reckoning: what it is, and what the Southern Ocean reports can and cannot settle</h4>
 
-<p>Dead reckoning is not a claim about the shape of the Earth. It is an estimate carried forward from the last fix by course and distance run, and it is wrong the moment anything moves the ship that the log cannot see &mdash; because a log measures speed through the water, not over the ground. The Southern Ocean is where that error is largest, and it took until the twentieth century to chart why: the Antarctic Circumpolar Current, whose transport through the Drake Passage was measured at 173.3 Sv by Donohue and colleagues in 2016, is the largest current on the planet. Wilkes&rsquo;s reported 20 miles of unaccounted easting in under 18 hours is a set of about 1.1 knots, which is the order of magnitude of that current.</p>
+<p>Dead reckoning is not a claim about the shape of the Earth. It is an estimate carried forward from the last fix by course and distance run, and it is wrong the moment anything moves the ship that the log cannot see &mdash; because a log measures speed through the water, not over the ground. The Southern Ocean is where that error is largest, and it took until the twentieth century to chart why: the Antarctic Circumpolar Current, whose transport through the Drake Passage was measured at 173.3 Sv by Donohue and colleagues in 2016, is the largest current on the planet. The easting reported in Dubay&rsquo;s proof 37 &mdash; over 20 miles in less than 18 hours &mdash; is a set of about 1.1 knots, the order of magnitude of that current. That is offered as a scale and not as a diagnosis: this review did not establish the date or position of the report from Wilkes&rsquo;s own record, and no mechanism at all is assigned to Milner&rsquo;s Cape case.</p>
 
-<p>Now look at the direction, because it is the discriminating detail and the lineage supplies it against itself. Wilkes runs <em>east</em> of his reckoning. Milner&rsquo;s Cape example, quoted by Rowbotham in 1865 and by Dubay in 2015, runs the other way: navigators &ldquo;fancied themselves east of the Cape when still west&rdquo;, that is, short of their reckoned easting. A southern hemisphere with parallels stretched by a uniform factor produces one signed error &mdash; every east&ndash;west passage takes longer than the chart says, everywhere, always. Errors that reverse sign between the Drake Passage and the Cape of Good Hope are what local currents look like, not what a rescaled globe looks like.</p>
+<p><strong>The direction of these errors decides nothing, and it is worth saying why, because it looks as though it should.</strong> The two reports point opposite ways on the chart &mdash; Wilkes east of his reckoning, Milner&rsquo;s India-bound ships west of theirs, &ldquo;east of the Cape when still west&rdquo; &mdash; and it is tempting to read the reversal as the signature of local currents rather than of a rescaled hemisphere. It is not. Under any uniform stretching of the southern parallels the navigator converts his distance run into difference of longitude using the globe&rsquo;s figure, and therefore <em>over</em>-reckons his change of longitude on every heading: eastbound he plots himself too far east and the truth lies west of his reckoning; westbound he plots himself too far west and the truth lies east of it. Same error along the track, opposite signs on the compass, produced by heading alone. And the headings run the wrong way for this move. Milner&rsquo;s ships were eastbound to India; Wilkes&rsquo;s Antarctic coastal work of January and February 1840 ran westward, from 140&deg;30&prime;E to 112&deg;16&prime;E and on toward a goal of 105&deg;E. Both reports are what Carpenter&rsquo;s geometry predicts, and an argument built on their reversal would be an argument for the other side. (The eastward set of the Circumpolar Current would displace a ship east of its reckoning on any heading, which fits the one report and not the other; that too settles nothing on two anecdotes.)</p>
+
+<p>What the stretched hemisphere does predict is not an anecdote but a constant. The over-reckoning is fixed by latitude alone &mdash; on Rowbotham&rsquo;s own numbers, 69&middot;44 statute miles to the degree of longitude where the charts give 49&middot;52, a reckoned change of longitude 40% larger than the true one &mdash; and it applies to every ship, on every heading, on every day, at that parallel. A claim of that size is not settled by journals recording that a ship was tens of miles out after a day&rsquo;s run, which is what dead reckoning does when it cannot see the water moving. It is settled by measuring the ground, which is sections 1 and 2, and the ground was measured.</p>
 
 <p>The two wrecks named in that quotation are worth following, since they have travelled unedited for a hundred and sixty years. The Royal Navy <em>Challenger</em> whose loss is documented in the period is HMS <em>Challenger</em> (1826), wrecked off Mocha Island, <strong>Chile</strong>, on 19 May 1835 &mdash; and the account notes that overcast skies had prevented sightings since 17 May, so her longitude was being carried on dead reckoning with no celestial fix, which is the ordinary explanation for running onto a coast. Dubay prints a longer form of the passage than the 1865 text carries, adding &ldquo;How came Her Majesty&rsquo;s Ship &lsquo;Conqueror&rsquo; to be lost?&rdquo; HMS <em>Conqueror</em>, 100 guns, was lost on Rum Cay in the <strong>Bahamas</strong> on 29 December 1861, at 23&deg;N.</p>
 
@@ -305,11 +366,18 @@ ENTRY = {
             "the concession without its scope is the defender's best quotation. On the third "
             "move the defender has a point about method and the text must not overreach: the "
             "Antarctic Circumpolar Current is offered as the order of magnitude for one reported "
-            "error and no mechanism is assigned to the Cape case at all. The load there is "
-            "carried by the SIGN of the errors reversing between two places, which no uniform "
-            "rescaling of southern parallels can produce, and by the fact that the Victorian "
-            "sailing distances overshoot the flat map by 30% as well. Do not upgrade that "
-            "paragraph into a claim that the current explains every historical discrepancy. On "
+            "error and no mechanism is assigned to the Cape case at all. Section 5 carries NO "
+            "load and is written that way deliberately - the dead-reckoning anecdotes do not "
+            "decide this in either direction, and the text now says so in our own voice. An "
+            "earlier draft rested part of the answer on the errors REVERSING SIGN between two "
+            "places; that was wrong and it favoured the defender, because a uniform rescaling "
+            "produces exactly that reversal whenever the headings are opposite, and Wilkes's "
+            "documented 1840 track was westbound. It is withdrawn - see docstring 8, and do not "
+            "let a later editor reinstate it because it reads well. The load is in sections 1 "
+            "and 2, plus the fact that the Victorian sailing distances fit neither figure: "
+            "22,000 nmi is 44% over the globe's 15,282 and 57% SHORT of the 50,928 nmi the "
+            "azimuthal-equidistant chart gives that parallel. Do not upgrade the current into a "
+            "claim that it explains every historical discrepancy. On "
             "the fourth, the flight figures are published schedules and are labelled as such; "
             "the reproducible core is the geodetic arithmetic, which is stated with its "
             "ellipsoid and its formula so a reader can rerun it."),
@@ -421,6 +489,12 @@ ENTRY = {
                    "the Greenwich meridian (0º)”, i.e. grid navigation is used at the southern "
                    "pole as well as the northern",
              url="https://www.southpole.aq/maps/"),
+        dict(label="United States Exploring Expedition — the January–February 1840 Antarctic "
+                   "cruise worked the coast westward, from 140°30′E to 112°16′E by 12 February "
+                   "and on toward a goal of 105°E before turning north on 21 February: the "
+                   "heading behind the “east of his reckoning” report, and the reason that "
+                   "report does not discriminate",
+             url="https://en.wikipedia.org/wiki/United_States_Exploring_Expedition"),
         dict(label="Donohue et al., “Mean Antarctic Circumpolar Current transport measured in "
                    "Drake Passage”, Geophys. Res. Lett. 43:11760 (2016) — 173.3 Sv, the scale of "
                    "the current that dead reckoning in the Southern Ocean cannot see",

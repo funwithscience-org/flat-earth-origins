@@ -144,21 +144,50 @@ Research notes for whoever picks this up next.
        Order 2 (a = 1.0, b = 0.023) allows 115 m at 5000 m.  So earth curvature is
        genuinely negligible inside one swath, at every order, and the entry says so.
        The bathymetry answer is refraction and the vertical datum, NOT curvature.
-   (f) Refraction, to show the size of the term that ISN'T negligible.  Snell in the
-       water column, sin θ / c constant.  A 1% error in the sound-speed profile (15 m/s;
-       about 3 °C of temperature error, since the Mackenzie equation's linear term is
-       4.591 T) turns a 60° outer beam into 61.0°, moves the sounding 7.3 m across-track
-       at 100 m depth, and puts 1.0 m of error into a budget that allows 1.39 m.  One
-       systematic eats 72% of an Order 1a allowance.
+   (f) Refraction, to show the size of the term that ISN'T negligible.  TWO MECHANISMS,
+       and they were chained as one computation until 2026-08-11; do not re-merge them.
+       A 1% error in the sound-speed profile is 15 m/s (about 3 °C, since the Mackenzie
+       equation's linear term is 4.591 T).
+         - RANGE SCALING, no bending at all: range 1% long, so 1.0 m of vertical error at
+           100 m depth.  That is where 1.0 m and the "72% of the 1.39 m Order 1a
+           allowance" come from — 1.0 m is 1% of the depth, nothing more.
+         - BENDING, Snell in the water column, sin θ / c constant: 60° outer beam becomes
+           asin(1.01 sin 60°) = 61.01°, and 100(tan 61.01° − tan 60°) = 7.26 m, which is
+           the across-track shift of the point where that beam meets a 100 m seafloor.
+           7.3 m is THIS number and does not belong to the 1.0 m.
+         - BOTH TOGETHER, which is what the instrument actually does: R = 1.01 × 200 m at
+           61.01° gives x = 176.7 m (true 173.2) and z = 97.9 m (true 100) — 3.5 m
+           across-track and 2.1 m shallow.  The opposite-sign bias (R = 198 m at 59.03°)
+           gives z = 101.9 m, 1.9 m deep.  So call it "about 2 m" either way.
+       Direction of the old error: it UNDERSTATED the vertical term (1.0 against ~2), so
+       the conclusion never depended on it; it was a coherence defect, not a wrong answer.
 
 7. THE VERDICT.  MISLEADING is challenged, not written around.  Proposed:
-   SELF-CONTRADICTED, on the C05/C09/C10 precedent — the list runs two proofs that
-   cancel.  Here they are ADJACENT: item 390 "Photogrammetry planar." and item 391
+   SELF-CONTRADICTED.  CHECK THE PRECEDENT CITES BEFORE EDITING THEM — an earlier draft
+   of this entry cited "C05, C09 and C10", and C09's verdict in clusters.py is
+   UNFALSIFIABLE ("Devotional imagery is not survey data").  SELF-CONTRADICTED there is
+   only a PROPOSAL, in _b9_C09.py's own verdict_challenge, which itself cites C05 and
+   C10.  Citing it as settled precedent would have been a provenance error on a
+   provenance page.  Corrected 2026-08-11 to C05 and C10, whose verdicts in clusters.py
+   really are SELF-CONTRADICTED; B13, B06, D08, A19, A26 and R11 also carry it.
+   The published legend (render.py) defines the verdict as "the claim's own source, or
+   another item on the same list, points the other way" — TWO branches, and both are used
+   on the page: C10 and B13 are the cross-item branch (and both reach OUTSIDE their own
+   cluster, C10 to C03 and B13 to B07, which is why the intra-cluster objection below
+   does not bite), while A19 is the other branch with no source and no second item at all
+   — a gyrocompass finds north by sensing the rotation the item denies.
+   Here it cancels both ways.  ACROSS ITEMS they are ADJACENT: item 390 "Photogrammetry planar." and item 391
    "LiDAR ECEF." are consecutive lines, and ECEF/WGS84 is an ellipsoidal, rotating frame.
    Better still, the cancellation is available INSIDE ONE ITEM: item 392's own technique
    contains a planar term that exists only as something computed from the WGS84 ellipsoid
    and subtracted.  That form does not depend on cross-item adjacency and survives the
-   obvious objection ("different instruments").  Fallback if a reviewer reads
+   obvious objection ("different instruments").  A reviewer objected 2026-08-11 that the
+   intra-item leg is "a refutation of that item, not a cancellation between two of the
+   list's own proofs", and that leaning on item 391 spends an item scored at R08 twice.
+   BOTH REJECTED, on the legend text quoted above: branch one of the definition is the
+   claim's own source/technique (A19, B06), and the cross-item branch says "another item
+   on the same list", not another item in this cluster — C10 leans on C03 and B13 on B07,
+   so cross-cluster is the established pattern, not a defect.  Fallback if a reviewer reads
    SELF-CONTRADICTED as reserved for the fact-denial tier: REFUTED, because two of the
    four items — 217 and 400 — are false as descriptions of the instruments they name,
    and are contradicted by specific measurements (the radar horizon relation; measured
@@ -166,9 +195,14 @@ Research notes for whoever picks this up next.
    for 217 and 400, and the challenge says exactly that rather than overclaiming.
    clusters.py NOT touched.
 
-8. DEFECTS IN OUR OWN RECORD, reported up in `record_problems`, NOT edited here (this
-   agent owns one file), and deliberately NOT written into the published prose — rule 4
-   of the curmudgeon sweep: never ship a to-do as a finding.
+8. DEFECTS IN OUR OWN RECORD.  NOT edited here (this agent owns one file), and
+   deliberately NOT written into the published prose — rule 4 of the curmudgeon sweep:
+   never ship a to-do as a finding.  FILING STATUS, and read it before assuming they are
+   handled: batch10-report.json's record_problems array carries 53 entries and NONE of
+   them is B11 — checked 2026-08-11 — so the batch-10 claim that these were "reported up"
+   did not land anywhere findable.  They are re-filed in the record_problems of the
+   2026-08-11 apply pass, keyed on the cluster id "B11".  If they are still unfixed in
+   clusters.py when you read this, they were never applied; file them again.
      * The cluster NAME says "Radar, LiDAR, photogrammetry and sonar".  No LiDAR item is
        assigned to B11; item 391 "LiDAR ECEF." is assigned to R08, correctly.  The name
        promises an instrument the cluster does not contain.
@@ -185,8 +219,16 @@ Research notes for whoever picks this up next.
      and anomalous propagation really do produce over-horizon detections, routinely.  The
      defensible form, used in the text, is that ducting is itself an atmospheric-
      refraction effect whose standard engineering model is a MODIFICATION OF THE
-     EFFECTIVE EARTH RADIUS — the 4/3 factor, and larger k for a duct — so it is
-     parameterised by R rather than a rival to it.
+     EFFECTIVE EARTH RADIUS — so it is parameterised by R rather than a rival to it.
+     BUT GET THE PHYSICS RIGHT, corrected 2026-08-11: a duct is NOT "a larger k".
+     k = 1/(1 + R dn/dh); superrefraction is k > 4/3, and at dN/dh = −157 N-units/km the
+     denominator vanishes, k → ∞ (the ray follows the Earth's curvature) and then goes
+     negative — that is the ducting threshold and the point where the effective-radius
+     model degenerates.  Beyond it the standard treatment is modified refractivity,
+     M = N + (h/R_e)×10⁶ ≈ N + 0.157h (h in metres), and 0.157 per metre is 10⁶/R at
+     R = 6371 km.  The correction is STRONGER for us than the error was: the formalism
+     used to compute ducted propagation on a flat grid carries 1/R in its height term,
+     which is the §5 thesis.  Sources added for both halves.
    * Do not write that the flat-earth phase is "the biggest term in the interferogram" or
      put a fringe count on it.  The fringe count depends on baseline, wavelength and
      look-angle span, none of which is fixed for these items, and nothing here needs it.
@@ -259,7 +301,7 @@ ENTRY = {
 
 <p>Now reading (b), which is the version documented as actually circulating: that marine radars are advertised with ranges far beyond the horizon, so the horizon cannot be real. The advertised figure is a <em>signal</em> range &mdash; how far the transmitter can put usable power and still resolve a return &mdash; not a detection range for a surface target. Recomputed: a set with its scanner 20&nbsp;m up, looking at a ship whose superstructure reaches 30&nbsp;m, has a radar horizon of 4.12(&radic;20&nbsp;+&nbsp;&radic;30)&nbsp;=&nbsp;41&nbsp;km, about 22&nbsp;nautical miles. That set may be sold as a 96-mile radar, and it will indeed paint a mountain or a rain cell at 96 miles, because those are tall. It will not paint a hull. Every navigation course teaches the distinction, and the ranges at which it fails are the ranges the formula predicts.</p>
 
-<p><strong>The honest qualification, which a defender will otherwise supply.</strong> Radar does routinely detect targets beyond the 4/3 horizon, through ducting and other anomalous propagation, and sometimes by hundreds of kilometres. That is real. It also does not help, because ducting is an atmospheric-refraction phenomenon whose standard engineering treatment is <em>a further modification of the effective Earth radius</em> &mdash; the 4/3 factor is the standard-atmosphere case, a duct is a larger <em>k</em>, and a sub-refractive layer is a smaller one. Anomalous propagation is parameterised by the curvature it bends around, not offered as an alternative to it.</p>
+<p><strong>The honest qualification, which a defender will otherwise supply.</strong> Radar does routinely detect targets beyond the 4/3 horizon, through ducting and other anomalous propagation, and sometimes by hundreds of kilometres. That is real. It also does not help, because every stage of the standard engineering treatment of it is parameterised by the Earth&rsquo;s radius. The effective-radius factor is <em>k</em>&nbsp;=&nbsp;1/(1&nbsp;+&nbsp;<em>R</em>&nbsp;d<em>n</em>/d<em>h</em>), with <em>n</em> the refractive index; the 4/3 value is the standard atmosphere, a sub-refractive layer is a smaller <em>k</em> and superrefraction a larger one. A duct is not simply a larger <em>k</em> still: it is the limit at which that model stops working. At a refractivity gradient of &minus;157&nbsp;N-units per kilometre the denominator vanishes and <em>k</em> passes through infinity &mdash; the case in which, as the propagation notes put it, &ldquo;the curvature of the ray matches the curvature of the earth and the ray maintains the same altitude as it travels&rdquo; &mdash; and past that the effective radius is negative. What engineering practice switches to there is <em>modified refractivity</em>, <em>M</em>&nbsp;=&nbsp;<em>N</em>&nbsp;+&nbsp;(<em>h</em>/<em>R</em><sub>e</sub>)&nbsp;&times;&nbsp;10<sup>6</sup>&nbsp;&asymp;&nbsp;<em>N</em>&nbsp;+&nbsp;0.157<em>h</em> with <em>h</em> in metres, introduced in the over-the-horizon literature because &ldquo;the influence of the curvature of the Earth can be achieved by modifying the refractivity of the troposphere&rdquo;. Recomputed here: 0.157 per metre <em>is</em> 10<sup>6</sup>/<em>R</em> at <em>R</em>&nbsp;=&nbsp;6,371&nbsp;km. So the term added to the refractivity in order to compute ducted propagation on a flat grid is the height divided by the Earth&rsquo;s radius &mdash; section&nbsp;5&rsquo;s structure arriving from the least convenient direction available. Anomalous propagation is parameterised by the curvature it bends around at every level of the treatment, never offered as an alternative to it.</p>
 
 <h4>2. Photogrammetry: the planar model is real, and it ships with a curvature term</h4>
 
@@ -277,7 +319,7 @@ ENTRY = {
 
 <p>Two further things are true of every spaceborne SAR image, and neither is optional.</p>
 
-<p><strong>The ellipsoid is one of the three equations.</strong> Locating a SAR pixel on the ground is a simultaneous solution of a slant-range equation, a Doppler equation, and an Earth-model equation &mdash; and the third one is the ellipsoid, printed in the geolocation literature as <em>x</em>&sup2;/<em>R</em><sub>e</sub>&sup2;&nbsp;+&nbsp;<em>y</em>&sup2;/<em>R</em><sub>e</sub>&sup2;&nbsp;+&nbsp;<em>z</em>&sup2;/<em>R</em><sub>p</sub>&sup2;&nbsp;=&nbsp;1 with an equatorial radius and a distinct polar radius. Remove the third equation and the system is underdetermined: the range and Doppler conditions alone place the target on a circle, and it is the Earth model that picks the point. There is no SAR image whose pixels have ground coordinates without an oblate spheroid in the solver.</p>
+<p><strong>The ellipsoid is one of the three equations.</strong> Locating a SAR pixel on the ground is a simultaneous solution of a slant-range equation, a Doppler equation, and an Earth-model equation &mdash; and the third one is the ellipsoid, printed in the geolocation literature as <em>x</em>&sup2;/<em>R</em><sub>e</sub>&sup2;&nbsp;+&nbsp;<em>y</em>&sup2;/<em>R</em><sub>e</sub>&sup2;&nbsp;+&nbsp;<em>z</em>&sup2;/<em>R</em><sub>p</sub>&sup2;&nbsp;=&nbsp;1 with an equatorial radius and a distinct polar radius. Remove the third equation and the system is underdetermined: the range and Doppler conditions alone place the target on a circle, and it is the Earth model that picks the point. There is no spaceborne SAR image whose pixels have ground coordinates without an oblate spheroid in the solver.</p>
 
 <p><strong>And the spacecraft physically turns to cancel the Earth&rsquo;s rotation.</strong> A side-looking radar in a polar orbit sees a Doppler shift from the ground it is illuminating, and part of that shift is the ground moving underneath: as the SAR attitude-control literature puts it, &ldquo;the Doppler centroid is not zero in the conventional broadside mode &hellip; due to the earth rotation and eccentricity of the orbit.&rdquo; The standard fix, developed for TerraSAR-X and known as total zero-Doppler steering, is a yaw manoeuvre computed to null it. The satellite is aimed slightly off square, continuously, at an angle derived from &omega;<sub>&oplus;</sub>. Set the Earth&rsquo;s rotation to zero and the steering law has nothing to correct.</p>
 
@@ -287,7 +329,7 @@ ENTRY = {
 
 <p><strong>The answer is that the word in the item is &ldquo;straight&rdquo;, and sonar rays are not.</strong> Sound speed in the sea is not a constant: the Mackenzie equation&rsquo;s linear term is 4.591<em>T</em>, so roughly 4.6&nbsp;m/s per degree Celsius, with further dependence on salinity and pressure. A ray crossing a layered water column therefore refracts, by Snell&rsquo;s law, exactly as light does entering glass. This is not a subtlety at the edge of the error budget; it is the discipline&rsquo;s principal systematic, and it has names. Get the profile wrong and the swath develops what hydrographers call <em>smiles</em> and <em>frowns</em> &mdash; &ldquo;two classic error patterns in multibeam data, where the seafloor appears to curve up or down at the edges of the swath&rdquo;. Note what that means: assuming straight rays does not flatten the sea floor, it <strong>bends</strong> it, into a curvature that is not there.</p>
 
-<p>The size of it, recomputed here. A 1% error in the sound-speed profile is about 15&nbsp;m/s, which is roughly three degrees of temperature. By Snell&rsquo;s law that turns a beam launched at 60&deg; into one travelling at 61.0&deg;, displaces the sounding 7.3&nbsp;m across-track in 100&nbsp;m of water, and puts about 1.0&nbsp;m of vertical error into a budget that allows 1.39&nbsp;m at that depth for an IHO Order&nbsp;1a survey. One systematic, from one un-measured profile, eats 72% of the entire allowance. This is why survey vessels stop, lower a sound-velocity probe, and repeat it as conditions change, and why permanent sensors are fitted at the transducer head.</p>
+<p>The size of it, recomputed here, with each number attached to the mechanism it comes from, because two different ones are at work. A 1% error in the sound-speed profile is about 15&nbsp;m/s, which is roughly three degrees of temperature. The first mechanism is plain range scaling: a travel time converted with a speed 1% high yields a range 1% long, which at 100&nbsp;m depth is <strong>1.0&nbsp;m of vertical error</strong> before any ray has been bent at all &mdash; 72% of the 1.39&nbsp;m an IHO Order&nbsp;1a survey allows at that depth, from the bias alone. The second is the bending. By Snell&rsquo;s law the same 1% turns a beam launched at 60&deg; into one travelling at 61.0&deg;, and that one degree moves the point where the beam meets a 100&nbsp;m seafloor <strong>7.3&nbsp;m across-track</strong>. Carry both through the same geolocation &mdash; range 1% long, angle 1&deg; off &mdash; and the outer sounding lands about 3.5&nbsp;m out horizontally and about 2&nbsp;m out in depth, in the shallow direction; a 1% bias the other way puts it about 2&nbsp;m deep. So the vertical error at the swath edge is not 72% of the allowance but roughly half again the whole of it, from one un-measured profile. This is why survey vessels stop, lower a sound-velocity probe, and repeat it as conditions change, and why permanent sensors are fitted at the transducer head.</p>
 
 <p>It has a documented history, too. The refraction of sound by a warm surface layer was identified during the Second World War as the <em>afternoon effect</em>, in which sonar detection ranges collapsed on calm sunny days: Iselin and Woodcock reported for Woods Hole in 1942 that &ldquo;with moderate or light winds and a clear sky the diurnal heating which occurs near the sea surface can cause a serious reduction in the range of submarine detection.&rdquo; The response was the bathythermograph &mdash; an instrument invented for no other purpose than to measure the profile that bends the rays. Straight-line sonar is not the assumption of the field. It is the failure mode the field was built around.</p>
 
@@ -356,7 +398,10 @@ ENTRY = {
             "propagation is modelled as a modification of the EFFECTIVE EARTH RADIUS, so k is "
             "a refraction parameter multiplying a curvature, not a free knob that survives "
             "R going to infinity — at infinite R the formula returns an infinite horizon for "
-            "every k, which is not what is measured. (e) ON 'WHO ARE YOU REFUTING', agree in "
+            "every k, which is not what is measured. Do not say a duct is simply 'a larger k': "
+            "k = 1/(1 + R dn/dh) passes through infinity at the ducting gradient and the model "
+            "degenerates there, and what practice switches to is modified refractivity, whose "
+            "height term is h/R — which is the same reply one level down. (e) ON 'WHO ARE YOU REFUTING', agree in "
             "public and make it the finding. The provenance search returned a result: four "
             "noun phrases in an eighteen-line sweep through professions, with no author "
             "anywhere. Say plainly that where there is no upstream sentence there is no hedge "
@@ -438,9 +483,13 @@ ENTRY = {
             "Sonar rays are not straight — sound speed varies about 4.6 m/s per degree "
             "Celsius, rays refract by Snell's law, and the straight-ray assumption is what "
             "produces the artefacts hydrographers call smiles and frowns. "
-            "SELF-CONTRADICTED is proposed on the precedent set at C05, C09 and C10, where "
-            "the verdict marks a list running two proofs that cancel. It cancels twice here, "
-            "and one of the two does not depend on cluster boundaries at all. Across items: "
+            "SELF-CONTRADICTED is defined in the legend at the foot of this page as the "
+            "claim's own source, or another item on the same list, pointing the other way, "
+            "and both halves of that definition are already in use: at C05 and C10 the list "
+            "runs two proofs that cancel (C10's counterpart sits in a different cluster, C03), "
+            "and at A19 the cluster has no source at all and the verdict rests on the named "
+            "instrument — a gyrocompass finds north by sensing the rotation the item denies. "
+            "Both halves apply here. Across items: "
             "item 390 'Photogrammetry planar.' and item 391 'LiDAR ECEF.' are consecutive "
             "lines in the specimen, and ECEF is the WGS 84 ellipsoid in a rotating frame — "
             "the two instruments are routinely flown on the same aircraft, adjusted in the "
@@ -496,13 +545,28 @@ ENTRY = {
         dict(label="National Weather Service, “WSR-88D Radar Rainfall Estimation: "
                    "Capabilities, Limitations and Potential Improvements” — “Earth curvature "
                    "and standard refraction dictate that the beam becomes more elevated above "
-                   "the surface with increasing range”, and overshooting as the largest source "
-                   "of precipitation underestimation beyond 60 nm",
+                   "the surface with increasing range”; overshooting “often produces the "
+                   "largest errors, usually causing precipitation underestimation”; and, "
+                   "separately, Kitchen and Jackson (1993), whom the page reports as finding "
+                   "“a rapid drop in POD beginning at 60 nm, falling to 0.4 (0.3 in winter) at "
+                   "124 nm in range”",
              url="https://www.weather.gov/mrx/radarrainfallestimates"),
         dict(label="Wikipedia, “Over-the-horizon radar” — microwave radar “generally limits "
                    "the detection range of radar systems to objects on their horizon … due to "
                    "the curvature of the Earth”; the Jindalee network's official 3,000 km range",
              url="https://en.wikipedia.org/wiki/Over-the-horizon_radar"),
+        dict(label="University of Toronto ECE422 propagation notes, “Atmospheric Effects” — "
+                   "the ducting threshold, where the effective-earth-radius model degenerates: "
+                   "at dN/dh = −157 N-units/km “the curvature of the ray matches the curvature "
+                   "of the earth and the ray maintains the same altitude as it travels”",
+             url="https://www.waves.utoronto.ca/prof/svhum/ece422/notes/20a-atmospheric-refr.pdf"),
+        dict(label="Xu, Olaimat, Tang, Ramahi, Aldhaeebi, Jin & Zhu, “Numerical Modeling of "
+                   "the Radio Wave Over-the-Horizon Propagation in the Troposphere”, "
+                   "Atmosphere 13(8):1184 (2022) — modified refractivity, their Eq. (7), "
+                   "M = N + (h/R_e)×10⁶ ≈ N + 0.157h, introduced because “the influence of the "
+                   "curvature of the Earth can be achieved by modifying the refractivity of "
+                   "the troposphere”. 0.157 per metre is 10⁶/R",
+             url="https://www.mdpi.com/2073-4433/13/8/1184"),
         dict(label="Yang, Molisch, Ekman, Røste & Berbineau, “A Round Earth Loss Model and "
                    "Small-scale Channel Properties for Open-Sea Radio Propagation”, IEEE "
                    "Trans. Veh. Technol. (2019) — “the PEL assumption of a plane earth surface "

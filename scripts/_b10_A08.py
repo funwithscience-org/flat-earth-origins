@@ -56,11 +56,15 @@ Research notes for whoever picks this up next.
    of Heaven* — do not merge them. Say "mid-1950s" and footnote the disagreement.
 
 4. THE UNIT SUBSTITUTION — the sharpest single finding in this entry, and it is inside
-   quotation marks. Henriet says KILOMETERS three times. Dubay's proof 26 prints MILES
-   three times. Verified in two independent copies of each: Henriet at archive.org
-   (item HeavenAndEarthGabrielleHenriet, OCR) and at theflatearthsociety.org's PDF
-   (text layer) both read "1,000 kilometers"; Dubay at archive.org both in the djvu OCR
-   and in the PDF text layer reads "1,000 miles". Dubay also drops one sentence from
+   quotation marks. Inside the block Dubay reproduces, Henriet says KILOMETERS FOUR
+   times ("1,000 kilometers an hour", "only 500 kilometers", "a distance of 1,500
+   kilometers", "such a flying speed of 1,000 kilometers an hour") and Dubay prints
+   MILES four times. A fifth "1,000 kilometers an hour" (the airfield "slipping away")
+   sits just past the end of Dubay's excerpt. Henriet is verified in two independent
+   copies — archive.org item HeavenAndEarthGabrielleHenriet (OCR) and
+   theflatearthsociety.org's PDF (a separate, cleaner text layer). Dubay is verified in
+   the djvu OCR AND the PDF text layer of ONE archive.org item: two derivations of a
+   single scan, not two copies, and the published note must not say otherwise. Dubay also drops one sentence from
    the middle without an ellipsis and silently changes "Thus, if the earth rotates" to
    "If the earth rotates". Why it matters and why nobody noticed: 1,000 km/h is the
    Earth's surface speed at about 51.5°N — Britain — to within 4% (computed: 1,041
@@ -73,9 +77,14 @@ Research notes for whoever picks this up next.
    westward "arrived at thrice the speed". Observed on the mid-latitude routes this
    argument is made about: eastbound is the FAST direction. BA112, a 747-400, JFK to
    Heathrow on 9 February 2020, 4 h 56 min for 5,554 km — average ground speed 1,126
-   km/h, peak 1,327 km/h, against a cruise airspeed of about 933 km/h (Guinness World
-   Records; Flightradar24 blog). The same day, westbound traffic routed north of
-   Greenland to dodge the headwind and ran over an hour late. So do not argue only that
+   km/h, peak 1,327 km/h, against a cruise airspeed of about 933 km/h. Guinness gives
+   the 1,327 as the speed the aircraft "reached", which cannot be the crossing average
+   (5,554 km at 1,327 km/h would be 4 h 11 min) — do not let the TLDR or any summary
+   quote it as the crossing speed. Westbound the same day, per the Flightradar24 record
+   post: "flights are routing to the north of the jet stream over Greenland", "Some
+   flights are adding more than 60 minutes, while others that manage to avoid the jet
+   stream entirely are in some cases arriving early." Quote that hedge whole. Do not
+   argue only that
    the asymmetry is smaller than claimed. Argue that it has the wrong sign.
 
 6. AND THE ASYMMETRY REVERSES WITH LATITUDE, WHICH NO SLIPPAGE MODEL CAN DO. Trades
@@ -93,9 +102,13 @@ Research notes for whoever picks this up next.
    component is 9.36°/hr and the vertical 11.77°/hr. Honeywell's GG1320AN — the
    industry-standard navigation-grade ring laser gyro — has typical bias stability
    0.0035°/hr, so Earth rate is roughly 4,300 times the instrument's noise floor. The
-   IRS text used here (an operator's IRS description mirrored at
-   digilander.libero.it/andreatheone/irs.htm — an unofficial copy, and the entry says
-   so) states: "The alignment computations use the basic premise that the only
+   IRS text used here is a Boeing 757/767 IRS description quoted on an operator's blog
+   (b767ops.blogspot.com, "About IRS's and How They Work") — an unofficial copy, and the
+   entry says so. All five sentences below were re-verified there on 2026-08-11. The
+   digilander.libero.it/andreatheone/irs.htm mirror originally cited carries the
+   identical text but now returns HTTP 410 (checked twice, plain and browser
+   user-agent) with no Wayback snapshot found, so it is no longer the citation. It
+   states: "The alignment computations use the basic premise that the only
    accelerations during alignment are due to the earth's gravity; the only motion
    during alignment is due to the earth's rotation"; "the laser gyro sensed earth rate
    components are used to establish the heading of the airplane"; "Earth rate sensing
@@ -137,11 +150,23 @@ Research notes for whoever picks this up next.
     clusters.py A08 gives originator Rowbotham / *Earth Not a Globe* / 1865 for an
     argument about aeroplanes; its note leads with the weak atmospheric answer; and
     works.py/people.py have no Henriet records, which is why the passage below cites
-    WRK-DUBAY-2015 (which does exist) and puts Henriet in the gloss. Note the knock-on:
-    moving four items off Rowbotham takes his total from 65 to 61 and adds a twentieth
-    named originator, both of which are asserted in tests/test_provenance.py. Priority
-    is NOT established — Henriet is the earliest text LOCATED, not demonstrably the
-    first — so if it will not verify, the honest move is untraced, not a different guess.
+    WRK-DUBAY-2015 (which does exist) and puts Henriet in the gloss.
+    WHAT THIS LOOKS LIKE ON THE PAGE, since it is worse than a stale field. render.py
+    prints the originator in the meta line directly above this treatment, so the page
+    reads "first published by Samuel Rowbotham" immediately over a gloss arguing that
+    the aeroplane argument cannot be his. And build.py maps the cluster `note` to
+    `basis`, which render.py prints as the summary line under the "3 · Refutation"
+    chip — so this refutation is currently summarised as "The atmosphere co-moves",
+    the exact answer note 9 above and the steelman's SURFACE tier say loses and
+    deserves to. Two contradictions visible without expanding anything.
+    Knock-on if it is fixed: moving four items off Rowbotham takes his total from 65 to
+    61 and changes the named-originator count and the Rowbotham+Sungenis 43% figure,
+    all asserted in tests/test_provenance.py. Anchor the edit on the cluster key "A08",
+    never on the byte-identical `originator=` line (a batch-7 edit anchored that way
+    landed on the wrong cluster). Priority is NOT established — Henriet is the earliest
+    text LOCATED, not demonstrably the first — so unless a PER-HENRIET/WRK record is
+    created and priority verified, the honest value is untraced, not a different guess,
+    and the rewritten note should lead with the alignment procedure.
 """
 
 ENTRY = {
@@ -153,7 +178,8 @@ ENTRY = {
           "minutes, minimum — measuring the Earth's rotation, and derives the aircraft's "
           "latitude from it to check the crew's entry. East–west flight times are not symmetric "
           "either: on 9 February 2020 a 747 crossed New York to London eastbound in 4 h 56 min, "
-          "at a ground speed of 1,327 km/h against an airspeed of 933. The asymmetry is real, "
+          "averaging 1,126 km/h over the ground and peaking at 1,327, against an airspeed of "
+          "about 933. The asymmetry is real, "
           "and it runs the opposite way from the prediction in the oldest source located for "
           "the aeroplane version of this argument."),
 
@@ -172,8 +198,8 @@ ENTRY = {
                "destinations should be arrived at thrice the speed, but this is not the case."),
         gloss="""<p><strong>Read the last clause before anything else.</strong> Dubay&rsquo;s empirical claim is narrow and, as far as it goes, true: westward flights are not arrived at three times the speed of eastward ones. Across proofs 25 to 27 that is the whole of the observation offered. The list&rsquo;s items 110 and 236 &mdash; <em>&ldquo;Flight symmetry east/west&rdquo;</em>, <em>&ldquo;Flight times symmetric&rdquo;</em> &mdash; assert something else, and something checkable: that the two directions take the same time. They do not, and the compression block below carries that as a finding.</p>
 <p><strong>Where the aeroplane version comes from.</strong> The next proof in the same run, number 26, is a block quotation from <em>Heaven and Earth</em> by Gabrielle Henriet, and that book is the earliest text located that argues from aircraft speeds at all. Henriet&rsquo;s chapter II, &ldquo;On the fact that the earth does not rotate&rdquo;, on the spread paginated 10&ndash;11 in both copies consulted: <em>&ldquo;Thus, if the earth rotates, as it is said, at 1,000 kilometers an hour, and a plane flies in the same direction at only 500 kilometers, it is obvious that its place of destination will be farther removed every minute.&rdquo;</em> An aircraft matching the rotation eastward would <em>&ldquo;remain suspended in mid-air over the spot from which it took off&rdquo;</em>; landing is difficult to picture on an airfield <em>&ldquo;slipping away at the rate of 1,000 kilometers an hour&rdquo;</em>. The chapter ends with a challenge that this page takes seriously enough to answer literally: it would be useful, Henriet writes, to know what people who fly think of the rotation of the earth. Dating is unsettled &mdash; one reference work gives 1956 (Holborn Publishing Co., London), another 1958; the scan used here has no date on its title page, only &ldquo;Translated from the French&rdquo;, the price, and the printer&rsquo;s imprint at Arundel, Sussex. Mid-1950s is as tight as this pass could make it.</p>
-<p><strong>A word that changed on the way through.</strong> Henriet writes <em>kilometers</em> &mdash; three times, in both copies checked. Dubay&rsquo;s proof 26 prints <em>miles</em>, three times, inside the quotation marks. The substitution is not visible to a reader, and it is not obviously careless either, because both versions happen to be roughly right: 1,000 km/h is the Earth&rsquo;s surface speed at about 51.5&deg;N, the latitude of London, to within four per cent; 1,000 mph is the equatorial figure to within four per cent. The claim is rescaled by a factor of 1.61 and its arithmetic still closes. Proof 26 also drops a sentence from the middle of the passage without an ellipsis.</p>
-<p><strong>The Victorian ancestry, which is Carpenter&rsquo;s and not the vehicle you would expect.</strong> East/west symmetry as a numbered proof is in <em>One Hundred Proofs</em> (1885) twice over. Proof 44: <em>&ldquo;since the Earth is said to move at the rate of nineteen miles in a second of time, &lsquo;from west to east,&rsquo; it would make all the difference imaginable if the gun were fired in an opposite direction. But, as, in practice, there is not the slightest difference, whichever way the thing may be done…&rdquo;</em> Proof 54: <em>&ldquo;The aeronaut is able to start in his balloon and remain for hours in the air, at an elevation of several miles, and come down again in the same county or parish from which he ascended.&rdquo;</em> Behind Carpenter stands the air-gun of <em>Earth Not a Globe</em>, Section II &mdash; the ball that should fall <em>&ldquo;considerably more than one statute mile to the west&rdquo;</em> and lands at the muzzle. That argument is <a href="#ARG-A10">ARG-A10</a>&rsquo;s, and it is genuinely Rowbotham&rsquo;s; the aeroplane is a later vehicle bolted onto it, and the man who built the chassis died nineteen years before the Wright brothers flew.</p>
+<p><strong>A word that changed on the way through.</strong> Henriet writes <em>kilometers</em> at every occurrence &mdash; four of them inside the block Dubay reproduces, and a fifth in the airfield sentence just past its end, in both copies checked. Dubay&rsquo;s proof 26 prints <em>miles</em>, all four times, inside the quotation marks. The substitution is not visible to a reader, and it is not obviously careless either, because both versions happen to be roughly right: 1,000 km/h is the Earth&rsquo;s surface speed at about 51.5&deg;N, the latitude of London, to within four per cent; 1,000 mph is the equatorial figure to within four per cent. The claim is rescaled by a factor of 1.61 and its arithmetic still closes. Proof 26 also drops a sentence from the middle of the passage without an ellipsis.</p>
+<p><strong>The Victorian ancestry, which is Carpenter&rsquo;s and not the vehicle you would expect.</strong> East/west symmetry as a numbered proof is in <em>One Hundred Proofs</em> (1885) twice over, and Carpenter&rsquo;s own index names it both times. Proof 42, indexed <em>&ldquo;Projectiles&mdash;firing east or west&rdquo;</em>, and quoted with its conditional intact: <em>&ldquo;If the Earth went through space at the rate of eleven-hundred miles in a minute of time, as astronomers teach us, in a particular direction, there would unquestionably be a difference in the result of firing off a projectile in that direction and in a direction the opposite of that one. But as, in fact, there is not the slightest difference in any such case&hellip;&rdquo;</em> Then proof 44, the same argument restated with a figure: <em>&ldquo;since the Earth is said to move at the rate of nineteen miles in a second of time, &lsquo;from west to east,&rsquo; it would make all the difference imaginable if the gun were fired in an opposite direction. But, as, in practice, there is not the slightest difference, whichever way the thing may be done…&rdquo;</em> Proof 54 is not an east/west comparison at all but the same decoupling argument with the vehicle changed &mdash; and it is the one that comes nearest to flight: <em>&ldquo;The aeronaut is able to start in his balloon and remain for hours in the air, at an elevation of several miles, and come down again in the same county or parish from which he ascended.&rdquo;</em> Behind Carpenter stands the air-gun of <em>Earth Not a Globe</em>, Section II &mdash; the ball that should fall <em>&ldquo;considerably more than one statute mile to the west&rdquo;</em> and lands at the muzzle. That argument is <a href="#ARG-A10">ARG-A10</a>&rsquo;s, and it is genuinely Rowbotham&rsquo;s; the aeroplane is a later vehicle bolted onto it, and the man who built the chassis died nineteen years before the Wright brothers flew.</p>
 <p><strong>One thing the 1865 text does say about travelling east and west.</strong> Considering the day gained or lost on a circumnavigation, Rowbotham concludes that it is <em>&ldquo;no more favourable to the idea of rotundity than it is to the opposite fact that the earth is a plane; as both forms will permit of the same effect.&rdquo;</em> On the nearest question he addresses, the founder of the zetetic lane calls east/west travel asymmetry non-discriminating &mdash; which is the opposite of the use four items on this list make of it. (Searched: the Project Gutenberg #69892 text of the 1865 Simpkin, Marshall printing, for <em>balloon</em>, <em>aeronaut</em>, <em>fly</em>, <em>flight</em>, <em>east</em> and <em>west</em>. An aeroplane argument is not located in that text; later editions were not reached in this pass.)</p>"""),
 
     steelman=dict(
@@ -190,7 +216,7 @@ ENTRY = {
 
 <p>Take the source at its own strength. Henriet&rsquo;s aircraft flies east into a receding destination and west with 1,000 km/h added; Dubay&rsquo;s version has westward destinations reached at thrice the speed. Both make eastbound the disadvantaged direction. On the mid-latitude routes this argument is always made about, eastbound is the <em>fast</em> direction, and has been since the routes existed.</p>
 
-<p>The clean instance: British Airways flight BA112, a Boeing 747-400, New York JFK to London Heathrow on 9 February 2020, <strong>4 hours 56 minutes</strong> for 5,554 km &mdash; an average ground speed of 1,126 km/h and a peak of 1,327 km/h, against a cruise airspeed of about 933 km/h. The aircraft covered ground faster than it moved through the air, going <em>east</em>, in the direction Henriet says an aircraft cannot make progress at all. On the same day westbound traffic detoured north of Greenland to escape the headwind and lost more than an hour. The routine version of the same fact, without the storm, is the jet stream&rsquo;s standing effect on scheduling: eastbound long-haul flights tend to run shorter than their westbound returns, on long routes by an hour or more.</p>
+<p>The clean instance: British Airways flight BA112, a Boeing 747-400, New York JFK to London Heathrow on 9 February 2020, <strong>4 hours 56 minutes</strong> for 5,554 km &mdash; an average ground speed of 1,126 km/h and a peak of 1,327 km/h, against a cruise airspeed of about 933 km/h. The aircraft covered ground faster than it moved through the air, going <em>east</em>, in the direction Henriet says an aircraft cannot make progress at all. The same day, westbound flights were routing north of the jet stream over Greenland; some, Flightradar24 reported, were adding more than sixty minutes, while others that managed to avoid the jet stream entirely were in some cases arriving early. The routine version of the same fact, without the storm, is the jet stream&rsquo;s standing effect on scheduling: eastbound long-haul flights tend to run shorter than their westbound returns, on long routes by an hour or more.</p>
 
 <p>So the answer to items 110 and 236 is not that the asymmetry is smaller than claimed. It is that the asymmetry is <strong>real, published in every timetable, and pointed the other way</strong>.</p>
 
@@ -204,7 +230,7 @@ ENTRY = {
 
 <p>Item 13 is the interesting one, because it is answerable from a manual. An airliner&rsquo;s inertial reference system aligns on the ramp before every flight, and here is what the alignment is: <em>&ldquo;The alignment computations use the basic premise that the only accelerations during alignment are due to the earth&rsquo;s gravity; the only motion during alignment is due to the earth&rsquo;s rotation.&rdquo;</em> The accelerometers find local vertical from gravity; then <em>&ldquo;the laser gyro sensed earth rate components are used to establish the heading of the airplane&rdquo;</em>, and <em>&ldquo;Earth rate sensing by the laser gyros allows the IRU to determine initial latitude&rdquo;</em>, which <em>&ldquo;is compared to the crew entered latitude&rdquo;</em> &mdash; a comparison that <em>&ldquo;must be favorable to complete the alignment period&rdquo;</em>. Minimum align time: ten minutes.</p>
 
-<p>Read that again as a measurement rather than as avionics. Before the aircraft moves, its instruments determine which way is north and what latitude it is at, using nothing but gravity and the rotation of the Earth &mdash; and then check the answer against the crew. On a stationary Earth the gyros would see nothing to work with and the procedure would have no content. The signal is not marginal, either: Earth rate is 15.041&deg;/hr (the sidereal day is 23 h 56 m 4 s), of which 9.36&deg;/hr is horizontal at the latitude of London, while Honeywell&rsquo;s GG1320AN &mdash; the industry-standard navigation-grade ring laser gyro &mdash; has a typical bias stability of 0.0035&deg;/hr. The thing being measured is about four thousand times the instrument&rsquo;s noise floor. This is the same instrument, and the same 15&deg;/hr, that <a href="#ARG-A07">ARG-A07</a> records a flat-earth researcher measuring on camera and declining to accept.</p>
+<p>Read that again as a measurement rather than as avionics. Before the aircraft moves, its instruments determine which way is north and what latitude it is at, using nothing but gravity and the rotation of the Earth &mdash; and then check the answer against the crew. On a stationary Earth the gyros would see nothing to work with and the procedure would have no content. The signal is not marginal, either: Earth rate is 15.041&deg;/hr (the sidereal day is 23 h 56 m 4 s), of which 9.36&deg;/hr is horizontal at the latitude of London, while Honeywell&rsquo;s GG1320AN &mdash; the industry-standard navigation-grade ring laser gyro &mdash; has a typical bias stability of 0.0035&deg;/hr. The thing being measured is about four thousand times the instrument&rsquo;s noise floor. This is the same quantity, and the same instrument class &mdash; a navigation-grade ring laser gyro &mdash; that <a href="#ARG-A07">ARG-A07</a> records a flat-earth researcher reading 15&deg;/hr on camera, where the finding is the missing acceptance criterion rather than the reading.</p>
 
 <p>The rotation then stays in the equations for the rest of the flight. The non-inertial terms a navigation-grade system must compensate are named in the professional literature as Earth rate, transport rate and Coriolis acceleration &mdash; and the same source notes the converse, that in cheap sensors &ldquo;Earth rate (15 deg/hr) stays below gyro errors and cannot be measured reliably&rdquo;, which is precisely why cheap sensors cannot navigate. The size of the Coriolis term at cruise: 2&Omega;<em>v</em> sin&nbsp;&phi; = 0.026 m/s&sup2; at 45&deg; and 250 m/s. Dropped from the mechanisation, an acceleration that size integrates to a position error of order &frac12;<em>at</em>&sup2; &mdash; something like 170 km after an hour, before any of the error-bounding behaviour of a real navigator is considered. It is not dropped.</p>
 
@@ -212,13 +238,17 @@ ENTRY = {
 
 <p><strong>Weight.</strong> The vertical companion of the Coriolis term is the E&ouml;tv&ouml;s effect: 2&Omega;<em>v</em> cos&nbsp;&phi;, which at 45&deg; and 250 m/s is 0.026 m/s&sup2; &mdash; 2,578 mGal, about 0.26% of <em>g</em>, and reversing sign between east and west for a swing of some 5,150 mGal. Baron Roland von E&ouml;tv&ouml;s noticed the discrepancy in shipboard gravimetry and it was confirmed in 1908 by sending two ships across the Black Sea in opposite directions. Airborne gravity surveying inherited the problem wholesale &mdash; Harlan&rsquo;s 1968 paper in the <em>Journal of Geophysical Research</em> is titled, flatly, &ldquo;E&ouml;tv&ouml;s corrections for airborne gravimetry&rdquo;. An aircraft flying east weighs measurably less than the same aircraft flying west, and the survey industry has spent sixty years subtracting the difference.</p>
 
-<p><strong>Time.</strong> In October 1971 Hafele and Keating put four caesium clocks on <em>scheduled commercial flights</em> and flew them round the world twice, once east and once west. Their abstract reports &ldquo;directionally dependent time differences&rdquo;: the flying clocks &ldquo;lost 59 &plusmn; 10 nanoseconds during the eastward trip and gained 273 &plusmn; 7 nanoseconds during the westward trip&rdquo;, against predictions of &minus;40 &plusmn; 23 and +275 &plusmn; 21. That 332-nanosecond split between the two directions is the east/west asymmetry of air travel, measured to the nanosecond, on ordinary airline tickets &mdash; and it exists <em>only</em> because the ground the aircraft take off from is itself moving. On a stationary Earth the direction of travel would carry no distinction in principle, and there would be nothing for that split to come from. The experiment has been repeated by the National Physical Laboratory twice, London&ndash;Washington in 1996 (39 &plusmn; 2 ns against 39.8 predicted) and round the world in 2010 (230 &plusmn; 20 against 246 &plusmn; 3).</p>
+<p><strong>Time.</strong> In October 1971 Hafele and Keating put four caesium clocks on <em>scheduled commercial flights</em> and flew them round the world twice, once east and once west. Their abstract reports &ldquo;directionally dependent time differences&rdquo;: the flying clocks &ldquo;lost 59 &plusmn; 10 nanoseconds during the eastward trip and gained 273 &plusmn; 7 nanoseconds during the westward trip&rdquo;, against predictions of &minus;40 &plusmn; 23 and +275 &plusmn; 21. That 332-nanosecond split between the two directions is the east/west asymmetry of air travel, measured to the nanosecond, on ordinary airline tickets &mdash; and it exists <em>only</em> because the ground the aircraft take off from is itself rotating relative to the local inertial frame. Absent that rotation the direction of travel would carry no distinction in principle, and there would be nothing for that split to come from. The experiment has been repeated by the National Physical Laboratory twice, London&ndash;Washington in 1996 (39 &plusmn; 2 ns against 39.8 predicted) and round the world in 2010 (230 &plusmn; 20 against 246 &plusmn; 3).</p>
 
 <h4>5. What the frame argument does and does not have to do</h4>
 
 <p>The reason an aircraft does not need to chase its destination is not that the atmosphere drags it. It is that ground speed is a relation between the aircraft and the ground, and both carry the same rotational velocity into the flight &mdash; the point Galileo made with a ship&rsquo;s sealed cabin in 1632 and which <a href="#ARG-A10">ARG-A10</a> works through in Rowbotham&rsquo;s own words, since Rowbotham granted that the atmosphere turns with the Earth and built an experiment to show it. That is the whole of the frame answer, and on its own it would leave <a href="#ARG-R03">ARG-R03</a>&rsquo;s reply standing: cancelling terms prove nothing either way.</p>
 
-<p>Which is why the load in this entry is carried by the terms that do <em>not</em> cancel. Coriolis, E&ouml;tv&ouml;s, the sensed Earth rate in the alignment, the directional split in the clocks: four quantities that are zero on a stationary Earth, are not zero, and are each the size a rotating Earth predicts. The list asks whether aviation compensates for the spin. It does &mdash; in the alignment procedure, in the mechanisation equations, in the gravimeter&rsquo;s correction table and in the timing budget &mdash; and the compensations are the measurement.</p>""",
+<p>Which is why the load in this entry is carried by the terms that do <em>not</em> cancel. Coriolis, E&ouml;tv&ouml;s, the sensed Earth rate in the alignment, the directional split in the clocks: four quantities that are zero on a stationary Earth under a fixed heaven, are not zero, and are each the size a rotating Earth predicts. The list asks whether aviation compensates for the spin. It does &mdash; in the alignment procedure, in the mechanisation equations, in the gravimeter&rsquo;s correction table and in the timing budget &mdash; and the compensations are the measurement.</p>
+
+<p><strong>And here is the concession those four terms owe, made where a reader can see it.</strong> Each of them measures rotation relative to the <em>local inertial frame</em>, which is all any of them can do. If instead the heavens turn about a fixed Earth and the distant matter carries the local inertial frame round with it, the Earth is still turning with respect to that frame: the gyro still senses 15&deg;/hr, the Coriolis and E&ouml;tv&ouml;s terms are still there, and the clocks still split. That reply is a real one, it is the strongest available to this cluster, and this page takes it seriously at <a href="#ARG-R01">ARG-R01</a> and <a href="#ARG-R03">ARG-R03</a> rather than here.</p>
+
+<p>What it does not do is rescue the two claims actually on the list. <em>&ldquo;Flight times symmetric&rdquo;</em> is false in the published timetables whatever defines the inertial frame, and <em>&ldquo;aircraft navigation not compensating for spin&rdquo;</em> is false in the alignment procedure whatever is rotating relative to what &mdash; a procedure that derives latitude from a sensed rotation is compensating for one, on any account of what is going round. A defender who reaches for general covariance to save those two sentences has conceded them.</p>""",
 
     advocate=dict(
         best_defense=(
@@ -274,19 +304,19 @@ ENTRY = {
     straw_man=dict(
         identified=True,
         detail=("Proof 23 of the same run, two items before the passage quoted above, states the "
-                "position it is attacking as: gravity &ldquo;magically and inexplicably drags the "
+                "position it is attacking as: gravity “magically and inexplicably drags the "
                 "entire lower-atmosphere of the Earth in perfect synchronization up to some "
                 "undetermined height where this progressively faster spinning atmosphere gives way "
-                "to the non-spinning, non-gravitized, non-atmosphere of infinite vacuum space.&rdquo; "
+                "to the non-spinning, non-gravitized, non-atmosphere of infinite vacuum space.” "
                 "Three things there are nobody's account but the author's. The atmosphere is not "
                 "dragged; it retains the rotational velocity it has always had, and gravity binds "
-                "it rather than towing it. It does not spin progressively faster with height &mdash; "
+                "it rather than towing it. It does not spin progressively faster with height — "
                 "tangential speed rises with radius by a fraction of a per cent over the whole "
                 "depth of the troposphere, which is dwarfed by ordinary winds. And there is no "
                 "boundary at which co-rotation stops: density falls off smoothly and the degree of "
                 "co-rotation weakens gradually through the thermosphere and beyond. The caricature "
-                "matters because it is aimed at the answer this page declines to give &mdash; see "
-                "the SURFACE tier of the steelman &mdash; and a defender who has only ever met the "
+                "matters because it is aimed at the answer this page declines to give — see "
+                "the SURFACE tier of the steelman — and a defender who has only ever met the "
                 "'gravity drags the air' reply is entitled to think the argument works. Henriet's "
                 "own closing line, by contrast, is not a straw man at all but a fair challenge: he "
                 "asks what people who fly think of the rotation of the earth, and section 3 answers "
@@ -313,14 +343,26 @@ ENTRY = {
               "from a timetable. Item 13&rsquo;s nearest source text is proof 27 (landing on a "
               "moving runway) and Henriet&rsquo;s airfield &ldquo;slipping away&rdquo;; the phrase "
               "&ldquo;navigation not compensating&rdquo; is the list&rsquo;s own.<br><br>"
-              "<code>unsourced_addition</code> is recorded because the symmetry claim is attributed "
-              "to a literature in which this pass could not locate it. <code>scope_widened</code> was the "
-              "alternative &mdash; &ldquo;not thrice as fast&rdquo; widened into &ldquo;the "
-              "same&rdquo; &mdash; and a reader who prefers it has both texts above to judge from.<br><br>"
+              "<code>unsourced_addition</code> is recorded, with a qualification the enum cannot "
+              "carry. Directional symmetry itself <em>is</em> in this literature, asserted as "
+              "observed fact, with a different vehicle: Dubay&rsquo;s proof 24, one item before "
+              "the passage quoted above, has it that &ldquo;regardless of which direction cannons "
+              "are fired, the distance covered is always the same&rdquo;, and Carpenter&rsquo;s "
+              "proofs 42 and 44 say the same of projectiles. What is not located anywhere in the "
+              "texts read for this entry &mdash; Dubay&rsquo;s numbered proofs, Henriet&rsquo;s "
+              "chapter II, Carpenter 1885 &mdash; is the claim asserted of <em>flight times</em>: "
+              "the one vehicle whose east/west "
+              "asymmetry is printed in every timetable, and the vehicle all four list items name. "
+              "The addition is therefore a change of vehicle rather than an invention from "
+              "nothing, which makes <code>scope_widened</code> a defensible alternative reading: "
+              "&ldquo;not thrice as fast&rdquo;, said of aircraft, and &ldquo;always the same&rdquo;, "
+              "said of cannonballs, widened into &ldquo;flight times symmetric&rdquo;. A reader who "
+              "prefers it has both texts above to judge from.<br><br>"
               "<strong>The sharper drift happened one link earlier, and the enum has no word for it.</strong> "
               "Dubay&rsquo;s proof 26 quotes Henriet inside quotation marks and prints "
-              "<em>miles</em> three times where Henriet wrote <em>kilometers</em> &mdash; verified in "
-              "two independent copies of each book &mdash; while dropping a sentence from the middle "
+              "<em>miles</em> four times where Henriet wrote <em>kilometers</em> &mdash; verified in "
+              "two independent copies of Henriet and in two text layers of the Internet Archive "
+              "scan of Dubay &mdash; while dropping a sentence from the middle "
               "without an ellipsis. The claim is rescaled by 1.61 in transit. It is invisible "
               "because both numbers survive the change: 1,000 km/h is the Earth&rsquo;s surface "
               "speed at the latitude of London to within four per cent, and 1,000 mph is the "
@@ -330,7 +372,8 @@ ENTRY = {
               "<strong>The refutation answers the source, not the fragment.</strong> It takes "
               "Henriet&rsquo;s claim at his own strength &mdash; that an eastbound aircraft could "
               "not cover ground &mdash; and answers it with an eastbound aircraft covering ground "
-              "at 1,327 km/h; it takes his challenge to ask people who fly and answers it with "
+              "faster than it moved through the air, 1,126 km/h averaged across the crossing "
+              "against a 933 km/h airspeed; it takes his challenge to ask people who fly and answers it with "
               "their alignment procedure. What the fragment adds, the symmetry of the timetables, "
               "is refuted separately, because the fragment is what circulates.")),
 
@@ -346,29 +389,38 @@ ENTRY = {
                    "passage, reading “1,000 kilometers an hour”",
              url="https://archive.org/details/HeavenAndEarthGabrielleHenriet"),
         dict(label="Heaven and Earth — second copy consulted, PDF text layer, confirming "
-                   "“kilometers” in the same three sentences",
+                   "“kilometers” at all four occurrences in the passage Dubay reproduces "
+                   "(and at the fifth, the airfield “slipping away”, just past its end)",
              url="https://www.theflatearthsociety.org/library/books/Heaven%20and%20Earth%20(Gabrielle%20Henriet).pdf"),
         dict(label="Kook Science on Gabrielle Henriet — “a French-born proponent of a flat earth "
                    "theory”; Heaven and Earth catalogued 1956, Holborn Publishing Co., London; "
                    "The Solid Vault of Heaven, Regency Press, 1963, is a separate title",
              url="https://hatch.kookscience.com/wiki/Gabrielle_Henriet"),
-        dict(label="Eric Dubay, 200 Proofs Earth Is Not a Spinning Ball — proofs 23, 25, 26, 27; "
-                   "proof 26 prints Henriet with “miles” for “kilometers”",
+        dict(label="Eric Dubay, 200 Proofs Earth Is Not a Spinning Ball — proofs 23, 24, 25, 26, 27; "
+                   "proof 24 asserts cannon-range symmetry as observed fact; proof 26 prints "
+                   "Henriet with “miles” for “kilometers” at all four occurrences. Checked in the "
+                   "djvu OCR and in the PDF text layer of this one scan — two derivations, not "
+                   "two copies",
              url="https://archive.org/details/200-proofs-the-earth-is-not-a-spinning-ball"),
         dict(label="William Carpenter, One Hundred Proofs that the Earth Is Not a Globe (1885) — "
-                   "proof 44 “Firing in opposite direction” and proof 54 “Balloons not left "
-                   "behind”: the east/west symmetry argument before aircraft existed",
+                   "proof 42 “Projectiles--firing east or west” and proof 44 “Firing in opposite "
+                   "direction”: the east/west symmetry argument before aircraft existed. Proof 54 "
+                   "“Balloons not left behind” is the same decoupling argument with no east/west "
+                   "comparison in it",
              url="https://www.gutenberg.org/ebooks/55387"),
         dict(label="“Parallax” [Samuel Rowbotham], Zetetic Astronomy: Earth Not a Globe! (1865, "
                    "Simpkin, Marshall) — Section II, the air-gun experiment; and the date-line "
                    "passage calling east/west circumnavigation “no more favourable to the idea of "
                    "rotundity than … that the earth is a plane”",
              url="https://www.gutenberg.org/ebooks/69892"),
-        dict(label="Operator IRS description (unofficial mirror) — “the only motion during "
+        dict(label="Boeing 757/767 IRS description, quoted on an operator’s blog (unofficial "
+                   "mirror, not a Boeing-hosted document) — “the only motion during "
                    "alignment is due to the earth’s rotation”; earth rate sensing establishes "
                    "heading and initial latitude, compared against the crew entry; 10-minute "
-                   "minimum alignment",
-             url="https://digilander.libero.it/andreatheone/irs.htm"),
+                   "minimum alignment. All five sentences quoted in section 3 verified here. The "
+                   "digilander.libero.it/andreatheone/irs.htm mirror previously cited for the "
+                   "identical text now returns HTTP 410 and no Wayback snapshot was found",
+             url="http://b767ops.blogspot.com/2014/06/about-irss-and-how-they-work.html"),
         dict(label="Inside GNSS, “The Inertialist: Fundamentals of Inertial Navigation” — Earth "
                    "rate, transport rate and Coriolis acceleration as the compensated non-inertial "
                    "effects; “For lower-grade IMUs, Earth rate (15 deg/hr) stays below gyro errors "
@@ -385,9 +437,16 @@ ENTRY = {
                    "westward) and the NPL repeats of 1996 and 2010",
              url="https://en.wikipedia.org/wiki/Hafele%E2%80%93Keating_experiment"),
         dict(label="Guinness World Records — fastest subsonic transatlantic commercial flight: "
-                   "BA112, Boeing 747-400, JFK–Heathrow, 9 February 2020, 4 hr 56 min for 5,554 km, "
-                   "1,327 km/h over the ground against a ~933 km/h cruise",
+                   "BA112, Boeing 747-400, JFK–Heathrow, 9 February 2020, 4 hr 56 min for 5,554 km; "
+                   "the aircraft “reached a speed of 1,327 km/h (825 mph) relative to the ground "
+                   "below” against a ~933 km/h cruise. That is the peak, not the crossing average: "
+                   "5,554 km in 4 hr 56 min is 1,126 km/h",
              url="https://www.guinnessworldrecords.com/world-records/601621-fastest-subsonic-transatlantic-commercial-flight"),
+        dict(label="Flightradar24, “British Airways sets new transatlantic speed record” — westbound "
+                   "on the same day: “flights are routing to the north of the jet stream over "
+                   "Greenland”; “Some flights are adding more than 60 minutes, while others that "
+                   "manage to avoid the jet stream entirely are in some cases arriving early”",
+             url="https://flightradar24.com/blog/british-airways-sets-new-transatlantic-speed-record"),
         dict(label="CNN, “Strong jet stream sees transatlantic aircraft fly at the ‘speed of sound’” "
                    "— “the jet stream is the reason why eastbound flights tend to be shorter than "
                    "westbound ones … time differences of an hour or more”",

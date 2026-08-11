@@ -36,7 +36,16 @@ Research notes for whoever picks this up next.
          cannonball (Rowbotham's air gun, modernised) and belongs to a different cluster.
      (b) Edward Hendrie, The Greatest Lie on Earth (2016), CHAPTER 9, "No Coriolis Effect
          Proves a Stationary Earth", printed pp. 105-114, with the artillery and sniper
-         material at pp. 112-113. This is where the list's word "artillery" comes from.
+         material at pp. 113-114. PAGE CONVENTION, ESTABLISHED FROM FOUR ANCHORS BEFORE
+         BEING USED: in this OCR the printed page marker sits at the FOOT of its page, so
+         text between markers N and N+1 is page N+1. The chapter 9 heading follows marker
+         104 and the table of contents gives chapter 9 as p. 105; the chapter 10 heading
+         follows marker 114 against a TOC page 115; chapter 7 follows marker 83 against TOC
+         84; chapter 11 follows marker 119 against TOC 120. The artillery/sniper paragraph
+         sits between markers 112 and 113 and is therefore on p. 113; the "former federal
+         firearms instructor" warrant sits between 113 and 114, on p. 114. Earlier drafts of
+         this entry cited pp. 112-113 and were off by one; corrected 2026-08-11.
+         This is where the list's word "artillery" comes from.
          Hendrie: "you will look in vain for any mention of Coriolis effect in any
          military artillery or sniper instruction manual", and "no soldier has ever been
          instructed to consider the Coriolis effect of a spinning Earth when [sighting] in
@@ -114,7 +123,9 @@ Research notes for whoever picks this up next.
 8. THE HONEST CONCESSIONS, AND THEY ARE THREE. Do not soften them; the entry is stronger
    for carrying them and a defender who finds them missing gets the section.
    (a) The word "Coriolis" is not located in the text layer of the April 2016 TC 3-09.81
-       PDF searched here. Army artillery doctrine calls the thing "rotation of the earth".
+       PDF searched here. That manual, and FM 6-40 (1945), call the thing "rotation of the
+       earth" — the word "Coriolis" is not located in either. What the wider doctrinal
+       corpus calls it was NOT checked, and the published concession no longer says it was.
        Hendrie's sentence, read as a claim about the WORD, survives; read as a claim about
        the THING, it is refuted by two tables in the document.
    (b) The word "Coriolis" is likewise not located in the archive.org OCR text of FM 23-10
@@ -125,15 +136,18 @@ Research notes for whoever picks this up next.
        confuses a great circle drawn on a Mercator projection with a Coriolis deflection.
        Wikipedia's own Coriolis article warns against exactly that conflation. He is right
        about his target and wrong about the conclusion he draws from it.
-9. HENDRIE'S FOOTNOTES ARE THE SHORTEST ROUTE TO THE ANSWER. The passage at pp. 112-113
+9. HENDRIE'S FOOTNOTES ARE THE SHORTEST ROUTE TO THE ANSWER. The passage at p. 113
    carries two notes. One cites FM 23-10 (1994) and a Navy SEAL sniper program. The other,
    supporting a claim about "all of the wars fought throughout history", cites four
    artillery manuals: Bethel, Modern Artillery in the Field (1911); Instruction for Field
    Artillery Prepared by a Board of Artillery Officers (1860); Artillerist's Manual (1863);
    Roberts, The Hand-Book of Artillery (1863). Three of the four predate the First World
-   War and the newest is from 1911. The OCR markers in the archive text are garbled, so
-   the entry does NOT assert which sentence takes which note — it describes what the two
-   notes cite, which is all the argument needs.
+   War and the newest is from 1911. The in-line OCR markers are garbled, so the entry does
+   NOT assert which sentence takes which note — it describes what the two notes cite, which
+   is all the argument needs. (The endnote list itself is legible and numbers them 115
+   — FM 23-10 plus the Navy SEAL program — and 116 — Bethel 1911, Instruction for Field
+   Artillery 1860, Artillerist's Manual 1863, Roberts 1863; the two markers appear in that
+   order in the paragraph, but the published prose does not lean on that.)
 
 10. DEFECTS IN OUR OWN RECORD, reported up, NOT edited here (this agent owns one file):
     (a) clusters.py A14 originator/originator_work/year credit Rowbotham 1865 for a claim
@@ -142,7 +156,10 @@ Research notes for whoever picks this up next.
         and Dubay 2015 / Hendrie 2016 recorded as repopularisers. This is the C02 shape.
     (b) clusters.py A14 real_source="Standard long-range fire-control tables" is vague for
         a project whose product is provenance. Proposal: TC 3-09.81 (2016) Tables H and I;
-        FM 6-40 (1945) tables D and E.
+        FM 6-40 (1945) firing-table tables D and E. Both halves re-verified 2026-08-11 —
+        FM 6-40 para 323: "From tables D and E, part 2, of the firing tables, obtain range
+        and deflection effects due to rotation of the earth for the latitude of the
+        battery (long range weapons only)."
     (c) clusters.py A14 note asserts "Long-range gunnery has corrected for Coriolis drift
         since WWI; naval fire-control computers did it mechanically." NEITHER HALF WAS
         VERIFIED HERE AND THE FIRST FAILED A CHECK: the phrase "rotation of the earth" is
@@ -155,10 +172,50 @@ Research notes for whoever picks this up next.
         passage below uses WRK-DUBAY-2015 — the other of the two modern sources, in
         WORKS, and the one this list descends from — and carries Hendrie in the gloss and
         the sources list. If a WRK-HENDRIE-2016 is ever added, the passage should move.
+    STILL UNAPPLIED as of 2026-08-11 — recorded here across two passes and not yet carried
+    into clusters.py, which is the E01/E03 "recorded, not actually applied" pattern. Until
+    it is, the rendered header prints "first published by Samuel Rowbotham" directly above a
+    gloss that says no single author is credited, and the basis line under the Refutation
+    summary prints an unverified WWI/naval-computer claim directly above our own concession
+    about the 2016 manual. Whoever applies it: anchor the edit on the cluster key "A14",
+    never on the byte-identical originator= line (that exact line occurs seven times in
+    clusters.py — A08, A13, A14, A17, B06, B09, B10, checked 2026-08-11), and keep
+    the word "first" out of the replacement — the attribution guards test for it.
     None of this is written into the published prose as a recommendation. The prose states
     what the texts show and nothing about what our records ought to say.
 
-11. VERDICT. REFUTED, kept. The cluster asserts that gunnery ignores the Earth's rotation.
+11. RE-VERIFICATION PASS, 2026-08-11 (adversarial review applied). Every source claim in
+    this entry was re-checked against the source text, not against the review note:
+    (a) TC 3-09.81, 13 April 2016 PDF pulled from armypubs and converted with pdftotext.
+        "coriolis" 0 occurrences in the text layer. Para 3-63 verbatim: "Actual firing
+        conditions, however, will never equate to standard conditions", with "Rotation of
+        the earth" in BOTH the range-effects and the deflection-effects lists. Figure 7-1
+        (and the duplicate figure 11-1) list NO ROTATION OF THE EARTH under POSITION and
+        NO WIND under WEATHER — so they are in the same standard-conditions list but NOT
+        adjacent; the note used to say "directly beneath NO WIND" and now does not.
+        Paras 7-20/7-21 (Table H), 7-23/7-24 (Table I), 7-22 ("approximately 457 meters per
+        second", "impact east of the target (over the target in this case)", west "short of
+        the target") and step 17a ("Select the appropriate Table I on the basis of latitude
+        (30 degrees N)") all confirmed verbatim.
+    (b) FM 6-40 (1945), archive.org OCR: "coriolis" 0; "rotation of the earth tables for
+        direction and range" and "from tables D and E, part 2, of the firing tables, obtain
+        range and deflection effects due to rotation of the earth for the latitude of the
+        battery (long range weapons only)" both confirmed verbatim.
+    (c) Dubay proof 24 confirmed verbatim, including "lOOOmph"; proof 25 is the eastbound
+        airliner, as stated. "artiller" and "mils" each 0 occurrences in that OCR.
+    (d) Hendrie: the artillery/sniper passage confirmed verbatim; "mils" 0 occurrences in
+        that OCR. Page numbering corrected 112-113 -> 113-114, see §3(b).
+    (e) Graney arXiv:1012.3642 confirmed verbatim for all three quoted strings, including
+        the full Copernican-response sentence quoted through its reversal ("...or to concede
+        it but claim that the differences in trajectory fall below our ability to measure.
+        But in fact the argument is strong, and this response is not."), and for the
+        60-or-80-pound ball crossing 250 paces in 2 human pulsebeats.
+    (f) The "four orders below" figure in section 2 was WRONG and is gone. Like for like at
+        22 km: the naive v^2 model gives ~60 km east against ~2.6 km west, a difference of
+        ~57 km, against a real ~156 m — a factor of ~370, i.e. 2.6 orders. Four came from
+        comparing the dimensionless 23:1 ratio with the 0.36% fractional shift.
+
+12. VERDICT. REFUTED, kept. The cluster asserts that gunnery ignores the Earth's rotation.
     Two field manuals seventy-one years apart tabulate the correction, index it by the
     battery's latitude, express half of it in mils and reverse the table entry across the
     equator. There is no live scientific question here — this is settled exterior
@@ -195,7 +252,7 @@ ENTRY = {
                "however, regardless of which direction cannons are fired, the distance "
                "covered is always the same."),
         gloss="""<p><strong>Read what the claim commits to.</strong> It is not vague. It names a control (north/south fire), a signal (an east&ndash;west range difference), and a result (there is none). That is a testable proposition about gunnery, and it is the only member of this cluster&rsquo;s ancestry that specifies the <em>rotation</em> rather than the Earth&rsquo;s motion in general. Everything below answers it at that strength.</p>
-<p><strong>Where the word &ldquo;artillery&rdquo; comes from, because it is not from here.</strong> Dubay writes &ldquo;cannons&rdquo;. The list writes &ldquo;artillery&rdquo;, twice, and the vocabulary tracks a second and later book: Edward Hendrie, <em>The Greatest Lie on Earth</em> (2016), chapter 9, &ldquo;No Coriolis Effect Proves a Stationary Earth&rdquo;, at printed pp. 105&ndash;114, with the passage the items compress at pp. 112&ndash;113. Hendrie states it without a hedge anywhere in it: <em>&ldquo;you will look in vain for any mention of Coriolis effect in any military artillery or sniper instruction manual&rdquo;</em>, and that in all the wars of history <em>&ldquo;no soldier has ever been instructed to consider the Coriolis effect of a spinning Earth&rdquo;</em> when laying a gun. He adds a personal warrant &mdash; he is a former federal firearms instructor and has never seen a round affected by it, nor read of it in a firearms manual.</p>
+<p><strong>Where the word &ldquo;artillery&rdquo; comes from, because it is not from here.</strong> Dubay writes &ldquo;cannons&rdquo;. The list writes &ldquo;artillery&rdquo;, twice, and the vocabulary tracks a second and later book: Edward Hendrie, <em>The Greatest Lie on Earth</em> (2016), chapter 9, &ldquo;No Coriolis Effect Proves a Stationary Earth&rdquo;, at printed pp. 105&ndash;114, with the passage the items compress at pp. 113&ndash;114. Hendrie states it without a hedge anywhere in it: <em>&ldquo;you will look in vain for any mention of Coriolis effect in any military artillery or sniper instruction manual&rdquo;</em>, and that in all the wars of history <em>&ldquo;no soldier has ever been instructed to consider the Coriolis effect of a spinning Earth&rdquo;</em> when laying a gun. He adds a personal warrant &mdash; he is a former federal firearms instructor and has never seen a round affected by it, nor read of it in a firearms manual.</p>
 <p><strong>The footnotes are the shortest route to the answer.</strong> That passage carries two notes. One cites FM 23-10, <em>Sniper Training</em> (17 August 1994) and a Navy SEAL sniper program. The other, attached to a claim about every war ever fought, cites four artillery manuals: Bethel&rsquo;s <em>Modern Artillery in the Field</em> (1911), <em>Instruction for Field Artillery</em> (1860), the <em>Artillerist&rsquo;s Manual</em> (1863) and Roberts&rsquo;s <em>Hand-Book of Artillery</em> (1863). Three of the four are American Civil War-era and the newest is from 1911 &mdash; that is, the evidence offered for the state of gunnery is a shelf assembled entirely before the ranges at which the effect matters were reached.</p>
 <p><strong>The argument is far older than either book, and its ancestor is better made.</strong> In the <em>Almagestum Novum</em> (Bologna, 1651), the Jesuit astronomer Giovanni Battista Riccioli set out 77 arguments against the motion of the Earth; numbers 17 and 19 are cannon arguments. If the Earth turned, he reasoned, a ball fired toward the pole would be carried off, because &ldquo;on parallels nearer the poles, the ground moves more slowly, whereas on parallels nearer the equator, the ground moves more rapidly&rdquo;, and a ball fired north would strike its target more weakly than one fired east. He credits the cannon experiment to Tycho and argument 19 to his colleague Grimaldi; Dechales repeated it in 1674. Riccioli derived his effect from theory rather than asserting it from a shelf of manuals, and Christopher Graney, whose English rendition is used here, puts the identification carefully: the argument <em>appears</em> to be an early description of what is now called the Coriolis effect. Two centuries before Coriolis, a geocentrist had the physics of this cluster essentially right.</p>
 <p><strong>What this passage is being cited as.</strong> The reachable modern statement of the rotation-specific ballistics claim, in the compilation this 461-item list is padded out of. It is not evidence of origination: the argument is older than anyone on the People tab, and no single author is credited for it here.</p>"""),
@@ -210,7 +267,7 @@ ENTRY = {
 
     refutation="""<p><strong>Start with what is conceded, because two of the three concessions are permanent.</strong></p>
 
-<p><strong>One.</strong> The word &ldquo;Coriolis&rdquo; is not located in the text layer of the April 2016 edition of the US Army&rsquo;s cannon gunnery manual searched here. Army artillery doctrine does not use the term. It calls the thing <em>rotation of the earth</em>.</p>
+<p><strong>One.</strong> The word &ldquo;Coriolis&rdquo; does not occur anywhere in the text layer of the April 2016 edition of the US Army&rsquo;s cannon gunnery manual searched here. That manual calls the thing <em>rotation of the earth</em> throughout, as does FM 6-40 in 1945. What the rest of Army doctrine calls it was not checked for this entry.</p>
 
 <p><strong>Two.</strong> The small-arms half of the claim is true. Searching the archive.org OCR text of FM 23-10, <em>Sniper Training</em> (17 August 1994) &mdash; the manual the source&rsquo;s own footnote cites &mdash; returns no occurrence of the word Coriolis. A firearms instructor who says he has never seen a round visibly affected by the Earth&rsquo;s rotation, and never heard it discussed on a range, is reporting something accurate.</p>
 
@@ -236,10 +293,12 @@ ENTRY = {
 
 <ul>
 <li><strong>The version the passage argues against.</strong> If the ground&rsquo;s 1,000&nbsp;mph (447&nbsp;m/s) were added to an eastward shot and subtracted from a westward one, then at a howitzer&rsquo;s muzzle velocity of roughly 684&nbsp;m/s, with range going as the square of velocity, the east/west range ratio would be about <strong>23 to 1</strong>. Nothing of the sort is observed. The passage is right, and the reason is Galilean: gun, ball, target and air all share the rotation, so it cancels out of the leading term. That has been the answer since 1632 and this review carries it at <a href="#ARG-A17">ARG-A17</a>.</li>
-<li><strong>The version that survives.</strong> What does <em>not</em> cancel is the small residual from the rotation of the frame itself. For a 155&nbsp;mm shell out to 22&nbsp;km with a 65-second time of flight at 45&deg; latitude, the vertical component works out to an acceleration of about 0.035&nbsp;m/s&sup2;, which shifts the range by roughly <strong>78&nbsp;m &mdash; about 0.36% of it</strong>, in opposite directions for eastward and westward fire. That is Table H. Its magnitude is four orders below the effect the claim looks for and it is far above what a battery can afford to leave out.</li>
+<li><strong>The version that survives.</strong> What does <em>not</em> cancel is the small residual from the rotation of the frame itself. For a 155&nbsp;mm shell out to 22&nbsp;km with a 65-second time of flight at 45&deg; latitude, the vertical component works out to an acceleration of about 0.035&nbsp;m/s&sup2;, which shifts the range by roughly <strong>78&nbsp;m &mdash; about 0.36% of it</strong>, in opposite directions for eastward and westward fire. That is Table H. Put the two side by side at the same range: the naive version predicts an eastward shot going about 60&nbsp;km against a westward 2.6&nbsp;km, an east/west difference of tens of kilometres, where the real difference is the 78&nbsp;m taken twice &mdash; about 150&nbsp;m, smaller by a factor of several hundred. And still far above what a battery can afford to leave out.</li>
 </ul>
 
 <p>(Both figures recomputed here on 2026-08-11 from the standard expressions; the lateral formula used throughout is cross-checked below.)</p>
+
+<p>One limit on all of this, stated rather than buried: <strong>Table H and Table I are reproduced in the manual as figure images and were not read here.</strong> The numbers above are computed from the standard expressions and cross-checked in section 3 against an independently published rifle figure &mdash; not against the printed tables. If someone reads those tables and the values disagree with the arithmetic, this section is wrong and should be corrected against them.</p>
 
 <h4>3. Why the rifleman is right and the gunner is not</h4>
 
@@ -271,7 +330,9 @@ ENTRY = {
 
 <h4>5. What the claim would have to explain</h4>
 
-<p>Suppose gunnery really did work on a stationary Earth and the tables were institutional decoration. Then a defender owes an account of four things at once: why the correction is a function of the <em>battery&rsquo;s latitude</em>; why it is a function of the <em>azimuth of fire</em>; why the deflection table is entered from the opposite edge in the southern hemisphere; and why its magnitude agrees with a number computed from nothing but the length of the day. Wind depends on none of those. Air density depends on none of them. Rifling drift is a constant handed sideways, the same at every latitude. There is no second candidate that produces a latitude-and-azimuth-dependent, hemisphere-reversing correction of exactly the computed size, and the claim has never proposed one.</p>
+<p><strong>First, the strongest version of the reply: that the tables are decoration on a stationary-Earth solution.</strong> The point is a real one and the manual concedes half of it in print &mdash; the list of standard conditions the firing tables are built on includes <code>NO ROTATION OF THE EARTH</code>. The ballistic solution genuinely is computed on a motionless Earth and corrected afterwards. But the same list includes <code>NO WIND</code> and a propellant temperature of 70&deg;F, and nobody reads it as a claim that wind does not exist or that powder is always at seventy degrees. The paragraph that introduces the deviations says so in terms: actual firing conditions &ldquo;will never equate to standard conditions.&rdquo; A baseline is not a denial. So the question is not whether the baseline is stationary &mdash; it is &mdash; but what the corrections applied to it depend on.</p>
+
+<p>Suppose gunnery really did work on a stationary Earth and the tables were institutional decoration. Then a defender owes an account of four things at once: why the correction is a function of the <em>battery&rsquo;s latitude</em>; why it is a function of the <em>azimuth of fire</em>; why the deflection table is entered from the opposite edge in the southern hemisphere; and why its magnitude agrees with a number computed from nothing but the length of the day. Wind depends on none of those. Air density depends on none of them. Rifling drift is a constant handed sideways, the same at every latitude. There is no second candidate that produces a latitude-and-azimuth-dependent, hemisphere-reversing correction of exactly the computed size, and none of the sources traced for this entry proposes one.</p>
 
 <h4>6. What is left, stated without decoration</h4>
 
@@ -297,8 +358,8 @@ ENTRY = {
             "then labelled with omega afterwards, because you did not read Table I — you "
             "said so. You computed what you think it ought to say and called that a "
             "check. Third, your best number is a centimetre. You are asking me to "
-            "overturn what I can see with my own eyes on the strength of a residual four "
-            "orders of magnitude below the effect the theory started out predicting, "
+            "overturn what I can see with my own eyes on the strength of a residual a few "
+            "hundred times smaller than the effect the theory started out predicting, "
             "every time it fails to show up."),
         survives=4,
         preemptive=(
@@ -306,26 +367,28 @@ ENTRY = {
             "not overclaiming in the first place, and the body already concedes the two "
             "absences in its own voice — those concessions must stay where they are, at "
             "the top, and must not be moved below the tables. "
-            "The SECOND move is the serious one and the body must answer it explicitly "
-            "rather than by implication. Three responses, all already available: (a) the "
-            "standard-conditions list that contains NO ROTATION OF THE EARTH also "
-            "contains NO WIND and a propellant temperature of 70°F — nobody reads that "
-            "list as a claim that wind does not exist, and the manual's own paragraph "
-            "3-63 says in terms that actual conditions 'will never equate to standard "
-            "conditions'; (b) the correction was DERIVED BEFORE IT WAS MEASURED — "
-            "Riccioli got the sign and the geometry of it in 1651 from the rotation "
-            "alone, with no fall-of-shot data of any kind, which is exactly what a "
-            "fitted fudge factor cannot be; (c) a fitted correction has no reason to be "
-            "indexed by the battery's latitude or to reverse across the equator. Keep "
-            "(b) in the body: it is the one answer that does not require trusting any "
-            "military document at all. "
-            "On the admission that Table I itself was not read: do not paper over it. The "
-            "entry says the tables are figure images and were not read, and the arithmetic "
-            "is cross-checked instead against an independently published rifle figure. "
-            "That is an honest position and it must be stated as one; a defender who "
-            "discovers the gap himself gets to call the section bluffing. If anyone later "
-            "reads the printed tables and the numbers agree, that is a genuine upgrade to "
-            "make — and if they disagree, this entry is wrong and should say so. "
+            "The SECOND move is the serious one and it is now answered in the body "
+            "explicitly rather than by implication: section 5 opens on it. Three "
+            "responses. (a) The standard-conditions list that contains NO ROTATION OF THE "
+            "EARTH also contains NO WIND and a propellant temperature of 70°F — nobody "
+            "reads that list as a claim that wind does not exist, and the paragraph that "
+            "introduces the deviations (3-63) says in terms that actual firing conditions "
+            "'will never equate to standard conditions'. That is the new section 5 "
+            "lead-in. (b) The correction was DERIVED BEFORE IT WAS MEASURED — Riccioli got "
+            "the sign and the geometry of it in 1651 from the rotation alone, with no "
+            "fall-of-shot data of any kind, which is exactly what a fitted fudge factor "
+            "cannot be; section 4 carries it, and it is the one answer that does not "
+            "require trusting any military document at all. (c) A fitted correction has no "
+            "reason to be indexed by the battery's latitude or to reverse across the "
+            "equator — the body of section 5. "
+            "On the admission that Table I itself was not read: it is no longer only in "
+            "these notes. The last paragraph of section 2 now states in the entry's own "
+            "published voice that Table H and Table I are figure images, that they were "
+            "not read here, that the arithmetic is cross-checked instead against an "
+            "independently published rifle figure, and that the section is wrong if the "
+            "printed values disagree. A defender who discovers a gap the page has already "
+            "declared cannot call it bluffing. If anyone later reads the printed tables "
+            "and the numbers agree, that is a genuine upgrade to make. "
             "The THIRD move is answered by the falsification schedule, not by the "
             "centimetre: the same expression that gives a centimetre at rifle range gives "
             "1.2 km for the Paris Gun, and a claim that has to be true only below a "
@@ -360,7 +423,7 @@ ENTRY = {
                         "and “you will look in vain for any mention of Coriolis effect in any "
                         "military artillery or sniper instruction manual … no soldier has ever "
                         "been instructed to consider the Coriolis effect of a spinning Earth” "
-                        "(Hendrie 2016, ch. 9, pp. 112–113)."),
+                        "(Hendrie 2016, ch. 9, p. 113)."),
         drift_type="unsourced_addition",
         note=("<strong>Take the middle item first, because it is the unusual result.</strong> "
               "&ldquo;Ballistics ignore rotation&rdquo; does <em>not</em> overstate its sources. "
@@ -371,27 +434,32 @@ ENTRY = {
               "the compressed version firmer than the original in almost every argument it has "
               "checked; on this one the compression is the mildest statement in the chain, and "
               "the honest finding is that the source is where the overreach lives.<br><br>"
-              "<strong>The other two items are a different matter, and they are additions.</strong> "
-              "&ldquo;Artillery stationary calculations&rdquo; and &ldquo;Artillery geocentric "
-              "mils&rdquo; make claims about the internal machinery of the gunnery solution &mdash; "
-              "that it is computed on a stationary Earth, in mils. Neither statement is located in "
-              "proof 24 of <em>200 Proofs</em>, and the word <em>mils</em> is not located anywhere "
-              "in the archive.org OCR text of either book searched for this entry. Whatever "
-              "&ldquo;geocentric mils&rdquo; was meant to convey &mdash; the phrasing does not "
-              "settle it &mdash; it is the list&rsquo;s vocabulary and not its sources&rsquo;.<br><br>"
-              "<strong>And this is the part worth the reader&rsquo;s time.</strong> Both additions "
-              "are <em>true</em>, and both convict the cluster they were added to. Firing tables "
-              "really are computed on a stationary Earth: <code>NO ROTATION OF THE EARTH</code> "
-              "sits in the list of standard conditions in TC 3-09.81 (2016) &mdash; directly "
-              "beneath <code>NO WIND</code>, which nobody reads as a denial that wind exists. And "
+              "<strong>Of the other two items, one is an addition and one is not.</strong> "
+              "&ldquo;Artillery geocentric mils&rdquo; is the list&rsquo;s own vocabulary: the "
+              "word <em>mils</em> is not located anywhere in the archive.org OCR text of either "
+              "book searched for this entry, and whatever the phrase was meant to convey &mdash; "
+              "the wording does not settle it &mdash; it did not come from these sources. "
+              "&ldquo;Artillery stationary calculations&rdquo; is <em>not</em> an addition. It is "
+              "not in proof 24 of <em>200 Proofs</em>, which is where a check against Dubay alone "
+              "would stop; it is in Hendrie, at p. 113, where the artillery officers who on a "
+              "spinning Earth would be &ldquo;trained to consider the spin of the earth in making "
+              "their calculations for accurate firing&rdquo; are said not to be. Four words for "
+              "one sentence, and nothing added.<br><br>"
+              "<strong>And this is the part worth the reader&rsquo;s time.</strong> Both "
+              "statements are <em>true</em>, and both convict the cluster they sit in. Firing "
+              "tables really are computed on a stationary Earth: <code>NO ROTATION OF THE "
+              "EARTH</code> is one of the standard conditions listed in figure 7-1 of TC 3-09.81 "
+              "(2016), in the same list as <code>NO WIND</code>, which nobody reads as a denial "
+              "that wind exists. And "
               "the artillery angular unit really is the mil: it is the unit in which Table I "
               "publishes <em>the correction to deflection for the rotation of the earth</em>, "
-              "tabulated for every 10&deg; of latitude from 0&deg; to 70&deg; north or south. Two "
-              "details the list added to make the claim sound technical are the two details that "
-              "answer it.<br><br>"
+              "tabulated for every 10&deg; of latitude from 0&deg; to 70&deg; north or south. The two "
+              "details that make the claim sound technical are the two details that answer "
+              "it.<br><br>"
               "<strong>The refutation answers the sources, not the fragments:</strong> it grants "
-              "Dubay&rsquo;s east&ndash;west null at full strength and explains it (Galilean, and "
-              "the residual is 0.36% of range rather than 23:1), grants Hendrie&rsquo;s sniper "
+              "Dubay&rsquo;s east&ndash;west null at full strength and explains it (Galilean: the "
+              "naive version predicts an east/west range ratio near 23:1, where the real "
+              "residual shifts the range by about 0.36%), grants Hendrie&rsquo;s sniper "
               "manual and his firearms testimony outright, grants that the word <em>Coriolis</em> "
               "is not located in the 2016 artillery manual searched for this entry, and then answers the strongest version of the argument "
               "&mdash; Riccioli&rsquo;s 1651 one &mdash; on its own ground.")),
@@ -422,7 +490,8 @@ ENTRY = {
              url="https://archive.org/details/200ProofsEarthIsNotASpinningBall"),
         dict(label="Edward Hendrie, The Greatest Lie on Earth (2016), ch. 9 “No Coriolis Effect "
                    "Proves a Stationary Earth”, printed pp. 105–114; the artillery and sniper "
-                   "passage and its four pre-1912 artillery-manual footnotes at pp. 112–113",
+                   "passage at p. 113, with its four pre-1912 artillery-manual citations at "
+                   "endnote 116, and the firearms-instructor testimony at p. 114",
              url="https://archive.org/details/the-greatest-lie-on-earth-proof-that-our-world-is-not-a-moving-globe"),
         dict(label="FM 23-10, Sniper Training, HQ Dept of the Army, 17 August 1994 — the manual "
                    "Hendrie's footnote cites; searching its OCR text returns no occurrence of "

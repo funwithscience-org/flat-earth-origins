@@ -93,6 +93,23 @@ Research notes for whoever picks this up next.
    satellites fall if the heavens stop. drift_type = force_upgraded, on the R01
    calibration; the compression note says out loud that the enum choice is contestable
    and why we still record a drift.
+   AND THE TRAP ON OUR SIDE AGAIN, CAUGHT AND FIXED 2026-08-11. `passage.quote` stopped
+   at "the satellites would fall to the earth", and the sentence immediately after it in
+   the scan is Selbrede's answer to the reading the gloss was building: "But when the
+   heavens are postulated to be in motion, it is Dr. Nieto's equations that are
+   deficient, not ours." Trimming there is the exact move this project convicts its
+   subject of. The quote plus that sentence runs 67 words, over the 60-word fair-use
+   ceiling for an in-copyright book, so the D03 remedy is used instead: the excerpt is
+   left as it is and the reversing sentence is quoted IN FULL in the gloss, granted on
+   its merits, and answered on the point that actually carries the entry (the rotation
+   rate is an input — section 6 here, section 1 of the refutation). The gloss's old
+   "gives the whole game away" also went; it claimed more than the paragraph supports.
+   The compression block had a related defect: render.py prints list_phrasing above
+   source_wording and then the drift label, and the visible pairing showed a source
+   ASSERTING evidential force above a list item that only says "fit" — which reads as
+   the opposite of `force_upgraded`. The permission that licenses the label, the p. 637
+   "by definition" thesis, was only in the note. It is now in source_wording, where the
+   reader can see the label's own evidence.
 
 5. THE TECHNICAL CHAIN, ALL VERIFIED 2026-08-11 BY BIBLIOGRAPHIC LOOKUP (Crossref):
      - Thirring, Phys. Zeit. 19:33 (1918) + correction 22:29 (1921) — a rotating mass
@@ -102,7 +119,25 @@ Research notes for whoever picks this up next.
        18:1757–1763 (1978). Real; the book quotes its abstract correctly.
      - Grøn & Eriksen, "Translational inertial dragging", Gen. Rel. Grav. 21:105–124
        (Feb 1989), doi 10.1007/BF00761081. Real; journal, volume, issue and page range
-       exactly as the book gives them.
+       exactly as the REPRINTED ESSAY gives them (Vol. II, printed p. 633: "General
+       Relativity and Gravitation, Volume 21, No. 2, 1989, pgs. 105-124"). Vol. I
+       footnote 1168 gives the same paper as "Vol. 21, No. 2, 1989, pp. 109-110" —
+       the pages of the quotation, not of the article.
+   HOW PRECISE THE BOOK'S CITATIONS ACTUALLY ARE, checked 2026-08-11 against both
+   scans, because the first draft of this entry credited them with more than they
+   carry and the correction is now applied to tldr, gloss and refutation:
+     - Orwig: NO volume number in the three places the book cites him. Vol. I fn 1168
+       and the Vol. I bibliography both read "Physical Review D, 1757-1763, 1978";
+       the reprinted essay names him with a year only ("Orwig (1978)"). Page range
+       right, volume absent. (True citation: Phys. Rev. D 18, issue 6, 1757–1763.)
+     - Brill & Cohen: Vol. I fn 1188 reads "Physical Review, 143, Issue 4, March 25,
+       1966, pp. 1012, 1014" — volume, issue and date right; the pages are quote
+       locations inside an article running 1011–1015.
+     - Thirring: "Physikalische Zeitschrift 19, 33, 1918" — volume and opening page,
+       not a range.
+   So the defensible claim is: everything the book PRINTS checks out, and the two
+   article ranges it gives are right. Not "cited at the right journal, volume and
+   page range", which is what the entry said before 2026-08-11.
      - Obukhov, "Rotation in cosmology", GRG 24:121–128 (1992). Real, as cited.
    WHAT WAS AND WAS NOT CHECKED. Bibliographic existence and location: all five, via
    Crossref, 2026-08-11. The papers themselves were NOT opened; the internal page
@@ -153,12 +188,25 @@ Research notes for whoever picks this up next.
    (b) "THE STARS WOULD MOVE FASTER THAN LIGHT." Coordinate speeds exceeding c are not
        forbidden in general relativity, no local observer measures a superluminal
        passage, and the book anticipates the objection explicitly (Vol. II App. 1,
-       printed p. 646: if space can stretch faster than light, why can it not rotate
-       faster than light). The analogy is imperfect but the objection as usually stated
+       printed p. 647 — corrected 2026-08-11 from 646; the marker "646" sits at the foot
+       of the preceding page: if space can stretch faster than light, why can it not
+       rotate faster than light). The analogy is imperfect but the objection as usually stated
        is worse. Leave it.
    (c) "THE MODEL HAS NO FORCE TO HOLD THE SATELLITE UP." That is precisely North and
        Nieto's move as Selbrede reports it, and it is answered by Einstein's own letter
        to Mach and by Thirring. It is the SURFACE bust and it loses.
+   (d) AND THE ONE THAT HAD LEAKED IN, FIXED 2026-08-11. `straw_man.detail` answered
+       "proof of a moving earth is proof general relativity is a myth" by saying the
+       Earth's rotation relative to the local inertial frames "is measurable,
+       frame-independent, and measured, by ring-laser gyroscopes and by the Foucault
+       pendulum" — and stopped there. Strictly true, and it reads as an evidential
+       claim, which is (a) in a new suit: under perfect dragging the compass of inertia
+       turns with the heavens, so the essay predicts that measurement too, and says so
+       at printed p. 650 ("the rotating heavens were dragging Foucault pendula and
+       weather systems around"). The box now grants that in its own voice before making
+       its narrow point, which is the only point it needs: establishing the relative
+       rotation would leave general relativity where it was, so the threat in the
+       second sentence is empty.
 
 8. VERDICT. STANDARD PHYSICS, kept, and the reasoning is worth recording because the
    neighbouring cluster carries a different verdict on adjacent material. R08 ("practical
@@ -205,7 +253,8 @@ ENTRY = {
 
     tldr=("In an Earth-fixed frame a geostationary satellite really does sit still — that is "
           "ordinary orbital mechanics, and the relativity papers the source leans on for it are "
-          "real, cited at the right journal, volume and pages. The price is stated in the same "
+          "real, with every journal, volume and year the book gives for them checking out. The "
+          "price is stated in the same "
           "appendix: the satellite has to be over the equator, at the height Newton's arithmetic "
           "already gives, and it would fall if the heavens stopped turning. Those are three "
           "properties of a spinning globe rewritten in rotating coordinates — and the same list "
@@ -224,9 +273,11 @@ ENTRY = {
                "Coriolis forces, and by geosynchronous satellites (or, in a more Tychonian vein, "
                "geostationary satellites). In the geocentric model, we agree that if the heavens "
                "ceased their rotation, the satellites would fall to the earth."),
-        gloss="""<p><strong>Read the second sentence with the first.</strong> The claim is evidential &mdash; satellites <em>evidence</em> the firmament&rsquo;s daily rotation &mdash; and it is stated flatly, so nobody should pretend the source only ever denied that satellites prove anything. But it arrives attached to a conditional that gives the whole game away: the satellite stays up <em>because</em> the heavens turn, and would fall if they stopped. Everything the model does here is done by one quantity, the rate at which the heavens turn relative to the ground.</p>
+        gloss="""<p><strong>Read the second sentence with the first.</strong> The claim is evidential &mdash; satellites <em>evidence</em> the firmament&rsquo;s daily rotation &mdash; and it is stated flatly, so nobody should pretend the source only ever denied that satellites prove anything. But it arrives attached to a conditional that names what the model is resting on: the satellite stays up <em>because</em> the heavens turn, and would fall if they stopped.</p>
 
-<p><strong>Whose argument this is, and where it came from.</strong> The essay is Martin Selbrede&rsquo;s, written against a critique that Gary North commissioned from Michael Martin Nieto of Los Alamos; Sungenis and Bennett reprint it as Appendix 1 and, in their own footnotes and bibliography, give the original as <em>The Chalcedon Report</em>, 1994, pp. 11&ndash;12. Its physics is not homemade. It runs on Einstein&rsquo;s 1913 letter to Mach, on Thirring&rsquo;s 1918 rotating-shell paper, on Orwig&rsquo;s <em>Phys. Rev. D</em> 18:1757 (1978) and on &Oslash;. Gr&oslash;n and E. Eriksen, <em>&ldquo;Translational inertial dragging&rdquo;</em>, <em>General Relativity and Gravitation</em> 21:105&ndash;124 (1989). Every one of those exists, at the journal, volume and page range the book gives &mdash; checked against bibliographic records for this entry &mdash; and the Gr&oslash;n and Eriksen quotations appear word for word in two different editions of the book, Vol. I&rsquo;s chapter 10 footnotes and this appendix. The papers themselves were not opened for this entry, so the page attributions inside them are the book&rsquo;s. The footnote at Vol. I p. 607 credits Selbrede with supplying the references.</p>
+<p>The essay does not leave the concession there, and neither should we. The excerpt above stops one sentence short, because carrying on would take it past the 60-word ceiling this project keeps for quoting an in-copyright book; the sentence it stops short of is Selbrede turning the concession round: <em>&ldquo;But when the heavens are postulated to be in motion, it is Dr. Nieto&rsquo;s equations that are deficient, not ours.&rdquo;</em> That is fair as far as it goes. The conditional is counterfactual in his model, and he is answering a critic who, on his account of him, had argued that a satellite could not stay up over a fixed Earth at all. The objection here is not that the conditional is false. It is that the one quantity the whole arrangement then hangs on &mdash; the rate at which the heavens turn relative to the ground &mdash; is an input: read off the rotating-globe solution and put in by hand, together with the equator and the height that go with it. That is section 1 of the refutation below, and it is where this entry puts its weight.</p>
+
+<p><strong>Whose argument this is, and where it came from.</strong> The essay is Martin Selbrede&rsquo;s, written against a critique that Gary North commissioned from Michael Martin Nieto of Los Alamos; Sungenis and Bennett reprint it as Appendix 1 and, in their own footnotes and bibliography, give the original as <em>The Chalcedon Report</em>, 1994, pp. 11&ndash;12. Its physics is not homemade. It runs on Einstein&rsquo;s 1913 letter to Mach, on Thirring&rsquo;s 1918 rotating-shell paper, on Orwig&rsquo;s <em>Phys. Rev. D</em> 18:1757 (1978) and on &Oslash;. Gr&oslash;n and E. Eriksen, <em>&ldquo;Translational inertial dragging&rdquo;</em>, <em>General Relativity and Gravitation</em> 21:105&ndash;124 (1989). Every one of those exists, and every bibliographic detail the book prints for them checks out &mdash; checked here against Crossref. Said at its true strength and no higher: where the book gives an article page range it is right (Gr&oslash;n and Eriksen at 105&ndash;124), but it gives no volume number for Orwig at all &mdash; <em>Physical Review D</em>, 1757&ndash;1763, 1978, in the Vol. I footnote and again in the Vol. I bibliography &mdash; Thirring it gives by volume and opening page rather than by range, and the page numbers it prints inside Brill and Cohen and, in Vol. I, inside Gr&oslash;n and Eriksen are quote locations, not article ranges. The papers themselves were not opened for this entry, so those internal locations are the book&rsquo;s; what can be said for them is that the Gr&oslash;n and Eriksen quotations appear word for word in two different editions of the book, Vol. I&rsquo;s chapter 10 footnotes and this appendix. The footnote at Vol. I p. 607 credits Selbrede with supplying the references.</p>
 
 <p><strong>Three restrictions the source states and the list does not inherit.</strong> At printed p. 635 of the same essay: geostationary satellites can sit &ldquo;only over the equator, and at the same prescribed height as that indicated by the Newtonian methods Dr. North favors&rdquo; &mdash; the equator, and Newton&rsquo;s own number. At p. 637 the essay states its thesis outright: &ldquo;it is impossible to launch an attack on geocentricity on the basis of general relativity, by definition.&rdquo; And at p. 648, the conditional quoted above. A result that holds <em>by definition</em>, at a height somebody else&rsquo;s theory already fixed, over an equator, is a demonstration that the two descriptions agree. That is what the essay set out to show, and it shows it.</p>
 
@@ -244,7 +295,7 @@ ENTRY = {
 
 <p>And notice what has to be imported before the dragging account can start. The shell has to rotate at one particular rate, once per sidereal day. The satellite has to sit over the equator &mdash; a plane defined by that rotation. Its radius has to be 42,164 km from the Earth&rsquo;s centre, which is <em>(GM/&omega;&sup2;)</em><sup>1/3</sup>, the Newtonian answer, as the essay concedes in as many words. Nothing in the Machian picture supplies any of those three; they are read off the rotating-globe solution first and then re-described. The geocentric frame is a translation, and it is a translation that arrives after the original.</p>"""),
 
-    refutation="""<p><strong>The concession comes first, because it is large and it is permanent.</strong> A geostationary satellite is at rest in the Earth-fixed rotating frame. That frame is a legitimate coordinate system; general relativity places no bar on writing the field equations in it; a rotating shell of matter really does induce Coriolis-like and centrifugal-like fields inside itself, as Thirring showed in 1918 and as Brill and Cohen, Orwig, and Gr&oslash;n and Eriksen developed afterwards. Every paper the source cites for this exists, at the journal, volume and page range it gives &mdash; Thirring 1918, Brill and Cohen 1966, Orwig 1978, Gr&oslash;n and Eriksen 1989, all checked against bibliographic records here. Anyone answering this argument by claiming the citations are invented, or that a stationary-Earth chart is forbidden, is going to lose the exchange in five minutes.</p>
+    refutation="""<p><strong>The concession comes first, because it is large and it is permanent.</strong> A geostationary satellite is at rest in the Earth-fixed rotating frame. That frame is a legitimate coordinate system; general relativity places no bar on writing the field equations in it; a rotating shell of matter really does induce Coriolis-like and centrifugal-like fields inside itself, as Thirring showed in 1918 and as Brill and Cohen, Orwig, and Gr&oslash;n and Eriksen developed afterwards. Every paper the source cites for this exists &mdash; Thirring 1918, Brill and Cohen 1966, Orwig 1978, Gr&oslash;n and Eriksen 1989 &mdash; and every bibliographic detail the book prints for them checks out against Crossref: the journals, the years, Thirring&rsquo;s volume and opening page, Brill and Cohen&rsquo;s volume and issue, and the two article page ranges it gives, Gr&oslash;n and Eriksen at 105&ndash;124 and Orwig at 1757&ndash;1763. Two things it does not give, said here so that the compliment is the right size: no volume number for Orwig in the Vol. I footnote, the Vol. I bibliography or the reprinted essay, the three places it cites him; and, inside Brill and Cohen and inside Gr&oslash;n and Eriksen, page numbers that locate the quotations rather than the articles. Those we did not confirm, because the papers themselves were not opened for this entry. Nothing the book prints is wrong. Anyone answering this argument by claiming the citations are invented, or that a stationary-Earth chart is forbidden, is going to lose the exchange in five minutes.</p>
 
 <p><strong>What the verdict ranges over.</strong> Not &ldquo;the satellite would fall.&rdquo; The claim under review is that satellite behaviour is <em>evidence</em> for a rotating firmament about a fixed Earth. It is not, and the reason is visible in the source&rsquo;s own sentence: the satellite stays up <em>because the heavens turn</em>, at a rate that has to be put in by hand, over an equator that rotation defines, at a height Newton&rsquo;s arithmetic already fixed.</p>
 
@@ -337,13 +388,20 @@ ENTRY = {
                 "that the Earth rotates relative to the local inertial frames — the compass of "
                 "inertia — and that quantity is measurable, frame-independent, and measured, by "
                 "ring-laser gyroscopes and by the Foucault pendulum the essay itself discusses. "
-                "Establishing it would leave general relativity exactly where it was. The "
+                "That measurement is not itself a point against the essay and is not offered as "
+                "one: what it returns is the relative rotation of the ground and the local "
+                "compass of inertia, both accounts predict it, and they differ only over which "
+                "of the two to call at rest — this essay's own answer, at printed p. 650, is that "
+                "the rotating heavens drag the pendulum round. The point here is narrower. "
+                "Establishing that relative rotation would leave general relativity exactly where "
+                "it was, so the second sentence's threat is empty. The "
                 "characterisation of the critics is a separate matter and is not scored here: "
                 "Michael Martin Nieto's essay and Gary North's publication were not obtained for "
                 "this pass, so what they argued is known only from the reply, and the reply's "
                 "account of them is not treated as established. Two things the essay is NOT doing "
-                "wrong, for the avoidance of doubt: its Grøn and Eriksen quotations are verbatim "
-                "and at the pages given, and its use of Sciama's hovering-satellite illustration "
+                "wrong, for the avoidance of doubt: its Grøn and Eriksen quotations appear word "
+                "for word in both scanned editions of the book, the paper itself not having been "
+                "opened here, and its use of Sciama's hovering-satellite illustration "
                 "is accurate and in context.")),
 
     compression=dict(
@@ -352,7 +410,10 @@ ENTRY = {
         source_wording=("“This motion of the firmament is evidenced in the Sagnac effect, the "
                         "well-known Coriolis forces, and by geosynchronous satellites … In the "
                         "geocentric model, we agree that if the heavens ceased their rotation, "
-                        "the satellites would fall to the earth.”"),
+                        "the satellites would fall to the earth.” (p. 648) &mdash; and, as the "
+                        "essay&rsquo;s own thesis about what any of this can be used for: "
+                        "“it is impossible to launch an attack on geocentricity on the basis of "
+                        "general relativity, by definition.” (p. 637)"),
         drift_type="force_upgraded",
         note=("<strong>On wording, this compression is unusually faithful, and the entry says so "
               "rather than manufacturing a gap.</strong> The source asserts the evidential claim "
@@ -388,8 +449,9 @@ ENTRY = {
               "plainest and most checkable of the three, and the reader has both texts above."
               "<br><br>"
               "<strong>The refutation answers the source, not the fragment:</strong> it grants "
-              "the Earth-fixed frame, grants that the cited relativity papers are real and "
-              "correctly quoted, grants that a rotating shell induces the right forces, and puts "
+              "the Earth-fixed frame, grants that the cited relativity papers are real and that "
+              "the book&rsquo;s bibliographic details for them check out, grants that a rotating "
+              "shell induces the right forces, and puts "
               "the weight on what the source itself concedes &mdash; the equator, the Newtonian "
               "radius, and a conclusion that holds by definition.")),
 
@@ -410,8 +472,9 @@ ENTRY = {
                    "different pagination",
              url="https://archive.org/details/GallileoWasWrong"),
         dict(label="Ø. Grøn & E. Eriksen, “Translational inertial dragging”, Gen. Rel. Grav. "
-                   "21:105–124 (1989) — the “perfect dragging” passage at pp. 109–110 and the Moon "
-                   "example at pp. 117–118, both quoted accurately by the source",
+                   "21:105–124 (1989) — the “perfect dragging” passage and the Moon example, which "
+                   "the source quotes and places at pp. 109–110 and pp. 117–118; those internal "
+                   "page attributions are the book's and the paper was not opened for this entry",
              url="https://doi.org/10.1007/BF00761081"),
         dict(label="H. Pfister & K. Braun, “Induction of correct centrifugal force in a rotating "
                    "mass shell”, Class. Quantum Grav. 2:909–918 (1985) — the correct centrifugal "

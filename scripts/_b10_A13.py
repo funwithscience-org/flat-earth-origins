@@ -27,22 +27,37 @@ Verdict REFUTED, kept. Research notes for whoever picks this up next.
    The "another cause" formulation the cluster is named for is the Machian one, and its
    earliest text located that carries it is Sungenis & Bennett. Two lineages, one cluster.
 
-3. THE MODERN SOURCE CONCEDES BOTH PHENOMENA, IN THREE SEPARATE PLACES, AND THIS IS THE
+3. THE MODERN SOURCE CONCEDES BOTH PHENOMENA, IN FOUR SEPARATE PLACES, AND THIS IS THE
    ENTRY'S SPINE. All in *Galileo Was Wrong* Vol. I, archive.org item GallileoWasWrong
    (the CD-ROM issue our `works.py` record describes), printed page numbers as they
-   appear in that OCR:
+   appear on the page images of that scan (see §10 — every one was re-read from the
+   footer of its own leaf on 2026-08-11, and seven were one low before that):
      - ch. 12 (Bennett, "Technical and Summary Analysis of Geocentric Cosmology"),
-       p. 709: the geokinetic claim is stated as "Centrifugal forces cause the water and
-       air near the equator to rise ... the polar flattening and equatorial bulge. This
-       also explains why the acceleration of gravity is less at the equator." The Response
-       at p. 710 does not deny any of it: "All the various effects noted above depend on
-       the assumption that the inertial effects can only be caused by the Earth's
-       rotation." The dispute is over attribution, not existence.
+       p. 710 — the chapter OPENS on that page: the geokinetic claim is stated as
+       "Centrifugal forces cause the water and air near the equator to rise ... the polar
+       flattening and equatorial bulge. This also explains why the acceleration of gravity
+       is less at the equator." READ THE FRAME. That sentence is item #2 in a numbered
+       list introduced as "there are three geokinetic claims for terrestrial motion" and
+       "All claims center on the inertial forces called centrifugal and Coriolis that
+       explain the following effects ... based on the presumption of Earth's rotation".
+       It is the opponent's claim as Bennett states it before answering it, not a
+       free-standing assertion of his own, and anything that quotes it must say so.
+       The Response at p. 711 does not deny any of it: "All the various effects noted
+       above depend on the assumption that the inertial effects can only be caused by the
+       Earth's rotation." The dispute is over attribution, not existence.
+       CAUTION, same page 711. Restating Barbour and Bertotti, Bennett writes that "An
+       object at the center of the hollow sphere will not be affected by the inertial
+       forces. The space around the Earth will exhibit the inertial effects of the distant
+       sphere, but not the Earth itself, if it is centrally located." That is the nearest
+       thing to a source for item 180 found in any passage read for this entry; it sits a few
+       lines BELOW the Response on the same p. 711 and pulls against it, and it is answered in
+       section 5 of the refutation. Do NOT write "neither book asserts item 180" without
+       reckoning with it — an earlier draft did, and it was wrong.
      - ch. 4, p. 204: "The same goes for the appeal to the Coriolis force or the
        oblateness of the Earth as proofs of the Earth's rotation. The only fact these
        particular phenomena prove is that there is a force causing their effect, not that
        a rotation of the Earth is the force." Again: the effect is granted.
-     - ch. 1, p. 48: the book quotes Bertrand Russell listing "the flattening of the
+     - ch. 1, p. 49: the book quotes Bertrand Russell listing "the flattening of the
        Earth at the poles, and the fact that bodies are heavier there than at the
        equator" — i.e. it prints the equatorial relief item 257 denies.
      - ch. 5, p. 239, n. 492, glossing Einstein 1911: "The Earth's poles would flatten
@@ -50,11 +65,14 @@ Verdict REFUTED, kept. Research notes for whoever picks this up next.
    So the drift on items 180 and 257 is `reversed`, and it is reversed against BOTH
    candidate sources, since Rowbotham prints the pendulum numbers too.
 
-4. THE MACH QUOTATION — DO NOT ACCUSE THEM OF TRUNCATING IT. At Vol. I p. 203 the book
+4. THE MACH QUOTATION — DO NOT ACCUSE THEM OF TRUNCATING IT. At Vol. I p. 204 the book
    quotes Mach ("... there is no flattening of the Earth, no Foucault's experiment, and
    so on...") and stops at the ellipsis, which is exactly where the qualifying clause
-   begins. An earlier draft of this entry was going to call that a suppressed hedge. It
-   is not. At ch. 7, p. 459 the SAME VOLUME prints the passage in full — "at least
+   begins. (That is the SAME PAGE as the "not that a rotation of the Earth is the force"
+   sentence above — the two are consecutive paragraphs on printed p. 204, and an earlier
+   draft numbered them 203 and 204 as though they were separate pages.)
+   An earlier draft of this entry was going to call that a suppressed hedge. It
+   is not. At ch. 7, p. 460 the SAME VOLUME prints the passage in full — "at least
    according to our usual conception of the law of inertia. Now one can solve the
    difficulty in two ways. Either all motion is absolute, or our law of inertia is
    wrongly expressed. I prefer the second way" — and then says plainly that geocentrists
@@ -86,15 +104,33 @@ Verdict REFUTED, kept. Research notes for whoever picks this up next.
    than to what may be more strictly called errors of observation" and Baily saying the
    vibrations "are powerfully affected, in many places, by the local attraction of the
    substratum on which it is swung". He prints the correct explanation of his own residual
-   scatter. Same shape as the ARG-B05 finding about the Britannica "Levelling" article.
+   scatter. Same shape as the ARG-B06 finding about the Britannica "Levelling" article.
+   (B06, NOT B05. B05 is Carpenter's canals-and-railways cluster and has no Britannica
+   material in it; B06 is the Rowbotham cluster whose record note reads "He quoted the
+   correction and then denied the thing it corrects for". B07 — refraction invoked ad hoc
+   — quotes the same Britannica extract but for its refraction coefficient, which is a
+   different finding. An earlier draft pointed the anchor at B05.)
 
 6. THE ARC-MEASUREMENT HALF: HIS FACTS ARE MOSTLY RIGHT AND THE STEELMAN MUST SAY SO.
    The Ordnance Survey table showing degrees DECREASING northward is quoted accurately
-   from Hugh Murray's *Encyclopaedia of Geography*; the French Peru degree of 56,653
-   toises and the Lapland degree of 57,422 toises are the real published figures (the
-   Lapland one matches the standard account of the Maupertuis expedition); and the later
+   from Hugh Murray's *Encyclopaedia of Geography*; the Lapland degree of 57,422 toises
+   is a real published figure matching the standard account of the Maupertuis expedition;
+   and the later
    Swedish re-measurement in Bothnia (Svanberg and colleagues, 1801-1803) really did find
-   Maupertuis's arc too long. What the entry adds is the direction of travel: Maupertuis's
+   Maupertuis's arc too long — Rowbotham himself prints the correction, "196 toises more
+   than the true length".
+   BUT HIS PERU DEGREE DOES NOT CHECK OUT, and an earlier draft of this entry certified
+   it alongside the Lapland one. He gives "the first degree of the meridian from the
+   equator as 56,653 toises". The 1911 Britannica article already cited in `sources`
+   gives the Peruvian arc as 176,945 toises over 3° 7′ 3″, i.e. about 56,760 toises per
+   degree for an arc centred near 1.5°S; reducing that to the equator moves it by only
+   about ten toises, so the published value is near 56,750 and his figure is roughly 100
+   toises (some 200 m) low. Treat it exactly as the Huygens ratio below is treated: a
+   wrong number taken from a secondary source, not a fabrication — but a second one, and
+   both of them inflate the disagreement his argument runs on. No search was made for a
+   nineteenth-century secondary source that prints 56,653; if one turns up, say so rather
+   than dropping the point.
+   What the entry adds on Lapland is the direction of travel: Maupertuis's
    Lapland result implied a flattening near 1/179, far MORE oblate than the truth, so
    shortening his degree moves the number toward the modern 1/298.257, not toward zero.
    Svanberg's own published flattening was not located in the sources reached for this
@@ -141,7 +177,15 @@ Verdict REFUTED, kept. Research notes for whoever picks this up next.
    *Science* 297:831, 2002; Dickey et al., *Science* 298(5600):1975, 2002 — note the two
    are different volumes of the same year, an easy citation to get wrong), and the
    decadal behaviour is still being worked on (Chao 2020, doi 10.1029/2020JB019421). Say all of that
-   plainly. It is also the direct answer to item 105: the bulge is measurably NOT stable.
+   plainly.
+   BUT DO NOT USE THE VARIATIONS AS THE ANSWER TO ITEM 105, and publish their sizes when
+   you mention them. The body tide is ~30 cm against a 21.4 km bulge (1 part in 70,000)
+   and the J2 secular trend is a fractional ~1e-8 per year, sub-millimetre a year on the
+   polar-equatorial radius difference. Answering "stable" with those, in an entry whose
+   governing discipline is magnitude and which three paragraphs earlier calls a 113 m
+   excess negligible at half a per cent, is the double standard the advocate block already
+   anticipates for the 113 m. The variations belong in the entry as evidence that the
+   figure is a deformation under load; the answer to item 105 is the Clairaut tie-in.
 
 9. VERDICT. REFUTED was tested against MISLEADING, which is what R02 and R05 carry for
    the Machian and frame-dragging arguments. Kept REFUTED, because two of the four items
@@ -161,9 +205,16 @@ Verdict REFUTED, kept. Research notes for whoever picks this up next.
     rendering. (Page markers in that PDF: the Newton/Huygens proportions at p. 182, the
     electric-and-magnetic third cause at p. 184, Sabine and Baily at pp. 185-186.)
     Sungenis & Bennett is in copyright and
-    every excerpt here is short; page numbers are the printed numbers in the Vol. I OCR
-    (item GallileoWasWrong) and are not checked against a print copy. NOTE THE VOLUME
-    TRAP: Bennett's technical chapter is chapter 12 at pp. 709f in the Vol. I CD-ROM
+    every excerpt here is short; the page numbers are the printed numbers read off the
+    page images of the named scan (item GallileoWasWrong), leaf by leaf, on 2026-08-11 —
+    the footer sits at the FOOT of its own leaf in this scan, so the number under a block
+    of text is that text's page. The eight citations sit on leaves 61 (p. 49), 216
+    (p. 204), 251 (p. 239), 472 (p. 460), 711 (p. 699), 722 (p. 710), 723 (p. 711) and
+    1040 (p. 1028). Seven of the eight were previously recorded one page low, from a
+    reading that took the marker above a block of text as belonging to it. They are still
+    not checked against a print copy, but the scan's own footers are now the evidence.
+    NOTE THE VOLUME
+    TRAP: Bennett's technical chapter is chapter 12 at pp. 710f in the Vol. I CD-ROM
     scan and chapter 10 at pp. 157f in the Bennett4276 scan the project has settled is
     Vol. II. Do not merge the two page ranges. Cite Vol. I here — it is the scan
     `works.py` describes for WRK-SUNGENIS-2006.
@@ -187,8 +238,9 @@ ENTRY = {
           "of gravity. It is measured constantly: 100.00 kg weighed at the pole "
           "reads 99.47 kg at the equator, and the seconds-pendulum table Rowbotham printed in "
           "1865 to explain it away sits within a tenth of one per cent of what a rotating Earth "
-          "predicts, at both ends. The thermal-expansion coefficient he quotes on the same page "
-          "is about eight times too small to account for what he is explaining. And the "
+          "predicts, at both ends. The thermal expansion he offers as the cause — his own good "
+          "coefficient times his own 84.2 °F equator-to-pole range — comes out about eight times "
+          "too small to produce it. And the "
           "geocentric alternative cause — a universe turning instead of the Earth — needs the "
           "same relative rotation rate, so it predicts the same bulge and the same equatorial "
           "relief that two of these four items say are not there."),
@@ -219,18 +271,18 @@ ENTRY = {
                "distortion in the supposed rotundity of the Earth."),
         gloss="""<p><strong>He prints the measurement.</strong> The two figures in that sentence &mdash; 39.027 inches at the equator, 39.197 at the north pole; the comma is 1865 typesetting for a decimal point &mdash; <em>are</em> the equatorial relief. The length a pendulum must have to beat seconds is <em>L</em>&nbsp;=&nbsp;<em>g</em>/&pi;&sup2;, so a table of pendulum lengths by latitude is a table of gravity by latitude. Rowbotham does not dispute the numbers. He disputes what they show. Two of the four items in this cluster &mdash; <em>&ldquo;No felt centrifugal force&rdquo;</em> and <em>&ldquo;No equatorial centrifugal relief&rdquo;</em> &mdash; deny the thing his own page tabulates.</p>
 <p><strong>What his argument actually is, and it is not a silly one.</strong> Three moves. (i) The inference from a shorter pendulum to a shorter polar radius presupposes a centre of attraction and therefore a globe. (ii) Nobody has shown that <em>no other</em> cause could produce the variation. (iii) Two other causes are available: the pendulum rod contracts in the colder north, and the colder northern air is denser and resists the bob differently. The 1881 third edition adds a third &mdash; &ldquo;electric and magnetic states of the atmosphere.&rdquo; He italicises <em>assumption</em>, <em>is</em> and <em>no other</em>; the emphasis is his.</p>
-<p><strong>The alternative causes are testable, and he supplies the numbers to test them with.</strong> On the same pages he quotes a temperature table from Sir Richard Phillips&rsquo;s <em>Million of Facts</em>, p. 475 (mean annual temperature 84.2&nbsp;&deg;F at the equator, 0&nbsp;&deg;F at the pole) and a thermal-expansion figure from Noad&rsquo;s <em>Lectures on Chemistry</em>, p. 41 (&ldquo;a change of temperature equal to 30&deg; Fah. will alter its length &#8531;<sub>5000</sub>th part&rdquo;). Those two quotations decide the question against him, and the refutation below does the multiplication.</p>
-<p><strong>The other half of this cluster comes from a different book and a different century.</strong> Items 55 and 105 concede a bulge and dispute its <em>cause</em>; Rowbotham denies the bulge is established at all, and argues from the disagreement among meridian-arc measurements that the Earth might as well be an <em>oblong</em> spheroid. The &ldquo;another cause&rdquo; formulation is the Machian one, and the earliest text located that carries it in the form the list uses is Sungenis and Bennett, <em>Galileo Was Wrong</em>. In the Vol.&nbsp;I scan (archive.org item GallileoWasWrong), Bennett&rsquo;s ch.&nbsp;12 states the geokinetic claim at printed p.&nbsp;709 in these words &mdash; centrifugal forces cause the polar flattening and equatorial bulge, and <em>&ldquo;This also explains why the acceleration of gravity is less at the equator&rdquo;</em> &mdash; and answers it at p.&nbsp;710 not by denying any of that but by writing that the effects <em>&ldquo;depend on the assumption that the inertial effects can only be caused by the Earth&rsquo;s rotation.&rdquo;</em> At ch.&nbsp;4, p.&nbsp;204 the same volume says the oblateness proves &ldquo;that there is a force causing their effect, not that a rotation of the Earth is the force.&rdquo; <strong>Both books grant the phenomena. Neither of them asserts items 180 or 257.</strong></p>
-<p><strong>One line in the same volume runs the other way, and it is fair to note it.</strong> At printed p.&nbsp;698, in the chapter on Hildegardian geocentrism, a parenthesis has it that satellite photographs of the Earth do not show an equatorial bulge. As a remark about photographs that is true and uninteresting: the flattening is 1/298, so on an image 1,000 pixels across the polar diameter is about three pixels shorter than the equatorial one. As an argument it does not survive the same volume&rsquo;s GPS appendix &mdash; Appendix&nbsp;7 in this scan, at printed p.&nbsp;1027 &mdash; which prints the WGS84 flattening as 1/298.257223563 without demur.</p>
+<p><strong>The alternative causes are testable, and he supplies the numbers to test them with.</strong> On the same pages he quotes a temperature table from Sir Richard Phillips&rsquo;s <em>Million of Facts</em>, p. 475 (mean annual temperature 84.2&nbsp;&deg;F at the equator, 0&nbsp;&deg;F at the pole) and a thermal-expansion figure from Noad&rsquo;s <em>Lectures on Chemistry</em>, p. 41 (&ldquo;a change of temperature equal to 30&deg; Fah. will alter its length 1/5000th part&hellip;&rdquo;). Those two quotations decide the question against him, and the refutation below does the multiplication.</p>
+<p><strong>The other half of this cluster comes from a different book and a different century.</strong> Items 55 and 105 concede a bulge and dispute its <em>cause</em>; Rowbotham denies the bulge is established at all, and argues from the disagreement among meridian-arc measurements that the Earth might as well be an <em>oblong</em> spheroid. The &ldquo;another cause&rdquo; formulation is the Machian one, and the earliest text located that carries it in the form the list uses is Sungenis and Bennett, <em>Galileo Was Wrong</em>. In the Vol.&nbsp;I scan (archive.org item GallileoWasWrong), Bennett&rsquo;s ch.&nbsp;12 opens at printed p.&nbsp;710 by setting out the geokinetic case he means to answer &mdash; <em>&ldquo;there are three geokinetic claims for terrestrial motion&rdquo;</em>, of which the second is that centrifugal forces cause the polar flattening and equatorial bulge and <em>&ldquo;This also explains why the acceleration of gravity is less at the equator&rdquo;</em> &mdash; and he answers it at p.&nbsp;711 not by denying any of that but by writing that the effects <em>&ldquo;depend on the assumption that the inertial effects can only be caused by the Earth&rsquo;s rotation.&rdquo;</em> At ch.&nbsp;4, p.&nbsp;204 the same volume says the oblateness proves &ldquo;that there is a force causing their effect, not that a rotation of the Earth is the force.&rdquo; <strong>Both books grant the phenomena.</strong> No assertion of items 180 or 257 was located in the passages of Vol.&nbsp;I read for this entry &mdash; pp.&nbsp;49, 204, 239, 460, 699, 710&ndash;711 and Appendix&nbsp;7 &mdash; and the two sentences that come nearest are both answered below: the satellite-photograph parenthesis at p.&nbsp;699, and the remark at p.&nbsp;711 that in the rotating-shell model <em>&ldquo;an object at the center of the hollow sphere will not be affected by the inertial forces &hellip; but not the Earth itself, if it is centrally located&rdquo;</em>, which pulls against the concession a few lines above it.</p>
+<p><strong>The first of those two lines, in full, because it runs the other way and it is fair to note it.</strong> At printed p.&nbsp;699, in ch.&nbsp;11 on Hildegardian geocentrism, a parenthesis has it that the precession is attributed to the equatorial bulge <em>&ldquo;(even though satellite photographs of the Earth do not show an equatorial bulge)&rdquo;</em>. As a remark about photographs that is true and uninteresting: the flattening is 1/298, so on an image 1,000 pixels across the polar diameter is about three pixels shorter than the equatorial one. As an argument it does not survive the same volume&rsquo;s GPS appendix &mdash; Appendix&nbsp;7 in this scan, at printed p.&nbsp;1028 &mdash; which prints the WGS84 flattening as 1/298.257223563 without demur.</p>
 <p><strong>What this passage is being cited as.</strong> The earliest text located that carries the pendulum-and-oblateness argument in the form the list compresses, and it confirms the record&rsquo;s edition: the material is in the 1865 first book edition, not only in the enlarged 1881 third. It is an ancestor of two of the four items and it is not evidence of origination for the other two.</p>"""),
 
     steelman=dict(
         description="""<p><strong>SURFACE (weak &mdash; do not use).</strong> &ldquo;You <em>can</em> feel it, and the bulge proves rotation.&rdquo; Both halves lose. You cannot feel a third of one per cent of your weight, and saying so hands over the only part of the item that is straightforwardly true. And the bulge on its own proves that <em>something</em> is flattening the Earth, which is what the geocentric source says too, in nearly those words.</p>
 <p><strong>DEEPER.</strong> Rowbotham is right that the pendulum alone underdetermines the figure of the Earth. A latitude variation in <em>g</em> is a fact about the gravity field, not about the shape; deriving the shape needs an assumption about how mass is distributed inside, and that is exactly what Newton and Huygens disagreed about &mdash; 1/230 against 1/578, from the same data. He is also right that the 18th- and 19th-century meridian arcs disagreed badly, and right that the British arcs he tabulates come out as if the Earth were <em>oblong</em>. Those are real published results, quoted accurately.</p>
-<p><strong>KERNEL.</strong> The strongest form is not Rowbotham&rsquo;s at all; it is the one <em>Galileo Was Wrong</em> takes, and it is Mach&rsquo;s. <em>The equatorial bulge and the latitude variation of gravity do not by themselves distinguish a rotating Earth in a fixed sky from a fixed Earth in a rotating sky.</em> That is not a flat-earth evasion invented for the purpose: Mach wrote it, Einstein endorsed it in 1911 and again in the 1920 Leyden address, and it is a theorem &mdash; Thirring showed in 1918 that a rotating mass shell induces Coriolis and centrifugal terms in its interior, and Pfister and Braun (<em>Class. Quantum Grav.</em> 2:909, 1985) showed that with the shell&rsquo;s stresses handled correctly the induced centrifugal force comes out exactly right. Sungenis and Bennett quote Mach&rsquo;s sentence in full at their ch.&nbsp;7, p.&nbsp;459, qualifying clause included, and their conclusion is precisely calibrated: the phenomena prove &ldquo;that there is a force causing their effect, not that a rotation of the Earth is the force.&rdquo; On the narrow question of what the bulge proves about <em>whose</em> rotation, that sentence is correct.</p>""",
+<p><strong>KERNEL.</strong> The strongest form is not Rowbotham&rsquo;s at all; it is the one <em>Galileo Was Wrong</em> takes, and it is Mach&rsquo;s. <em>The equatorial bulge and the latitude variation of gravity do not by themselves distinguish a rotating Earth in a fixed sky from a fixed Earth in a rotating sky.</em> That is not a flat-earth evasion invented for the purpose: Mach wrote it, Einstein endorsed it in 1911 and again in the 1920 Leyden address, and it is a theorem &mdash; Thirring showed in 1918 that a rotating mass shell induces Coriolis and centrifugal terms in its interior, and Pfister and Braun (<em>Class. Quantum Grav.</em> 2:909, 1985) showed that with the shell&rsquo;s stresses handled correctly the induced centrifugal force comes out exactly right. Sungenis and Bennett quote Mach&rsquo;s sentence in full at their ch.&nbsp;7, p.&nbsp;460, qualifying clause included, and their conclusion is precisely calibrated: the phenomena prove &ldquo;that there is a force causing their effect, not that a rotation of the Earth is the force.&rdquo; On the narrow question of what the bulge proves about <em>whose</em> rotation, that sentence is correct.</p>""",
         why_it_doesnt_save_claim="""<p>Because it concedes everything the four items deny, and buys nothing back.</p>
 <p><strong>Take the kernel at full strength and follow it.</strong> If the sky turns instead of the Earth, the relative rotation rate is the same &mdash; one turn per sidereal day, &omega;&nbsp;=&nbsp;7.292115&nbsp;&times;&nbsp;10<sup>&minus;5</sup>&nbsp;rad/s &mdash; because it is the <em>relative</em> rate that both descriptions have to reproduce. Every number then comes out identical: the same 0.0339&nbsp;m/s&sup2; of centrifugal acceleration at the equator, the same 21.4&nbsp;km bulge, the same 0.53% weight difference between pole and equator. Mach&rsquo;s point is that the two descriptions are the same physics; it is not that one of them has no bulge. So the Machian argument <strong>predicts the equatorial relief</strong> that items 180 and 257 report as absent. It is not an alternative to the measurement. It is an alternative label on the measurement.</p>
-<p><strong>And Rowbotham&rsquo;s half is not underdetermination but arithmetic.</strong> He does not stop at &ldquo;the pendulum alone cannot settle the figure&rdquo;, which would have been defensible. He asserts two specific causes, and the coefficients he quotes on the same page make them roughly eight and several hundred times too small. A hypothesis that names its own mechanism has given up the protection that underdetermination affords.</p>"""),
+<p><strong>And Rowbotham&rsquo;s half is not underdetermination but arithmetic.</strong> He does not stop at &ldquo;the pendulum alone cannot settle the figure&rdquo;, which would have been defensible. He asserts two specific causes, and the numbers on his own page sink both: the expansion coefficient he quotes makes the first about eight times too small, and the air-pump experiment he cites for the second makes it, read at its most generous, some twenty times too small. A hypothesis that names its own mechanism has given up the protection that underdetermination affords.</p>"""),
 
     refutation="""<p><strong>Start with the two concessions, because both are permanent.</strong> First: you cannot feel it. The centrifugal term at the equator is 0.0339&nbsp;m/s&sup2;, which is 0.35% of gravity, and no human perceives that. Anyone who answers this item by claiming the effect is perceptible has lost the exchange and deserved to. Second: the bulge and the latitude variation of gravity do not, by themselves, tell you whether the Earth turns or the sky does. That is Mach&rsquo;s observation, Einstein agreed with it, and the geocentric source states it accurately. This page is not going to pretend either point away.</p>
 
@@ -258,19 +310,23 @@ ENTRY = {
 
 <p>From Phillips&rsquo;s <em>Million of Facts</em> he takes mean annual temperature falling from 84.2&nbsp;&deg;F at the equator to 0&nbsp;&deg;F at the pole. From Noad&rsquo;s <em>Lectures on Chemistry</em> he takes the expansion of a pendulum: 1/5000 of its length for 30&nbsp;&deg;F, that is 1/150,000 per degree. Multiply: 84.2&nbsp;&divide;&nbsp;150,000 = 5.6&nbsp;&times;&nbsp;10<sup>&minus;4</sup>, or <strong>0.056%</strong>. The variation he has to explain, from his own two pendulum figures, is (39.197&nbsp;&minus;&nbsp;39.027)&nbsp;&divide;&nbsp;39.027 = <strong>0.436%</strong>. Thermal expansion is short by a factor of <strong>7.8</strong>. Against the modern value for the same quantity, 0.530%, it is short by 9.4.</p>
 
-<p>The coefficient is not the problem. 1/150,000 per &deg;F is 6.7&nbsp;&times;&nbsp;10<sup>&minus;6</sup>/&deg;F, against a modern figure for steel of 11.7&nbsp;&times;&nbsp;10<sup>&minus;6</sup>/&deg;C = 6.5&nbsp;&times;&nbsp;10<sup>&minus;6</sup>/&deg;F. He quoted a good number and did not multiply it out. The air-density account fares worse by a wide margin: the buoyancy and added-mass corrections for a metal bob in air amount to something of order a hundredth of one per cent in total, and the equator-to-pole change in sea-level air density is a fraction of that &mdash; two orders of magnitude below what is needed, before one asks why the effect survives in the vacuum chamber of a modern absolute gravimeter, where there is no air at all.</p>
+<p>The coefficient is not the problem. 1/150,000 per &deg;F is 6.7&nbsp;&times;&nbsp;10<sup>&minus;6</sup>/&deg;F, against a modern figure for steel of 11.7&nbsp;&times;&nbsp;10<sup>&minus;6</sup>/&deg;C = 6.5&nbsp;&times;&nbsp;10<sup>&minus;6</sup>/&deg;F. He quoted a good number and did not multiply it out.</p>
 
-<p><strong>The 1881 edition enlarges the argument and quotes the answer to it.</strong> By the third edition (printed pp.&nbsp;185&ndash;186) Rowbotham has added a survey of General Sabine&rsquo;s pendulum campaign &mdash; 131 observations, from 79&deg;&nbsp;49&prime; north to South Shetland at 62&deg;&nbsp;56&prime; south &mdash; and concludes from the 23 of them that departed markedly from the computed values that &ldquo;the assumption of Sir Isaac Newton that the earth is an oblate spheroid, is not confirmed by experiments made with the pendulum.&rdquo; He then quotes Sabine&rsquo;s own account of why those 23 departed: the discrepancies are &ldquo;due in a far greater degree to local peculiarities than to what may be more strictly called errors of observation&rdquo;, and Francis Baily&rsquo;s judgement that a pendulum&rsquo;s vibrations &ldquo;are powerfully affected, in many places, by the local attraction of the substratum on which it is swung&rdquo;. That is the correct explanation, printed in his own text: the residual scatter about the latitude law is local geology, which is what a gravimeter is <em>for</em>. It is the same move the project records at <a href="#ARG-B05">ARG-B05</a>, where he reproduces the <em>Encyclopædia Britannica</em>&rsquo;s correction for the curvature of the Earth and then denies the curvature it corrects for.</p>
+<p><strong>His second cause fails the same way, and it should be tested with the experiment he names, not with a substitute.</strong> The mechanism he states is resistance, not buoyancy: <em>&ldquo;if the pendulum vibrates in the air, which is colder and therefore denser in the north than at the equator, it must be more or less resisted in its passage through it&rdquo;</em>, and his authority is Derham, who compared arcs of vibration in an air-pump receiver at different densities and found the rate differing by <em>&ldquo;two seconds in an hour when the vibrations were longest&rdquo;</em>. Take Derham&rsquo;s number at face value and in Rowbotham&rsquo;s favour. Two seconds in 3,600 is a fractional change in period of 5.6&nbsp;&times;&nbsp;10<sup>&minus;4</sup>, and since <em>T</em>&nbsp;&prop;&nbsp;&radic;<em>L</em> that is 1.1&nbsp;&times;&nbsp;10<sup>&minus;3</sup> on the length of a seconds pendulum &mdash; but that is the whole atmosphere against a vacuum. What Rowbotham needs is the equator-to-pole <em>difference</em>, and on his own temperature table (84.2&nbsp;&deg;F against 0&nbsp;&deg;F) air at constant pressure is denser at the pole by about 18%. Eighteen per cent of 0.11% is <strong>0.02%</strong>, against the <strong>0.436%</strong> he has to explain: short by a factor of about twenty, on the most favourable reading available to him. Computed instead from the physics &mdash; buoyancy plus added mass shift the apparent <em>g</em> by roughly 1.5&thinsp;&rho;<sub>air</sub>/&rho;<sub>bob</sub>, some 2&nbsp;&times;&nbsp;10<sup>&minus;4</sup> for a brass bob in full air, of which the latitude variation is again about a fifth &mdash; it is short by of order a hundred. And Derham&rsquo;s experiment measures the wrong thing for the purpose: damping changes the <em>amplitude</em>, and amplitude reaches the period only through the circular-error term, which is smaller still. And the instrument that settles it has no air in it at all: the FG5 above returns the same latitude dependence with its mass falling in vacuum.</p>
+
+<p><strong>The 1881 edition enlarges the argument and quotes the answer to it.</strong> By the third edition (printed pp.&nbsp;185&ndash;186) Rowbotham has added a survey of General Sabine&rsquo;s pendulum campaign &mdash; 131 observations, from 79&deg;&nbsp;49&prime; north to South Shetland at 62&deg;&nbsp;56&prime; south &mdash; and concludes from the 23 of them that departed markedly from the computed values that &ldquo;the assumption of Sir Isaac Newton that the earth is an oblate spheroid, is not confirmed by experiments made with the pendulum.&rdquo; He then quotes Sabine&rsquo;s own account of why those 23 departed: the discrepancies are &ldquo;due in a far greater degree to local peculiarities than to what may be more strictly called errors of observation&rdquo;, and Francis Baily&rsquo;s judgement that a pendulum&rsquo;s vibrations &ldquo;are powerfully affected, in many places, by the local attraction of the substratum on which it is swung&rdquo;. That is the correct explanation, printed in his own text: the residual scatter about the latitude law is local geology, which is what a gravimeter is <em>for</em>. It is the same move the project records at <a href="#ARG-B06">ARG-B06</a>, where he reprints the <em>Encyclopædia Britannica</em>&rsquo;s article on levelling &mdash; the correction for the difference between the true and the apparent level, which is the curvature term &mdash; and then denies the curvature it corrects for.</p>
 
 <p><strong>And here is the part that decides it.</strong> Take <em>L</em>&nbsp;=&nbsp;<em>g</em>/&pi;&sup2; and the GRS80 gravity values, and the seconds pendulum should be 39.014&nbsp;inches at the equator and 39.221 at the pole. Rowbotham printed 39.027 and 39.197. His table agrees with what a rotating oblate Earth predicts to within 0.034% at one end and 0.061% at the other &mdash; while the effect he was explaining away is 0.436%. He had the right answer on the page in front of him and offered a mechanism eight times too small to displace it.</p>
 
 <h4>3. The meridian arcs: his facts are largely right, and they point the other way</h4>
 
-<p>The disagreements he tabulates are real. The Ordnance Survey series he quotes from Hugh Murray&rsquo;s <em>Encyclopaedia of Geography</em> does show degrees getting <em>shorter</em> going north over southern England, which is the signature of an oblong figure; and he is right that the French Peru and Lapland degrees (56,653 and 57,422 toises) did not survive later scrutiny intact.</p>
+<p>The disagreements he tabulates are real. The Ordnance Survey series he quotes from Hugh Murray&rsquo;s <em>Encyclopaedia of Geography</em> does show degrees getting <em>shorter</em> going north over southern England, which is the signature of an oblong figure. And the Lapland degree he quotes, 57,422 toises, is the published Maupertuis figure, which did not survive later scrutiny intact: he prints the Swedish re-measurement&rsquo;s verdict himself, that the French had given the degree there &ldquo;196 toises more than the true length&rdquo;.</p>
+
+<p>His Peru degree does not check out. He gives &ldquo;the first degree of the meridian from the equator as 56,653 toises&rdquo;. The published Peruvian arc &mdash; 176,945 toises over 3&deg;&nbsp;7&prime;&nbsp;3&Prime;, in the 1911 <em>Britannica</em> article cited below &mdash; works out at about 56,760 toises to the degree, and reducing that to the equator moves it by only some ten toises. His figure is roughly a hundred toises, about 200&nbsp;m, low. That is a second corrupt number of the same kind as the Huygens ratio below, and it pulls the same way: it widens the disagreement his argument runs on.</p>
 
 <p>What produces those discrepancies is now the most useful thing about them. A meridian arc is measured by combining a triangulated ground distance with astronomically observed latitudes, and astronomical latitude is referred to the local plumb line &mdash; which is pulled sideways by nearby mass. Short arcs are therefore dominated by local gravity anomalies rather than by the Earth&rsquo;s overall figure, which is exactly why the small English arcs scatter into apparent oblongness. The most famous instance is the one that founded a field: in the Great Trigonometrical Survey of India the latitude difference between Kaliana and Kalianpur came out 5.24&Prime; smaller geodetically than astronomically, and when Pratt computed what the Himalaya ought to do to the plumb line he got 15.885&Prime;, more than three times the observed value. Pratt (1855) published the discrepancy and said he could not explain it; Airy (1855) proposed that mountains float on lighter roots, and isostasy was born. The anomaly Rowbotham reads as evidence that the figure of the Earth cannot be measured is the anomaly that told geophysicists what mountains are made of.</p>
 
-<p>Two further points of detail, since he rests weight on both. Maupertuis&rsquo;s Lapland result implied a flattening near 1/179 &mdash; far more oblate than the truth &mdash; so the later Swedish re-measurement in Bothnia, which shortened his arc, moved the computed flattening <em>toward</em> the modern 1/298.257 and not toward zero. (Svanberg&rsquo;s own published flattening was not located in the sources reached here; the direction follows from the geometry and is stated as our inference.) And the Huygens figure he cites &mdash; &ldquo;577 to 875, or a difference of about one-third of the whole diameter&rdquo;, in both the 1865 and the 1881 editions &mdash; is a corrupt number: Huygens&rsquo;s ratio was 577:578, a flattening near 1/578, and 578 has plainly been scrambled into 875, with the &ldquo;one-third&rdquo; then computed off the corruption. That matters because the disagreement is his whole argument, and one of his two headline figures overstates it by a factor of about 170. There is no reason to think he did it deliberately; he took a number from a secondary source and did not check it against the arithmetic he printed beside it.</p>
+<p>Two further points of detail, since he rests weight on both. Maupertuis&rsquo;s Lapland result implied a flattening near 1/179 &mdash; far more oblate than the truth &mdash; so the later Swedish re-measurement in Bothnia, which shortened his arc, moved the computed flattening <em>toward</em> the modern 1/298.257 and not toward zero. (Svanberg&rsquo;s own published flattening was not located in the sources reached here; the direction follows from the geometry and is stated as our inference.) And the Huygens figure he cites &mdash; &ldquo;577 to 875, or a difference of about one-third of the whole diameter&rdquo;, in both the 1865 and the 1881 editions &mdash; is a corrupt number: Huygens&rsquo;s ratio was 577:578, a flattening near 1/578, and 578 has plainly been scrambled into 875, with the &ldquo;one-third&rdquo; then computed off the corruption. That matters because the disagreement is his whole argument: 577&nbsp;:&nbsp;875 implies a flattening of (875&nbsp;&minus;&nbsp;577)/875 = <strong>0.34</strong> &mdash; which is where his &ldquo;about one-third&rdquo; comes from &mdash; against Huygens&rsquo;s actual 1/578 = <strong>0.0017</strong>, so the figure he prints is about <strong>197 times</strong> the one Huygens computed. There is no reason to think he did it deliberately; he took a number from a secondary source and did not check it against the arithmetic he printed beside it.</p>
 
 <p>The underlying point is the one his framing misses. Newton got 1/230 and Huygens 1/578 from the same observations because they assumed different things about the density inside the Earth. The spread was not a failure of the method; it was the method telling them that the flattening measures the interior. Which is what Clairaut then proved.</p>
 
@@ -286,11 +342,13 @@ ENTRY = {
 
 <p>What it does cost is a global inertial frame: with the whole sky turning once a sidereal day, the coordinate tangential speed reaches <em>c</em> at <em>c</em>/&omega; = 4.11&nbsp;&times;&nbsp;10<sup>12</sup>&nbsp;m, about 27.5&nbsp;AU &mdash; outside Uranus, inside Neptune. General relativity permits that as a coordinate effect and nothing local exceeds <em>c</em>, which is why this page treats the frame question at <a href="#ARG-R01">ARG-R01</a> and the Machian machinery at <a href="#ARG-R02">ARG-R02</a> and <a href="#ARG-R05">ARG-R05</a> rather than here. For <em>this</em> cluster the relevant fact is narrower and harder: whichever description you adopt, the bulge and the weight difference are exactly where the measurements find them.</p>
 
-<p>There is a further wrinkle inside the source&rsquo;s own statement of the model. Bennett&rsquo;s chapter reports, from the rotating-shell result, that an object at the centre of the hollow sphere is not affected by the inertial forces, and infers that the space around the Earth shows the effects but not the Earth itself. That is true of a <em>point</em> at the centre, where the net centrifugal force vanishes. It is not true of a body 6,371&nbsp;km in radius: the centrifugal potential grows as the square of the distance from the axis, and it is that variation across the body &mdash; not the force at its centre &mdash; that raises an equatorial bulge. On the version of the model as stated, the effect the argument is trying to re-explain would not appear at all.</p>
+<p>There is a further wrinkle inside the source&rsquo;s own statement of the model. At p.&nbsp;711, a few lines below the Response quoted above, Bennett reports from Barbour and Bertotti&rsquo;s rotating-shell result that an object at the centre of the hollow sphere is not affected by the inertial forces, and infers that the space around the Earth shows the effects but not the Earth itself. That is true of a <em>point</em> at the centre, where the net centrifugal force vanishes. It is not true of a body 6,371&nbsp;km in radius: the centrifugal potential grows as the square of the distance from the axis, and it is that variation across the body &mdash; not the force at its centre &mdash; that raises an equatorial bulge. On the version of the model as stated, the effect the argument is trying to re-explain would not appear at all.</p>
 
-<h4>6. The bulge is not stable, and the part that is unexplained does not help</h4>
+<h4>6. The bulge is not rigid, and the part that is unexplained does not help</h4>
 
-<p>Item 105 asserts a stable equatorial bulge. It is not stable, and the ways in which it moves are among the better-measured things in geophysics. The solid Earth flexes about 30&nbsp;cm twice a day under lunar and solar tides &mdash; the same responsiveness the rotational figure requires. The dynamical oblateness <em>J</em><sub>2</sub> was decreasing secularly through the 1980s and 1990s as the crust rebounds from the last ice age, and then reversed: Cox and Chao reported the turn around 1998 in <em>Science</em> 297:831 (2002), Dickey and colleagues argued later the same year (<em>Science</em> 298:1975) that ocean and ice mass redistribution accounts for it, and the decadal behaviour is still an active question.</p>
+<p>Item 105 asserts a stable equatorial bulge; no wording for it was located in either source, so what follows answers the claim as the list states it. The bulge is not rigid, and the ways in which it moves are among the better-measured things in geophysics &mdash; but the honest thing to say first is how big those movements are. The solid Earth flexes about 30&nbsp;cm twice a day under lunar and solar tides: one part in 70,000 of the 21.4&nbsp;km bulge itself. The dynamical oblateness <em>J</em><sub>2</sub> was decreasing secularly through the 1980s and 1990s as the crust rebounds from the last ice age, and then reversed &mdash; Cox and Chao reported the turn around 1998 in <em>Science</em> 297:831 (2002), Dickey and colleagues argued later the same year (<em>Science</em> 298:1975) that ocean and ice mass redistribution accounts for it, and the decadal behaviour is still an active question &mdash; and that secular trend is a fractional change of order 10<sup>&minus;8</sup> a year, which is sub-millimetre a year if it is carried onto the polar&ndash;equatorial radius difference.</p>
+
+<p>Those are small numbers, and saying so is the point rather than a concession. They are the size a <em>responsive</em> rotational figure should show: a body that visibly deforms under the tides, and whose oblateness tracks the redistribution of ice and water on it, is a body whose 21.4&nbsp;km flattening is a deformation under load rather than a fixed shape. What none of them is, is an opening for a non-rotational cause. And the weight of item 105 is on <em>bulge</em>, not on <em>stable</em>: what the argument has to displace is a flattening tied to the rotation rate by Clairaut&rsquo;s theorem to three parts in a thousand, and centimetres of tide do not displace it. This page is not going to answer a four-word item by pointing at the fourth decimal place.</p>
 
 <p>And the bulge is not in hydrostatic equilibrium. Chambat, Ricard and Valette (<em>Geophysical Journal International</em> 183:727, 2010), correcting Nakiboglu&rsquo;s standard calculation, put it plainly: <em>&ldquo;The difference between the polar and equatorial radii appears to be 113 &plusmn; 1 m (instead of 98 m) larger than the hydrostatic value.&rdquo;</em> That is a real excess &mdash; 0.53% of the 21.4&nbsp;km bulge &mdash; and it is <em>not</em> fully accounted for. It is attributed to density structure in the mantle and to delayed viscous relaxation from Pleistocene deglaciation, and that attribution is a modelling result rather than a closed case. This page will keep saying so.</p>
 
@@ -298,13 +356,14 @@ ENTRY = {
 
 <h4>7. What is left, stated without decoration</h4>
 
-<p>The centrifugal effect at the equator is 0.35% of gravity: imperceptible, and measured continuously by instruments a hundred thousand times more sensitive than it needs. The flattening and the gravity difference are tied together by the rotation rate through Clairaut&rsquo;s theorem to better than three parts in a thousand. Rowbotham&rsquo;s alternative causes are eight and several hundred times too small, on coefficients he printed himself. The geocentric alternative cause is not an alternative to any measurement; it is the same physics in rotating coordinates, and it predicts the equatorial relief this cluster reports as missing. Two of these four items deny a phenomenon that both of the books behind this cluster affirm.</p>""",
+<p>The centrifugal effect at the equator is 0.35% of gravity: imperceptible, and measured continuously by instruments a hundred thousand times more sensitive than it needs. The flattening and the gravity difference are tied together by the rotation rate through Clairaut&rsquo;s theorem to better than three parts in a thousand. Rowbotham&rsquo;s alternative causes are about eight and about twenty times too small, on the coefficient and the experiment he printed himself. The geocentric alternative cause is not an alternative to any measurement; it is the same physics in rotating coordinates, and it predicts the equatorial relief this cluster reports as missing. Two of these four items deny a phenomenon that both of the books behind this cluster affirm.</p>""",
 
     advocate=dict(
         best_defense=(
             "Four moves. First and biggest: read your own compression block. You have "
-            "established that neither Rowbotham nor Sungenis and Bennett says what items "
-            "180 and 257 say. So you have spent a page refuting a list-maker's four-word "
+            "established that in everything you read, neither Rowbotham nor Sungenis and "
+            "Bennett asserts what items "
+            "180 and 257 assert. So you have spent a page refuting a list-maker's four-word "
             "fragment, which is the exact offence this website exists to complain about. "
             "Second, on Rowbotham you are anachronistic. In 1865 the arcs really did "
             "disagree, isostasy did not exist as a concept anybody had assimilated, and "
@@ -380,22 +439,39 @@ ENTRY = {
                         "equator is 39,027 inches, and 39,197 inches at the north pole, that the Earth "
                         "must be a globe &hellip; It should also be first proved that <em>no other</em> "
                         "cause could operate.&rdquo; &mdash; Sungenis &amp; Bennett, Vol.&nbsp;I ch.&nbsp;12, "
-                        "p.&nbsp;709: centrifugal forces produce &ldquo;the polar flattening and equatorial "
-                        "bulge. This also explains why the acceleration of gravity is less at the equator.&rdquo;"),
+                        "p.&nbsp;710, stating the geokinetic claim they are about to answer: centrifugal "
+                        "forces produce &ldquo;the polar flattening and equatorial bulge. This also explains "
+                        "why the acceleration of gravity is less at the equator&rdquo; &mdash; and answering "
+                        "it at p.&nbsp;711 not by denying those effects but by writing that they &ldquo;depend "
+                        "on the assumption that the inertial effects can only be caused by the Earth&rsquo;s "
+                        "rotation.&rdquo;"),
         drift_type="reversed",
         note=("<strong>Both books affirm the effect these items deny.</strong> Rowbotham prints the "
               "equatorial relief as a table &mdash; a seconds pendulum of 39.027 inches at the equator "
               "against 39.197 at the pole &mdash; and then argues about its <em>cause</em>. Sungenis and "
-              "Bennett state the phenomenon in their own summary and answer it by relocating the cause "
-              "to a rotating universe, writing at Vol.&nbsp;I p.&nbsp;710 that the effects &ldquo;depend "
+              "Bennett set the phenomenon out as the claim they mean to answer and then answer it by "
+              "relocating the cause "
+              "to a rotating universe, writing at Vol.&nbsp;I p.&nbsp;711 that the effects &ldquo;depend "
               "on the assumption that the inertial effects can only be caused by the Earth&rsquo;s "
               "rotation&rdquo;, and at ch.&nbsp;4, p.&nbsp;204 that the oblateness proves &ldquo;that "
               "there is a force causing their effect, not that a rotation of the Earth is the force.&rdquo; "
-              "The same volume quotes Bertrand Russell, at p.&nbsp;48, on &ldquo;the flattening of the "
+              "The same volume quotes Bertrand Russell, at p.&nbsp;49, on &ldquo;the flattening of the "
               "Earth at the poles, and the fact that bodies are heavier there than at the equator&rdquo;, "
               "and glosses Einstein at p.&nbsp;239 as holding that &ldquo;the Earth&rsquo;s poles would "
               "flatten from either reference frame&rdquo;. An argument about attribution has arrived on "
               "the list as an assertion of absence.<br><br>"
+              "<strong>The nearest thing to a source for item 180, and it is in the same chapter.</strong> "
+              "A few paragraphs below the Response, on that same p.&nbsp;711, Bennett restates Barbour and "
+              "Bertotti&rsquo;s rotating-shell result and adds that &ldquo;an object at the center of the "
+              "hollow sphere will not be affected by the inertial forces &hellip; but not the Earth itself, "
+              "if it is centrally located&rdquo;. Read flat, that is a source statement that no centrifugal "
+              "effect acts on the Earth &mdash; close to item 180, and in tension with the concession he "
+              "has just made a few lines above. It is answered on the merits in section&nbsp;5 of the "
+              "refutation: the "
+              "cancellation holds at a <em>point</em> at the centre, and it is the variation of the "
+              "centrifugal potential across a body 6,371&nbsp;km in radius, not the force at its centre, "
+              "that raises a bulge. Recorded here because a scoped claim about what the sources do and do "
+              "not assert has to carry its own counter-instance.<br><br>"
               "<strong>The four items do not agree with each other.</strong> Items 55 and 105 concede a "
               "bulge and dispute its cause; items 180 and 257 deny that there is anything to attribute. "
               "One phrasing is worth flagging as genuinely ambiguous: <em>&ldquo;No equatorial "
@@ -414,9 +490,9 @@ ENTRY = {
               "on the consequence: the same relative rotation rate produces the same bulge and the same "
               "0.53% weight difference, so the alternative cause predicts precisely what items 180 and "
               "257 report as absent.<br><br>"
-              "<strong>One thing this entry does not claim.</strong> At Vol.&nbsp;I p.&nbsp;203 the book "
+              "<strong>One thing this entry does not claim.</strong> At Vol.&nbsp;I p.&nbsp;204 the book "
               "quotes Mach up to &ldquo;and so on&hellip;&rdquo;, stopping where the qualifying clause "
-              "begins. That looks like a dropped hedge and it is not: at ch.&nbsp;7, p.&nbsp;459 the same "
+              "begins. That looks like a dropped hedge and it is not: at ch.&nbsp;7, p.&nbsp;460 the same "
               "volume prints the sentence in full, clause included, together with Mach&rsquo;s statement "
               "that he prefers to reformulate the law of inertia rather than accept absolute motion. On "
               "this argument the books are the careful party and the list is not.")),
@@ -424,7 +500,7 @@ ENTRY = {
     verdict_challenge=dict(challenged=False, proposed_verdict=None, reasoning=None),
 
     people=["PER-ROWBOTHAM", "PER-SUNGENIS"],
-    related=["A09", "A10", "A14", "A15", "A17", "B05", "R01", "R02", "R05"],
+    related=["A09", "A10", "A14", "A15", "A17", "B06", "R01", "R02", "R05"],
 
     sources=[
         dict(label="Rowbotham (“Parallax”), Earth Not a Globe (1865) — Project Gutenberg ebook "
@@ -437,9 +513,12 @@ ENTRY = {
              url="https://sacred-texts.com/earth/za/za39.htm"),
         dict(label="Sungenis & Bennett, Galileo Was Wrong Vol. I — archive.org item "
                    "GallileoWasWrong; Bennett’s ch. 12 “Technical and Summary Analysis of "
-                   "Geocentric Cosmology” at printed pp. 709–710 (the bulge and the reduced "
-                   "equatorial gravity, and the Machian response), ch. 4 p. 204, ch. 1 p. 48 "
-                   "(Russell), ch. 5 p. 239 n. 492 (Einstein), ch. 7 p. 459 (Mach in full)",
+                   "Geocentric Cosmology”, which opens at printed p. 710 (the geokinetic claim "
+                   "as stated there — the bulge and the reduced equatorial gravity — and the "
+                   "Machian response at p. 711), ch. 4 p. 204 (Mach clipped, and the oblateness "
+                   "sentence), ch. 1 p. 49 (Russell), ch. 5 p. 239 n. 492 (Einstein), ch. 7 "
+                   "p. 460 (Mach in full), ch. 11 p. 699 (satellite photographs), Appendix 7 "
+                   "p. 1028 (WGS84). Printed numbers read from the page images, leaf by leaf",
              url="https://archive.org/details/GallileoWasWrong"),
         dict(label="Clairaut’s theorem — (g_p − g_e)/g_e = (5/2)m − f, and the Somigliana "
                    "normal-gravity formula that superseded it",

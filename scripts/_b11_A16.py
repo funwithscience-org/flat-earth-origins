@@ -26,15 +26,32 @@ NOT DEMONSTRATED, basis "No dataset cited.", originator None (untraced).
    the clouds). Text read from the Internet Archive OCR of item
    200ProofsEarthIsNotASpinningBall (djvu.txt), 2026-08-11.
 
-   Note what Dubay 21/22/158 changed: Carpenter argued against the Earth's REVOLUTION
-   at 19 mi/s; Dubay argues against its ROTATION at "over 1000mph". Same instrument,
-   different target, and the list files the result under the rotation lane.
+   Note what Dubay 21/22/158 changed. Carpenter's MAGNITUDE is the orbital one
+   (19 mi/s) but he attaches it to a rotational DIRECTION — proof 44, "the Earth is
+   said to move at the rate of nineteen miles in a second of time, 'from west to
+   east'"; proof 49, "revolving through space from west to east at the rate of
+   nineteen miles in a second". He is arguing against "the motion of the Earth"
+   undifferentiated and does not separate revolution from rotation. Dubay retargets
+   the same picture at the daily spin specifically, at "over 1000mph", and the list
+   files the result under the rotation lane. (An earlier draft of this entry said
+   Carpenter's balloon "is aimed at the Earth's revolution around the Sun" and that
+   ancestor and descendant "are answering different motions". That attributes to
+   Carpenter a distinction his own text visibly does not draw; corrected 2026-08-11.)
 
 2. THE OLDEST APPEARANCE FOUND, AND IT IS A JOKE MADE BY A COPERNICAN. In Rowbotham's
    1865 Earth Not a Globe (Simpkin, Marshall; Project Gutenberg #69892, searched in
-   full 2026-08-11) the word "balloon" occurs six times. Five are about the shape of
-   the horizon seen from the car — the concavity argument, which is B-lane material,
-   not this cluster. The sixth is inside a long quotation Rowbotham reproduces from
+   full 2026-08-11) the word "balloon" occurs THIRTEEN times (an earlier draft of this
+   entry said six; recounted 2026-08-11 against pg69892.txt, occurrences at lines 424,
+   441, 444, 452, 468, 473, 483, 488, 491, 503, 510, 1793, 2900). Eleven are in one
+   run in the section on the apparent concavity of the sea seen from the car, which is
+   B-lane material, not this cluster. One — line 1793, in Section 7, "Cause of
+   'Sunrise' and 'Sunset'" — is NOT about horizon shape and is directly useful to us:
+   "When a balloon sails from an observer without increasing or decreasing its
+   altitude, it appears gradually to approach the horizon", offered as an instance of
+   "a simple and everywhere visible law of perspective" that explains why the Sun
+   appears to ascend and descend. That is the same linear-perspective law our sun-angle
+   answer uses, stated by the tradition's founder, with a balloon. It is now used in
+   section 3 of the refutation. The thirteenth is inside a long quotation from
    the *Literary Gazette* of 1851, reporting Foucault's pendulum, in which the
    Gazette's writer says that proposing to prove the Earth's rotation by direct
    experiment would once have been thought "as mad as if he were to have proposed
@@ -64,15 +81,35 @@ NOT DEMONSTRATED, basis "No dataset cited.", originator None (untraced).
 4. ARITHMETIC, ALL REPRODUCED 2026-08-11, Omega = 7.292115e-5 rad/s, R = 6.371e6 m.
    (a) Co-rotation speed. Equator: Omega*R = 464.6 m/s = 1039 mph — this is where
        Dubay's "over 1000mph" comes from. At Roswell (33.4 N): 387.9 m/s = 868 mph.
-       Over a 2.5 h ascent those give 2,598 and 2,169 miles respectively, which is
-       where his "2500 miles" comes from. His number is the equatorial one applied at
-       33 N; not worth making anything of, and the entry does not.
+       DUBAY'S OWN STATED DURATION IS THREE HOURS ("spending 3 hours ascending over
+       New Mexico"), not the 2.5 h an earlier draft of this entry put in his mouth;
+       the 2.5 h is the real ascent (launch 09:30 MDT, jump 12:07/12:08 MDT). On his
+       three hours: 868 mph gives 2,604 mi and 1,039 mph gives 3,117 mi, so 2,604 is
+       the closest natural reconstruction of his "2500 miles". On the real 2.5 h at
+       33 N the same reasoning gives 2,169 mi. His figure is round and not exactly
+       reconstructible either way; nothing in the entry turns on which.
    (b) The honest non-zero answer. A parcel raised radially to 38,969 m at 33.4 N
        while CONSERVING angular momentum lags westward at
        u = Omega*cos(phi)*[R^2/(R+z) - (R+z)] = -4.73 m/s, i.e. ~43 km over 2.5 h.
-       Same order as the observed drift; three orders below the ~4,000 km the
-       argument needs. Say this out loud — the "should be exactly zero" framing is
-       what makes our answer look like special pleading.
+       Same order as the observed drift; TWO orders below the ~3,500 km (2,169 mi)
+       the argument needs at that latitude — a factor of about 82 (3,491/42.6). An
+       earlier draft said "three orders below ~4,000 km" in the same paragraph where
+       it also said "one part in a hundred"; the two contradicted each other and the
+       overstatement ran in our favour. Corrected 2026-08-11. Say the non-zero answer
+       out loud — the "should be exactly zero" framing is what makes our answer look
+       like special pleading.
+   (b2) The answer to Dubay 158 specifically, which an earlier draft left out while
+       its section 2 headline superficially CONFIRMED 158's prediction. 158 grants
+       co-rotation arguendo and concludes "Hot-air balloons would also be forced
+       steadily faster Eastwards as they ascended through the ever increasing
+       atmospheric speeds." Solid-body co-rotation means uniform ANGULAR velocity: a
+       balloon at 39 km does move east faster in absolute terms, and not at all with
+       respect to the ground directly beneath it, because both keep the same
+       longitude. 158 confuses absolute speed with relative displacement. The
+       residual that does exist (4b) runs WESTWARD, the opposite sign to 158. And the
+       observed eastward drift is thermal-wind: it has latitude structure, reverses
+       circulation sense between hemispheres, and peaks near the tropopause and
+       weakens above it, none of which a monotonic altitude effect produces.
    (c) Thermal wind, order-of-magnitude, representative values: f(45) = 1.031e-4/s,
        dT/dy ~ 40 K over 5,000 km = 8e-6 K/m, T = 250 K, g = 9.81 gives
        du/dz = g/(f*T) * dT/dy = 3.0e-3 /s, i.e. ~30 m/s over 10 km. That is the
@@ -91,8 +128,15 @@ NOT DEMONSTRATED, basis "No dataset cited.", originator None (untraced).
 
 5. THE INSTRUMENT READS POSITIVE — this is the spine of the refutation. Weather
    balloons DO drift: per the Wikipedia radiosonde article, "a sonde may drift
-   several hundred kilometers during the 90- to 120-minute flight", and that drift
-   is a known data-assimilation problem "in jet stream regions". Direction:
+   several hundred kilometers during the 90- to 120-minute flight". CAREFUL WITH THE
+   NEXT CLAUSE: that article says the drift MIGHT have been a problem for model
+   initialisation and then reports that it is not — "However, this appears not to be
+   so except perhaps locally in jet stream regions in the stratosphere." An earlier
+   draft of this entry dropped the negation and three hedges and rendered it as a
+   known assimilation problem that "bites" in jet-stream regions. That is the hedge
+   rule violated on our own side; corrected 2026-08-11. If the stronger claim about
+   drift-aware assimilation is ever wanted, cite an NWP source that makes it.
+   Direction:
    predominantly eastward at mid-latitudes, i.e. the OPPOSITE of the argument's
    prediction, at ~1% of its magnitude, with the sense of circulation reversing
    between hemispheres. And the atmosphere's angular momentum is not a free
@@ -128,7 +172,12 @@ NOT DEMONSTRATED, basis "No dataset cited.", originator None (untraced).
    the failure; (c) the cluster is composite — 108/227 are a mechanics argument and
    237 is a solar-distance argument whose natural home is B10 — the same shape as the
    pending A09 split; (d) real_source=None where the radiosonde network is the
-   obvious real source.
+   obvious real source; (e) the ratcheting absence-claim loop in
+   tests/test_provenance.py reads tldr, refutation, untraceable, passage.gloss,
+   compression.note and the cluster note, but NOT straw_man.detail or advocate.* — an
+   unscoped absence claim ("No physical account says either thing.") sat in
+   straw_man.detail here through four passes because no scanner looks there. Widen
+   the loop's field list.
 """
 
 ENTRY = {
@@ -181,9 +230,9 @@ ENTRY = {
                "that the Earth, does not move, and, therefore, a proof that the Earth is not a "
                "globe."),
         gloss="""<p><strong>The premise is in the sentence, and so is its dismissal.</strong> Carpenter does not overlook the possibility that the air travels with the Earth &mdash; he names it, in the one clause the whole proof turns on: <em>&ldquo;unless the Earth drag the balloon along with it&rdquo;</em>. Then he disposes of it in the same breath, on the ground that balloons are not observed to be left behind, which is the observation the condition predicts. Quoting him up to the word <em>unless</em> and stopping would be the same trick the list plays in the other direction, so the whole sentence is above and the conclusion is as flat as he wrote it. His error is not a missing consideration; it is treating the confirmation of a premise as its refutation.</p>
-<p><strong>Nineteen miles a second is the orbit, not the spin.</strong> Carpenter&rsquo;s balloon is aimed at the Earth&rsquo;s revolution around the Sun (about 18.5 mi/s; his 19 is right), and his proof 49 aims the identical argument at clouds moving <em>&ldquo;west to east being as frequent a direction as any other&rdquo;</em>. The modern versions retarget it at the daily rotation, and it is the modern target the list inherits: items 108 and 227 sit in the rotation lane. So the ancestor and the descendant are answering different motions with the same picture.</p>
-<p><strong>The modern statements the list actually tracks.</strong> Eric Dubay, <em>200 Proofs Earth Is Not a Spinning Ball</em> (2015), proof 21 &mdash; quoted in full in the compression block below &mdash; has helicopters and hot-air balloons hovering over the surface and waiting for their destinations to arrive, on the condition that the Earth spins eastward at over a thousand miles an hour. Proof 22 puts a number on it from the Red Bull Stratos jump &mdash; Baumgartner, after some two and a half hours of ascent over New Mexico, <em>&ldquo;2500 miles West into the Pacific Ocean&rdquo;</em>. Proof 158 runs it the other way: if the air is carried round, the higher layers must move faster, so a rising balloon should be swept progressively eastward. For item 237 the ancestors are proofs 124 and 125 &mdash; balloon footage showing <em>&ldquo;a clear hot-spot reflecting on the clouds directly below the Sun&rsquo;s spotlight-like influence&rdquo;</em>, and sunbeam angles traced back to a source <em>&ldquo;relatively close to Earth just above the clouds&rdquo;</em>. Quotations from the Internet Archive OCR text of that book (item 200ProofsEarthIsNotASpinningBall), read 2026-08-11.</p>
-<p><strong>An older sighting, and it belongs to the other side.</strong> Searching the 1865 <em>Earth Not a Globe</em> (Simpkin, Marshall; Project Gutenberg #69892) for <em>balloon</em> returns six passages. Five are about the shape of the horizon from the car. The sixth is inside a block quotation from the <em>Literary Gazette</em> of 1851, reporting Foucault&rsquo;s pendulum, where the Gazette&rsquo;s writer remarks that anyone proposing to demonstrate the Earth&rsquo;s rotation by direct experiment would once have been thought <em>&ldquo;as mad as if he were to have proposed reviving Bishop Wilkins&rsquo;s notable plan for going to the North American colonies in a few hours, by rising in a balloon from the Earth and gently floating in the air until the Earth, in its diurnal rotation, have turned the desired quarter towards the suspended &aelig;ronaut&rdquo;</em>. The earliest text located that puts a balloon and the Earth&rsquo;s rotation in one sentence is therefore a Copernican using the idea as a byword for absurdity. The attribution to Bishop John Wilkins is the Gazette&rsquo;s and was not checked against Wilkins&rsquo;s own works, which matters, because Wilkins argued <em>for</em> the Earth&rsquo;s motion; nothing in this entry rests on it.</p>
+<p><strong>Nineteen miles a second is the orbit&rsquo;s number, attached to the spin&rsquo;s direction.</strong> Carpenter&rsquo;s figure belongs to the Earth&rsquo;s revolution around the Sun (about 18.5 mi/s; his 19 is right), but he attaches it to a west-to-east motion &mdash; proof 44 has &ldquo;the Earth&hellip; said to move at the rate of nineteen miles in a second of time, <em>&lsquo;from west to east&rsquo;</em>&rdquo;, and proof 49 has the globe <em>&ldquo;revolving through space from west to east at the rate of nineteen miles in a second&rdquo;</em>, the identical argument run on clouds moving <em>&ldquo;west to east being as frequent a direction as any other&rdquo;</em>. So he is not separating revolution from rotation at all; he is arguing against the motion of the Earth undifferentiated. The modern versions retarget the same picture at the daily spin specifically, at over a thousand miles an hour, and it is the modern target the list inherits: items 108 and 227 sit in the rotation lane.</p>
+<p><strong>The modern statements the list actually tracks.</strong> Eric Dubay, <em>200 Proofs Earth Is Not a Spinning Ball</em> (2015), proof 21 &mdash; quoted in full in the compression block below &mdash; has helicopters and hot-air balloons hovering over the surface and waiting for their destinations to arrive, on the condition that the Earth spins eastward at over a thousand miles an hour. Proof 22 puts a number on it from the Red Bull Stratos jump: Baumgartner, <em>&ldquo;spending 3 hours ascending over New Mexico&rdquo;</em> &mdash; his figure; the real ascent was about two and a half &mdash; <em>&ldquo;should have landed 2500 miles West into the Pacific Ocean but instead landed a few dozen miles East of the take-off point.&rdquo;</em> Proof 158 runs it the other way, granting co-rotation for the sake of argument: if the air is carried round, the higher layers must move faster, so <em>&ldquo;hot-air balloons would also be forced steadily faster Eastwards as they ascended through the ever increasing atmospheric speeds.&rdquo;</em> That one is answered in section 2 below, because the answer to it is not the answer to proof 21. For item 237 the ancestors are proofs 124 and 125 &mdash; balloon footage showing <em>&ldquo;a clear hot-spot reflecting on the clouds directly below the Sun&rsquo;s spotlight-like influence&rdquo;</em>, and sunbeam angles traced back to a source <em>&ldquo;relatively close to Earth just above the clouds&rdquo;</em>. Quotations from the Internet Archive OCR text of that book (item 200ProofsEarthIsNotASpinningBall), read 2026-08-11.</p>
+<p><strong>An older sighting, and it belongs to the other side.</strong> Searching the 1865 <em>Earth Not a Globe</em> (Simpkin, Marshall; Project Gutenberg #69892) for <em>balloon</em> returns thirteen occurrences: eleven in one run in the section on the apparent concavity of the sea seen from the car, one in Rowbotham&rsquo;s perspective explanation of the setting Sun (used in section 3 below), and one inside a block quotation from the <em>Literary Gazette</em> of 1851, reporting Foucault&rsquo;s pendulum, where the Gazette&rsquo;s writer remarks that anyone proposing to demonstrate the Earth&rsquo;s rotation by direct experiment would once have been thought <em>&ldquo;as mad as if he were to have proposed reviving Bishop Wilkins&rsquo;s notable plan for going to the North American colonies in a few hours, by rising in a balloon from the Earth and gently floating in the air until the Earth, in its diurnal rotation, have turned the desired quarter towards the suspended &aelig;ronaut&rdquo;</em>. The earliest text located that puts a balloon and the Earth&rsquo;s rotation in one sentence is therefore a Copernican using the idea as a byword for absurdity. The attribution to Bishop John Wilkins is the Gazette&rsquo;s and was not checked against Wilkins&rsquo;s own works, which matters, because Wilkins argued <em>for</em> the Earth&rsquo;s motion; nothing in this entry rests on it.</p>
 <p><strong>What this passage is cited as.</strong> The earliest documented statement of the cluster&rsquo;s drift half, in the flat-earth literature, that this pass could locate &mdash; an ancestor, not a demonstration of origination. Whether the specimen list took it from Carpenter, from Dubay, or from the ambient stock was not established, and the cluster record still carries no originator.</p>"""),
 
     steelman=dict(
@@ -197,29 +246,35 @@ ENTRY = {
 
 <h4>1. The number the argument needs, and the number the physics gives</h4>
 
-<p>At Roswell&rsquo;s latitude the Earth&rsquo;s surface travels east at &Omega;<em>R</em>cos&phi; = 388 m/s, or 868 mph &mdash; and so does the air, and so does anything released into it. A balloon does not have to be dragged along; it is already moving, and it keeps moving, for the same reason a dropped coin lands at your feet on a moving train. Dubay&rsquo;s figure of about 2,500 miles is the equatorial version of that speed (1,039 mph) run for two and a half hours; at 33&deg;&nbsp;N it would be 2,169 miles. Either way it is the distance the argument predicts and the observation refuses.</p>
+<p>At Roswell&rsquo;s latitude the Earth&rsquo;s surface travels east at &Omega;<em>R</em>cos&phi; = 388 m/s, or 868 mph &mdash; and so does the air, and so does anything released into it. A balloon does not have to be dragged along; it is already moving, and it keeps moving, for the same reason a dropped coin lands at your feet on a moving train. Dubay&rsquo;s figure of about 2,500 miles is his own stated three hours of ascent run at roughly that co-rotation speed &mdash; 868 mph for three hours is 2,604 miles &mdash; and on the real ascent time of about two and a half hours the same reasoning gives 2,169 miles. His round number is not exactly reconstructible and nothing here turns on which reading is taken: either way it is the distance the argument predicts and the observation refuses.</p>
 
 <p><strong>But the honest answer is not zero, and saying zero is where this rebuttal usually goes wrong.</strong> Lift a parcel of air straight up while it conserves its angular momentum about the Earth&rsquo;s axis and it must fall behind the ground beneath it, because it now sits on a larger circle. For a rise to 38,969 m at 33.4&deg;&nbsp;N the arithmetic is</p>
 
 <p style="margin-left:1.5em"><em>u</em> = &Omega;cos&phi;&thinsp;[<em>R</em>&sup2;/(<em>R</em>+<em>z</em>) &minus; (<em>R</em>+<em>z</em>)] = &minus;4.7 m/s,</p>
 
-<p>a westward lag of about 43 km over a two-and-a-half-hour ascent &mdash; the same order as the drift actually observed, and about one part in a hundred of what the argument requires. (Reproduced here 2026-08-11 with &Omega; = 7.292115 &times; 10<sup>&minus;5</sup> rad/s and <em>R</em> = 6,371 km.) The real atmosphere stays closer to solid-body rotation than that, because pressure gradients and turbulent mixing keep redistributing angular momentum, and what survives as a net displacement is simply the wind. So the flat-earth expectation is not wrong by being non-zero. It is wrong by three orders of magnitude, in a direction the weather decides.</p>
+<p>a westward lag of about 43 km over a two-and-a-half-hour ascent &mdash; the same order as the drift actually observed, and about one part in eighty of what the argument requires (43 km against 2,169 miles, or 3,491 km). (Reproduced here 2026-08-11 with &Omega; = 7.292115 &times; 10<sup>&minus;5</sup> rad/s and <em>R</em> = 6,371 km.) The real atmosphere stays closer to solid-body rotation than that, because pressure gradients and turbulent mixing keep redistributing angular momentum, and what survives as a net displacement is simply the wind. So the flat-earth expectation is not wrong by being non-zero. It is wrong by a factor of about eighty &mdash; nearly two orders of magnitude &mdash; in a direction the weather decides.</p>
 
 <h4>2. The balloons are a rotation detector, and they read positive</h4>
 
-<p>Item 227 names weather balloons specifically, so take it up on that. Radiosondes drift a long way: <em>&ldquo;a sonde may drift several hundred kilometers during the 90- to 120-minute flight&rdquo;</em>, far enough that the drifting position and time have to be handled in model initialisation, and the article naming that problem singles out <strong>jet stream regions</strong> as where it bites. That is the answer to &ldquo;balloon drift anomaly&rdquo; on its own terms, and it points the wrong way for the claim twice over: the drift is a few hundred kilometres rather than a few thousand, and at mid-latitudes it is predominantly <em>eastward</em> &mdash; the direction an Earth turning east under a stationary atmosphere could not produce.</p>
+<p>Item 227 names weather balloons specifically, so take it up on that. Radiosondes drift a long way: <em>&ldquo;a sonde may drift several hundred kilometers during the 90- to 120-minute flight&rdquo;</em>, far enough that the same article notes it could in principle disturb model initialisation &mdash; though it goes on to report the effect as showing up at most locally, in stratospheric jet-stream regions. That is the answer to &ldquo;balloon drift anomaly&rdquo; on its own terms, and against Carpenter&rsquo;s proof 54 and Dubay&rsquo;s proofs 21 and 22 it points the wrong way twice over: the drift is a few hundred kilometres rather than a few thousand, and at mid-latitudes it is predominantly <em>eastward</em> &mdash; the direction an Earth turning east under a stationary atmosphere could not produce.</p>
+
+<p><strong>Dubay&rsquo;s proof 158 predicts eastward too, and that has to be answered rather than skated over.</strong> 158 grants co-rotation for the sake of argument and infers that <em>&ldquo;hot-air balloons would also be forced steadily faster Eastwards as they ascended through the ever increasing atmospheric speeds&rdquo;</em> &mdash; so pointing at eastward drift and calling it a refutation would be conceding his point in a louder voice. The error in 158 is a confusion of two speeds. Solid-body co-rotation means uniform <em>angular</em> velocity: a balloon at 39 km is indeed carried east faster in absolute terms than the ground, by &Omega;<em>z</em>cos&phi; &asymp; 2.4 m/s, and it is carried east <em>not at all</em> relative to the ground directly beneath it, because the two keep the same longitude. A faster absolute speed aloft is not a displacement over the surface, and only a displacement would sweep a balloon anywhere.</p>
+
+<p>What is left over runs the other way. The one real altitude effect &mdash; angular momentum conserved on a rising parcel, section 1 &mdash; is a <em>westward</em> lag of 4.7 m/s, the opposite sign to 158&rsquo;s prediction. So the eastward drift that is actually observed cannot be his effect, and it is not: it is thermal wind, and it is identifiable as such by structure he has no way to produce. It varies with latitude, it reverses its circulation sense between the hemispheres, and it does not increase monotonically with height &mdash; the flow peaks near the tropopause and weakens above it, which is the opposite of &ldquo;ever increasing atmospheric speeds&rdquo;.</p>
 
 <p>Why eastward, and why at that speed? Because of the rotation. The mid-latitude westerlies are what the thermal-wind relation gives when a pole-to-equator temperature gradient sits on a rotating planet: the vertical shear of the geostrophic wind is <em>&part;u/&part;z</em> = (<em>g</em>/<em>fT</em>)&thinsp;(&part;<em>T</em>/&part;<em>y</em>), and <em>f</em> = 2&Omega;sin&phi; carries the Earth&rsquo;s rotation rate inside it. With representative mid-latitude values &mdash; <em>f</em> = 1.03 &times; 10<sup>&minus;4</sup> s<sup>&minus;1</sup>, about 40 K of pole-to-equator contrast over 5,000 km, <em>T</em> &asymp; 250 K &mdash; the shear is 3.0 &times; 10<sup>&minus;3</sup> s<sup>&minus;1</sup>, giving about <strong>30 m/s over ten kilometres of altitude</strong>: the jet stream, at roughly its observed strength, from the Earth&rsquo;s spin and a thermometer. (Order-of-magnitude, recomputed here 2026-08-11.) Set &Omega; to zero and there is no <em>f</em>, no geostrophic balance, no thermal wind and no jet &mdash; and no parameter left to fit one with.</p>
 
 <p>Two further readings from the same instrument, which is worth stressing: <em>the same instrument</em>. The sense of circulation around a low reverses between the hemispheres, which is a sign change in 2&Omega;sin&phi; and has no counterpart in any stationary model. And the air&rsquo;s angular momentum is exchanged with the ground rather than conjured: <em>&ldquo;There is now general agreement that most of the changes in LOD on time scales from weeks to a few years are excited by changes in AAM&rdquo;</em> &mdash; the length of the day varying with an annual amplitude of 0.34 ms and a semiannual amplitude of 0.29 ms, in step with atmospheric angular momentum computed from the winds those balloons measure. On a stationary Earth there is no length of day to vary and nothing to trade.</p>
 
-<p><strong>The lineage disagrees with itself here, and it is worth seeing.</strong> Dubay&rsquo;s proof 21 needs the air <em>not</em> to travel with the Earth; his proofs 23 and 158 attack the idea that it could. But the largest single originator on this list went the other way: our <a href="#ARG-A10">ARG-A10</a> records Rowbotham, in the 1881 third edition, granting that if the Earth turns then the atmosphere turns with it and in the same direction, and building his argument from inside that concession. (That quotation is A10&rsquo;s; the 1881 text was not reachable this pass and it is not re-quoted here.) The same 461-item list carries both, as items in the same lane, without noticing that they require opposite atmospheres.</p>
+<p><strong>The lineage disagrees with itself here, and it is worth seeing.</strong> Dubay&rsquo;s proof 21 needs the air <em>not</em> to travel with the Earth; his proofs 23 and 158 attack the idea that it could, 158 by granting it for the sake of argument. But the largest single originator on this list went the other way: our <a href="#ARG-A10">ARG-A10</a> records Rowbotham, in the 1881 third edition, granting that if the Earth turns then the atmosphere turns with it and in the same direction, and building his argument from inside that concession. (That quotation is A10&rsquo;s; the 1881 text was not reachable this pass and it is not re-quoted here.) The same 461-item list carries both, as items in the same lane, without noticing that they require opposite atmospheres.</p>
 
 <h4>3. The sun-angle half</h4>
 
 <p>Item 237 descends from two claims about photographs: that balloon footage shows a bright hot-spot on the cloud deck beneath the Sun, and that sunbeams slanting through cloud gaps converge on a source just above the clouds. Take them in order.</p>
 
 <p><strong>Converging rays are perspective.</strong> Parallel lines receding from an observer appear to meet at a vanishing point; that is why railway tracks close. The decisive observation is the one the argument cannot use: <strong>anticrepuscular rays</strong>, which appear on the opposite side of the sky and converge a second time at the antisolar point &mdash; they are <em>&ldquo;essentially parallel, but appear to converge toward the antisolar point, the vanishing point, due to a visual illusion from linear perspective.&rdquo;</em> A lamp hanging just above the clouds can put a convergence point above the clouds. It cannot also put one below the horizon behind you, 180&deg; away, and the same evening sky routinely shows both.</p>
+
+<p><strong>And the law being appealed to is the tradition&rsquo;s own.</strong> The perspective principle that answers proof 125 is not an outside import: Samuel Rowbotham builds his account of sunrise and sunset on it in 1865, and reaches for a balloon to illustrate it. Apparent descent with distance, he writes, <em>&ldquo;arises from a simple and everywhere visible law of perspective&rdquo;</em>, of which one instance is that <em>&ldquo;when a balloon sails from an observer without increasing or decreasing its altitude, it appears gradually to approach the horizon&rdquo;</em>. He is right about the law and uses it to keep his Sun a few thousand miles up. But it is a single law with a single consequence, and applied to a beam of light it produces convergence at a vanishing point whether or not anything is there &mdash; which is why it also produces the second convergence, at the antisolar point, that no near source can account for.</p>
 
 <p><strong>The hot-spot moves with the observer.</strong> A bright patch on a cloud deck or a water surface beneath the Sun is specular and forward-scattered glare, and its position is fixed by the geometry between the <em>observer</em>, the surface and the source &mdash; the same effect as the glitter path on the sea, which follows you along the beach. A genuinely local source would do something different and checkable: it would illuminate a pool of cloud <em>fixed beneath itself</em>, brighter than everything around it, and a second balloon a few hundred kilometres away would photograph that pool sitting under the Sun rather than under itself. What the footage shows is the glare tracking the camera.</p>
 
@@ -273,18 +328,24 @@ ENTRY = {
 
     straw_man=dict(
         identified=True,
-        detail=("Yes, and it is in the neighbouring proofs of the same source. Dubay's proof 23 "
-                "renders the mainstream position as gravity that “magically and inexplicably "
-                "drags the entire lower-atmosphere of the Earth in perfect synchronization up to "
-                "some undetermined height”, and proof 159 has that synchronised layer ending "
-                "“abruptly … at some key altitude”. No physical account says either thing. The "
-                "atmosphere is not in perfect synchronisation — the departures are the winds, "
-                "up to about 100 m/s in the jet core, which is why weather exists and why the "
-                "balloons drift at all — and there is no boundary to locate, because density "
-                "falls off smoothly by roughly a factor of e every 8 km with no surface anywhere. "
-                "The version being refuted is a rigid co-rotating shell that nobody proposes; "
-                "the actual claim is a fluid in near-solid-body rotation whose deviations are "
-                "measured hourly by the very instrument under discussion.")),
+        detail=("Yes, in a narrow and specific place. Dubay's proof 23 renders the mainstream "
+                "position as gravity that “magically and inexplicably drags the entire "
+                "lower-atmosphere of the Earth in perfect synchronization up to some "
+                "undetermined height”, and proof 159 has that layer ending “abruptly … at some "
+                "key altitude”. What atmospheric dynamics actually describes is a fluid in "
+                "near-solid-body rotation with measured departures — the winds, up to about "
+                "100 m/s in the jet core, which is why weather exists and why the balloons "
+                "drift at all — and a density profile that falls off smoothly by roughly a "
+                "factor of e every 8 km, with no boundary anywhere to locate. So the strawman "
+                "is the “perfect synchronization” and the abrupt edge, and it is those two "
+                "only. It is NOT the altitude-dependent linear speed: the line printed alongside "
+                "proof 23 in the illustrated edition scanned by the Internet Archive, and absent "
+                "from the text-only editions — “It would be spinning around a centre "
+                "point, therefore the air closer to the ground will always move slower than the "
+                "air higher up” — states correctly what solid-body rotation implies, and it is "
+                "the premise proof 158 then runs with. The error is not there. It is in "
+                "supposing that a faster absolute speed aloft means motion relative to the "
+                "ground below, which it does not, because the angular velocity is the same.")),
 
     compression=dict(
         assessed=True, drifted=True,
@@ -301,7 +362,7 @@ ENTRY = {
         note=("""<p>Both documented ancestors argue from a <strong>conditional</strong>, and both report the same observation: balloons behave normally. Carpenter&rsquo;s hinges on <em>&ldquo;unless the Earth drag the balloon along with it&rdquo;</em>; Dubay&rsquo;s on <em>&ldquo;If Earth were truly constantly spinning Eastwards&hellip;&rdquo;</em>. Neither claims to have measured an anomalous drift. Their claim is that a drift which <em>ought</em> to appear does not.</p>
 <p>The list nominalises that into a noun: <em>&ldquo;Weather balloons drift anomaly.&rdquo;</em> Four words, no conditional, and the grammar of a reported measurement. A reader meeting item 227 in a list of 461 numbered proofs will take it for a finding in balloon data and go looking for the dataset &mdash; and the sources it descends from never had one, because their argument was about an expectation, not a record. That is the gap, and it is the reason the compression matters even though the underlying argument is answered above on its own terms.</p>
 <p><strong>The finding is narrower than &ldquo;careful author traduced&rdquo;, and it has to be said so.</strong> Carpenter names the escape clause and then dismisses it in the same sentence, ending with the conclusion stated flat: the Earth <em>&ldquo;does not move&rdquo;</em>. Quoting him up to the word <em>unless</em> and stopping would be the hedge rule violated in our favour. What the compression actually deletes is not his caution but the <em>content</em> of his condition &mdash; and that content is the load-bearing premise, and it is true. The 1885 sentence tells a reader exactly which fact would break the proof; the four-word item does not, and cannot.</p>
-<p><strong>A second shift, recorded but not the one the enum names.</strong> Carpenter&rsquo;s balloon is aimed at the Earth&rsquo;s orbital motion &mdash; <em>&ldquo;its nineteen-miles-a-second motion&rdquo;</em> &mdash; while items 108 and 227 sit in the rotation lane and their modern statement (Dubay 21, 22, 158) is about the daily spin at over a thousand miles an hour. That is a change of target between two sources rather than between a source and the list, which is why <code>drift_type</code> records the hedge and this paragraph records the rest.</p>""")),
+<p><strong>A second shift, recorded but not the one the enum names.</strong> Carpenter&rsquo;s number is the orbital one &mdash; <em>&ldquo;its nineteen-miles-a-second motion&rdquo;</em> &mdash; but he attaches it to a west-to-east direction (proofs 44 and 49), so he is not separating revolution from rotation at all; he is arguing against the Earth&rsquo;s motion undifferentiated. The modern versions retarget the same picture at the daily spin specifically, at over a thousand miles an hour (Dubay 21, 22, 158), and it is that version items 108 and 227 sit downstream of. That is a sharpening between two sources rather than between a source and the list, which is why <code>drift_type</code> records the hedge and this paragraph records the rest.</p>""")),
 
     people=["PER-CARPENTER", "PER-DUBAY", "PER-ROWBOTHAM"],
     related=["A08", "A09", "A10", "A14", "A17", "B10", "B14"],
@@ -313,7 +374,10 @@ ENTRY = {
         dict(label="Rowbotham (“Parallax”), Zetetic Astronomy: Earth Not a Globe! (Simpkin, "
                    "Marshall, 1865) — the Literary Gazette quotation on Foucault carrying the "
                    "“Bishop Wilkins” balloon joke, in “Pendulum Experiments as Proofs of Earth's "
-                   "Motion”",
+                   "Motion”; and, in Section 7 “Cause of ‘Sunrise’ and ‘Sunset’”, the "
+                   "linear-perspective law illustrated with a balloon — “when a balloon sails "
+                   "from an observer without increasing or decreasing its altitude, it appears "
+                   "gradually to approach the horizon”",
              url="https://www.gutenberg.org/ebooks/69892"),
         dict(label="Dubay, 200 Proofs Earth Is Not a Spinning Ball (2015) — proofs 21, 22 and 158 "
                    "(hovering balloons, the Red Bull Stratos jump, faster air aloft) and 124–125 "
@@ -324,8 +388,10 @@ ENTRY = {
                    "down 70.5 km (43.8 mi) east of the landing point",
              url="https://en.wikipedia.org/wiki/Red_Bull_Stratos"),
         dict(label="Radiosonde — “a sonde may drift several hundred kilometers during the 90- to "
-                   "120-minute flight”, and the drift's effect on model initialisation in jet "
-                   "stream regions",
+                   "120-minute flight”; the same passage raises the concern that this “could "
+                   "introduce problems into the model initialization” and then answers it: "
+                   "“However, this appears not to be so except perhaps locally in jet stream "
+                   "regions in the stratosphere.”",
              url="https://en.wikipedia.org/wiki/Radiosonde"),
         dict(label="Thermal wind — “the thermal wind associated with pole-to-equator temperature "
                    "gradients is the primary physical explanation for the jet stream in the upper "

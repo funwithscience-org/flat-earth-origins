@@ -26,7 +26,7 @@ file named at note 9, not taken from a previous pass.
    observed dip is an artefact of the glasses, and here is the instrument without
    glasses." Any rebuttal that does not answer the iron tube is answering the fragment.
 
-2. HIS OWN OPTICS EXEMPT THE AXIS — THIS IS THE KERNEL AND IT IS INTERNAL TO THE TEXT.
+2. HIS OWN OPTICS APPEAR TO EXEMPT THE AXIS — INTERNAL TO THE TEXT, AND ANSWERED IN IT.
    His model of "collimation" is an OFF-AXIS effect, and he says so twice, in both
    editions. 1865, in the spherical-excess passage: "A lens is a magnifying glass
    because it dilates or spreads out from its centre the objects observed through it.
@@ -38,14 +38,28 @@ file named at note 9, not taken from a previous pass.
    And his own description of the measurement, same section, p. 202: "let the
    instrument be inclined downwards until the cross-hair touches the horizon." The
    procedure puts the horizon ON the axis and then reads the tilt off the vertical
-   circle. On his own optics that reading is exempt.
-   HIS ESCAPE ROUTE, and close it the right way: 1865 has "This is again necessitated
-   by the fact that the axis or actual centre is always occupied by the cross-hair" —
-   i.e. the object can never be exactly axial. Do NOT answer that with a guessed
+   circle. On his own optics that reading looks exempt — but read the next paragraph
+   before writing it up as a kill.
+   HIS ESCAPE ROUTE — HE PRINTS IT, IN BOTH EDITIONS, AND IT MUST APPEAR IN THE BODY.
+   1865 has "This is again necessitated by the fact that the axis or actual centre is
+   always occupied by the cross-hair" — i.e. the object can never be exactly axial. The
+   enlarged edition says the same inside TANGENTIAL HORIZON itself: the dip is the
+   geometric angle "to which must be added the collimation", and "always A, T, S, plus
+   collimation" (p. 203), because "the spider's web of which the cross hair is made is
+   placed in the actual centre; hence, in an observation, the point absolutely opposite
+   to it is not seen, but only some other point minutely distant from it" (p. 204, two
+   sentences after the exemption sentence quoted above). A batch-11 draft attributed the
+   answer to 1865 only, so a reader of the edition this entry quotes was told his reply
+   lived somewhere else. It does not. (2) is therefore a PRESSURE POINT, not a kill, and
+   the TLDR must not state the exemption flat.
+   Do NOT answer the escape route with a guessed
    reticle thickness; no spider-line dimension was verified for this entry. Answer it
-   with scaling: whatever residual his model allows at the cross-hair, it is a fixed
-   property of the instrument, so it cannot reverse sign under transit, cannot grow as
-   sqrt(h), and cannot become 3.3 degrees at 35,000 ft.
+   with scaling: whatever residual his model allows at the cross-hair is a fixed property
+   of the instrument, so it behaves under transit like an instrumental offset and not
+   like the dip — reverse the faces and it averages out, while the dip, fixed by gravity
+   and geometry, does not — and it cannot grow as sqrt(h) or reach 3.3 degrees at
+   35,000 ft. (An earlier draft of this note had the reversal backwards, saying the
+   residual "cannot reverse sign under transit". It is the residual that reverses.)
 
 3. WHAT IS IN WHICH EDITION. This matters and a previous pass blurred it.
    * 1865 (Gutenberg #69892, "Original publication: ... 1865") HAS: the eye-level
@@ -85,8 +99,13 @@ file named at note 9, not taken from a previous pass.
    azimuth by azimuth — which is how both texts describe the procedure — the offset is
    constant. Taken in at one fixed gaze and projected onto a flat image plane, the
    horizon sags an EXTRA d(sec(phi) - 1); for a 20-mile trace from a 200 ft eye that is
-   about 2.9 arcmin. Meanwhile Rowbotham's 66 ft, converted at the 10-17 mile ranges his
-   own text names, is 2.5-4.3 arcmin. THE TWO PREDICTIONS ARE AN ARCMINUTE OR TWO APART.
+   about 2.9 arcmin. Meanwhile Rowbotham's 66 ft, converted across the traces the texts
+   actually name — "a length of ten to twenty miles" (Exp. 7), "a clear, flat 10-20
+   miles" (Dubay 60) — is 2.2-4.3 arcmin: the drop goes as d^2 so the angle goes as d,
+   4.3' at a ten-mile half-trace and 2.2' at five. DO NOT WRITE "10-17 miles"; a batch-11
+   draft did, and 17 appears in neither text (the only "17 miles" in the enlarged edition
+   is a latitude discrepancy in an Australian survey).
+   THE TWO PREDICTIONS ARE AN ARCMINUTE OR TWO APART.
    The honest finding is not "he refuted a caricature" but "the apparatus cannot decide
    between the two things it is offered to decide between", plus the separate point
    that BOTH texts report PARALLELISM ("run perfectly parallel with its upper edge") and
@@ -100,17 +119,35 @@ file named at note 9, not taken from a previous pass.
    needs 3,540 km; at the top of the Glaisher-Coxwell ascent he himself cites the true
    figure is about 3.4 deg.
 
-7. THE LITERATURE'S OWN NUMBERS REPRODUCE sqrt(2Rh), AND CARPENTER'S PROOF 32 IS THE
-   CLEANEST CASE ON THE PAGE. He writes that the horizon forms "at about three miles all
-   around us" and, in the same sentence, that objects "no higher than we stand--say, six
-   feet--and which are at that distance (three miles)" have vanished. sqrt(2Rh) at
-   h = 6 ft is 3.00 miles. His paired figures ARE the sphere's formula. Second data
-   point, proof 6: the horizon "two-hundred miles away, as seen by Mr. J. Glaisher ...
-   from Mr. Coxwell's balloon" requires h = 8.13 km = 26,675 ft, inside the range of the
-   5 September 1862 ascent (Glaisher blacked out around 28,900 ft; estimates for the
-   peak run to 31,200-35,800 ft — quote the range, never a single figure). On the
-   perspective theory Carpenter actually holds, visible range is set by object size
-   against acuity and has no dependence on the observer's height at all.
+7. THE LITERATURE'S OWN HORIZON DISTANCES — AND PROOF 32 IS *NOT* THE CLEAN CASE.
+   A batch-11 draft called proof 32 "the cleanest single check on this page". It is not
+   a check at all, and the correction is the substance of this note.
+   Carpenter writes that the horizon forms "at about three miles all around us" and, in
+   the same sentence, that objects "no higher than we stand--say, six feet--and which are
+   at that distance (three miles)" have reached the vanishing point. sqrt(2Rh) at
+   h = 6 ft is 3.00 miles. BUT THE ZETETIC LAW GIVES THE SAME ANSWER. Parallax states it
+   quantitatively at p. 160 of the file at note 9, quoting Mayhew's "Wonders of Science"
+   p. 357 — "when an object is removed from the eye 3000 times its own diameter, it will
+   only just be distinguishable" — and adopts it: "The above may be called the law of
+   perspective." 3000 x 6 ft = 3.41 miles. sqrt(2Rh) = 3000h at h = 2R/9e6 = 1.42 m, so
+   the two laws cross just below Carpenter's stated eye height and differ by 0.4 mile at
+   it. Nothing is discriminated at ground level.
+   THE DISCRIMINATING DATUM IS PROOF 6. Their law is linear in h, the sphere's goes as
+   sqrt(h). The horizon "two-hundred miles away, as seen by Mr. J. Glaisher ... from Mr.
+   Coxwell's balloon" requires h = 8.13 km = 26,675 ft on a sphere, inside the range of
+   the 5 September 1862 ascent (Glaisher blacked out around 28,900 ft; estimates for the
+   peak run to 31,200-35,800 ft — quote the range, never a single figure). 3000h at
+   8.13 km = 24,390 km = 15,155 miles. Carpenter reports 200.
+   AND DO NOT WRITE that the perspective theory has "no dependence on the observer's
+   height whatever" — that sentence was in the batch-11 draft and both sources contradict
+   it. Carpenter, same proof 6: "no matter how high we ascend above the level of the sea,
+   the horizon rises on and still on as we rise", and from Federal Hill, Baltimore "we
+   may see twenty-five miles away". Rowbotham's proposition 2 (p. 160): "The further any
+   two bodies, or any two parts of the same body, are asunder, the further must they
+   recede before they appear to converge to the same point"; and at PERSPECTIVE ON THE
+   SEA the horizon forms "at a certain distance, less or greater, according to the
+   elevation of the observer". The right sentence is that their range grows in DIRECT
+   PROPORTION to the height where the sphere's grows as its square root.
 
 8. ARITHMETIC REPRODUCED HERE, 2026-08-11. R = 6,371 km, geometric unless stated.
    dip = arccos(R/(R+h)); horizon = sqrt(2Rh + h^2).
@@ -159,8 +196,10 @@ file named at note 9, not taken from a previous pass.
 10. VERDICT. Two alternatives were weighed.
     MISLEADING: item 43 on its own is TRUE and merely non-discriminating — the horizon
     does look flat, and that is what a sphere predicts at every altitude a person is
-    likely to reach (Lynch 2008). SELF-CONTRADICTED: the source's own optics exempt the
-    axis its own procedure uses, which is close to the shape of B06.
+    likely to reach (Lynch 2008). SELF-CONTRADICTED: the source's own optics look as
+    though they exempt the axis its own procedure uses, which is close to the shape of
+    B06 — but he answers that objection in the same section (note 2), so it is a pressure
+    point and not a clean contradiction, which is a second reason not to promote it.
     REFUTED kept. The cluster's proposition is the conjunction, and its operative half —
     "rises to eye level", i.e. the dip is zero — is a claim about a measured quantity
     that is not zero, that scales as sqrt(h), and that the originator reproduced with an
@@ -180,16 +219,28 @@ file named at note 9, not taken from a previous pass.
         altitude." True, and it renders next to the verdict chip where most readers
         stop — but it is the exact objection Rowbotham anticipated, reproduced, and
         answered with a lens-free instrument, so as a summary line it states our case at
-        its weakest. Suggested: "Rowbotham measured the theodolite dip himself and
-        blamed the lenses — but his own optics exempt the axis his own method uses."
+        its weakest. Suggested: "Rowbotham measured the theodolite dip himself and blamed
+        the lenses; but the dip grows as the square root of the height, which no lens
+        does." (An earlier draft suggested "...but his own optics exempt the axis his own
+        method uses." Do NOT use that one: he answers that objection in the same section,
+        see note 2, so it would put a contestable line under the verdict chip. The
+        square-root clause is the one the body actually rests on.)
     (c) Anchor any clusters.py edit on the key "B02", never on the originator= line — it
         is byte-identical across B02, B06, B07 and D12 (curmudgeon.md, failure 5).
-    (d) scripts/_b10_B02.py exists and also defines ENTRY = {"B02": ...}. Importing both
-        it and this file into deep.py will trip the collision assert. One must be
-        retired by whoever wires batch 11 up; that is not this agent's file to delete.
-    (e) works.py WRK-WINSHIP-1899 ("Zetetic Cosmogony", 1899) carries the imprint, url
-        and note of The Principle (2014 documentary — DeLano/Sungenis, Mulgrew). Unrelated
-        to B02, noticed while checking work ids, and it renders.
+    (d) WITHDRAWN 2026-08-11. An earlier draft of this note said scripts/_b10_B02.py
+        exists and also defines ENTRY = {"B02": ...}, so the two would trip deep.py's
+        collision assert. Re-checked: there is no _b10_B02.py in scripts/ (the _b10_
+        files present are A08, A11, A13, A15, A19, A27, B07, B09, B11, D12, R11), and
+        this file is the only one under scripts/ defining ENTRY["B02"]. No collision, and
+        nothing to retire. Left in place so the false report-up is not re-raised.
+    (e) WITHDRAWN 2026-08-11. A batch-11 draft reported that works.py WRK-WINSHIP-1899
+        carried The Principle's imprint, url and note. It does not. works.py:42-48 has
+        title "Zetetic Cosmogony; or, Conclusive evidence...", imprint "By 'Rectangle'
+        [pseud.]. 2nd ed., enl. Durban, Natal: T. L. Cullingworth. 192 pp.", url
+        guides.loc.gov/flat-earth/books, note "First edition date not established"; the
+        generated data/flat-earth-origins-provenance.json agrees; and the DeLano/Sungenis/
+        Mulgrew material sits in its own record WRK-PRINCIPLE-2014. Checked, correct, no
+        edit wanted. Left in place so the false report-up is not re-raised.
 """
 
 ENTRY = {
@@ -199,11 +250,12 @@ ENTRY = {
     tldr=("Rowbotham did not claim that a levelled theodolite reads the horizon on the "
           "cross-hair. He reproduced the depression himself, blamed the telescope's lenses, "
           "and then built a lens-free sighting tube and reported a null — so that, and not "
-          "the four-word item, is what has to be answered. Two things sink it. The optical "
-          "defect he describes exempts the axis of the instrument, and his own procedure "
-          "tilts the telescope until the horizon sits on the axis. And the dip does three "
-          "things no property of a tube can do, the plainest being that it grows as the "
-          "square root of the height. The horizon really does look flat below about 35,000 "
+          "the four-word item, is what has to be answered. Two things bear on it. The "
+          "optical defect he describes acts off the axis, and his own procedure puts the "
+          "horizon on it — though he saw that objection and answered it in the same "
+          "section. What the answer does not reach is that the dip does three things no "
+          "property of a tube can do, the plainest being that it grows as the square root "
+          "of the height. The horizon really does look flat below about 35,000 "
           "feet, and at the heights his ground experiments were done at the dip is a few "
           "arcminutes — but his own balloon figures, 127 miles and over 20,000 feet, come "
           "to 1.8 degrees."),
@@ -248,18 +300,18 @@ ENTRY = {
         gloss="""<p><strong>The first sentence is the item; the rest is the argument.</strong> Read on its own, &ldquo;the horizon &hellip; is always on a level with his eye&rdquo; invites the easy answer &mdash; <em>level a theodolite at the sea and read the depression off the vertical circle</em>. Rowbotham got there first, in print, in both editions. He reports that surveyors challenged him to do exactly that, that he did it, and that &ldquo;in every instance when the experiment was tried, this appearance was found to exist.&rdquo; He is not disputing the reading. He is disputing its cause.</p>
 <p><strong>And he did not stop at a hypothesis: he built the null instrument.</strong> This is the part of the source that has to be answered. Having named the cause &mdash; <em>collimation</em>, &ldquo;a slight divergence of the rays of light from the axis of the eye, on passing through the several glasses of the theodolite&rdquo; &mdash; he made an 18-inch iron tube with a pinhole at one end and cross-hairs at the other, levelled it, pointed it at the sea from &ldquo;a considerable elevation&rdquo;, and reports that the cross-hair &ldquo;was seen to cut or to fall close to the horizon&rdquo;, &ldquo;always with the same result&rdquo;. A lens-free instrument, a stated null, and a mechanism for the discrepancy. Whatever else this is, it is not an argument from having failed to look.</p>
 <p><strong>The scope clause, which is what the list loses.</strong> In THE &ldquo;DIP SECTOR&rdquo;, answering Herschel, the claim is stated with its restriction attached: &ldquo;unless <em>some telescopic instrument</em> is used no dip whatever is required to meet the sea horizon.&rdquo; That is a claim about unaided sight. The instrumental case is handled separately and conceded outright under THEODOLITE TANGENT: &ldquo;The author has made experiments similar to the above, and found it to be as stated; but the cause is not that the line of sight is a tangent, but the same &lsquo;collimation&rsquo;.&rdquo;</p>
-<p><strong>Where it comes apart is on his own page, and it is worth following slowly.</strong> The defect he describes is an <em>off-axis</em> effect. His demonstration of it is a magnifying glass held over a straight line: the part seen through the lens is displaced, and &mdash; his words &mdash; &ldquo;The infinitesimal or mathematical point actually in the centre is, of course, not visibly influenced, being in the very centre or on the true axis of the eye.&rdquo; Now read his own description of the measurement, in the same section: &ldquo;let the instrument be inclined downwards until the cross-hair touches the horizon&rdquo;, and take the dip as the angle turned through. That procedure brings the horizon <em>onto</em> the axis and then reads a mechanical angle off a graduated circle. On the optics he himself sets out, that reading is exempt from the defect he is invoking against it. He has an answer to this in the 1865 text &mdash; &ldquo;the axis or actual centre is always occupied by the cross-hair&rdquo;, so nothing is ever quite axial &mdash; but whatever residual that leaves is a fixed property of a particular tube, and the refutation below turns on three things a fixed property of a tube cannot do.</p>
-<p><strong>The witnesses he calls do not testify for a plane either.</strong> The four balloon accounts in the 1865 text describe the Earth as looking <em>concave</em> &mdash; &ldquo;a huge dark bowl&rdquo;, &ldquo;an immense terrestrial basin&rdquo;, two watch-glasses edge to edge. A plane does not look like a bowl. Wise, the first of them, calls the appearance &ldquo;an optical illusion which increases as you recede from it&rdquo;; Elliott, the third, opens by conceding the point at issue &mdash; &ldquo;the a&euml;ronaut may well be the most sceptical man about the rotundity of the Earth. <em>Philosophy imposes the truth upon us;</em> but the view of the Earth from the elevation of a balloon is that of an immense terrestrial basin.&rdquo; Rowbotham prints both sentences without comment.</p>
-<p><strong>What this passage is being cited as.</strong> The earliest located text carrying the argument in the form the list uses. Note which edition carries what: the eye-level sentence, the balloon quotations and the lens explanation are in 1865; the levelled board, the pier quadrant, the balloon arithmetic, the iron tube and the Grand Hotel clinometer are additions in the enlarged editions. The strongest version of this argument is not in the 1849 pamphlet, which was not reached for this review.</p>"""),
+<p><strong>Where it strains is on his own page, and it is worth following slowly, because he saw the strain too.</strong> The defect he describes is an <em>off-axis</em> effect. His demonstration of it is a magnifying glass held over a straight line: the part seen through the lens is displaced, and &mdash; his words &mdash; &ldquo;The infinitesimal or mathematical point actually in the centre is, of course, not visibly influenced, being in the very centre or on the true axis of the eye.&rdquo; Now read his own description of the measurement, in the same section: &ldquo;let the instrument be inclined downwards until the cross-hair touches the horizon&rdquo;, and take the dip as the angle turned through. That procedure brings the horizon <em>onto</em> the axis and then reads a mechanical angle off a graduated circle. On the optics he himself sets out, that reading looks exempt from the defect he is invoking against it. He saw the objection, and his answer is in both editions, not filed away somewhere else. 1865 puts it as &ldquo;the axis or actual centre is always occupied by the cross-hair&rdquo;. The enlarged edition puts it inside this same section: the dip taken this way is the geometric angle &ldquo;to which must be added the collimation&rdquo;, because &ldquo;the spider&rsquo;s web of which the cross hair is made is placed in the actual centre; hence, in an observation, the point absolutely opposite to it is not seen, but only some other point minutely distant from it&rdquo; (pp. 203&ndash;204 of the file read here). So on his account nothing is ever quite axial. But whatever residual that leaves is a fixed property of a particular tube, and the refutation below turns on three things a fixed property of a tube cannot do.</p>
+<p><strong>The witnesses he calls do not testify for a plane either.</strong> The four balloon accounts in the 1865 text describe the Earth as looking <em>concave</em> &mdash; &ldquo;a huge dark bowl&rdquo;, &ldquo;an immense terrestrial basin&rdquo;, two watch-glasses edge to edge. He has a theory of why a plane would look like a bowl, and it is on the same pages: two paragraphs earlier the sea &ldquo;appears to rise up on all sides equally and to surround him like the walls of an immense amphitheatre. He seems to be in the centre of a large concavity&rdquo;; immediately after the balloon accounts he explains it, the surface rising to the line of sight &ldquo;in the same manner that the ceiling and the floor of a long room, or the top and bottom of a tunnel appear to approach each other&rdquo;. So these are not neutral witnesses he happened to collect; they are reports his perspective model was built to accommodate. What none of them reports is a plane. What they report is an appearance, and the appearance is the quantity in dispute. Wise, the first of them, calls the appearance &ldquo;an optical illusion which increases as you recede from it&rdquo;; Elliott, the third, says that &ldquo;the a&euml;ronaut may well be the most sceptical man about the rotundity of the Earth&rdquo; &mdash; and then gives the point away in the next breath: &ldquo;Philosophy imposes the truth upon us; but the view of the Earth from the elevation of a balloon is that of an immense terrestrial basin.&rdquo; Rowbotham prints both sentences without comment.</p>
+<p><strong>What this passage is being cited as.</strong> The earliest located text carrying the argument in the form the list uses. Note which edition carries what: the eye-level sentence, the balloon quotations and the lens explanation are in 1865; the levelled board, the pier quadrant, the balloon arithmetic, the iron tube and the Grand Hotel clinometer are additions in the enlarged editions. The strongest version of this argument is not located in either text read here. The 16-page 1849 pamphlet &mdash; whose own title advertises &ldquo;several experiments which prove that the surface of the sea is a perfect plane&rdquo; &mdash; was not reached for this review and has not been checked for it, though Experiment 15 is sited at Brighton buildings that postdate 1849.</p>"""),
 
     steelman=dict(
         description="""<p><strong>SURFACE (weak &mdash; do not use).</strong> &ldquo;Look out of an aeroplane window, or at any high-altitude photograph &mdash; the curve is obvious.&rdquo; This loses, and it loses to a refereed paper in the right journal. Lynch, <em>Applied Optics</em> 47(34):H39 (2008), concludes that the minimum altitude at which the curvature of the horizon can be detected is &ldquo;at or slightly below 35,000 ft&rdquo;, and then only with a 60&deg; field of view and nearly cloud-free air; he adds that &ldquo;virtually all camera lenses project an image that suffers from barrel distortion&rdquo;, which disposes of most photographs offered in either direction, and that for a fair test the horizon must be &ldquo;placed precisely in the center of the image, i.e., on the optical axis.&rdquo;</p>
 <p><strong>DEEPER.</strong> The dip at any height a person stands at is below the threshold of unaided judgement. On a beach it is 2.5 arcminutes; on a hundred-foot cliff, 10.6; at the top of Rowbotham&rsquo;s Brighton pier, 6.2. The eye carries no internal reference to the horizontal &mdash; &ldquo;eye level&rdquo; is not a quantity the eye measures &mdash; so &ldquo;the horizon is level with my eye&rdquo; at these heights is a report about the precision of the method. A defender who says only this has said nothing an optician would contest.</p>
 <p><strong>KERNEL.</strong> The strongest form is not about eyesight at all, and it belongs to Rowbotham rather than to any modern list. It runs: <em>I accept the theodolite result. I reproduced it. A levelled telescope sighted at the sea does show the horizon below the cross-hair, and the angles of a large survey triangle do sum to more than 180&deg;. But a telescope is a stack of lenses, and a divergence of the ray from the axis of vision through those glasses is a real, named, universally acknowledged instrumental error &mdash; so well known that the Ordnance Survey repeated its observations upwards of a hundred times to average errors down. I did not merely assert this. I built an instrument with no lenses in it, levelled it, pointed it at the sea from height, and the horizon came up on the cross-hair. You are inferring the shape of the world from a residual of a few arcminutes that disappears when the glass is taken out of the path. Show me that it is not the glass.</em> That is the demand a careful experimentalist would make, it is answerable, and it is the only version of this argument worth answering.</p>""",
         why_it_doesnt_save_claim="""<p>Two replies, and the second does not depend on the first.</p>
-<p><strong>First: the mechanism is exempted by its own author.</strong> The defect he describes acts off the axis &mdash; &ldquo;The infinitesimal or mathematical point actually in the centre is, of course, not visibly influenced&rdquo; &mdash; and the measurement he is explaining away is taken by tilting the telescope until the horizon sits at the centre and reading the angle turned through off a graduated circle. The quantity in dispute is a mechanical rotation, not an image position.</p>
+<p><strong>First: the mechanism is exempted by its own author.</strong> The defect he describes acts off the axis &mdash; &ldquo;The infinitesimal or mathematical point actually in the centre is, of course, not visibly influenced&rdquo; &mdash; and the measurement he is explaining away is taken by tilting the telescope until the horizon sits at the centre and reading the angle turned through off a graduated circle. The quantity in dispute is a mechanical rotation, not an image position. He anticipated this and answered it in the same section &mdash; the dip is the geometric angle &ldquo;to which must be added the collimation&rdquo;, because the cross-hair itself sits at the centre, so &ldquo;the point absolutely opposite to it is not seen, but only some other point minutely distant from it&rdquo; &mdash; which is why the second reply below is written not to need this one.</p>
 <p><strong>Second, and this is where the weight sits: it cannot be the glass, because the residual does three things no property of a tube can do.</strong></p>
-<p><strong>It reverses.</strong> A collimation error is a fixed angular offset between the line of sight and the instrument&rsquo;s mechanical axis. Transit the telescope, rotate 180&deg; in azimuth, and the offset changes sign; the mean of the two faces is free of it. Wikipedia&rsquo;s summary of standard theodolite practice states the rule plainly &mdash; &ldquo;By measuring the same horizontal and vertical angles in these two modes and then averaging the results, centering and collimating errors in the instrument can be eliminated.&rdquo; The dip does not reverse, because it is fixed by gravity and geometry. Face-left/face-right observing is not a modern refinement invented to answer Rowbotham; it is why collimation has a name.</p>
+<p><strong>It reverses.</strong> First, be exact about whose error is being tested. What Parallax calls &ldquo;collimation&rdquo; is not the surveyor&rsquo;s fixed offset between the line of sight and the instrument&rsquo;s mechanical axis; it is &ldquo;a slight divergence of the rays of light from the axis of the eye, on passing through the several glasses of the theodolite&rdquo;, demonstrated with a magnifying glass and radial &mdash; spreading outward from the centre, and by his own statement zero at the centre. That gives him a dilemma rather than a defence. If the divergence is symmetric about the axis it displaces nothing on the axis, which is the first reply above. If instead the residual is a small offset in some definite direction &mdash; which is what it must be to push the horizon off the cross-hair at all, and what his decentred-lens diagram describes &mdash; then it is a direction fixed in the instrument, and a direction fixed in the instrument is exactly what the two-face procedure kills. Transit the telescope, rotate 180&deg; in azimuth, and the offset changes sign; the mean of the two faces is free of it. Wikipedia&rsquo;s summary of standard theodolite practice states the rule plainly &mdash; &ldquo;By measuring the same horizontal and vertical angles in these two modes and then averaging the results, centering and collimating errors in the instrument can be eliminated.&rdquo; The dip does not reverse, because it is fixed by gravity and geometry. Face-left/face-right observing is not a modern refinement invented to answer Rowbotham; it is why collimation has a name.</p>
 <p><strong>It cannot grow as the square root of height.</strong> Dip goes as sqrt(<em>h</em>): the same instrument carried from 2 m to 100 m must read seven times more, from a beach to 35,000 ft must read from 2.5 arcminutes to 3.3 degrees &mdash; a factor of eighty. Nothing about a tube, a lens or a pinhole knows how high it has been carried. Rowbotham himself set up this exact test, at Experiment 15, and ran it over three floors of one hotel, where the predicted change is a few arcminutes.</p>
 <p><strong>It cannot grow with a triangle&rsquo;s area.</strong> He offers <em>one</em> cause for two effects, and the second convicts it. Spherical excess is <em>A</em>/<em>R</em>&sup2; &mdash; recomputed here, equilateral triangles of 30, 60 and 100 km side give 1.98&Prime;, 7.92&Prime; and 22.0&Prime;. He quotes the rule himself, from Castle&rsquo;s <em>Treatise on Levelling</em> (&ldquo;divide the area of the triangle in feet by the radius of the earth in seconds&rdquo;), and quotes the behaviour himself (&ldquo;This excess is inappreciable in common cases, but in the larger triangles it becomes necessary to allow for it&rdquo;), immediately before proposing a fixed optical defect as its cause. A defect in the glass does not switch on when the triangle gets bigger. And his supporting detail runs the wrong way for him: he notes that the Survey repeated angles &ldquo;upwards of a hundred times, in order to diminish the personal and instrumental errors&rdquo; &mdash; repetition beats down random error, so a residual that survives a hundred repetitions and scales with enclosed area is behaving like a geometric quantity, which is precisely what he needs it not to be.</p>"""),
 
@@ -279,11 +331,13 @@ ENTRY = {
 
 <p>So the argument is: <em>the dip is an artefact of the glasses, and here is the instrument without glasses.</em> Three answers, in increasing order of how little they depend on him.</p>
 
-<p><strong>(a) His own optics exempt the measurement.</strong> The defect he names acts away from the axis. His demonstration is a magnifying glass held over a drawn line, and his conclusion about it is explicit: &ldquo;The infinitesimal or mathematical point actually in the centre is, of course, not visibly influenced, being in the very centre or on the true axis of the eye.&rdquo; But the dip is not read as an image displacement. It is read, in his own description, by inclining the instrument &ldquo;until the cross-hair touches the horizon&rdquo; and taking the angle turned through. That puts the horizon on the axis and converts the question into a mechanical rotation on a graduated circle.</p>
+<p><strong>(a) His own optics appear to exempt the measurement &mdash; and he knew it.</strong> The defect he names acts away from the axis. His demonstration is a magnifying glass held over a drawn line, and his conclusion about it is explicit: &ldquo;The infinitesimal or mathematical point actually in the centre is, of course, not visibly influenced, being in the very centre or on the true axis of the eye.&rdquo; But the dip is not read as an image displacement. It is read, in his own description, by inclining the instrument &ldquo;until the cross-hair touches the horizon&rdquo; and taking the angle turned through. That puts the horizon on the axis and converts the question into a mechanical rotation on a graduated circle.</p>
+
+<p>He saw the objection. In the same section he writes that the dip required to bring cross-hair and horizon together is the geometric angle &ldquo;to which must be added the collimation&rdquo;, and repeats it &mdash; the angle observed is &ldquo;always A, T, S, plus collimation&rdquo;. His reason arrives two sentences after the exemption just quoted: &ldquo;the spider&rsquo;s web of which the cross hair is made is placed in the actual centre; hence, in an observation, the point absolutely opposite to it is not seen, but only some other point minutely distant from it&rdquo; (enlarged ed., pp. 203&ndash;204). That answer is available to him, so (a) is a pressure point and not a kill. It is also why (c) below is written not to depend on it: whatever residual the spider-line leaves is a fixed property of one instrument.</p>
 
 <p><strong>(b) The null instrument is null at the wrong precision.</strong> Take the tube entirely at face value and ask what it could have resolved. It is 18 inches &mdash; 457 mm &mdash; long, and the eye looks through &ldquo;a very small aperture&rdquo;. Eye-position freedom inside an aperture of 1 mm is already &plusmn;3.8 arcminutes of pointing; inside half a millimetre, &plusmn;1.9. Against that, the dip at his Brighton pier is 6.2 arcminutes and at a hundred feet 10.6. The reference is a spirit level &ldquo;carefully adjusted&rdquo;, and the passage as printed in the reproduction read here (Experiment 11, pp.&nbsp;40&ndash;41) states no height of eye, no angular value and no repeat count &mdash; the result is reported as the cross-hair cutting <em>or falling close to</em> the horizon. A null with that phrasing, from that apparatus, at those heights, is consistent with a dip of several arcminutes. It is not evidence that the dip is zero; it is an instrument whose resolution is the same size as the thing it was built to detect.</p>
 
-<p><strong>(c) And none of that is needed, because of what the residual does.</strong> It reverses when the telescope is transited and the instrument turned through 180&deg; &mdash; the standard two-face procedure that exists precisely to cancel collimation &mdash; and the dip does not. It grows as sqrt(<em>h</em>), from 2.5 arcminutes at a standing observer&rsquo;s eye to 3.31&deg; at 35,000 ft and 5.75&deg; at the &ldquo;20+ miles&rdquo; the modern form of this claim ranges over: a factor of eighty across a range no property of a tube can track. And the same single cause is offered for spherical excess, which grows with the area of a triangle &mdash; about 2&Prime; on a 30 km triangle, 22&Prime; on a 100 km one &mdash; while the authority Rowbotham quotes on the same page puts the survey&rsquo;s total angular error at &ldquo;never exceeded three seconds&rdquo;.</p>
+<p><strong>(c) And none of that is needed, because of what the residual does.</strong> It reverses when the telescope is transited and the instrument turned through 180&deg; &mdash; the standard two-face procedure that exists precisely to cancel collimation &mdash; and the dip does not. His version of the defect is a radial spreading through the glasses rather than the surveyor&rsquo;s line-of-sight offset, but that does not exempt it: a spreading that is symmetric about the axis moves nothing that sits on the axis, and any residual that does displace the horizon while the cross-hair is on it points some definite way in the instrument, which is the thing two-face observing averages out. It grows as sqrt(<em>h</em>), from 2.5 arcminutes at a standing observer&rsquo;s eye to 3.31&deg; at 35,000 ft and 5.75&deg; at the &ldquo;20+ miles&rdquo; the modern form of this claim ranges over: a factor of eighty across a range no property of a tube can track. And the same single cause is offered for spherical excess, which grows with the area of a triangle &mdash; about 2&Prime; on a 30 km triangle, 22&Prime; on a 100 km one &mdash; while the authority Rowbotham quotes on the same page puts the survey&rsquo;s total angular error at &ldquo;never exceeded three seconds&rdquo;.</p>
 
 <h4>3. The angle that was never taken</h4>
 
@@ -299,15 +353,19 @@ ENTRY = {
 
 <p><strong>That is a mis-derivation.</strong> 66.7 feet is the drop of the surface at ten miles measured <em>sideways from the tangent point directly ahead</em> &mdash; and that place is past the horizon, which is why it is not visible. The horizon of a sphere is the locus of tangent points: a circle at the same angular depression in every azimuth, to the precision at issue here over open sea. A levelled straight edge at eye height likewise subtends zero elevation at every azimuth along its length. So compared azimuth by azimuth &mdash; which is how both texts describe the procedure, Rowbotham directing the eye &ldquo;in an angular direction to the left and to the right&rdquo; &mdash; the sphere predicts the horizon <em>parallel to the upper edge and uniformly below it</em>.</p>
 
-<p><strong>Now be precise about the residual, because there is one and it is small.</strong> Take the whole span in at one fixed gaze, or photograph it, and the flat image plane adds an extra sag of <em>d</em>(sec&nbsp;&phi;&nbsp;&minus;&nbsp;1) towards the ends &mdash; the geometric root of the apparent curvature Lynch analyses. For a 20-mile trace from a 200-foot eye that is about <strong>2.9 arcminutes</strong> at each end. And Rowbotham&rsquo;s own 66 feet, converted at the 10-to-17-mile ranges his text names, is between about 2.5 and 4.3 arcminutes. <strong>The two predictions are an arcminute or two apart.</strong> A wooden plank and an unaided eye cannot separate them, which is the real verdict on the experiment: not that it refutes a caricature, but that it cannot decide the question it is offered to decide, while being reported as though it were conclusive &mdash; &ldquo;This would be impossible if the earth were a globe.&rdquo;</p>
+<p><strong>Now be precise about the residual, because there is one and it is small.</strong> Take the whole span in at one fixed gaze, or photograph it, and the flat image plane adds an extra sag of <em>d</em>(sec&nbsp;&phi;&nbsp;&minus;&nbsp;1) towards the ends &mdash; the geometric root of the apparent curvature Lynch analyses. For a 20-mile trace from a 200-foot eye that is about <strong>2.9 arcminutes</strong> at each end. And Rowbotham&rsquo;s own 66 feet, converted across the ten-to-twenty-mile traces both texts name, is between about 2.2 and 4.3 arcminutes. <strong>The two predictions are an arcminute or two apart.</strong> A wooden plank and an unaided eye cannot separate them, which is the real verdict on the experiment: not that it refutes a caricature, but that it cannot decide the question it is offered to decide, while being reported as though it were conclusive &mdash; &ldquo;This would be impossible if the earth were a globe.&rdquo;</p>
 
 <p>And notice what both texts actually report. Rowbotham: the horizon &ldquo;will be observed to run perfectly parallel with its upper edge.&rdquo; Dubay: it &ldquo;will always align perfectly parallel with the upper edge of the board.&rdquo; <em>Parallel</em>, not coincident. The quantity that would settle this is the offset between the edge and the horizon &mdash; the dip &mdash; and the apparatus as described is used to check parallelism and not to measure the offset. Done as a dip measurement instead, the same rig becomes decisive at altitude: at Rowbotham&rsquo;s 34 feet the offset is 6.2 arcminutes, about five millimetres of eye position at three metres behind the board and hopeless by hand; at 10,000 feet it is 1.77&deg;, which is nine centimetres at the same three metres; at the &ldquo;20+ miles&rdquo; the modern claim ranges over it is 5.75&deg;.</p>
 
-<h4>5. Their own horizon distances are sqrt(2Rh)</h4>
+<h4>5. Two horizon distances of their own, and only the larger one decides anything</h4>
 
-<p>Carpenter supplies two, sixty-six-fold apart, and the first is the cleanest single check on this page. Proof 32: on level ground &ldquo;the horizon is formed at about three miles all around us&rdquo;, and in the same sentence objects &ldquo;no higher than we stand&mdash;say, six feet&mdash;and which are at that distance (three miles)&rdquo; have vanished. On a sphere, sqrt(2<em>Rh</em>) at <em>h</em> = 6 ft is <strong>3.00 miles</strong>. His two numbers are the sphere&rsquo;s formula, paired correctly, in his own sentence. Proof 6: from Coxwell&rsquo;s balloon the horizon is at eye level &ldquo;though it be two-hundred miles away, as seen by Mr. J. Glaisher&rdquo; &mdash; and a 200-mile horizon requires an altitude of 8.13 km, 26,675 feet, inside the range of the 5 September 1862 ascent he is citing (Glaisher lost consciousness around 28,900 ft; estimates for the peak run from 31,200 to 35,800 ft).</p>
+<p>Carpenter supplies them sixty-six-fold apart. The small one has been offered as a clean check on this page before; it is not one, and the reason is worth setting out before the one that is.</p>
 
-<p>Then ask what his own theory predicts. On the perspective account Carpenter actually holds, the visible range is fixed by an object&rsquo;s size against the acuity of the eye and has no dependence on the observer&rsquo;s height whatever. A plane gives no reason for the horizon to retreat from three miles to two hundred as you climb, and none at all for it to retreat as the square root of the climb.</p>
+<p><strong>Proof 32 does not discriminate, and it is worth saying so before anyone leans on it.</strong> On level ground &ldquo;the horizon is formed at about three miles all around us&rdquo;, and in the same sentence objects &ldquo;no higher than we stand&mdash;say, six feet&mdash;and which are at that distance (three miles)&rdquo; have reached the vanishing point. On a sphere, sqrt(2<em>Rh</em>) at <em>h</em> = 6 ft is <strong>3.00 miles</strong>. But it is equally the zetetic tradition&rsquo;s own rule, which Parallax states quantitatively and endorses &mdash; quoting Mayhew&rsquo;s <em>Wonders of Science</em>, p. 357 &mdash; that &ldquo;when an object is removed from the eye 3000 times its own diameter, it will only just be distinguishable&rdquo;, and then adopting it in his own voice: &ldquo;The above may be called the law of perspective.&rdquo; (enlarged ed., p. 160). That is the rule he uses to place the sea horizon: the eye-line and the water are the eye&rsquo;s height apart, and they meet where that separation has shrunk to a minute of arc. Three thousand times six feet is <strong>3.4 miles</strong>. Against Carpenter&rsquo;s &ldquo;about three miles&rdquo; the two laws are indistinguishable, and they are indistinguishable for a structural reason: sqrt(2<em>Rh</em>) and 3000<em>h</em> cross at an eye height of about 1.4 m and are still within half a mile of each other at the six feet he names. The check is being made at the one height where the rival predictions agree.</p>
+
+<p><strong>Proof 6 is where they part.</strong> Their law is linear in the height of the eye; the sphere&rsquo;s goes as its square root. Carpenter reports that from Coxwell&rsquo;s balloon the horizon is at eye level &ldquo;though it be two-hundred miles away, as seen by Mr. J. Glaisher&rdquo;. A 200-mile horizon on a sphere requires an altitude of 8.13 km, 26,675 feet &mdash; inside the range of the 5 September 1862 ascent he is citing (Glaisher lost consciousness around 28,900 ft; estimates for the peak run from 31,200 to 35,800 ft). The same three-thousand rule, given an eye 26,675 feet above the plane, puts the horizon some <strong>fifteen thousand miles</strong> away. Carpenter reports two hundred. Run their rule the other way and it is worse: 200 miles of horizon needs an eye only 352 feet up, so on their own law Glaisher should have reached that view from a tall building and then watched it run out to thousands of miles as he climbed.</p>
+
+<p>And the height-dependence is theirs, not something imputed to them. Carpenter, in the same proof: &ldquo;no matter how high we ascend above the level of the sea, the horizon rises on and still on as we rise&rdquo;, and from a hill &ldquo;such as Federal Hill, Baltimore, we may see twenty-five miles away&rdquo;. Parallax, in his stated second proposition, makes the vanishing distance grow with the separation of the two things converging &mdash; &ldquo;the further any two bodies, or any two parts of the same body, are asunder, the further must they recede before they appear to converge to the same point&rdquo; &mdash; and says of the sea horizon that it forms &ldquo;at a certain distance, less or greater, according to the elevation of the observer&rdquo;. So the range does grow with height on their account. It grows in direct proportion to the height, not as its square root, and that is the difference their own reported numbers decide against them.</p>
 
 <h4>6. The experiment the argument needed, and the one place it was nearly done</h4>
 
@@ -340,7 +398,7 @@ ENTRY = {
             "result favouring us and never touches one favouring you. Fourth — and this "
             "is your own doing — you have now conceded that a sphere DOES predict the "
             "horizon sagging away from a straight level edge, by about three "
-            "arcminutes, where our figure converts to between two and a half and four. "
+            "arcminutes, where our figure converts to between two and four and a half. "
             "Our number was the right size. You are quibbling about the derivation of a "
             "quantity you agree exists and agree nobody can see. And your best material "
             "is still not evidence about the world: it is that a Victorian did not take "
@@ -395,7 +453,8 @@ ENTRY = {
                 "at ten miles each side. That is not the sphere's derivation — 66.7 feet is "
                 "the drop of the surface measured sideways from the forward tangent point, "
                 "which lies beyond the visible horizon — but converted to an angle at the "
-                "ranges their own texts name it comes to 2.5–4.3 arcminutes, against the "
+                "ten-to-twenty-mile traces their own texts name it comes to 2.2–4.3 "
+                "arcminutes, against the "
                 "roughly 2.9 arcminutes a sphere puts at the ends of a 20-mile trace in a "
                 "fixed rectilinear view. So this one is not a caricature of our model; it is "
                 "a wrong route to nearly the right number, and the fault that matters is the "
@@ -464,8 +523,10 @@ ENTRY = {
         reasoning=("Two alternatives were weighed and both rejected. MISLEADING: item 43 on its "
                    "own is a true and non-discriminating observation, which is the MISLEADING "
                    "shape, and the refutation concedes it in the first paragraph. "
-                   "SELF-CONTRADICTED: the source's own optics exempt the axis that its own "
-                   "measuring procedure uses, which is close to the shape B06 carries. REFUTED "
+                   "SELF-CONTRADICTED: the source's own optics appear to exempt the axis that "
+                   "its own measuring procedure uses, which is close to the shape B06 carries — "
+                   "but he anticipates that objection in the same section and answers it, so the "
+                   "contradiction is not clean enough to carry a verdict chip. REFUTED "
                    "kept, because the cluster's proposition is the conjunction and its operative "
                    "half asserts that a measured quantity is zero when it is about "
                    "1.75'*sqrt(h in metres) and was reproduced with a theodolite by the "

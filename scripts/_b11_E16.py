@@ -95,17 +95,30 @@ Research notes for whoever picks this up next.
      minute".
    - 2022 tau-Herculids. Predicted from the 1995 break-up of 73P/Schwassmann-Wachmann 3:
      Luthen et al. (2001) 04:55 UT, Horii et al. (2008) 04:59 UT, Rao (2021) 05:59 UT,
-     for 31 May 2022. The outburst arrived in the early hours of 31 May. It reached only
-     ~1/50 of storm level (Ye & Vaubaillon 2022) — quote the timing, not the rate.
+     for 31 May 2022. Egal et al. put the main peak at 04h-04h30 UT on 31 May, i.e. INSIDE
+     AN HOUR of the 2001/2008 times — do not write "within minutes". It reached only
+     ~1/50 of storm level (Ye & Vaubaillon 2022), peak ZHR ~27 (Egal et al.) — quote the
+     timing, not the rate, and do NOT claim the rate or width matched. Also do NOT call
+     the tau-Herculids "a shower with no calendar history": they are IAU #61 and Egal et
+     al. find apparitions in 1930 and 2017 from ordinary cometary activity. The claim that
+     survives is about the 1995 MATERIAL, not about the shower.
    - Taurid resonant swarm. Asher & Clube (1993) put the swarm in the 7:2 resonance with
-     Jupiter and predicted encounters in 1995, 1998, 2005 and 2008; Asher & Izumi (1998)
-     showed the enhancements fell in the years the model named. 2015 was another swarm
+     Jupiter and predicted encounters in 1995, 1998, 2005 and 2008. Asher & Izumi (1998)
+     is a RETROSPECTIVE test, not a confirmation of those four forward years: per Spurny
+     et al., they "showed that enhanced Taurid activity indeed occurred in the years when
+     the center of the swarm was less than 40 deg in mean anomaly from the Earth". A 1998
+     paper cannot confirm 2005 and 2008. 2015 was another swarm
      year on the same model and the European Fireball Network got ~200 Taurid fireballs,
      113 of which form a branch with semimajor axes 2.23-2.28 AU, inside the resonance
      zone (Spurny et al., A&A 605:A68, 2017). CAREFUL: 2015 is NOT in Asher & Clube's
      1993 list of four years. It comes from the same criterion applied later (Asher's
      published swarm-year table, cited by Spurny et al. via Shiba 2016). Write it that
-     way or a defender will catch the overclaim.
+     way or a defender will catch the overclaim. Spurny et al. also give the fireball
+     counts precisely: "The total number of Taurid fireballs recorded photographically by
+     our instruments at least from two stations in 2015 was about 200. This is much more
+     than we recorded in any previous year", and "For this study we selected 144 Taurids
+     with complete information about heliocentric orbits" — the 113-member branch is a
+     subset of the 144, not of the 200.
 
 6. THE ONE THE DEFENDER WILL PLAY, AND IT IS GOOD. Every discriminator above is a
    RELATIVE velocity, and a Tychonic model — streams orbiting the Sun, the Sun orbiting
@@ -117,8 +130,15 @@ Research notes for whoever picks this up next.
    preferred direction, and that is a claim about a measured distribution, not about
    which body moves — it fails in every frame; (ii) the Tychonic rescue is a
    SPHERICAL-EARTH, moving-sky model, so it is unavailable to a list headed "the Earth is
-   not a spinning ball"; (iii) the corrections that make meteor orbits close include
-   diurnal aberration, i.e. the observer's velocity from the Earth's ROTATION.
+   not a spinning ball". THERE IS NO THIRD. An earlier draft listed the diurnal-aberration
+   term in the standard reduction (Pena-Asensio et al. 2021: "light aberration, refraction,
+   zenith attraction, diurnal aberration, and atmospheric extinction") as a third survivor.
+   It is true and now cited, but it does not discriminate by the page's own logic: if a
+   relabelling can absorb the Earth's 29.8 km/s it can absorb the observer's 0.46 km/s too.
+   State it as a fact about how the working model is assembled and say so explicitly.
+   Section 2 must also not claim that prediction is something "a coordinate relabelling
+   cannot manufacture" — section 5 concedes the opposite, and the contradiction was the
+   defender's opening move.
 
 7. VERDICT. STANDARD PHYSICS ("real, already explained, does not discriminate") is right
    for 238 and 239 and mislabels 242, which is REFUTED ("contradicted by a specific
@@ -197,19 +217,19 @@ ENTRY = {
 
 <p>Meteor astronomy indexes showers by <strong>solar longitude</strong> &mdash; the Earth&rsquo;s angular position in its orbit &mdash; and treats the calendar date as the derived quantity. Campbell-Brown&rsquo;s reduction of 2.35 million radar orbits builds its coordinates by subtracting &ldquo;the solar longitude of the Earth at the time of observation&rdquo;; Egal and colleagues report the two peaks of the 2022 &tau;-Herculid outburst not as clock times but as &lambda;<sub>&#9737;</sub> = 69.02&deg; and 69.42&deg;. The Earth advances 360&deg;/365.2422 = <strong>0.9856&deg; of solar longitude per day</strong>, so those two peaks are 0.41&nbsp;day &mdash; 9.7&nbsp;hours &mdash; apart, and at 29.78&nbsp;km/s the Earth covers 1.04&nbsp;&times;&nbsp;10<sup>6</sup>&nbsp;km between them. (Arithmetic done here, 2026-08-10.) Two clock times on one night, converted into a structure a million kilometres long. That conversion is only available to somebody who knows how fast the observer is moving and in which direction.</p>
 
-<p>So the four-word item states the observation and drops the coordinate that carries the content. &ldquo;Calendar-fixed&rdquo; is the shadow the orbital position casts on a human calendar &mdash; and shadows slip. The Andromedids stormed on 27 November in 1872 and 1885, faded for a century, and returned in December 2011 with a zenithal hourly rate near 50, from a radiant displaced from the classical one, the whole shift reproduced by integrating dust released at 3D/Biela&rsquo;s perihelion passages. A shower whose date and radiant both moved, in a direction computed in advance, is not a fixture of the calendar.</p>
+<p>So the four-word item states the observation and drops the coordinate that carries the content. &ldquo;Calendar-fixed&rdquo; is the shadow the orbital position casts on a human calendar &mdash; and shadows slip. The Andromedids stormed on 27 November in 1872 and 1885, faded for a century, and returned on 3&ndash;5 December 2011 with a zenithal hourly rate near 50, from a radiant at RA&nbsp;+18&deg;, Dec&nbsp;+56&deg; &mdash; some 9&deg; and 12&deg; from the RA&nbsp;+27&deg;, Dec&nbsp;+44&deg; of the 1872/1885 storms, and back where the &ldquo;classical&rdquo; Andromedids of the early 1800s had been &mdash; the whole shift reproduced by integrating dust released at 3D/Biela&rsquo;s 1649 perihelion passage. A shower whose date and radiant both moved, in a direction computed in advance, is not a fixture of the calendar.</p>
 
 <h4>2. The dates are predicted, years out, in a heliocentric frame</h4>
 
-<p>This is where the argument is decided, because prediction is the one thing a coordinate relabelling cannot manufacture.</p>
+<p>This is where the model earns its keep, because a prediction registered in advance is a test the bookkeeping can fail.</p>
 
 <ul>
 <li><strong>The 1999 Leonid storm.</strong> McNaught and Asher modelled the individual dust trails shed by 55P/Tempel-Tuttle at named perihelion returns and put the maximum at 02:08&ndash;02:10&nbsp;UT on 18 November. Singer, Molau, Rendtel, Asher, Mitchell and von Zahn, observing from three sites, measured it at <strong>02:04.5&nbsp;UT &plusmn; 3&nbsp;min</strong>, with a peak visual ZHR that &ldquo;came close to 3700&rdquo;. About four minutes early, on a storm forecast from the orbital history of a comet.</li>
-<li><strong>The 2022 &tau;-Herculids.</strong> Comet 73P/Schwassmann-Wachmann&nbsp;3 broke apart in 1995. Working from the fragments&rsquo; heliocentric orbits, L&uuml;then and colleagues in <strong>2001</strong> gave 04:55&nbsp;UT on 31 May 2022; Horii and colleagues in 2008 gave 04:59&nbsp;UT; Rao in 2021 gave 05:59&nbsp;UT. The outburst arrived in the early hours of 31 May 2022, with the observed peak, radiant, rate and width in general agreement with the models &mdash; a shower with no calendar history at all, its date fixed twenty-one years in advance by where two orbits would intersect.</li>
-<li><strong>The Taurid swarm.</strong> Asher and Clube argued in 1993 that a swarm of Taurid meteoroids is locked in the 7:2 mean-motion resonance with Jupiter, and predicted enhanced encounters in 1995, 1998, 2005 and 2008; Asher and Izumi showed in 1998 that the enhancements had fallen in the years the model named. 2015 was another swarm-encounter year under the same criterion, and when it came the European Fireball Network recorded about 200 Taurid fireballs &mdash; more than in any previous year &mdash; of which 113 form a tight branch with semimajor axes of 2.23&ndash;2.28&nbsp;AU, sitting inside the resonance zone the 1993 paper had specified.</li>
+<li><strong>The 2022 &tau;-Herculids.</strong> Comet 73P/Schwassmann-Wachmann&nbsp;3 broke apart in 1995. Working from the fragments&rsquo; heliocentric orbits, L&uuml;then and colleagues in <strong>2001</strong> gave 04:55&nbsp;UT on 31 May 2022; Horii and colleagues in 2008 gave 04:59&nbsp;UT; Rao in 2021 gave 05:59&nbsp;UT. The outburst arrived on the named night: Egal and colleagues put the main peak at 04h&ndash;04h30&nbsp;UT on 31 May 2022, inside an hour of the times set down in 2001 and 2008. What it did not do is match the <em>rate</em> those models had allowed for &mdash; the peak ZHR was about 27, and Ye and Vaubaillon record the activity as reaching only about a fiftieth of storm level. The timing is the part that was booked twenty-one years in advance, by where two orbits would intersect, and cashed &mdash; and it was booked for material shed in the 1995 break-up itself, whatever the shower&rsquo;s own thin record of apparitions in 1930 and 2017.</li>
+<li><strong>The Taurid swarm.</strong> Asher and Clube argued in 1993 that a swarm of Taurid meteoroids is locked in the 7:2 mean-motion resonance with Jupiter, and predicted enhanced encounters in 1995, 1998, 2005 and 2008. Asher and Izumi then ran the criterion backwards in 1998 and found the historical enhancements sitting in the years it names &mdash; those in which the swarm&rsquo;s centre was less than 40&deg; in mean anomaly from the Earth &mdash; a retrospective test of the criterion, not a confirmation of the four forward years. 2015 was another swarm-encounter year under the same criterion, and when it came the European Fireball Network recorded about 200 Taurid fireballs &mdash; more than in any previous year &mdash; and of the 144 with complete orbits, 113 form a tight branch with semimajor axes of 2.23&ndash;2.28&nbsp;AU, sitting inside the resonance zone the 1993 paper had specified.</li>
 </ul>
 
-<p>Every one of those predictions is an assertion about where the Earth will be, and how fast, on a given night. They are not compatible with the Earth being somewhere else.</p>
+<p>Every one of those predictions is an assertion about the geometry of an encounter &mdash; where the Earth and the stream will be relative to each other, and how fast, on a given night. That geometry is what a relabelling preserves and what a wrong model gets wrong; the predictions test the geometry, not the choice of origin. Section&nbsp;5 says which of those the list needs.</p>
 
 <h4>3. Bolides do cluster &mdash; and the clustering is the Earth&rsquo;s motion, twice, with opposite signs</h4>
 
@@ -217,7 +237,7 @@ ENTRY = {
 
 <p>Ordinary meteor <em>counts</em> cluster the other way. Kero and colleagues, from the MU radar head-echo programme, report that &ldquo;the diurnal detection rates are clearly dominated by a peak at the culmination of the apex, which occurs at ~06&nbsp;JST&rdquo; &mdash; the apex being the direction of the Earth&rsquo;s orbital motion. One population peaks at dawn and the other at dusk, and the same vector explains both: high closing speeds make numerous faint meteors, low closing speeds make rare bright ones. The seasonal version is the same effect on an annual cycle, roughly three times as many fireballs near the March equinox as near the September one in the northern hemisphere.</p>
 
-<p>&ldquo;Bolide entry clustering&rdquo; is therefore a true description of a pattern whose axis is the direction of the Earth&rsquo;s travel. Geographic clustering is a separate and much weaker business: the modelled flux at the poles runs about 22% above the equatorial value, a gradient set by how near-Earth orbits are inclined, and what a map of detected fireballs mostly shows is where the sensors are.</p>
+<p>&ldquo;Bolide entry clustering&rdquo; is therefore a true description of a pattern whose axis is the direction of the Earth&rsquo;s travel. Geographic clustering is a separate and much weaker business: the modelled impact flux of near-Earth <em>asteroids</em> at the poles runs about 22% above the equatorial value, a gradient set by how near-Earth orbits are inclined, and what a map of detected fireballs mostly shows is where the sensors are.</p>
 
 <h4>4. The influx is not directionless</h4>
 
@@ -229,7 +249,9 @@ ENTRY = {
 
 <p>It does not settle the kinematics, and this page will not pretend otherwise. Radiants and speeds are <em>relative</em> quantities. A Tychonic arrangement &mdash; meteoroid streams orbiting the Sun, the Sun carrying the whole system round a stationary Earth &mdash; reproduces every radiant, every closing speed, every apex asymmetry and every annual date, because it is the same geometry with the labels moved. Anyone who claims meteor showers <em>prove</em> the Earth orbits is making the mistake the source quoted above accuses them of, and the source is right about that much.</p>
 
-<p>Three things survive that concession, and they are enough. <strong>First</strong>, the items are filed as evidence <em>against</em> the Earth&rsquo;s motion, and none of them is: on the kinematic reading they are neutral, which is a verdict of standard physics, not of support. <strong>Second</strong>, item 242 is not kinematic. It asserts a property of a measured distribution, and the distribution has a preferred axis in any frame you care to write it in. <strong>Third</strong>, the frame that reproduces the meteor data on a stationary Earth is a spherical-Earth frame with a sky that turns once a day, so the list&rsquo;s own headline cannot use it &mdash; and the reduction that closes the orbits corrects for zenith attraction, gravitational acceleration and <em>diurnal aberration</em>, the last of these being the observer&rsquo;s velocity from the Earth&rsquo;s rotation. The corrections are small and the orbits close with them in.</p>
+<p>Three things survive that concession, and they are enough. <strong>First</strong>, the items are filed as evidence <em>against</em> the Earth&rsquo;s motion, and none of them is: on the kinematic reading they are neutral, which is a verdict of standard physics, not of support. <strong>Second</strong>, item 242 is not kinematic. It asserts a property of a measured distribution, and the distribution has a preferred axis in any frame you care to write it in. <strong>Third</strong>, the frame that reproduces the meteor data on a stationary Earth is a spherical-Earth frame with a sky that turns once a day, so the list&rsquo;s own headline cannot use it.</p>
+
+<p>One thing that is worth stating and is <em>not</em> a fourth point: the standard reduction that turns an observed meteor into a heliocentric orbit corrects for zenith attraction, gravitational acceleration and <em>diurnal aberration</em> &mdash; the last being the observer&rsquo;s velocity from the Earth&rsquo;s rotation, up to about 0.46&nbsp;km/s at the equator. That is a fact about how the working model is assembled, not a further discriminator. A moving-sky account would have to carry an equivalent term, and this page does not claim it could not; the corrections are small and the orbits close with them in.</p>
 
 <p>What is left is the ledger. The one text located in the movement&rsquo;s own literature that mentions meteor showers lists them among the phenomena <em>heliocentrists</em> put forward, and promises a refutation that is not located in the four texts searched. The list has taken the topic off that page, moved it to the other column, and added a physical claim &mdash; calendar fixity &mdash; that the sentence never made.</p>""",
 
@@ -256,15 +278,23 @@ ENTRY = {
             "follow and none may be softened. (1) The kinematic concession in section 5 "
             "STAYS IN THE BODY and stays in our own voice. If an editor moves it to a "
             "footnote to make the page look stronger, the page becomes dishonest and the "
-            "defender's first move lands. (2) The weight must rest where the concession "
-            "does not reach, and the text must say which is which: item 242 is a claim "
-            "about a measured distribution and fails in every frame; the Tychonic rescue "
-            "is a spherical-Earth model and is therefore unavailable to a list headed 'not "
-            "a spinning ball'; and the reduction that closes the orbits carries a diurnal "
-            "aberration term, which is the Earth's rotation. Do NOT answer the 'Ptolemy "
+            "defender's first move lands, and sections 2 and 5 must not contradict each "
+            "other — an earlier draft opened §2 with 'prediction is the one thing a "
+            "coordinate relabelling cannot manufacture' and then conceded in §5 that a "
+            "relabelling reproduces every annual date. (2) The weight must rest where the "
+            "concession does not reach, and the text must say which is which. TWO things "
+            "carry it, not three: item 242 is a claim about a measured distribution and "
+            "fails in every frame, and the Tychonic rescue is a spherical-Earth model and "
+            "is therefore unavailable to a list headed 'not a spinning ball'. The diurnal "
+            "aberration term in the standard reduction is true, cited and worth stating, "
+            "but it is NOT a third discriminator and must not be listed as one: a "
+            "moving-sky account can carry an equivalent term, and an earlier draft leant "
+            "on it as though it could not. Do NOT answer the 'Ptolemy "
             "predicted eclipses' jab by inflating the predictions into a proof of orbital "
-            "motion — answer it by pointing at what was predicted: a stream that did not "
-            "exist as a shower before 1995, timed to the hour twenty-one years out. "
+            "motion — answer it by pointing at what was predicted: material that did not "
+            "exist before the 1995 break-up, timed to within an hour twenty-one years out, "
+            "and do not upgrade that to 'a shower with no calendar history' — the "
+            "τ-Herculids are IAU #61 and Egal et al. find apparitions in 1930 and 2017. "
             "(3) On the last move, agree in public and keep agreeing. Sungenis and Bennett "
             "are the careful party on this topic and the compression block says so. Our "
             "quarrel is with three items on a list that put the phenomenon on the opposite "
@@ -295,8 +325,15 @@ ENTRY = {
                         "volume, do not prove, in the least, the heliocentric system)&rdquo; "
                         "&mdash; and, in the four texts searched, no such demonstration."),
         drift_type="unsourced_addition",
-        note=("<strong>The one located ancestor puts meteor showers on the other side&rsquo;s "
-              "ledger.</strong> In the movement&rsquo;s flagship text they appear once, in a "
+        note=("<strong>Read the heading with one qualification: this is the nearest located "
+              "text, not a demonstrated source.</strong> The specimen carries no citation for "
+              "these three items &mdash; it carries none for any of the 461 &mdash; and this "
+              "cluster credits no originator, so what follows is a content comparison against "
+              "the nearest located text, not a chain of descent. It is entered as "
+              "<code>unsourced_addition</code> because that is the plainest and most checkable "
+              "of the differences, and the reader has both texts above.<br><br>"
+              "<strong>With that said: the one located ancestor puts meteor showers on the "
+              "other side&rsquo;s ledger.</strong> In the movement&rsquo;s flagship text they appear once, in a "
               "list of phenomena heliocentrists are said to offer as proof, with a promise to "
               "dismantle them later &mdash; a promise not located in the four texts searched "
               "(the 2006 Vol.&nbsp;I scan, the complete seventh edition, the separate "
@@ -307,12 +344,6 @@ ENTRY = {
               "&ldquo;bolide&rdquo; returns one hit and it is a quasar ejection, and "
               "&ldquo;micromete-&rdquo; returns only &ldquo;micrometer&rdquo; inside "
               "Casimir-effect citations.<br><br>"
-              "<strong>Condition, stated rather than buried:</strong> the specimen carries no "
-              "citation for these three items &mdash; it carries none for any of the 461 "
-              "&mdash; so this is a content comparison against the nearest located text, not "
-              "a demonstrated chain of descent. It is entered as <code>unsourced_addition</code> "
-              "because that is the plainest and most checkable of the differences, and the "
-              "reader has both texts above.<br><br>"
               "<strong>A second drift travels with it that the seven-value enum has no word "
               "for.</strong> The source&rsquo;s speech act is a <em>denial of probative "
               "force</em> &mdash; these phenomena do not prove heliocentrism. The items are "
@@ -347,8 +378,12 @@ ENTRY = {
             "ones were wrong. 'Contradicted by a specific measurement' is the definition of "
             "REFUTED on this page. The counter-reading, that 'isotropy' means the fallout is "
             "geographically uniform, is roughly true and does no work for a list arguing the "
-            "Earth does not move; it is also not exactly true, the modelled polar flux "
-            "running about 22% above the equatorial. Recording one verdict for the cluster "
+            "Earth does not move; it is also not exactly flat even for larger bodies, "
+            "where the modelled near-Earth-ASTEROID impact flux at the poles runs about "
+            "22% above the equatorial value (Robertson et al. 2021). That result is about "
+            "asteroids, not about the micrometeoroid influx, which Robertson et al. do not "
+            "model; no comparable latitude flatness has been demonstrated for the "
+            "micrometeoroid influx either. Recording one verdict for the cluster "
             "publishes 'real, already explained' next to an item that is not real as stated. "
             "Same limitation as ARG-E14: the schema carries one verdict per cluster and the "
             "per-item reading cannot be expressed.")),
@@ -405,7 +440,11 @@ ENTRY = {
                    "(arXiv:2302.02915) — two peaks at solar longitudes 69.02° and 69.42° on "
                    "30–31 May 2022, from meteoroids ejected in the 1995 break-up of "
                    "73P/Schwassmann-Wachmann 3; earlier predictions by Lüthen et al. (2001), "
-                   "Horii et al. (2008) and Rao (2021)",
+                   "Horii et al. (2008) and Rao (2021). “The main peak (ZHR ~27) occurred "
+                   "around 69.42±0.01° (4h-4h30 UT) on May 31”, from meteoroids ejected with "
+                   "four times the typical cometary gas expansion speed; “ordinary cometary "
+                   "activity could have produced other TAH apparitions observed in the past, "
+                   "including in 1930 and 2017”",
              url="https://arxiv.org/abs/2302.02915"),
         dict(label="Ye & Vaubaillon, “The 2022 encounter of the outburst material from comet "
                    "73P/Schwassmann–Wachmann 3”, MNRAS Letters 515:L45 (2022) — the outburst "
@@ -414,15 +453,18 @@ ENTRY = {
         dict(label="Spurný, Borovička, Mucke & Svoreň, “Discovery of a new branch of the "
                    "Taurid meteoroid stream as a real source of potentially hazardous "
                    "bodies”, A&A 605:A68 (2017) — ~200 Taurid fireballs in the enhanced year "
-                   "2015; 113 form a branch with a = 2.23–2.28 AU inside the 7:2 Jupiter "
-                   "resonance proposed by Asher & Clube, QJRAS 34:481 (1993), whose predicted "
-                   "encounter years 1995, 1998, 2005 and 2008 were confirmed by Asher & "
-                   "Izumi, MNRAS 297:23 (1998)",
+                   "2015, of which 144 have complete orbits and 113 form a branch with "
+                   "a = 2.23–2.28 AU inside the 7:2 Jupiter resonance proposed by Asher & "
+                   "Clube, QJRAS 34:481 (1993), who predicted encounters in 1995, 1998, 2005 "
+                   "and 2008; Asher & Izumi, MNRAS 297:23 (1998) showed that historical "
+                   "enhancements had fallen in the years the same swarm criterion picks out",
              url="https://arxiv.org/abs/1705.08633"),
         dict(label="Wiegert, Brown, Weryk & Wong, “The return of the Andromedids meteor "
-                   "shower”, Astron. J. 145:70 (2013) — storms in 1872 and 1885, a December "
-                   "2011 return at ZHR ≈ 50 from a displaced radiant, modelled from dust "
-                   "released at 3D/Biela’s earlier perihelion passages",
+                   "shower”, Astron. J. 145:70 (2013) — storms in 1872 and 1885 with radiants "
+                   "at RA +27°, Dec +44°; a 3–5 December 2011 return at ZHR ≈ 50 from a "
+                   "radiant at RA +18°, Dec +56°, which the paper calls “typical of the "
+                   "‘classical’ Andromedids of the early 1800’s”, modelled from dust released "
+                   "at 3D/Biela’s 1649 perihelion passage",
              url="https://arxiv.org/abs/1209.5980"),
         dict(label="Peña-Asensio, Trigo-Rodríguez & Rimola, “Orbital characterization of "
                    "superbolides observed from space”, Astron. J. (2022), "
@@ -432,9 +474,19 @@ ENTRY = {
              url="https://arxiv.org/abs/2206.03115"),
         dict(label="Robertson, Pokorný, Granvik, Wheeler & Rumpf, “Latitude variation of flux "
                    "and impact angle of asteroid collisions with Earth and the Moon”, "
-                   "Planetary Science Journal 2:88 (2021) — modelled polar impact flux about "
-                   "22% above the equatorial value",
+                   "Planetary Science Journal 2:88 (2021) — “the flux of impacts to the poles "
+                   "for Earth is 22% greater than the flux at the equator, and 55% greater "
+                   "for the Moon”. Modelled for the near-Earth ASTEROID population; the paper "
+                   "does not model the micrometeoroid influx, and the figure must not be "
+                   "carried across to it",
              url="https://www.hou.usra.edu/meetings/crater2021/pdf/2013.pdf"),
+        dict(label="Peña-Asensio, Trigo-Rodríguez, Gritsevich & Rimola, “Accurate 3D fireball "
+                   "trajectory and orbit calculation using the 3D-FireTOC automatic Python "
+                   "code”, MNRAS 504:4829 (2021) — the standard reduction chain, applying "
+                   "“light aberration, refraction, zenith attraction, diurnal aberration, and "
+                   "atmospheric extinction” to get from an observed meteor to a heliocentric "
+                   "orbit",
+             url="https://academic.oup.com/mnras/article/504/4/4829/6219850"),
         dict(label="Whipple, “1983 TB and the Geminid meteors”, IAU Circular 3881 (1983) — "
                    "the Geminid stream orbit matched to the newly discovered object now "
                    "numbered (3200) Phaethon",

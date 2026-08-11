@@ -21,7 +21,7 @@ Research notes for whoever picks this up next.
    `galileo-was-wrong-the-church-was-right-sungenis-vol-1-3-complete` (5.5 MB,
    downloaded and word-searched in session 2026-08-10). In that file Volume I is
    chapters 1-6, Volume II chapters 7-13, Volume III chapters 14-17, each volume
-   restarting its printed pagination — so "Vol. I p. 205" and "Vol. II p. 248" below
+   restarting its printed pagination — so "Vol. I p. 205" and "Vol. II p. 249" below
    are different pages, not a contradiction. Ten hits on "VLBI", all in that one
    paragraph pair.
 
@@ -41,7 +41,9 @@ Research notes for whoever picks this up next.
 
 3. GAIA IS NOT IN THE BOOK. "Gaia" occurs exactly once in that 5.5 MB seventh-edition
    text, inside a block-quoted ESO press release about dark matter (Moni Bidin, Vol. I
-   ch. 2, printed p. 245), where it is named as a future mission that will help. There
+   ch. 2, printed pp. 245-246 — the sentence "Future surveys, such as the ESA" ends
+   p. 245 and "Gaia mission, will be crucial" opens p. 246), where it is named as a
+   future mission that will help. There
    is no astrometric-reduction material to compare item 347 against in the text
    searched. That is what drives drift_type="unsourced_addition".
 
@@ -64,10 +66,20 @@ Research notes for whoever picks this up next.
    and this entry concedes it in its own voice, twice. Note the consequence for the
    source, which is sharper than the concession: the book's own cosmology says the
    universe "rotates around the Earth once per day, and in that rotation it carries
-   the stars with it" (Vol. I ch. 2, printed p. 229). On that model every source moves
+   the stars with it" (Vol. I ch. 2, printed p. 230). On that model every source moves
    "in the same precise way" by construction, so the test the book proposes could not
    have discriminated anything even if NASA had run it. Same structure as the E08
    finding: the source names a discriminator its own model cannot deliver.
+
+   PAGE CONVENTION, established 2026-08-11 from several anchors in the OCR: the printed
+   folio sits at the FOOT of its own page, after that page's footnotes and before the
+   next page's running head. So body text FOLLOWING marker N is page N+1. The VLBI
+   paragraph follows marker 204 and runs past 205, hence pp. 205-206 (correct as
+   originally recorded). Three other citations in this entry were originally one page
+   low and were corrected on 2026-08-11: the rotating-universe quotation follows
+   marker 229 (the page carrying the two Eddington footnotes) and is p. 230; "On
+   Telescope Limits" follows marker 248 and is p. 249; "Gaia" follows marker 245 and is
+   p. 246. Re-check against a print copy before making any of these load-bearing.
 
 6. WHAT DOES BEAR ON THE EARTH RATHER THAN THE SKY, and the numbers, all checked
    2026-08-10:
@@ -80,14 +92,37 @@ Research notes for whoever picks this up next.
        3,562) from superconducting gravimeters, and conclude the two are "comparable
        within the error bars". Do NOT write that the two agree perfectly: they sit
        about two days apart on error bars of ~1 day, and the paper says comparable.
-     * Ring laser. Schreiber et al., PRL 107:173904 (2011): 16 m^2 helium-neon ring at
-       Wettzell, flicker floor "just below 10^-8" of the Earth rate, Apr-Jul 2010,
-       detects the Chandler and annual wobbles with "excellent agreement with the
-       independent measurements by VLBI". A ground interferometer with no sky in it.
+       AND DO NOT CALL THE GRAVIMETERS ASTRONOMY-FREE. Read in full 2026-08-11
+       (hal.science/hal-00643157/file/11489.pdf): the SG estimate is an inversion of
+       complex tidal gravimetric factors for the diurnal lunisolar waves — Psi1 and
+       Phi1 are named as the ones closest to the resonance — computed with ETERNA
+       against an astronomically derived tidal potential and corrected for ocean
+       loading with FES2004. The forcing, the wave frequencies and the reference
+       amplitudes are all astronomical, and the ~430-day figure is a celestial-frame
+       period converted from a nearly-diurnal terrestrial-frame resonance using the
+       Earth's rotation rate. The instrument never looks at a star; the reduction is
+       not innocent of astronomy. Say both. Also: it is not "a gravimeter in Germany"
+       — 15 GGP stations worldwide (Boulder, Bad-Homburg, Cantley, Canberra, Esashi,
+       Matsushiro, Moxa, Membach, Medicina, Metsahovi, Potsdam, Strasbourg, Vienna,
+       Wettzell, Wuhan), expressly to "minimize local effects".
+     * Ring laser. Schreiber, Kluegel, Wells, Hurst & Gebauer, PRL 107:173904 (2011).
+       WHAT IS VERIFIED (Crossref + PubMed abstract, 2026-08-11): 16 m^2 helium-neon
+       ring laser gyroscope at Wettzell, "sufficient sensitivity and stability to
+       directly detect the Chandler wobble", and detection of both the Chandler and
+       the annual wobble "verified by comparing the time series of the ring laser
+       measurements against the 'C04 series' of Earth rotation data from the
+       International Earth Rotation and Reference System Service". WHAT IS NOT: the
+       PRL is closed access (OpenAlex: no repository full text; no arXiv version
+       located), so the previously quoted phrase "excellent agreement with the
+       independent measurements by VLBI", the flicker floor "just below 10^-8" and the
+       Apr-Jul 2010 window could not be reached and have been removed from the body.
+       Note also that IERS C04 is a multi-technique combination, not a VLBI-only
+       series, so do not write "polar motion derived from quasars" unless someone
+       reads the paper and confirms a VLBI-specific comparison.
        DO NOT claim this settles Earth-versus-ether rotation; a geocentrist reads the
        Sagnac term as ether rotation, which is A02's fight, not this one.
      * ICRF3 noise floor 0.03 mas; median uncertainty ~0.1 mas in RA, 0.2 in Dec; 500
-       sources at 0.03-0.06 mas. Against the book's own Vol. II p. 248 figure of 0.05
+       sources at 0.03-0.06 mas. Against the book's own Vol. II p. 249 figure of 0.05
        arcsec for Hubble, that is a factor of 1,667.
      * Galactocentric acceleration, ICRF3: 5.83 +/- 0.23 uas/yr toward
        alpha = 270.2 +/- 2.3, delta = -20.2 +/- 3.6, within 10 deg of the Galactic
@@ -110,7 +145,7 @@ Research notes for whoever picks this up next.
          the book assigns more than a quarter of that to each of 25,000 events a year.
      (d) A daily-rotating heaven keeps tangential speeds below c only inside
          c/Omega = 4.11e12 m = 27.5 AU = 3.8 light-hours. DO NOT deploy this as a
-         knockdown: the book meets it head-on at Vol. I p. 229, arguing that space
+         knockdown: the book meets it head-on at Vol. I p. 230, arguing that space
          itself rotates and the stars are carried, so nothing moves through space
          faster than light. Deploying it as if unanswered would be exactly the
          fragment-beating the hedge rule forbids.
@@ -149,6 +184,14 @@ Research notes for whoever picks this up next.
             readers who never expand the entry.
       (iii) The cluster note's "microsecond precision" was not verified from anything
             read for this entry, and the note is silent on Gaia, one of its three items.
+      (ii-b) PROPOSED REPLACEMENT TEXT for (ii)/(iii), for whoever owns clusters.py:
+            name -> "VLBI presupposes the Earth's rotation and reads one source at a
+            time"; note -> state the circularity charge and what answers it (geodetic
+            sessions observe tens to hundreds of sources; Gaia's axes come from ICRF3
+            and its parallax bias is published), dropping both "Same convenience-frame
+            error as R08" and the unverified "microsecond precision"; real_source ->
+            ICRF3 (Charlot et al. 2020) and the Gaia EDR3 astrometric solution, with
+            originator left None.
       (iv)  WRK-SUNGENIS-2006 renders the year 2006 above a passage that is not located
             in the 2006 text. Recurring, not new.
 """
@@ -162,11 +205,14 @@ ENTRY = {
           "three or more and see whether they all move together. That is how geodetic VLBI is "
           "run: the sessions behind ICRF3 generally last 24 hours and observe a few tens to a "
           "few hundreds of radio sources each. VLBI on its own does not decide a turning Earth "
-          "against a turning sky, and "
-          "this page does not claim it does — but the objection's factual premises fail, "
-          "including the one about poor resolution: an 8,000 km baseline at 8.4 GHz resolves "
+          "against a turning sky, and this page does not claim it does; the book is also right "
+          "that the Tōhoku figures it attacks were computed rather than measured, and JPL says "
+          "so first. But the premises it offers about the instrument and the record — one "
+          "source, poor resolution, no historical change — fail. On resolution: an 8,000 km "
+          "baseline at 8.4 GHz resolves "
           "0.92 milliarcseconds, some fifty times finer than the 0.05 arcseconds the same book "
-          "gives for Hubble, and ICRF3 pins source positions to a noise floor of 0.03."),
+          "gives for Hubble, and ICRF3 pins source positions to a noise floor of "
+          "0.03 milliarcseconds."),
 
     passage=dict(
         work="WRK-SUNGENIS-2006",
@@ -182,11 +228,11 @@ ENTRY = {
                "Earth is rotating, they find it perfectly justifiable to obtain the VLBI "
                "measurement from only one stellar source."),
         gloss="""<p><strong>Read where this sits before reading what it says.</strong> The paragraph is not part of a discussion of reference frames. It is the second half of an answer to Objection #14, which is about newspaper reports that the March 2011 Tōhoku earthquake shortened the day and moved the Earth&rsquo;s axis. The book&rsquo;s reply has two limbs: that those figures were calculated rather than measured, and that the one instrument which could measure them is disqualified. The VLBI paragraph is the second limb.</p>
-<p><strong>The claim is a circularity charge, not a frame-convention point.</strong> In the sentences around the quotation the book says the method &ldquo;is flawed and presumes the Earth is rotating before it interprets the data&rdquo;, that a phase difference between two stations might mean the source moved rather than the Earth, and that longer radio wavelengths &ldquo;create poor resolution&rdquo;, so an apparent shift &ldquo;may, indeed, be only a false reading&rdquo;. The conclusion is stated flatly and without qualification, and there is no hedge here to shelter behind: <em>&ldquo;Without this methodology, all VLBI measurements are invalid to prove whether the Earth is rotating.&rdquo;</em></p>
+<p><strong>The claim is a circularity charge, not a frame-convention point.</strong> In the sentences around the quotation the book says the method &ldquo;is flawed and presumes the Earth is rotating before it interprets the data&rdquo;, that a phase difference between two stations might mean the source moved rather than the Earth, and that longer radio wavelengths &ldquo;create poor resolution&rdquo;, so an apparent shift &ldquo;may, indeed, be only a false reading&rdquo;. The conclusion is stated as fact rather than as a possibility, and it is general &mdash; <em>all</em> VLBI measurements &mdash; but it carries one condition, and the condition is the sentence&rsquo;s own opening: <em>&ldquo;Without this methodology, all VLBI measurements are invalid to prove whether the Earth is rotating.&rdquo;</em> The methodology in question is the three-source check the book has just proposed, which is ordinary geodetic practice and has been since 1979 &mdash; so the antecedent fails and the conclusion lapses on the book&rsquo;s own terms.</p>
 <p><strong>And it names its own test.</strong> That is the most important sentence in the passage and the reason this entry exists. The remedy the book prescribes is to &ldquo;allow the VLBI to absorb radiation from at least three sources, if not more. If it is found that all the other sources are moving in the same precise way as the original source, then there is evidence that the Earth is rotating.&rdquo; A falsifiable criterion, offered voluntarily. The refutation below takes it up.</p>
 <p><strong>Dating.</strong> The objection answers coverage of a 2011 earthquake, so it is later than the 2006 first volume, and it reads that way in the record: the string <em>VLBI</em> is not located anywhere in the 3.3 MB OCR text of the 2006 Vol. I (Internet Archive item GallileoWasWrong), which returns zero hits on it and on <em>Very Long Baseline</em>. The work record beside this quotation renders the year 2006; the passage quoted here reaches print in the seventh edition of 2013.</p>
-<p><strong>Two of the cluster&rsquo;s three items go beyond this page.</strong> Item 346 generalises from VLBI to interferometry as such. Item 347 is about Gaia, and Gaia&rsquo;s astrometric reduction is not located anywhere in the 5.5 MB seventh-edition text searched: the word <em>Gaia</em> occurs once in that file, inside a block-quoted ESO press release about dark matter at Vol. I p. 245, where the mission is named as future work that will help settle a question. Whatever item 347 descends from, it is not located in this book.</p>
-<p><strong>An internal tension worth knowing about.</strong> The resolution premise here is contradicted elsewhere in the same seventh edition. At Vol. II, ch. 10, printed p. 248, under the heading <em>On Telescope Limits</em>, the book states that &ldquo;the highest angular resolutions can be achieved by interferometry&rdquo;, gives the Very Large Telescope Interferometer&rsquo;s target of 0.001 arcseconds and Hubble&rsquo;s 0.05 arcseconds, and thereby states the principle &mdash; resolution goes as wavelength divided by <em>baseline</em> &mdash; that makes the ch. 2 objection wrong. Different chapters, different volumes, and the technical chapters are Bennett&rsquo;s; this is offered as a tension in the text, not as an accusation.</p>
+<p><strong>Two of the cluster&rsquo;s three items go beyond this page.</strong> Item 346 generalises from VLBI to interferometry as such. Item 347 is about Gaia, and Gaia&rsquo;s astrometric reduction is not located anywhere in the 5.5 MB seventh-edition text searched: the word <em>Gaia</em> occurs once in that file, inside a block-quoted ESO press release about dark matter at Vol. I pp. 245&ndash;246 (the sentence breaks across the page; the word <em>Gaia</em> is on 246), where the mission is named as future work that will help settle a question. Whatever item 347 descends from, it is not located in this book.</p>
+<p><strong>An internal tension worth knowing about.</strong> The resolution premise here is contradicted elsewhere in the same seventh edition. At Vol. II, ch. 10, printed p. 249, under the heading <em>On Telescope Limits</em>, the book states that &ldquo;the highest angular resolutions can be achieved by interferometry&rdquo; and gives the Very Large Telescope Interferometer&rsquo;s target of 0.001 arcseconds against Hubble&rsquo;s 0.05 arcseconds &mdash; conceding that it is interferometry rather than aperture size that sets the achievable resolution, which is the variable the ch. 2 objection leaves out. (Both of the book&rsquo;s examples there are optical, and the section does not use the words <em>baseline</em>, <em>wavelength</em> or <em>aperture</em> at all; the physics that closes the gap for radio is in section 3 of the refutation below.) Different chapters, different volumes, and the technical chapters are Bennett&rsquo;s; this is offered as a tension in the text, not as an accusation.</p>
 <p><strong>What this passage is being cited as.</strong> The nearest located published statement of the argument in item 345, and nothing more. The list carries no citations at all, so descent is a content match rather than a demonstrated chain, and the cluster&rsquo;s originator field stays empty.</p>"""),
 
     steelman=dict(
@@ -209,11 +255,11 @@ ENTRY = {
 
 <p>It does not separate a turning Earth from a turning heaven. If the whole sky is rigidly carried round once a day, every source moves &ldquo;in the same precise way&rdquo; too, and the delays come out identical. That is the general underdetermination point, and it belongs to <a href="#ARG-R01">ARG-R01</a> and <a href="#ARG-R11">ARG-R11</a>, not here; this page concedes it and will not pretend that a bigger source list refutes geocentrism by itself.</p>
 
-<p><strong>But notice what that concession costs the objection.</strong> The book&rsquo;s cosmology, stated at Vol. I p. 229, is that &ldquo;the universe rotates around the Earth once per day, and in that rotation it carries the stars with it&rdquo;, so that relative to the universe containing them &ldquo;the stars are not moving at all, save for the minuscule movements of their proper motion.&rdquo; On that model, all sources moving together is guaranteed in advance. The test the book proposes as the way to get &ldquo;evidence that the Earth is rotating&rdquo; is therefore a test its own cosmology renders incapable of returning an answer either way. It is offered as a standard science has failed to meet; science meets it thousands of times a year, and on the source&rsquo;s own physics meeting it could never have proved anything. Both halves of that are findings, and the second is the sharper one.</p>
+<p><strong>But notice what that concession costs the objection.</strong> The book&rsquo;s cosmology, stated at Vol. I p. 230, is that &ldquo;the universe rotates around the Earth once per day, and in that rotation it carries the stars with it&rdquo;, so that relative to the universe containing them &ldquo;the stars are not moving at all, save for the minuscule movements of their proper motion.&rdquo; On that model, all sources moving together is guaranteed in advance. The test the book proposes as the way to get &ldquo;evidence that the Earth is rotating&rdquo; is therefore a test its own cosmology renders incapable of returning an answer either way. It is offered as a standard science has failed to meet; science meets it thousands of times a year, and on the source&rsquo;s own physics meeting it could never have proved anything. Both halves of that are findings, and the second is the sharper one.</p>
 
 <h4>3. The resolution premise is backwards</h4>
 
-<p>&ldquo;Longer wavelengths create poor resolution&rdquo; is true only with the baseline held fixed, and the baseline is the whole point of the technique. Angular resolution goes as wavelength divided by aperture, and in VLBI the aperture is the separation between antennas. At the standard 8.4&nbsp;GHz the wavelength is 3.57&nbsp;cm; across an 8,000&nbsp;km baseline the fringe spacing is 0.92 milliarcseconds, and across the &ldquo;8000 miles&rdquo; the passage itself pictures, 0.57 milliarcseconds. (Recomputed here 2026-08-10.) Measurement then does better than the fringe spacing, because what is estimated is the centroid of a fringe pattern from a broad synthesised band, not the width of one fringe: ICRF3 reports a noise floor of 0.03&nbsp;mas in individual source coordinates, with 500 sources between 0.03 and 0.06&nbsp;mas. Set the fringe spacing against the number the same book prints at Vol. II p. 248 for Hubble &mdash; 0.05 arcseconds, or 50&nbsp;mas &mdash; and the &ldquo;poor resolution&rdquo; instrument resolves about fifty times finer before any centroiding at all.</p>
+<p>&ldquo;Longer wavelengths create poor resolution&rdquo; is true only with the baseline held fixed, and the baseline is the whole point of the technique. Angular resolution goes as wavelength divided by aperture, and in VLBI the aperture is the separation between antennas. At the standard 8.4&nbsp;GHz the wavelength is 3.57&nbsp;cm; across an 8,000&nbsp;km baseline the fringe spacing is 0.92 milliarcseconds, and across the &ldquo;8000 miles&rdquo; the passage itself pictures, 0.57 milliarcseconds. (Recomputed here 2026-08-10.) Measurement then does better than the fringe spacing, because what is estimated is the centroid of a fringe pattern from a broad synthesised band, not the width of one fringe: ICRF3 reports a noise floor of 0.03&nbsp;mas in individual source coordinates, with 500 sources between 0.03 and 0.06&nbsp;mas. Set the fringe spacing against the number the same book prints at Vol. II p. 249 for Hubble &mdash; 0.05 arcseconds, or 50&nbsp;mas &mdash; and the &ldquo;poor resolution&rdquo; instrument resolves about fifty times finer before any centroiding at all.</p>
 
 <p>The same routine output disposes of the suggestion that a VLBI shift &ldquo;may, indeed, be only a false reading&rdquo;. Phase-referenced VLBI measures trigonometric parallaxes of Galactic masers to typically &plusmn;20 &mu;as, at best &plusmn;5 &mu;as, yielding distances such as 11.1 &plusmn; 0.8 kpc from a parallax of 0.090 &plusmn; 0.006 mas. Whatever one concludes about which body turns, an instrument returning annual parallaxes at that precision is not producing noise.</p>
 
@@ -221,9 +267,9 @@ ENTRY = {
 
 <p>The celestial pole&rsquo;s motion contains a free retrograde term with a period of &minus;431.18 &plusmn; 0.10 sidereal days and an amplitude of order 100 &mu;as, extracted from VLBI over 1984&ndash;2011. It is the free core nutation, and it exists because &ldquo;the ellipsoidal liquid core inside the visco-elastic Earth&rsquo;s mantle rotates around an axis which is slightly misaligned with the axis of the mantle.&rdquo; Its period is set by the flattening of the boundary between the Earth&rsquo;s core and its mantle and by the rate at which the Earth turns; it is a resonance of the planet&rsquo;s interior, not a feature of anything overhead.</p>
 
-<p>And it is not only in the sky measurements. The same resonance shows up in diurnal Earth tides recorded by superconducting gravimeters &mdash; instruments in basements, weighing the local pull of gravity, with no astronomical input at all. Rosat and Lambert obtain &minus;429.6 &plusmn; 0.6 days with a quality factor of 16,683 &plusmn; 884 from VLBI nutation, and &minus;426.9 &plusmn; 1.2 days with 16,630 &plusmn; 3,562 from the gravimeters, and conclude that the estimates are &ldquo;comparable within the error bars&rdquo;. The two numbers are close rather than identical, and the honest statement is theirs, not a stronger one. A geocentric reading has to hold that the heavens&rsquo; nutation happens to carry a 430-day resonance matching one independently visible in a gravimeter in Germany.</p>
+<p>And it is not only in the sky measurements. The same resonance shows up in diurnal Earth tides recorded by superconducting gravimeters &mdash; instruments in basements that weigh the local pull of gravity and never observe a star, though the resonance is extracted from the lunisolar diurnal tides and so is not free of astronomical modelling: the estimate inverts complex tidal gravimetric factors for the diurnal waves nearest the resonance, computed against an astronomical tidal potential and corrected for ocean loading. Rosat and Lambert obtain &minus;429.6 &plusmn; 0.6 days with a quality factor of 16,683 &plusmn; 884 from VLBI nutation, and &minus;426.9 &plusmn; 1.2 days with 16,630 &plusmn; 3,562 from the gravity data of fifteen stations spread worldwide &ldquo;in order to minimize local effects&rdquo;, and conclude that the estimates are &ldquo;comparable within the error bars&rdquo;. The two numbers are close rather than identical, and the honest statement is theirs, not a stronger one. So this is not an astronomy-free confirmation of a spinning core, and it is not offered as one. What it is: the period of that resonance is parameterised by the flattening of the core&ndash;mantle boundary, so a moving-heavens account has to explain why the sky is tuned to the inside of the Earth.</p>
 
-<p>The ground-based interferometer of item 346 belongs here too, and it points the other way from the item. The 16&nbsp;m<sup>2</sup> ring laser at Wettzell reaches a flicker floor just below one part in 10<sup>8</sup> of the Earth&rsquo;s rotation rate and detected the Chandler and annual wobbles directly, in &ldquo;excellent agreement with the independent measurements by VLBI&rdquo;. A device bolted to bedrock, which never looks at a star, reproduces polar motion derived from quasars. It does not settle rotation against a rotating ether &mdash; that is <a href="#ARG-A02">ARG-A02</a>&rsquo;s argument, and the Sagnac term is frame-dependent in the way geocentrists exploit. What it does settle is that &ldquo;the interferometer is on the ground&rdquo; is not an assumption smuggled into a result; it is a statement about where the instrument is, of the same kind as <a href="#ARG-R08">ARG-R08</a>.</p>
+<p>The ground-based interferometer of item 346 belongs here too, and it points the other way from the item. The 16&nbsp;m<sup>2</sup> helium-neon ring laser at Wettzell has, in its authors&rsquo; words, &ldquo;sufficient sensitivity and stability to directly detect the Chandler wobble of the rotating Earth&rdquo;, and its detection of both the Chandler and the annual wobble was &ldquo;verified by comparing the time series of the ring laser measurements against the &lsquo;C04 series&rsquo; of Earth rotation data from the International Earth Rotation and Reference System Service&rdquo;. A device bolted to bedrock, which never looks at a star, reproduces the same polar motion the space-geodetic services measure. (The Letter is behind a paywall; the wording above is from its abstract, which is what could be read for this entry, and the C04 series is a multi-technique combination rather than a VLBI-only one.) It does not settle rotation against a rotating ether &mdash; that is <a href="#ARG-A02">ARG-A02</a>&rsquo;s argument, and the Sagnac term is frame-dependent in the way geocentrists exploit. What it does settle is that &ldquo;the interferometer is on the ground&rdquo; is not an assumption smuggled into a result; it is a statement about where the instrument is, of the same kind as <a href="#ARG-R08">ARG-R08</a>.</p>
 
 <h4>5. Gaia: the flexibility is real, is bounded, and is published</h4>
 
@@ -303,8 +349,9 @@ ENTRY = {
                 "four-decade data set while the orientation parameters are estimated session "
                 "by session, which is the separation the passage says is never attempted. The "
                 "imputed reasoning — that a belief in rotation is what makes the shortcut seem "
-                "acceptable — is supplied by the paragraph, not by anything in the analysts' "
-                "documentation.")),
+                "acceptable — is supplied by the paragraph; it is not stated in the description "
+                "of the analysis the frame is actually built from (Charlot et al. 2020, "
+                "Sects. 2–3), which is the document searched for this entry.")),
 
     compression=dict(
         assessed=True, drifted=True,
@@ -330,7 +377,7 @@ ENTRY = {
               "Gaia&rsquo;s astrometric reduction to a literature where it is not located: in "
               "the 5.5 MB OCR text of the seventh edition searched for this entry, "
               "<em>Gaia</em> occurs once, inside a quoted ESO press release about dark matter at "
-              "Vol. I p. 245. Item 346 widens VLBI to interferometry in general, which is a "
+              "Vol. I pp. 245&ndash;246. Item 346 widens VLBI to interferometry in general, which is a "
               "<code>scope_widened</code> reading if taken on its own; <code>unsourced_addition</code> "
               "is recorded for the cluster because it is the plainest and most checkable of the "
               "three, and because a reader can verify it with one search.<br><br>"
@@ -375,12 +422,18 @@ ENTRY = {
              url="https://www.aanda.org/articles/aa/full_html/2013/07/aa21585-13/aa21585-13.html"),
         dict(label="Rosat & Lambert, “Free core nutation resonance parameters from VLBI and "
                    "superconducting gravimeter data”, A&A 503:287 (2009) — −429.6 ± 0.6 d from "
-                   "nutation, −426.9 ± 1.2 d from gravimeters, “comparable within the error bars”",
+                   "nutation, −426.9 ± 1.2 d from gravimeters, “comparable within the error bars”; "
+                   "15 GGP stations analysed “in order to minimize local effects”, complex tidal "
+                   "gravimetric factors computed with ETERNA and corrected for ocean loading "
+                   "(FES2004), the diurnal waves Ψ1 and Φ1 being those closest to the resonance",
              url="https://www.aanda.org/articles/aa/full_html/2009/31/aa11489-08/aa11489-08.html"),
-        dict(label="Schreiber et al., “How to Detect the Chandler and the Annual Wobble of the "
-                   "Earth with a Large Ring Laser Gyroscope”, PRL 107:173904 (2011) — 16 m² ring "
-                   "at Wettzell, flicker floor just below 10⁻⁸ of the Earth rate, “excellent "
-                   "agreement with the independent measurements by VLBI”",
+        dict(label="Schreiber, Klügel, Wells, Hurst & Gebauer, “How to Detect the Chandler and "
+                   "the Annual Wobble of the Earth with a Large Ring Laser Gyroscope”, PRL "
+                   "107:173904 (2011) — 16 m² helium-neon ring laser gyroscope at Wettzell; the "
+                   "detection of both wobbles “verified by comparing the time series of the ring "
+                   "laser measurements against the ‘C04 series’ of Earth rotation data from the "
+                   "International Earth Rotation and Reference System Service”. Paywalled; the "
+                   "abstract is what was read for this entry",
              url="https://link.aps.org/doi/10.1103/PhysRevLett.107.173904"),
         dict(label="Reid & Honma, “Micro-Arcsecond Radio Astrometry” (Ann. Rev. A&A 52:339, 2014) "
                    "— VLBI maser parallaxes at typically ±20 µas, best ±5 µas; 0.090 ± 0.006 mas "
@@ -403,8 +456,10 @@ ENTRY = {
              url="https://en.wikipedia.org/wiki/Day_length_fluctuations"),
         dict(label="Sungenis & Bennett, Galileo Was Wrong, 7th ed. (2013), Vols. 1–3 — Internet "
                    "Archive scan; the VLBI paragraph at Vol. I ch. 2, printed pp. 205–206; the "
-                   "rotating universe that “carries the stars with it” at Vol. I p. 229; "
-                   "“On Telescope Limits” at Vol. II ch. 10, printed p. 248",
+                   "rotating universe that “carries the stars with it” at Vol. I p. 230; "
+                   "“On Telescope Limits” at Vol. II ch. 10, printed p. 249. Printed folios sit "
+                   "at the foot of their own page in this OCR, so text following marker N is "
+                   "page N+1",
              url="https://archive.org/details/galileo-was-wrong-the-church-was-right-sungenis-vol-1-3-complete"),
         dict(label="Sungenis & Bennett, Galileo Was Wrong Vol. I (2006 CD issue) — the text in "
                    "which VLBI is not located; searched for this entry",

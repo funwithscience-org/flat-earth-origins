@@ -12,7 +12,7 @@ Research notes for whoever picks this up next.
    edition our cluster record cites.
 
    (a) ROWBOTHAM, 3rd ed. 1881, ch. XIV "Examination of the So-Called 'Proofs' of
-       the Earth's Rotundity", section ARCS OF THE MERIDIAN, printed pp. 245-246
+       the Earth's Rotundity", section ARCS OF THE MERIDIAN, printed p. 245
        (sacred-texts za40.htm): "If, however, the celestial surface is not concave,
        but horizontal, two plumb-lines suspended north and south of each other would
        be parallel, and would indicate equal length in all the degrees of latitude
@@ -47,8 +47,10 @@ Research notes for whoever picks this up next.
 
 2. NOBODY IN THE SOURCES OBSERVED A PLUMB LINE. This is the single most important
    fact about the cluster and it is easy to miss. Rowbotham's claim is an INFERENCE
-   from a printed table of British meridian-arc degree lengths (Beachy Head, Dunnose,
-   Clifton, Blenheim, Greenwich, Arbury Hill), quoted from Hugh Murray. Carpenter's
+   from a printed table of British meridian-arc degree lengths — eight arcs paired from
+   five stations, Clifton, Arbury Hill, Blenheim, Greenwich and Dunnose (Beachy Head is
+   NOT in the table; it belongs to the perpendicular-degree passage before it) — quoted
+   from Hugh Murray. Carpenter's
    claim is that no observation shows the non-parallelism. Neither hangs a wire.
    Answer the inference, not a measurement they never made.
 
@@ -85,37 +87,70 @@ Research notes for whoever picks this up next.
    HORN 1: if the sky is far enough that its rays arrive parallel, then a plumb line
    and a star subtend the same angle everywhere, latitude does not vary, and the
    table of degree lengths he is arguing from cannot exist as a quantity.
-   HORN 2: if the sky is at finite height h — which is his position, stated six pages
-   earlier in the same chapter under DECLINATION OF THE POLE STAR, where Polaris
-   sinking towards the equator is "an ordinary effect of perspective" — then
+   HORN 2: if the sky is at finite height h — which is his position, stated earlier in
+   the same chapter under DECLINATION OF THE POLE STAR, sacred-texts za37.htm, printed
+   pp. 230-232 (the phrase itself on p. 231), where Polaris sinking towards the equator
+   is "an ordinary effect of perspective" — that is FOURTEEN printed pages before the
+   plumb-lines passage on p. 245, not six; on the reformatted archive.org scan the two
+   sit at about p. 180 and p. 189. Cite the heading, not a page count, in the body — then
    d = h*cot(alpha) and the ground length of one degree is h/sin^2(alpha) per radian.
    At alpha = 51 deg that is 0.0289h per degree; at alpha = 10 deg it is 0.5789h.
    TWENTY TIMES LONGER near the equator, and in the direction of lengthening. The
    measured degree runs 110.574 km at the equator to 111.694 km at the pole: about
    1%, and the other way. So "equal degrees on a plane" fails on his own optics.
 
-6. HIS ANOMALY IS REAL AND ITS CAUSE CONVICTS HIM. The British arcs really did come
-   out with degrees decreasing northward — "as if the Earth were an oblong instead
-   of an oblate spheroid" — and Murray's own text says "It has been found impossible
-   to explain the want of agreement in a satisfactory way." The standard answer is
-   station error: the plumb line at each astronomical station is pulled sideways by
-   the local mass, corrupting the observed latitude. 1911 Encyclopaedia Britannica,
-   "Earth, Figure of the": "At sixteen astronomical stations in the English survey
-   the disturbance of latitude due to the form of the ground has been computed ...
-   At six stations the deflection is under 2", at six others it is between 2" and 4",
-   and at four stations it exceeds 4"," and "The non-recognition of this circumstance
-   often led to much perplexity in the early history of geodesy."
-   MAGNITUDE CHECK (ours): his table spans 60,766-60,890 fathoms, a spread of 124 in
-   60,800 = 0.20%. The shortest arc in it, Dunnose-Greenwich, is about 0.86 deg =
-   3,096 arcsec; 0.20% of that is 6.2 arcsec of latitude error. That is the ordinary
-   size of a vertical deflection. State this as a magnitude argument, NOT as a
-   published reanalysis of that table — we did not find one.
+6. HIS ANOMALY IS REAL AND IT IS THE SIZE OF THE EFFECT HE ARGUES AGAINST. The British
+   arcs really did come out with degrees decreasing northward — "as if the earth were
+   an oblong instead of an oblate spheroid". TWO MURRAY REMARKS, TWO REFERENTS, DO NOT
+   MERGE THEM (checked against sacred-texts za40.htm and the archive.org 3e scan, both
+   in the same order). BEFORE the table, about the Beachy Head-Dunnose degree measured
+   PERPENDICULAR to the meridian: the axis ratio from it "differed considerably from
+   that obtained by meridional degrees. It has been found impossible to explain the want
+   of agreement in a satisfactory way." AFTER the table, about the tabulated meridional
+   degrees themselves: "instead of the degrees increasing as we proceed from north to
+   south, they appear to decrease, as if the earth were an oblong ..." The "impossible
+   to explain" sentence is NOT about the northward decrease.
+   The candidate cause, then and now, is station error: the plumb line at each
+   astronomical station is pulled sideways by the local mass, corrupting the observed
+   latitude. 1911 Encyclopaedia Britannica, "Earth, Figure of the": "At sixteen
+   astronomical stations in the English survey the disturbance of latitude due to the
+   form of the ground has been computed ... At six stations the deflection is under 2",
+   at six others it is between 2" and 4", and at four stations it exceeds 4"," a further
+   exceptional Banffshire station at 10", "The non-recognition of this circumstance
+   often led to much perplexity in the early history of geodesy," and the sensitivity:
+   comparing two degree-arcs about five degrees apart, "if [the probable error of an
+   observed latitude] be so great as 2" the probable error of the resulting ellipticity
+   will be greater than the ellipticity itself."
+   MAGNITUDE CHECK (ours, recomputed 2026-08-11): his table spans 60,766-60,890 fathoms,
+   a spread of 124 in 60,800 = 0.20%. Solving the table's own mean-latitude column gives
+   Clifton 53 deg 27' 31", Greenwich 51 deg 28' 40", Arbury Hill 52 deg 13' 28", Dunnose
+   50 deg 37' 08" (each within an arcsecond or two of the published station latitudes;
+   the system is overdetermined and seven of the eight rows agree). The SHORTEST arc is
+   therefore Arbury Hill-Greenwich, 44' 48" = 0.747 deg = 2,688 arcsec — NOT
+   Dunnose-Greenwich, which is 51' 32" = 3,092 arcsec and second shortest. 0.20% of
+   2,688 arcsec is about 5.4 arcsec of latitude error, i.e. the difference between two
+   ordinary station deflections. (The "Dunnose and Arbury Hill 51 35 18.2" row is a
+   one-digit slip for 51 25 18.2 in the printed table itself — both transcriptions carry
+   it; the other rows fix the stations without it.)
+   STATE THIS AS A MAGNITUDE ARGUMENT, NOT AS A PUBLISHED REANALYSIS of that table — we
+   did not find one, and the 1911 Britannica's own prolate-result discussion is about the
+   Cassini arc in France, not about the English survey, which it presents as achieving
+   "a precision previously unknown". The published prose must not say the anomaly WAS
+   caused by deflection of the vertical. It says it is the SIZE of it.
 
 7. WHY DEFLECTION OF THE VERTICAL IS NOT AN AD HOC RESCUE. This is the defence to
-   beat, and it is von Gumpach's, quoted by Rowbotham at pp. 243-244: astronomy
+   beat, and it is von Gumpach's, quoted by Rowbotham at pp. 242-243 (NOT 243-244:
+   "without any proof or reason whatever" and "such imaginary directions as are needed"
+   both fall between the sacred-texts [p. 242] and [p. 243] markers, "unsupported by
+   even the shadow of a reason" between [p. 243] and [p. 244]; nothing quoted here is on
+   p. 244, which carries Murray and the table): astronomy
    "gives to the plumb-lines such imaginary directions as are needed in order to
    adapt the empirical results of geodetic measurements to the earth's imagined
-   form." Three answers, in ascending order:
+   form." HIS TWO CHARGES ARE SEPARATE AND MUST NOT BE MERGED: (i) that astronomy
+   assumes "without any proof or reason whatever" that plumb lines are NOT all directed
+   to the earth's centre, and (ii) that their being "perpendicular to a tangent to that
+   point, or to the plane of its horizon" is "a mere assumption, unsupported by even the
+   shadow of a reason". Three answers, in ascending order:
    (a) It made a prediction and the prediction FAILED. Everest's Great Trigonometrical
        Survey found the Kaliana-Kalianpur latitude difference 5.24 arcsec smaller
        geodetically than astronomically. Pratt (read 7 Dec 1854, published 1855)
@@ -129,11 +164,18 @@ Research notes for whoever picks this up next.
        a camera along the local plumb line and compare the star field against a
        GNSS-derived position and time: accuracy 0.1 arcsec, values reaching "many 10s
        of arc-seconds". The slope "is determined solely by the camera system".
-   (c) Three independent instruments agree. Sensors 16(4):565 (2016) compares a
+   (c) Three independent instruments agree. Vittuari, Tini, Sarti, Serantoni, Borghi,
+       Negusini and Guillaume, Sensors 16(4):565 (2016) — NOT "Barzaghi et al.", who is
+       not an author; the slip is probably from the ITALGEO geoid model the paper uses
+       (author list verified at mdpi.com/1424-8220/16/4/565, 2026-08-11). It compares a
        QDaedalus astro-geodetic camera, GNSS-plus-geometric-levelling, and the
-       ITALGEO2005 gravimetric geoid: the first two agree "well within the 1 arcsec
-       level", the gravimetric model at about 2.5 arcsec standard deviation and
-       "statistically consistent with the others".
+       ITALGEO2005 gravimetric geoid, and concludes "The three methods are in excellent
+       agreement, with an operational supremacy of the astro-geodetic method". THE TWO
+       NUMBERS ARE EACH METHOD'S OWN PRECISION, NOT AN AGREEMENT AND NOT AN OFFSET:
+       GNSS-plus-levelling "has slightly larger standard deviations; although well within
+       the 1 arcsec level, which was assumed as threshold", and "the geoid model based
+       method, whose 2.5 arcsec standard deviations exceed this threshold, is also
+       statistically consistent with the others".
 
 8. THE TAMARACK MINE, because a well-read defender will raise it and it is the only
    real plumb-line anomaly on offer. Calumet, Michigan, 1901-02: J. B. Watson hung
@@ -142,9 +184,12 @@ Research notes for whoever picks this up next.
    results ran -0.028 to +0.141 ft with measurement error under 0.003 ft; he
    attributed the divergence to convection currents in the shafts. Our arithmetic:
    the geometric convergence expected for 15 ft of separation over 4,250 ft of depth
-   is 4250 x 15/20,902,231 = 0.0031 ft, about 0.9 mm — one tenth of the smallest
-   number in McNair's range and a fortieth of the largest. The experiment could not
-   have detected the effect either way. Say that; do not say the anomaly is a fake.
+   is 4250 x 15/20,902,231 = 0.0031 ft, about 0.9 mm — the same size as the 0.003 ft
+   McNair gives as his measurement error, and between a ninth and a forty-fifth of the
+   deviations he recorded. The experiment could not have detected the effect either
+   way. Say that; do not say the anomaly is a fake. THIS PARAGRAPH IS NOW IN THE BODY
+   (refutation section 5): advocate.* is not rendered by render.py, so an answer parked
+   there is an answer no reader can reach.
 
 9. VERDICT. REFUTED kept. SELF-CONTRADICTED was seriously considered, on the ground
    that Rowbotham's evidence (a table of degree lengths measured against the plumb
@@ -178,10 +223,19 @@ Research notes for whoever picks this up next.
     reports on the texts searched.
 
 12. QUOTE PROVENANCE. Rowbotham 1881 was read in two transcriptions: sacred-texts
-    za40.htm (printed pp. 245-246) and the archive.org scan at item
-    zeteticastronomy-earthnotaglobe, file ZeteticAstronomy-EarthNotaGlobe-3e-format2,
-    which is a REFORMATTED PDF and paginates the same passage at about pp. 186-189.
-    Do not merge the two page ranges; the printed-page citation follows sacred-texts.
+    za40.htm and the archive.org scan at item zeteticastronomy-earthnotaglobe, file
+    ZeteticAstronomy-EarthNotaGlobe-3e-format2, a REFORMATTED PDF.
+    PAGE CONVENTIONS, ESTABLISHED 2026-08-11 AND DIFFERENT IN THE TWO FILES.
+    sacred-texts puts its "[p. N]" marker at the TOP of page N — checked on za04.htm and
+    za05.htm, whose files open with "[p. 1]" and "[p. 9]" before the first line of text.
+    So text lying between the [p. 245] and [p. 246] markers is on p. 245, and the
+    plumb-lines passage is on p. 245 ALONE, not pp. 245-246. On that convention the
+    section ARCS OF THE MERIDIAN opens on p. 241, von Gumpach runs pp. 242-243, Murray
+    and the degree table are on p. 244, the plumb-lines passage is on p. 245.
+    The archive.org reformatted scan puts its page number at the FOOT of the page (its
+    own contents list, which gives ARCS OF THE MERIDIAN at 187, is the cross-check): the
+    section opens at p. 187, von Gumpach spans 187-188, table and passage are on p. 189.
+    Do not merge the two paginations; the printed-page citation follows sacred-texts.
     Both transcriptions read "spewing" where the word is plainly "shewing"; the quote
     below prints "shewing" and the gloss records the OCR slip. Neither was checked
     against a print copy. Carpenter is quoted from Gutenberg #55387, which reproduces
@@ -199,19 +253,23 @@ ENTRY = {
           "twenty-metre street, which is why a Victorian bricklayer saw nothing, and by 42 "
           "arcseconds across the Verrazzano-Narrows, whose operator says its towers were built "
           "1 5/8 inches farther apart at the top to compensate for the curvature. And the "
-          "survey discrepancy Rowbotham reads as the failure of geodesy traces to the plumb "
-          "line being pulled sideways by the ground beneath each station — the effect whose "
-          "measurement produced the theory of isostasy in 1855."),
+          "survey discrepancy Rowbotham reads as the failure of geodesy amounts to about "
+          "five arcseconds of latitude on his shortest arc — the difference between two "
+          "ordinary sideways deflections of the plumb line by the ground beneath the "
+          "station, the effect whose measurement produced the theory of isostasy in 1855."),
 
     passage=dict(
         work="WRK-ROWBOTHAM-1865",
         pd=True,
         locator=("3rd ed., rev. and enl. (London: Day, 1881), ch. XIV “Examination of the "
                  "So-Called ‘Proofs’ of the Earth's Rotundity”, section “Arcs of the Meridian”, "
-                 "printed pp. 245–246 as paginated at sacred-texts za40.htm. Not the 1865 first "
-                 "book edition — see the gloss. A reformatted archive.org scan of the third "
-                 "edition paginates the same passage at about pp. 186–189; the two page ranges "
-                 "are not interchangeable, and neither transcription was checked against print"),
+                 "printed p. 245 as paginated at sacred-texts za40.htm, whose “[p. N]” markers "
+                 "stand at the head of page N. The section opens at p. 241; the von Gumpach "
+                 "extract quoted in the straw-man note is at pp. 242–243 and the degree table "
+                 "at p. 244. Not the 1865 first book edition — see the gloss. A reformatted "
+                 "archive.org scan of the third edition, which numbers pages at the foot, carries "
+                 "the same section at pp. 187–189; the two paginations are not interchangeable, "
+                 "and neither transcription was checked against print"),
         quote=("The fallacy involved in all the attempts to prove the oblate spheroidal form of "
                "the earth, is, that the earth is first assumed to be a globe, the celestial "
                "surface above it to be concave, and the plumb-lines to be radii. If this were "
@@ -227,7 +285,7 @@ ENTRY = {
                "rotundity, but demonstrating that the earth is parallel to the horizontal "
                "heavens, and therefore of mathematical and logical necessity A plane."),
         gloss="""<p><strong>Read the last three sentences before deciding this is a hypothetical.</strong> The argument opens on a condition &mdash; <em>if</em> the celestial surface is horizontal &mdash; and it would be convenient for us to stop there and say the source never asserted anything. It does. The condition is followed immediately by a flat empirical claim (&ldquo;The differences required by a globe are not found in practice&rdquo;) and a flat conclusion (&ldquo;of mathematical and logical necessity A plane&rdquo;). Rowbotham is not hedging and this page does not pretend he is.</p>
-<p><strong>What he is arguing from is a table, not a plumb line.</strong> The section is about arcs of the meridian. Six pages of it reproduce the British Ordnance Survey&rsquo;s degree lengths &mdash; Beachy Head, Dunnose, Clifton, Blenheim, Greenwich, Arbury Hill &mdash; quoted from Hugh Murray&rsquo;s <em>Encyclopaedia of Geography</em>, together with Murray&rsquo;s observation that the degrees &ldquo;appear to <em>decrease</em>, as if the Earth were an <em>oblong</em> instead of an <em>oblate</em> spheroid&rdquo; and his admission that &ldquo;It has been found impossible to explain the want of agreement in a satisfactory way.&rdquo; The parallel plumb lines are an <em>inference</em> from that discrepancy. Neither this passage nor Carpenter&rsquo;s reports hanging a wire and measuring one, and the refutation below is aimed at the inference rather than at a measurement they did not make.</p>
+<p><strong>What he is arguing from is a table, not a plumb line.</strong> The section is about arcs of the meridian, and at its centre is a table of the British Ordnance Survey&rsquo;s degree lengths, eight arcs paired from five stations &mdash; Clifton, Arbury Hill, Blenheim, Greenwich and Dunnose &mdash; quoted from Hugh Murray&rsquo;s <em>Encyclopaedia of Geography</em>. Two remarks of Murray&rsquo;s travel with it and they are about two different failures. <em>Before</em> the table, about a degree measured perpendicular to the meridian between Beachy Head and Dunnose: the polar-to-equatorial axis ratio computed from it &ldquo;differed considerably from that obtained by meridional degrees. It has been found impossible to explain the want of agreement in a satisfactory way.&rdquo; <em>After</em> the table, about the tabulated meridional degrees themselves: &ldquo;instead of the degrees <em>increasing</em> as we proceed from north to south, they appear to <em>decrease</em>, as if the earth were an <em>oblong</em> instead of an <em>oblate</em> spheroid.&rdquo; It is the second that Rowbotham builds on; the first is a separate concession about a separate quantity, and this page does not pool them. The parallel plumb lines are an <em>inference</em> from the tabulated discrepancy. Neither this passage nor Carpenter&rsquo;s reports hanging a wire and measuring one, and the refutation below is aimed at the inference rather than at a measurement they did not make.</p>
 <p><strong>The edition matters.</strong> This passage is in the third edition of 1881. It is not located in the 1865 first book edition: the Project Gutenberg text of that edition (#69892) was searched for <em>plumb</em>, <em>perpendicular</em>, <em>wall</em>, <em>building</em>, <em>spire</em> and <em>tower</em>, and its three occurrences of &ldquo;plumb&rdquo; are all instrumental &mdash; the <em>Encyclop&aelig;dia Britannica</em> &ldquo;Levelling&rdquo; extract that defines the level as a line crossing the plumb-line at right angles, an air-gun &ldquo;carefully adjusted by a plumb-line&rdquo;, and a mirror at Plymouth Hoe &ldquo;fixed, by the aid of a plumb-line, in a true vertical position&rdquo;. The 1865 text carries the arcs material and the &ldquo;oblong&rdquo; quotation; what 1881 adds is the von Gumpach extract and the plumb-lines-are-parallel inference drawn from them. Both online transcriptions of the third edition read &ldquo;spewing&rdquo; in the sentence above, an OCR slip for &ldquo;shewing&rdquo;.</p>
 <p><strong>The other half of the cluster is Carpenter&rsquo;s, and it is a different claim.</strong> Items 396 and 397 &mdash; architecture and skyscrapers &mdash; match <em>One Hundred Proofs that the Earth Is Not a Globe</em> (Baltimore, 1885), proof 72, indexed by its author as &ldquo;Walls not parallel!&rdquo;: <em>&ldquo;Astronomers tell us that, in consequence of the Earth&rsquo;s &lsquo;rotundity,&rsquo; the perpendicular walls of buildings are, nowhere, parallel, and that even the walls of houses on opposite sides of a street are not strictly so! But, since all observation fails to find any evidence of this want of parallelism which theory demands, the idea must be renounced as being absurd and in opposition to all well-known facts.&rdquo;</em> Note what that is: an accurate statement of the globe&rsquo;s prediction, followed by a claim that the prediction is not observable. At his scale it was not. Across a twenty-metre street the two walls lean apart by 0.65 of an arcsecond.</p>
 <p><strong>What these passages are being cited as.</strong> The earliest texts located carrying the two halves of this cluster in the form the list uses. They are ancestors and that is all &mdash; no earlier flat-earth or geocentric text was traced that puts either claim first, and neither man is credited here with originating it.</p>"""),
@@ -235,9 +293,9 @@ ENTRY = {
     steelman=dict(
         description="""<p><strong>SURFACE (weak &mdash; do not use).</strong> &ldquo;Plumb lines obviously converge on the centre; this is trivially false.&rdquo; It walks straight into Carpenter&rsquo;s actual point. He never denied what the theory predicts; he denied that anybody had <em>seen</em> it. Across the width of a street the predicted lean is 0.65 arcsec, far below what a mason&rsquo;s plumb bob, a builder&rsquo;s square or a spirit level resolves. Answering &ldquo;but the theory says so&rdquo; to a man complaining that the theory&rsquo;s prediction has never been observed is answering nothing.</p>
 <p><strong>DEEPER.</strong> The argument is non-discriminating: &ldquo;plumb&rdquo; means <em>along local gravity</em> and &ldquo;level&rdquo; means <em>perpendicular to it</em>, so a builder who works plumb and level has measured the direction of gravity at one site and nothing else. True, and it disposes of items 396 and 397 &mdash; but it does not touch Rowbotham, whose claim is not about definitions at all. His is an inference from published survey data, and the data really were discordant.</p>
-<p><strong>KERNEL.</strong> Two genuinely true things sit underneath this cluster. The first: <em>the British arc measurements came out wrong, and a standard reference work of the day said so.</em> The degrees decreased going north, which is the signature of a prolate Earth and the opposite of what flattening at the poles requires, and Murray&rsquo;s own text concedes that the want of agreement could not be satisfactorily explained. Rowbotham did not invent that; he found it in print and quoted it accurately. The second, which is sharper: <em>the plumb line genuinely does not point at the centre of the Earth,</em> and geodesy genuinely does substitute a computed ellipsoid normal for the observed vertical. Rowbotham prints von Gumpach making exactly that charge &mdash; that astronomy &ldquo;gives to the plumb-lines such imaginary directions as are needed in order to adapt the empirical results of geodetic measurements to the earth&rsquo;s imagined form.&rdquo; The distinction between the direction a plumb bob actually hangs and the direction the reference figure says it should is real, has a name, and is the subject of a whole sub-discipline.</p>""",
-        why_it_doesnt_save_claim="""<p>Because both true things have <em>the same single cause</em>, and that cause is the plumb line moving.</p>
-<p>The arcs disagreed because the astronomical latitude of each station is read against a plumb line that the surrounding rock pulls sideways. The 1911 <em>Encyclop&aelig;dia Britannica</em>&rsquo;s article on the figure of the Earth reports the computation for the English survey itself: at sixteen astronomical stations, six deflections under 2&Prime;, six between 2&Prime; and 4&Prime;, four above 4&Prime; &mdash; and adds that &ldquo;The non-recognition of this circumstance often led to much perplexity in the early history of geodesy.&rdquo; Rowbotham was reading the perplexity. The scatter in his own table is 124 fathoms in 60,800, or 0.20%; on its shortest arc, Dunnose to Greenwich at about 0.86&deg;, that is 6.2 arcseconds of latitude error. Which is precisely the size of the deflections the Britannica lists.</p>
+<p><strong>KERNEL.</strong> Two genuinely true things sit underneath this cluster. The first: <em>the British arc measurements came out wrong, and a standard reference work of the day said so.</em> The tabulated degrees decreased going north, which is the signature of a prolate Earth and the opposite of what flattening at the poles requires; and the same source records a second, separate failure a page earlier &mdash; that the axis ratio got from a degree measured perpendicular to the meridian &ldquo;differed considerably&rdquo; from the ratio got from meridional degrees, and that &ldquo;It has been found impossible to explain the want of agreement in a satisfactory way.&rdquo; Rowbotham invented neither; he found both in print and quoted them accurately. The second, which is sharper: <em>the plumb line genuinely does not point at the centre of the Earth,</em> and geodesy genuinely does substitute a computed ellipsoid normal for the observed vertical. Rowbotham prints von Gumpach making exactly that charge &mdash; that astronomy &ldquo;gives to the plumb-lines such imaginary directions as are needed in order to adapt the empirical results of geodetic measurements to the earth&rsquo;s imagined form.&rdquo; The distinction between the direction a plumb bob actually hangs and the direction the reference figure says it should is real, has a name, and is the subject of a whole sub-discipline.</p>""",
+        why_it_doesnt_save_claim="""<p>Because both true things run on <em>the same quantity</em>, and that quantity exists only if the plumb line moves.</p>
+<p>An astronomical latitude is the angle between the plumb line at a station and the celestial pole; a table of degree lengths is built out of differences between such angles. So every number Rowbotham argues from is a measurement of how much the local vertical has turned between two stations &mdash; and between the ends of his own table, Dunnose on the Isle of Wight and Clifton in Yorkshire, it has turned by 2&deg;&thinsp;50&prime;. As for the scatter that he reads as the failure of geodesy: it is 124 fathoms in 60,800, or 0.20%, and the shortest arc in the table is Arbury Hill to Greenwich, 44&prime;&thinsp;48&Prime; or 2,688 arcseconds, of which 0.20% is about 5.4 arcseconds of latitude. That is the difference between two ordinary station deflections &mdash; the 1911 <em>Encyclop&aelig;dia Britannica</em> computed them for this same English survey and found six of sixteen stations under 2&Prime;, six between 2&Prime; and 4&Prime;, four above 4&Prime;. We located no published reanalysis of Rowbotham&rsquo;s particular table, so that is a statement about magnitudes and not an attribution of cause.</p>
 <p>So the argument runs on a quantity that exists only because plumb lines are <em>not</em> parallel. Take the non-parallelism away and there is no station error, no discordance between arcs, and nothing for the passage to be about. The strongest thing in the cluster &mdash; von Gumpach&rsquo;s complaint that the plumb line does not point where the ellipsoid says &mdash; is a complaint that the local vertical wanders from place to place. That is the claim being denied.</p>"""),
 
     refutation="""<p><strong>The concession first, because it is real and because the easy version of this rebuttal loses to it.</strong> At the scale Carpenter names, he was right that nothing was observable. Two plumb lines a distance <em>d</em> apart converge by <em>d</em>/<em>R</em> radians. Across a twenty-metre street that is 3.1 &times; 10<sup>&minus;6</sup> rad, or <strong>0.65 arcseconds</strong>; across a hundred-metre city block, 3.2 arcseconds. No mason, spirit level or Victorian theodolite was going to find that in a party wall, and saying &ldquo;the theory predicts it&rdquo; to a man whose objection is that the prediction has never been seen concedes his point rather than answering it. (Recomputed here 2026-08-10 with <em>R</em> = 6,371 km.)</p>
@@ -257,15 +315,17 @@ ENTRY = {
 <p><strong>Which is Rowbotham&rsquo;s problem, because the tabulated degrees are his evidence.</strong> His premise is that the celestial surface is &ldquo;not concave, but horizontal&rdquo; &mdash; a sky parallel to the plane. Take that premise seriously in either of its two available forms:</p>
 
 <ul>
-<li><strong>If the sky is far enough away that its rays arrive parallel</strong>, the angle between a plumb line and a star is identical at every station. Polaris stands at the same altitude in London and in Ceylon. There is no latitude, no arc, and no table &mdash; and the quantity Rowbotham spends six pages arguing about cannot be measured at all.</li>
-<li><strong>If the sky is at a finite height <em>h</em></strong> &mdash; which is his actual position, set out six pages earlier in the same chapter, where Polaris sinking towards the equator is &ldquo;an ordinary effect of perspective&rdquo; like a receding row of lamp-posts &mdash; then a station seeing Polaris at altitude &alpha; stands at ground distance <em>h</em>&thinsp;cot&thinsp;&alpha; from beneath it, and one degree of &ldquo;latitude&rdquo; occupies a ground length proportional to 1/sin<sup>2</sup>&alpha;. At &alpha; = 51&deg; that is 0.029<em>h</em>; at &alpha; = 10&deg; it is 0.579<em>h</em>. <strong>A degree near the equator would be twenty times longer than a degree in England</strong>, and lengthening fast as you go south. The measured degree runs from 110.574 km at the equator to 111.694 km at the pole &mdash; about one per cent, and in the other direction.</li>
+<li><strong>If the sky is far enough away that its rays arrive parallel</strong>, the angle between a plumb line and a star is identical at every station. Polaris stands at the same altitude in London and in Ceylon. There is no latitude, no arc, and no table &mdash; and the quantity Rowbotham spends the whole section arguing about cannot be measured at all.</li>
+<li><strong>If the sky is at a finite height <em>h</em></strong> &mdash; which is his actual position, set out earlier in the same chapter under the heading &ldquo;Declination of the Pole Star&rdquo; (pp. 230&ndash;232), where Polaris sinking towards the equator is &ldquo;an ordinary effect of perspective&rdquo; like a receding row of lamp-posts &mdash; then a station seeing Polaris at altitude &alpha; stands at ground distance <em>h</em>&thinsp;cot&thinsp;&alpha; from beneath it, and one degree of &ldquo;latitude&rdquo; occupies a ground length proportional to 1/sin<sup>2</sup>&alpha;. At &alpha; = 51&deg; that is 0.029<em>h</em>; at &alpha; = 10&deg; it is 0.579<em>h</em>. <strong>A degree near the equator would be twenty times longer than a degree in England</strong>, and lengthening fast as you go south. The measured degree runs from 110.574 km at the equator to 111.694 km at the pole &mdash; about one per cent, and in the other direction.</li>
 </ul>
 
 <p>So the sentence &ldquo;two plumb-lines suspended north and south of each other would be parallel, and would indicate equal length in all the degrees of latitude&rdquo; does not follow from either version of his own sky. On the first there are no degrees; on the second they are grossly unequal. The globe predicts a one-per-cent lengthening polewards and that is what the surveys find, to the point where the residual disagreements are small enough to be diagnostic of something else.</p>
 
-<h4>3. That something else is the plumb line, moving &mdash; and it was not invented to save the ellipsoid</h4>
+<h4>3. That something else is the size of the plumb line&rsquo;s own wandering &mdash; which was not invented to save the ellipsoid</h4>
 
-<p>Rowbotham&rsquo;s anomaly is genuine. British degrees came out shortening northwards, an oblong figure, and his source concedes it could not be satisfactorily explained. The explanation, when it came, was that the astronomical latitude of a station is read against a plumb line deflected by the mass around it. The 1911 <em>Encyclop&aelig;dia Britannica</em> gives the numbers for the English survey specifically &mdash; sixteen stations computed, four of them deflected by more than 4 arcseconds by the form of the ground &mdash; and remarks that failing to recognise this &ldquo;often led to much perplexity in the early history of geodesy.&rdquo; Six arcseconds of latitude error at the ends of the shortest arc in Rowbotham&rsquo;s own table would produce the whole 0.20% spread in it.</p>
+<p>Rowbotham&rsquo;s anomaly is genuine: the tabulated British degrees shorten going north, an oblong figure, and the reference work he quotes prints that observation &mdash; and, of a separate result on the page before, that the axis ratio from a degree measured perpendicular to the meridian &ldquo;differed considerably from that obtained by meridional degrees. It has been found impossible to explain the want of agreement in a satisfactory way.&rdquo; What his source does not do is say what produced the northward decrease, and we should be equally careful: <strong>we found no published reanalysis of this particular table</strong>, so what follows is an argument about magnitudes, not an attribution of cause.</p>
+
+<p>The candidate is the one geodesy already had. The astronomical latitude of a station is read against a plumb line that the mass around it pulls sideways, and the 1911 <em>Encyclop&aelig;dia Britannica</em> gives the computed numbers for the English survey specifically: sixteen stations, six deflected by under 2 arcseconds by the form of the ground, six between 2&Prime; and 4&Prime;, four above 4&Prime;, with one exceptional station on the Banffshire coast reaching 10&Prime;. It remarks that failing to recognise this &ldquo;often led to much perplexity in the early history of geodesy&rdquo;, and it states the sensitivity outright: comparing two degree-arcs about five degrees of latitude apart, &ldquo;if &epsilon; be so great as 2&Prime; the probable error of the resulting ellipticity will be greater than the ellipticity itself&rdquo;, &epsilon; being the probable error of an observed latitude. Now measure Rowbotham&rsquo;s table against that. Its spread is 124 fathoms in 60,800, or 0.20%; its shortest arc is Arbury Hill to Greenwich, 44&prime;&thinsp;48&Prime; or 2,688 arcseconds; and 0.20% of that arc is about 5.4 arcseconds of latitude &mdash; the difference between two ordinary station deflections. The whole failure of geodesy he is reporting is the size of the effect he is arguing does not exist.</p>
 
 <p>Von Gumpach&rsquo;s reply, which Rowbotham prints, is that this is circular: astronomers assign the plumb lines &ldquo;such imaginary directions as are needed&rdquo; to fit the shape they have assumed. It is the best objection in the cluster and it has three answers.</p>
 
@@ -273,7 +333,7 @@ ENTRY = {
 
 <p><strong>Second, the direction of the plumb line is now measured, not assigned.</strong> The US National Geodetic Survey&rsquo;s deflection-of-the-vertical surveys set a camera on a benchmark, align it precisely to the local plumb line, and compare the observed star field with the positions expected from a GNSS-derived location and time. Accuracy: 0.1 arcsecond. Observed deflections: &ldquo;many 10s of arc-seconds&rdquo;. The agency&rsquo;s own description of the method notes that while GNSS supplies position and time, &ldquo;the slope is determined solely by the camera system&rdquo;. That is the plumb bob and the sky, and nothing else.</p>
 
-<p><strong>Third, independent instruments agree.</strong> A 2016 comparison in <em>Sensors</em> ran three unrelated methods at the same sites &mdash; an astro-geodetic zenith camera, GNSS heights differenced against spirit levelling, and a gravimetric geoid computed from measured gravity. The first two agree &ldquo;well within the 1 arcsec level&rdquo;; the gravity-derived values sit about 2.5 arcseconds out and remain &ldquo;statistically consistent with the others&rdquo;. A star camera, a levelling staff and a gravimeter are three different physical measurements &mdash; starlight, height differences, and the pull of gravity itself. They return the same tilt.</p>
+<p><strong>Third, independent instruments agree.</strong> A 2016 comparison in <em>Sensors</em> ran three unrelated methods at the same sites &mdash; an astro-geodetic zenith camera, GNSS heights differenced against spirit levelling, and a gravimetric geoid computed from measured gravity &mdash; and reports: <em>&ldquo;The three methods are in excellent agreement, with an operational supremacy of the astro-geodetic method, being faster and more precise than the others.&rdquo;</em> The two numbers usually quoted from it are each method&rsquo;s own precision, not a disagreement between methods: the GNSS-plus-levelling combination &ldquo;has slightly larger standard deviations; although well within the 1 arcsec level, which was assumed as threshold&rdquo;, while &ldquo;the geoid model based method, whose 2.5 arcsec standard deviations exceed this threshold, is also statistically consistent with the others&rdquo;. A star camera, a levelling staff and a gravimeter are three different physical measurements &mdash; starlight, height differences, and the pull of gravity itself. They return the same tilt.</p>
 
 <h4>4. Architecture and skyscrapers: a measurement of one point</h4>
 
@@ -281,7 +341,9 @@ ENTRY = {
 
 <h4>5. What is left</h4>
 
-<p>Carpenter&rsquo;s observation was correct for his instruments and is now false for ours: the non-parallelism he could not find is 41 millimetres of designed spread between two bridge towers, and a tenth of an arcsecond is the routine precision with which the local vertical is now measured against the stars. Rowbotham&rsquo;s anomaly was real and its cause is the thing he was arguing against. Neither text observed a plumb line; both argued from what could not be detected in 1881 and 1885. The claim is not merely unsupported by the modern measurement &mdash; it is the quantity the modern measurement reports, with a value, at every benchmark.</p>""",
+<p>Carpenter&rsquo;s observation was correct for his instruments and is now false for ours: the non-parallelism he could not find is 41 millimetres of designed spread between two bridge towers, and a tenth of an arcsecond is the routine precision with which the local vertical is now measured against the stars. Rowbotham&rsquo;s anomaly was real, and it is the size of the effect he was arguing against. Neither text observed a plumb line; both argued from what could not be detected in 1881 and 1885. The claim is not merely unsupported by the modern measurement &mdash; it is the quantity the modern measurement reports, with a value, at every benchmark.</p>
+
+<p><strong>Somebody did hang the wires, and the answer is arithmetic rather than dismissal.</strong> At the Tamarack mine at Calumet, Michigan in 1901&ndash;02, plumb lines 4,250 ft long and 15 to 16 ft apart were suspended down the shafts and came out <em>farther</em> apart at the bottom; F. W. McNair repeated the work across three shafts and published it in <em>Science</em> XV on 20 June 1902, recording deviations from &minus;0.028 to +0.141 ft with a stated measurement error &ldquo;not greater than 0.003 feet&rdquo;, and traced the divergence to convection currents in the shafts. Put the expected signal beside those numbers: two lines 15 ft apart converging over 4,250 ft of depth should close by 15 &times; 4,250/<em>R</em> = 0.0031 ft, about 0.9 millimetres. That is the same size as his own error bar and between a ninth and a forty-fifth of the deviations he actually measured. A shaft with air moving in it could not have resolved the effect in either direction &mdash; which is a statement about the apparatus, not about the men, whose measurements were careful and honestly reported. The place the effect <em>is</em> resolvable is the one section 1 describes: a structure long enough to stand on two verticals at once.</p>""",
 
     advocate=dict(
         best_defense=(
@@ -329,29 +391,35 @@ ENTRY = {
             "the star field to 0.1 arcsecond, and three unrelated instruments agreeing. "
             "On the third move, concede the premise and note that the entry does not need "
             "it: horn 1 and horn 2 between them exhaust the options, and horn 2 is built "
-            "from Rowbotham's own perspective account of Polaris six pages earlier in the "
-            "same chapter, not from a model we invented for him. Cite the section by name "
-            "so a reader can check. Do not add a refraction rebuttal here; that belongs "
+            "from Rowbotham's own perspective account of Polaris earlier in the same "
+            "chapter - 'Declination of the Pole Star', printed pp. 230-232, fourteen "
+            "pages before the plumb-lines passage - not from a model we invented for him. "
+            "The body cites the section by heading so a reader can check; cite the heading "
+            "rather than a page count. Do not add a refraction rebuttal here; that belongs "
             "to ARG-B07 and importing it weakens both. "
             "On the fourth move, answer with arithmetic and without sneering, because the "
             "Tamarack measurements were careful and honestly reported. Fifteen feet of "
             "separation over 4,250 feet of depth predicts a convergence of 0.0031 ft, "
             "about 0.9 mm. McNair's results across three shafts ran from -0.028 to +0.141 "
-            "ft with a measurement error under 0.003 ft. The expected signal is a tenth "
-            "of his smallest number and a fortieth of his largest: the experiment could "
-            "not have detected it in either direction, which is a statement about the "
-            "apparatus and not about the men. That paragraph should be added to the body "
-            "if this argument is ever attacked in public, and it is written out in the "
-            "docstring above so nobody has to re-derive it."),
+            "ft with a measurement error under 0.003 ft. The expected signal is the size "
+            "of his own error bar, and between a ninth and a forty-fifth of the deviations "
+            "he recorded: the experiment could not have detected it in either direction, "
+            "which is a statement about the apparatus and not about the men. That "
+            "paragraph is now IN THE BODY, at the end of refutation section 5, because "
+            "advocate.* is not rendered - an answer left in this field is an answer no "
+            "reader of the page can reach. Do not let a later edit move it back here."),
     ),
 
     straw_man=dict(
         identified=True,
-        detail=("The von Gumpach extract Rowbotham prints at pp. 243-244 of the third edition "
-                "says that astronomy assumes the plumb line is normal to the local horizon "
-                "“without any proof or reason whatever” and that the assumption is "
-                "“unsupported by even the shadow of a reason”. That misdescribes what "
-                "geodesy does with the two directions. The direction a plumb bob actually hangs "
+        detail=("The von Gumpach extract Rowbotham prints at pp. 242-243 of the third edition "
+                "makes two charges, and they are separate ones. First, that having granted the "
+                "earth departs a little from a perfect sphere, astronomy “not only without any "
+                "proof or reason whatever, assumes” that the plumb lines are no longer all "
+                "directed to the earth's centre. Second, that the plumb line at a point being "
+                "“perpendicular to a tangent to that point, or to the plane of its horizon” is "
+                "“a mere assumption, unsupported by even the shadow of a reason”. Both "
+                "misdescribe what geodesy does with the two directions. The direction a plumb bob actually hangs "
                 "is observed, not assumed - it is what an astronomical latitude and longitude "
                 "are - and the ellipsoid normal is a computed reference. The difference between "
                 "them is not a fudge inserted to reconcile the two; it is a published, mapped, "
@@ -377,13 +445,14 @@ ENTRY = {
         note=("The source&rsquo;s claim is about <em>two</em> plumb lines, <em>north and south of "
               "each other</em>, inferred from one printed table of British meridian arcs running "
               "between Dunnose on the Isle of Wight and Clifton in Yorkshire. The item says "
-              "<em>worldwide</em>. That is the drift, and it is not cosmetic: within a single "
-              "British survey the predicted lean between stations is a matter of arcseconds and "
-              "is swamped by exactly the local effects that produced Rowbotham&rsquo;s anomaly in "
-              "the first place, whereas &ldquo;worldwide&rdquo; is the scale at which two verticals "
-              "differ by up to 180&deg; and at which bridge towers are built non-parallel on "
-              "purpose. The list restates the claim at the one scale where it is most easily "
-              "checked, and it fails there.<br><br>"
+              "<em>worldwide</em>. That is the drift &mdash; though not in the direction it first "
+              "appears. Within the survey the two verticals are not nearly parallel either: "
+              "Dunnose and Clifton lean apart by 2&deg;&thinsp;50&prime;, some 10,200 arcseconds, "
+              "and that lean is the very quantity his table records as latitude, so his own "
+              "evidence presupposes it. What &ldquo;worldwide&rdquo; adds is the scale at which "
+              "two verticals differ by up to 180&deg; and at which bridge towers are built "
+              "non-parallel on purpose. The list restates the claim at the scale where it is most "
+              "easily checked, and it fails there as it already failed at his.<br><br>"
               "<strong>Two more things travel with the argument and neither survives into the "
               "items.</strong> <em>The condition:</em> the sentence is the consequent of &ldquo;if "
               "the celestial surface is not concave, but horizontal&rdquo; &mdash; a premise about "
@@ -423,9 +492,9 @@ ENTRY = {
 
     sources=[
         dict(label="Rowbotham (as “Parallax”), Zetetic Astronomy: Earth Not a Globe, 3rd ed. 1881, "
-                   "ch. XIV, “Arcs of the Meridian”, printed pp. 245–246 — the plumb-lines passage, "
-                   "the von Gumpach extract, and the Ordnance Survey degree table quoted from Hugh "
-                   "Murray’s Encyclopaedia of Geography",
+                   "ch. XIV, “Arcs of the Meridian”, which opens at printed p. 241 — the von Gumpach extract "
+                   "at pp. 242–243, the Ordnance Survey degree table quoted from Hugh Murray’s "
+                   "Encyclopaedia of Geography at p. 244, and the plumb-lines passage at p. 245",
              url="https://sacred-texts.com/earth/za/za40.htm"),
         dict(label="Rowbotham, Zetetic Astronomy: Earth Not a Globe! (1865 first book edition), "
                    "Project Gutenberg #69892 — searched for plumb, perpendicular, wall, building, "
@@ -434,8 +503,9 @@ ENTRY = {
              url="https://www.gutenberg.org/ebooks/69892"),
         dict(label="Rowbotham 1881, 3rd edition — archive.org scan (item "
                    "zeteticastronomy-earthnotaglobe, file ZeteticAstronomy-EarthNotaGlobe-3e-format2), "
-                   "a reformatted PDF that paginates the same section at about pp. 186–189 and "
-                   "carries the “Declination of the Pole Star” perspective argument",
+                   "a reformatted PDF, numbering its pages at the foot, that carries the same "
+                   "section at pp. 187–189 and the “Declination of the Pole Star” perspective "
+                   "argument at about p. 180",
              url="https://archive.org/download/zeteticastronomy-earthnotaglobe/ZeteticAstronomy-EarthNotaGlobe-3e-format2_djvu.txt"),
         dict(label="Carpenter, One Hundred Proofs that the Earth Is Not a Globe (Baltimore, 1885), "
                    "proof 72, indexed “Walls not parallel!” — the buildings-and-streets form of the "
@@ -472,10 +542,12 @@ ENTRY = {
                    "from the Himalaya (read 7 Dec 1854, published 1855), and Airy’s three-page 1855 "
                    "reply proposing compensation at depth",
              url="https://geofaculty.uwyo.edu/dueker/GeophysicsClass/watt%20isostasy%20flexure%20chap-1%20HISTORY.pdf"),
-        dict(label="Barzaghi et al., “A Comparative Study of the Applied Methods for Estimating "
-                   "Deflection of the Vertical in Terrestrial Geodetic Measurements”, Sensors 16(4):565 "
-                   "(2016) — astro-geodetic camera, GNSS-plus-levelling and a gravimetric geoid "
-                   "compared at the same sites",
+        dict(label="Vittuari, Tini, Sarti, Serantoni, Borghi, Negusini & Guillaume, “A Comparative "
+                   "Study of the Applied Methods for Estimating Deflection of the Vertical in "
+                   "Terrestrial Geodetic Measurements”, Sensors 16(4):565 (2016) — astro-geodetic "
+                   "camera, GNSS-plus-levelling and a gravimetric geoid compared at the same sites: "
+                   "“The three methods are in excellent agreement”, the 1″ threshold and the geoid "
+                   "model’s 2.5″ standard deviations",
              url="https://www.mdpi.com/1424-8220/16/4/565"),
         dict(label="Vertical deflection — magnitudes (“less than 10 arc-seconds in flat areas or up "
                    "to 1 arc-minute in mountainous terrain”, up to 100″ in the Himalaya) and "

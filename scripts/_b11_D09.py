@@ -58,20 +58,39 @@ Research notes for whoever picks this up next.
    by the surviving CLXXXVII and CLXXXIX markers either side of it, which the locator
    says. None of this was checked against the 1928 first edition.
 
-4. THE PROVENANCE SEARCH, WHICH CAME BACK CLEAN IN BOTH DIRECTIONS.
-   (a) Zetetic lineage: searching the Project Gutenberg full texts of Rowbotham's
-       Zetetic Astronomy (#69892) and Carpenter's One Hundred Proofs (#55387) for
-       "astrolog" and "zodiac" returns zero hits in each. The founding flat-earth
-       texts have no astrology argument in them.
+4. THE PROVENANCE SEARCH, AND EXACTLY WHAT IT COVERS. Name the edition every time. The
+   searches are scoped and the conclusion drawn from them must not outrun them; an
+   earlier draft of this entry generalised from three files to two whole lineages, and
+   also misdescribed one of the two hits in (b). Both are corrected here.
+   (a) Zetetic lineage — FOUR texts searched for "astrolog", "zodiac" and "horoscop",
+       zero hits in every one (re-run 2026-08-11): Rowbotham's Earth Not a Globe in the
+       1865 FIRST BOOK edition (Project Gutenberg #69892, whose title page and PG
+       metadata both give Simpkin, Marshall, 1865) AND in the enlarged 1881 THIRD
+       edition (archive.org item zeteticastronomy-earthnotaglobe, file
+       ZeteticAstronomy-EarthNotaGlobe-3e-format2_djvu.txt — title page "1881",
+       and it carries the Sabine material that only the third edition has);
+       Carpenter's One Hundred Proofs, 1885 5th edition (PG #55387, title page
+       "1885 ... 5th Edition: 6th Thousand"); and Dubay's 200 Proofs (archive.org OCR).
+       NOT searched: the 1873 SECOND edition — see the three-editions warning in
+       works.py WRK-ROWBOTHAM-1865 — nor Blount, Voliva or Johnson. So the finding is
+       "not in the four zetetic texts searched", never "not in the lineage".
    (b) Tychonian lineage: "astrolog" returns exactly two hits in the archive.org OCR
-       of Galileo Was Wrong (item GalileoWasWrongTheChurchSungenisRobertA.Bennett4276),
-       and both are historical remarks about Galileo casting horoscopes for patrons.
+       of Galileo Was Wrong (item GalileoWasWrongTheChurchSungenisRobertA.Bennett4276).
+       READ BOTH before describing them. The first is about KEPLER, not Galileo:
+       without Brahe's charts and data he "would have been just another
+       seventeenth-century astronomer struggling to make a living by reading
+       astrological horoscopes". The second is Galileo, who "[h]aving previously
+       dabbled in astrology" wrote a personal horoscope for Cosimo Medici. Both are
+       historical asides; neither is an astrological argument. That file announces
+       itself on its first page as "Vol[ume] II / Chapters 7 to 13 / Seventh edition /
+       ... 2013": Volumes I and III were NOT searched, and Bouw, van der Kamp and
+       Marshall Hall were not searched at all.
    (c) Esoteric shelf: Hall carries all of it. That is what makes the cluster's
        location in lane D correct and its originator field an open question.
-   So this argument entered the list from the esoteric shelf, not from either
-   cosmological lineage — and the esoteric shelf is heliocentric. ORIGINATION IS NOT
-   ESTABLISHED and this entry does not claim it: Hall is presented as the earliest
-   text located that carries the material, which is an ancestor claim.
+   So in the texts searched, this argument is present only on the esoteric shelf — and
+   the esoteric shelf, read, is heliocentric. ORIGINATION IS NOT ESTABLISHED and this
+   entry does not claim it: Hall is presented as the earliest text located that carries
+   the material, which is an ancestor claim.
 
 5. ITEM-LEVEL ATTRIBUTION IS NOT UNIFORM. Same shape as D08's warning. Item 167's
    sentence is located exactly. Item 200's twelve gates are located twice in Hall (the
@@ -127,6 +146,16 @@ Research notes for whoever picks this up next.
        reference frame for astrological coordinates (true equinox of date)" include
        "all corrections like relativistic aberration, deflection of light in the
        gravity field of the Sun". Quote that sentence and not a paraphrase of it.
+       DO NOT REINTRODUCE A MARKET-SHARE CLAIM. Three separate sentences in this entry
+       once said the Swiss Ephemeris is what "most" astrological software runs on. The
+       cited Astrodienst page (swephinfo_e.htm, re-read 2026-08-11) says nothing about
+       adoption; what it says is that it "is not a product for end users. It is a
+       toolset for programmers to build into their astrological software", and that it
+       "contains three ephemerides" — the JPL DE files themselves, Astrodienst's
+       compression of them (the default), or Moshier's built-in semi-analytic theory,
+       which is a fit to JPL's DE404. All three are JPL-derived, which is the whole of
+       the point the argument needs, and it can be made without counting anybody's
+       installed base. If you want the prevalence claim back, source it first.
    (e) The three item texts were re-fetched from withthesun33.com/about-1 on
        2026-08-10 and match the corpus character for character, as README asks.
 
@@ -156,20 +185,32 @@ ENTRY = {
             "astrology predictive' is a claim about a practice, and the sentence it comes "
             "from is a claim about the solar system with an explicit answer attached. "
             "Against the page's own legend for SELF-CONTRADICTED — 'the claim's own source, "
-            "or another item on the same list, points the other way' — this cluster "
-            "satisfies both halves, independently. FIRST: the only text located carrying "
+            "or another item on the same list, points the other way' — this cluster reaches "
+            "the first half squarely and the second only in a weaker form. FIRST: the only text located carrying "
             "this material, Manly P. Hall's 1928 handbook, writes 'Astronomically, the "
             "geocentric system is incorrect' in the same sentence as the accuracy claim, "
             "and on the next page puts the sun at the centre 'where it naturally belongs'. "
-            "SECOND: the same list runs D10, 'heliocentrism has occult/masonic roots', so "
-            "the specimen indicts heliocentrism as an occult import in one lane and calls "
-            "an occultist as its witness for geocentrism in another — and that occultist "
-            "is a heliocentrist. Either leg alone carries the verdict. "
+            "SECOND, AND SUPPORTING ONLY: the same list runs D10, 'heliocentrism has "
+            "occult/masonic roots', so the specimen treats the occult tradition as the "
+            "source of the error in one lane and draws on that tradition's own symbolic "
+            "material — zodiac, twelve gates, the cross of the signs — as evidence in "
+            "another. Two limits on this leg, both of which a competent defender finds. "
+            "(i) Its sharp form — 'and the occultist whose book carries this material is "
+            "himself a heliocentrist' — is an attribution to Manly P. Hall, which is "
+            "exactly what this entry says is NOT established. The leg is therefore not "
+            "attribution-free, and the earlier claim here that it 'needs no attribution at "
+            "all' has been struck. (ii) Even in its bare form it has an answer: D10's "
+            "thesis is that heliocentrism CAME OUT OF the occult tradition, so an "
+            "occultist who puts the sun at the centre is evidence for D10 rather than "
+            "against it. What survives is an inconsistency of standing — a tradition "
+            "impeached in one lane and called as a witness in another — which is real but "
+            "rhetorical, not logical. SO THE PROPOSAL RESTS ON LEG 1, and the operator "
+            "should test it there. "
             "The honest weakness, stated so a reviewer does not have to find it: "
             "origination is NOT established, so 'the claim's own source' is doing work that "
-            "an ancestor text should be careful about. That is why the second leg is "
-            "written into the body as an independent route — it needs no attribution at "
-            "all, only two clusters of the same list. D08 already carries "
+            "an ancestor text should be careful about — what is established is that the "
+            "earliest located carrier of the material contradicts the use made of it. "
+            "D08 already carries "
             "SELF-CONTRADICTED off the same book on the same reasoning, so this would also "
             "make the lane consistent. Operator decides; the refutation below is written "
             "to stand under either verdict, and names in its own voice what the verdict "
@@ -181,9 +222,10 @@ ENTRY = {
           "writes that “Astronomically, the geocentric system is incorrect”, and then puts "
           "the sun at the centre “where it naturally belongs”. Grant his accuracy claim in "
           "full and it still does not reach a fixed Earth — the zodiac he is describing is a "
-          "band crossing the celestial equator at 23° 28′, and most charts cast today are "
-          "computed from JPL's solar-system integration, with a correction for the Earth's "
-          "29.8 km/s orbital motion applied to every position."),
+          "band crossing the celestial equator at 23° 28′, and the ephemeris toolkit "
+          "Astrodienst distributes for astrological software computes from JPL's "
+          "solar-system integration in all three of the data options it offers, with a "
+          "correction for the Earth's 29.8 km/s orbital motion applied to every position."),
 
     passage=dict(
         work="WRK-HALL-1928",
@@ -213,14 +255,14 @@ ENTRY = {
 <p><strong>And then he says where the sun goes.</strong> On the next page the second system &ldquo;posits the sun in the center of the solar system, <em>where it naturally belongs</em>&rdquo;. There is no hedge on that phrase and no irony in the paragraph around it. His stated reason for preferring geocentric charts is not that the earth is fixed but that geocentric astrology &ldquo;is confined to the earthy side of nature&rdquo; &mdash; a claim about which department of life a technique is good for. The intervening sentence, which is paraphrased here rather than quoted because the word spacing has collapsed in the scan and the second witness was not asked for it, says that the only trouble with <em>heliocentric</em> astrology is that it is comparatively new and its effects have not yet been catalogued. Not wrong. Young.</p>
 <p><strong>The same chapter supplies the geometry, which is spherical.</strong> Hall defines the zodiac as a band of fixed stars about sixteen degrees wide &ldquo;apparently encircling the earth&rdquo;, whose plane &ldquo;intersects the celestial equator at an angle of approximately 23&deg;&nbsp;28&prime;&rdquo;, the two intersections being the equinoxes; he gives the precession figures and hedges them (&ldquo;Authorities disagree concerning these figures&rdquo;); and he notes that the four signs dedicated to the equinoxes and solstices &ldquo;no longer correspond with the ancient constellations to which they were assigned&rdquo;. <a href="#ARG-D08">ARG-D08</a> quotes the same definition for the Dendera item and the reading is not re-argued here.</p>
 <p><strong>Where the other two items land in the same book.</strong> Item 200: the twelve gates are the twelve signs, twice over. In this chapter Hall quotes Albert Churchward &mdash; &ldquo;the twelve signs of the Zodiac, twelve tribes of Israel, twelve gates of heaven mentioned in Revelation, and twelve entrances or portals to be passed through in the Great Pyramid&rdquo; &mdash; which is a list of <em>correspondences</em>, not a cosmology; and in &ldquo;The Mystery of the Apocalypse&rdquo; he writes that &ldquo;[t]he twelve gates of this symbolic dodecahedron are the signs of the zodiac through which the celestial impulses descend into the inferior world.&rdquo; Signs of the zodiac are thirty-degree arcs of the ecliptic. Item 199: the nearest located material is in &ldquo;The Cross and the Crucifixion&rdquo;, where Hall writes that the Persians, Greeks and Hindus probably &ldquo;looked upon the cross as a symbol of the equinoxes and the solstices, in the belief that at certain seasons of the year the sun was symbolically crucified upon these <em>imaginary celestial angles</em>&rdquo;, and in the plate facing the zodiac chapter, where four signs form the arms of a cross about a centre that is not the earth but &ldquo;the fiery altar of Divinity&rdquo;. That plate caption survives in one scan only and the argument below does not lean on it.</p>
-<p><strong>What this passage is being cited as.</strong> The earliest text located that carries this material, in a book the neighbouring items in this stretch of the list already come from. It is an ancestor claim and not an origination claim, and the difference is not decoration: searching the Project Gutenberg full texts of Rowbotham&rsquo;s <em>Zetetic Astronomy</em> (#69892) and Carpenter&rsquo;s <em>One Hundred Proofs</em> (#55387) for <em>astrolog</em> and <em>zodiac</em> returns zero hits in each, and in the archive.org OCR of <em>Galileo Was Wrong</em> the string <em>astrolog</em> returns exactly two hits, both historical remarks about Galileo casting horoscopes for patrons. Neither cosmological lineage brought this argument in. It came off the esoteric shelf &mdash; and the esoteric shelf, read, is heliocentric.</p>"""),
+<p><strong>What this passage is being cited as.</strong> The earliest text located that carries this material, in a book the neighbouring items in this stretch of the list already come from. It is an ancestor claim and not an origination claim, and the difference is not decoration. On the zetetic side, four texts return zero hits for <em>astrolog</em> and <em>zodiac</em> alike: Rowbotham&rsquo;s <em>Earth Not a Globe</em> in the 1865 first book edition (Project Gutenberg #69892) and again in the enlarged 1881 third edition (archive.org OCR), Carpenter&rsquo;s <em>One Hundred Proofs</em> in the 1885 fifth edition (PG #55387), and Dubay&rsquo;s <em>200 Proofs</em>. On the Tychonian side, in Volume II (chapters 7&ndash;13) of the 2013 seventh edition of <em>Galileo Was Wrong</em> &mdash; the archive.org OCR &mdash; the string <em>astrolog</em> returns exactly two hits: one a remark that without Brahe&rsquo;s data Kepler would have been left making a living reading horoscopes, the other Galileo writing a horoscope for Cosimo Medici. Both are historical asides, and neither is an astrological argument. What was <em>not</em> searched matters as much: Rowbotham&rsquo;s 1873 second edition, and Volumes I and III of <em>Galileo Was Wrong</em>. So the finding is narrower than a statement about two lineages, and is stated at its true width: <strong>in the texts searched, neither cosmological lineage carries this argument</strong>, and the only shelf it was located on is the esoteric one &mdash; which, read, is heliocentric.</p>"""),
 
     steelman=dict(
         description="""<p><strong>SURFACE (weak &mdash; do not use).</strong> &ldquo;Astrology does not work, so an argument from astrology is worthless.&rdquo; Two things are wrong with this. It is not what the item claims &mdash; the item claims a <em>coordinate system</em> is vindicated by results &mdash; and the empirical literature is not the clean win it is usually assumed to be. Carlson&rsquo;s double-blind test in <em>Nature</em> (318:419, 1985) is negative; Ertel reanalysed the same data in the Journal of Scientific Exploration and reported partial support; Currey has argued the point since; Dean and Kelly&rsquo;s time-twins study is negative and has been disputed from the same quarter. Anyone who opens by declaring that settled will spend the rest of the exchange defending a claim they did not need.</p>
 <p><strong>DEEPER.</strong> &ldquo;Geocentric just means a choice of origin.&rdquo; True, and incomplete, and it walks straight into the trade made at <a href="#ARG-R01">ARG-R01</a>: <em>quite so &mdash; so you concede the earth-centred description is legitimate, which is all we ever said.</em> A rebuttal that stops here has conceded the frame and then complained about it.</p>
 <p><strong>KERNEL.</strong> Name the specific true thing, and it is larger than the movement usually manages to claim. <em>An earth-centred description of the sky is not merely permitted, it is the observationally primary one, and it is what professional astronomy actually publishes.</em> The <em>Astronomical Almanac</em> tabulates geocentric apparent places. Telescope pointing models run in topocentric coordinates. Eclipse contact times, occultations and transits are predicted to the second from earth-centred ephemerides. And the Ptolemaic machinery Hall names really did predict planetary positions well enough to be used, corrected and taught for something like fourteen centuries. So the true thing here is not &ldquo;astrologers happen to use a quaint frame&rdquo;. It is that an earth-centred account of the sky <strong>works</strong>, and has a professional life today, which is exactly what the item says.</p>""",
         why_it_doesnt_save_claim="""<p>Because the transformation between the two descriptions is <em>exactly invertible</em> &mdash; you subtract one position vector &mdash; so the fact that the earth-centred version works is evidence about arithmetic, not about a centre. Both descriptions work for the same reason a map of London drawn with your kitchen at the origin works. What would discriminate is not whether the frame can be used but what has to be <em>put into it</em> to make it agree with the sky.</p>
-<p>And that is where the astrological chart convicts itself, because the terms it needs are the earth&rsquo;s motions. The geocentric positions in a modern chart are manufactured by taking a solar-system integration referred to the barycentre and subtracting the earth&rsquo;s position from every planet&rsquo;s &mdash; and then applying light-time and <em>annual aberration</em>, a 20.49&Prime; correction whose whole content is the earth&rsquo;s orbital velocity divided by the speed of light. The Swiss Ephemeris, which is what most astrological software has run on for a quarter of a century, is derived from NASA/JPL&rsquo;s DE441 and says of its own pipeline that the steps from the JPL inertial frame to &ldquo;the reference frame for astrological coordinates (true equinox of date)&rdquo; include &ldquo;all corrections like relativistic aberration, deflection of light in the gravity field of the Sun&rdquo;. A natal chart drawn from that pipeline has the earth&rsquo;s 29.8&nbsp;km/s inside it twice over: once as the vector that was subtracted, once as the aberration that was added back.</p>
+<p>And that is where the astrological chart convicts itself, because the terms it needs are the earth&rsquo;s motions. The geocentric positions in a modern chart are manufactured by taking a solar-system integration referred to the barycentre and subtracting the earth&rsquo;s position from every planet&rsquo;s &mdash; and then applying light-time and <em>annual aberration</em>, a 20.49&Prime; correction whose whole content is the earth&rsquo;s orbital velocity divided by the speed of light. The Swiss Ephemeris, the toolset Astrodienst distributes for programmers to build into astrological software, is derived from NASA/JPL&rsquo;s DE441 and says of its own pipeline that the steps from the JPL inertial frame to &ldquo;the reference frame for astrological coordinates (true equinox of date)&rdquo; include &ldquo;all corrections like relativistic aberration, deflection of light in the gravity field of the Sun&rdquo;. A natal chart drawn from that pipeline has the earth&rsquo;s 29.8&nbsp;km/s inside it twice over: once as the vector that was subtracted, once as the aberration that was added back.</p>
 <p>The zodiac does the same job on the flat-earth half of the claim. It is a band about the ecliptic, and the frame it is measured in &mdash; the one Hall states in the same chapter &mdash; is defined by two great circles crossing on a sphere at an angle of about 23 and a half degrees. Grant every word of the kernel and the argument has still shown only that a viewpoint transformation is a viewpoint transformation.</p>"""),
 
     refutation="""<p><strong>Concede the whole of the first half, immediately.</strong> Astrological charts are drawn in earth-centred coordinates. That is not a quirk, it is the correct thing to do for the job: the chart is a picture of where things appeared from a place at a moment, and appearances are had from where the observer is. Nothing on this page objects to earth-centred coordinates, and neither does the practice of astronomy: geocentric apparent places are what the <em>Astronomical Almanac</em> prints, and topocentric coordinates are what a telescope drive consumes. If the item is read as &ldquo;the sky is usefully described from here&rdquo;, it is true, it is standard, and it distinguishes nothing.</p>
@@ -233,7 +275,7 @@ ENTRY = {
 
 <h4>2. The chart is computed from the model it is offered against</h4>
 
-<p>Take the accuracy claim at full strength and ask what produces the numbers. Since its release in 1997 the Swiss Ephemeris has been the usual computational basis for astrological software, and it is a compression of NASA/JPL&rsquo;s planetary integration &mdash; DE405/406 originally, DE431 from February 2014, DE441 as of May 2026 &mdash; reproducing the JPL data to 0.001&Prime;; and the usual alternatives are of the same kind, being either the JPL ephemerides directly or an analytical fit to them. JPL&rsquo;s integration is a numerical solution of the solar system&rsquo;s equations of motion referred to the solar-system barycentre, including general-relativistic terms. The geocentric longitude on the chart is what you get after subtracting the earth&rsquo;s own position vector from the planet&rsquo;s, correcting for the light travel time across a distance that changes because both bodies are moving, and applying aberration. Astrodienst&rsquo;s own documentation is explicit that the transformations from the JPL inertial frame to &ldquo;the reference frame for astrological coordinates (true equinox of date)&rdquo; carry &ldquo;all corrections like relativistic aberration, deflection of light in the gravity field of the Sun&rdquo;.</p>
+<p>Take the accuracy claim at full strength and ask what produces the numbers. The Swiss Ephemeris, released in 1997, is in Astrodienst&rsquo;s own description &ldquo;not a product for end users&rdquo; but &ldquo;a toolset for programmers to build into their astrological software&rdquo;, and it is a compression of NASA/JPL&rsquo;s planetary integration &mdash; DE405/406 originally, DE431 from February 2014, DE441 since May 2026 &mdash; reproducing the JPL data to 0.001&Prime;. It offers the developer three data options and no fourth: the JPL DE files themselves, Astrodienst&rsquo;s compression of them (the default), or Moshier&rsquo;s built-in semi-analytic theory, which is a fit to JPL&rsquo;s DE404. Whichever of the three a given package ships, the positions in the chart are JPL&rsquo;s. (No claim is made here about how much of the market that is; the point does not need one.) JPL&rsquo;s integration is a numerical solution of the solar system&rsquo;s equations of motion referred to the solar-system barycentre, including general-relativistic terms. The geocentric longitude on the chart is what you get after subtracting the earth&rsquo;s own position vector from the planet&rsquo;s, correcting for the light travel time across a distance that changes because both bodies are moving, and applying aberration. Astrodienst&rsquo;s own documentation is explicit that the transformations from the JPL inertial frame to &ldquo;the reference frame for astrological coordinates (true equinox of date)&rdquo; carry &ldquo;all corrections like relativistic aberration, deflection of light in the gravity field of the Sun&rdquo;.</p>
 
 <p>Put a number on the aberration, because it is the cleanest single object in the argument. The constant is <em>v</em>/<em>c</em> with <em>v</em> the earth&rsquo;s mean orbital speed: 29.786 km/s &divide; 299,792.458 km/s = 9.9355 &times; 10<sup>&minus;5</sup> radians, which is <strong>20.49&Prime;</strong> &mdash; the IAU constant of aberration, 20.49552&Prime;, to four figures. (Recomputed here 2026-08-10.) A correction whose magnitude <em>is</em> the earth&rsquo;s orbital velocity is applied to every position on the chart, and the chart would be wrong without it. The same holds for the most popular technical object in modern astrology: Mercury goes retrograde three or four times a year for about three weeks at a time, on a rhythm set by its 116-day synodic period, and retrograde motion is the appearance produced when one orbiting body overtakes another. Astrologers do not merely tolerate these terms. They schedule around them.</p>
 
@@ -257,15 +299,15 @@ ENTRY = {
 
 <p>The authority the item invokes by name is Ptolemy, and it invokes him in a list of proofs that the earth is not a globe. Book I of the <em>Almagest</em> has a chapter titled &ldquo;That Also the Earth, Taken as A Whole, is Sensibly Spherical&rdquo;, followed by chapters placing it at the middle of the heavens and denying that it moves. The <em>Tetrabiblos</em>, which is the foundation text of Western astrology, opens by referring the reader back to that book as the treatise where the astronomy was dealt with. Ptolemaic astrology is therefore geocentric <em>and</em> spherical-earth, from the same pen, in works its author cross-references. This is the standing feature of geocentric material inside a flat-earth list: when the list reaches for those authorities it is calling witnesses who reject its headline.</p>
 
-<p>The self-contradiction inside the specimen is sharper still, and needs no attribution to anybody. At item 76 the same list argues that heliocentrism has occult and masonic roots (<a href="#ARG-D10">ARG-D10</a>). So the occult tradition is the source of the error in one lane and the keeper of the truth in another &mdash; and the occultist whose book actually supplies this lane&rsquo;s material puts the sun at the centre where it naturally belongs. (Two different men named Hall are involved and they should not be merged: <em>Marshall</em> Hall wrote <em>The Earth is not Moving</em> in 1991 and is the D10 originator; <em>Manly P.</em> Hall wrote the 1928 handbook quoted here.)</p>
+<p><strong>And the list is in two minds about the tradition itself &mdash; though be careful how far that goes.</strong> At item 76 the same list argues that heliocentrism has occult and masonic roots (<a href="#ARG-D10">ARG-D10</a>). So the occult tradition is the source of the error in one lane and, in this one, the supplier of the evidence: zodiacal signs, twelve gates, the cross of the equinoxes. That much needs no attribution to any particular author, because the material is what it is. But it is worth stating the limit rather than being caught at it, because there is an answer available: if D10&rsquo;s thesis is that heliocentrism <em>came out of</em> the occult tradition, then an occultist who puts the sun at the centre is a data point for D10 rather than against it. What survives the answer is not a logical contradiction but an inconsistency of standing &mdash; a witness impeached in one lane and called in another &mdash; and nothing in this entry rests on it. What the entry rests on is section 1: the only text located carrying this material says the geocentric system is astronomically incorrect. (Two different men named Hall are involved and they should not be merged: <em>Marshall</em> Hall wrote <em>The Earth is not Moving</em> in 1991 and is the D10 originator; <em>Manly P.</em> Hall wrote the 1928 handbook quoted here.)</p>
 
 <h4>6. What is left, stated without decoration</h4>
 
-<p>Astrology is drawn in earth-centred coordinates because the sky is seen from the earth, and that has been the reason since Ptolemy, who also wrote the chapter proving the earth is a sphere. The numbers filling those coordinates today come out of a barycentric solar-system integration with a correction for the earth&rsquo;s orbital speed applied to every one of them. The zodiac the symbolism is built on is a band about the ecliptic, inclined to the celestial equator by the earth&rsquo;s axial tilt, sliding against the constellations at the rate the earth&rsquo;s axis precesses. And the author whose book this material was traced to says, in the sentence the first item was cut from, that the geocentric system is astronomically incorrect. Read as symbolism, these items claim nothing that could be checked. Read as evidence, they are evidence against.</p>""",
+<p>Astrology is drawn in earth-centred coordinates because the sky is seen from the earth, and that has been the reason since Ptolemy, who also wrote the chapter proving the earth is a sphere. The numbers filling those coordinates in a chart cast from the standard ephemeris toolkit come out of a barycentric solar-system integration &mdash; JPL&rsquo;s, on any of the three data settings it offers &mdash; with a correction for the earth&rsquo;s orbital speed applied to every one of them. The zodiac the symbolism is built on is a band about the ecliptic, inclined to the celestial equator by the earth&rsquo;s axial tilt, sliding against the constellations at the rate the earth&rsquo;s axis precesses. And the author whose book this material was traced to says, in the sentence the first item was cut from, that the geocentric system is astronomically incorrect. Read as symbolism, these items claim nothing that could be checked. Read as evidence, they are evidence against.</p>""",
 
     advocate=dict(
         best_defense=(
-            "Four moves, and the last one is the one that should worry you. "
+            "Five moves, and the last two are the ones that should worry you. "
             "First: your whole entry is an argument from authority run backwards. You have "
             "found that Manly Hall was a heliocentrist and you are treating that as though "
             "it settled a question about the sky. It settles a question about Manly Hall. "
@@ -288,10 +330,21 @@ ENTRY = {
             "ephemerides. Nobody wrote a paper claiming the zodiac proves anything. You "
             "have manufactured a physical claim out of a symbol and then refuted it with "
             "physics, which is the exact move your own front page says disqualifies an "
-            "argument."),
+            "argument. "
+            "Fifth, and this one is aimed at your proposed verdict rather than at your "
+            "physics. Your second leg says the list contradicts itself: it convicts "
+            "heliocentrism of occult origin at D10 and then leans on occult material here. "
+            "Read D10 again. Its thesis is that heliocentrism CAME OUT OF the occult "
+            "tradition — so an occultist who puts the sun at the centre 'where it "
+            "naturally belongs' is precisely what that thesis predicts. You have found a "
+            "confirmation of D10 and filed it as a contradiction of it. And notice what "
+            "the sharp version of your leg requires: 'the occultist whose book supplies "
+            "this lane's material' is an attribution to Manly Hall, which you concede two "
+            "paragraphs earlier you have not established. You cannot run an "
+            "attribution-free argument through an attribution."),
         survives=4,
         preemptive=(
-            "Four, driven by the second and fourth moves. Three changes, all of which are "
+            "Four, driven by the second, fourth and fifth moves. Four changes, all of which are "
             "in the body above and must not be trimmed out by a later editor. "
             "(a) THE FOURTH MOVE IS ANSWERED BY STRUCTURE, NOT BY ASSERTION. The entry "
             "quotes the source at length, answers the sentence Hall actually wrote — a "
@@ -317,7 +370,19 @@ ENTRY = {
             "otherwise. On the first move, agree in public: Hall's opinion settles nothing "
             "about the sky, which is why sections 2, 3 and 4 do not mention him. What his "
             "sentence settles is what the list's own authority said — a provenance "
-            "question, which is the one this project is for.")),
+            "question, which is the one this project is for. "
+            "(d) THE FIFTH MOVE IS CONCEDED AND IT COST THE ENTRY A CHANGE. The defender's "
+            "reading of D10 is correct: an occultist heliocentrist is consistent with the "
+            "claim that heliocentrism has occult roots, so the D10 cross-reference is not a "
+            "logical contradiction, and its sharp form is not attribution-free either. "
+            "`verdict_challenge` has been rewritten accordingly — leg 2 is a supporting "
+            "observation rather than an independent route, and the sentences claiming it "
+            "carried the verdict alone and needed no attribution are gone. Section 5 now "
+            "states the residue in its true register: an inconsistency of standing, a "
+            "tradition impeached in one lane and called as a witness in another, which is "
+            "real and is not a contradiction. The proposed verdict rests on leg 1 alone. "
+            "A later editor who restores 'either leg alone carries the verdict' is "
+            "reintroducing a defect that was found and fixed.")),
 
     straw_man=dict(
         identified=False,
@@ -405,8 +470,13 @@ ENTRY = {
                    "author of the Almagest, which it refers back to; the tropical zodiac is "
                    "fixed to the vernal equinox rather than to the stars",
              url="https://en.wikipedia.org/wiki/Tetrabiblos"),
-        dict(label="Swiss Ephemeris (Astrodienst) — derived from JPL DE441 as of May 2026 "
-                   "(DE431 from 2014), reproducing the JPL data to 0.001″; the transformations "
+        dict(label="Swiss Ephemeris (Astrodienst) — “a toolset for programmers to build into "
+                   "their astrological software”, derived from JPL DE441 as of May 2026 "
+                   "(DE431 from 2014), reproducing the JPL data to 0.001″. It “contains three "
+                   "ephemerides” and all three are JPL-derived: the JPL DE files, "
+                   "Astrodienst’s compression of them, or Moshier’s semi-analytic theory "
+                   "(based on DE404). The page carries no statement of market share and none "
+                   "is claimed here; the transformations "
                    "to “the reference frame for astrological coordinates (true equinox of "
                    "date)” include “all corrections like relativistic aberration, deflection "
                    "of light in the gravity field of the Sun”",
@@ -431,14 +501,30 @@ ENTRY = {
         dict(label="Dean & Kelly, “Is Astrology Relevant to Consciousness and Psi?”, Journal of "
                    "Consciousness Studies 10:175 (2003) — the time-twins study, also disputed",
              url="https://journalpsyche.org/articles/0xc062.pdf"),
-        dict(label="Rowbotham, Zetetic Astronomy: Earth Not a Globe — Project Gutenberg #69892; "
-                   "searched for “astrolog” and “zodiac”, zero hits in each",
+        dict(label="Rowbotham, Zetetic Astronomy: Earth Not a Globe — the 1865 first book "
+                   "edition (Simpkin, Marshall), Project Gutenberg #69892; searched for "
+                   "“astrolog”, “zodiac” and “horoscop”, zero hits in each. The 1873 second "
+                   "edition was not searched",
              url="https://www.gutenberg.org/ebooks/69892"),
-        dict(label="Carpenter, One Hundred Proofs That the Earth Is Not a Globe — Project "
-                   "Gutenberg #55387; searched for “astrolog” and “zodiac”, zero hits in each",
+        dict(label="Rowbotham, Earth Not a Globe — the enlarged 1881 THIRD edition, archive.org "
+                   "OCR (item zeteticastronomy-earthnotaglobe, file "
+                   "ZeteticAstronomy-EarthNotaGlobe-3e-format2_djvu.txt); same three strings, "
+                   "zero hits, so the absence is not an artefact of the shorter edition",
+             url="https://archive.org/details/zeteticastronomy-earthnotaglobe"),
+        dict(label="Carpenter, One Hundred Proofs That the Earth Is Not a Globe — 1885, 5th "
+                   "edition, Project Gutenberg #55387; searched for “astrolog”, “zodiac” and "
+                   "“horoscop”, zero hits in each",
              url="https://www.gutenberg.org/ebooks/55387"),
-        dict(label="Sungenis & Bennett, Galileo Was Wrong — archive.org OCR text; “astrolog” "
-                   "returns two hits, both about Galileo casting horoscopes for patrons",
+        dict(label="Dubay, 200 Proofs Earth Is Not a Spinning Ball — archive.org OCR; same "
+                   "three strings, zero hits, which extends the zetetic-side search to the "
+                   "modern text the specimen draws on",
+             url="https://archive.org/details/200ProofsEarthIsNotASpinningBall_201903"),
+        dict(label="Sungenis & Bennett, Galileo Was Wrong — Volume II (chapters 7–13) of the "
+                   "2013 seventh edition, archive.org OCR text; Volumes I and III were not "
+                   "searched. “astrolog” returns exactly two hits: one that without Brahe’s "
+                   "data Kepler “would have been just another seventeenth-century astronomer "
+                   "struggling to make a living by reading astrological horoscopes”, the "
+                   "other Galileo’s horoscope for Cosimo Medici — both historical asides",
              url="https://archive.org/stream/GalileoWasWrongTheChurchSungenisRobertA.Bennett4276/Galileo%20Was%20Wrong_%20The%20Church%20%20-%20Sungenis,%20Robert%20A.%20&%20Bennett,_4276_djvu.txt"),
     ]),
 }

@@ -29,11 +29,24 @@ Research notes for whoever picks this up next.
 
    (b) CONSTANT SOLAR DIAMETER (items 97, 220) -> WILLIAM CARPENTER, *One Hundred
        Proofs*, Baltimore 1885, proof 89, indexed in his own list as "Luminous
-       objects." The constancy sentence in it is a QUOTATION FROM RICHARD A.
-       PROCTOR, the astronomer the whole pamphlet is dedicated to ("The Greatest
-       Astronomer of the Age"). Carpenter is not reporting a measurement; he is
-       neutralising Proctor's objection that on a plane the Sun "should therefore
-       look much larger" near the observer.
+       objects." DO NOT write this up as "Proctor's sentence, borrowed" — that was
+       the first draft of this entry and it was wrong in our own favour. Carpenter
+       states the luminous-object law FIRST, in his own voice, with his own example
+       ("Sail past the light of a small lamp in a row-boat on a dark night, and it
+       will seem to be no smaller when a mile off than it was when close to it"),
+       and only THEN quotes Proctor's "his apparent size does not change" —
+       endorsing it as true: "And then he forgets the fact!" The constancy is
+       already a positive claim in the movement's own voice inside the source, and
+       proof 89 is already a numbered proof; nothing is upgraded from concession to
+       proof in the step from Carpenter to the list, which is why drift_type is
+       hedge_dropped and not force_upgraded. What Carpenter is NOT doing is
+       reporting a measurement: the paragraph exists to neutralise Proctor's
+       objection that on a plane the Sun "should therefore look much larger" near
+       the observer, which he dismisses as resting on "the non-appearance of a thing
+       which has never been known to appear at all". That clause is the one
+       substantive move in proof 89; section 4 answers it and the straw_man note
+       names it. Richard A. Proctor is the astronomer the whole pamphlet is
+       dedicated to ("The Greatest Astronomer of the Age").
 
    NOT LOCATED in Rowbotham's 1865 first book edition (Gutenberg #69892, searched
    for diameter, apparent size, same size, angular, 32 miles, micrometer): the
@@ -93,6 +106,21 @@ Research notes for whoever picks this up next.
    "Rowbotham contradicted himself" — the 1865 sentence is a quotation he endorses,
    and the 1881 chapter is a rewrite, so what changed is the book, not a man caught
    out in one paragraph.
+   AND DO NOT SAY 1881 "REVERSES" 1865 — the first draft of section 6 did, and the
+   defence is inside Rowbotham's own 1865 text. Section 8 of 1865 ALREADY carries the
+   whole atmospheric mechanism ("as the air near the Earth is both more dense and
+   more damp, or holds more watery particles in solution, the light of the Sun must
+   be dilated or enlarged as well as modified in colour") and only then subordinates
+   it with "But the enlarged appearance ... is only an optical impression, as proved
+   by actual measurement" plus Philips. The 1881 chapter X keeps the identical
+   mechanism — its enlarged disc is explicitly "the disc of light projected upon the
+   atmosphere" — and what it removes is the concession. So a defender answering
+   "he always said the glare dilates, he never said the micrometer reading changes"
+   is answering a claim we should not be making. The true and stronger claim is the
+   edition diff: same mechanism, concession deleted, residual appearance promoted to
+   "a striking argument against the rotundity of the earth". Verified 2026-08-11 that
+   za28 as served carries neither "micrometer" nor "Philips" nor "actual measurement"
+   and paginates 128-129.
 
 6. THE PERSPECTIVE DEFENCE IS THE ONE A GOOD DEFENDER WILL PLAY, AND ROWBOTHAM'S
    OWN CHAPTER IX ANSWERS IT. He explains sunset by "the laws of perspective" and
@@ -138,10 +166,23 @@ Research notes for whoever picks this up next.
    BY US, not conceded in one text the way B05 and B06 concede theirs. What is wrong
    with this cluster is its record, not its verdict.
 
-10. RECORD PROBLEMS, reported up, not edited. (i) originator/originator_work/year
-    name Rowbotham 1865 for claims located in Winship 1899 and Carpenter 1885.
+10. RECORD PROBLEMS, reported up, not edited — clusters.py is not this agent's file.
+    ANCHOR EVERY clusters.py EDIT ON THE KEY '"B10"' AND NEVER ON THE originator=
+    LINE: that line is byte-identical across B02, B06, B07 and D12, and a
+    replace(old, new, 1) on it is exactly how the batch-7 correction written for E03
+    landed on E01. (i) originator/originator_work/year
+    name Rowbotham 1865 for claims located in Winship 1899 and Carpenter 1885 —
+    and render.py line 109 prints "· first published by Samuel Rowbotham" in the
+    meta line DIRECTLY ABOVE this treatment, so the page contradicts its own passage
+    block for every reader who does not expand it. Set all three to None (or to
+    Winship for item 31 if the cluster is split) until the composite is resolved.
     (ii) The cluster is composite — one item with one ancestor, two items with
-    another — which is the A09 situation. (iii) The cluster note's "the reason we
+    another — which is the A09 situation, and the split is an operator decision.
+    verdict_challenge stays challenged=False deliberately: the disagreement is with
+    the record, not with MISLEADING, and filing a false verdict challenge to make a
+    structural note visible would be the wrong lever. The tldr and the passage gloss
+    both say in reader-facing prose that the two claims come from two different
+    books. (iii) The cluster note's "the reason we
     have both total and annular eclipses" credits the Sun's 3.4% swing; the Moon's
     is nearly four times larger and its mean disc is the smaller of the two, so the
     Moon's distance variation is what produces the two eclipse types. That note
@@ -152,10 +193,18 @@ Research notes for whoever picks this up next.
     stands and now has a corroborating detail.
 
 11. QUOTE PROVENANCE. Winship read in the Google/archive.org scan, item
-    ZeteticCosmogony, file "zetetic cosmogony_djvu.txt"; the OCR reads "tcund" where
-    the word is plainly "found", and that is the only silent repair in the quote
-    below. Page numbers are the scan's printed-page markers and were not checked
-    against a print copy. Carpenter from Gutenberg #55387, which reproduces the
+    ZeteticCosmogony, file "zetetic cosmogony_djvu.txt". TWO silent repairs in the
+    quote below, not one: the OCR reads "tcund" for "found" (p. 71) and "of couse"
+    for "of course" (p. 120). Page numbers are the scan's printed-page markers.
+    THE MARKER CONVENTION WAS CHECKED, 2026-08-11, because it decides the p. 120
+    citation Scott also gives: in this scan the marker sits at the HEAD of its page,
+    so text following marker N is page N. Anchors — the contents list pages "Sun,
+    The" 112, "Sun's Distance" 113, "Sun's Diameter" 119, "Stars, The" 120, and the
+    body headings fall accordingly; the tightest is "THE STARS" between the markers
+    120 and 121, which the contents puts on 120. That places the whole sextant
+    derivation quoted below on printed p. 120 and the "SUN'S DIAMETER" heading on
+    119, i.e. the locator's "pp. 119-120" is right. Not checked against a print
+    copy. Carpenter from Gutenberg #55387, which reproduces the
     Baltimore 1885 printing (Chew Street imprint and the Proctor dedication both
     present). Rowbotham 1865 from Gutenberg #69892; Rowbotham 1881 from sacred-texts
     za27/za28/za23. Dubay from the archive.org text of *200 Proofs*, item
@@ -176,7 +225,9 @@ ENTRY = {
           "nautical mile, which holds only for arcs measured at the Earth's centre and "
           "therefore puts every object it is applied to at one Earth radius. The nearest "
           "statement located for “constant solar diameter” is Carpenter's proof 89 of 1885, "
-          "where the words are a quotation from the astronomer he was arguing against. "
+          "where the movement's own law about luminous objects — asserted in his voice, with "
+          "his own example — is buttressed by a quotation from the astronomer he was arguing "
+          "against. "
           "Measured, the disc holds steady through a day — which a Sun a few thousand miles "
           "up cannot manage — and swings 3.4% through a year, which is the orbit."),
 
@@ -193,7 +244,9 @@ ENTRY = {
                "minutes and seconds, the minutes and seconds corresponding to miles and sixtieths "
                "of miles on the earth's surface. … Instead of the diameter of the moon being 2,160 "
                "miles, as we are informed by the men of science of to-day, it is, by the above "
-               "process, found to be about 32 nautical miles in diameter. … If the navigator "
+               "process, found to be about 32 nautical miles in diameter. "
+               "[Here the quotation jumps forty-nine pages, from the Moon on printed p. 71 to "
+               "the section “Sun's Diameter” at printed p. 120:] If the navigator "
                "neglects to apply the sun's semi-diameter to his observation at sea, he is 16 "
                "nautical miles (nearly) out in calculating the position his ship is in. A minute of "
                "arc on the sextant represents a nautical mile, and if the semi-diameter be 16 miles, "
@@ -227,10 +280,15 @@ ENTRY = {
             "<em>200 Proofs</em> (2015), #147: the ball model, he writes, asks us to accept as "
             "coincidence what &ldquo;cannot be explained other than by natural design&rdquo;, the two "
             "bodies having &ldquo;been measured with sextants to be of equal size and equal "
-            "distance&rdquo;. The sextant is Winship&rsquo;s, and #123 carries his 32-mile figure for "
-            "both bodies. So the chain from the quoted page above to the item on the list is "
-            "documented at every link, and the premise doing the work travels the whole way down "
-            "it.</p>"),
+            "distance&rdquo;. The procedure is Winship&rsquo;s, and #123 carries the same 32-mile "
+            "figure for both bodies. Neither proof says so: #123 credits the figure to &ldquo;Flat-Earthers "
+            "throughout the ages&rdquo; and #147 cites nobody, and the only naming of "
+            "<em>Zetetic Cosmogony</em> located in the archive.org text of <em>200 Proofs</em> is "
+            "#31, which is about kite-flying and wind. So the citation trail runs only as far as "
+            "Scott, who in 1901 quotes the sun passage and gives the page; from there the figure "
+            "and the sextant appeal travel unattributed, which is how a derivation is usually "
+            "visible in this literature. The premise doing the work travels the whole way down "
+            "whether or not the citation does.</p>"),
     ),
 
     steelman=dict(
@@ -326,14 +384,22 @@ ENTRY = {
         "under nine arcseconds. That is a measurement of the difference in distance, made with the "
         "same class of instrument Winship trusts.</p>"
 
-        "<h4>3. &ldquo;Constant solar diameter&rdquo; is Proctor&rsquo;s sentence, borrowed.</h4>"
-        "<p>Carpenter&rsquo;s proof 89 does not report a measurement of the Sun. It asserts a "
-        "perceptual law &mdash; that luminous bodies do not shrink with distance the way ordinary "
-        "objects do &mdash; and then quotes Proctor saying the Sun&rsquo;s apparent size does not "
-        "change, in order to argue that Proctor&rsquo;s own objection to a flat Earth is therefore "
-        "&ldquo;a counterfeit&mdash;a fraud&mdash;no valid objection at all&rdquo;. The move is "
-        "defensive: it is offered to show that the constancy cannot be used against a plane. On the "
-        "list it becomes an item of evidence in its own right.</p>"
+        "<h4>3. &ldquo;Constant solar diameter&rdquo; is a perceptual law, propped up by an "
+        "opponent&rsquo;s admission.</h4>"
+        "<p>Carpenter&rsquo;s proof 89 does not report a measurement of the Sun. It opens by "
+        "asserting a perceptual law in his own voice and with his own example &mdash; "
+        "<em>&ldquo;Sail past the light of a small lamp in a row-boat on a dark night, and it will "
+        "seem to be no smaller when a mile off than it was when close to it&rdquo;</em> &mdash; and "
+        "only then reaches for Proctor, whose line about the Sun&rsquo;s apparent size not changing "
+        "he takes as confirmation: <em>&ldquo;And then he forgets the fact!&rdquo;</em> So the "
+        "constancy is his as much as Proctor&rsquo;s, and it would be too generous to us to call it "
+        "borrowed. What the paragraph is <em>for</em>, though, is defence. Proctor&rsquo;s objection "
+        "&mdash; that a traveller far enough south should, on a plane, find the Sun much larger "
+        "&mdash; is dismissed as resting on &ldquo;the non-appearance of a thing which has never "
+        "been known to appear at all&rdquo;, and therefore as &ldquo;a counterfeit&mdash;a "
+        "fraud&mdash;no valid objection at all&rdquo;. That is an argument that constancy cannot be "
+        "used <em>against</em> a plane, not a datum in favour of one. The list keeps four words "
+        "about the Sun and drops the law, the lamp and the argument they were serving.</p>"
         "<p>And the perceptual law is a reason to reach for an instrument, which is precisely what "
         "the tradition&rsquo;s founding text does. Rowbotham&rsquo;s 1865 Section 8 disposes of the "
         "enlarged horizon Sun by quoting Sir Richard Philips: take the angle &ldquo;either with a "
@@ -350,7 +416,13 @@ ENTRY = {
         "noon width, near 14&prime; instead of 32&prime;. Put Rowbotham&rsquo;s 1881 Sun &ldquo;less "
         "than 700 statute miles&rdquo; up (ch. V, printed p. 104) and it is worse: the ratio is "
         "0.11 &mdash; a setting disc some 3.6&prime; across, roughly a ninth of the noon Sun and a ninth "
-        "of the full Moon. Nothing of the kind is seen. The setting Sun "
+        "of the full Moon. Nothing of the kind is seen. Turn that round and it prices the "
+        "atmospheric rescue: to hold Rowbotham&rsquo;s 700-mile Sun at its noon width all the way "
+        "down to the horizon, the damp low air would have to magnify the disc about ninefold. "
+        "Chapter X of 1881 claims an enlargement and names a mechanism for it; what those two "
+        "printed pages never supply is a magnitude. The one measurement Rowbotham does print, the "
+        "Philips micrometer reading in Section 8 of 1865, has the angle <em>identical</em> at "
+        "horizon and meridian &mdash; a magnification of one. The setting Sun "
         "measures the same width as the noon Sun to well within a percent, which is what a body 150 "
         "million kilometres away predicts: the observer&rsquo;s own displacement of one Earth radius "
         "changes the distance by 0.004%.</p>"
@@ -372,14 +444,23 @@ ENTRY = {
 
         "<h4>6. The tradition carries both claims, which is worth knowing before answering "
         "either.</h4>"
-        "<p>Rowbotham&rsquo;s third edition of 1881 rewrites the 1865 section and reverses it. "
-        "Chapter X (printed pp. 128&ndash;129) drops the micrometer quotation and argues that the "
-        "low Sun is <em>really</em> enlarged by the denser damp air, concluding that &ldquo;the "
-        "atmosphere surrounding a globe would not permit of anything like the same degree of "
-        "enlargement&rdquo;. Carpenter, four years later, needs the opposite: no change at all. "
-        "Both sit in the canon, and measurement is on the side of the 1865 sentence &mdash; the "
-        "horizontal disc neither grows nor shrinks through a day &mdash; which leaves the 1881 "
-        "chapter contradicted by the very steadiness Carpenter would go on to rely on. "
+        "<p>What changed between Rowbotham&rsquo;s editions is narrower than a reversal, and "
+        "sharper. Both carry the same mechanism. Section 8 of 1865 already has the damp air doing "
+        "the work &mdash; &ldquo;as the air near the Earth is both more dense and more damp &hellip; "
+        "the light of the Sun must be dilated or enlarged as well as modified in colour&rdquo; "
+        "&mdash; and then subordinates it to an instrument: &ldquo;<em>But</em> the enlarged "
+        "appearance of the Sun when rising and setting is only an optical impression, as proved by "
+        "actual measurement&rdquo;, followed by Philips on the tube and the micrometer. The 1881 "
+        "third edition keeps the mechanism and drops the concession. Chapter X (printed "
+        "pp. 128&ndash;129) is built on &ldquo;the disc of light projected upon the atmosphere&rdquo;, "
+        "drops both the micrometer sentence and the Philips citation, and promotes what is "
+        "left to &ldquo;a striking argument against the rotundity of the earth&rdquo;, on the "
+        "ground that &ldquo;the atmosphere surrounding a globe would not permit of anything like "
+        "the same degree of enlargement of the sun when rising and setting, as we daily see in "
+        "nature&rdquo;. Carpenter, four years later, needs no change at all. So the defence that "
+        "he only ever meant the glare and never the instrumental reading is available in 1865 and "
+        "not in 1881 &mdash; and it is the 1865 sentence, the one the rewrite removed, that "
+        "measurement bears out: the horizontal disc neither grows nor shrinks through a day. "
         "Chapter IX supplies the reason the enlargement reading fails on its own "
         "terms: Rowbotham&rsquo;s illustration of perspective there is the Mont Cenis tunnel, whose "
         "far opening &ldquo;seemed like a bright star&rdquo; and whose &ldquo;volume increased&rdquo; "
@@ -439,17 +520,24 @@ ENTRY = {
     straw_man=dict(
         identified=True,
         detail=(
-            "Carpenter's proof 89 answers a quantitative objection by impugning the man who made "
-            "it. Proctor's point, as Carpenter himself relays it, is that a traveller going far "
+            "Carpenter's proof 89 answers a quantitative objection mostly by impugning the man who "
+            "made it. Proctor's point, as Carpenter himself relays it, is that a traveller going far "
             "enough south that the North Star sits on the horizon should — if the Earth were a "
             "plane — find that “the Sun should therefore look much larger”. That is an ordinary "
             "consequence of the model and the right question to ask of it. Carpenter does not "
             "answer it with a measurement. He calls it “common scientific trickery”, then “a "
             "counterfeit—a fraud—no valid objection at all”, and concludes that a system harbouring "
-            "such things “is a rotten system”. The objection was arithmetic and the reply was about "
-            "character. Two smaller versions travel with it: Winship converts a units error into an "
-            "unanswerable challenge — “We challenge the whole scientific world to disprove this "
-            "statement” — and Dubay's #147 says the ball model “asks us to accept as coincidence” "
+            "such things “is a rotten system”. The reply mixes one empirical claim — that Proctor's "
+            "predicted enlargement is “the non-appearance of a thing which has never been known to "
+            "appear at all” — with several paragraphs about the objector's character. The empirical "
+            "claim is the answerable one, and section 4 answers it: on the flat model's own numbers "
+            "the Sun's width between noon and sunset should change by a factor of between two and "
+            "nine, and the measured change is a fraction of a percent, so the non-appearance "
+            "Carpenter cites tells against his model rather than ours. Two smaller versions travel "
+            "with it: Winship closes his units error with a challenge phrased so that no arithmetic "
+            "could meet it — “Let him disprove this who can. If ever disproof is attempted, it will "
+            "be a literary curiosity, well worth framing” — and Dubay's #147 says the ball model "
+            "“asks us to accept as coincidence” "
             "the matching discs, when the position he is describing is not a request but a dated, "
             "measured claim that includes the rate at which the coincidence is ending."),
     ),
@@ -460,21 +548,29 @@ ENTRY = {
                        "Constant solar diameter."),
         source_wording=("“A minute of arc on the sextant represents a nautical mile, and if the "
                         "semi-diameter be 16 miles, the diameter is of course 32 miles.” (Winship, "
-                        "1899, p. 120) · “Proctor says, in speaking of the Sun: ‘his apparent size "
+                        "1899, p. 120) · “Sail past the light of a small lamp in a row-boat on a "
+                        "dark night, and it will seem to be no smaller when a mile off than it was "
+                        "when close to it. Proctor says, in speaking of the Sun: ‘his apparent size "
                         "does not change,’—far off or near. And then he forgets the fact!” "
                         "(Carpenter, 1885, proof 89)"),
-        drift_type="force_upgraded",
+        drift_type="hedge_dropped",
         note=(
-            "<p><strong>The two constancy items (97, 220) are the clean case, and the drift is a "
-            "borrowed concession.</strong> The sentence they compress belongs to Richard A. Proctor, "
-            "an astronomer arguing for a globe, and Carpenter quotes it inside a rebuttal &mdash; his "
-            "purpose is to show that the constancy cannot be turned <em>against</em> a plane, which "
-            "is why the paragraph ends by calling the objection a counterfeit rather than by "
-            "reporting an observation. On the list the same words appear as a positive datum in the "
-            "movement&rsquo;s own voice. Nothing was misquoted; the speech act moved, which is the "
-            "<a href=\"#ARG-R01\">R01</a> pattern with the roles reversed &mdash; there a "
-            "concession by their own author was re-used as a proof, here a sentence conceded by the "
-            "other side is.</p>"
+            "<p><strong>The two constancy items (97, 220) compress a law about seeing into a "
+            "datum about the Sun.</strong> It is tempting to say the words are Proctor&rsquo;s and "
+            "the list has borrowed an opponent&rsquo;s concession, and that would be too flattering "
+            "to us. Carpenter states the luminous-object law first, in his own voice, with his own "
+            "example &mdash; the lamp in a row-boat that &ldquo;will seem to be no smaller when a "
+            "mile off&rdquo; &mdash; and then endorses Proctor&rsquo;s line as true: &ldquo;And "
+            "then he forgets the fact!&rdquo; The constancy is already a positive claim in the "
+            "movement&rsquo;s voice inside the source, and proof 89 is already a numbered proof, so "
+            "nothing is upgraded from concession to proof between Carpenter and the list. What the "
+            "fragment removes is everything that scoped the claim: that the law is about how "
+            "luminous bodies <em>appear</em> at a distance, that it is asserted in order to deny "
+            "that Proctor&rsquo;s objection follows, and that the paragraph ends by calling that "
+            "objection a counterfeit rather than by reporting a measurement. &ldquo;Constant solar "
+            "diameter&rdquo; reads as an astronomical fact about the Sun, which is a different and "
+            "flatter thing than proof 89 asserts. No enum value fits that exactly; it is filed "
+            "under the dropped qualifier, which is the closest of the seven.</p>"
             "<p><strong>Item 31 drifts the other way, and the enum has no value for it.</strong> "
             "Winship&rsquo;s claim, and Dubay&rsquo;s after him, is not that the two discs look "
             "alike &mdash; it is that a sextant shows them to be &ldquo;of equal size and equal "

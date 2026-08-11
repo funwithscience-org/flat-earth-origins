@@ -55,8 +55,11 @@ Research notes for whoever picks this up next.
    the supposition of an effect due to a motion of the solar system of three hundred
    kilometers per second." DeMeo converts it as "One fifteenth of 300 km/sec. is 20
    km/sec." and captions his figure "their successful detection of an ether-drift of some
-   unspecified quantity just under 20 km/sec." Sungenis reproduces the arithmetic at p.
-   386 and matches it to Kennedy-Thorndike's 10 +/- 10 km/s. But the Michelson-Morley
+   unspecified quantity just under 20 km/sec." Sungenis reproduces the arithmetic on p. 387, not p.
+   386 as this file previously said — the paragraph begins at the foot of 386 and the
+   division sentence falls on 387; page markers in this OCR sit at the FOOT of their page,
+   verified across the 384-388 run — and matches it to Kennedy-Thorndike's 10 +/- 10 km/s.
+   But the Michelson-Morley
    fringe shift goes as v^2, so a shift one-fifteenth of the shift expected for 300 km/s
    bounds the speed at 300/sqrt(15) = 77.5 km/s, not 300/15 = 20. The book's OWN footnote
    689 quotes Munera doing it correctly — "the corresponding solar velocity is then
@@ -66,12 +69,25 @@ Research notes for whoever picks this up next.
    there: the linear conversion, and the conversion of an upper limit into a measurement.
    The second is the one that matters and it needs no physics to see.
 
-5. THE 1/15 vs 1/50 QUESTION IS SETTLED, AND NOT THE WAY THE BOOK SETTLES IT. Footnote 753
+5. THE 1/15 vs 1/50 QUESTION IS NOT SETTLED THE WAY THE BOOK SETTLES IT — AND NOT THE WAY
+   AN EARLIER DRAFT OF THIS ENTRY SETTLED IT EITHER. Footnote 753
    says "Some commentaries say the multiplier was one-fiftieth as opposed to one-fifteenth,
-   but the former appears to be in error." Swenson, The Ethereal Aether (1972), pp. 222-223,
-   reports that both figures are in print, one in each paper: Nature carried one-fifteenth,
-   JOSA in March reported nothing observed within one-fiftieth. Munera, quoted in the
-   book's own footnote 689, says the same thing. Swenson then asks whether the difference
+   but the former appears to be in error." Swenson, The Ethereal Aether (1972), p. 222,
+   reports that both figures are in print, one in each paper, and his sentence runs on past
+   the point this entry used to cut it: "Later, in March, the Journal of the Optical Society
+   of America reported that nothing was observed within one-fiftieth of the expected shift,
+   based on Sternberg's estimate of the solar system's resultant velocity of about three
+   thousand kilometers per second." That trailing clause gives the JOSA ratio a DIFFERENT
+   velocity basis from the 300 km/s the Nature sentence names, and Munera's 42.4 km/s for
+   the JOSA printing is 300/sqrt(50), i.e. it carries the Nature basis across. So Swenson
+   and Munera do not in fact "say the same thing", as this file previously asserted.
+   Three further cautions for whoever gets the printings. (i) "Sternberg" is almost
+   certainly Gustaf Stromberg, the Mount Wilson astronomer Swenson names at p. 221 as
+   having set the observing schedule with Miller; quoted as printed here, without
+   correction. (ii) "three thousand" may itself be Swenson's slip for three hundred —
+   300/sqrt(50) = 42.4 is exactly Munera's figure, which is suggestive but proves nothing.
+   (iii) NEITHER 1929 PRINTING WAS REACHED, so this page does not adjudicate; the refutation
+   says so in the same paragraph and nothing on the page turns on the answer. Swenson then asks whether the difference
    was "simply a refinement of the data ... or a change in judgment", answers that "to most
    physicists these figures were clearly null results either way", and adds that "Miller or
    his partisans could capitalize on such discrepancies" — written in 1972, twenty-six
@@ -86,7 +102,16 @@ Research notes for whoever picks this up next.
    mirror, and "in the summer of 1928, they removed the superstructure and put the basic
    apparatus in a well of the Pasadena Laboratory", enlarging the path to eighty-five feet.
    The instrument went up the mountain in the SUMMER OF 1930, into the base of the
-   100-inch telescope (Swenson p. 225) — eighteen months after the paper. So "the Mount
+   100-inch telescope (Swenson p. 225) — eighteen months after the paper. AND NO RESULT
+   FROM THAT INSTALLATION IS REPORTED IN SWENSON'S ACCOUNT OF IT; his note 29 on the same
+   page cites January 1930 correspondence (Gale to Adams) "indicat[ing] that Michelson had
+   lost interest by then and that the latest observational data was not suitable for
+   publication". That correspondence PREDATES the summer move, so it is context and not a
+   report on the mountain data — do not let a future edit turn it into one. What it does
+   mean is that the mountain run cannot be quoted against Miller by either side, and the
+   steelman answer now concedes that before naming Joos as the replication that does the
+   work (Swenson p. 226: the Jena instrument was built "in direct response to Miller's 1925
+   announcement" and reported in September 1930 after a year's running). So "the Mount
    Wilson laboratory" is the observatory's Pasadena laboratory, at roughly 250 m, not the
    1,742 m summit. The longer light path is real; the altitude is not. Careful with this
    one in both directions: it also means the 1928 run WAS the most shielded, lowest
@@ -165,17 +190,65 @@ Research notes for whoever picks this up next.
 
 11. DEFECTS IN OUR OWN RECORD, reported up, NOT edited here:
    (a) the "3 items" in the batch metadata, above;
-   (b) the cluster note's "run by Michelson at Mount Wilson" — Pease and Pearson did the
-       observing under Michelson's supervision, and the site was the Pasadena laboratory;
+   (b) THE CLUSTER NOTE IS WRONG ON TWO OF ITS THREE FACTS AND IT RENDERS AS THE SUMMARY
+       LINE ABOVE THIS CARD (build.py maps note -> basis; render.py prints basis at the head
+       of the refutation section). It currently reads "...run by Michelson at Mount Wilson
+       specifically to test Miller", directly above a refutation whose section 2 is headed
+       "The higher altitude did not happen" and says the site was Pasadena. Pease and Pearson
+       did the observing under Michelson's supervision, and the site was the observatory's
+       Pasadena laboratory. A reader who never expands the card sees only the wrong version.
+       OPERATOR: this needs an edit in clusters.py, which this agent does not own. Anchor on
+       the cluster key "A11", never on the originator= line. Exact replacement text:
+         note="A high-precision repeat of Michelson-Morley (expected 0.9 fringe, measured "
+              "0.01), run by Pease and Pearson under Michelson at the Mount Wilson "
+              "Observatory's Pasadena laboratory, specifically to test Miller. Same "
+              "non-discriminating status as A01."
+       (em dash in "Michelson-Morley" as the surrounding file uses it.) This was reported in
+       an earlier pass and not applied; it is the one fact this entry is distinctive for.
    (c) the cluster's real_source cites only JOSA 18(3):181, but the sentence the whole
        downstream tradition quotes is the Nature note of 19 Jan 1929, and the two printings
-       give different ratios;
+       give different ratios AND, on Swenson's account, different velocity bases. OPERATOR:
+       real_source should carry both printings — Nature 123:88 (19 Jan 1929) and J. Opt.
+       Soc. Am. 18(3):181-182 (Mar 1929). Also in clusters.py, not editable here;
    (d) render.py hard-codes the compression heading "The list overstates its own source".
        On a `reversed` drift where the list is the more cautious party, that heading
        misdescribes the finding, so this entry's note says which way the gap runs in its
        first sentence rather than relying on the heading;
    (e) `_b10_R11.py` and `_b11_R11.py` both define R11, and deep.py's loader asserts on
        collision — whoever wires batch 10 in will hit it.
+
+12. FIXES APPLIED IN THIS FILE ON 2026-08-11, and what each replaced:
+   (a) tldr: "the chain that carried it to this list" -> "the geocentric literature this
+       item is traced to". The body (gloss, compression note, verdict_challenge) all decline
+       to claim a delivery path to the compiler; the TLDR was claiming one.
+   (b) steelman.why_it_doesnt_save_claim: the sentence "The entrainment hypothesis got its
+       altitude and its independent replication, and neither produced Miller's signal"
+       asserted an outcome for the 1930 mountain installation that no source we have reports.
+       Rewritten to concede that first and rest the answer on Joos. See note 6.
+   (c) refutation section 1: the Swenson quotation is now carried through the clause that
+       gives the JOSA ratio its velocity basis, instead of being cut at "expected shift".
+       "the record is clear" is gone; the record is documented, not clear. See note 5.
+   (d) refutation section 6: "fifteen orders of magnitude past 1929" was comparing a fringe
+       shift (0.01) with a fractional anisotropy (1e-17). In the same units, 1929's
+       v <= 3.1 km/s is (v/c)^2 ~ 1.07e-10, so the modern cavity bounds are seven and eight
+       orders past it. Recomputed 2026-08-11.
+   (e) refutation section 6 and sources: the Wettzell claim about length-of-day and VLBI was
+       hung on Eur. Phys. J. C 82 (2022), which supports only the rotation-rate bound — that
+       paper mentions neither VLBI nor length-of-day and calls its diurnal-polar-motion
+       corrections preliminary (checked 2026-08-11). The rate claim now cites it and only it;
+       length-of-day now cites Schreiber et al., Nature Photonics 17:1054 (2023), and the
+       VLBI comparison now cites Bohm et al., Adv. Geosci. 50:9 (2019), CONT17.
+   (f) compression.note: "Nothing in its pages on Michelson-Pease-Pearson locates a rotation
+       claim" contradicted our own refutation section 5, which quotes footnote 752 — at the
+       foot of p. 387, inside those pages — crediting "the rotation of the ether every 24
+       hours" with all the interferometer positives. The absence claim is now the narrow one
+       that is true (no claim that this EXPERIMENT measured the Earth's rotation), scoped to
+       the OCR and to named pages, with footnote 752 named as what does appear.
+   (g) page correction: the "20 km/sec" division is on p. 387, not p. 386. See note 4.
+   (h) the Miller shielding quotation in the steelman now carries its opening ellipsis and
+       both of its "it would seem" hedges, rather than starting mid-sentence unmarked.
+   NOT changed: the verdict, the verdict_challenge, the cluster note (owner: clusters.py),
+   and the advocate's survives=3.
 """
 
 ENTRY = {
@@ -184,8 +257,8 @@ ENTRY = {
 
     tldr=("The 1929 experiment reported an upper limit — no displacement as great as "
           "one-fifteenth of the expected one, and one-fiftieth in the second of its two "
-          "printings — and the chain that carried it to this list turned that into a "
-          "detection of 20 km/s by dividing 300 by 15, when a Michelson-Morley fringe "
+          "printings — and the geocentric literature this item is traced to turned that "
+          "into a detection of 20 km/s by dividing 300 by 15, when a Michelson-Morley fringe "
           "shift goes as the square of the speed. The book the item is traced to says the "
           "experiment “showed an ether drift against the Earth”; where it does call the "
           "result null, the word is inside its own quotation marks, in a paragraph the "
@@ -214,15 +287,15 @@ ENTRY = {
         gloss="""<p><strong>Read that against the item before anything else.</strong> The item says <em>null</em>. The source says the experiment <em>showed an ether drift</em>. This is not a hedge that has been dropped in transit; it is the other side of the question, and the list has taken the side the physics literature is on.</p>
 <p><strong>The book uses the word &ldquo;null&rdquo; of this experiment once in the text reachable here, and puts it in quotation marks.</strong> At printed p. 353, in a paragraph listing the repetitions that followed 1905, Michelson &ldquo;teamed up with F. G. Pease and F. Pearson and declared again that he produced a &lsquo;null&rsquo; result&rdquo;. The scare quotes are the book&rsquo;s. Thirty pages later it explains what it thinks really happened: the 1928 run, it says, was the one where &ldquo;Michelson indeed found significant fringe shifting&rdquo; (p. 386), and Michelson then &ldquo;obfuscates his results&rdquo; by comparing them to a supposed 300 km/s motion of the solar system. So a reader who took &ldquo;null&rdquo; from p. 353 took a word the same chapter spends thirty pages retracting.</p>
 <p><strong>Where the claim comes from, link by link.</strong> The reading is not original to this book and the book does not pretend it is. Its footnotes 751 and 754 cite James DeMeo, <em>&ldquo;Dayton Miller&rsquo;s Ether-Drift Experiments: A Fresh Look&rdquo;</em>, and the narrative here follows DeMeo&rsquo;s almost sentence for sentence &mdash; the three attempts, the 22-metre and 32-metre paths, the same block quotation of Michelson, the same 20 km/s. DeMeo&rsquo;s own caption calls it &ldquo;their successful detection of an ether-drift of some unspecified quantity just under 20 km/sec.&rdquo; Behind DeMeo stands H&eacute;ctor Mu&ntilde;era&rsquo;s 1998 <em>Apeiron</em> paper, quoted at length in this book&rsquo;s footnote 689, which rereads the classic null results as small positives. DeMeo is not a geocentrist and Mu&ntilde;era is not arguing for a stationary Earth; the geocentric conclusion is added here, at this link in the chain, which is why the argument is recorded under this book and not under theirs.</p>
-<p><strong>One number, three answers, in one chapter.</strong> The sentence everybody is quoting is a bound: <em>&ldquo;The results gave no displacement as great as one-fifteenth of that to be expected on the supposition of an effect due to a motion of the solar system of three hundred kilometers per second.&rdquo;</em> The main text at p. 386 divides: &ldquo;if one multiplies his &lsquo;three hundred kilometers per second&rsquo; by &lsquo;one-fifteenth,&rsquo; the result is 20 km/sec&rdquo;. Footnote 689 quotes Mu&ntilde;era taking the square root instead &mdash; &ldquo;the corresponding solar velocity is then 300(1/15)<sup>1/2</sup> = 77.5 km/s, which is not null by any means&rdquo; &mdash; and reporting 42.4 km/s for the <em>JOSA</em> printing&rsquo;s one-fiftieth. Footnote 759 passes on Galaev&rsquo;s 6,000 m/s, which is the same division done on one-fiftieth. Three velocities, three cited authorities, no reconciliation. Which arithmetic is right is settled in the refutation; that the book prints all three is visible without any physics at all.</p>
+<p><strong>One number, three answers, in one chapter.</strong> The sentence everybody is quoting is a bound: <em>&ldquo;The results gave no displacement as great as one-fifteenth of that to be expected on the supposition of an effect due to a motion of the solar system of three hundred kilometers per second.&rdquo;</em> The main text divides, across pp. 386&ndash;387: &ldquo;if one multiplies his &lsquo;three hundred kilometers per second&rsquo; by &lsquo;one-fifteenth,&rsquo; the result is 20 km/sec&rdquo;. Footnote 689, at the foot of p. 353, quotes Mu&ntilde;era taking the square root instead &mdash; &ldquo;the corresponding solar velocity is then 300(1/15)<sup>1/2</sup> = 77.5 km/s, which is not null by any means&rdquo; &mdash; and reporting 42.4 km/s for the <em>JOSA</em> printing&rsquo;s one-fiftieth, which is 300/&radic;50 and so carries the 300 km/s basis over to the second printing; Swenson&rsquo;s history attaches a different velocity basis to that printing, and neither 1929 paper was reached here to settle which is right. Footnote 759 passes on Galaev&rsquo;s 6,000 m/s, which is the same division done on one-fiftieth. Three velocities, three cited authorities, no reconciliation. Which arithmetic is right is settled in the refutation; that the book prints all three is visible without any physics at all.</p>
 <p><strong>What this passage is being cited as.</strong> The earliest text located that puts this experiment into a geocentric argument. A keyword search of the <em>De Labore Solis</em> PDF at geocentricity.com returned zero hits for <em>Pease</em> and zero for <em>Pearson</em> on 2026-08-10; Bouw&rsquo;s <em>Geocentricity</em> (1992) was not reachable. So this is the earliest located, not the first, and the specimen carries no citation for item 10 &mdash; it carries none for any of its 461 &mdash; so which text its compiler read is not something this page can show.</p>"""),
 
     steelman=dict(
         description="""<p><strong>SURFACE (weak &mdash; do not use).</strong> &ldquo;The 1929 experiment was a null, so the item is simply correct and there is nothing to discuss.&rdquo; That concedes the interesting half of the case and walks past the fact that the tradition the item comes from says the opposite. It also invites the reply that a &ldquo;null&rdquo; in this literature never meant a measured zero &mdash; which is true.</p>
 <p><strong>DEEPER.</strong> The experiment really did not return zero, and nobody claimed it did. What Michelson, Pease and Pearson published was a ratio: no displacement as great as one-fifteenth of the expected one. Reported limits are not measured zeros, the two 1929 papers do not give the same limit &mdash; <em>Nature</em> in January said one-fifteenth, <em>JOSA</em> in March said one-fiftieth &mdash; and a reader entitled to ask what the residual actually was is asking a fair question that the two-page papers do not answer.</p>
-<p><strong>KERNEL.</strong> The strongest form is about the shielding, and it was put by Dayton Miller at the time rather than invented later. Miller&rsquo;s claim was an <em>entrained</em> ether: one dragged along near massive bodies, so that a drift would show up out in the open air on a mountain and be suppressed indoors. On that hypothesis the 1929 apparatus was the worst possible test, and this is not hindsight &mdash; it is where the instrument actually was. Loyd Swenson&rsquo;s history has the team, in the summer of 1928, removing the superstructure and putting the apparatus &ldquo;in a well of the Pasadena Laboratory&rdquo; inside an improvised constant-temperature room. Miller&rsquo;s printed objection follows exactly: &ldquo;such massive and opaque shielding is not justifiable ... there should be the least possible obstruction between the free ether and the light path.&rdquo; A defender who says <em>your best null came out of a hole in the ground under a temperature-controlled ceiling, and the one instrument that was in the open air is the one that kept showing something</em> has said something true, specific and awkward.</p>""",
-        why_it_doesnt_save_claim="""<p>Because the objection was <strong>acted on</strong>, and because the version of it in this book contradicts the version that makes it good.</p>
-<p>Acted on: in the summer of 1930 Pease and Pearson had the instrument carried up the mountain and installed in the base of the 100-inch telescope &mdash; the elevation Miller asked for &mdash; and in the same season Georg Joos ran a 21-metre interferometer at Jena which bounded any drift below one thousandth of a fringe, under 1.5 km/s. The entrainment hypothesis got its altitude and its independent replication, and neither produced Miller&rsquo;s signal.</p>
+<p><strong>KERNEL.</strong> The strongest form is about the shielding, and it was put by Dayton Miller at the time rather than invented later. Miller&rsquo;s claim was an <em>entrained</em> ether: one dragged along near massive bodies, so that a drift would show up out in the open air on a mountain and be suppressed indoors. On that hypothesis the 1929 apparatus was the worst possible test, and this is not hindsight &mdash; it is where the instrument actually was. Loyd Swenson&rsquo;s history has the team, in the summer of 1928, removing the superstructure and putting the apparatus &ldquo;in a well of the Pasadena Laboratory&rdquo; inside an improvised constant-temperature room. Miller&rsquo;s printed objection follows exactly, hedges and all: &ldquo;&hellip; it would seem that such massive and opaque shielding is not justifiable &hellip; it would seem to be essential that there should be the least possible obstruction between the free ether and the light path &hellip;&rdquo; A defender who says <em>your best null came out of a hole in the ground under a temperature-controlled ceiling, and the one instrument that was in the open air is the one that kept showing something</em> has said something true, specific and awkward.</p>""",
+        why_it_doesnt_save_claim="""<p>Because the objection was <strong>acted on</strong> &mdash; though not, in the end, by the run that went up the mountain &mdash; and because the version of it in this book contradicts the version that makes it good.</p>
+<p>Acted on, and the loose end named first: in the summer of 1930 Pease and Pearson had the instrument transported up the mountain and installed in the base of the 100-inch telescope, the elevation Miller had asked for, though still not the open air he wanted (Swenson, p. 225). <strong>No result from that installation is reported in Swenson&rsquo;s account of it</strong>, and his note on the same page records correspondence of January 1930 indicating that Michelson had by then lost interest and that the latest observational data was &ldquo;not suitable for publication&rdquo;. So the mountain run is not available to be quoted against Miller, and this page does not quote it. What did answer the objection independently was Georg Joos: an automated 21-metre interferometer, built at the Zeiss works in Jena in direct response to Miller&rsquo;s 1925 announcement, reported in September 1930 after a year of running, which bounded any effect below a thousandth of a fringe width and any aether wind under 1.5 km/s. The entrainment hypothesis got its independent replication at full instrumental strength, and it did not produce Miller&rsquo;s signal.</p>
 <p>Contradicted: the entrainment argument works only if the 1929 run was <em>shielded and low</em>. The book needs the opposite. Its explanation of why the third attempt supposedly showed something is that &ldquo;This higher altitude and longer light-path came closer to Miller&rsquo;s specifications&rdquo; (p. 386) &mdash; and there was no higher altitude. The observatory&rsquo;s laboratory is in Pasadena. A defender may have the shielding point or the higher-altitude point; the two cancel, and only one of them is in the source.</p>"""),
 
     refutation="""<p><strong>Three things have to be kept apart here, because the item and its source disagree about the first of them.</strong> What the 1929 papers reported. What the geocentric literature says they reported. And what an instrument of that design could ever have said about the Earth&rsquo;s rotation, which is the word the item actually uses.</p>
@@ -233,11 +306,11 @@ ENTRY = {
 
 <p>The 20 km/s is also arithmetically wrong, and the book contains the correction. A Michelson-Morley fringe displacement goes as the <em>square</em> of the speed &mdash; &Delta; = 2<em>Lv</em><sup>2</sup>/&lambda;<em>c</em><sup>2</sup> &mdash; so a shift one-fifteenth of the shift expected for 300 km/s corresponds to 300/&radic;15 = <strong>77.5 km/s</strong>, not 300/15 = 20. That is exactly the calculation the book&rsquo;s own footnote 689 reproduces from Mu&ntilde;era, alongside 42.4 km/s for the <em>JOSA</em> printing&rsquo;s one-fiftieth; footnote 759 then passes on Galaev&rsquo;s 6,000 m/s, which is 300/50 divided linearly again. One sentence of Michelson&rsquo;s, three incompatible velocities, all three printed in the same chapter as support for the same conclusion. Only one of them is even the right kind of arithmetic, and the one the main text builds its match to Kennedy-Thorndike on is not it.</p>
 
-<p>On the discrepancy itself, the record is clear and it is older than the argument. Loyd Swenson&rsquo;s history of these experiments reports that the two 1929 papers &ldquo;were not in perfect agreement&rdquo;: <em>Nature</em> on 19 January carried the one-fifteenth figure, and <em>JOSA</em> in March reported nothing observed within one-fiftieth of the expected shift. The book&rsquo;s footnote 753 says instead that the one-fiftieth figure &ldquo;appears to be in error&rdquo; &mdash; while its own footnote 689 quotes Mu&ntilde;era reporting both printings. Swenson, writing in 1972, asked whether the change was &ldquo;simply a refinement of the data&rdquo; or &ldquo;a change in judgment&rdquo;, concluded that &ldquo;to most physicists these figures were clearly null results either way&rdquo;, and added that &ldquo;Miller or his partisans could capitalize on such discrepancies&rdquo;. That sentence was published twenty-six years before Mu&ntilde;era and thirty-four before this book.</p>
+<p>On the discrepancy itself, the documentation is older than the argument, and it is messier than either side has use for. Loyd Swenson&rsquo;s history reports that the two 1929 papers did not agree: <em>Nature</em> on 19 January carried a note that no displacement as great as one-fifteenth of the expected one was found, while in March the <em>Journal of the Optical Society of America</em> reported that &ldquo;nothing was observed within one-fiftieth of the expected shift, based on Sternberg&rsquo;s estimate of the solar system&rsquo;s resultant velocity of about three thousand kilometers per second&rdquo; (p. 222; Swenson names Gustaf Str&ouml;mberg, the Mount Wilson astronomer who set the observing schedule with Miller, at p. 221). That trailing clause matters here, because it attaches the second ratio to a different velocity basis from the three hundred km/s the <em>Nature</em> sentence names &mdash; and Mu&ntilde;era&rsquo;s 42.4 km/s for the <em>JOSA</em> printing is 300/&radic;50, which carries the first basis over to the second. Neither 1929 printing was reached for this entry: the ratios and the bases are as reported by Swenson and by Mu&ntilde;era, who do not agree, and nothing on this page turns on which of them has it right. What both do settle is that the book&rsquo;s footnote 753 &mdash; the one-fiftieth figure &ldquo;appears to be in error&rdquo; &mdash; sits badly beside its own footnote 689, which quotes Mu&ntilde;era reporting both printings and converting both, though Mu&ntilde;era too breaks off to wonder in parenthesis whether the <em>JOSA</em> figure is a misprint. Swenson, writing in 1972, asked whether the change was a refinement of the data or a change of judgment, concluded that &ldquo;to most physicists these figures were clearly null results either way&rdquo;, and added that &ldquo;Miller or his partisans could capitalize on such discrepancies&rdquo; &mdash; twenty-six years before Mu&ntilde;era and thirty-four before this book.</p>
 
 <h4>2. The higher altitude did not happen</h4>
 
-<p>The book&rsquo;s explanation of why the third attempt allegedly showed something is causal and checkable: the run moved to a &ldquo;well-sheltered basement room of the Mount Wilson laboratory&rdquo;, the light path went to 52 metres, and &ldquo;This higher altitude and longer light-path came closer to Miller&rsquo;s specifications.&rdquo; The path length is right. The altitude is a misreading of a name. The Mount Wilson Observatory&rsquo;s laboratory and optical shops were in <em>Pasadena</em>, on the valley floor, and that is where this instrument was built &mdash; on the seven-thousand-pound cast-iron bedplate that had been used to polish the 100-inch Hooker mirror. Swenson records that in the summer of 1928 the team &ldquo;removed the superstructure and put the basic apparatus in a well of the Pasadena Laboratory&rdquo;, improvised a constant-temperature room, and enlarged the path to eighty-five feet. The instrument was carried up the mountain in the summer of <strong>1930</strong>, into the base of the 100-inch telescope &mdash; eighteen months after the paper the argument rests on.</p>
+<p>The book&rsquo;s explanation of why the third attempt allegedly showed something is causal and checkable: the run moved to a &ldquo;well-sheltered basement room of the Mount Wilson laboratory&rdquo;, the light path went to 52 metres, and &ldquo;This higher altitude and longer light-path came closer to Miller&rsquo;s specifications.&rdquo; The path length is right. The altitude is a misreading of a name. The Mount Wilson Observatory&rsquo;s laboratory and optical shops were in <em>Pasadena</em>, on the valley floor, and that is where this instrument was built &mdash; on the seven-thousand-pound cast-iron bedplate that had been used to polish the 100-inch Hooker mirror. Swenson records that in the summer of 1928, still losing the fight against temperature drift and asymmetrical strains, the team stripped off the superstructure, sank the basic apparatus into a well of the Pasadena laboratory, improvised a constant-temperature room, floated the optics on a mercury bath, enlarged the path length to eighty-five feet, and roofed the whole assembly over so that the observer could sit above the ceiling while the sealed system rotated beneath him (pp. 220&ndash;221). The instrument was carried up the mountain in the summer of <strong>1930</strong>, into the base of the 100-inch telescope &mdash; eighteen months after the paper the argument rests on.</p>
 
 <p>So the third run was not nearer to Miller&rsquo;s conditions than the first two. It was further away: deeper, more thermally sealed, and 1,500 metres lower than Miller&rsquo;s canvas house on the summit. Which is a real point for the other side &mdash; it is Miller&rsquo;s own objection, and this page grants it in the steelman &mdash; but it is the opposite of the reason the book gives, and the two cannot both be run.</p>
 
@@ -261,7 +334,7 @@ ENTRY = {
 
 <h4>6. What has happened since, on both instruments</h4>
 
-<p>Both lines were continued and both kept giving the same answers. On the translation side: Joos at Jena in 1930 bounded any drift below a thousandth of a fringe, under 1.5 km/s; the modern descendants are rotating optical cavities, which bound the anisotropy of the speed of light at &Delta;<em>c</em>/<em>c</em> &asymp; 10<sup>&minus;17</sup> (Herrmann et al. 2009) and 10<sup>&minus;18</sup> (Nagel et al. 2015) &mdash; fifteen orders of magnitude past 1929, still null, still exactly what relativity predicts for an Earth in motion. On the rotation side: the ring laser at Wettzell, the direct descendant of the 1925 rectangle, tracks the Earth&rsquo;s rotation rate below one part in 10<sup>9</sup> and resolves length-of-day variation and polar motion in agreement with very-long-baseline interferometry. The instrument that cannot see rotation still cannot. The instrument that can, does, continuously, to nine figures.</p>
+<p>Both lines were continued and both kept giving the same answers. On the translation side: Joos at Jena in 1930 bounded any drift below a thousandth of a fringe, under 1.5 km/s; the modern descendants are rotating optical cavities, which bound the anisotropy of the speed of light at &Delta;<em>c</em>/<em>c</em> &asymp; 10<sup>&minus;17</sup> (Herrmann et al. 2009) and 10<sup>&minus;18</sup> (Nagel et al. 2015). Set that against 1929 in the same units rather than in fringes: a bound of <em>v</em> &le; 3 km/s is a bound on the fractional anisotropy of about (<em>v</em>/<em>c</em>)<sup>2</sup> &asymp; 10<sup>&minus;10</sup>, so the modern experiments are seven and eight orders of magnitude past it &mdash; still null, still exactly what relativity predicts for an Earth in motion. On the rotation side: the ring laser at Wettzell, the direct descendant of the 1925 rectangle, resolves the Earth&rsquo;s rotation rate to better than one part in 10<sup>9</sup> after about 10<sup>4</sup> seconds of integration (Eur. Phys. J. C 82, 2022); a 120-day continuous run of a large ring laser resolved length-of-day fluctuations to a few milliseconds, about five parts in 10<sup>9</sup>, at three hours per data point (Schreiber et al. 2023); and during the CONT17 campaign the Wettzell ring laser was run alongside very-long-baseline interferometry, where folding the two together improved the &delta;UT1 and polar-motion solutions rather than contradicting them (B&ouml;hm et al. 2019). The instrument that cannot see rotation still cannot. The instrument that can, does, continuously, to nine figures.</p>
 
 <h4>7. What the verdict ranges over</h4>
 
@@ -299,8 +372,12 @@ ENTRY = {
             "shielding paragraph and its Swenson citation stay where they are, ABOVE the "
             "refutation, so no reader meets our altitude correction without first meeting "
             "the point it costs us; and the answer to it stays factual rather than "
-            "rhetorical — the instrument went up the mountain in summer 1930 and Joos "
-            "replicated independently at Jena, so the objection was met, not waved away. "
+            "rhetorical, and it concedes the loose end before the defender reaches it — "
+            "the instrument did go up the mountain in summer 1930, but no result from that "
+            "installation is reported anywhere we have reached, so what actually met the "
+            "objection was Joos's independent replication at Jena. Do not restore the "
+            "earlier wording, which credited the mountain installation with an outcome "
+            "nobody can cite. "
             "(2) Section 4 must keep its opening sentence naming the word 'rotation' as "
             "the ITEM's word, not the source's, because that is what makes the arithmetic "
             "responsive rather than a straw man: the list says rotation, the source does "
@@ -362,8 +439,15 @@ ENTRY = {
               "&ldquo;rotation&rdquo; is the list's.</em> The book treats this experiment as a "
               "Michelson-Morley repetition about translation through the ether, and puts "
               "rotation elsewhere &mdash; in Michelson-Gale and Sagnac, where it concedes the "
-              "measurement and reassigns the motion to the ether. Nothing in its pages on "
-              "Michelson-Pease-Pearson locates a rotation claim. <em>And the item is one "
+              "measurement and reassigns the motion to the ether. No claim that this "
+              "experiment measured the Earth's rotation is located in the archive.org OCR's "
+              "pages on Michelson-Pease-Pearson (printed pp. 385&ndash;387) or at the "
+              "&ldquo;null&rdquo; mention on p. 353. Rotation does appear on those pages, but "
+              "as the book's own explanation rather than as the experiment's subject: footnote "
+              "752, at the foot of p. 387, credits &ldquo;the rotation of the ether every 24 "
+              "hours&rdquo; with the small positive results of all the interferometer "
+              "experiments &mdash; a mechanism answered on its own numbers in the refutation. "
+              "<em>And the item is one "
               "item.</em> It is the only member of this cluster, which is worth saying on a "
               "page about how 461 items compress: a claim can circulate as a single line with "
               "no relatives and still carry a reading of the primary literature that its own "
@@ -428,8 +512,12 @@ ENTRY = {
                    "Michelson-Morley-Miller Aether-Drift Experiments, 1880–1930 (University of "
                    "Texas Press, 1972), ch. “Michelson Reaffirms the Null, 1925–1930”, pp. "
                    "216–227 — the Pasadena laboratory and the well (pp. 220–221), the 1930 move "
-                   "up the mountain (p. 225), the one-fifteenth / one-fiftieth discrepancy and "
-                   "Michelson’s press conference (pp. 222–223)",
+                   "up the mountain into the base of the 100-inch, with no result from it "
+                   "reported and note 29 recording that correspondence of January 1930 shows "
+                   "Michelson’s interest had lapsed and the latest data was judged unfit to "
+                   "publish (p. 225), Joos at Jena (p. 226), the one-fifteenth / one-fiftieth "
+                   "discrepancy with its “Sternberg”/Strömberg velocity basis and Michelson’s "
+                   "press conference (pp. 222–223)",
              url="https://www.jstor.org/stable/10.7560/720008"),
         dict(label="James DeMeo, “Dayton Miller’s Ether-Drift Experiments: A Fresh Look” "
                    "(Pulse of the Planet 5, 2002; web version at orgonelab.org) — the "
@@ -459,10 +547,25 @@ ENTRY = {
         dict(label="Nagel et al., “Direct terrestrial test of Lorentz symmetry in "
                    "electrodynamics to 10⁻¹⁸”, Nature Communications 6:8174 (2015)",
              url="https://arxiv.org/abs/1412.6954"),
-        dict(label="The Wettzell G ring laser — the descendant of the 1925 rectangle, tracking "
-                   "Earth rotation below one part in 10⁹ and resolving length-of-day variation "
-                   "and polar motion in agreement with VLBI (Eur. Phys. J. C 82, 2022)",
+        dict(label="“Overcoming 1 part in 10⁹ of earth angular rotation rate measurement with "
+                   "the G Wettzell data”, Eur. Phys. J. C 82 (2022) — the descendant of the 1925 "
+                   "rectangle; the Allan deviation of the rotation-rate measurement drops below "
+                   "one part in 10⁹ after about 10⁴ s of integration. This paper covers the rate "
+                   "measurement only: it does not mention VLBI or length-of-day, and treats "
+                   "diurnal polar motion as a modelled correction it calls preliminary",
              url="https://link.springer.com/article/10.1140/epjc/s10052-022-10798-9"),
+        dict(label="Schreiber, Kodet, Hugentobler, Klügel & Wells, “Variations in the Earth’s "
+                   "rotation rate measured with a ring laser interferometer”, Nature Photonics "
+                   "17:1054–1058 (2023) — length-of-day fluctuations resolved continuously over "
+                   "120 days at a few parts in 10⁹, three hours per data point",
+             url="https://doi.org/10.1038/s41566-023-01286-x"),
+        dict(label="Böhm, Schartner, Gebauer, Klügel, Schreiber & Schüler, “Earth rotation "
+                   "variations observed by VLBI and the Wettzell ‘G’ ring laser during the "
+                   "CONT17 campaign”, Adv. Geosci. 50:9–15 (2019) — the ring laser run alongside "
+                   "VLBI; combining them reduced the scatter in δUT1 and polar motion against "
+                   "the VLBI benchmark. This is the citation for the VLBI comparison, which the "
+                   "2022 paper above does not make",
+             url="https://doi.org/10.5194/adgeo-50-9-2019"),
         dict(label="Michelson-Morley experiment — the standard comparison table of repetitions, "
                    "whose 1929 row (path 25.9 m, expected 0.9 fringe, measured ≤ 0.01, limit ~3 "
                    "km/s) is where this cluster’s recorded figures match; the arithmetic was "

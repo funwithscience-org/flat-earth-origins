@@ -82,9 +82,19 @@ Research notes for whoever picks this up next.
        TANGENTIAL HORIZON (p. 272) he calls that "fully sufficient" to explain the
        1870 Bedford result. Do the sum: 0.001 ft in 660 ft is 1.515e-6 rad = 0.313
        arcsec; over six statute miles (31,680 ft) that is 0.048 ft, i.e. 0.58 inch.
-       He needs it to cover 11 ft 8 in = 140 inches. Short by a factor of 243. The
-       three-mile case in his fig. 3 discussion is the same order (0.29 in against
-       6 ft, a factor of 250). Also note WHAT Heather's sentence is: a residual after
+       THE YARDSTICK, CORRECTED 2026-08-11: it is what curvature produces at that
+       range on HIS OWN arithmetic, not a discrepancy he offers collimation against at
+       p. 35. At p. 35 the thing he applies to the fig. 3 case is the ATMOSPHERIC
+       one-twelfth allowance, and the fig. 3 case (EXPERIMENT 1, pp. 11-13) is one
+       where he reports the flag stayed visible and treats that as proof — "Such a
+       condition was not observed". So compare against: 11 ft 8 in = 140 inches over
+       six miles (EXPERIMENT 1), a factor of 243; 6 ft at three miles (EXPERIMENT 3,
+       p. 17), 0.29 in, a factor of 250; and, at the one place he does deploy
+       collimation against a reported observation, the 1870 Bedford result at p. 272,
+       the "several feet" he says a magnified disc will "appear to be lifted up" —
+       order a hundred. Do not re-pair the 240 with p. 35 as a discrepancy he needs to
+       absorb; that hands a defender "you sized my substitute against a discrepancy I
+       never asked it to explain". Also note WHAT Heather's sentence is: a residual after
        correct adjustment — a tolerance — which Rowbotham converts into a systematic
        divergence the lenses "necessarily produce".
    (c) Cape Bonavista, kept deliberately consistent with ARG-B04 rather than
@@ -96,12 +106,18 @@ Research notes for whoever picks this up next.
    DO NOT go on to claim refraction closes the Bonavista sighting. It does not, and
    B04 owns why (nominal versus geographic range). Scope stated in section 7.
 
-5. THE MODERN LINK IS DUBAY 200 PROOFS #71 AND IT HEDGES TOO. "...several news channels
-   quickly claimed his picture to be a 'superior mirage' ... While these certainly do
-   occur, the skyline in question was facing right-side up and clearly seen unlike a
-   hazy illusory mirage" (as reproduced at flatearth.ws/eric-dubay). He CONCEDES the
-   phenomenon and argues from the appearance of one photograph. Item 221 keeps neither
-   the concession nor the photograph. And his observation is half right in a way that
+5. THE NEAREST MODERN FORM IS DUBAY 200 PROOFS #71 AND IT HEDGES TOO. NOT A TRACED
+   DESCENT — corrected 2026-08-11, do not re-promote it to "source". "...several news
+   channels quickly claimed his picture to be a 'superior mirage' ... While these
+   certainly do occur, the skyline in question was facing right-side up and clearly seen
+   unlike a hazy illusory mirage, and on a ball-Earth 25,000 miles in circumference
+   should be 2,400 feet below the horizon" (as reproduced at flatearth.ws/eric-dubay;
+   quote the closing clause too — stopping at the concession is the hedge rule violated
+   on our side). He CONCEDES the phenomenon and argues from the appearance of one
+   photograph. Item 221 keeps neither the concession nor the photograph, but no line of
+   descent has been shown either: the word "refraction" does not occur in the 200 Proofs
+   text on that page (searched 2026-08-11; the only hits are site navigation), and item
+   221 turns on that word. Treated as a parallel throughout. And his observation is half right in a way that
    costs him: Andrew Young's own taxonomy separates LOOMING — erect, sharp, no inverted
    or multiple images, "and therefore without mirages" — from mirage proper. So the news
    channels used the wrong word and Dubay caught them; the right word names an effect
@@ -125,8 +141,12 @@ Research notes for whoever picks this up next.
    things make a correction non-ad-hoc and all three hold: it is measurable
    independently of the observation it explains (simultaneous reciprocal vertical
    angles; a thermistor mast; a radiosonde); it is fixed in advance and published (USNO
-   uses a nominal horizontal refraction of 34' inside the 50' depression that defines
-   sunrise, worldwide, computed ahead of the event); and it can come out wrong. State
+   builds a fixed 34' of horizontal refraction into the 50' depression that defines
+   sunrise, worldwide, computed ahead of the event — quote USNO's own wording, "the
+   average amount of atmospheric refraction at the horizon (34 arcminutes)"; the phrase
+   "a nominal horizontal refraction of 34 minutes" is ANDREW YOUNG'S, on
+   aty.sdsu.edu/explain/sunset_time.html, and was misattributed to USNO until
+   2026-08-11); and it can come out wrong. State
    the falsifier explicitly in the body — a distant target photographed far beyond the
    geometric horizon with its BASE visible, undistorted, no vertical stretching, under a
    measured neutral profile. Every Chicago-from-Michigan frame has the lower floors
@@ -171,8 +191,8 @@ ENTRY = {
           "allowed for it in his own experiments. What he did was run a control that measured the "
           "wrong quantity: two thermometers at the two ends of a six-mile sightline cannot see the "
           "vertical temperature gradient that bends the ray. And the divergence-in-the-telescope "
-          "he offered instead is, on the one magnitude his book supplies for it, about 240 times "
-          "too small."),
+          "he offered instead is, on the only magnitude the chapters read for this entry supply, "
+          "about 240 times too small."),
 
     passage=dict(
         work="WRK-ROWBOTHAM-1865",
@@ -219,9 +239,9 @@ ENTRY = {
 <p><strong>KERNEL.</strong> The strongest version is not about optics at all. It is a demand about method, and it runs: <em>you have a correction whose size you do not know, which you apply after the fact, in whatever amount the observation requires. When a distant target is visible that your model says should be hidden, it was refraction. When it is hidden, the atmosphere was standard. Name, in advance, the value for tomorrow. If you cannot, you are not correcting a measurement; you are absorbing a refutation.</em> And the modern literature makes this worse rather than better: Hirt and colleagues, measuring the refraction coefficient at 1.8&nbsp;m over grass with paired total stations at one-minute sampling, found it swinging <strong>between &minus;4 and +16</strong> on sunny summer days, and concluded that &ldquo;the frequently used Gaussian refraction coefficient of +0.13 is not suited for describing refraction effects in the lower atmosphere.&rdquo; A parameter with a working range of twenty, quoted from a geodesy journal rather than from a flat-earth pamphlet, is a serious thing to hand an opponent. The charge also lands on a great deal of actual debunking, which says &ldquo;refraction&rdquo; and stops, having measured nothing.</p>""",
         why_it_doesnt_save_claim="""<p><strong>Because refraction is an observable, and observables can be measured before the thing they explain.</strong> That is the whole difference between a correction and an excuse, and it is not a debating point &mdash; it is a set of instruments. The coefficient is recovered from simultaneous reciprocal vertical angles at the two ends of a line, which is how Gauss got +0.13 near Hannover around 1826 and how Hirt's total stations got their time series in 2008. It is recovered independently from a temperature profile: <em>k</em>&nbsp;=&nbsp;503(<em>p</em>/<em>T</em>&sup2;)(0.0343&nbsp;+&nbsp;&part;<em>T</em>/&part;<em>z</em>), which contains no free constant, only the lab-measured refractivity of air and hydrostatics. Put a thermistor mast or a radiosonde on the path and you have <em>k</em> without looking at the target at all. <strong>The excursions Hirt measured are not evidence that <em>k</em> is unknowable; they are the record of somebody knowing it, minute by minute, for thirty-three hours.</strong></p>
 
-<p><strong>Because it is published in advance, at a fixed value, and used to predict.</strong> The US Naval Observatory defines sunrise and sunset as the moment the Sun's geometric zenith distance reaches 90.8333&deg; &mdash; a depression of 50 arcminutes, being 16&prime; of solar semidiameter plus <em>&ldquo;a nominal horizontal refraction of 34 minutes&rdquo;</em>. That number is not tuned per observation. It is stamped into every rise and set time the office issues, for every latitude, years ahead, and the tables work. A quantity fixed in advance and used to make daily quantitative predictions across the whole planet is not an ad hoc rescue, whatever else it is.</p>
+<p><strong>Because it is published in advance, at a fixed value, and used to predict.</strong> The US Naval Observatory defines sunrise and sunset as the moment the Sun's geometric zenith distance reaches 90.8333&deg; &mdash; a depression of 50 arcminutes which the office obtains, in its own words, by adding <em>&ldquo;the average apparent radius of the Sun (16 arcminutes) to the average amount of atmospheric refraction at the horizon (34 arcminutes)&rdquo;</em>. That 34&prime; is not tuned per observation. It is stamped into every rise and set time the office issues, for every latitude, years ahead, and the tables work. A quantity fixed in advance and used to make daily quantitative predictions across the whole planet is not an ad hoc rescue, whatever else it is.</p>
 
-<p><strong>And because refusing it does not leave the argument with no adjustable parameter &mdash; it leaves it with a worse one.</strong> Having declined the atmospheric coefficient, Rowbotham needs something else to explain the theodolite results, and he supplies it: a divergence of the ray inside the telescope, which he calls <em>&ldquo;collimation, or refraction&rdquo;</em> and deploys against the horizon dip, against the 1870 Bedford Level result, and against the spherical excess of the Principal Triangulation of Great Britain. It is never measured. The one magnitude he gives for it, borrowed from Heather's <em>Treatise on Mathematical Instruments</em>, is about 240 times too small for the job &mdash; the arithmetic is in the refutation. The kernel's own standard, applied evenly, convicts the substitute long before it convicts the correction.</p>"""),
+<p><strong>And because refusing it does not leave the argument with no adjustable parameter &mdash; it leaves it with a worse one.</strong> Having declined the atmospheric coefficient, Rowbotham needs something else to explain the theodolite results, and he supplies it: a divergence of the ray inside the telescope, which he calls <em>&ldquo;collimation, or refraction&rdquo;</em> and deploys against the horizon dip, against the 1870 Bedford Level result, and against the spherical excess of the Principal Triangulation of Great Britain. No measurement of it is located in the chapters read for this entry. The one magnitude he does give for it there, borrowed from Heather's <em>Treatise on Mathematical Instruments</em>, is about 240 times too small for the job &mdash; the arithmetic is in the refutation. The kernel's own standard, applied evenly, convicts the substitute long before it convicts the correction.</p>"""),
 
     refutation="""<p><strong>Concede the method complaint first, because it is a real one.</strong> A correction applied only when it is needed, in whatever amount is needed, would be exactly what this item says it is. Much popular debunking does behave that way: it names refraction, measures nothing, and moves on. If that were all there were, the charge would stick. So the question this entry has to answer is not <em>does light bend</em> &mdash; the source agrees that it does &mdash; but <strong>is the correction fixed independently of the observation it is used on</strong>. Three tests decide that, and refraction passes all three.</p>
 
@@ -237,7 +257,7 @@ ENTRY = {
 
 <h4>3. It is fixed in advance and used to predict</h4>
 
-<p>The US Naval Observatory defines sunrise and sunset as the instant the Sun's geometric zenith distance reaches 90.8333&deg;: a depression of 50 arcminutes, made up of about 16&prime; of solar semidiameter and <em>&ldquo;a nominal horizontal refraction of 34 minutes&rdquo;</em>. That value is not adjusted per sighting; it is baked into every rise and set time the office publishes, computed years ahead, for every latitude. And the honest limit belongs in the same paragraph, stated by the same community rather than extracted from it: Andrew Young, whose SDSU pages on refraction are cited as the standard reference throughout this review, titles one of them <em>Why We Can't Predict Sunset Times Exactly</em>, because <em>&ldquo;the refraction at any instant may differ by several minutes of arc from the most accurate value that can be calculated.&rdquo;</em> <strong>The mean is fixed and published; the excursions are not predictable.</strong> That combination is what an honest physical correction looks like, and this entry claims nothing stronger.</p>
+<p>The US Naval Observatory defines sunrise and sunset as the instant the Sun's geometric zenith distance reaches 90.8333&deg;: a depression of 50 arcminutes which the office describes as <em>&ldquo;obtained by adding the average apparent radius of the Sun (16 arcminutes) to the average amount of atmospheric refraction at the horizon (34 arcminutes)&rdquo;</em> &mdash; what Andrew Young, cited below, calls <em>&ldquo;a nominal horizontal refraction of 34 minutes&rdquo;</em>. That 34&prime; is not adjusted per sighting; it is baked into every rise and set time the office publishes, computed years ahead, for every latitude. And the honest limit belongs in the same paragraph, stated by the same community rather than extracted from it: Andrew Young, whose SDSU pages on refraction are cited as the standard reference throughout this review, titles one of them <em>Why We Can't Predict Sunset Times Exactly</em>, because <em>&ldquo;the refraction at any instant may differ by several minutes of arc from the most accurate value that can be calculated.&rdquo;</em> <strong>The mean is fixed and published; the excursions are not predictable.</strong> That combination is what an honest physical correction looks like, and this entry claims nothing stronger.</p>
 
 <h4>4. The control experiment measured the wrong quantity</h4>
 
@@ -253,7 +273,7 @@ ENTRY = {
 
 <p>Declining the atmospheric coefficient does not leave the argument free of adjustable quantities. It leaves it with one, and the thing worth stopping on is that <strong>the substitute is also called &ldquo;refraction&rdquo;</strong>. At p.&nbsp;41, explaining why a levelled theodolite reads the sea horizon below the cross-hair, Rowbotham writes that in instruments of the best construction <em>&ldquo;there existed a certain degree of refraction, or, as it is called technically, &lsquo;collimation,&rsquo; or a slight divergence of the rays of light from the axis of the eye, on passing through the several glasses of the theodolite.&rdquo;</em> He then uses it as a universal solvent: for the horizon dip, for the Ordnance Survey's spherical excess (pp.&nbsp;263&ndash;264), and, under TANGENTIAL HORIZON at p.&nbsp;272, for the 1870 Bedford Level result, where he calls <em>&ldquo;the well-known and admitted refraction inseparable from the instruments employed &hellip; fully sufficient&rdquo;</em> to explain what the experimenters saw.</p>
 
-<p>The one magnitude he supplies for it, in the chapters read for this entry, is quoted from J. F. Heather's <em>Treatise on Mathematical Instruments</em>: after adjustment the instrument is in order for any distance up to ten chains, <em>&ldquo;the maximum error being only 1/1000 of a foot.&rdquo;</em> Take him at his word and scale it, which is what he does when he says the effect is <em>&ldquo;considerable in distances of several miles.&rdquo;</em> One thousandth of a foot in 660 feet is an angle of 1.5&nbsp;&times;&nbsp;10<sup>&minus;6</sup> radians, about 0.31 arcseconds. Carried over six statute miles &mdash; 31,680 feet &mdash; it comes to 0.048 feet, or <strong>about half an inch</strong>. The discrepancy he needs it to absorb is his own figure: 11 feet 8 inches of expected drop for the fig.&nbsp;3 experiment at p.&nbsp;35. <strong>His substitute is short by a factor of roughly 240.</strong> The three-mile case runs the same way &mdash; 0.29 of an inch offered against the six feet he computes for EXPERIMENT 3. (Recomputed here 2026-08-10 from the figures he prints.) Note also what Heather's sentence actually says &mdash; it is a statement of the <em>residual after correct adjustment</em>, a tolerance, which Rowbotham converts into a systematic divergence the lenses <em>&ldquo;necessarily produce&rdquo;</em>. The three structural reasons collimation cannot be the cause of the dip &mdash; it reverses under face-left/face-right, it cannot scale as &radic;<em>h</em>, and spherical excess grows with the area of a triangle while an instrument bias does not &mdash; are set out at <a href="#ARG-B02">ARG-B02</a>. This entry adds only the size, and the size is enough.</p>
+<p>The one magnitude he supplies for it, in the chapters read for this entry, is quoted from J. F. Heather's <em>Treatise on Mathematical Instruments</em>: after adjustment the instrument is in order for any distance up to ten chains, <em>&ldquo;the maximum error being only 1/1000 of a foot.&rdquo;</em> Take him at his word and scale it, which is what he does when he says the effect is <em>&ldquo;considerable in distances of several miles.&rdquo;</em> One thousandth of a foot in 660 feet is an angle of 1.5&nbsp;&times;&nbsp;10<sup>&minus;6</sup> radians, about 0.31 arcseconds. Carried over six statute miles &mdash; 31,680 feet &mdash; it comes to 0.048 feet, or <strong>about half an inch</strong>. For collimation to stand in for curvature at these ranges it has to be able to produce what curvature produces there, and the yardstick is his own arithmetic throughout: 11 feet 8 inches over six miles for the boat of EXPERIMENT 1 (the fig.&nbsp;3 case, restated at p.&nbsp;35), 6 feet at three miles for EXPERIMENT 3, and &mdash; at the place where he actually deploys the substitute against a reported canal result, the 1870 Bedford Level trial at p.&nbsp;272 &mdash; the several feet he calls it <em>&ldquo;fully sufficient&rdquo;</em> to account for, writing that a hair's-breadth of dip, magnified, would <em>&ldquo;make it appear to be lifted up for several feet.&rdquo;</em> <strong>His substitute is short by a factor of roughly 240 against the first, roughly 250 against the second, and of order a hundred against the several feet of the third.</strong> (Recomputed here 2026-08-10 from the figures he prints.) Note also what Heather's sentence actually says &mdash; it is a statement of the <em>residual after correct adjustment</em>, a tolerance, which Rowbotham converts into a systematic divergence the lenses <em>&ldquo;necessarily produce&rdquo;</em>. The three structural reasons collimation cannot be the cause of the dip &mdash; it reverses under face-left/face-right, it cannot scale as &radic;<em>h</em>, and spherical excess grows with the area of a triangle while an instrument bias does not &mdash; are set out at <a href="#ARG-B02">ARG-B02</a>. This entry adds only the size, and the size is enough.</p>
 
 <p>The same asymmetry shows in the allowance he does make. <em>&ldquo;One-twelfth the altitude of the object observed&rdquo;</em> is the right kind of number attached to the wrong variable: refraction scales with the square of the <em>distance</em>, not with the height of the target. On his own Cape Bonavista row the curvature term is 8 inches &times; (35&nbsp;&minus;&nbsp;4)&sup2;&nbsp;=&nbsp;641 feet, of which the 491 feet he prints is that figure less the light's own 150 feet. His rule deducts 150/12&nbsp;=&nbsp;13 feet. The <em>Encyclop&aelig;dia Britannica</em>'s own mean, one-seventh of the curvature, would take about 92 feet, and its strong-refraction figure, one-fifth, about 128. He is applying a seventh of the correction his own quoted authority specifies, and attaching it to a different quantity from the one that authority attaches it to. Where the one-twelfth rule came from has not been established here; it is not traced to a named surveying text in this entry, and no substitute origin is offered for it.</p>
 
@@ -269,7 +289,7 @@ ENTRY = {
 
 <h4>7. The modern form of the item, and the concession inside it</h4>
 
-<p>The charge as it circulates today is Dubay's proof 71, about Joshua Nowicki's 2015 photograph of the Chicago skyline from across Lake Michigan: news channels called it a superior mirage, and <em>&ldquo;while these certainly do occur, the skyline in question was facing right-side up and clearly seen unlike a hazy illusory mirage.&rdquo;</em> Read that carefully, because <strong>he is half right and the half he is right about is the interesting one.</strong> In the standard taxonomy &mdash; Andrew Young's, not one invented for this reply &mdash; an erect, sharp, undistorted lift is <em>looming</em>, and looming is explicitly classified as a refraction anomaly <em>without</em> inverted or multiple images <em>&ldquo;and therefore without mirages.&rdquo;</em> The news channels reached for the wrong word and Dubay caught them at it. But the right word names an effect that raises distant objects into view <em>while keeping them the right way up</em>, which is precisely the thing his objection assumes cannot happen. The true observation points the other way.</p>
+<p>The nearest modern form of the same charge &mdash; not traced here as item 221's source &mdash; is Dubay's proof 71, about Joshua Nowicki's 2015 photograph of the Chicago skyline from across Lake Michigan: news channels called it a superior mirage, and <em>&ldquo;while these certainly do occur, the skyline in question was facing right-side up and clearly seen unlike a hazy illusory mirage, and on a ball-Earth 25,000 miles in circumference should be 2,400 feet below the horizon.&rdquo;</em> Read that carefully, because <strong>he is half right and the half he is right about is the interesting one.</strong> In the standard taxonomy &mdash; Andrew Young's, not one invented for this reply &mdash; an erect, sharp, undistorted lift is <em>looming</em>, and looming is explicitly classified as a refraction anomaly <em>without</em> inverted or multiple images <em>&ldquo;and therefore without mirages.&rdquo;</em> The news channels reached for the wrong word and Dubay caught them at it. But the right word names an effect that raises distant objects into view <em>while keeping them the right way up</em>, which is precisely the thing his objection assumes cannot happen. The true observation points the other way.</p>
 
 <h4>8. Scope, stated plainly</h4>
 
@@ -329,7 +349,7 @@ ENTRY = {
             "arithmetic is not offered as a defence of refraction, it is offered as the even "
             "application of his own standard. He demands that a correction not be invoked "
             "without a measured magnitude, and the correction he substitutes has one magnitude "
-            "in the whole book, off by a factor of 240. Keep those two sentences in the same "
+            "in the chapters read here, off by a factor of 240. Keep those two sentences in the same "
             "paragraph or the point reads as a change of subject.")),
 
     straw_man=dict(
@@ -360,17 +380,27 @@ ENTRY = {
                         "&ldquo;&hellip; several news channels quickly claimed his picture to be a "
                         "&lsquo;superior mirage,&rsquo; an atmospheric anomaly caused by temperature "
                         "inversion. While these certainly do occur, the skyline in question was facing "
-                        "right-side up and clearly seen unlike a hazy illusory mirage&rdquo; &mdash; "
-                        "Dubay, <em>200 Proofs</em>, proof 71"),
+                        "right-side up and clearly seen unlike a hazy illusory mirage, and on a "
+                        "ball-Earth 25,000 miles in circumference should be 2,400 feet below the "
+                        "horizon.&rdquo; &mdash; Dubay, <em>200 Proofs</em>, proof 71 "
+                        "<em>(printed as a parallel, not as this item's traced source &mdash; see "
+                        "below)</em>"),
         drift_type="hedge_dropped",
-        note=("<strong>Both sources hedge and the item does not.</strong> Rowbotham grants that the "
+        note=("<strong>The source hedges and the item does not.</strong> Rowbotham grants that the "
               "atmosphere may differ over six miles and that <em>&ldquo;some degree of refraction "
               "would thence result&rdquo;</em>, then reports a control experiment &mdash; six matched "
               "instruments, simultaneous readings at the two ends &mdash; and only afterwards states "
-              "the conclusion flat. Dubay concedes the phenomenon in the same breath as the objection: "
-              "<em>&ldquo;while these certainly do occur.&rdquo;</em> Four words on the list carry "
-              "neither the concession, nor the experiment, nor the photograph the objection was "
-              "about.<br><br>"
+              "the conclusion flat. Four words on the list carry neither the concession nor the "
+              "experiment.<br><br>"
+              "<strong>The Dubay text above is a parallel, not a traced source.</strong> Proof 71 is "
+              "the nearest modern form of the same charge, and it hedges the same way &mdash; "
+              "<em>&ldquo;while these certainly do occur&rdquo;</em> &mdash; before finishing the "
+              "sentence flat. But it argues from the appearance of one photograph, it does not use "
+              "the word &ldquo;refraction&rdquo; anywhere in the text reproduced at flatearth.ws "
+              "(searched 2026-08-11), and no line of descent from it to item 221 is established in "
+              "this entry. It is printed here so a reader can see the same concession being made "
+              "in the modern literature; the drift type recorded above is computed on the "
+              "Rowbotham comparison alone.<br><br>"
               "<strong>Three things travel with the claim in the source and none of them survives.</strong> "
               "<em>The coefficient:</em> at p. 34 Rowbotham reprints the <em>Encyclop&aelig;dia "
               "Britannica</em> article &ldquo;Levelling&rdquo;, which gives him the mechanism and the "
@@ -389,11 +419,11 @@ ENTRY = {
               "the spherical excess are blamed on a divergence inside the telescope that he also calls "
               "refraction. The compression is loose enough that both are available, and this note "
               "records that rather than picking one.<br><br>"
-              "<code>scope_widened</code> was considered and rejected as second-best: Dubay's proof is "
-              "scoped to a single photograph of one skyline and the item generalises it into a "
-              "standing indictment of a method, which is a genuine widening. <code>hedge_dropped</code> "
-              "is recorded because it is the plainest and most checkable of the two, and the reader "
-              "has both texts above.<br><br>"
+              "<code>scope_widened</code> was considered and rejected: it would describe the gap "
+              "between Dubay's single photograph and the item's standing indictment of a method, "
+              "and that is exactly the pairing this entry does not claim to have traced. "
+              "<code>hedge_dropped</code> is recorded on the Rowbotham comparison, which is "
+              "documented, and the reader has that text above.<br><br>"
               "<strong>The refutation answers the source, not the fragment:</strong> it grants that "
               "the correction is variable at the strength a geodesy journal states it, grants that the "
               "control experiment was honestly run, and puts the weight on what the control could "
@@ -418,7 +448,8 @@ ENTRY = {
             "table at p. 31; and in EXPERIMENT 3 at p. 17 the author's own theodolite reading is "
             "described as taken \"at an altitude, making allowance for refraction\". The list: "
             "item 263, \"Mirage optical ducts.\", asserts atmospheric ducting as a mechanism in "
-            "its own right, four items after 221 charges that invoking it is illegitimate. "
+            "its own right, forty-two items further down the same list from the point where 221 "
+            "charges that invoking it is illegitimate. "
             "Sibling precedent runs the same way and on the same book: B06, \"Surveyors assume a "
             "plane and make no allowance\", and B13, \"Mirage and optical ducting explain far "
             "sightings\", are both recorded SELF-CONTRADICTED. Against the change: the item does "
@@ -477,12 +508,16 @@ ENTRY = {
                    "“the very first report of a scientifically documented and recognized mirage”",
              url="https://home.cc.umanitoba.ca/~lehn/_Papers_for_Download/history_of_refr.pdf"),
         dict(label="US Naval Observatory, “Rise, Set, and Twilight Definitions” — sunrise and "
-                   "sunset at a geometric zenith distance of 90.8333°, being 16′ of semidiameter "
-                   "plus “a nominal horizontal refraction of 34 minutes”",
+                   "sunset at a geometric zenith distance of 90.8333°; the 50-arcminute depression "
+                   "“obtained by adding the average apparent radius of the Sun (16 arcminutes) to "
+                   "the average amount of atmospheric refraction at the horizon (34 arcminutes)” "
+                   "(fetched 2026-08-11)",
              url="https://aa.usno.navy.mil/faq/RST_defs"),
         dict(label="Andrew T. Young (SDSU), “Why We Can't Predict Sunset Times Exactly” — the "
-                   "standard 50′ depression, and “the refraction at any instant may differ by "
-                   "several minutes of arc from the most accurate value that can be calculated”",
+                   "standard 50′ depression as “the sum of an average radius of 16 minutes, and a "
+                   "nominal horizontal refraction of 34 minutes”, and “the refraction at any "
+                   "instant may differ by several minutes of arc from the most accurate value that "
+                   "can be calculated”",
              url="https://aty.sdsu.edu/explain/sunset_time.html"),
         dict(label="Andrew T. Young (SDSU), “Looming” — abnormal refraction raising distant "
                    "objects, “without inverted or multiple images — and therefore without "

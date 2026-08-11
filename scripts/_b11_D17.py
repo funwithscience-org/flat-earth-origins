@@ -27,7 +27,16 @@ Research notes for whoever picks this up next.
        knowing about and is NOT this cluster: it is the Marinov cylinder-magnet analogy, in
        which "the Earth's ionosphere will act like the copper ring and rotate as long as
        the electron flow is present", driving the lower atmosphere.  That is the book's
-       answer to the co-rotating-atmosphere problem, not a dome argument.
+       answer to the co-rotating-atmosphere problem, not a dome argument.  RE-RUN
+       2026-08-11 on both OCR files: counts reproduce exactly (Schumann 0/0, toroid 0/0,
+       ionosphere 1/1, firmament 206/182), AND THE TWO IONOSPHERE HITS ARE THE SAME
+       PASSAGE — running head "871 Chapter 12" in the Vol. I file, "304 Ckapter 10:
+       Technical and Summary Analysis of Geocentrism" in the Vol. II file.  Chapter heads
+       in the two files run 1-12 and 7-13 respectively, so the scans are NOT independent
+       evidence and the entry no longer implies the Vol. I hit was left unread.
+     * NOT searched, and the entry now says so: Vol. III of the 2013 three-volume issue
+       (chs 14-17, the church-history volume, per works.py WRK-SUNGENIS-2006).  Someone
+       with the scan should run the same six strings against it.
      * Dubay, 200 PROOFS — archive.org item `200proofsearthisnotaspinningballericdubay`,
        djvu.txt, searched the same way.  Counts: Schumann 0, toroid 0, torus 0, firmament 0,
        dome 0, electromagnet* 0, ionosphere 0, resonance 0, chakra 0.  The largest modern
@@ -36,7 +45,17 @@ Research notes for whoever picks this up next.
        and the Flat Earth Society's own interview with him.  Both carry the ENCLOSURE — a
        disc, an ice wall, an indestructible dome with the stars as lights on it, Genesis
        1:6, and his planetarium analogy.  Neither of those two texts carries an
-       electromagnetic, toroidal or resonance description of the dome.  THE VIDEO SERIES
+       electromagnetic, toroidal or resonance description of the dome.  BUT READ THE
+       INTERVIEW BEFORE REPEATING THAT SENTENCE: the word ELECTROMAGNETIC is on that page,
+       three or four paragraphs after the dome answer, attached to GRAVITY and not to the
+       dome — "But on a flat earth model, well it could also be density.  I think its
+       electromagnetic.  I think its a molecular magnet that pulls things down."  (Verified
+       against the live page 2026-08-11; the dome/Genesis/planetarium answer precedes it.)
+       So both nouns of item 201 sit on one page a defender can open in ten seconds, and
+       only the sentence joining them is absent.  That is the strongest proximate lead
+       anyone has for item 201's phrasing and the entry now records it as a lead.  It does
+       NOT license crediting Sargent: a fusion a distributor might have performed is not a
+       claim he made.  THE VIDEO SERIES
        ITSELF WAS NOT REACHED — no transcript was obtained — so FLAT EARTH CLUES stands
        UNCHECKED, never as clear.  That is why note 8 asks for the attribution to be
        withdrawn to untraced rather than declared false.
@@ -80,8 +99,14 @@ Research notes for whoever picks this up next.
    DISC cavity — a thin pillbox of radius R, conducting floor, ceiling and rim, TM modes
    with no vertical structure, i.e. the same class of idealisation Schumann used for the
    sphere — has f proportional to the Bessel zeros j_{m,k} = 2.405, 3.832, 5.136, 5.520,
-   6.380, giving ratios 1, 1.59, 2.14, 2.30, 2.65.  Off by 20-45% and in the wrong
-   direction, and no choice of R repairs it because these are ratios.  (For a rim at
+   6.380, giving ratios 1, 1.59, 2.14, 2.30, 2.65.  Measured against the observed ladder
+   the disc is short by 11.5%, 17.5%, 31.7% and 36.1% at modes 2-5 (13.0%, 21.3%, 46.4%,
+   56.4% if you take the error against the disc's own ladder instead; from the 2-dp ladder
+   as printed, 11.7/17.4/31.5/36.1 and 13.2/21.0/46.1/56.6) — the error grows
+   with every mode, and it is in the wrong direction, opposite to the sphere's small
+   residual.  An earlier draft said "20-45%", which reproduces under neither convention;
+   the published text now states the two end-points instead.  No choice of R repairs any
+   of it because these are ratios.  (For a rim at
    R = 20,000 km the pillbox fundamental would be 5.74 Hz.)  THIS CALCULATION IS OURS.  No
    flat-earth text located in the search above computes a cavity, so do NOT present the
    pillbox as anybody's published model — present it as our own toy, assumptions on the
@@ -145,7 +170,24 @@ Research notes for whoever picks this up next.
        correctly recorded; it is the electromagnetic/toroidal/resonance content that is not
        located in the two Sargent texts reached.
    (b) clusters.py D17 note: "the number only comes out right on a globe" is wrong — see
-       note 2.  Nothing in this entry repeats it.
+       note 2 — and render.py sets basis = the cluster note, so the string renders TWICE
+       (under the verdict chip and as the Refutation summary line).  It is live in
+       docs/index.html today, two occurrences.  Proposed replacement note, to be pasted
+       anchored on the "D17" key and not on the byte-identical originator= line:
+         "Sargent's enclosed-world model is real but is not the source of these three
+          items. The Schumann resonance is derived from the Earth-ionosphere cavity
+          treated as a *sphere* of radius 6371 km; the ideal formula misses the observed
+          7.83 Hz by 26%, and the load sits on the mode ratios, which contain no cavity
+          size."
+       Until that lands, this entry does NOT argue with the page: the refutation's §1
+       sentence recommending the cut ("any version of this page that says … should be
+       cut") has been DELETED rather than published, per deep.py's rule that our own
+       errors go in the past tense after the fix lands or not at all.  When the clusters.py
+       edit lands, the past-tense sentence may be restored after "So the absolute number
+       does not settle anything.": "An earlier version of this cluster's basis line said
+       the frequency &ldquo;only comes out right on a globe&rdquo;; that was an overclaim
+       and it was cut."  advocate.preemptive (a) has been reworded to require the
+       concession without pointing at the deleted sentence.
    (c) Adjacent, out of scope, flagged only: item 204 "Toroid sacred geometry nested." sits
        in D06 under Atkinson/THE KYBALION 1908, and the torus is not that book's figure.
        Someone should test that attribution the way this one was tested.
@@ -165,21 +207,25 @@ ENTRY = {
           "Earth–ionosphere cavity is ordinary atmospheric physics, and conceding it costs "
           "nothing. But a ringing cavity is a measurement of shape, and this one was worked "
           "out long before it was recruited: Schumann derived the mode ladder in 1952 from a "
-          "sphere of radius 6,371 km, and Balser and Wagner measured it from 1960. The middle item is stranger still, because in the geomagnetic literature it "
+          "sphere of radius 6,371 km, and Balser and Wagner measured it from 1960 — the ideal "
+          "formula overshoots the fundamental by a quarter, for a known reason, but the ratios "
+          "between the modes, which contain no cavity size at all, come out spherical to a few "
+          "per cent. The middle item is stranger still, because in the geomagnetic literature it "
           "borrows from, the toroidal part of the field is the part confined to the core and "
-          "not measurable at the surface at all."),
+          "not measurable at the surface at all — and the part a compass does feel is mapped, "
+          "since Gauss, as a spherical harmonic series."),
 
     passage=None,
 
     untraceable="""<p>There is no original to quote, and as at <a href="#ARG-C08">ARG-C08</a> and <a href="#ARG-B11">ARG-B11</a> that is a conclusion rather than a shrug. The specimen carries no citation for these three items &mdash; it carries none for any of the 461, and its heading over the whole run is simply &ldquo;435 Pieces of Evidence The Earth is Not A Spinning Ball&rdquo;. So the search ran outward, through the literature the rest of the list demonstrably draws on. Here is the route, and where it stopped.</p>
 
-<p><strong>The movement&rsquo;s largest work does not reach this vocabulary in the text we searched.</strong> The full OCR text of <em>Galileo Was Wrong</em> Vol.&nbsp;I (Internet Archive item <code>GallileoWasWrong</code>) and of Vol.&nbsp;II (item <code>&hellip;Bennett4276</code>, which the project records as the seventh edition of 2013, chapters&nbsp;7&ndash;13) was downloaded and searched offline on 2026-08-10. The count for &ldquo;Schumann&rdquo; in each volume as searched is zero, and the count for &ldquo;toroid&rdquo; is zero. &ldquo;Ionosphere&rdquo; returns exactly one hit in each. The one in Vol.&nbsp;II was read and it is a different argument entirely: the book&rsquo;s analogy to Marinov&rsquo;s cylinder magnet, in which the solar wind supplies a current so that &ldquo;the Earth&rsquo;s ionosphere will act like the copper ring and rotate&rdquo;, dragging the air below it. That is the geocentric answer to the co-rotating-atmosphere problem, not a claim about a dome.</p>
+<p><strong>The movement&rsquo;s largest work does not reach this vocabulary in the text we searched.</strong> The full OCR text of <em>Galileo Was Wrong</em> Vol.&nbsp;I (Internet Archive item <code>GallileoWasWrong</code>) and of Vol.&nbsp;II (item <code>&hellip;Bennett4276</code>, which the project records as the seventh edition of 2013, chapters&nbsp;7&ndash;13) was downloaded and searched offline on 2026-08-10. The count for &ldquo;Schumann&rdquo; in each volume as searched is zero, and the count for &ldquo;toroid&rdquo; is zero. &ldquo;Ionosphere&rdquo; returns exactly one hit in each, and it is the same passage twice &mdash; Chapter&nbsp;12 of the earlier Volume&nbsp;I printing and Chapter&nbsp;10 of the 2013 Volume&nbsp;II, renumbered between editions. It was read and it is a different argument entirely: the book&rsquo;s analogy to Marinov&rsquo;s cylinder magnet, in which the solar wind supplies a current so that &ldquo;the Earth&rsquo;s ionosphere will act like the copper ring and rotate&rdquo;, dragging the air below it. That is the geocentric answer to the co-rotating-atmosphere problem, not a claim about a dome. The church-history volume of the 2013 three-volume issue (Vol.&nbsp;III, chapters&nbsp;14&ndash;17) was not searched; the vocabulary looked for here is technical, and the two scientific volumes are where it would sit.</p>
 
 <p><strong>The word &ldquo;firmament&rdquo; is in those volumes &mdash; 206 times in Vol.&nbsp;I &mdash; and it is not this.</strong> Two senses run through them, the scriptural one and a technical one, and neither is a shell over a disc. The technical one is Gerardus Bouw&rsquo;s <em>plenum</em>: a sea of Planck-scale particles filling all of space, so fine that ordinary matter passes through it, of which the book writes that &ldquo;the advantage of the firmamental model is that it can easily account for a number of experimental observations which are harder to explain heliocentrically&rdquo; &mdash; and lists the Sagnac effect, the Faraday disk-generator paradox, the Earth&rsquo;s night-time electric field and ball lightning. That is an ether filling the universe. It is the opposite geometry to a ceiling, and the two claims share one word and nothing else.</p>
 
 <p><strong>The largest modern flat-earth proof list reaches it even less.</strong> The full text of Dubay&rsquo;s <em>200 Proofs Earth Is Not a Spinning Ball</em> (Internet Archive item <code>200proofsearthisnotaspinningballericdubay</code>) was searched the same way on the same day. The count in that text is zero for every one of: Schumann, toroid, torus, firmament, dome, electromagnet, ionosphere and resonance.</p>
 
-<p><strong>What was tested on the attribution side.</strong> The enclosed-world model &mdash; a disc, an ice wall, an indestructible dome with the stars as lights fixed to it &mdash; is Mark Sargent&rsquo;s, and it is well attested. The question here is narrower: whether the <em>electromagnetic</em>, <em>toroidal</em> and <em>resonance</em> vocabulary of these three items comes from him. Two Sargent-related texts were reachable and both were read: his Wikipedia article, and the Flat Earth Society&rsquo;s own published interview with him. In those two texts the dome is described through Genesis&nbsp;1:6 and through a planetarium analogy &mdash; &ldquo;go to your average planetarium in any major city&hellip; they are very very similar&rdquo; &mdash; and an electromagnetic, toroidal or resonance description of it is not located in either. <strong>The video series itself was not reached.</strong> No transcript of <em>Flat Earth Clues</em> was obtained, so that work stands <em>unchecked</em> rather than clear, and nothing here should be read as a statement about its contents.</p>
+<p><strong>What was tested on the attribution side.</strong> The enclosed-world model &mdash; a disc, an ice wall, an indestructible dome with the stars as lights fixed to it &mdash; is Mark Sargent&rsquo;s, and it is well attested. The question here is narrower: whether the <em>electromagnetic</em>, <em>toroidal</em> and <em>resonance</em> vocabulary of these three items comes from him. Two Sargent-related texts were reachable and both were read: his Wikipedia article, and the Flat Earth Society&rsquo;s own published interview with him. In those two texts the dome is described through Genesis&nbsp;1:6 and through a planetarium analogy &mdash; &ldquo;go to your average planetarium in any major city&hellip; they are very very similar&rdquo; &mdash; and an electromagnetic, toroidal or resonance description of it is not located in either. One qualification, because a reader who opens the interview will find it: Sargent does use the word <em>electromagnetic</em> there &mdash; but of the downward pull, not of the dome. Asked what he makes of gravity he allows that on a flat-earth model &ldquo;it could also be density&rdquo;, and then: &ldquo;I think its electromagnetic. I think its a molecular magnet that pulls things down.&rdquo; The dome, a few paragraphs earlier, is Genesis&nbsp;1:6 and the planetarium. So the two nouns of item&nbsp;201 are both on that page and the sentence joining them is not &mdash; which is a lead we record rather than a source we can credit. <strong>The video series itself was not reached.</strong> No transcript of <em>Flat Earth Clues</em> was obtained, so that work stands <em>unchecked</em> rather than clear, and nothing here should be read as a statement about its contents.</p>
 
 <p><strong>The candidates we did not adopt.</strong> Several bodies of writing use this vocabulary and sit near the list thematically: biblical-firmament teaching of the kind scored at <a href="#ARG-C04">ARG-C04</a>, astro-theological syncretism, the &ldquo;torus&rdquo; of 2010s consciousness media, and the wellness literature that sells 7.83&nbsp;Hz as a planetary heartbeat. Every one of them is a resemblance and none of them was verified as the place this argument starts. Promoting a resemblance to an origin is precisely the error this project corrected twice at <a href="#ARG-C02">ARG-C02</a> before withdrawing the credit altogether, so no name is offered here. We also considered recording the cluster as older than the movement and rejected it: Schumann&rsquo;s paper is from 1952 and the dynamo literature is younger still, so nothing in it predates the people on the People tab.</p>
 
@@ -193,7 +239,7 @@ ENTRY = {
 <p><strong>KERNEL.</strong> The strongest form drops the word &ldquo;firmament&rdquo; and presses the concession. It runs: <em>you have just agreed that we live inside a closed electromagnetic cavity with a reflecting ceiling; that the cavity has a resonant frequency, published, monitored, with a number attached; and that the whole thing is wrapped in a field that returns on itself. We are not asking you to believe in a glass vault. We are pointing at your own instrumentation and observing that it describes an enclosure. The disagreement is over what the enclosure is made of and who made it &mdash; not over whether it is there.</em> Every factual component of that is correct, and it is the version to answer.</p>""",
         why_it_doesnt_save_claim="""<p>Because the enclosure is conceded and it is still the wrong shape, and the numbers that establish the shape are the same numbers the argument is quoting.</p>
 
-<p>A cavity resonance is not a vague fact about enclosure; it is a measurement of geometry, and the geometry it measures is a <em>closed</em> surface with no edge. The resonance condition NASA states for the fundamental is that the wave &ldquo;flows around Earth&rdquo; and &ldquo;hits itself again at the perfect spot&rdquo;. A wave can only do that on a surface it can circumnavigate. Winfried Otto Schumann wrote the mode ladder down in 1952 with one input &mdash; the radius of a sphere &mdash; and Balser and Wagner measured that ladder in 1960. A prediction made from an assumed shape, before the measurement, is the strongest evidence about shape that this phenomenon can carry, and it did not come out flat.</p>
+<p>A cavity resonance is not a vague fact about enclosure; it is a measurement of geometry, and the geometry it measures is a <em>closed</em> surface with no edge. The resonance condition NASA states for the fundamental is that the wave &ldquo;flows around Earth&rdquo; and &ldquo;hits itself again at the perfect spot&rdquo;. A wave can only do that on a surface it can circumnavigate. Winfried Otto Schumann wrote the mode ladder down in 1952 with one input &mdash; the radius of a sphere &mdash; and Balser and Wagner measured that ladder in 1960. A prediction made from an assumed shape, before the measurement, is the strongest evidence about shape that this phenomenon can carry &mdash; and it is the mode ratios that carry it, not the absolute frequency, which the ideal formula misses by 26% for reasons set out below &mdash; and it did not come out flat.</p>
 
 <p>The middle item fails on the borrowed word itself. In the poloidal&ndash;toroidal decomposition the argument is reaching for, Natural Resources Canada&rsquo;s geomagnetism pages define a toroidal field as &ldquo;ring or donut shaped, with no radial component&rdquo; and then state the consequence plainly: <strong>&ldquo;In the Earth, toroidal fields are confined to the core and are not detectible at the Earth&rsquo;s surface.&rdquo;</strong> The one component of the field named by item&nbsp;202 is the one component nobody standing on the ground can measure. What a compass does respond to is the poloidal part &mdash; and that part is generated by convection in a liquid outer core and described, since Gauss, by a spherical-harmonic expansion.</p>""",),
 
@@ -209,7 +255,7 @@ ENTRY = {
 
 <p>The <em>n</em>(<em>n</em>+1) is not decoration. It is the eigenvalue of the Laplacian on a sphere &mdash; the expression that indexes a spherical-harmonic series. Put <em>a</em>&nbsp;=&nbsp;6,371&nbsp;km in and the first five modes come out at 10.59, 18.34, 25.94, 33.49 and 41.02&nbsp;Hz.</p>
 
-<p><strong>Now the part a defender will reach for first, so we state it before he does.</strong> The world does not produce 10.59&nbsp;Hz. It produces 7.83&nbsp;Hz, with the next modes near 14.1, 20.3, 26.3 and 32.5&nbsp;Hz. The ideal formula misses the fundamental by 26%. That gap is not swept anywhere: it is the standard, published behaviour of a lossy cavity, in which finite ionospheric conductivity lowers the propagation speed of the signal and therefore every resonant frequency with it. <strong>So the absolute number does not settle anything, and any version of this page that says the frequency &ldquo;only comes out right on a globe&rdquo; is overclaiming and should be cut.</strong></p>
+<p><strong>Now the part a defender will reach for first, so we state it before he does.</strong> The world does not produce 10.59&nbsp;Hz. It produces 7.83&nbsp;Hz, with the next modes near 14.1, 20.3, 26.3 and 32.5&nbsp;Hz. The ideal formula misses the fundamental by 26%. That gap is not swept anywhere: it is the standard, published behaviour of a lossy cavity, in which finite ionospheric conductivity lowers the propagation speed of the signal and therefore every resonant frequency with it. <strong>So the absolute number does not settle anything.</strong></p>
 
 <p>The argument that survives is about the <em>ladder</em>, and the ladder is scale-free &mdash; it contains no cavity size at all. Divide each observed mode by the fundamental and compare with &radic;<span style="text-decoration:overline"><em>n</em>(<em>n</em>+1)/2</span>, which is what a sphere of <em>any</em> radius must give:</p>
 
@@ -224,7 +270,7 @@ ENTRY = {
 
 <p style="margin-left:1.5em"><em>disc</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 &middot; 1.59 &middot; 2.14 &middot; 2.30 &middot; 2.65</p>
 
-<p>Against an observed 1 &middot; 1.80 &middot; 2.59 &middot; 3.36 &middot; 4.15 that is wrong by 20&ndash;45%, in the opposite direction to the sphere&rsquo;s small residual, and it cannot be rescued by resizing the disc, because <em>R</em> cancels out of a ratio. Take the rim away instead, leave the cavity open at the edge, and the problem is worse rather than better: an open edge radiates, the energy leaves, and there are no discrete resonant lines to observe. A closed surface with no boundary is what produces a clean mode ladder without needing a wall anywhere, and in two dimensions the sphere is the shape that has one.</p>
+<p>Against an observed 1 &middot; 1.80 &middot; 2.59 &middot; 3.36 &middot; 4.15 that is wrong by more than a tenth at the second mode and by more than a third by the fifth, the error growing with every step of the ladder, in the opposite direction to the sphere&rsquo;s small residual, and it cannot be rescued by resizing the disc, because <em>R</em> cancels out of a ratio. Take the rim away instead, leave the cavity open at the edge, and the problem is worse rather than better: an open edge radiates, the energy leaves, and there are no discrete resonant lines to observe. A closed surface with no boundary is what produces a clean mode ladder without needing a wall anywhere, and in two dimensions the sphere is the shape that has one.</p>
 
 <p>Be precise about the strength of this. It is not a proof that no flat model could ever be built &mdash; a defender is entitled to propose different boundary conditions, and with a freely adjustable frequency-dependent propagation speed almost any ladder can be fitted to almost any geometry after the fact. That is exactly why the weight sits where it does: the spherical version has <em>one</em> input and no fitted quantity, it was published in 1952, and the modes were found in 1960. It predicted; it did not accommodate.</p>
 
@@ -248,7 +294,7 @@ ENTRY = {
 
 <h4>6. The cavity is not even peculiar to us</h4>
 
-<p>The Earth&ndash;ionosphere resonator is a generic property of a body with a conducting surface and an ionised atmosphere, and the search for the same effect elsewhere is a working research programme covering Venus, Mars, Jupiter, Saturn and Titan. The one candidate detection is Titan&rsquo;s: B&eacute;ghin and colleagues reported the second eigenmode in the Huygens probe data, in a paper whose own title is careful &mdash; &ldquo;A Schumann-like resonance on Titan driven by Saturn&rsquo;s magnetosphere <em>possibly</em> revealed by the Huygens Probe&rdquo; &mdash; and the conclusion they drew from it was not a firmament but a buried liquid water&ndash;ammonia ocean beneath the ice. That is what this class of measurement is <em>for</em>: you assume a shape, compute the modes, compare, and learn about the interior. Run on our own cavity, the procedure returns a sphere of 6,371&nbsp;km, and it returned it eight years before the first good measurement.</p>
+<p>The Earth&ndash;ionosphere resonator is a generic property of a body with a conducting surface and an ionised atmosphere, and the search for the same effect elsewhere is a working research programme covering Venus, Mars, Jupiter, Saturn and Titan. Nothing there is settled: modulations of the non-thermal microwave spectrum from Mars have been associated with the effect but not independently confirmed, and Venus is expected to show it on theoretical grounds. The best-attested candidate is Titan&rsquo;s, where B&eacute;ghin and colleagues reported the second eigenmode in the Huygens probe data, in a paper whose own title is careful &mdash; &ldquo;A Schumann-like resonance on Titan driven by Saturn&rsquo;s magnetosphere <em>possibly</em> revealed by the Huygens Probe&rdquo; &mdash; and the conclusion they drew from it was not a firmament but a buried liquid water&ndash;ammonia ocean beneath the ice. That is what this class of measurement is <em>for</em>: you assume a shape, compute the modes, compare, and learn about the interior. Run on our own cavity, the procedure returns a sphere of 6,371&nbsp;km, and it returned it eight years before the first good measurement.</p>
 
 <h4>7. What is left</h4>
 
@@ -283,11 +329,13 @@ ENTRY = {
             "and move five by the untraceable block. Concrete requirements on the text, all "
             "of them already met above and none to be softened later. (a) The 10.59-versus-"
             "7.83 gap must be stated by us, in our own voice, in the same paragraph as the "
-            "formula — not in a footnote and not after the ratio table. It is there now. The "
-            "sentence disowning the stronger claim ('any version of this page that says the "
-            "frequency only comes out right on a globe is overclaiming and should be cut') "
-            "must stay: it is the difference between conceding a limit and being caught at "
-            "one. (b) The load-bearing claim is the RATIO ladder, which contains no cavity "
+            "formula — not in a footnote and not after the ratio table. It is there now, and "
+            "the TLDR and the steelman carry the same qualification so that a reader meets it "
+            "before he meets the prediction-then-measurement story. The stronger claim that "
+            "the frequency 'only comes out right on a globe' is an overclaim and must not "
+            "appear anywhere on the page, in this entry or in the cluster's basis line: "
+            "conceding the limit is what distinguishes this section from being caught at it. "
+            "(b) The load-bearing claim is the RATIO ladder, which contains no cavity "
             "size, plus the fact that the spherical version was published in 1952 with one "
             "input and no fitted parameter and the modes were measured in 1960. Anyone "
             "editing this must not let the absolute frequency creep back in as evidence. (c) "
@@ -326,8 +374,8 @@ ENTRY = {
         note=("There is no original to hold these three lines against, and the route that "
               "established it is set out in full under &ldquo;No original to quote&rdquo; "
               "above: the specimen cites nothing; the counts for &ldquo;Schumann&rdquo; and "
-              "&ldquo;toroid&rdquo; in the searched OCR text of both volumes of <em>Galileo "
-              "Was Wrong</em> are zero, and the counts in the searched text of Dubay&rsquo;s "
+              "&ldquo;toroid&rdquo; in the OCR text of the two volumes of <em>Galileo Was "
+              "Wrong</em> we searched are zero, and the counts in the searched text of Dubay&rsquo;s "
               "<em>200 Proofs</em> are zero for those and for firmament, dome, ionosphere and "
               "resonance as well; the two reachable Sargent texts carry the enclosure but not "
               "the electromagnetic or resonance vocabulary; and the one primary work most "
@@ -369,7 +417,11 @@ ENTRY = {
             "predicted its own mode ladder in 1952 before that ladder was measured in 1960. "
             "The toroidal field is, in the decomposition the item borrows the word from, "
             "the component that geomagnetism says is confined to the core and not detectible "
-            "at the surface. That is the SELF-CONTRADICTED rubric read literally: the claim's "
+            "at the surface, and on the looser reading the item is more likely to intend — the "
+            "iron-filings doughnut — the same thing happens one level down: that field is "
+            "described by the IGRF as a spherical-harmonic expansion and generated in a "
+            "spherical convecting outer core mapped by seismology, so the geometry is inside "
+            "the citation on either reading. That is the SELF-CONTRADICTED rubric read literally: the claim's "
             "own source points the other way. It is the same shape as ARG-D08, where the "
             "Dendera ceiling turns out to be a planisphere, and ARG-A19, where the gyrocompass "
             "works by sensing the rotation it is cited against. MISLEADING was weighed for "
@@ -388,7 +440,9 @@ ENTRY = {
                    "Schumann's 1952 prediction, Balser & Wagner's 1960–63 measurements, the "
                    "observed modes at 7.83, 14.1, 20.3, 26.3 and 32.5 Hz, and the statement "
                    "that finite ionospheric conductivity lowers the propagation speed and so "
-                   "the resonance frequency",
+                   "the resonance frequency; also the “on other planets” section — Mars "
+                   "microwave-spectrum modulations “associated with” the effect but not "
+                   "independently confirmed, and Venus expected to show it",
              url="https://en.wikipedia.org/wiki/Schumann_resonances"),
         dict(label="NASA Scientific Visualization Studio, “Schumann resonance” — “The sweet "
                    "spot for resonance requires the wave to be as long (or twice, three times "
@@ -449,8 +503,10 @@ ENTRY = {
                    "electromagnet, ionosphere and resonance",
              url="https://archive.org/details/200proofsearthisnotaspinningballericdubay"),
         dict(label="The Flat Earth Society, “Flat Earth Clues: exclusive interview with Mark "
-                   "Sargent” — the dome via Genesis 1:6 and the planetarium analogy, with no "
-                   "electromagnetic or resonance description located in it",
+                   "Sargent” — the dome via Genesis 1:6 and the planetarium analogy. The word "
+                   "“electromagnetic” does occur there, but of gravity — “I think its a "
+                   "molecular magnet that pulls things down” — and no electromagnetic, "
+                   "toroidal or resonance description of the dome is located in it",
              url="https://theflatearthsociety.org/home/index.php/blog/flat-earth-clues-mark-sargent"),
         dict(label="Mark Sargent (flat Earth proponent) — the enclosed-world model: a flat disc, "
                    "an ice wall, an indestructible dome, stars as lights attached to it; Flat "
